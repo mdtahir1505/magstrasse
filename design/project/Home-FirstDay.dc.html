@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Today, first day</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <header class="pad" style="display: flex; align-items: center; justify-content: space-between; height: 60px">
+    <div class="logo"><span class="display">STRASSE</span><span class="marker">{{langTag}}</span></div>
+    <div class="streak" aria-label="No streak yet" style="opacity: .9">
+      <svg class="flame" viewBox="0 0 30 36" aria-hidden="true" style="animation: none; filter: grayscale(1)"><path d="M15 1c3 7 11 11 11 21a11 11 0 0 1-22 0c0-6 3-9 5-13 1.5 3.5 3.5 5 4.5 5 0-5 .5-9 1.5-13z" style="fill: var(--c-pink); stroke: var(--c-ink); stroke-width: 2.2; stroke-linejoin: round"></path></svg>
+      <b>0</b>
+    </div>
+  </header>
+
+  <section class="pad" style="margin-top: 26px; position: relative">
+    <div class="paper torn tilt" style="--rot: -2deg; padding: 22px 20px 34px; position: relative">
+      <div class="halftone" aria-hidden="true" style="position: absolute; right: 0; top: 0; width: 120px; height: 110px; color: var(--c-pink); opacity: .55"></div>
+      <p class="eyebrow" style="position: relative">Day one</p>
+      <h1 class="display" style="font-size: 76px; position: relative; margin-top: 6px">Fresh<br>wall.</h1>
+      <p style="position: relative; margin-top: 12px; font-weight: 600; font-size: 17px">Your first spot: ordering coffee. You'll say <span class="noun target"><span class="tag m">der</span>Kaffee</span> out loud in about 15 minutes.</p>
+    </div>
+    <span class="sticker c" style="position: absolute; right: 30px; bottom: -14px; --rot: 5deg">0 words · so far</span>
+  </section>
+
+  <ol class="blocks pad" style="margin-top: 34px">
+    <li class="plan-block now"><span class="num" style="background: var(--c-yellow); --rot: -4deg">1</span><div style="flex: 1"><div class="title">New lesson · Café basics</div><div class="sub">~10 min</div></div><span class="sticker y" style="--rot: 3deg">Up next</span></li>
+    <li class="plan-block"><span class="num" style="background: var(--c-pink); --rot: 3deg">2</span><div style="flex: 1"><div class="title">Listen &amp; speak</div><div class="sub">~5 min</div></div></li>
+  </ol>
+  <p class="small dim pad" style="margin-top: 12px">No review today. Nothing to review yet.</p>
+
+  <div class="pad" style="margin-top: auto; padding-bottom: 6px; display: flex; flex-direction: column; align-items: center; gap: 22px">
+    <div class="drip-wrap">
+      <a class="btn giant block" href="Ex-Intro.dc.html">Start</a>
+      <svg class="drips" viewBox="0 0 350 30" preserveAspectRatio="none" aria-hidden="true"><path d="M40 0v14a4 4 0 0 0 8 0V0zM118 0v22a5 5 0 0 0 10 0V0zM205 0v9a3.5 3.5 0 0 0 7 0V0zM288 0v18a4.5 4.5 0 0 0 9 0V0z" style="fill: var(--c-yellow)"></path></svg>
+    </div>
+    <p class="statline" style="min-height: 44px; display: flex; align-items: center"><b>0</b>&nbsp;words · Stage 1 · Unit 1</p>
+  </div>
+
+  <nav class="tabbar" aria-label="Main">
+    <a class="tab on" href="Main.dc.html" aria-current="page"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"></path></svg>Today</a>
+    <a class="tab" href="Course-Map.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="5" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="M6 7.5V12a3 3 0 0 0 3 3h6a3 3 0 0 1 3 1.5"></path></svg>Course</a>
+    <a class="tab" href="Stories.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"></path><path d="M5 17a3 3 0 0 1 3-3h11"></path></svg>Stories</a>
+    <a class="tab" href="Talk.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"></path></svg>Talk</a>
+    <a class="tab" href="Stats.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path></svg>Me</a>
+  </nav>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"profile":{"editor":null,"tsType":"Profile"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const profile = this.props.profile ?? { language: 'de', streak: 0, freezesLeft: 1, wordsKnown: 0, dailyGoalMin: 15, minutesToday: 0, level: 'A1', streetEnabled: false };
+    return { profile, langTag: { de: 'Deutsch', ru: 'Русский' }[profile.language] ?? profile.language };
+  }
+}
+</script>
+</body>
+</html>

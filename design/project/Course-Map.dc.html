@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Course map</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <header class="pad" style="display: flex; align-items: flex-end; justify-content: space-between; padding-top: 8px; padding-bottom: 14px; border-bottom: 2px solid var(--c-surface-2)">
+    <div>
+      <p class="eyebrow">Linienplan</p>
+      <h1 class="display" style="font-size: 48px">Course</h1>
+    </div>
+    <div style="text-align: right">
+      <p class="small dim" style="font-weight: 700">Next stop</p>
+      <p style="font-weight: 800">{{nextStop}}</p>
+    </div>
+  </header>
+
+  <div class="grow scroll pad" style="padding-top: 18px">
+    <sc-for list="{{stages}}" as="st" hint-placeholder-count="2">
+      <section style="--line: {{st.color}}; margin-bottom: 8px">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 4px">
+          <span class="line-badge" style="background: {{st.color}}">{{st.badge}}</span>
+          <div>
+            <h2 style="font-weight: 800; font-size: 18px; line-height: 1.2">{{st.title}}</h2>
+            <p class="small dim">{{st.level}} · {{st.doneCount}}/{{st.total}} lessons</p>
+          </div>
+        </div>
+        <ol>
+          <sc-for list="{{st.units}}" as="u" hint-placeholder-count="3">
+            <li class="{{u.cls}}">
+              <div class="rail"><span class="stop" aria-hidden="true"></span></div>
+              <div class="sign">
+                <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px">
+                  <p lang="{{lang}}" style="font-weight: 800; font-size: 17px">{{u.title}}</p>
+                  <sc-if value="{{u.isCurrent}}" hint-placeholder-val="{{ false }}"><span class="sticker y" style="--rot: 4deg">You're here</span></sc-if>
+                  <sc-if value="{{u.isLocked}}" hint-placeholder-val="{{ false }}"><svg class="ico" viewBox="0 0 24 24" aria-label="Locked" role="img" style="width: 18px; height: 18px"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg></sc-if>
+                </div>
+                <div class="dots" role="img" aria-label="{{u.dotsLabel}}">
+                  <sc-for list="{{u.lessons}}" as="l" hint-placeholder-count="4"><span class="{{l.cls}}"></span></sc-for>
+                </div>
+              </div>
+            </li>
+          </sc-for>
+        </ol>
+      </section>
+    </sc-for>
+  </div>
+
+  <nav class="tabbar" aria-label="Main">
+    <a class="tab" href="Main.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"></path></svg>Today</a>
+    <a class="tab on" href="Course-Map.dc.html" aria-current="page"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="5" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="M6 7.5V12a3 3 0 0 0 3 3h6a3 3 0 0 1 3 1.5"></path></svg>Course</a>
+    <a class="tab" href="Stories.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"></path><path d="M5 17a3 3 0 0 1 3-3h11"></path></svg>Stories</a>
+    <a class="tab" href="Talk.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"></path></svg>Talk</a>
+    <a class="tab" href="Stats.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path></svg>Me</a>
+  </nav>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"stages":{"editor":null,"tsType":"Stage[]"},"lang":{"editor":null,"tsType":"string"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const L = (id, ...states) => states.map((state, i) => ({ id: id + '-' + i, title: '', state }));
+    const stages = this.props.stages ?? [
+      { id: 's1', title: 'Stage 1 · Ankommen', level: 'A1', units: [
+        { id: 'u1', title: 'Hallo & Tschüss', lessons: L('u1', 'done', 'done', 'done', 'done') },
+        { id: 'u2', title: 'Im Café', lessons: L('u2', 'done', 'done', 'done', 'done') },
+        { id: 'u3', title: 'Wer bist du?', lessons: L('u3', 'done', 'done', 'current', 'locked') },
+        { id: 'u4', title: 'Zahlen & Preise', lessons: L('u4', 'locked', 'locked', 'locked', 'locked') },
+      ] },
+      { id: 's2', title: 'Stage 2 · Im Kiez', level: 'A2', units: [
+        { id: 'u5', title: 'Wohnung suchen', lessons: L('u5', 'locked', 'locked', 'locked', 'locked', 'locked') },
+        { id: 'u6', title: 'Späti-Talk', lessons: L('u6', 'locked', 'locked', 'locked', 'locked') },
+      ] },
+      { id: 's3', title: 'Stage 3 · Mitreden', level: 'B1', units: [
+        { id: 'u7', title: 'Meinung sagen', lessons: L('u7', 'locked', 'locked', 'locked', 'locked') },
+      ] },
+    ];
+    const COLORS = ['var(--c-yellow)', 'var(--c-cyan)', 'var(--c-pink)'];
+    let nextStop = '';
+    const out = stages.map((st, si) => {
+      const all = st.units.flatMap((u) => u.lessons);
+      return {
+        ...st, badge: 'L' + (si + 1), color: COLORS[si % 3],
+        total: all.length, doneCount: all.filter((l) => l.state === 'done').length,
+        units: st.units.map((u) => {
+          const st8 = u.lessons.some((l) => l.state === 'current') ? 'current' : u.lessons.every((l) => l.state === 'done') ? 'done' : 'locked';
+          if (st8 === 'current') nextStop = u.title;
+          const done = u.lessons.filter((l) => l.state === 'done').length;
+          return {
+            ...u, cls: 'station ' + st8, isCurrent: st8 === 'current', isLocked: st8 === 'locked',
+            dotsLabel: done + ' of ' + u.lessons.length + ' lessons done',
+            lessons: u.lessons.map((l) => ({ cls: 'dot ' + l.state })),
+          };
+        }),
+      };
+    });
+    return { stages: out, nextStop, lang: this.props.lang ?? 'de' };
+  }
+}
+</script>
+</body>
+</html>

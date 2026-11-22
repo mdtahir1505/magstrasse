@@ -1,0 +1,32 @@
+/* Per-screen styles lifted from the design files' <helmet> blocks (Settings, Stats, Story-Reader). strasse.css stays untouched. */
+body{margin:0}
+.set{display:flex;align-items:center;gap:12px;min-height:60px;padding:10px 14px;border-bottom:1px solid var(--c-surface-2)}
+.set:last-child{border-bottom:0}
+.set .lbl{flex:1;font-weight:700}
+.set .sub{display:block;font-weight:500;font-size:13px;color:var(--c-text-dim)}
+.group{padding:0}
+.seg{display:flex;gap:6px}
+.tm{min-height:44px;padding:0 10px;border:2px solid var(--c-line);border-radius:8px;background:var(--c-surface-2);color:var(--c-text);font:700 16px var(--f-body);color-scheme:dark}
+body{margin:0}
+.col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:4px;height:100%}
+.col i{width:100%;border-radius:3px 3px 0 0;background:var(--c-yellow);border:2px solid var(--c-ink);border-bottom:0}
+.col i.today{background:repeating-linear-gradient(-45deg,var(--c-yellow) 0 4px,transparent 4px 8px);border-color:var(--c-yellow)}
+.col i.zero{height:3px!important;background:var(--c-line);border:0}
+.col span{font:700 10px/1 var(--f-body);color:var(--c-text-dim)}
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.cal i{aspect-ratio:1;border-radius:4px;display:grid;place-items:center;font-size:12px;font-style:normal}
+.cal i.done{background:var(--c-yellow)}
+.cal i.freeze{background:var(--c-ice)}
+.cal i.miss{border:2px dashed var(--c-line)}
+.cal i.future{background:var(--c-surface)}
+body{margin:0}
+.wb{background:none;border:0;padding:0 .08em;margin:0;font:inherit;color:inherit;cursor:pointer;border-radius:3px}
+.wb.tap{border-bottom:2px dotted var(--c-text-dim);border-radius:0}
+.wb.sel{background:var(--c-yellow);color:var(--c-ink);border-bottom-color:transparent;border-radius:3px}
+.line.now{color:var(--c-text)}
+.line{color:var(--c-text-dim)}
+
+/* small screens (iPhone SE ~667px): content scrolls, tab bar stays pinned */
+.screen { overflow-y: auto; }
+.screen > .tabbar { position: sticky; bottom: 0; z-index: 5; margin-top: auto; }
+

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Fill the chunk</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <div class="pad session-top">
+    <a class="icon-btn" href="Main.dc.html" aria-label="End session"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></a>
+    <div class="segbar" role="progressbar" aria-label="Session progress" aria-valuemin="0" aria-valuemax="{{total}}" aria-valuenow="{{pos}}">
+      <sc-for list="{{segs}}" as="s" hint-placeholder-count="3"><div class="{{s.cls}}" style="--w: {{s.w}}"><i style="width: {{s.pct}}%"></i></div></sc-for>
+    </div>
+    <span class="count">{{pos}}/{{total}}</span>
+  </div>
+  <p class="block-label pad" style="margin-top: 4px">{{blockName}}</p>
+
+  <h1 class="instruction pad" style="margin-top: 18px">Fill the gap</h1>
+
+  <section class="pad" style="margin-top: 60px">
+    <div class="paper tape tilt" style="--rot: -1deg; padding: 34px 20px 28px; text-align: center">
+      <p lang="{{lang}}" style="font-size: 34px; font-weight: 800; line-height: 1.35">
+        {{exercise.before}}
+        <sc-if value="{{hasPick}}" hint-placeholder-val="{{ false }}"><span class="blank filled">{{pickText}}</span></sc-if>
+        <sc-if value="{{noPick}}" hint-placeholder-val="{{ true }}"><span class="blank" aria-label="blank"></span></sc-if>
+        {{exercise.after}}
+      </p>
+    </div>
+  </section>
+
+  <div class="pad" lang="{{lang}}" role="radiogroup" aria-label="Options" style="margin-top: auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+    <sc-for list="{{options}}" as="o" hint-placeholder-count="4">
+      <button type="button" role="radio" aria-checked="{{o.checked}}" class="{{o.cls}}" onClick="{{o.pick}}" style="min-height: 60px">{{o.text}}</button>
+    </sc-for>
+  </div>
+
+  <div class="foot" style="margin-top: 22px">
+    <a class="{{checkCls}}" href="Feedback-Correct.dc.html">Check</a>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"exercise":{"editor":null,"tsType":"Extract<Exercise, { kind: \"fill\" }>"},"session":{"editor":null,"tsType":"Session"},"lang":{"editor":null,"tsType":"string"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  state = { picked: 0 };
+  renderVals() {
+    const ex = this.props.exercise ?? { kind: 'fill', before: 'Ich', after: 'gern Kaffee.', options: ['trinke', 'trinkst', 'trinkt', 'trinken'], answer: 0 };
+    const filler = (n) => Array.from({ length: n }, () => ({ kind: 'say', target: '', english: '' }));
+    const S = this.props.session ?? { blocks: [{ name: 'review', exercises: filler(8) }, { name: 'new', exercises: filler(10) }, { name: 'speak', exercises: filler(6) }], current: { block: 1, exercise: 8 } };
+    const segs = S.blocks.map((b, i) => {
+      const n = b.exercises.length;
+      const d = i < S.current.block ? n : i === S.current.block ? S.current.exercise : 0;
+      return { w: n, pct: Math.round((d / n) * 100), cls: 'bar' + (d === n ? ' done' : '') };
+    });
+    const total = S.blocks.reduce((a, b) => a + b.exercises.length, 0);
+    const pos = S.blocks.slice(0, S.current.block).reduce((a, b) => a + b.exercises.length, 0) + S.current.exercise + 1;
+    const blockName = { review: 'Review', new: 'New lesson', speak: 'Listen & speak' }[S.blocks[S.current.block].name];
+    const p = this.state.picked;
+    return {
+      segs, total, pos, blockName, exercise: ex, lang: this.props.lang ?? 'de',
+      hasPick: p !== null, noPick: p === null, pickText: p !== null ? ex.options[p] : '',
+      options: ex.options.map((text, i) => ({
+        text, checked: i === p ? 'true' : 'false', cls: 'chip' + (i === p ? ' sel' : ''),
+        pick: () => this.setState({ picked: i === p ? null : i }),
+      })),
+      checkCls: 'btn block' + (p === null ? ' off' : ''),
+    };
+  }
+}
+</script>
+</body>
+</html>

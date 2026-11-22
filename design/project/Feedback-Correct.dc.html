@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Feedback, correct</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <!-- exercise underneath (Fill the chunk, answered) -->
+  <div class="pad session-top" aria-hidden="true">
+    <span class="icon-btn"><svg class="ico" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></span>
+    <div class="segbar"><div class="bar done" style="--w: 8"><i style="width: 100%"></i></div><div class="bar" style="--w: 10"><i style="width: 90%"></i></div><div class="bar" style="--w: 6"><i style="width: 0%"></i></div></div>
+    <span class="count">18/24</span>
+  </div>
+  <h1 class="instruction pad" aria-hidden="true" style="margin-top: 36px">Fill the gap</h1>
+  <section class="pad" aria-hidden="true" style="margin-top: 60px">
+    <div class="paper tilt" style="--rot: -1deg; padding: 34px 20px 28px; text-align: center">
+      <p lang="de" style="font-size: 34px; font-weight: 800; line-height: 1.35">Ich <span class="blank filled">trinke</span> gern Kaffee.</p>
+    </div>
+  </section>
+
+  <div class="scrim"></div>
+  <section class="{{sheetCls}}" role="alertdialog" aria-labelledby="verdict" aria-describedby="answer">
+    <div style="display: flex; align-items: center; justify-content: space-between">
+      <h2 id="verdict" class="verdict">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true" style="width: 48px; height: 48px; stroke-width: 3.4"><path d="M4 12.5 9.5 18 20 6"></path></svg>{{verdict}}
+      </h2>
+      <button type="button" class="audio" aria-label="Hear the sentence" style="background: var(--c-paper)"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"></path></svg></button>
+    </div>
+    <p id="answer" lang="{{lang}}" class="answer">{{answer}}</p>
+    <sc-if value="{{why}}" hint-placeholder-val="{{ true }}">
+      <p class="why"><span aria-hidden="true">💡</span><span>{{why}}</span></p>
+    </sc-if>
+    <a class="btn ink block" href="Ex-Dialogue.dc.html">Continue</a>
+  </section>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"correct":{"editor":"boolean","default":true},"answer":{"editor":null,"tsType":"string"},"why":{"editor":null,"tsType":"string | undefined"},"lang":{"editor":null,"tsType":"string"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const correct = this.props.correct ?? true;
+    const PRAISE = ['Sauber!', 'Krass gut!', 'Läuft!'];
+    return {
+      sheetCls: 'sheet ' + (correct ? 'ok' : 'bad'),
+      verdict: correct ? PRAISE[0] : 'Not quite',
+      answer: this.props.answer ?? 'Ich trinke gern Kaffee.',
+      why: this.props.why ?? (correct ? 'ich → -e. Verb + gern = you like doing it.' : ''),
+      lang: this.props.lang ?? 'de',
+    };
+  }
+}
+</script>
+</body>
+</html>

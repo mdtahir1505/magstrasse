@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Reminder</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0} .time{font-family:var(--f-display);font-size:64px;letter-spacing:.02em;text-align:center;color-scheme:dark}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <div class="pad session-top">
+    <a class="icon-btn plain" href="Onboard-3-Goal.dc.html" aria-label="Back"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+    <div class="segbar" aria-label="Step 4 of 4">
+      <div class="bar thin"><i style="width: 100%"></i></div>
+      <div class="bar thin"><i style="width: 100%"></i></div>
+      <div class="bar thin"><i style="width: 100%"></i></div>
+      <div class="bar thin"><i style="width: 100%"></i></div>
+    </div>
+    <span class="count">4/4</span>
+  </div>
+
+  <section class="pad" style="margin-top: 30px">
+    <p class="eyebrow">Last one</p>
+    <h1 class="display" style="font-size: 52px; margin-top: 10px">When should<br>we <span style="color: var(--c-yellow)">nudge</span> you?</h1>
+  </section>
+
+  <div class="pad" style="margin-top: 26px; display: flex; flex-direction: column; gap: 14px">
+    <label class="paper tilt" style="--rot: -1deg; display: flex; flex-direction: column; align-items: center; padding: 14px 16px 10px">
+      <span class="eyebrow">Daily reminder</span>
+      <input class="time field" type="time" value="{{time}}" onChange="{{setTime}}" style="background: transparent; border: 0; color: var(--c-ink); min-height: 80px; padding: 0; box-shadow: none">
+    </label>
+    <div style="display: flex; gap: 8px; flex-wrap: wrap">
+      <sc-for list="{{presets}}" as="p" hint-placeholder-count="4">
+        <button type="button" class="{{p.cls}}" onClick="{{p.pick}}">{{p.label}}</button>
+      </sc-for>
+    </div>
+    <p class="small dim">One ping. No guilt trips, no "we miss you" spam.</p>
+  </div>
+
+  <div class="pad" style="margin-top: 26px">
+    <div class="card" style="padding: 16px; display: flex; gap: 14px; align-items: center; border-color: var(--c-pink); position: relative">
+      <span class="sticker p" style="--rot: -6deg; position: absolute; left: 12px; top: -13px">18+</span>
+      <div style="flex: 1; padding-top: 6px">
+        <div style="font-weight: 800; font-size: 18px">Street {{langName}}</div>
+        <div class="small dim">Slang &amp; swearing. The words textbooks skip.</div>
+      </div>
+      <label class="switch"><input type="checkbox" aria-label="Enable Street {{langName}} (18+)" checked="{{street}}" onChange="{{toggleStreet}}"><span></span></label>
+    </div>
+  </div>
+
+  <div class="foot" style="margin-top: auto">
+    <a class="btn block" href="Home-FirstDay.dc.html">Let's go</a>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"langName":{"editor":null,"tsType":"string"},"reminderTime":{"editor":null,"tsType":"string"},"streetEnabled":{"editor":"boolean","default":false},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  state = { time: null, street: null };
+  renderVals() {
+    const time = this.state.time ?? this.props.reminderTime ?? '19:00';
+    const street = this.state.street ?? this.props.streetEnabled ?? false;
+    const presets = [['08:00', 'Breakfast'], ['12:30', 'Lunch'], ['19:00', 'After work'], ['22:00', 'In bed']];
+    return {
+      time, street,
+      langName: this.props.langName ?? 'German',
+      setTime: (e) => this.setState({ time: e.target.value }),
+      toggleStreet: (e) => this.setState({ street: e.target.checked }),
+      presets: presets.map(([t, label]) => ({
+        label: label + ' · ' + t,
+        cls: 'chip dark' + (t === time ? ' sel' : ''),
+        pick: () => this.setState({ time: t }),
+      })),
+    };
+  }
+}
+</script>
+</body>
+</html>

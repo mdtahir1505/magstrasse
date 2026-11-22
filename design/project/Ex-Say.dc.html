@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Say it</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <div class="pad session-top">
+    <a class="icon-btn" href="Main.dc.html" aria-label="End session"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></a>
+    <div class="segbar" role="progressbar" aria-label="Session progress" aria-valuemin="0" aria-valuemax="{{total}}" aria-valuenow="{{pos}}">
+      <sc-for list="{{segs}}" as="s" hint-placeholder-count="3"><div class="{{s.cls}}" style="--w: {{s.w}}"><i style="width: {{s.pct}}%"></i></div></sc-for>
+    </div>
+    <span class="count">{{pos}}/{{total}}</span>
+  </div>
+  <p class="block-label pad" style="margin-top: 4px">{{blockName}}</p>
+
+  <h1 class="instruction pad" style="margin-top: 18px">Say it out loud</h1>
+
+  <section class="pad" style="margin-top: 22px">
+    <div class="card" style="padding: 20px 18px; display: flex; flex-direction: column; gap: 10px">
+      <p lang="{{lang}}" aria-live="polite" style="font-size: 32px; font-weight: 800; line-height: 1.25; display: flex; flex-wrap: wrap; gap: 4px 8px">
+        <sc-for list="{{words}}" as="w" hint-placeholder-count="5"><span class="{{w.cls}}">{{w.text}}</span></sc-for>
+      </p>
+      <p class="dim" style="font-size: 17px">{{exercise.english}}</p>
+      <div style="display: flex; gap: 8px; margin-top: 4px">
+        <button type="button" class="audio sm" aria-label="Hear it first"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7"></path></svg></button>
+        <button type="button" class="audio sm" aria-label="Hear it slowly" style="background: var(--c-paper); font-size: 18px"><span aria-hidden="true">🐢</span></button>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top: auto; display: flex; flex-direction: column; align-items: center; gap: 16px">
+    <div class="wave" aria-hidden="true" style="width: 220px; height: 40px; color: var(--c-pink)">
+      <sc-for list="{{bars}}" as="b" hint-placeholder-count="24"><i style="height: {{b.h}}%; animation: eq 900ms ease-in-out infinite; animation-delay: {{b.d}}ms"></i></sc-for>
+    </div>
+    <button type="button" class="mic live" aria-label="Stop recording"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M5 11a7 7 0 0 0 14 0M12 18v3"></path></svg></button>
+    <p style="font-weight: 800; color: var(--c-pink)">Listening… {{heard}}/{{count}} words</p>
+  </section>
+
+  <div class="foot" style="align-items: center; padding-top: 8px">
+    <a class="link" href="Ex-Fill.dc.html">Can't talk right now</a>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"exercise":{"editor":null,"tsType":"Extract<Exercise, { kind: \"say\" }>"},"session":{"editor":null,"tsType":"Session"},"heardCount":{"editor":"int","min":0,"max":6,"default":3},"lang":{"editor":null,"tsType":"string"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const ex = this.props.exercise ?? { kind: 'say', target: 'Ich hätte gern einen Kaffee.', english: "I'd like a coffee." };
+    const filler = (n) => Array.from({ length: n }, () => ({ kind: 'say', target: '', english: '' }));
+    const S = this.props.session ?? { blocks: [{ name: 'review', exercises: filler(8) }, { name: 'new', exercises: filler(10) }, { name: 'speak', exercises: filler(6) }], current: { block: 2, exercise: 1 } };
+    const segs = S.blocks.map((b, i) => {
+      const n = b.exercises.length;
+      const d = i < S.current.block ? n : i === S.current.block ? S.current.exercise : 0;
+      return { w: n, pct: Math.round((d / n) * 100), cls: 'bar' + (d === n ? ' done' : '') };
+    });
+    const total = S.blocks.reduce((a, b) => a + b.exercises.length, 0);
+    const pos = S.blocks.slice(0, S.current.block).reduce((a, b) => a + b.exercises.length, 0) + S.current.exercise + 1;
+    const blockName = { review: 'Review', new: 'New lesson', speak: 'Listen & speak' }[S.blocks[S.current.block].name];
+    const parts = ex.target.split(/\s+/);
+    const heard = Math.min(this.props.heardCount ?? 3, parts.length);
+    const H = [40, 70, 55, 90, 35, 80, 60, 100, 45, 75, 30, 85, 50, 95, 40, 65, 80, 35, 70, 55, 90, 45, 60, 30];
+    return {
+      segs, total, pos, blockName, exercise: ex, lang: this.props.lang ?? 'de',
+      heard, count: parts.length,
+      words: parts.map((text, i) => ({ text, cls: 'w' + (i < heard ? ' heard' : i === heard ? ' now' : '') })),
+      bars: H.map((h, i) => ({ h, d: -(i * 70) })),
+    };
+  }
+}
+</script>
+</body>
+</html>

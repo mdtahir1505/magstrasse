@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Today</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+
+  <header class="pad" style="display: flex; align-items: center; justify-content: space-between; height: 60px">
+    <div class="logo"><span class="display">STRASSE</span><span class="marker">{{langTag}}</span></div>
+    <div style="display: flex; align-items: center; gap: 8px">
+      <div class="streak" aria-label="{{streakLabel}}">
+        <svg class="flame" viewBox="0 0 30 36" aria-hidden="true"><path d="M15 1c3 7 11 11 11 21a11 11 0 0 1-22 0c0-6 3-9 5-13 1.5 3.5 3.5 5 4.5 5 0-5 .5-9 1.5-13z" style="fill: var(--c-pink); stroke: var(--c-ink); stroke-width: 2.2; stroke-linejoin: round"></path><path d="M15 18c2 3 5 5 5 9a5 5 0 0 1-10 0c0-3 2-4.5 3-6.5.6 1.4 1.4 2 2 2z" style="fill: var(--c-yellow)"></path></svg>
+        <b>{{profile.streak}}</b>
+      </div>
+      <div class="freeze" aria-label="{{freezeLabel}}"><span aria-hidden="true">🧊</span>{{profile.freezesLeft}}</div>
+    </div>
+  </header>
+
+  <section class="pad" style="margin-top: 18px; display: flex; flex-direction: column; gap: 10px">
+    <p class="eyebrow">Today's session</p>
+    <h1 class="display" style="font-size: 72px; display: flex; align-items: baseline; gap: 10px">{{left}}<span style="font-size: 34px; color: var(--c-yellow)">min left</span></h1>
+    <div class="bar" role="progressbar" aria-label="Daily goal" aria-valuemin="0" aria-valuemax="{{goal}}" aria-valuenow="{{done}}"><i style="width: {{pct}}%"></i></div>
+    <p class="small dim">{{done}} of {{goal}} min · three blocks, then you're free</p>
+  </section>
+
+  <ol class="blocks pad" style="margin-top: 22px">
+    <sc-for list="{{blocks}}" as="b" hint-placeholder-count="3">
+      <li class="{{b.cls}}">
+        <span class="num" style="background: {{b.tint}}; --rot: {{b.rot}}">{{b.n}}</span>
+        <div style="flex: 1; min-width: 0">
+          <div class="title">{{b.label}}</div>
+          <div class="sub">~{{b.minutes}} min</div>
+        </div>
+        <sc-if value="{{b.isNext}}" hint-placeholder-val="{{ false }}"><span class="sticker y" style="--rot: 3deg">Up next</span></sc-if>
+      </li>
+    </sc-for>
+  </ol>
+
+  <p class="statline pad" style="margin-top: 16px"><b>{{profile.wordsKnown}}</b> words · {{stageLabel}} · {{unitLabel}}</p>
+
+  <div class="pad" style="margin-top: auto; padding-bottom: 6px; display: flex; flex-direction: column; align-items: center; gap: 22px">
+    <div class="drip-wrap">
+      <a class="btn giant block" href="Ex-Intro.dc.html">Start</a>
+      <svg class="drips" viewBox="0 0 350 30" preserveAspectRatio="none" aria-hidden="true"><path d="M40 0v14a4 4 0 0 0 8 0V0zM118 0v22a5 5 0 0 0 10 0V0zM205 0v9a3.5 3.5 0 0 0 7 0V0zM288 0v18a4.5 4.5 0 0 0 9 0V0z" style="fill: var(--c-yellow)"></path></svg>
+    </div>
+    <a class="link" href="Home-FiveMinutes.dc.html">Only got 5 minutes?</a>
+  </div>
+
+  <nav class="tabbar" aria-label="Main">
+    <a class="tab on" href="Main.dc.html" aria-current="page"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"></path></svg>Today</a>
+    <a class="tab" href="Course-Map.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="5" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="M6 7.5V12a3 3 0 0 0 3 3h6a3 3 0 0 1 3 1.5"></path></svg>Course</a>
+    <a class="tab" href="Stories.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"></path><path d="M5 17a3 3 0 0 1 3-3h11"></path></svg>Stories</a>
+    <a class="tab" href="Talk.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"></path></svg>Talk</a>
+    <a class="tab" href="Stats.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path></svg>Me</a>
+  </nav>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"profile":{"editor":null,"tsType":"Profile"},"plan":{"editor":null,"tsType":"{ name: \"review\" | \"new\" | \"speak\"; minutes: number }[]"},"stageLabel":{"editor":null,"tsType":"string"},"unitLabel":{"editor":null,"tsType":"string"},"minutesToday":{"editor":"range","min":0,"max":30,"step":1,"default":0,"unit":"min"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const profile = this.props.profile ?? { language: 'de', streak: 12, freezesLeft: 1, wordsKnown: 412, dailyGoalMin: 30, minutesToday: 0, level: 'A1', streetEnabled: false };
+    const plan = this.props.plan ?? [{ name: 'review', minutes: 10 }, { name: 'new', minutes: 12 }, { name: 'speak', minutes: 8 }];
+    const LABEL = { review: 'Review', new: 'New lesson', speak: 'Listen & speak' };
+    const TINT = { review: 'var(--c-cyan)', new: 'var(--c-yellow)', speak: 'var(--c-pink)' };
+    const ROT = ['-4deg', '3deg', '-2deg'];
+    const goal = profile.dailyGoalMin;
+    const done = Math.min(this.props.minutesToday ?? profile.minutesToday, goal);
+    let acc = 0, nextFound = false;
+    const blocks = plan.map((b, i) => {
+      acc += b.minutes;
+      const isDone = done >= acc;
+      const isNext = !isDone && !nextFound;
+      if (isNext) nextFound = true;
+      return { n: i + 1, label: LABEL[b.name], minutes: b.minutes, tint: TINT[b.name], rot: ROT[i % 3], isNext, cls: 'plan-block' + (isDone ? ' done' : isNext ? ' now' : '') };
+    });
+    return {
+      profile, blocks, goal, done,
+      left: Math.max(goal - done, 0),
+      pct: Math.round((done / goal) * 100),
+      langTag: { de: 'Deutsch', ru: 'Русский' }[profile.language] ?? profile.language,
+      streakLabel: profile.streak + ' day streak',
+      freezeLabel: profile.freezesLeft + ' streak freeze left this week',
+      stageLabel: this.props.stageLabel ?? 'Stage 1',
+      unitLabel: this.props.unitLabel ?? 'Unit 3',
+    };
+  }
+}
+</script>
+</body>
+</html>

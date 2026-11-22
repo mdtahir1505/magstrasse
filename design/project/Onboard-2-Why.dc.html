@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Why are you learning?</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <div class="pad session-top">
+    <a class="icon-btn plain" href="Onboard-1-Language.dc.html" aria-label="Back"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+    <div class="segbar" aria-label="Step 2 of 4">
+      <div class="bar thin"><i style="width: 100%"></i></div>
+      <div class="bar thin"><i style="width: 100%"></i></div>
+      <div class="bar thin"><i style="width: 0%"></i></div>
+      <div class="bar thin"><i style="width: 0%"></i></div>
+    </div>
+    <span class="count">2/4</span>
+  </div>
+
+  <section class="pad" style="margin-top: 30px">
+    <p class="eyebrow">No wrong answers</p>
+    <h1 class="display" style="font-size: 52px; margin-top: 10px">Why are you<br><span style="color: var(--c-pink)">learning?</span></h1>
+    <p class="dim" style="margin-top: 12px">We'll pick example sentences that fit.</p>
+  </section>
+
+  <ul class="pad" style="margin-top: 32px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px">
+    <sc-for list="{{reasons}}" as="r" hint-placeholder-count="4">
+      <li>
+        <button type="button" class="{{r.cls}}" onClick="{{r.pick}}" aria-pressed="{{r.pressed}}" style="--rot: {{r.rot}}; width: 100%; min-height: 150px; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; padding: 16px; text-align: left; cursor: pointer; font-family: var(--f-body); transition: transform 90ms ease">
+          <span aria-hidden="true" style="font-size: 44px; line-height: 1">{{r.emoji}}</span>
+          <span style="font-size: 18px; font-weight: 800; line-height: 1.2">{{r.label}}</span>
+        </button>
+      </li>
+    </sc-for>
+  </ul>
+
+  <div class="foot" style="margin-top: auto">
+    <a class="btn block" href="Onboard-3-Goal.dc.html">Next</a>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"reasons":{"editor":null,"tsType":"{ id: \"travel\" | \"people\" | \"work\" | \"fun\"; label: string; emoji: string }[]"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  state = { picked: 'people' };
+  renderVals() {
+    const reasons = this.props.reasons ?? [
+      { id: 'travel', label: 'Travel', emoji: '✈️' },
+      { id: 'people', label: 'Friends & partner', emoji: '💬' },
+      { id: 'work', label: 'Work', emoji: '💼' },
+      { id: 'fun', label: 'Just because', emoji: '🤘' },
+    ];
+    const ROT = ['-2deg', '2deg', '1.5deg', '-2.5deg'];
+    return {
+      reasons: reasons.map((r, i) => {
+        const on = this.state.picked === r.id;
+        return { ...r, rot: ROT[i % 4], pressed: on ? 'true' : 'false', cls: on ? 'paper tilt' : 'card', pick: () => this.setState({ picked: r.id }) };
+      }),
+    };
+  }
+}
+</script>
+</body>
+</html>

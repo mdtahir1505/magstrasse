@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Dialogue</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <div class="pad session-top">
+    <a class="icon-btn" href="Main.dc.html" aria-label="End session"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></a>
+    <div class="segbar" role="progressbar" aria-label="Session progress" aria-valuemin="0" aria-valuemax="{{total}}" aria-valuenow="{{pos}}">
+      <sc-for list="{{segs}}" as="s" hint-placeholder-count="3"><div class="{{s.cls}}" style="--w: {{s.w}}"><i style="width: {{s.pct}}%"></i></div></sc-for>
+    </div>
+    <span class="count">{{pos}}/{{total}}</span>
+  </div>
+  <div class="pad" style="display: flex; align-items: center; justify-content: space-between; margin-top: 4px">
+    <p class="block-label">{{blockName}}</p>
+    <span class="sticker c" style="--rot: 3deg">Scene: Café</span>
+  </div>
+
+  <div class="pad grow scroll chat" lang="{{lang}}" aria-live="polite" style="margin-top: 18px; padding-bottom: 12px">
+    <sc-for list="{{lines}}" as="l" hint-placeholder-count="3">
+      <div class="{{l.rowCls}}">
+        <button type="button" class="audio sm" aria-label="Play line"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7"></path></svg></button>
+        <div class="{{l.bubbleCls}}">
+          <p class="t">{{l.target}}</p>
+          <p class="en" lang="en">{{l.english}}</p>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+
+  <sc-if value="{{notAnswered}}" hint-placeholder-val="{{ true }}">
+    <div class="pad" lang="{{lang}}" style="display: flex; flex-direction: column; gap: 10px">
+      <p class="eyebrow">Your reply</p>
+      <sc-for list="{{replies}}" as="r" hint-placeholder-count="3">
+        <button type="button" class="opt" onClick="{{r.pick}}">{{r.text}}</button>
+      </sc-for>
+    </div>
+  </sc-if>
+  <div class="foot">
+    <sc-if value="{{answered}}" hint-placeholder-val="{{ false }}">
+      <a class="btn block" href="Ex-Shadow.dc.html">Continue</a>
+    </sc-if>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"exercise":{"editor":null,"tsType":"Extract<Exercise, { kind: \"dialogue\" }>"},"session":{"editor":null,"tsType":"Session"},"lang":{"editor":null,"tsType":"string"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  state = { reply: null };
+  renderVals() {
+    const ex = this.props.exercise ?? {
+      kind: 'dialogue',
+      lines: [
+        { who: 'them', target: "Hallo! Was darf's sein?", english: 'Hi! What can I get you?' },
+        { who: 'me', target: 'Hallo! Ich hätte gern einen Kaffee.', english: "Hi! I'd like a coffee." },
+        { who: 'them', target: 'Gern. Mit Milch?', english: 'Sure. With milk?' },
+      ],
+      replyOptions: ['Ja, bitte. Danke!', 'Ich bin ein Kaffee.', "Wie geht's?"],
+      answer: 0,
+    };
+    const filler = (n) => Array.from({ length: n }, () => ({ kind: 'say', target: '', english: '' }));
+    const S = this.props.session ?? { blocks: [{ name: 'review', exercises: filler(8) }, { name: 'new', exercises: filler(10) }, { name: 'speak', exercises: filler(6) }], current: { block: 2, exercise: 3 } };
+    const segs = S.blocks.map((b, i) => {
+      const n = b.exercises.length;
+      const d = i < S.current.block ? n : i === S.current.block ? S.current.exercise : 0;
+      return { w: n, pct: Math.round((d / n) * 100), cls: 'bar' + (d === n ? ' done' : '') };
+    });
+    const total = S.blocks.reduce((a, b) => a + b.exercises.length, 0);
+    const pos = S.blocks.slice(0, S.current.block).reduce((a, b) => a + b.exercises.length, 0) + S.current.exercise + 1;
+    const blockName = { review: 'Review', new: 'New lesson', speak: 'Listen & speak' }[S.blocks[S.current.block].name];
+    const r = this.state.reply;
+    const lines = [...ex.lines];
+    if (r !== null) lines.push({ who: 'me', target: ex.replyOptions[r], english: '' });
+    return {
+      segs, total, pos, blockName, lang: this.props.lang ?? 'de',
+      lines: lines.map((l) => ({ ...l, rowCls: 'bubble-row ' + l.who, bubbleCls: 'bubble ' + l.who })),
+      replies: ex.replyOptions.map((text, i) => ({ text, pick: () => this.setState({ reply: i }) })),
+      answered: r !== null, notAnswered: r === null,
+    };
+  }
+}
+</script>
+</body>
+</html>

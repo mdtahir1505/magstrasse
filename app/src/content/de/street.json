@@ -1,0 +1,226 @@
+[
+ {
+  "id": "st-na",
+  "target": "Na?",
+  "english": "hey / what's up (short for \"Na, wie geht's?\")",
+  "rudeness": 1,
+  "whenToUse": "Completely safe with friends, colleagues and shop staff you know. It's a greeting and a question in one; a short \"Na, gut?\" or \"Na, du?\" is a normal reply.",
+  "example": "Na, alles klar bei dir?"
+ },
+ {
+  "id": "st-moin",
+  "target": "Moin",
+  "english": "hi / bye (northern Germany, all day)",
+  "rudeness": 1,
+  "whenToUse": "Heard from Hamburg to Kiel at any hour, even at work. It works for hello and goodbye, and people say \"Moin moin\" too. Don't use it in Bavaria, where you will sound like a tourist.",
+  "example": "Moin! Alles gut?"
+ },
+ {
+  "id": "st-servus",
+  "target": "Servus",
+  "english": "hi / bye (Bavaria and Austria)",
+  "rudeness": 1,
+  "whenToUse": "Friendly and safe in the south and in Austria, with friends and colleagues alike. In Berlin it can sound like you are doing an accent.",
+  "example": "Servus, bis später!"
+ },
+ {
+  "id": "st-was-geht",
+  "target": "Was geht?",
+  "english": "what's up?",
+  "rudeness": 1,
+  "whenToUse": "Young and casual. Fine among friends and people your own age, odd with your boss or an older stranger.",
+  "example": "Was geht, Alter?"
+ },
+ {
+  "id": "st-hae",
+  "target": "Hä?",
+  "english": "huh? / what?",
+  "rudeness": 1,
+  "whenToUse": "What everybody says when they didn't catch something. It's informal and can sound rude if you are asking someone senior. \"Wie bitte?\" is the polite version.",
+  "example": "Hä? Ich verstehe nicht."
+ },
+ {
+  "id": "st-alter",
+  "target": "Alter",
+  "english": "dude / mate (lit. \"old one\")",
+  "rudeness": 1,
+  "whenToUse": "Among male friends, used both as a greeting and when surprised: \"Alter!\". Not for your boss. Some women use it with friends too, but it has a lads' flavour.",
+  "example": "Alter, das ist krass!"
+ },
+ {
+  "id": "st-digga",
+  "target": "Digga",
+  "english": "dude / bro (Hamburg, youth slang)",
+  "rudeness": 1,
+  "whenToUse": "Very young, very casual, a bit of Hamburg flavour. Used between friends in a joking way. After about 30 it starts to sound like you are trying too hard.",
+  "example": "Digga, ich habe keine Zeit."
+ },
+ {
+  "id": "st-geil",
+  "target": "geil",
+  "english": "awesome / cool (also: horny)",
+  "rudeness": 2,
+  "whenToUse": "Very common among young people for \"awesome\" (\"Das ist geil!\"). The original meaning is sexual, so skip it with older people and at work. Among friends it's totally normal.",
+  "example": "Das Konzert war so geil!"
+ },
+ {
+  "id": "st-krass",
+  "target": "krass",
+  "english": "wild / crazy / intense",
+  "rudeness": 1,
+  "whenToUse": "Works for good and bad surprises: \"Krass!\" means \"wow, that's intense\". Fine with friends and acquaintances. In a formal meeting use \"beeindruckend\" instead.",
+  "example": "Du kommst aus Amerika? Krass!"
+ },
+ {
+  "id": "st-mega",
+  "target": "mega",
+  "english": "super / hugely",
+  "rudeness": 1,
+  "whenToUse": "A general-purpose intensifier like \"super\": \"mega gut\", \"mega teuer\". Casual but harmless, fine with colleagues over coffee.",
+  "example": "Das Essen war mega lecker."
+ },
+ {
+  "id": "st-bock-haben",
+  "target": "Bock haben",
+  "english": "to feel like doing something",
+  "rudeness": 1,
+  "whenToUse": "\"Ich habe Bock auf Pizza\" means you fancy pizza. Casual spoken German. Fine with friends. In some contexts \"Bock\" can sound vulgar, so don't say it to your boss.",
+  "example": "Hast du Bock auf Kino?"
+ },
+ {
+  "id": "st-lol",
+  "target": "lol",
+  "english": "laughing out loud (same as in English)",
+  "rudeness": 1,
+  "whenToUse": "Used in texts exactly like English. You will also see \"haha\", \"hihi\" and \"xD\". Fine with anyone you text casually.",
+  "example": "lol, das ist so lustig"
+ },
+ {
+  "id": "st-hdl",
+  "target": "hdl",
+  "english": "hab dich lieb (\"love you\" for friends and family)",
+  "rudeness": 1,
+  "whenToUse": "A warm text sign-off between friends, family and couples. It is gentler than \"ich liebe dich\" and works platonically. Not for work chats.",
+  "example": "Gute Nacht, hdl!"
+ },
+ {
+  "id": "st-vllt",
+  "target": "vllt",
+  "english": "vielleicht (maybe)",
+  "rudeness": 1,
+  "whenToUse": "A texting abbreviation. Fine in chats with friends and many colleagues, but not in emails or letters.",
+  "example": "vllt komme ich später"
+ },
+ {
+  "id": "st-ka",
+  "target": "kA",
+  "english": "keine Ahnung (no idea)",
+  "rudeness": 1,
+  "whenToUse": "Quick text reply. Also spoken as \"keine Ahnung\". Fine with friends; writing it to your boss looks lazy.",
+  "example": "Wo ist Tom? kA!"
+ },
+ {
+  "id": "st-lg",
+  "target": "lg",
+  "english": "liebe Grüße (kind regards)",
+  "rudeness": 1,
+  "whenToUse": "The standard friendly sign-off for texts and informal emails. Safe with friends and with colleagues you know well. For formal emails use \"MfG\" or \"Viele Grüße\".",
+  "example": "Bis morgen, lg Anna"
+ },
+ {
+  "id": "st-mfg",
+  "target": "mfg",
+  "english": "mit freundlichen Grüßen (yours sincerely)",
+  "rudeness": 1,
+  "whenToUse": "The classic sign-off of formal emails and letters. Some people find the shortened \"MfG\" a bit stiff or even curt, so write it out in important mails.",
+  "example": "Mit freundlichen Grüßen, Anna Schmidt"
+ },
+ {
+  "id": "st-mist",
+  "target": "Mist",
+  "english": "damn / crap",
+  "rudeness": 1,
+  "whenToUse": "The mildest swear word, fine at work or in front of kids. Use it when you drop something or miss the train.",
+  "example": "Mist, der Zug ist weg!"
+ },
+ {
+  "id": "st-quatsch",
+  "target": "Quatsch",
+  "english": "nonsense / rubbish",
+  "rudeness": 1,
+  "whenToUse": "Calls an idea or statement nonsense: \"Das ist Quatsch!\". Casual but not rude, fine at work if said lightly.",
+  "example": "Quatsch, das stimmt nicht."
+ },
+ {
+  "id": "st-verdammt",
+  "target": "Verdammt",
+  "english": "damn / dammit",
+  "rudeness": 1,
+  "whenToUse": "Stronger than \"Mist\" but still well within normal speech. Okay among friends and most colleagues, but avoid it with elderly people or in formal settings.",
+  "example": "Verdammt, ich habe kein Geld!"
+ },
+ {
+  "id": "st-spinnst-du",
+  "target": "Spinnst du?",
+  "english": "are you crazy? / are you kidding me?",
+  "rudeness": 2,
+  "whenToUse": "Said when someone does something stupid or unfair. It's sharp and you can get a fight with it, though friends say it playfully. Avoid it at work.",
+  "example": "Spinnst du? Das ist viel zu teuer!"
+ },
+ {
+  "id": "st-scheisse",
+  "target": "Scheiße",
+  "english": "shit",
+  "rudeness": 2,
+  "whenToUse": "The standard German swear word, used for annoyance (\"Scheiße!\") and a bad situation (\"Das ist scheiße\"). Common among friends, not in a meeting, with your boss or with kids around. It's less shocking than in English for many people.",
+  "example": "Scheiße, ich habe den Bus verpasst!"
+ },
+ {
+  "id": "st-halt-die-klappe",
+  "target": "Halt die Klappe",
+  "english": "shut up (lit. \"hold the flap\")",
+  "rudeness": 2,
+  "whenToUse": "Rude. You might say it as a joke to a close friend, but to anyone else it's a direct insult. A more polite alternative is \"Sei bitte leise\".",
+  "example": "Halt die Klappe, ich lerne!"
+ },
+ {
+  "id": "st-arschloch",
+  "target": "Arschloch",
+  "english": "asshole",
+  "rudeness": 2,
+  "whenToUse": "A real insult aimed at a person. Friends may use it jokingly, otherwise it is pure aggression. Never use it at work or with strangers.",
+  "example": "Er ist ein Arschloch."
+ },
+ {
+  "id": "st-scheiss-drauf",
+  "target": "Scheiß drauf",
+  "english": "screw it / forget it",
+  "rudeness": 2,
+  "whenToUse": "Said to give up on something or decide not to care. Between friends it's fine; keep it away from work and family dinners.",
+  "example": "Scheiß drauf, wir gehen trotzdem!"
+ },
+ {
+  "id": "st-verpiss-dich",
+  "target": "Verpiss dich",
+  "english": "piss off / get lost",
+  "rudeness": 3,
+  "whenToUse": "Aggressive and clearly meant to hurt. You say it in an argument and to nobody you want to stay on good terms with. Never at work, never with people you don't know.",
+  "example": "Verpiss dich, lass mich in Ruhe!"
+ },
+ {
+  "id": "st-fick-dich",
+  "target": "Fick dich",
+  "english": "fuck you",
+  "rudeness": 3,
+  "whenToUse": "As vulgar as the English. Only heard in real anger. Never at work, never in public, and don't say it unless you want a fight.",
+  "example": "Fick dich, ich gehe!"
+ },
+ {
+  "id": "st-leck-mich-am-arsch",
+  "target": "Leck mich am Arsch",
+  "english": "kiss my ass (lit. \"lick my ass\")",
+  "rudeness": 3,
+  "whenToUse": "A very rude brush-off, famous from a Goethe play, where it is the \"Götz quote\". Among friends it is sometimes said as a joke, but it still counts as vulgar, so never at work.",
+  "example": "Leck mich am Arsch, ich habe keine Lust!"
+ }
+]

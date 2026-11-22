@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Me, settings</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>
+body{margin:0}
+.set{display:flex;align-items:center;gap:12px;min-height:60px;padding:10px 14px;border-bottom:1px solid var(--c-surface-2)}
+.set:last-child{border-bottom:0}
+.set .lbl{flex:1;font-weight:700}
+.set .sub{display:block;font-weight:500;font-size:13px;color:var(--c-text-dim)}
+.group{padding:0}
+.seg{display:flex;gap:6px}
+.tm{min-height:44px;padding:0 10px;border:2px solid var(--c-line);border-radius:8px;background:var(--c-surface-2);color:var(--c-text);font:700 16px var(--f-body);color-scheme:dark}
+</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <header class="pad" style="padding-top: 8px">
+    <h1 class="display" style="font-size: 48px">Me</h1>
+    <nav class="subnav" aria-label="Me sections" style="margin-top: 10px">
+      <a href="Stats.dc.html">Stats</a>
+      <a href="Word-Bank.dc.html">Word bank</a>
+      <a href="Street.dc.html">Street {{langName}}</a>
+      <a class="on" href="Settings.dc.html" aria-current="page">Settings</a>
+    </nav>
+  </header>
+
+  <div class="grow scroll pad" style="padding-top: 14px; padding-bottom: 28px; display: flex; flex-direction: column; gap: 18px">
+    <section>
+      <p class="eyebrow" style="margin-bottom: 8px">Learning</p>
+      <div class="card group">
+        <div class="set">
+          <span class="lbl">Language</span>
+          <div class="seg" role="radiogroup" aria-label="Active language">
+            <sc-for list="{{langs}}" as="l" hint-placeholder-count="2">
+              <button type="button" role="radio" aria-checked="{{l.checked}}" class="{{l.cls}}" disabled="{{l.disabled}}" onClick="{{l.pick}}">{{l.label}}</button>
+            </sc-for>
+          </div>
+        </div>
+        <div class="set" style="flex-wrap: wrap">
+          <span class="lbl">Daily goal</span>
+          <div class="seg" role="radiogroup" aria-label="Daily goal in minutes">
+            <sc-for list="{{goals}}" as="g" hint-placeholder-count="4">
+              <button type="button" role="radio" aria-checked="{{g.checked}}" class="{{g.cls}}" onClick="{{g.pick}}" style="min-width: 44px; min-height: 44px">{{g.min}}</button>
+            </sc-for>
+          </div>
+        </div>
+        <label class="set">
+          <span class="lbl">Reminder</span>
+          <input class="tm" type="time" value="{{time}}" onChange="{{setTime}}">
+        </label>
+        <div class="set" style="flex-direction: column; align-items: stretch; gap: 4px">
+          <div style="display: flex; justify-content: space-between"><label for="speed" class="lbl">Voice speed</label><b style="color: var(--c-yellow)">{{speedLabel}}</b></div>
+          <div style="display: flex; align-items: center; gap: 10px">
+            <span aria-hidden="true">🐢</span>
+            <input id="speed" class="range" type="range" min="0.6" max="1.2" step="0.1" value="{{speed}}" onChange="{{setSpeed}}">
+            <span aria-hidden="true">⚡</span>
+          </div>
+        </div>
+        <div class="set">
+          <span class="lbl">Street {{langName}} <span class="sticker p" style="--rot: -4deg; margin-left: 4px">18+</span><span class="sub">Slang &amp; swearing section</span></span>
+          <label class="switch"><input type="checkbox" aria-label="Street {{langName}}" checked="{{street}}" onChange="{{toggleStreet}}"><span></span></label>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <p class="eyebrow" style="margin-bottom: 8px">Backup</p>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+        <button type="button" class="btn ghost" style="font-size: 18px; min-height: 52px">Export</button>
+        <button type="button" class="btn ghost" style="font-size: 18px; min-height: 52px">Import</button>
+      </div>
+      <p class="small dim" style="margin-top: 8px">Saves words, streak and settings to one file. Last backup: {{lastBackup}}.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow" style="margin-bottom: 8px">Danger zone</p>
+      <button type="button" class="btn ghost block" style="border-color: var(--c-pink); color: var(--c-pink); font-size: 18px; min-height: 52px">Reset all progress</button>
+      <p class="small dim" style="margin-top: 8px">Asks twice. Export first if you might want it back.</p>
+    </section>
+  </div>
+
+  <nav class="tabbar" aria-label="Main">
+    <a class="tab" href="Main.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"></path></svg>Today</a>
+    <a class="tab" href="Course-Map.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="5" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="M6 7.5V12a3 3 0 0 0 3 3h6a3 3 0 0 1 3 1.5"></path></svg>Course</a>
+    <a class="tab" href="Stories.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"></path><path d="M5 17a3 3 0 0 1 3-3h11"></path></svg>Stories</a>
+    <a class="tab" href="Talk.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"></path></svg>Talk</a>
+    <a class="tab on" href="Stats.dc.html" aria-current="page"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path></svg>Me</a>
+  </nav>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"profile":{"editor":null,"tsType":"Profile"},"languages":{"editor":null,"tsType":"{ code: string; label: string; available: boolean }[]"},"reminderTime":{"editor":null,"tsType":"string"},"voiceSpeed":{"editor":null,"tsType":"number"},"lastBackup":{"editor":null,"tsType":"string"},"langName":{"editor":null,"tsType":"string"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  state = {};
+  renderVals() {
+    const profile = this.props.profile ?? { language: 'de', streak: 12, freezesLeft: 1, wordsKnown: 412, dailyGoalMin: 30, minutesToday: 0, level: 'A1', streetEnabled: true };
+    const languages = this.props.languages ?? [{ code: 'de', label: 'Deutsch', available: true }, { code: 'ru', label: 'Русский · soon', available: false }];
+    const s = this.state;
+    const lang = s.lang ?? profile.language;
+    const goal = s.goal ?? profile.dailyGoalMin;
+    const speed = s.speed ?? this.props.voiceSpeed ?? 0.9;
+    return {
+      langName: this.props.langName ?? 'German',
+      langs: languages.map((l) => ({
+        label: l.label, disabled: !l.available, checked: l.code === lang ? 'true' : 'false',
+        cls: 'chip dark' + (l.code === lang ? ' sel' : ''), pick: () => l.available && this.setState({ lang: l.code }),
+      })),
+      goals: [5, 15, 30, 45].map((min) => ({
+        min, checked: min === goal ? 'true' : 'false', cls: 'chip dark' + (min === goal ? ' sel' : ''), pick: () => this.setState({ goal: min }),
+      })),
+      time: s.time ?? this.props.reminderTime ?? '19:00',
+      setTime: (e) => this.setState({ time: e.target.value }),
+      speed, speedLabel: Number(speed).toFixed(1) + '×',
+      setSpeed: (e) => this.setState({ speed: Number(e.target.value) }),
+      street: s.street ?? profile.streetEnabled,
+      toggleStreet: (e) => this.setState({ street: e.target.checked }),
+      lastBackup: this.props.lastBackup ?? 'never',
+    };
+  }
+}
+</script>
+</body>
+</html>

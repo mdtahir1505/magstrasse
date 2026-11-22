@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Me, word bank</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0} .wrow{width:100%;background:none;border:0;border-bottom:1px solid var(--c-surface-2);text-align:left;cursor:pointer;font:inherit;color:inherit} .wrow:active{background:var(--c-surface)}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <header class="pad" style="padding-top: 8px">
+    <h1 class="display" style="font-size: 48px">Me</h1>
+    <nav class="subnav" aria-label="Me sections" style="margin-top: 10px">
+      <a href="Stats.dc.html">Stats</a>
+      <a class="on" href="Word-Bank.dc.html" aria-current="page">Word bank</a>
+      <a href="Street.dc.html">Street {{langName}}</a>
+      <a href="Settings.dc.html">Settings</a>
+    </nav>
+    <label class="search" style="margin-top: 12px">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true" style="color: var(--c-text-dim)"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4.5 4.5"></path></svg>
+      <input type="search" placeholder="Search {{count}} words" aria-label="Search words" value="{{q}}" onChange="{{onQ}}">
+    </label>
+    <div style="display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; padding-bottom: 4px" role="group" aria-label="Filters">
+      <button type="button" class="chip dark">Stage 1 ▾</button>
+      <sc-for list="{{genders}}" as="g" hint-placeholder-count="3">
+        <button type="button" class="{{g.cls}}" aria-pressed="{{g.pressed}}" onClick="{{g.pick}}"><span class="{{g.tagCls}}" style="font-size: 13px">{{g.label}}</span></button>
+      </sc-for>
+      <button type="button" class="{{weakCls}}" aria-pressed="{{weakPressed}}" onClick="{{toggleWeak}}">Weak only</button>
+    </div>
+  </header>
+
+  <ul class="grow scroll pad" style="padding-top: 6px">
+    <sc-for list="{{items}}" as="it" hint-placeholder-count="8">
+      <li>
+        <button type="button" class="wrow row" aria-label="Hear {{it.target}}, {{it.english}}, strength {{it.strength}} of 5">
+          <span aria-hidden="true" style="font-size: 26px; width: 34px; text-align: center">{{it.emoji}}</span>
+          <span style="flex: 1; min-width: 0">
+            <span lang="{{lang}}" style="display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px">
+              <sc-if value="{{it.article}}" hint-placeholder-val="{{ true }}"><span class="{{it.tagCls}}" style="font-size: 14px">{{it.article}}</span></sc-if>{{it.target}}
+            </span>
+            <span class="small dim" style="display: block">{{it.english}}</span>
+          </span>
+          <span class="meter" aria-hidden="true"><sc-for list="{{it.bars}}" as="b" hint-placeholder-count="5"><i class="{{b}}"></i></sc-for></span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true" style="width: 20px; height: 20px; color: var(--c-cyan)"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7"></path></svg>
+        </button>
+      </li>
+    </sc-for>
+    <sc-if value="{{empty}}" hint-placeholder-val="{{ false }}">
+      <li class="dim" style="padding: 40px 0; text-align: center">Nothing here. Try a different filter.</li>
+    </sc-if>
+  </ul>
+
+  <nav class="tabbar" aria-label="Main">
+    <a class="tab" href="Main.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"></path></svg>Today</a>
+    <a class="tab" href="Course-Map.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="5" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="M6 7.5V12a3 3 0 0 0 3 3h6a3 3 0 0 1 3 1.5"></path></svg>Course</a>
+    <a class="tab" href="Stories.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"></path><path d="M5 17a3 3 0 0 1 3-3h11"></path></svg>Stories</a>
+    <a class="tab" href="Talk.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"></path></svg>Talk</a>
+    <a class="tab on" href="Stats.dc.html" aria-current="page"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path></svg>Me</a>
+  </nav>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"items":{"editor":null,"tsType":"Item[]"},"lang":{"editor":null,"tsType":"string"},"langName":{"editor":null,"tsType":"string"},"articles":{"editor":null,"tsType":"Record<\"m\" | \"f\" | \"n\", string>"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  state = { q: '', gender: null, weak: false };
+  renderVals() {
+    const items = this.props.items ?? [
+      { id: '1', target: 'Kaffee', english: 'coffee', gender: 'm', emoji: '☕', strength: 4 },
+      { id: '2', target: 'Wasser', english: 'water', gender: 'n', emoji: '💧', strength: 5 },
+      { id: '3', target: 'Stadt', english: 'city', gender: 'f', emoji: '🏙️', strength: 1 },
+      { id: '4', target: 'Ich hätte gern…', english: "I'd like…", gender: null, emoji: '🙋', strength: 3 },
+      { id: '5', target: "Wie geht's?", english: "How's it going?", gender: null, emoji: '👋', strength: 5 },
+      { id: '6', target: 'Milch', english: 'milk', gender: 'f', emoji: '🥛', strength: 2 },
+      { id: '7', target: 'Brötchen', english: 'bread roll', gender: 'n', emoji: '🥖', strength: 2 },
+      { id: '8', target: 'Rechnung', english: 'bill, check', gender: 'f', emoji: '🧾', strength: 1 },
+      { id: '9', target: 'Bahnhof', english: 'train station', gender: 'm', emoji: '🚉', strength: 0 },
+      { id: '10', target: 'Straße', english: 'street', gender: 'f', emoji: '🛣️', strength: 3 },
+    ];
+    const articles = this.props.articles ?? { m: 'der', f: 'die', n: 'das' };
+    const { q, gender, weak } = this.state;
+    const shown = items.filter((it) =>
+      (!q || (it.target + ' ' + it.english).toLowerCase().includes(q.toLowerCase())) &&
+      (!gender || it.gender === gender) && (!weak || it.strength <= 2));
+    return {
+      lang: this.props.lang ?? 'de', langName: this.props.langName ?? 'German',
+      q, count: items.length, empty: shown.length === 0,
+      onQ: (e) => this.setState({ q: e.target.value }),
+      genders: ['m', 'f', 'n'].map((g) => ({
+        label: articles[g], tagCls: 'tag ' + g, cls: 'chip dark' + (gender === g ? ' sel' : ''),
+        pressed: gender === g ? 'true' : 'false', pick: () => this.setState({ gender: gender === g ? null : g }),
+      })),
+      weakCls: 'chip dark' + (weak ? ' sel' : ''), weakPressed: weak ? 'true' : 'false',
+      toggleWeak: () => this.setState({ weak: !weak }),
+      items: shown.map((it) => ({
+        ...it, emoji: it.emoji ?? '', article: it.gender ? articles[it.gender] : '', tagCls: 'tag ' + (it.gender ?? ''),
+        bars: [1, 2, 3, 4, 5].map((n) => (n <= it.strength ? 'on' : '')),
+      })),
+    };
+  }
+}
+</script>
+</body>
+</html>

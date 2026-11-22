@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — New word</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <div class="pad session-top">
+    <a class="icon-btn" href="Main.dc.html" aria-label="End session"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></a>
+    <div class="segbar" role="progressbar" aria-label="Session progress" aria-valuemin="0" aria-valuemax="{{total}}" aria-valuenow="{{pos}}">
+      <sc-for list="{{segs}}" as="s" hint-placeholder-count="3"><div class="{{s.cls}}" style="--w: {{s.w}}"><i style="width: {{s.pct}}%"></i></div></sc-for>
+    </div>
+    <span class="count">{{pos}}/{{total}}</span>
+  </div>
+  <p class="block-label pad" style="margin-top: 4px">{{blockName}} · new word</p>
+
+  <section class="pad" style="margin-top: 30px">
+    <div class="paper tape tilt" style="--rot: -1.5deg; padding: 26px 22px 22px; position: relative">
+      <div class="halftone" aria-hidden="true" style="position: absolute; left: 0; bottom: 0; width: 140px; height: 90px; color: var(--c-pink); opacity: .45"></div>
+      <div style="position: relative; display: flex; justify-content: space-between; align-items: flex-start">
+        <span aria-hidden="true" style="font-size: 96px; line-height: 1">{{item.emoji}}</span>
+        <button type="button" class="audio" aria-label="Play pronunciation"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"></path></svg></button>
+      </div>
+      <h1 lang="{{lang}}" class="target" style="position: relative; margin-top: 18px; font-size: 52px; line-height: 1.05; display: flex; align-items: center; gap: 12px">
+        <sc-if value="{{hasArticle}}" hint-placeholder-val="{{ true }}"><span class="{{tagCls}}" style="font-size: 26px">{{article}}</span></sc-if>{{item.target}}
+      </h1>
+      <p style="position: relative; margin-top: 6px; font-size: 22px; font-weight: 600; color: var(--c-ink-dim)">{{item.english}}</p>
+      <sc-if value="{{item.cognateHint}}" hint-placeholder-val="{{ true }}">
+        <span class="sticker y lower" style="position: absolute; right: -10px; bottom: 74px; --rot: 6deg; font-size: 15px">≈ {{item.cognateHint}}</span>
+      </sc-if>
+    </div>
+  </section>
+
+  <sc-if value="{{item.example}}" hint-placeholder-val="{{ true }}">
+    <section class="pad" style="margin-top: 34px">
+      <p class="eyebrow">In a sentence</p>
+      <div class="card" style="margin-top: 10px; padding: 14px 14px 14px 16px; display: flex; gap: 12px; align-items: center">
+        <div style="flex: 1">
+          <p lang="{{lang}}" style="font-size: 19px; font-weight: 700">{{item.example.target}}</p>
+          <p class="dim small" style="margin-top: 2px">{{item.example.english}}</p>
+        </div>
+        <button type="button" class="audio sm" aria-label="Play example"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7"></path></svg></button>
+      </div>
+    </section>
+  </sc-if>
+
+  <div class="foot" style="margin-top: auto">
+    <a class="btn block" href="Ex-ListenPick.dc.html">Got it</a>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"exercise":{"editor":null,"tsType":"Extract<Exercise, { kind: \"intro\" }>"},"session":{"editor":null,"tsType":"Session"},"lang":{"editor":null,"tsType":"string"},"articles":{"editor":null,"tsType":"Record<\"m\" | \"f\" | \"n\", string>"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const ex = this.props.exercise ?? { kind: 'intro', item: { id: 'kaffee', target: 'Kaffee', english: 'coffee', gender: 'm', emoji: '☕', cognateHint: 'Kaffee ≈ coffee', example: { target: 'Ich hätte gern einen Kaffee.', english: "I'd like a coffee." }, strength: 0 } };
+    const filler = (n) => Array.from({ length: n }, () => ({ kind: 'say', target: '', english: '' }));
+    const S = this.props.session ?? { blocks: [{ name: 'review', exercises: filler(8) }, { name: 'new', exercises: filler(10) }, { name: 'speak', exercises: filler(6) }], current: { block: 1, exercise: 0 } };
+    const segs = S.blocks.map((b, i) => {
+      const n = b.exercises.length;
+      const d = i < S.current.block ? n : i === S.current.block ? S.current.exercise : 0;
+      return { w: n, pct: Math.round((d / n) * 100), cls: 'bar' + (d === n ? ' done' : '') };
+    });
+    const total = S.blocks.reduce((a, b) => a + b.exercises.length, 0);
+    const pos = S.blocks.slice(0, S.current.block).reduce((a, b) => a + b.exercises.length, 0) + S.current.exercise + 1;
+    const blockName = { review: 'Review', new: 'New lesson', speak: 'Listen & speak' }[S.blocks[S.current.block].name];
+    const articles = this.props.articles ?? { m: 'der', f: 'die', n: 'das' };
+    const g = ex.item.gender;
+    return {
+      segs, total, pos, blockName, item: ex.item,
+      lang: this.props.lang ?? 'de',
+      hasArticle: !!g, article: g ? articles[g] : '', tagCls: 'tag ' + (g ?? ''),
+    };
+  }
+}
+</script>
+</body>
+</html>

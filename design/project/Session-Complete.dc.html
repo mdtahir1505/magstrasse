@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Session complete</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <div class="pad" style="padding-top: 8px">
+    <div class="bar" role="progressbar" aria-label="Session progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><i style="width: 100%"></i></div>
+  </div>
+
+  <section class="pad" style="margin-top: 34px; position: relative">
+    <h1 class="display" style="font-size: 120px; line-height: .82; color: var(--c-yellow); text-shadow: 6px 6px 0 var(--c-pink)">Fertig.</h1>
+    <span class="marker" style="position: absolute; right: 34px; top: -10px; font-size: 30px; color: var(--c-cyan); transform: rotate(-10deg)">done!</span>
+    <p style="margin-top: 14px; font-size: 19px; font-weight: 700">That's today. The rest of the day is yours.</p>
+  </section>
+
+  <section class="pad" style="margin-top: 30px; display: flex; align-items: center; gap: 18px">
+    <div style="position: relative; width: 104px; height: 124px; flex: none">
+      <svg viewBox="0 0 30 36" aria-hidden="true" style="width: 104px; height: 124px; transform-origin: 50% 90%; animation: flicker 1.8s ease-in-out infinite"><path d="M15 1c3 7 11 11 11 21a11 11 0 0 1-22 0c0-6 3-9 5-13 1.5 3.5 3.5 5 4.5 5 0-5 .5-9 1.5-13z" style="fill: var(--c-pink); stroke: var(--c-ink); stroke-width: 1.4; stroke-linejoin: round"></path><path d="M15 18c2 3 5 5 5 9a5 5 0 0 1-10 0c0-3 2-4.5 3-6.5.6 1.4 1.4 2 2 2z" style="fill: var(--c-yellow)"></path></svg>
+      <span class="sticker y" style="position: absolute; right: -16px; top: 4px; font-size: 20px; padding: 4px 10px; animation: plus-one 700ms var(--ease-snap) 300ms both">+1</span>
+    </div>
+    <div>
+      <p class="eyebrow">Streak</p>
+      <p class="display" style="font-size: 64px">{{streakAfter}} days</p>
+      <p class="small dim">was {{streakBefore}} · 🧊 {{freezesLeft}} freeze in the bank</p>
+    </div>
+  </section>
+
+  <ul class="pad" style="margin-top: 26px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px">
+    <li class="paper tilt rise" style="--rot: -3deg; padding: 12px 10px; text-align: center; animation-delay: 100ms"><p class="display" style="font-size: 40px">{{minutes}}</p><p class="small" style="font-weight: 700">minutes</p></li>
+    <li class="paper tilt rise" style="--rot: 2deg; padding: 12px 10px; text-align: center; background: var(--c-cyan); animation-delay: 200ms"><p class="display" style="font-size: 40px">{{newWords}}</p><p class="small" style="font-weight: 700">new words</p></li>
+    <li class="paper tilt rise" style="--rot: -1deg; padding: 12px 10px; text-align: center; background: var(--c-yellow); animation-delay: 300ms"><p class="display" style="font-size: 40px">{{reviewed}}</p><p class="small" style="font-weight: 700">reviewed</p></li>
+  </ul>
+
+  <div class="foot" style="margin-top: auto">
+    <a class="btn block" href="Main.dc.html">Done</a>
+    <a class="btn ghost block" href="Ex-ListenPick.dc.html">Bonus round?</a>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"minutes":{"editor":null,"tsType":"number"},"newWords":{"editor":null,"tsType":"number"},"reviewed":{"editor":null,"tsType":"number"},"profile":{"editor":null,"tsType":"Profile"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const profile = this.props.profile ?? { language: 'de', streak: 12, freezesLeft: 1, wordsKnown: 421, dailyGoalMin: 30, minutesToday: 31, level: 'A1', streetEnabled: false };
+    return {
+      minutes: this.props.minutes ?? 31,
+      newWords: this.props.newWords ?? 9,
+      reviewed: this.props.reviewed ?? 38,
+      streakBefore: profile.streak, streakAfter: profile.streak + 1, freezesLeft: profile.freezesLeft,
+    };
+  }
+}
+</script>
+</body>
+</html>

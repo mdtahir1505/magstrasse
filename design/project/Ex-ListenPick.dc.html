@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Listen and pick</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <div class="pad session-top">
+    <a class="icon-btn" href="Main.dc.html" aria-label="End session"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></a>
+    <div class="segbar" role="progressbar" aria-label="Session progress" aria-valuemin="0" aria-valuemax="{{total}}" aria-valuenow="{{pos}}">
+      <sc-for list="{{segs}}" as="s" hint-placeholder-count="3"><div class="{{s.cls}}" style="--w: {{s.w}}"><i style="width: {{s.pct}}%"></i></div></sc-for>
+    </div>
+    <span class="count">{{pos}}/{{total}}</span>
+  </div>
+  <p class="block-label pad" style="margin-top: 4px">{{blockName}}</p>
+
+  <h1 class="instruction pad" style="margin-top: 18px">What did you hear?</h1>
+
+  <div style="margin-top: 26px; display: flex; justify-content: center; align-items: flex-end; gap: 18px">
+    <button type="button" class="play" aria-label="Play audio"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"></path></svg></button>
+    <button type="button" class="audio" aria-label="Play slowly" style="width: 60px; height: 60px; background: var(--c-paper); font-size: 30px"><span aria-hidden="true">🐢</span></button>
+  </div>
+
+  <ul class="pad" style="margin-top: auto; display: flex; flex-direction: column; gap: 10px">
+    <sc-for list="{{options}}" as="o" hint-placeholder-count="4">
+      <li><button type="button" class="{{o.cls}}" onClick="{{o.pick}}" aria-pressed="{{o.pressed}}"><span class="key" aria-hidden="true">{{o.key}}</span>{{o.text}}</button></li>
+    </sc-for>
+  </ul>
+
+  <div class="foot">
+    <sc-if value="{{checked}}" hint-placeholder-val="{{ false }}">
+      <a class="btn block" href="Ex-Build.dc.html">Continue</a>
+    </sc-if>
+    <sc-if value="{{notChecked}}" hint-placeholder-val="{{ true }}">
+      <button type="button" class="{{checkCls}}" onClick="{{check}}" disabled="{{noPick}}">Check</button>
+    </sc-if>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"exercise":{"editor":null,"tsType":"Extract<Exercise, { kind: \"listenPick\" }>"},"session":{"editor":null,"tsType":"Session"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  state = { picked: null, checked: false };
+  renderVals() {
+    const ex = this.props.exercise ?? { kind: 'listenPick', audioText: 'Ich hätte gern ein Wasser.', options: ["I'd like a water.", 'I have a water.', "I'd like a coffee.", 'Is there water?'], answer: 0 };
+    const filler = (n) => Array.from({ length: n }, () => ({ kind: 'say', target: '', english: '' }));
+    const S = this.props.session ?? { blocks: [{ name: 'review', exercises: filler(8) }, { name: 'new', exercises: filler(10) }, { name: 'speak', exercises: filler(6) }], current: { block: 0, exercise: 3 } };
+    const segs = S.blocks.map((b, i) => {
+      const n = b.exercises.length;
+      const d = i < S.current.block ? n : i === S.current.block ? S.current.exercise : 0;
+      return { w: n, pct: Math.round((d / n) * 100), cls: 'bar' + (d === n ? ' done' : '') };
+    });
+    const total = S.blocks.reduce((a, b) => a + b.exercises.length, 0);
+    const pos = S.blocks.slice(0, S.current.block).reduce((a, b) => a + b.exercises.length, 0) + S.current.exercise + 1;
+    const blockName = { review: 'Review', new: 'New lesson', speak: 'Listen & speak' }[S.blocks[S.current.block].name];
+    const { picked, checked } = this.state;
+    const options = ex.options.map((text, i) => {
+      let cls = 'opt';
+      if (checked && i === ex.answer) cls += ' right';
+      else if (checked && i === picked) cls += ' wrong';
+      else if (i === picked) cls += ' sel';
+      return { text, key: 'ABCD'[i], cls, pressed: i === picked ? 'true' : 'false', pick: () => !checked && this.setState({ picked: i }) };
+    });
+    return {
+      segs, total, pos, blockName, options, checked, notChecked: !checked,
+      noPick: picked === null,
+      checkCls: 'btn block' + (picked === null ? ' off' : ''),
+      check: () => picked !== null && this.setState({ checked: true }),
+    };
+  }
+}
+</script>
+</body>
+</html>

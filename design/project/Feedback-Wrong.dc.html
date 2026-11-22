@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Feedback, wrong</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0} .hl{background:var(--c-yellow);padding:0 .15em;border-radius:3px;box-shadow:inset 0 -3px 0 var(--c-ink)}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <!-- exercise underneath (Type it, answered wrong) -->
+  <div class="pad session-top" aria-hidden="true">
+    <span class="icon-btn"><svg class="ico" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></span>
+    <div class="segbar"><div class="bar done" style="--w: 8"><i style="width: 100%"></i></div><div class="bar" style="--w: 10"><i style="width: 70%"></i></div><div class="bar" style="--w: 6"><i style="width: 0%"></i></div></div>
+    <span class="count">16/24</span>
+  </div>
+  <h1 class="instruction pad" aria-hidden="true" style="margin-top: 36px">Type it</h1>
+  <div class="pad" aria-hidden="true" style="margin-top: 14px; display: flex; flex-direction: column; gap: 24px">
+    <div class="paper tilt" style="--rot: 1deg; padding: 14px 16px"><p class="eyebrow">In German, please</p><p class="prompt" style="margin-top: 4px">I'd like a water.</p></div>
+    <div class="field" lang="de" style="display: flex; align-items: center; border-color: var(--c-pink); animation: shake 400ms ease">Ich hatte gern ein Wasser</div>
+  </div>
+
+  <div class="scrim"></div>
+  <section class="sheet bad" role="alertdialog" aria-labelledby="verdict" aria-describedby="answer">
+    <h2 id="verdict" class="verdict">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true" style="width: 44px; height: 44px; stroke-width: 3.4"><path d="M6 6l12 12M18 6 6 18"></path></svg>{{verdict}}
+    </h2>
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <p class="eyebrow" style="color: var(--c-ink)">Correct answer</p>
+      <div style="display: flex; gap: 10px; align-items: center">
+        <p id="answer" lang="{{lang}}" class="answer" style="flex: 1">
+          <sc-for list="{{parts}}" as="p" hint-placeholder-count="5"><span class="{{p.cls}}">{{p.text}}</span> </sc-for>
+        </p>
+        <button type="button" class="audio" aria-label="Hear the correct answer" style="background: var(--c-paper)"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"></path></svg></button>
+      </div>
+    </div>
+    <p class="why"><span aria-hidden="true">💡</span><span>{{why}}</span></p>
+    <p class="small" style="font-weight: 600">No stress. It comes back later this session.</p>
+    <a class="btn ink block" href="Ex-Say.dc.html" style="color: var(--c-pink)">Continue</a>
+  </section>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"correct":{"editor":"boolean","default":false},"answer":{"editor":null,"tsType":"string"},"highlight":{"editor":null,"tsType":"string[]"},"why":{"editor":null,"tsType":"string"},"lang":{"editor":null,"tsType":"string"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const answer = this.props.answer ?? 'Ich hätte gern ein Wasser.';
+    const hl = this.props.highlight ?? ['hätte'];
+    return {
+      verdict: (this.props.correct ?? false) ? 'Sauber!' : 'Not quite',
+      parts: answer.split(' ').map((text) => ({ text, cls: hl.includes(text.replace(/[.,!?]/g, '')) ? 'hl' : '' })),
+      why: this.props.why ?? 'hätte = would have (polite). hatte = had. The umlaut changes everything.',
+      lang: this.props.lang ?? 'de',
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Street German</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <header class="pad" style="padding-top: 8px">
+    <h1 class="display" style="font-size: 48px">Me</h1>
+    <nav class="subnav" aria-label="Me sections" style="margin-top: 10px">
+      <a href="Stats.dc.html">Stats</a>
+      <a href="Word-Bank.dc.html">Word bank</a>
+      <a class="on" href="Street.dc.html" aria-current="page">Street {{langName}}</a>
+      <a href="Settings.dc.html">Settings</a>
+    </nav>
+  </header>
+
+  <div class="grow scroll pad" style="padding-top: 14px; padding-bottom: 28px; display: flex; flex-direction: column; gap: 22px">
+    <div style="position: relative; padding: 6px 0 2px">
+      <p class="marker" style="font-size: 40px; line-height: 1; color: var(--c-pink); transform: rotate(-4deg); text-shadow: 3px 3px 0 var(--c-ink)">Street {{nativeName}}</p>
+      <span class="sticker y" style="position: absolute; right: 4px; top: 4px; --rot: 8deg">18+</span>
+      <p class="small dim" style="margin-top: 10px">What people actually say. Know it before you use it.</p>
+    </div>
+
+    <sc-if value="{{locked}}" hint-placeholder-val="{{ false }}">
+      <div class="card" style="padding: 18px; text-align: center; display: flex; flex-direction: column; gap: 10px; align-items: center">
+        <p style="font-weight: 800">Switched off</p>
+        <a class="btn pink" href="Settings.dc.html">Turn on in Settings</a>
+      </div>
+    </sc-if>
+
+    <sc-for list="{{items}}" as="s" hint-placeholder-count="4">
+      <article class="paper tilt" style="--rot: {{s.rot}}; padding: 16px">
+        <div style="display: flex; align-items: flex-start; gap: 10px">
+          <div style="flex: 1">
+            <h2 lang="{{lang}}" style="font-size: 26px; font-weight: 800; line-height: 1.15">{{s.target}}</h2>
+            <p style="font-weight: 600; color: var(--c-ink-dim)">{{s.english}}</p>
+          </div>
+          <button type="button" class="audio sm" aria-label="Hear {{s.target}}"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7"></path></svg></button>
+        </div>
+        <div class="rude" role="img" aria-label="Rudeness {{s.rudeness}} of 3: {{s.rudeLabel}}" style="margin-top: 12px">
+          <span class="{{s.r1}}"><span aria-hidden="true">😏</span>mild</span>
+          <span class="{{s.r2}}"><span aria-hidden="true">🌶️</span>spicy</span>
+          <span class="{{s.r3}}"><span aria-hidden="true">🔥</span>never at work</span>
+        </div>
+        <p style="margin-top: 12px; font-size: 15px"><b>When:</b> {{s.whenToUse}}</p>
+        <p lang="{{lang}}" style="margin-top: 6px; font-size: 15px; font-style: italic; padding-left: 10px; border-left: 4px solid var(--c-ink)">„{{s.example}}“</p>
+      </article>
+    </sc-for>
+  </div>
+
+  <nav class="tabbar" aria-label="Main">
+    <a class="tab" href="Main.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"></path></svg>Today</a>
+    <a class="tab" href="Course-Map.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="5" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="M6 7.5V12a3 3 0 0 0 3 3h6a3 3 0 0 1 3 1.5"></path></svg>Course</a>
+    <a class="tab" href="Stories.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"></path><path d="M5 17a3 3 0 0 1 3-3h11"></path></svg>Stories</a>
+    <a class="tab" href="Talk.dc.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"></path></svg>Talk</a>
+    <a class="tab on" href="Stats.dc.html" aria-current="page"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path></svg>Me</a>
+  </nav>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"items":{"editor":null,"tsType":"StreetItem[]"},"streetEnabled":{"editor":"boolean","default":true},"lang":{"editor":null,"tsType":"string"},"langName":{"editor":null,"tsType":"string"},"nativeName":{"editor":null,"tsType":"string"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const items = this.props.items ?? [
+      { id: 'alter', target: 'Alter!', english: 'Dude! / Man!', rudeness: 1, whenToUse: 'With friends. Surprise, annoyance, everything in between.', example: 'Alter, wie geil ist das denn?' },
+      { id: 'bock', target: 'Bock haben (auf)', english: 'to be up for (something)', rudeness: 1, whenToUse: 'Making casual plans. Fine with almost anyone your age.', example: 'Hast du Bock auf Döner?' },
+      { id: 'laber', target: 'Laber nicht!', english: 'Stop talking rubbish!', rudeness: 2, whenToUse: 'Friends being dramatic. Not your landlord.', example: 'Laber nicht, du warst nie in Paris.' },
+      { id: 'scheisse', target: 'Scheiße', english: 'shit', rudeness: 2, whenToUse: 'Stubbed toe, missed U-Bahn. Everyone says it, just not in a meeting.', example: 'Scheiße, die Bahn ist weg.' },
+      { id: 'verpiss', target: 'Verpiss dich!', english: 'Piss off!', rudeness: 3, whenToUse: 'Basically never. Know it so you know when you hear it.', example: 'Verpiss dich, ich hab keine Zeit.' },
+    ];
+    const enabled = this.props.streetEnabled ?? true;
+    const LABEL = { 1: 'mild', 2: 'spicy', 3: 'never at work' };
+    const ROT = ['-1.2deg', '1deg', '-0.6deg', '1.4deg', '-1deg'];
+    return {
+      lang: this.props.lang ?? 'de', langName: this.props.langName ?? 'German', nativeName: this.props.nativeName ?? 'Deutsch',
+      locked: !enabled,
+      items: enabled ? items.map((s, i) => ({
+        ...s, rot: ROT[i % 5], rudeLabel: LABEL[s.rudeness],
+        r1: 'l1' + (s.rudeness >= 1 ? ' on' : ''), r2: 'l2' + (s.rudeness >= 2 ? ' on' : ''), r3: 'l3' + (s.rudeness >= 3 ? ' on' : ''),
+      })) : [],
+    };
+  }
+}
+</script>
+</body>
+</html>

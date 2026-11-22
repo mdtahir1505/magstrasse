@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STRASSE — Story reader</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./strasse.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap">
+<style>
+body{margin:0}
+.wb{background:none;border:0;padding:0 .08em;margin:0;font:inherit;color:inherit;cursor:pointer;border-radius:3px}
+.wb.tap{border-bottom:2px dotted var(--c-text-dim);border-radius:0}
+.wb.sel{background:var(--c-yellow);color:var(--c-ink);border-bottom-color:transparent;border-radius:3px}
+.line.now{color:var(--c-text)}
+.line{color:var(--c-text-dim)}
+</style>
+</helmet>
+<main class="screen" style="width: 390px; height: 844px">
+  <div class="pad session-top">
+    <a class="icon-btn" href="Stories.dc.html" aria-label="Back to stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+    <div style="flex: 1; min-width: 0">
+      <p lang="{{lang}}" style="font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{story.title}}</p>
+      <div class="bar thin" role="progressbar" aria-label="Story progress" aria-valuemin="0" aria-valuemax="{{lineCount}}" aria-valuenow="{{nowLine}}" style="margin-top: 4px"><i style="width: {{pct}}%"></i></div>
+    </div>
+    <span class="sticker y" style="--rot: 4deg">{{story.level}}</span>
+  </div>
+
+  <article class="grow scroll pad" lang="{{lang}}" style="padding-top: 18px; padding-bottom: 20px; display: flex; flex-direction: column; gap: 16px">
+    <sc-for list="{{lines}}" as="ln" hint-placeholder-count="6">
+      <div class="{{ln.cls}}">
+        <sc-if value="{{ln.speaker}}" hint-placeholder-val="{{ false }}"><p class="eyebrow" style="color: var(--c-pink); margin-bottom: 2px">{{ln.speaker}}</p></sc-if>
+        <p style="font-size: 21px; font-weight: 600; line-height: 1.5">
+          <sc-for list="{{ln.words}}" as="w" hint-placeholder-count="6"><button type="button" class="{{w.cls}}" onClick="{{w.tap}}">{{w.text}}</button> </sc-for>
+        </p>
+        <sc-if value="{{ln.showEn}}" hint-placeholder-val="{{ false }}"><p lang="en" class="small" style="color: var(--c-cyan); font-weight: 600; margin-top: 2px">{{ln.english}}</p></sc-if>
+      </div>
+    </sc-for>
+  </article>
+
+  <sc-if value="{{hasPick}}" hint-placeholder-val="{{ true }}">
+    <div class="pad" style="position: relative; z-index: 2; margin-bottom: -6px">
+      <div class="paper rise" role="dialog" aria-label="Word translation" style="padding: 14px 14px 14px 16px; display: flex; align-items: center; gap: 12px">
+        <span aria-hidden="true" style="font-size: 38px; line-height: 1">{{pick.emoji}}</span>
+        <div style="flex: 1; min-width: 0">
+          <p lang="{{lang}}" style="font-size: 24px; font-weight: 800; display: flex; align-items: center; gap: 8px">
+            <sc-if value="{{pick.article}}" hint-placeholder-val="{{ true }}"><span class="{{pick.tagCls}}" style="font-size: 15px">{{pick.article}}</span></sc-if>{{pick.target}}
+          </p>
+          <p style="font-weight: 600; color: var(--c-ink-dim)">{{pick.english}}</p>
+        </div>
+        <button type="button" class="audio" aria-label="Hear the word"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"></path><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"></path></svg></button>
+        <button type="button" class="icon-btn plain" aria-label="Close" onClick="{{close}}" style="color: var(--c-ink); width: 36px"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg></button>
+      </div>
+    </div>
+  </sc-if>
+
+  <div class="foot" style="background: var(--c-ink); border-top: 2px solid var(--c-surface-2); flex-direction: row; align-items: center; gap: 14px; padding-top: 18px">
+    <button type="button" class="audio" aria-label="Previous line" style="background: var(--c-surface-2); color: var(--c-text); border-color: var(--c-line)"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 10 12l8 6zM6 6v12"></path></svg></button>
+    <button type="button" class="audio" aria-label="Pause" style="width: 64px; height: 64px; background: var(--c-yellow)"><svg class="ico fill" viewBox="0 0 24 24" aria-hidden="true" style="width: 28px; height: 28px"><rect x="6" y="5" width="4" height="14" rx="1"></rect><rect x="14" y="5" width="4" height="14" rx="1"></rect></svg></button>
+    <button type="button" class="audio" aria-label="Next line" style="background: var(--c-surface-2); color: var(--c-text); border-color: var(--c-line)"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l8 6-8 6zM18 6v12"></path></svg></button>
+    <div style="flex: 1"></div>
+    <button type="button" class="chip dark" aria-label="Playback speed">1×</button>
+    <button type="button" class="chip dark sel" aria-pressed="true">EN</button>
+  </div>
+</main>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"story":{"editor":null,"tsType":"Story"},"glossary":{"editor":null,"tsType":"Record<string, Item>"},"currentLine":{"editor":"int","min":0,"max":6,"default":2},"lang":{"editor":null,"tsType":"string"},"articles":{"editor":null,"tsType":"Record<\"m\" | \"f\" | \"n\", string>"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  state = { picked: 'stadt' };
+  renderVals() {
+    const story = this.props.story ?? { id: 'st1', title: 'Der erste Kaffee', level: 'A1', minutes: 3, lines: [
+      { target: 'Lena steht im Café. Sie ist nervös.', english: "Lena is standing in the café. She's nervous." },
+      { speaker: 'Barista', target: "Hallo! Was darf's sein?", english: 'Hi! What can I get you?' },
+      { speaker: 'Lena', target: 'Ich hätte gern einen Kaffee, bitte.', english: "I'd like a coffee, please." },
+      { speaker: 'Barista', target: 'Klein oder groß?', english: 'Small or large?' },
+      { speaker: 'Lena', target: 'Groß. Und ein Wasser, bitte.', english: 'Large. And a water, please.' },
+      { target: 'Lena lächelt. Die Stadt ist plötzlich nicht so groß.', english: "Lena smiles. Suddenly the city isn't so big." },
+    ] };
+    const glossary = this.props.glossary ?? {
+      'kaffee': { id: 'kaffee', target: 'Kaffee', english: 'coffee', gender: 'm', emoji: '☕', strength: 3 },
+      'wasser': { id: 'wasser', target: 'Wasser', english: 'water', gender: 'n', emoji: '💧', strength: 4 },
+      'stadt': { id: 'stadt', target: 'Stadt', english: 'city, town', gender: 'f', emoji: '🏙️', strength: 1 },
+      'café': { id: 'cafe', target: 'Café', english: 'café', gender: 'n', emoji: '🪑', strength: 2 },
+      'groß': { id: 'gross', target: 'groß', english: 'big, large', gender: null, emoji: '📏', strength: 2 },
+    };
+    const articles = this.props.articles ?? { m: 'der', f: 'die', n: 'das' };
+    const now = this.props.currentLine ?? 2;
+    const key = (t) => t.toLowerCase().replace(/[.,!?"„“]/g, '');
+    const p = glossary[this.state.picked];
+    return {
+      story, lang: this.props.lang ?? 'de',
+      lineCount: story.lines.length, nowLine: now + 1, pct: Math.round(((now + 1) / story.lines.length) * 100),
+      lines: story.lines.map((ln, i) => ({
+        speaker: ln.speaker ?? '', english: ln.english, showEn: i === now, cls:'line' + (i === now ? ' now' : ''),
+        words: ln.target.split(' ').map((text) => {
+          const k = key(text);
+          return { text, cls: 'wb' + (glossary[k] ? ' tap' : '') + (k === this.state.picked ? ' sel' : ''), tap: () => glossary[k] && this.setState({ picked: k }) };
+        }),
+      })),
+      hasPick: !!p,
+      pick: p ? { ...p, article: p.gender ? articles[p.gender] : '', tagCls: 'tag ' + (p.gender ?? '') } : {},
+      close: () => this.setState({ picked: null }),
+    };
+  }
+}
+</script>
+</body>
+</html>

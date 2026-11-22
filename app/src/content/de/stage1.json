@@ -1,0 +1,5223 @@
+{
+ "id": "s1",
+ "title": "Survival",
+ "level": "A1",
+ "units": [
+  {
+   "id": "s1u1",
+   "title": "Hello & who I am",
+   "lessons": [
+    {
+     "id": "s1u1l1",
+     "title": "Hello and goodbye",
+     "items": [
+      {
+       "id": "s1u1l1-hallo",
+       "target": "Hallo",
+       "english": "hello",
+       "gender": null,
+       "emoji": "👋",
+       "cognateHint": "Hallo ≈ hello",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-guten-morgen",
+       "target": "Guten Morgen",
+       "english": "good morning",
+       "gender": null,
+       "emoji": "🌅",
+       "cognateHint": "Morgen ≈ morn(ing)",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-guten-tag",
+       "target": "Guten Tag",
+       "english": "hello (daytime)",
+       "gender": null,
+       "emoji": "☀️",
+       "example": {
+        "target": "Guten Tag!",
+        "english": "Hello!"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-guten-abend",
+       "target": "Guten Abend",
+       "english": "good evening",
+       "gender": null,
+       "emoji": "🌆",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-gute-nacht",
+       "target": "Gute Nacht",
+       "english": "good night",
+       "gender": null,
+       "emoji": "🌙",
+       "cognateHint": "Nacht ≈ night",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-tschuess",
+       "target": "Tschüss",
+       "english": "bye",
+       "gender": null,
+       "emoji": "👋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-auf-wiedersehen",
+       "target": "Auf Wiedersehen",
+       "english": "goodbye (polite)",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-ja",
+       "target": "ja",
+       "english": "yes",
+       "gender": null,
+       "emoji": "✅",
+       "cognateHint": "ja ≈ yeah",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l1-nein",
+       "target": "nein",
+       "english": "no",
+       "gender": null,
+       "emoji": "❌",
+       "cognateHint": "nein ≈ nine/no",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l1-bitte",
+       "target": "bitte",
+       "english": "please / you're welcome",
+       "gender": null,
+       "emoji": "🙏",
+       "example": {
+        "target": "Ja, bitte.",
+        "english": "Yes, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l1-danke",
+       "target": "danke",
+       "english": "thanks",
+       "gender": null,
+       "emoji": "🙌",
+       "cognateHint": "danke ≈ thank",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l1-entschuldigung",
+       "target": "Entschuldigung",
+       "english": "excuse me / sorry",
+       "gender": null,
+       "emoji": "🙇",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Hallo!",
+       "english": "Hello!"
+      },
+      {
+       "target": "Guten Morgen!",
+       "english": "Good morning!"
+      },
+      {
+       "target": "Ja, bitte.",
+       "english": "Yes, please."
+      },
+      {
+       "target": "Nein, danke.",
+       "english": "No, thanks."
+      },
+      {
+       "target": "Danke, tschüss!",
+       "english": "Thanks, bye!"
+      },
+      {
+       "target": "Entschuldigung, guten Tag!",
+       "english": "Excuse me, hello!"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Guten ",
+       "after": "!",
+       "options": [
+        "Abend",
+        "Morgen",
+        "Nacht"
+       ],
+       "answer": 0,
+       "english": "Good evening!"
+      },
+      {
+       "before": "",
+       "after": ", danke!",
+       "options": [
+        "Nein",
+        "Tschüss",
+        "Hallo"
+       ],
+       "answer": 0,
+       "english": "No, thanks!"
+      },
+      {
+       "before": "Ja, ",
+       "after": ".",
+       "options": [
+        "bitte",
+        "Entschuldigung",
+        "Nacht"
+       ],
+       "answer": 0,
+       "english": "Yes, please."
+      },
+      {
+       "before": "Auf ",
+       "after": "!",
+       "options": [
+        "Wiedersehen",
+        "Morgen",
+        "Tag"
+       ],
+       "answer": 0,
+       "english": "Goodbye!"
+      }
+     ],
+     "dialogue": {
+      "scene": "Meeting a neighbour in the morning",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Morgen!",
+        "english": "Good morning!"
+       },
+       {
+        "who": "me",
+        "target": "Guten Morgen!",
+        "english": "Good morning!"
+       },
+       {
+        "who": "them",
+        "target": "Entschuldigung, bitte?",
+        "english": "Excuse me, please?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, bitte.",
+       "Guten Abend!",
+       "Gute Nacht, tschüss."
+      ],
+      "answer": 0
+     },
+     "tip": "Greetings change with the time of day: Guten Morgen, Guten Tag, Guten Abend. Use Tschüss with friends, Auf Wiedersehen with strangers."
+    },
+    {
+     "id": "s1u1l2",
+     "title": "I am... (ich, du)",
+     "items": [
+      {
+       "id": "s1u1l2-ich",
+       "target": "ich",
+       "english": "I",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-du",
+       "target": "du",
+       "english": "you (informal)",
+       "gender": null,
+       "emoji": "🫵",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-bin",
+       "target": "bin",
+       "english": "am",
+       "gender": null,
+       "cognateHint": "bin ≈ be(en)",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-bist",
+       "target": "bist",
+       "english": "are (you)",
+       "gender": null,
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-der-name",
+       "target": "der Name",
+       "english": "name",
+       "gender": "m",
+       "emoji": "🏷️",
+       "cognateHint": "Name ≈ name",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-ich-heisse",
+       "target": "Ich heiße…",
+       "english": "my name is…",
+       "gender": null,
+       "emoji": "🪪",
+       "cognateHint": "Ich heiße Anna.",
+       "example": {
+        "target": "My name is Anna."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l2-wie-heisst-du",
+       "target": "Wie heißt du?",
+       "english": "what's your name?",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l2-wie-geht-s",
+       "target": "Wie geht's?",
+       "english": "how are you?",
+       "gender": null,
+       "emoji": "💬",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l2-gut",
+       "target": "gut",
+       "english": "good / well",
+       "gender": null,
+       "emoji": "👍",
+       "cognateHint": "gut ≈ good",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-mir-geht-s-gut",
+       "target": "Mir geht's gut",
+       "english": "I'm doing well",
+       "gender": null,
+       "emoji": "😊",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l2-und",
+       "target": "und",
+       "english": "and",
+       "gender": null,
+       "emoji": "➕",
+       "cognateHint": "und ≈ and",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-und-du",
+       "target": "Und du?",
+       "english": "and you?",
+       "gender": null,
+       "emoji": "🫵",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich bin Tom.",
+       "english": "I am Tom."
+      },
+      {
+       "target": "Du bist gut.",
+       "english": "You are good."
+      },
+      {
+       "target": "Ich heiße Anna.",
+       "english": "My name is Anna."
+      },
+      {
+       "target": "Wie heißt du?",
+       "english": "What's your name?"
+      },
+      {
+       "target": "Wie geht's? Gut, und du?",
+       "english": "How are you? Good, and you?"
+      },
+      {
+       "target": "Mir geht's gut.",
+       "english": "I'm doing well."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Wie ",
+       "after": " du?",
+       "options": [
+        "heißt",
+        "heiße",
+        "bist"
+       ],
+       "answer": 0,
+       "english": "What's your name?"
+      },
+      {
+       "before": "Ich ",
+       "after": " Tom.",
+       "options": [
+        "heiße",
+        "heißt",
+        "bist"
+       ],
+       "answer": 0,
+       "english": "My name is Tom."
+      },
+      {
+       "before": "Du ",
+       "after": " gut.",
+       "options": [
+        "bist",
+        "bin",
+        "heiße"
+       ],
+       "answer": 0,
+       "english": "You are good."
+      },
+      {
+       "before": "Ich ",
+       "after": " Anna.",
+       "options": [
+        "bin",
+        "bist",
+        "heißt"
+       ],
+       "answer": 0,
+       "english": "I am Anna."
+      }
+     ],
+     "dialogue": {
+      "scene": "Meeting someone new",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo! Wie heißt du?",
+        "english": "Hello! What's your name?"
+       },
+       {
+        "who": "me",
+        "target": "Ich heiße Anna. Und du?",
+        "english": "My name is Anna. And you?"
+       },
+       {
+        "who": "them",
+        "target": "Ich bin Tom. Wie geht's?",
+        "english": "I'm Tom. How are you?"
+       }
+      ],
+      "replyOptions": [
+       "Mir geht's gut, danke.",
+       "Guten Morgen, Tom.",
+       "Ja, ich bin Anna."
+      ],
+      "answer": 0
+     },
+     "tip": "ich bin / du bist: \"to be\" changes with the person. Ich heiße = \"I am called\"."
+    },
+    {
+     "id": "s1u1l3",
+     "title": "Where I'm from",
+     "items": [
+      {
+       "id": "s1u1l3-mein-name-ist",
+       "target": "Mein Name ist…",
+       "english": "my name is…",
+       "gender": null,
+       "emoji": "🪪",
+       "cognateHint": "Mein Name ist Tom.",
+       "example": {
+        "target": "My name is Tom."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-kommen",
+       "target": "kommen",
+       "english": "to come",
+       "gender": null,
+       "emoji": "🚶",
+       "cognateHint": "kommen ≈ come",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-aus",
+       "target": "aus",
+       "english": "from / out of",
+       "gender": null,
+       "emoji": "📍",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-woher",
+       "target": "woher",
+       "english": "where from",
+       "gender": null,
+       "emoji": "🗺️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-woher-kommst-du",
+       "target": "Woher kommst du?",
+       "english": "where are you from?",
+       "gender": null,
+       "emoji": "🌍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-ich-komme-aus",
+       "target": "Ich komme aus…",
+       "english": "I come from…",
+       "gender": null,
+       "emoji": "🏠",
+       "cognateHint": "Ich komme aus England.",
+       "example": {
+        "target": "I'm from England."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-deutschland",
+       "target": "Deutschland",
+       "english": "Germany",
+       "gender": null,
+       "emoji": "🇩🇪",
+       "cognateHint": "Deutsch ≈ Dutch/German",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-england",
+       "target": "England",
+       "english": "England",
+       "gender": null,
+       "emoji": "🇬🇧",
+       "cognateHint": "England ≈ England",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-amerika",
+       "target": "Amerika",
+       "english": "America",
+       "gender": null,
+       "emoji": "🇺🇸",
+       "cognateHint": "Amerika ≈ America",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-die-stadt",
+       "target": "die Stadt",
+       "english": "city / town",
+       "gender": "f",
+       "emoji": "🏙️",
+       "cognateHint": "Stadt ≈ stead/town",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-wohnen",
+       "target": "wohnen",
+       "english": "to live (reside)",
+       "gender": null,
+       "emoji": "🏡",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-in",
+       "target": "in",
+       "english": "in",
+       "gender": null,
+       "emoji": "📌",
+       "cognateHint": "in ≈ in",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-wo",
+       "target": "wo",
+       "english": "where",
+       "gender": null,
+       "emoji": "📍",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Woher kommst du?",
+       "english": "Where are you from?"
+      },
+      {
+       "target": "Ich komme aus England.",
+       "english": "I'm from England."
+      },
+      {
+       "target": "Ich wohne in Deutschland.",
+       "english": "I live in Germany."
+      },
+      {
+       "target": "Mein Name ist Tom.",
+       "english": "My name is Tom."
+      },
+      {
+       "target": "Du wohnst in Amerika.",
+       "english": "You live in America."
+      },
+      {
+       "target": "Wo wohnst du?",
+       "english": "Where do you live?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich ",
+       "after": " aus England.",
+       "options": [
+        "komme",
+        "kommst",
+        "wohne"
+       ],
+       "answer": 0,
+       "english": "I come from England."
+      },
+      {
+       "before": "Woher ",
+       "after": " du?",
+       "options": [
+        "kommst",
+        "komme",
+        "wohnst"
+       ],
+       "answer": 0,
+       "english": "Where are you from?"
+      },
+      {
+       "before": "Ich ",
+       "after": " in Deutschland.",
+       "options": [
+        "wohne",
+        "wohnst",
+        "kommen"
+       ],
+       "answer": 0,
+       "english": "I live in Germany."
+      },
+      {
+       "before": "",
+       "after": " wohnst du?",
+       "options": [
+        "Wo",
+        "Woher",
+        "Und"
+       ],
+       "answer": 0,
+       "english": "Where do you live?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Chatting at a party",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo, ich bin Tom. Woher kommst du?",
+        "english": "Hi, I'm Tom. Where are you from?"
+       },
+       {
+        "who": "me",
+        "target": "Ich komme aus Amerika.",
+        "english": "I'm from America."
+       },
+       {
+        "who": "them",
+        "target": "Und wo wohnst du?",
+        "english": "And where do you live?"
+       }
+      ],
+      "replyOptions": [
+       "Ich wohne in Deutschland.",
+       "Ich bin Tom.",
+       "Mir geht's gut, danke."
+      ],
+      "answer": 0
+     },
+     "tip": "ich komme / du kommst, ich wohne / du wohnst: take the ich-form and swap the end for -st with du."
+    },
+    {
+     "id": "s1u1l4",
+     "title": "Speaking and understanding",
+     "items": [
+      {
+       "id": "s1u1l4-sprechen",
+       "target": "sprechen",
+       "english": "to speak",
+       "gender": null,
+       "emoji": "🗣️",
+       "cognateHint": "sprechen ≈ speak",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l4-deutsch",
+       "target": "Deutsch",
+       "english": "German",
+       "gender": null,
+       "emoji": "🇩🇪",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l4-englisch",
+       "target": "Englisch",
+       "english": "English",
+       "gender": null,
+       "emoji": "🇬🇧",
+       "cognateHint": "Englisch ≈ English",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l4-ein-bisschen",
+       "target": "ein bisschen",
+       "english": "a little",
+       "gender": null,
+       "emoji": "🤏",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l4-nicht",
+       "target": "nicht",
+       "english": "not",
+       "gender": null,
+       "emoji": "🚫",
+       "cognateHint": "nicht ≈ not",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l4-verstehen",
+       "target": "verstehen",
+       "english": "to understand",
+       "gender": null,
+       "emoji": "💡",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l4-wie-bitte",
+       "target": "Wie bitte?",
+       "english": "pardon?",
+       "gender": null,
+       "emoji": "👂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-noch-einmal-bitte",
+       "target": "Noch einmal, bitte",
+       "english": "once more, please",
+       "gender": null,
+       "emoji": "🔁",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-langsam",
+       "target": "langsam",
+       "english": "slow / slowly",
+       "gender": null,
+       "emoji": "🐢",
+       "cognateHint": "langsam ≈ slow(ly)",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l4-ich-verstehe-nicht",
+       "target": "Ich verstehe nicht",
+       "english": "I don't understand",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-sprichst-du-englisch",
+       "target": "Sprichst du Englisch?",
+       "english": "do you speak English?",
+       "gender": null,
+       "emoji": "💬",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-ich-spreche-ein-bisschen-deu",
+       "target": "Ich spreche ein bisschen Deutsch",
+       "english": "I speak a little German",
+       "gender": null,
+       "emoji": "🇩🇪",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Sprichst du Deutsch?",
+       "english": "Do you speak German?"
+      },
+      {
+       "target": "Ich spreche ein bisschen Deutsch.",
+       "english": "I speak a little German."
+      },
+      {
+       "target": "Ich verstehe nicht.",
+       "english": "I don't understand."
+      },
+      {
+       "target": "Langsam, bitte.",
+       "english": "Slowly, please."
+      },
+      {
+       "target": "Noch einmal, bitte.",
+       "english": "Once more, please."
+      },
+      {
+       "target": "Ich spreche Englisch.",
+       "english": "I speak English."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich verstehe ",
+       "after": ".",
+       "options": [
+        "nicht",
+        "gut",
+        "Deutsch"
+       ],
+       "answer": 0,
+       "english": "I don't understand."
+      },
+      {
+       "before": "Sprichst du ",
+       "after": "?",
+       "options": [
+        "Englisch",
+        "danke",
+        "langsam"
+       ],
+       "answer": 0,
+       "english": "Do you speak English?"
+      },
+      {
+       "before": "Ich spreche ein ",
+       "after": " Deutsch.",
+       "options": [
+        "bisschen",
+        "nicht",
+        "gut"
+       ],
+       "answer": 0,
+       "english": "I speak a little German."
+      },
+      {
+       "before": "",
+       "after": ", bitte.",
+       "options": [
+        "Langsam",
+        "Ja",
+        "Hallo"
+       ],
+       "answer": 0,
+       "english": "Slowly, please."
+      }
+     ],
+     "dialogue": {
+      "scene": "Someone speaks fast",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Tag!",
+        "english": "Hello!"
+       },
+       {
+        "who": "me",
+        "target": "Guten Tag!",
+        "english": "Hello!"
+       },
+       {
+        "who": "them",
+        "target": "Hallo! Woher kommst du und wo wohnst du?",
+        "english": "Hello! Where are you from and where do you live?"
+       }
+      ],
+      "replyOptions": [
+       "Noch einmal, bitte. Ich verstehe nicht.",
+       "Ja, ich verstehe nicht.",
+       "Nein, danke. Tschüss."
+      ],
+      "answer": 0
+     },
+     "tip": "nicht goes after the verb: \"Ich verstehe nicht\" = I don't understand."
+    },
+    {
+     "id": "s1u1l5",
+     "title": "My people",
+     "items": [
+      {
+       "id": "s1u1l5-er",
+       "target": "er",
+       "english": "he",
+       "gender": null,
+       "emoji": "👨",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-sie",
+       "target": "sie",
+       "english": "she (also: they)",
+       "gender": null,
+       "emoji": "👩",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-ist",
+       "target": "ist",
+       "english": "is",
+       "gender": null,
+       "cognateHint": "ist ≈ is",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-mein",
+       "target": "mein",
+       "english": "my",
+       "gender": null,
+       "emoji": "🫳",
+       "cognateHint": "mein ≈ mine",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-der-freund",
+       "target": "der Freund",
+       "english": "friend (male) / boyfriend",
+       "gender": "m",
+       "emoji": "🧑‍🤝‍🧑",
+       "cognateHint": "Freund ≈ friend",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-die-freundin",
+       "target": "die Freundin",
+       "english": "friend (female) / girlfriend",
+       "gender": "f",
+       "emoji": "👭",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-der-mann",
+       "target": "der Mann",
+       "english": "man",
+       "gender": "m",
+       "emoji": "👨",
+       "cognateHint": "Mann ≈ man",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-die-frau",
+       "target": "die Frau",
+       "english": "woman / Ms.",
+       "gender": "f",
+       "emoji": "👩",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-herr",
+       "target": "Herr",
+       "english": "Mr.",
+       "gender": null,
+       "emoji": "🎩",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-auch",
+       "target": "auch",
+       "english": "also / too",
+       "gender": null,
+       "emoji": "➕",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-das-ist",
+       "target": "Das ist…",
+       "english": "this is… / that is…",
+       "gender": null,
+       "emoji": "👉",
+       "cognateHint": "Das ist Tom.",
+       "example": {
+        "target": "This is Tom."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-wer-ist-das",
+       "target": "Wer ist das?",
+       "english": "who is that?",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-freut-mich",
+       "target": "Freut mich!",
+       "english": "nice to meet you",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Das ist mein Freund.",
+       "english": "This is my friend."
+      },
+      {
+       "target": "Das ist meine Freundin.",
+       "english": "This is my friend (female)."
+      },
+      {
+       "target": "Er heißt Tom.",
+       "english": "His name is Tom."
+      },
+      {
+       "target": "Sie heißt Anna.",
+       "english": "Her name is Anna."
+      },
+      {
+       "target": "Das ist Herr Müller.",
+       "english": "This is Mr. Müller."
+      },
+      {
+       "target": "Wer ist das? Das ist mein Mann.",
+       "english": "Who is that? That is my husband."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Das ist ",
+       "after": " Freundin.",
+       "options": [
+        "meine",
+        "mein",
+        "er"
+       ],
+       "answer": 0,
+       "english": "This is my friend (female)."
+      },
+      {
+       "before": "Er ",
+       "after": " Tom.",
+       "options": [
+        "heißt",
+        "heiße",
+        "bist"
+       ],
+       "answer": 0,
+       "english": "His name is Tom."
+      },
+      {
+       "before": "",
+       "after": " ist das?",
+       "options": [
+        "Wer",
+        "Wo",
+        "Wie"
+       ],
+       "answer": 0,
+       "english": "Who is that?"
+      },
+      {
+       "before": "Sie ",
+       "after": " Anna.",
+       "options": [
+        "heißt",
+        "heiße",
+        "bin"
+       ],
+       "answer": 0,
+       "english": "Her name is Anna."
+      }
+     ],
+     "dialogue": {
+      "scene": "Introducing a friend",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo Anna! Wer ist das?",
+        "english": "Hi Anna! Who is that?"
+       },
+       {
+        "who": "me",
+        "target": "Das ist mein Freund Tom.",
+        "english": "This is my friend Tom."
+       },
+       {
+        "who": "them",
+        "target": "Freut mich, Tom!",
+        "english": "Nice to meet you, Tom!"
+       }
+      ],
+      "replyOptions": [
+       "Freut mich auch!",
+       "Tschüss, Tom!",
+       "Er heißt Tom."
+      ],
+      "answer": 0
+     },
+     "tip": "mein → meine before feminine words: mein Freund, meine Freundin. er = he, sie = she."
+    }
+   ]
+  },
+  {
+   "id": "s1u2",
+   "title": "Ordering food & drink",
+   "lessons": [
+    {
+     "id": "s1u2l1",
+     "title": "Drinks",
+     "items": [
+      {
+       "id": "s1u2l1-das-wasser",
+       "target": "das Wasser",
+       "english": "water",
+       "gender": "n",
+       "emoji": "💧",
+       "cognateHint": "Wasser ≈ water",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-der-kaffee",
+       "target": "der Kaffee",
+       "english": "coffee",
+       "gender": "m",
+       "emoji": "☕",
+       "cognateHint": "Kaffee ≈ coffee",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-der-tee",
+       "target": "der Tee",
+       "english": "tea",
+       "gender": "m",
+       "emoji": "🍵",
+       "cognateHint": "Tee ≈ tea",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-die-milch",
+       "target": "die Milch",
+       "english": "milk",
+       "gender": "f",
+       "emoji": "🥛",
+       "cognateHint": "Milch ≈ milk",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-das-bier",
+       "target": "das Bier",
+       "english": "beer",
+       "gender": "n",
+       "emoji": "🍺",
+       "cognateHint": "Bier ≈ beer",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-der-wein",
+       "target": "der Wein",
+       "english": "wine",
+       "gender": "m",
+       "emoji": "🍷",
+       "cognateHint": "Wein ≈ wine",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-der-saft",
+       "target": "der Saft",
+       "english": "juice",
+       "gender": "m",
+       "emoji": "🧃",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-die-cola",
+       "target": "die Cola",
+       "english": "cola",
+       "gender": "f",
+       "emoji": "🥤",
+       "cognateHint": "Cola ≈ cola",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-das-glas",
+       "target": "das Glas",
+       "english": "glass",
+       "gender": "n",
+       "emoji": "🥛",
+       "cognateHint": "Glas ≈ glass",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-trinken",
+       "target": "trinken",
+       "english": "to drink",
+       "gender": null,
+       "emoji": "🥤",
+       "cognateHint": "trinken ≈ drink",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-ich-haette-gern",
+       "target": "Ich hätte gern…",
+       "english": "I would like…",
+       "gender": null,
+       "emoji": "🙋",
+       "cognateHint": "Ich hätte gern Wasser.",
+       "example": {
+        "target": "I'd like water."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l1-bitte-schoen",
+       "target": "Bitte schön",
+       "english": "here you go / you're welcome",
+       "gender": null,
+       "emoji": "🤲",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich trinke Wasser.",
+       "english": "I drink water."
+      },
+      {
+       "target": "Du trinkst Kaffee.",
+       "english": "You drink coffee."
+      },
+      {
+       "target": "Ich hätte gern Tee.",
+       "english": "I'd like tea."
+      },
+      {
+       "target": "Ich trinke Bier und du trinkst Wein.",
+       "english": "I drink beer and you drink wine."
+      },
+      {
+       "target": "Ich hätte gern Milch, bitte.",
+       "english": "I'd like milk, please."
+      },
+      {
+       "target": "Wasser, bitte.",
+       "english": "Water, please."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich ",
+       "after": " Wasser.",
+       "options": [
+        "trinke",
+        "trinkst",
+        "hätte"
+       ],
+       "answer": 0,
+       "english": "I drink water."
+      },
+      {
+       "before": "Ich hätte ",
+       "after": " Kaffee.",
+       "options": [
+        "gern",
+        "gut",
+        "nicht"
+       ],
+       "answer": 0,
+       "english": "I'd like coffee."
+      },
+      {
+       "before": "Du ",
+       "after": " Tee.",
+       "options": [
+        "trinkst",
+        "trinke",
+        "trinken"
+       ],
+       "answer": 0,
+       "english": "You drink tea."
+      },
+      {
+       "before": "Ich trinke ",
+       "after": " und Wasser.",
+       "options": [
+        "Bier",
+        "hätte",
+        "bitte"
+       ],
+       "answer": 0,
+       "english": "I drink beer and water."
+      }
+     ],
+     "dialogue": {
+      "scene": "Ordering with a friend",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo!",
+        "english": "Hi!"
+       },
+       {
+        "who": "me",
+        "target": "Hallo! Ich trinke Kaffee.",
+        "english": "Hi! I'm drinking coffee."
+       },
+       {
+        "who": "them",
+        "target": "Ich hätte gern Tee. Und du?",
+        "english": "I'd like tea. And you?"
+       }
+      ],
+      "replyOptions": [
+       "Ich trinke Kaffee, danke.",
+       "Ja, bitte schön.",
+       "Mir geht's gut, danke."
+      ],
+      "answer": 0
+     },
+     "tip": "ich trinke / du trinkst: the verb ending changes with the person. \"Ich hätte gern…\" is the polite way to order."
+    },
+    {
+     "id": "s1u2l2",
+     "title": "Food",
+     "items": [
+      {
+       "id": "s1u2l2-das-brot",
+       "target": "das Brot",
+       "english": "bread",
+       "gender": "n",
+       "emoji": "🍞",
+       "cognateHint": "Brot ≈ bread",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-der-kaese",
+       "target": "der Käse",
+       "english": "cheese",
+       "gender": "m",
+       "emoji": "🧀",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-der-apfel",
+       "target": "der Apfel",
+       "english": "apple",
+       "gender": "m",
+       "emoji": "🍎",
+       "cognateHint": "Apfel ≈ apple",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-die-banane",
+       "target": "die Banane",
+       "english": "banana",
+       "gender": "f",
+       "emoji": "🍌",
+       "cognateHint": "Banane ≈ banana",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-die-pizza",
+       "target": "die Pizza",
+       "english": "pizza",
+       "gender": "f",
+       "emoji": "🍕",
+       "cognateHint": "Pizza ≈ pizza",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-die-suppe",
+       "target": "die Suppe",
+       "english": "soup",
+       "gender": "f",
+       "emoji": "🍲",
+       "cognateHint": "Suppe ≈ soup",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-der-salat",
+       "target": "der Salat",
+       "english": "salad",
+       "gender": "m",
+       "emoji": "🥗",
+       "cognateHint": "Salat ≈ salad",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-das-eis",
+       "target": "das Eis",
+       "english": "ice cream",
+       "gender": "n",
+       "emoji": "🍦",
+       "cognateHint": "Eis ≈ ice",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-das-ei",
+       "target": "das Ei",
+       "english": "egg",
+       "gender": "n",
+       "emoji": "🥚",
+       "cognateHint": "Ei ≈ egg",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-das-fleisch",
+       "target": "das Fleisch",
+       "english": "meat",
+       "gender": "n",
+       "emoji": "🥩",
+       "cognateHint": "Fleisch ≈ flesh",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-der-kuchen",
+       "target": "der Kuchen",
+       "english": "cake",
+       "gender": "m",
+       "emoji": "🍰",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-essen",
+       "target": "essen",
+       "english": "to eat",
+       "gender": null,
+       "emoji": "🍽️",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich esse Brot.",
+       "english": "I eat bread."
+      },
+      {
+       "target": "Du isst Käse.",
+       "english": "You eat cheese."
+      },
+      {
+       "target": "Ich esse Pizza und trinke Wasser.",
+       "english": "I eat pizza and drink water."
+      },
+      {
+       "target": "Ich hätte gern Suppe.",
+       "english": "I'd like soup."
+      },
+      {
+       "target": "Ich esse Salat.",
+       "english": "I eat salad."
+      },
+      {
+       "target": "Ich esse Eis.",
+       "english": "I eat ice cream."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich ",
+       "after": " Brot.",
+       "options": [
+        "esse",
+        "isst",
+        "trinke"
+       ],
+       "answer": 0,
+       "english": "I eat bread."
+      },
+      {
+       "before": "Du ",
+       "after": " Käse.",
+       "options": [
+        "isst",
+        "esse",
+        "essen"
+       ],
+       "answer": 0,
+       "english": "You eat cheese."
+      },
+      {
+       "before": "Ich hätte gern ",
+       "after": ", bitte.",
+       "options": [
+        "Suppe",
+        "esse",
+        "du"
+       ],
+       "answer": 0,
+       "english": "I'd like soup, please."
+      },
+      {
+       "before": "Ich trinke Kaffee und ",
+       "after": " Kuchen.",
+       "options": [
+        "esse",
+        "isst",
+        "trinkst"
+       ],
+       "answer": 0,
+       "english": "I drink coffee and eat cake."
+      }
+     ],
+     "dialogue": {
+      "scene": "At a cafe table",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo! Ich esse Suppe.",
+        "english": "Hi! I'm eating soup."
+       },
+       {
+        "who": "me",
+        "target": "Ich esse Pizza.",
+        "english": "I'm eating pizza."
+       },
+       {
+        "who": "them",
+        "target": "Was trinkst du?",
+        "english": "What are you drinking?"
+       }
+      ],
+      "replyOptions": [
+       "Ich trinke Kaffee.",
+       "Danke, mir geht's gut.",
+       "Ich esse Wasser."
+      ],
+      "answer": 0
+     },
+     "tip": "Irregular verb: ich esse, du isst, er isst. Learn it as a chunk."
+    },
+    {
+     "id": "s1u2l3",
+     "title": "Ordering phrases",
+     "items": [
+      {
+       "id": "s1u2l3-das-restaurant",
+       "target": "das Restaurant",
+       "english": "restaurant",
+       "gender": "n",
+       "emoji": "🍴",
+       "cognateHint": "Restaurant ≈ restaurant",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-der-tisch",
+       "target": "der Tisch",
+       "english": "table",
+       "gender": "m",
+       "emoji": "🪑",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-die-speisekarte",
+       "target": "die Speisekarte",
+       "english": "menu",
+       "gender": "f",
+       "emoji": "📜",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-die-rechnung",
+       "target": "die Rechnung",
+       "english": "bill",
+       "gender": "f",
+       "emoji": "🧾",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-der-kellner",
+       "target": "der Kellner",
+       "english": "waiter",
+       "gender": "m",
+       "emoji": "🤵",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-ein",
+       "target": "ein",
+       "english": "a / an",
+       "gender": null,
+       "emoji": "1️⃣",
+       "cognateHint": "ein ≈ one",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-eine",
+       "target": "eine",
+       "english": "a / an (feminine)",
+       "gender": null,
+       "emoji": "1️⃣",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-einen",
+       "target": "einen",
+       "english": "a / an (masculine object)",
+       "gender": null,
+       "emoji": "1️⃣",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-sie",
+       "target": "Sie",
+       "english": "you (formal)",
+       "gender": null,
+       "emoji": "🎩",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-ich-nehme",
+       "target": "Ich nehme…",
+       "english": "I'll take…",
+       "gender": null,
+       "emoji": "👆",
+       "cognateHint": "Ich nehme eine Suppe.",
+       "example": {
+        "target": "I'll take a soup."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l3-zahlen-bitte",
+       "target": "Zahlen, bitte",
+       "english": "the bill, please",
+       "gender": null,
+       "emoji": "💶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l3-guten-appetit",
+       "target": "Guten Appetit!",
+       "english": "enjoy your meal",
+       "gender": null,
+       "emoji": "😋",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Die Speisekarte, bitte.",
+       "english": "The menu, please."
+      },
+      {
+       "target": "Ich nehme einen Kaffee.",
+       "english": "I'll take a coffee."
+      },
+      {
+       "target": "Ich nehme eine Suppe.",
+       "english": "I'll take a soup."
+      },
+      {
+       "target": "Ich nehme ein Bier.",
+       "english": "I'll take a beer."
+      },
+      {
+       "target": "Die Rechnung, bitte.",
+       "english": "The bill, please."
+      },
+      {
+       "target": "Ich hätte gern einen Tee.",
+       "english": "I'd like a tea."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich nehme ",
+       "after": " Suppe.",
+       "options": [
+        "eine",
+        "ein",
+        "einen"
+       ],
+       "answer": 0,
+       "english": "I'll take a soup."
+      },
+      {
+       "before": "Ich nehme ",
+       "after": " Kaffee.",
+       "options": [
+        "einen",
+        "eine",
+        "ein"
+       ],
+       "answer": 0,
+       "english": "I'll take a coffee."
+      },
+      {
+       "before": "Die ",
+       "after": ", bitte.",
+       "options": [
+        "Rechnung",
+        "Suppe",
+        "Cola"
+       ],
+       "answer": 0,
+       "english": "The bill, please."
+      },
+      {
+       "before": "",
+       "after": " Appetit!",
+       "options": [
+        "Guten",
+        "Gute",
+        "Gut"
+       ],
+       "answer": 0,
+       "english": "Enjoy your meal!"
+      }
+     ],
+     "dialogue": {
+      "scene": "The waiter takes your order",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Tag! Was trinken Sie?",
+        "english": "Hello! What are you drinking?"
+       },
+       {
+        "who": "me",
+        "target": "Ich hätte gern einen Kaffee.",
+        "english": "I'd like a coffee."
+       },
+       {
+        "who": "them",
+        "target": "Und was essen Sie?",
+        "english": "And what are you eating?"
+       }
+      ],
+      "replyOptions": [
+       "Ich nehme eine Suppe, bitte.",
+       "Ich nehme einen Suppe, bitte.",
+       "Die Rechnung, bitte."
+      ],
+      "answer": 0
+     },
+     "tip": "ein / eine / einen: ein Bier (das), eine Suppe (die), einen Kaffee (der). After \"ich nehme / ich hätte gern\", der-words get -en."
+    },
+    {
+     "id": "s1u2l4",
+     "title": "Tasty, hot, cold",
+     "items": [
+      {
+       "id": "s1u2l4-lecker",
+       "target": "lecker",
+       "english": "tasty",
+       "gender": null,
+       "emoji": "😋",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-heiss",
+       "target": "heiß",
+       "english": "hot",
+       "gender": null,
+       "emoji": "🔥",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-kalt",
+       "target": "kalt",
+       "english": "cold",
+       "gender": null,
+       "emoji": "🧊",
+       "cognateHint": "kalt ≈ cold",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-suess",
+       "target": "süß",
+       "english": "sweet",
+       "gender": null,
+       "emoji": "🍬",
+       "cognateHint": "süß ≈ sweet",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-mit",
+       "target": "mit",
+       "english": "with",
+       "gender": null,
+       "emoji": "🤝",
+       "cognateHint": "mit ≈ with",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-ohne",
+       "target": "ohne",
+       "english": "without",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-oder",
+       "target": "oder",
+       "english": "or",
+       "gender": null,
+       "emoji": "↔️",
+       "cognateHint": "oder ≈ or",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-der-zucker",
+       "target": "der Zucker",
+       "english": "sugar",
+       "gender": "m",
+       "emoji": "🍬",
+       "cognateHint": "Zucker ≈ sugar",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-das-salz",
+       "target": "das Salz",
+       "english": "salt",
+       "gender": "n",
+       "emoji": "🧂",
+       "cognateHint": "Salz ≈ salt",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-das-schmeckt-gut",
+       "target": "Das schmeckt gut",
+       "english": "that tastes good",
+       "gender": null,
+       "emoji": "👅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l4-mit-milch-bitte",
+       "target": "Mit Milch, bitte",
+       "english": "with milk, please",
+       "gender": null,
+       "emoji": "🥛",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l4-ohne-zucker-bitte",
+       "target": "Ohne Zucker, bitte",
+       "english": "without sugar, please",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Der Kaffee ist heiß.",
+       "english": "The coffee is hot."
+      },
+      {
+       "target": "Das Eis ist kalt.",
+       "english": "The ice cream is cold."
+      },
+      {
+       "target": "Der Kuchen ist süß.",
+       "english": "The cake is sweet."
+      },
+      {
+       "target": "Ich trinke Kaffee mit Milch.",
+       "english": "I drink coffee with milk."
+      },
+      {
+       "target": "Ich nehme Tee ohne Zucker.",
+       "english": "I'll take tea without sugar."
+      },
+      {
+       "target": "Kaffee oder Tee?",
+       "english": "Coffee or tea?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Das Eis ist ",
+       "after": ".",
+       "options": [
+        "kalt",
+        "heiß",
+        "süß"
+       ],
+       "answer": 0,
+       "english": "The ice cream is cold."
+      },
+      {
+       "before": "Kaffee ",
+       "after": " Milch, bitte.",
+       "options": [
+        "mit",
+        "ohne",
+        "oder"
+       ],
+       "answer": 0,
+       "english": "Coffee with milk, please."
+      },
+      {
+       "before": "Tee ",
+       "after": " Zucker, bitte.",
+       "options": [
+        "ohne",
+        "mit",
+        "und"
+       ],
+       "answer": 0,
+       "english": "Tea without sugar, please."
+      },
+      {
+       "before": "Das ist ",
+       "after": "!",
+       "options": [
+        "lecker",
+        "ohne",
+        "mit"
+       ],
+       "answer": 0,
+       "english": "That's tasty!"
+      }
+     ],
+     "dialogue": {
+      "scene": "Coffee or tea",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Kaffee oder Tee?",
+        "english": "Coffee or tea?"
+       },
+       {
+        "who": "me",
+        "target": "Kaffee, bitte.",
+        "english": "Coffee, please."
+       },
+       {
+        "who": "them",
+        "target": "Mit Milch und Zucker?",
+        "english": "With milk and sugar?"
+       }
+      ],
+      "replyOptions": [
+       "Mit Milch, ohne Zucker, bitte.",
+       "Ja, der Kaffee ist heiß.",
+       "Nein, danke, tschüss."
+      ],
+      "answer": 0
+     },
+     "tip": "mit = with, ohne = without. They come before the thing: Kaffee mit Milch, Tee ohne Zucker."
+    },
+    {
+     "id": "s1u2l5",
+     "title": "Meals and little phrases",
+     "items": [
+      {
+       "id": "s1u2l5-das-fruehstueck",
+       "target": "das Frühstück",
+       "english": "breakfast",
+       "gender": "n",
+       "emoji": "🥐",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-das-mittagessen",
+       "target": "das Mittagessen",
+       "english": "lunch",
+       "gender": "n",
+       "emoji": "🥪",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-das-abendessen",
+       "target": "das Abendessen",
+       "english": "dinner",
+       "gender": "n",
+       "emoji": "🍽️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-heute",
+       "target": "heute",
+       "english": "today",
+       "gender": null,
+       "emoji": "📅",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-jetzt",
+       "target": "jetzt",
+       "english": "now",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-hier",
+       "target": "hier",
+       "english": "here",
+       "gender": null,
+       "emoji": "📍",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-frei",
+       "target": "frei",
+       "english": "free / available",
+       "gender": null,
+       "emoji": "🆓",
+       "cognateHint": "frei ≈ free",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-noch",
+       "target": "noch",
+       "english": "still / more",
+       "gender": null,
+       "emoji": "➕",
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-ist-hier-noch-frei",
+       "target": "Ist hier noch frei?",
+       "english": "is this seat taken?",
+       "gender": null,
+       "emoji": "🪑",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l5-stimmt-so",
+       "target": "Stimmt so",
+       "english": "keep the change",
+       "gender": null,
+       "emoji": "💶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l5-zum-mitnehmen",
+       "target": "Zum Mitnehmen",
+       "english": "to go / takeaway",
+       "gender": null,
+       "emoji": "🥡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l5-hier-bitte",
+       "target": "Hier, bitte",
+       "english": "here you go",
+       "gender": null,
+       "emoji": "🤲",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Heute esse ich Suppe.",
+       "english": "Today I eat soup."
+      },
+      {
+       "target": "Jetzt trinke ich Kaffee.",
+       "english": "Now I drink coffee."
+      },
+      {
+       "target": "Ist hier noch frei?",
+       "english": "Is this seat still free?"
+      },
+      {
+       "target": "Ein Kaffee zum Mitnehmen, bitte.",
+       "english": "A coffee to go, please."
+      },
+      {
+       "target": "Heute trinke ich Tee ohne Zucker.",
+       "english": "Today I drink tea without sugar."
+      },
+      {
+       "target": "Das Abendessen ist lecker.",
+       "english": "The dinner is tasty."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Heute ",
+       "after": " ich Pizza.",
+       "options": [
+        "esse",
+        "isst",
+        "essen"
+       ],
+       "answer": 0,
+       "english": "Today I eat pizza."
+      },
+      {
+       "before": "Ist hier ",
+       "after": " frei?",
+       "options": [
+        "noch",
+        "nicht",
+        "mit"
+       ],
+       "answer": 0,
+       "english": "Is this still free?"
+      },
+      {
+       "before": "Ein Kaffee zum ",
+       "after": ", bitte.",
+       "options": [
+        "Mitnehmen",
+        "Frühstück",
+        "Tisch"
+       ],
+       "answer": 0,
+       "english": "A coffee to go, please."
+      },
+      {
+       "before": "",
+       "after": " trinke ich Wasser.",
+       "options": [
+        "Jetzt",
+        "Hier",
+        "Frei"
+       ],
+       "answer": 0,
+       "english": "Now I drink water."
+      }
+     ],
+     "dialogue": {
+      "scene": "Finding a table",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Tag!",
+        "english": "Hello!"
+       },
+       {
+        "who": "me",
+        "target": "Guten Tag! Ist hier noch frei?",
+        "english": "Hello! Is this seat still free?"
+       },
+       {
+        "who": "them",
+        "target": "Ja, der Tisch ist frei. Was essen Sie heute?",
+        "english": "Yes, the table is free. What are you eating today?"
+       }
+      ],
+      "replyOptions": [
+       "Heute esse ich Suppe, bitte.",
+       "Ja, hier ist frei.",
+       "Nein, danke, tschüss."
+      ],
+      "answer": 0
+     },
+     "tip": "Today I eat soup = \"Heute esse ich Suppe\": put heute first and the verb stays second."
+    }
+   ]
+  },
+  {
+   "id": "s1u3",
+   "title": "Numbers & prices",
+   "lessons": [
+    {
+     "id": "s1u3l1",
+     "title": "Numbers 0-10",
+     "items": [
+      {
+       "id": "s1u3l1-null",
+       "target": "null",
+       "english": "zero",
+       "gender": null,
+       "emoji": "0️⃣",
+       "cognateHint": "null ≈ null/nil",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-eins",
+       "target": "eins",
+       "english": "one",
+       "gender": null,
+       "emoji": "1️⃣",
+       "cognateHint": "eins ≈ one",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-zwei",
+       "target": "zwei",
+       "english": "two",
+       "gender": null,
+       "emoji": "2️⃣",
+       "cognateHint": "zwei ≈ two",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-drei",
+       "target": "drei",
+       "english": "three",
+       "gender": null,
+       "emoji": "3️⃣",
+       "cognateHint": "drei ≈ three",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-vier",
+       "target": "vier",
+       "english": "four",
+       "gender": null,
+       "emoji": "4️⃣",
+       "cognateHint": "vier ≈ four",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-fuenf",
+       "target": "fünf",
+       "english": "five",
+       "gender": null,
+       "emoji": "5️⃣",
+       "cognateHint": "fünf ≈ five",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-sechs",
+       "target": "sechs",
+       "english": "six",
+       "gender": null,
+       "emoji": "6️⃣",
+       "cognateHint": "sechs ≈ six",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-sieben",
+       "target": "sieben",
+       "english": "seven",
+       "gender": null,
+       "emoji": "7️⃣",
+       "cognateHint": "sieben ≈ seven",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-acht",
+       "target": "acht",
+       "english": "eight",
+       "gender": null,
+       "emoji": "8️⃣",
+       "cognateHint": "acht ≈ eight",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-neun",
+       "target": "neun",
+       "english": "nine",
+       "gender": null,
+       "emoji": "9️⃣",
+       "cognateHint": "neun ≈ nine",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-zehn",
+       "target": "zehn",
+       "english": "ten",
+       "gender": null,
+       "emoji": "🔟",
+       "cognateHint": "zehn ≈ ten",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-die-zahl",
+       "target": "die Zahl",
+       "english": "number",
+       "gender": "f",
+       "emoji": "🔢",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Eins, zwei, drei!",
+       "english": "One, two, three!"
+      },
+      {
+       "target": "Zwei Kaffee, bitte.",
+       "english": "Two coffees, please."
+      },
+      {
+       "target": "Vier Bier, bitte.",
+       "english": "Four beers, please."
+      },
+      {
+       "target": "Fünf und vier ist neun.",
+       "english": "Five and four is nine."
+      },
+      {
+       "target": "Sieben und drei ist zehn.",
+       "english": "Seven and three is ten."
+      },
+      {
+       "target": "Eins und eins ist zwei.",
+       "english": "One and one is two."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Eins, zwei, ",
+       "after": ".",
+       "options": [
+        "drei",
+        "vier",
+        "fünf"
+       ],
+       "answer": 0,
+       "english": "One, two, three."
+      },
+      {
+       "before": "Sechs und ",
+       "after": " ist zehn.",
+       "options": [
+        "vier",
+        "fünf",
+        "drei"
+       ],
+       "answer": 0,
+       "english": "Six and four is ten."
+      },
+      {
+       "before": "Acht und zwei ist ",
+       "after": ".",
+       "options": [
+        "zehn",
+        "neun",
+        "acht"
+       ],
+       "answer": 0,
+       "english": "Eight and two is ten."
+      },
+      {
+       "before": "",
+       "after": " Kaffee, bitte.",
+       "options": [
+        "Zwei",
+        "Zehn",
+        "Null"
+       ],
+       "answer": 0,
+       "english": "Two coffees, please."
+      }
+     ],
+     "dialogue": {
+      "scene": "Ordering two coffees",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Tag! Was trinken Sie?",
+        "english": "Hello! What are you drinking?"
+       },
+       {
+        "who": "me",
+        "target": "Zwei Kaffee, bitte.",
+        "english": "Two coffees, please."
+       },
+       {
+        "who": "them",
+        "target": "Und ein Wasser?",
+        "english": "And a water?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, ein Wasser und zwei Kaffee, bitte.",
+       "Ja, zwei und eins ist zehn.",
+       "Nein, danke, ich esse Wasser."
+      ],
+      "answer": 0
+     },
+     "tip": "Most numbers sound like English: zwei = two, drei = three, vier = four. Eins counts; ein is \"a / one\" before a noun."
+    },
+    {
+     "id": "s1u3l2",
+     "title": "Numbers 11-20",
+     "items": [
+      {
+       "id": "s1u3l2-elf",
+       "target": "elf",
+       "english": "eleven",
+       "gender": null,
+       "emoji": "1️⃣",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-zwoelf",
+       "target": "zwölf",
+       "english": "twelve",
+       "gender": null,
+       "emoji": "1️⃣",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-dreizehn",
+       "target": "dreizehn",
+       "english": "thirteen",
+       "gender": null,
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-vierzehn",
+       "target": "vierzehn",
+       "english": "fourteen",
+       "gender": null,
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-fuenfzehn",
+       "target": "fünfzehn",
+       "english": "fifteen",
+       "gender": null,
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-sechzehn",
+       "target": "sechzehn",
+       "english": "sixteen",
+       "gender": null,
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-siebzehn",
+       "target": "siebzehn",
+       "english": "seventeen",
+       "gender": null,
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-achtzehn",
+       "target": "achtzehn",
+       "english": "eighteen",
+       "gender": null,
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-neunzehn",
+       "target": "neunzehn",
+       "english": "nineteen",
+       "gender": null,
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-zwanzig",
+       "target": "zwanzig",
+       "english": "twenty",
+       "gender": null,
+       "emoji": "2️⃣",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-hundert",
+       "target": "hundert",
+       "english": "one hundred",
+       "gender": null,
+       "emoji": "💯",
+       "cognateHint": "hundert ≈ hundred",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-wie-viele",
+       "target": "Wie viele?",
+       "english": "how many?",
+       "gender": null,
+       "emoji": "🔢",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Zehn und zwei ist zwölf.",
+       "english": "Ten and two is twelve."
+      },
+      {
+       "target": "Fünfzehn und fünf ist zwanzig.",
+       "english": "Fifteen and five is twenty."
+      },
+      {
+       "target": "Elf, zwölf, dreizehn.",
+       "english": "Eleven, twelve, thirteen."
+      },
+      {
+       "target": "Sechzehn und vier ist zwanzig.",
+       "english": "Sixteen and four is twenty."
+      },
+      {
+       "target": "Achtzehn und zwei ist zwanzig.",
+       "english": "Eighteen and two is twenty."
+      },
+      {
+       "target": "Zehn und zehn ist zwanzig.",
+       "english": "Ten and ten is twenty."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Zehn und zwei ist ",
+       "after": ".",
+       "options": [
+        "zwölf",
+        "elf",
+        "zwanzig"
+       ],
+       "answer": 0,
+       "english": "Ten and two is twelve."
+      },
+      {
+       "before": "Fünfzehn und ",
+       "after": " ist zwanzig.",
+       "options": [
+        "fünf",
+        "vier",
+        "zehn"
+       ],
+       "answer": 0,
+       "english": "Fifteen and five is twenty."
+      },
+      {
+       "before": "Elf, zwölf, ",
+       "after": ".",
+       "options": [
+        "dreizehn",
+        "vierzehn",
+        "zwanzig"
+       ],
+       "answer": 0,
+       "english": "Eleven, twelve, thirteen."
+      },
+      {
+       "before": "Zehn und ",
+       "after": " ist zwanzig.",
+       "options": [
+        "zehn",
+        "fünf",
+        "elf"
+       ],
+       "answer": 0,
+       "english": "Ten and ten is twenty."
+      }
+     ],
+     "dialogue": {
+      "scene": "A maths game",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo! Wie geht's?",
+        "english": "Hi! How are you?"
+       },
+       {
+        "who": "me",
+        "target": "Gut, danke! Und du?",
+        "english": "Good, thanks! And you?"
+       },
+       {
+        "who": "them",
+        "target": "Fünfzehn und fünf. Was ist das?",
+        "english": "Fifteen and five. What is that?"
+       }
+      ],
+      "replyOptions": [
+       "Das ist zwanzig!",
+       "Das ist fünfzehn!",
+       "Das ist zehn."
+      ],
+      "answer": 0
+     },
+     "tip": "Teens are \"unit + zehn\": sechs → sechzehn, sieben → siebzehn (the s drops out of sechs and the en from sieben)."
+    },
+    {
+     "id": "s1u3l3",
+     "title": "Prices",
+     "items": [
+      {
+       "id": "s1u3l3-der-euro",
+       "target": "der Euro",
+       "english": "euro",
+       "gender": "m",
+       "emoji": "💶",
+       "cognateHint": "Euro ≈ euro",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-der-cent",
+       "target": "der Cent",
+       "english": "cent",
+       "gender": "m",
+       "emoji": "🪙",
+       "cognateHint": "Cent ≈ cent",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-das-geld",
+       "target": "das Geld",
+       "english": "money",
+       "gender": "n",
+       "emoji": "💰",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-kosten",
+       "target": "kosten",
+       "english": "to cost",
+       "gender": null,
+       "emoji": "🏷️",
+       "cognateHint": "kosten ≈ cost",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-was-kostet-das",
+       "target": "Was kostet das?",
+       "english": "what does that cost?",
+       "gender": null,
+       "emoji": "🏷️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l3-wie-viel-kostet-das",
+       "target": "Wie viel kostet das?",
+       "english": "how much is that?",
+       "gender": null,
+       "emoji": "💶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l3-teuer",
+       "target": "teuer",
+       "english": "expensive",
+       "gender": null,
+       "emoji": "💸",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-billig",
+       "target": "billig",
+       "english": "cheap",
+       "gender": null,
+       "emoji": "🏷️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-zu",
+       "target": "zu",
+       "english": "too",
+       "gender": null,
+       "emoji": "⚠️",
+       "cognateHint": "zu ≈ too",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-die-karte",
+       "target": "die Karte",
+       "english": "card (also: ticket, map)",
+       "gender": "f",
+       "emoji": "💳",
+       "cognateHint": "Karte ≈ card",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-bar",
+       "target": "bar",
+       "english": "cash",
+       "gender": null,
+       "emoji": "💵",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-das-macht",
+       "target": "Das macht…",
+       "english": "that comes to…",
+       "gender": null,
+       "emoji": "🧮",
+       "cognateHint": "Das macht zehn Euro.",
+       "example": {
+        "target": "That comes to ten euros."
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Was kostet das?",
+       "english": "What does that cost?"
+      },
+      {
+       "target": "Der Kaffee kostet drei Euro.",
+       "english": "The coffee costs three euros."
+      },
+      {
+       "target": "Das Bier kostet vier Euro.",
+       "english": "The beer costs four euros."
+      },
+      {
+       "target": "Das ist zu teuer.",
+       "english": "That is too expensive."
+      },
+      {
+       "target": "Das Eis ist billig.",
+       "english": "The ice cream is cheap."
+      },
+      {
+       "target": "Bar oder mit Karte?",
+       "english": "Cash or card?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Was ",
+       "after": " das?",
+       "options": [
+        "kostet",
+        "kosten",
+        "macht"
+       ],
+       "answer": 0,
+       "english": "What does that cost?"
+      },
+      {
+       "before": "Das ist zu ",
+       "after": ".",
+       "options": [
+        "teuer",
+        "Geld",
+        "Euro"
+       ],
+       "answer": 0,
+       "english": "That is too expensive."
+      },
+      {
+       "before": "Der Tee kostet zwei ",
+       "after": ".",
+       "options": [
+        "Euro",
+        "Karte",
+        "bar"
+       ],
+       "answer": 0,
+       "english": "The tea costs two euros."
+      },
+      {
+       "before": "Bar ",
+       "after": " mit Karte?",
+       "options": [
+        "oder",
+        "und",
+        "ohne"
+       ],
+       "answer": 0,
+       "english": "Cash or card?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Paying",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Das macht sieben Euro.",
+        "english": "That comes to seven euros."
+       },
+       {
+        "who": "me",
+        "target": "Sieben Euro? Ja.",
+        "english": "Seven euros? Yes."
+       },
+       {
+        "who": "them",
+        "target": "Bar oder mit Karte?",
+        "english": "Cash or card?"
+       }
+      ],
+      "replyOptions": [
+       "Mit Karte, bitte.",
+       "Zwei Kaffee, bitte.",
+       "Das ist zu teuer, bitte."
+      ],
+      "answer": 0
+     },
+     "tip": "Prices read like speech: \"drei Euro fünfzig\" = 3.50. Was kostet das? = What does that cost?"
+    },
+    {
+     "id": "s1u3l4",
+     "title": "At the bakery",
+     "items": [
+      {
+       "id": "s1u3l4-das-broetchen",
+       "target": "das Brötchen",
+       "english": "bread roll",
+       "gender": "n",
+       "emoji": "🥖",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-das-kilo",
+       "target": "das Kilo",
+       "english": "kilo",
+       "gender": "n",
+       "emoji": "⚖️",
+       "cognateHint": "Kilo ≈ kilo",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-das-stueck",
+       "target": "das Stück",
+       "english": "piece",
+       "gender": "n",
+       "emoji": "🧩",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-viel",
+       "target": "viel",
+       "english": "much / a lot",
+       "gender": null,
+       "emoji": "➕",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-wenig",
+       "target": "wenig",
+       "english": "little / few",
+       "gender": null,
+       "emoji": "➖",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-mehr",
+       "target": "mehr",
+       "english": "more",
+       "gender": null,
+       "emoji": "⬆️",
+       "cognateHint": "mehr ≈ more",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-alles",
+       "target": "alles",
+       "english": "everything",
+       "gender": null,
+       "emoji": "✅",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-zusammen",
+       "target": "zusammen",
+       "english": "together",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-sonst-noch-etwas",
+       "target": "Sonst noch etwas?",
+       "english": "anything else?",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l4-das-ist-alles",
+       "target": "Das ist alles",
+       "english": "that's all",
+       "gender": null,
+       "emoji": "✅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l4-ein-stueck-kuchen-bitte",
+       "target": "Ein Stück Kuchen, bitte",
+       "english": "a piece of cake, please",
+       "gender": null,
+       "emoji": "🍰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l4-noch-ein-broetchen-bitte",
+       "target": "Noch ein Brötchen, bitte",
+       "english": "one more roll, please",
+       "gender": null,
+       "emoji": "🥖",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ein Kilo Käse, bitte.",
+       "english": "A kilo of cheese, please."
+      },
+      {
+       "target": "Drei Brötchen, bitte.",
+       "english": "Three rolls, please."
+      },
+      {
+       "target": "Ein Stück Kuchen, bitte.",
+       "english": "A piece of cake, please."
+      },
+      {
+       "target": "Das ist alles, danke.",
+       "english": "That's all, thanks."
+      },
+      {
+       "target": "Sonst noch etwas?",
+       "english": "Anything else?"
+      },
+      {
+       "target": "Ein Kilo Käse kostet zehn Euro.",
+       "english": "A kilo of cheese costs ten euros."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ein ",
+       "after": " Käse, bitte.",
+       "options": [
+        "Kilo",
+        "Zucker",
+        "Brötchen"
+       ],
+       "answer": 0,
+       "english": "A kilo of cheese, please."
+      },
+      {
+       "before": "Sonst ",
+       "after": " etwas?",
+       "options": [
+        "noch",
+        "nicht",
+        "mehr"
+       ],
+       "answer": 0,
+       "english": "Anything else?"
+      },
+      {
+       "before": "Das ist ",
+       "after": ".",
+       "options": [
+        "alles",
+        "viel",
+        "wenig"
+       ],
+       "answer": 0,
+       "english": "That's all."
+      },
+      {
+       "before": "Ein ",
+       "after": " Kuchen, bitte.",
+       "options": [
+        "Stück",
+        "Kilo",
+        "Euro"
+       ],
+       "answer": 0,
+       "english": "A piece of cake, please."
+      }
+     ],
+     "dialogue": {
+      "scene": "At the bakery counter",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Morgen!",
+        "english": "Good morning!"
+       },
+       {
+        "who": "me",
+        "target": "Drei Brötchen und ein Stück Kuchen, bitte.",
+        "english": "Three rolls and a piece of cake, please."
+       },
+       {
+        "who": "them",
+        "target": "Bitte schön. Sonst noch etwas?",
+        "english": "Here you go. Anything else?"
+       }
+      ],
+      "replyOptions": [
+       "Nein, danke, das ist alles.",
+       "Ja, das ist zu teuer.",
+       "Nein, ich trinke Kaffee."
+      ],
+      "answer": 0
+     },
+     "tip": "\"ein Kilo Käse\", \"ein Stück Kuchen\": no word for \"of\" needed after amounts."
+    },
+    {
+     "id": "s1u3l5",
+     "title": "Telling the time",
+     "items": [
+      {
+       "id": "s1u3l5-die-uhr",
+       "target": "die Uhr",
+       "english": "clock / o'clock",
+       "gender": "f",
+       "emoji": "🕐",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-die-minute",
+       "target": "die Minute",
+       "english": "minute",
+       "gender": "f",
+       "emoji": "⏱️",
+       "cognateHint": "Minute ≈ minute",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-die-stunde",
+       "target": "die Stunde",
+       "english": "hour",
+       "gender": "f",
+       "emoji": "⌛",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-spaet",
+       "target": "spät",
+       "english": "late",
+       "gender": null,
+       "emoji": "🌙",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-frueh",
+       "target": "früh",
+       "english": "early",
+       "gender": null,
+       "emoji": "🌅",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-um",
+       "target": "um",
+       "english": "at (time)",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-es",
+       "target": "es",
+       "english": "it",
+       "gender": null,
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-halb",
+       "target": "halb",
+       "english": "half",
+       "gender": null,
+       "emoji": "➗",
+       "cognateHint": "halb ≈ half",
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-wie-spaet-ist-es",
+       "target": "Wie spät ist es?",
+       "english": "what time is it?",
+       "gender": null,
+       "emoji": "🕐",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l5-es-ist-drei-uhr",
+       "target": "Es ist drei Uhr",
+       "english": "it's three o'clock",
+       "gender": null,
+       "emoji": "🕒",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l5-um-acht-uhr",
+       "target": "Um acht Uhr",
+       "english": "at eight o'clock",
+       "gender": null,
+       "emoji": "🕗",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l5-bis-spaeter",
+       "target": "Bis später!",
+       "english": "see you later",
+       "gender": null,
+       "emoji": "👋",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Es ist drei Uhr.",
+       "english": "It's three o'clock."
+      },
+      {
+       "target": "Wie spät ist es?",
+       "english": "What time is it?"
+      },
+      {
+       "target": "Es ist zehn Uhr.",
+       "english": "It's ten o'clock."
+      },
+      {
+       "target": "Um acht Uhr esse ich Frühstück.",
+       "english": "At eight o'clock I eat breakfast."
+      },
+      {
+       "target": "Es ist zu früh.",
+       "english": "It is too early."
+      },
+      {
+       "target": "Das Abendessen ist um sieben Uhr.",
+       "english": "Dinner is at seven o'clock."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Es ",
+       "after": " fünf Uhr.",
+       "options": [
+        "ist",
+        "bin",
+        "bist"
+       ],
+       "answer": 0,
+       "english": "It is five o'clock."
+      },
+      {
+       "before": "Wie ",
+       "after": " ist es?",
+       "options": [
+        "spät",
+        "viel",
+        "gut"
+       ],
+       "answer": 0,
+       "english": "What time is it?"
+      },
+      {
+       "before": "",
+       "after": " acht Uhr trinke ich Kaffee.",
+       "options": [
+        "Um",
+        "Es",
+        "In"
+       ],
+       "answer": 0,
+       "english": "At eight o'clock I drink coffee."
+      },
+      {
+       "before": "Es ist zu ",
+       "after": ".",
+       "options": [
+        "früh",
+        "Uhr",
+        "halb"
+       ],
+       "answer": 0,
+       "english": "It is too early."
+      }
+     ],
+     "dialogue": {
+      "scene": "Asking the time",
+      "lines": [
+       {
+        "who": "me",
+        "target": "Entschuldigung, wie spät ist es?",
+        "english": "Excuse me, what time is it?"
+       },
+       {
+        "who": "them",
+        "target": "Es ist drei Uhr.",
+        "english": "It's three o'clock."
+       },
+       {
+        "who": "me",
+        "target": "Danke! Tschüss, bis später!",
+        "english": "Thanks! Bye, see you later!"
+       },
+       {
+        "who": "them",
+        "target": "Tschüss, bis später!",
+        "english": "Bye, see you later!"
+       }
+      ],
+      "replyOptions": [
+       "Tschüss, bis später!",
+       "Guten Morgen!",
+       "Es ist drei Uhr."
+      ],
+      "answer": 0
+     },
+     "tip": "halb drei means 2:30 (half way TO three), not 3:30. Um acht Uhr = at eight o'clock."
+    }
+   ]
+  },
+  {
+   "id": "s1u4",
+   "title": "Getting around",
+   "lessons": [
+    {
+     "id": "s1u4l1",
+     "title": "Places in town",
+     "items": [
+      {
+       "id": "s1u4l1-der-bahnhof",
+       "target": "der Bahnhof",
+       "english": "train station",
+       "gender": "m",
+       "emoji": "🚉",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-der-bus",
+       "target": "der Bus",
+       "english": "bus",
+       "gender": "m",
+       "emoji": "🚌",
+       "cognateHint": "Bus ≈ bus",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-der-zug",
+       "target": "der Zug",
+       "english": "train",
+       "gender": "m",
+       "emoji": "🚆",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-das-taxi",
+       "target": "das Taxi",
+       "english": "taxi",
+       "gender": "n",
+       "emoji": "🚕",
+       "cognateHint": "Taxi ≈ taxi",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-die-strasse",
+       "target": "die Straße",
+       "english": "street",
+       "gender": "f",
+       "emoji": "🛣️",
+       "cognateHint": "Straße ≈ street",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-der-flughafen",
+       "target": "der Flughafen",
+       "english": "airport",
+       "gender": "m",
+       "emoji": "✈️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-das-hotel",
+       "target": "das Hotel",
+       "english": "hotel",
+       "gender": "n",
+       "emoji": "🏨",
+       "cognateHint": "Hotel ≈ hotel",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-der-supermarkt",
+       "target": "der Supermarkt",
+       "english": "supermarket",
+       "gender": "m",
+       "emoji": "🛒",
+       "cognateHint": "Supermarkt ≈ supermarket",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-die-bank",
+       "target": "die Bank",
+       "english": "bank",
+       "gender": "f",
+       "emoji": "🏦",
+       "cognateHint": "Bank ≈ bank",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-der-park",
+       "target": "der Park",
+       "english": "park",
+       "gender": "m",
+       "emoji": "🌳",
+       "cognateHint": "Park ≈ park",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-die-toilette",
+       "target": "die Toilette",
+       "english": "toilet",
+       "gender": "f",
+       "emoji": "🚻",
+       "cognateHint": "Toilette ≈ toilet",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-wo-ist",
+       "target": "Wo ist…?",
+       "english": "where is…?",
+       "gender": null,
+       "emoji": "📍",
+       "cognateHint": "Wo ist der Bahnhof?",
+       "example": {
+        "target": "Where is the train station?"
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Wo ist der Bahnhof?",
+       "english": "Where is the train station?"
+      },
+      {
+       "target": "Wo ist die Toilette?",
+       "english": "Where is the toilet?"
+      },
+      {
+       "target": "Das ist das Hotel.",
+       "english": "That is the hotel."
+      },
+      {
+       "target": "Der Bus ist hier.",
+       "english": "The bus is here."
+      },
+      {
+       "target": "Wo ist der Supermarkt?",
+       "english": "Where is the supermarket?"
+      },
+      {
+       "target": "Das Hotel ist hier.",
+       "english": "The hotel is here."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Wo ",
+       "after": " der Bahnhof?",
+       "options": [
+        "ist",
+        "bin",
+        "bist"
+       ],
+       "answer": 0,
+       "english": "Where is the train station?"
+      },
+      {
+       "before": "Wo ist ",
+       "after": " Toilette?",
+       "options": [
+        "die",
+        "der",
+        "das"
+       ],
+       "answer": 0,
+       "english": "Where is the toilet?"
+      },
+      {
+       "before": "Wo ist ",
+       "after": " Flughafen?",
+       "options": [
+        "der",
+        "die",
+        "das"
+       ],
+       "answer": 0,
+       "english": "Where is the airport?"
+      },
+      {
+       "before": "Wo ist ",
+       "after": " Hotel?",
+       "options": [
+        "das",
+        "der",
+        "die"
+       ],
+       "answer": 0,
+       "english": "Where is the hotel?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Looking for the toilet",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Tag!",
+        "english": "Hello!"
+       },
+       {
+        "who": "me",
+        "target": "Guten Tag! Entschuldigung, wo ist die Toilette?",
+        "english": "Hello! Excuse me, where is the toilet?"
+       },
+       {
+        "who": "them",
+        "target": "Die Toilette ist hier, bitte.",
+        "english": "The toilet is here, please."
+       }
+      ],
+      "replyOptions": [
+       "Danke! Tschüss!",
+       "Bitte schön!",
+       "Wo ist die Toilette?"
+      ],
+      "answer": 0
+     },
+     "tip": "Always learn the article with the noun: der Bahnhof, die Toilette, das Hotel. \"Wo ist…?\" = where is…?"
+    },
+    {
+     "id": "s1u4l2",
+     "title": "Left, right, straight on",
+     "items": [
+      {
+       "id": "s1u4l2-links",
+       "target": "links",
+       "english": "left",
+       "gender": null,
+       "emoji": "⬅️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-rechts",
+       "target": "rechts",
+       "english": "right",
+       "gender": null,
+       "emoji": "➡️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-geradeaus",
+       "target": "geradeaus",
+       "english": "straight ahead",
+       "gender": null,
+       "emoji": "⬆️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-nah",
+       "target": "nah",
+       "english": "near",
+       "gender": null,
+       "emoji": "📍",
+       "cognateHint": "nah ≈ nigh/near",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-weit",
+       "target": "weit",
+       "english": "far",
+       "gender": null,
+       "emoji": "↔️",
+       "cognateHint": "weit ≈ wide",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-dort",
+       "target": "dort",
+       "english": "there",
+       "gender": null,
+       "emoji": "👉",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-dann",
+       "target": "dann",
+       "english": "then",
+       "gender": null,
+       "emoji": "➡️",
+       "cognateHint": "dann ≈ then",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-gehen",
+       "target": "gehen",
+       "english": "to go / to walk",
+       "gender": null,
+       "emoji": "🚶",
+       "cognateHint": "gehen ≈ go",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-fahren",
+       "target": "fahren",
+       "english": "to go (by vehicle) / to drive",
+       "gender": null,
+       "emoji": "🚗",
+       "cognateHint": "fahren ≈ fare",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-die-ecke",
+       "target": "die Ecke",
+       "english": "corner",
+       "gender": "f",
+       "emoji": "📐",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-wie-komme-ich-zum-bahnhof",
+       "target": "Wie komme ich zum Bahnhof?",
+       "english": "how do I get to the station?",
+       "gender": null,
+       "emoji": "🗺️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l2-immer-geradeaus",
+       "target": "Immer geradeaus",
+       "english": "keep going straight",
+       "gender": null,
+       "emoji": "⬆️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l2-das-ist-nicht-weit",
+       "target": "Das ist nicht weit",
+       "english": "it's not far",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Gehen Sie geradeaus.",
+       "english": "Go straight ahead."
+      },
+      {
+       "target": "Gehen Sie links, dann rechts.",
+       "english": "Go left, then right."
+      },
+      {
+       "target": "Der Bahnhof ist dort.",
+       "english": "The train station is there."
+      },
+      {
+       "target": "Das ist nicht weit.",
+       "english": "That is not far."
+      },
+      {
+       "target": "Das Hotel ist links.",
+       "english": "The hotel is on the left."
+      },
+      {
+       "target": "Der Park ist rechts.",
+       "english": "The park is on the right."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Gehen Sie ",
+       "after": ".",
+       "options": [
+        "links",
+        "Bahnhof",
+        "Stadt"
+       ],
+       "answer": 0,
+       "english": "Go left."
+      },
+      {
+       "before": "Der Bahnhof ist ",
+       "after": ".",
+       "options": [
+        "dort",
+        "gehen",
+        "nah"
+       ],
+       "answer": 0,
+       "english": "The train station is there."
+      },
+      {
+       "before": "Das ist nicht ",
+       "after": ".",
+       "options": [
+        "weit",
+        "rechts",
+        "dann"
+       ],
+       "answer": 0,
+       "english": "That is not far."
+      },
+      {
+       "before": "",
+       "after": " Sie geradeaus.",
+       "options": [
+        "Gehen",
+        "Gehe",
+        "Gehst"
+       ],
+       "answer": 0,
+       "english": "Go straight ahead."
+      }
+     ],
+     "dialogue": {
+      "scene": "Asking the way",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Tag!",
+        "english": "Hello!"
+       },
+       {
+        "who": "me",
+        "target": "Entschuldigung, wie komme ich zum Bahnhof?",
+        "english": "Excuse me, how do I get to the station?"
+       },
+       {
+        "who": "them",
+        "target": "Das ist nicht weit. Gehen Sie immer geradeaus, dann links.",
+        "english": "It's not far. Keep going straight, then left."
+       }
+      ],
+      "replyOptions": [
+       "Danke, tschüss!",
+       "Bitte schön!",
+       "Wie komme ich zum Bahnhof?"
+      ],
+      "answer": 0
+     },
+     "tip": "\"Gehen Sie…\" = polite command: verb first, then Sie. Gehen Sie links = go left."
+    },
+    {
+     "id": "s1u4l3",
+     "title": "Tickets and trains",
+     "items": [
+      {
+       "id": "s1u4l3-die-fahrkarte",
+       "target": "die Fahrkarte",
+       "english": "ticket",
+       "gender": "f",
+       "emoji": "🎫",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-das-gleis",
+       "target": "das Gleis",
+       "english": "platform / track",
+       "gender": "n",
+       "emoji": "🛤️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-die-haltestelle",
+       "target": "die Haltestelle",
+       "english": "stop",
+       "gender": "f",
+       "emoji": "🚏",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-die-u-bahn",
+       "target": "die U-Bahn",
+       "english": "subway / metro",
+       "gender": "f",
+       "emoji": "🚇",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-einmal",
+       "target": "einmal",
+       "english": "once / one ticket",
+       "gender": null,
+       "emoji": "1️⃣",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-nach",
+       "target": "nach",
+       "english": "to (a city)",
+       "gender": null,
+       "emoji": "➡️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-berlin",
+       "target": "Berlin",
+       "english": "Berlin",
+       "gender": null,
+       "emoji": "🐻",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-muenchen",
+       "target": "München",
+       "english": "Munich",
+       "gender": null,
+       "emoji": "🍺",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-wann",
+       "target": "wann",
+       "english": "when",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-einmal-nach-berlin-bitte",
+       "target": "Einmal nach Berlin, bitte",
+       "english": "one ticket to Berlin, please",
+       "gender": null,
+       "emoji": "🎫",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l3-wann-faehrt-der-zug",
+       "target": "Wann fährt der Zug?",
+       "english": "when does the train leave?",
+       "gender": null,
+       "emoji": "🚆",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l3-welches-gleis",
+       "target": "Welches Gleis?",
+       "english": "which platform?",
+       "gender": null,
+       "emoji": "🛤️",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Einmal nach München, bitte.",
+       "english": "One ticket to Munich, please."
+      },
+      {
+       "target": "Wann fährt der Zug nach Berlin?",
+       "english": "When does the train to Berlin leave?"
+      },
+      {
+       "target": "Der Zug fährt um zehn Uhr.",
+       "english": "The train leaves at ten o'clock."
+      },
+      {
+       "target": "Wo ist das Gleis?",
+       "english": "Where is the platform?"
+      },
+      {
+       "target": "Wo ist die Haltestelle?",
+       "english": "Where is the stop?"
+      },
+      {
+       "target": "Die Fahrkarte kostet zwanzig Euro.",
+       "english": "The ticket costs twenty euros."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Einmal ",
+       "after": " Berlin, bitte.",
+       "options": [
+        "nach",
+        "aus",
+        "in"
+       ],
+       "answer": 0,
+       "english": "One ticket to Berlin, please."
+      },
+      {
+       "before": "Wann ",
+       "after": " der Zug?",
+       "options": [
+        "fährt",
+        "fahre",
+        "fahren"
+       ],
+       "answer": 0,
+       "english": "When does the train leave?"
+      },
+      {
+       "before": "Wo ist die ",
+       "after": "?",
+       "options": [
+        "Haltestelle",
+        "Straße",
+        "Toilette"
+       ],
+       "answer": 0,
+       "english": "Where is the stop?"
+      },
+      {
+       "before": "Der Zug fährt ",
+       "after": " zehn Uhr.",
+       "options": [
+        "um",
+        "nach",
+        "aus"
+       ],
+       "answer": 0,
+       "english": "The train leaves at ten o'clock."
+      }
+     ],
+     "dialogue": {
+      "scene": "At the ticket counter",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Tag!",
+        "english": "Hello!"
+       },
+       {
+        "who": "me",
+        "target": "Guten Tag! Einmal nach Berlin, bitte.",
+        "english": "Hello! One ticket to Berlin, please."
+       },
+       {
+        "who": "them",
+        "target": "Der Zug fährt um zehn Uhr. Gleis fünf.",
+        "english": "The train leaves at ten o'clock. Platform five."
+       }
+      ],
+      "replyOptions": [
+       "Danke! Wo ist Gleis fünf?",
+       "Mit Karte, bitte.",
+       "Das ist zu teuer."
+      ],
+      "answer": 0
+     },
+     "tip": "nach + city = to a city: nach Berlin. um + time = at: um zehn Uhr."
+    },
+    {
+     "id": "s1u4l4",
+     "title": "Looking for things",
+     "items": [
+      {
+       "id": "s1u4l4-suchen",
+       "target": "suchen",
+       "english": "to look for",
+       "gender": null,
+       "emoji": "🔍",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-finden",
+       "target": "finden",
+       "english": "to find",
+       "gender": null,
+       "emoji": "🔎",
+       "cognateHint": "finden ≈ find",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-die-hilfe",
+       "target": "die Hilfe",
+       "english": "help",
+       "gender": "f",
+       "emoji": "🆘",
+       "cognateHint": "Hilfe ≈ help",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-neu",
+       "target": "neu",
+       "english": "new",
+       "gender": null,
+       "emoji": "✨",
+       "cognateHint": "neu ≈ new",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-der-tourist",
+       "target": "der Tourist",
+       "english": "tourist",
+       "gender": "m",
+       "emoji": "📸",
+       "cognateHint": "Tourist ≈ tourist",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-der-stadtplan",
+       "target": "der Stadtplan",
+       "english": "city map",
+       "gender": "m",
+       "emoji": "🗺️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-die-information",
+       "target": "die Information",
+       "english": "information desk",
+       "gender": "f",
+       "emoji": "ℹ️",
+       "cognateHint": "Information ≈ information",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-den",
+       "target": "den",
+       "english": "the (masculine object)",
+       "gender": null,
+       "emoji": "👉",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-ich-suche",
+       "target": "Ich suche…",
+       "english": "I'm looking for…",
+       "gender": null,
+       "emoji": "🔍",
+       "cognateHint": "Ich suche das Hotel.",
+       "example": {
+        "target": "I'm looking for the hotel."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l4-ich-finde-nicht",
+       "target": "Ich finde … nicht",
+       "english": "I can't find…",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l4-ich-bin-neu-hier",
+       "target": "Ich bin neu hier",
+       "english": "I'm new here",
+       "gender": null,
+       "emoji": "🆕",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l4-hilfe",
+       "target": "Hilfe!",
+       "english": "help!",
+       "gender": null,
+       "emoji": "🆘",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich suche den Bahnhof.",
+       "english": "I'm looking for the train station."
+      },
+      {
+       "target": "Ich suche das Hotel.",
+       "english": "I'm looking for the hotel."
+      },
+      {
+       "target": "Ich finde die Haltestelle nicht.",
+       "english": "I can't find the stop."
+      },
+      {
+       "target": "Ich bin neu hier.",
+       "english": "I'm new here."
+      },
+      {
+       "target": "Ich bin Tourist.",
+       "english": "I'm a tourist."
+      },
+      {
+       "target": "Ich suche den Supermarkt.",
+       "english": "I'm looking for the supermarket."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich suche ",
+       "after": " Bahnhof.",
+       "options": [
+        "den",
+        "die",
+        "das"
+       ],
+       "answer": 0,
+       "english": "I'm looking for the train station."
+      },
+      {
+       "before": "Ich suche ",
+       "after": " Hotel.",
+       "options": [
+        "das",
+        "den",
+        "die"
+       ],
+       "answer": 0,
+       "english": "I'm looking for the hotel."
+      },
+      {
+       "before": "Ich ",
+       "after": " die Toilette nicht.",
+       "options": [
+        "finde",
+        "suche",
+        "bin"
+       ],
+       "answer": 0,
+       "english": "I can't find the toilet."
+      },
+      {
+       "before": "Ich bin ",
+       "after": " hier.",
+       "options": [
+        "neu",
+        "gut",
+        "weit"
+       ],
+       "answer": 0,
+       "english": "I'm new here."
+      }
+     ],
+     "dialogue": {
+      "scene": "Lost tourist",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Guten Tag!",
+        "english": "Hello!"
+       },
+       {
+        "who": "me",
+        "target": "Entschuldigung! Ich bin neu hier. Ich suche den Bahnhof.",
+        "english": "Excuse me! I'm new here. I'm looking for the train station."
+       },
+       {
+        "who": "them",
+        "target": "Der Bahnhof ist nicht weit. Gehen Sie geradeaus.",
+        "english": "The station is not far. Go straight ahead."
+       }
+      ],
+      "replyOptions": [
+       "Danke! Und wo ist die Haltestelle?",
+       "Ja, ich bin Tourist, tschüss.",
+       "Ich suche den Bahnhof."
+      ],
+      "answer": 0
+     },
+     "tip": "der → den after verbs like suchen and finden: Ich suche den Bahnhof. die and das don't change."
+    },
+    {
+     "id": "s1u4l5",
+     "title": "Around the corner",
+     "items": [
+      {
+       "id": "s1u4l5-die-kirche",
+       "target": "die Kirche",
+       "english": "church",
+       "gender": "f",
+       "emoji": "⛪",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-das-museum",
+       "target": "das Museum",
+       "english": "museum",
+       "gender": "n",
+       "emoji": "🏛️",
+       "cognateHint": "Museum ≈ museum",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-das-kino",
+       "target": "das Kino",
+       "english": "cinema",
+       "gender": "n",
+       "emoji": "🎬",
+       "cognateHint": "Kino ≈ cinema",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-der-markt",
+       "target": "der Markt",
+       "english": "market",
+       "gender": "m",
+       "emoji": "🧺",
+       "cognateHint": "Markt ≈ market",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-das-caf",
+       "target": "das Café",
+       "english": "cafe",
+       "gender": "n",
+       "emoji": "☕",
+       "cognateHint": "Café ≈ cafe",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-die-post",
+       "target": "die Post",
+       "english": "post office",
+       "gender": "f",
+       "emoji": "📮",
+       "cognateHint": "Post ≈ post",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-die-apotheke",
+       "target": "die Apotheke",
+       "english": "pharmacy",
+       "gender": "f",
+       "emoji": "💊",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-die-bruecke",
+       "target": "die Brücke",
+       "english": "bridge",
+       "gender": "f",
+       "emoji": "🌉",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-der-weg",
+       "target": "der Weg",
+       "english": "way / path",
+       "gender": "m",
+       "emoji": "🛤️",
+       "cognateHint": "Weg ≈ way",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-gleich",
+       "target": "gleich",
+       "english": "right away / right (nearby)",
+       "gender": null,
+       "emoji": "⚡",
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-gleich-um-die-ecke",
+       "target": "Gleich um die Ecke",
+       "english": "just around the corner",
+       "gender": null,
+       "emoji": "📐",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l5-gute-reise",
+       "target": "Gute Reise!",
+       "english": "have a good trip",
+       "gender": null,
+       "emoji": "🧳",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Wo ist das Museum?",
+       "english": "Where is the museum?"
+      },
+      {
+       "target": "Das Café ist gleich um die Ecke.",
+       "english": "The cafe is just around the corner."
+      },
+      {
+       "target": "Gehen Sie links, dann ist die Post rechts.",
+       "english": "Go left, then the post office is on the right."
+      },
+      {
+       "target": "Die Kirche ist nicht weit.",
+       "english": "The church is not far."
+      },
+      {
+       "target": "Ich suche die Apotheke.",
+       "english": "I'm looking for the pharmacy."
+      },
+      {
+       "target": "Das Kino ist dort.",
+       "english": "The cinema is there."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Das Café ist ",
+       "after": " um die Ecke.",
+       "options": [
+        "gleich",
+        "links",
+        "nah"
+       ],
+       "answer": 0,
+       "english": "The cafe is just around the corner."
+      },
+      {
+       "before": "Wo ist ",
+       "after": " Museum?",
+       "options": [
+        "das",
+        "der",
+        "die"
+       ],
+       "answer": 0,
+       "english": "Where is the museum?"
+      },
+      {
+       "before": "Die Post ist ",
+       "after": ".",
+       "options": [
+        "rechts",
+        "Kino",
+        "Markt"
+       ],
+       "answer": 0,
+       "english": "The post office is on the right."
+      },
+      {
+       "before": "Ich ",
+       "after": " den Markt.",
+       "options": [
+        "suche",
+        "sucht",
+        "suchen"
+       ],
+       "answer": 0,
+       "english": "I'm looking for the market."
+      }
+     ],
+     "dialogue": {
+      "scene": "The pharmacy",
+      "lines": [
+       {
+        "who": "me",
+        "target": "Entschuldigung, wo ist die Apotheke?",
+        "english": "Excuse me, where is the pharmacy?"
+       },
+       {
+        "who": "them",
+        "target": "Gehen Sie geradeaus, dann links.",
+        "english": "Go straight, then left."
+       },
+       {
+        "who": "them",
+        "target": "Das ist gleich um die Ecke.",
+        "english": "It's just around the corner."
+       }
+      ],
+      "replyOptions": [
+       "Danke! Tschüss!",
+       "Gute Nacht!",
+       "Ich suche die Apotheke."
+      ],
+      "answer": 0
+     },
+     "tip": "gleich = right away / right (nearby). \"Gleich um die Ecke\" = just around the corner."
+    }
+   ]
+  },
+  {
+   "id": "s1u5",
+   "title": "I want / I have / I need",
+   "lessons": [
+    {
+     "id": "s1u5l1",
+     "title": "I would like (möchten)",
+     "items": [
+      {
+       "id": "s1u5l1-moechten",
+       "target": "möchten",
+       "english": "would like to",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l1-wollen",
+       "target": "wollen",
+       "english": "to want",
+       "gender": null,
+       "emoji": "💪",
+       "cognateHint": "wollen ≈ will/want",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l1-gern",
+       "target": "gern",
+       "english": "gladly",
+       "gender": null,
+       "emoji": "😊",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l1-etwas",
+       "target": "etwas",
+       "english": "something",
+       "gender": null,
+       "emoji": "☝️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l1-nur",
+       "target": "nur",
+       "english": "only / just",
+       "gender": null,
+       "emoji": "☝️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l1-natuerlich",
+       "target": "natürlich",
+       "english": "of course",
+       "gender": null,
+       "emoji": "👍",
+       "cognateHint": "natürlich ≈ naturally",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l1-vielleicht",
+       "target": "vielleicht",
+       "english": "maybe",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l1-ich-moechte",
+       "target": "Ich möchte…",
+       "english": "I'd like…",
+       "gender": null,
+       "emoji": "🙋",
+       "cognateHint": "Ich möchte einen Tee.",
+       "example": {
+        "target": "I'd like a tea."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-was-moechtest-du",
+       "target": "Was möchtest du?",
+       "english": "what would you like?",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-was-moechten-sie",
+       "target": "Was möchten Sie?",
+       "english": "what would you like? (formal)",
+       "gender": null,
+       "emoji": "🎩",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-ja-gern",
+       "target": "Ja, gern!",
+       "english": "yes, gladly!",
+       "gender": null,
+       "emoji": "😊",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-kein-problem",
+       "target": "Kein Problem",
+       "english": "no problem",
+       "gender": null,
+       "emoji": "👌",
+       "cognateHint": "Problem ≈ problem",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich möchte einen Kaffee.",
+       "english": "I'd like a coffee."
+      },
+      {
+       "target": "Was möchtest du?",
+       "english": "What would you like?"
+      },
+      {
+       "target": "Ich möchte Wasser trinken.",
+       "english": "I'd like to drink water."
+      },
+      {
+       "target": "Ich möchte nach Berlin fahren.",
+       "english": "I'd like to go to Berlin."
+      },
+      {
+       "target": "Möchtest du Tee? Ja, gern!",
+       "english": "Would you like tea? Yes, gladly!"
+      },
+      {
+       "target": "Ich möchte nur Wasser.",
+       "english": "I'd like just water."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich ",
+       "after": " einen Tee.",
+       "options": [
+        "möchte",
+        "möchtest",
+        "möchten"
+       ],
+       "answer": 0,
+       "english": "I'd like a tea."
+      },
+      {
+       "before": "Was ",
+       "after": " du?",
+       "options": [
+        "möchtest",
+        "möchte",
+        "möchten"
+       ],
+       "answer": 0,
+       "english": "What would you like?"
+      },
+      {
+       "before": "Ich möchte Pizza ",
+       "after": ".",
+       "options": [
+        "essen",
+        "esse",
+        "isst"
+       ],
+       "answer": 0,
+       "english": "I'd like to eat pizza."
+      },
+      {
+       "before": "Ja, ",
+       "after": "!",
+       "options": [
+        "gern",
+        "nur",
+        "nicht"
+       ],
+       "answer": 0,
+       "english": "Yes, gladly!"
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend offers a drink",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo!",
+        "english": "Hi!"
+       },
+       {
+        "who": "me",
+        "target": "Hallo! Wie geht's?",
+        "english": "Hi! How are you?"
+       },
+       {
+        "who": "them",
+        "target": "Gut, danke! Möchtest du einen Kaffee?",
+        "english": "Good, thanks! Would you like a coffee?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, gern!",
+       "Das macht drei Euro.",
+       "Ich möchte einen Kaffee essen."
+      ],
+      "answer": 0
+     },
+     "tip": "Modal verbs send the second verb to the end: Ich möchte Wasser trinken. ich möchte / du möchtest."
+    },
+    {
+     "id": "s1u5l2",
+     "title": "I have (haben)",
+     "items": [
+      {
+       "id": "s1u5l2-haben",
+       "target": "haben",
+       "english": "to have",
+       "gender": null,
+       "emoji": "🤲",
+       "cognateHint": "haben ≈ have",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l2-der-hunger",
+       "target": "der Hunger",
+       "english": "hunger",
+       "gender": "m",
+       "emoji": "🍽️",
+       "cognateHint": "Hunger ≈ hunger",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l2-der-durst",
+       "target": "der Durst",
+       "english": "thirst",
+       "gender": "m",
+       "emoji": "🥤",
+       "cognateHint": "Durst ≈ thirst",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l2-die-zeit",
+       "target": "die Zeit",
+       "english": "time",
+       "gender": "f",
+       "emoji": "⏳",
+       "cognateHint": "Zeit ≈ tide/time",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l2-die-frage",
+       "target": "die Frage",
+       "english": "question",
+       "gender": "f",
+       "emoji": "❓",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l2-die-idee",
+       "target": "die Idee",
+       "english": "idea",
+       "gender": "f",
+       "emoji": "💡",
+       "cognateHint": "Idee ≈ idea",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l2-kein",
+       "target": "kein",
+       "english": "no / not a",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l2-keine",
+       "target": "keine",
+       "english": "no / not a (feminine)",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l2-ich-habe-hunger",
+       "target": "Ich habe Hunger",
+       "english": "I'm hungry",
+       "gender": null,
+       "emoji": "🍽️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-ich-habe-durst",
+       "target": "Ich habe Durst",
+       "english": "I'm thirsty",
+       "gender": null,
+       "emoji": "🥤",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-hast-du-zeit",
+       "target": "Hast du Zeit?",
+       "english": "do you have time?",
+       "gender": null,
+       "emoji": "⏳",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-ich-habe-eine-frage",
+       "target": "Ich habe eine Frage",
+       "english": "I have a question",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich habe Hunger.",
+       "english": "I'm hungry."
+      },
+      {
+       "target": "Hast du Durst?",
+       "english": "Are you thirsty?"
+      },
+      {
+       "target": "Er hat keine Zeit.",
+       "english": "He has no time."
+      },
+      {
+       "target": "Ich habe kein Geld.",
+       "english": "I have no money."
+      },
+      {
+       "target": "Ich habe eine Frage.",
+       "english": "I have a question."
+      },
+      {
+       "target": "Sie hat eine Idee.",
+       "english": "She has an idea."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich ",
+       "after": " Hunger.",
+       "options": [
+        "habe",
+        "hast",
+        "hat"
+       ],
+       "answer": 0,
+       "english": "I'm hungry."
+      },
+      {
+       "before": "Du ",
+       "after": " Durst.",
+       "options": [
+        "hast",
+        "habe",
+        "hat"
+       ],
+       "answer": 0,
+       "english": "You're thirsty."
+      },
+      {
+       "before": "Ich habe ",
+       "after": " Zeit.",
+       "options": [
+        "keine",
+        "kein",
+        "nicht"
+       ],
+       "answer": 0,
+       "english": "I have no time."
+      },
+      {
+       "before": "Ich habe ",
+       "after": " Geld.",
+       "options": [
+        "kein",
+        "keine",
+        "nicht"
+       ],
+       "answer": 0,
+       "english": "I have no money."
+      }
+     ],
+     "dialogue": {
+      "scene": "Making plans for food",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hast du Zeit? Ich habe Hunger.",
+        "english": "Do you have time? I'm hungry."
+       },
+       {
+        "who": "me",
+        "target": "Ja, ich habe Zeit.",
+        "english": "Yes, I have time."
+       },
+       {
+        "who": "them",
+        "target": "Möchtest du Pizza essen?",
+        "english": "Would you like to eat pizza?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, gern! Ich habe auch Hunger.",
+       "Ja, ich bin Hunger.",
+       "Nein, ich habe Hunger, danke."
+      ],
+      "answer": 0
+     },
+     "tip": "ich habe / du hast / er hat. kein / keine = \"not a / no\": Ich habe keine Zeit. Ich habe kein Geld."
+    },
+    {
+     "id": "s1u5l3",
+     "title": "I need, I must, I can",
+     "items": [
+      {
+       "id": "s1u5l3-brauchen",
+       "target": "brauchen",
+       "english": "to need",
+       "gender": null,
+       "emoji": "🧰",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l3-muessen",
+       "target": "müssen",
+       "english": "must / to have to",
+       "gender": null,
+       "emoji": "⚠️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l3-koennen",
+       "target": "können",
+       "english": "can / to be able to",
+       "gender": null,
+       "emoji": "💪",
+       "cognateHint": "können ≈ can/ken",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l3-helfen",
+       "target": "helfen",
+       "english": "to help",
+       "gender": null,
+       "emoji": "🤝",
+       "cognateHint": "helfen ≈ help",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l3-mir",
+       "target": "mir",
+       "english": "me (to me)",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l3-wirklich",
+       "target": "wirklich",
+       "english": "really",
+       "gender": null,
+       "emoji": "💯",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l3-ich-brauche-hilfe",
+       "target": "Ich brauche Hilfe",
+       "english": "I need help",
+       "gender": null,
+       "emoji": "🆘",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-ich-muss-gehen",
+       "target": "Ich muss gehen",
+       "english": "I have to go",
+       "gender": null,
+       "emoji": "🏃",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-ich-kann-nicht",
+       "target": "Ich kann nicht",
+       "english": "I can't",
+       "gender": null,
+       "emoji": "🙅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-kannst-du-mir-helfen",
+       "target": "Kannst du mir helfen?",
+       "english": "can you help me?",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-koennen-sie-mir-helfen",
+       "target": "Können Sie mir helfen?",
+       "english": "can you help me? (formal)",
+       "gender": null,
+       "emoji": "🎩",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich brauche ein Taxi.",
+       "english": "I need a taxi."
+      },
+      {
+       "target": "Ich muss gehen.",
+       "english": "I have to go."
+      },
+      {
+       "target": "Kannst du mir helfen?",
+       "english": "Can you help me?"
+      },
+      {
+       "target": "Ich kann Deutsch sprechen.",
+       "english": "I can speak German."
+      },
+      {
+       "target": "Ich muss jetzt nach Berlin fahren.",
+       "english": "I have to go to Berlin now."
+      },
+      {
+       "target": "Ich brauche Wasser.",
+       "english": "I need water."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich ",
+       "after": " Hilfe.",
+       "options": [
+        "brauche",
+        "brauchst",
+        "braucht"
+       ],
+       "answer": 0,
+       "english": "I need help."
+      },
+      {
+       "before": "Ich ",
+       "after": " gehen.",
+       "options": [
+        "muss",
+        "musst",
+        "müssen"
+       ],
+       "answer": 0,
+       "english": "I have to go."
+      },
+      {
+       "before": "Kannst du ",
+       "after": " helfen?",
+       "options": [
+        "mir",
+        "ich",
+        "du"
+       ],
+       "answer": 0,
+       "english": "Can you help me?"
+      },
+      {
+       "before": "Ich ",
+       "after": " nicht.",
+       "options": [
+        "kann",
+        "kannst",
+        "können"
+       ],
+       "answer": 0,
+       "english": "I can't."
+      }
+     ],
+     "dialogue": {
+      "scene": "Asking a stranger for help",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Entschuldigung, können Sie mir helfen?",
+        "english": "Excuse me, can you help me?"
+       },
+       {
+        "who": "me",
+        "target": "Ja, natürlich!",
+        "english": "Yes, of course!"
+       },
+       {
+        "who": "them",
+        "target": "Ich bin neu hier. Ich brauche ein Taxi.",
+        "english": "I'm new here. I need a taxi."
+       }
+      ],
+      "replyOptions": [
+       "Kein Problem! Dort ist ein Taxi.",
+       "Nein, ich habe Hunger.",
+       "Ich brauche auch Hilfe, danke."
+      ],
+      "answer": 0
+     },
+     "tip": "ich muss / ich kann: with ich and er, modal verbs have no ending. du musst / du kannst. The second verb goes to the end."
+    },
+    {
+     "id": "s1u5l4",
+     "title": "Questions and reasons",
+     "items": [
+      {
+       "id": "s1u5l4-wohin",
+       "target": "wohin",
+       "english": "where to",
+       "gender": null,
+       "emoji": "➡️",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-warum",
+       "target": "warum",
+       "english": "why",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-weil",
+       "target": "weil",
+       "english": "because",
+       "gender": null,
+       "emoji": "🔗",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-lange",
+       "target": "lange",
+       "english": "long (time)",
+       "gender": null,
+       "emoji": "⌛",
+       "cognateHint": "lange ≈ long",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-alt",
+       "target": "alt",
+       "english": "old",
+       "gender": null,
+       "emoji": "👴",
+       "cognateHint": "alt ≈ old",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-das-jahr",
+       "target": "das Jahr",
+       "english": "year",
+       "gender": "n",
+       "emoji": "📆",
+       "cognateHint": "Jahr ≈ year",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-wohin-gehst-du",
+       "target": "Wohin gehst du?",
+       "english": "where are you going?",
+       "gender": null,
+       "emoji": "🚶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-warum-nicht",
+       "target": "Warum nicht?",
+       "english": "why not?",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-wie-lange",
+       "target": "Wie lange?",
+       "english": "how long?",
+       "gender": null,
+       "emoji": "⌛",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-wie-alt-bist-du",
+       "target": "Wie alt bist du?",
+       "english": "how old are you?",
+       "gender": null,
+       "emoji": "🎂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-ich-bin-zwanzig-jahre-alt",
+       "target": "Ich bin zwanzig Jahre alt",
+       "english": "I'm twenty years old",
+       "gender": null,
+       "emoji": "🎂",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Wohin gehst du?",
+       "english": "Where are you going?"
+      },
+      {
+       "target": "Ich gehe nach Berlin.",
+       "english": "I'm going to Berlin."
+      },
+      {
+       "target": "Warum nicht?",
+       "english": "Why not?"
+      },
+      {
+       "target": "Ich bin zwanzig Jahre alt.",
+       "english": "I'm twenty years old."
+      },
+      {
+       "target": "Ich gehe nicht, weil ich keine Zeit habe.",
+       "english": "I'm not going because I have no time."
+      },
+      {
+       "target": "Wie lange wohnst du in Berlin?",
+       "english": "How long have you lived in Berlin?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Wohin ",
+       "after": " du?",
+       "options": [
+        "gehst",
+        "gehe",
+        "gehen"
+       ],
+       "answer": 0,
+       "english": "Where are you going?"
+      },
+      {
+       "before": "Wie ",
+       "after": " bist du?",
+       "options": [
+        "alt",
+        "lange",
+        "gut"
+       ],
+       "answer": 0,
+       "english": "How old are you?"
+      },
+      {
+       "before": "Ich bin zwanzig ",
+       "after": " alt.",
+       "options": [
+        "Jahre",
+        "Zeit",
+        "Stunde"
+       ],
+       "answer": 0,
+       "english": "I'm twenty years old."
+      },
+      {
+       "before": "",
+       "after": " nicht?",
+       "options": [
+        "Warum",
+        "Wohin",
+        "Weil"
+       ],
+       "answer": 0,
+       "english": "Why not?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Invited to Berlin",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo! Ich gehe nach Berlin.",
+        "english": "Hi! I'm going to Berlin."
+       },
+       {
+        "who": "me",
+        "target": "Wirklich? Wann fährt der Zug?",
+        "english": "Really? When does the train leave?"
+       },
+       {
+        "who": "them",
+        "target": "Um zehn Uhr. Kommst du auch?",
+        "english": "At ten o'clock. Are you coming too?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, gern! Ich habe Zeit.",
+       "Ich bin zwanzig Jahre alt.",
+       "Nein, danke, ich esse Pizza."
+      ],
+      "answer": 0
+     },
+     "tip": "weil sends the verb to the end: Ich gehe nicht, weil ich keine Zeit habe."
+    },
+    {
+     "id": "s1u5l5",
+     "title": "How I feel",
+     "items": [
+      {
+       "id": "s1u5l5-muede",
+       "target": "müde",
+       "english": "tired",
+       "gender": null,
+       "emoji": "😴",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l5-krank",
+       "target": "krank",
+       "english": "sick",
+       "gender": null,
+       "emoji": "🤒",
+       "cognateHint": "krank ≈ crank(y)/ill",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l5-schlecht",
+       "target": "schlecht",
+       "english": "bad",
+       "gender": null,
+       "emoji": "👎",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l5-super",
+       "target": "super",
+       "english": "great",
+       "gender": null,
+       "emoji": "🤩",
+       "cognateHint": "super ≈ super",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l5-toll",
+       "target": "toll",
+       "english": "great / awesome",
+       "gender": null,
+       "emoji": "🎉",
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l5-mir-ist-kalt",
+       "target": "Mir ist kalt",
+       "english": "I'm cold",
+       "gender": null,
+       "emoji": "🥶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-mir-ist-heiss",
+       "target": "Mir ist heiß",
+       "english": "I'm hot",
+       "gender": null,
+       "emoji": "🥵",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-mir-geht-s-nicht-gut",
+       "target": "Mir geht's nicht gut",
+       "english": "I don't feel well",
+       "gender": null,
+       "emoji": "🤒",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-tut-mir-leid",
+       "target": "Tut mir leid",
+       "english": "I'm sorry",
+       "gender": null,
+       "emoji": "😔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-alles-klar",
+       "target": "Alles klar",
+       "english": "all clear / okay",
+       "gender": null,
+       "emoji": "👌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-schon-gut",
+       "target": "Schon gut",
+       "english": "it's fine",
+       "gender": null,
+       "emoji": "🙂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-gute-besserung",
+       "target": "Gute Besserung!",
+       "english": "get well soon",
+       "gender": null,
+       "emoji": "💐",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich bin müde.",
+       "english": "I am tired."
+      },
+      {
+       "target": "Er ist krank.",
+       "english": "He is sick."
+      },
+      {
+       "target": "Mir ist kalt.",
+       "english": "I'm cold."
+      },
+      {
+       "target": "Mir geht's nicht gut.",
+       "english": "I don't feel well."
+      },
+      {
+       "target": "Das ist super!",
+       "english": "That is great!"
+      },
+      {
+       "target": "Tut mir leid, ich habe keine Zeit.",
+       "english": "Sorry, I have no time."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich bin ",
+       "after": ".",
+       "options": [
+        "müde",
+        "Wasser",
+        "Tee"
+       ],
+       "answer": 0,
+       "english": "I am tired."
+      },
+      {
+       "before": "Mir ",
+       "after": " kalt.",
+       "options": [
+        "ist",
+        "bin",
+        "hat"
+       ],
+       "answer": 0,
+       "english": "I'm cold."
+      },
+      {
+       "before": "Tut mir ",
+       "after": ".",
+       "options": [
+        "leid",
+        "gut",
+        "nicht"
+       ],
+       "answer": 0,
+       "english": "I'm sorry."
+      },
+      {
+       "before": "Das ist ",
+       "after": "!",
+       "options": [
+        "super",
+        "krank",
+        "müde"
+       ],
+       "answer": 0,
+       "english": "That is great!"
+      }
+     ],
+     "dialogue": {
+      "scene": "Not feeling great",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo! Wie geht's?",
+        "english": "Hi! How are you?"
+       },
+       {
+        "who": "me",
+        "target": "Mir geht's nicht gut.",
+        "english": "I don't feel well."
+       },
+       {
+        "who": "them",
+        "target": "Oh, tut mir leid. Bist du krank?",
+        "english": "Oh, I'm sorry. Are you sick?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, ich bin krank und müde.",
+       "Ich bin zwanzig Jahre alt.",
+       "Ja, gern! Ich bin müde."
+      ],
+      "answer": 0
+     },
+     "tip": "Mir ist kalt / Mir geht's gut: \"to me it is…\" is how German talks about feelings and temperature."
+    }
+   ]
+  }
+ ]
+}

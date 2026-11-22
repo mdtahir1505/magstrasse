@@ -1,0 +1,247 @@
+[
+ {
+  "id": "de-s1-meet",
+  "title": "Anna meets Tom",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Hallo! Ich heiße Anna. Wie heißt du?",
+    "english": "Hello! My name is Anna. What's your name?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich bin Tom. Freut mich!",
+    "english": "I'm Tom. Nice to meet you!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Freut mich auch! Woher kommst du?",
+    "english": "Nice to meet you too! Where are you from?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich komme aus Amerika. Und du?",
+    "english": "I'm from America. And you?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich komme aus Deutschland. Ich wohne in Berlin.",
+    "english": "I'm from Germany. I live in Berlin."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich spreche ein bisschen Deutsch.",
+    "english": "I speak a little German."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das ist super! Ich spreche auch Englisch.",
+    "english": "That's great! I speak English too."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Langsam, bitte! Noch einmal?",
+    "english": "Slowly, please! Once more?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Kein Problem! Mir geht's gut. Und du? Wie geht's?",
+    "english": "No problem! I'm doing well. And you? How are you?"
+   }
+  ]
+ },
+ {
+  "id": "de-s1-cafe",
+  "title": "Coffee and cake",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Kellner",
+    "target": "Guten Tag! Was trinken Sie?",
+    "english": "Hello! What are you drinking?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich hätte gern einen Kaffee mit Milch, bitte.",
+    "english": "I'd like a coffee with milk, please."
+   },
+   {
+    "speaker": "Kellner",
+    "target": "Und was essen Sie?",
+    "english": "And what are you eating?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich nehme ein Stück Kuchen. Der Kuchen ist lecker!",
+    "english": "I'll take a piece of cake. The cake is tasty!"
+   },
+   {
+    "speaker": "Kellner",
+    "target": "Bitte schön. Guten Appetit!",
+    "english": "Here you go. Enjoy your meal!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Danke! Die Rechnung, bitte.",
+    "english": "Thanks! The bill, please."
+   },
+   {
+    "speaker": "Kellner",
+    "target": "Das macht sieben Euro.",
+    "english": "That comes to seven euros."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Hier, bitte. Stimmt so!",
+    "english": "Here you go. Keep the change!"
+   }
+  ]
+ },
+ {
+  "id": "de-s1-bakery",
+  "title": "At the bakery",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Guten Morgen! Drei Brötchen, bitte.",
+    "english": "Good morning! Three rolls, please."
+   },
+   {
+    "speaker": "Bäckerin",
+    "target": "Bitte schön. Sonst noch etwas?",
+    "english": "Here you go. Anything else?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ein Stück Kuchen, bitte. Was kostet das?",
+    "english": "A piece of cake, please. What does that cost?"
+   },
+   {
+    "speaker": "Bäckerin",
+    "target": "Das macht fünf Euro zwanzig.",
+    "english": "That comes to five euros twenty."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Bar oder mit Karte? Ich habe kein Geld.",
+    "english": "Cash or card? I have no cash."
+   },
+   {
+    "speaker": "Bäckerin",
+    "target": "Mit Karte, kein Problem.",
+    "english": "By card, no problem."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Danke! Wie spät ist es?",
+    "english": "Thanks! What time is it?"
+   },
+   {
+    "speaker": "Bäckerin",
+    "target": "Es ist acht Uhr. Bis später!",
+    "english": "It's eight o'clock. See you later!"
+   }
+  ]
+ },
+ {
+  "id": "de-s1-station",
+  "title": "Where is the station?",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Entschuldigung! Ich bin neu hier. Ich suche den Bahnhof.",
+    "english": "Excuse me! I'm new here. I'm looking for the train station."
+   },
+   {
+    "speaker": "Frau",
+    "target": "Der Bahnhof ist nicht weit. Gehen Sie geradeaus.",
+    "english": "The station isn't far. Go straight ahead."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Geradeaus, dann links?",
+    "english": "Straight ahead, then left?"
+   },
+   {
+    "speaker": "Frau",
+    "target": "Nein, dann rechts. Das ist gleich um die Ecke.",
+    "english": "No, then right. It's just around the corner."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Danke! Wann fährt der Zug nach München?",
+    "english": "Thanks! When does the train to Munich leave?"
+   },
+   {
+    "speaker": "Frau",
+    "target": "Um zehn Uhr. Gleis fünf.",
+    "english": "At ten o'clock. Platform five."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Einmal nach München, bitte. Danke, tschüss!",
+    "english": "One ticket to Munich, please. Thanks, bye!"
+   },
+   {
+    "speaker": "Frau",
+    "target": "Gute Reise!",
+    "english": "Have a good trip!"
+   }
+  ]
+ },
+ {
+  "id": "de-s1-friends",
+  "title": "Plans with a friend",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Hallo Tom! Ich habe Hunger. Hast du Zeit?",
+    "english": "Hi Tom! I'm hungry. Do you have time?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ja, natürlich! Ich habe auch Hunger und Durst.",
+    "english": "Yes, of course! I'm hungry and thirsty too."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Möchtest du Pizza essen?",
+    "english": "Would you like to eat pizza?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ja, gern! Ich habe kein Geld.",
+    "english": "Yes, gladly! I have no money."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Kein Problem. Ich habe eine Idee: Ich nehme die Karte.",
+    "english": "No problem. I have an idea: I'll use the card."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Wirklich? Das ist super! Wo ist das Restaurant?",
+    "english": "Really? That's great! Where is the restaurant?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das Restaurant ist gleich dort. Es ist nicht weit.",
+    "english": "The restaurant is right there. It's not far."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Alles klar! Ich möchte jetzt essen!",
+    "english": "All right! I'd like to eat now!"
+   }
+  ]
+ }
+]

@@ -1,0 +1,59 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-11-22T12:00:00Z"},
+  "title": "STRASSE — Language App UI",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Onboard-1-Language.dc.html": {"x": 0, "y": 0, "w": 390, "h": 844, "title": "Onboarding 1 · Language", "is_interactive": true},
+    "Onboard-2-Why.dc.html": {"x": 470, "y": 0, "w": 390, "h": 844, "title": "Onboarding 2 · Why", "is_interactive": true},
+    "Onboard-3-Goal.dc.html": {"x": 940, "y": 0, "w": 390, "h": 844, "title": "Onboarding 3 · Daily goal", "is_interactive": true},
+    "Onboard-4-Reminder.dc.html": {"x": 1410, "y": 0, "w": 390, "h": 844, "title": "Onboarding 4 · Reminder + Street", "is_interactive": true},
+
+    "Main.dc.html": {"x": 0, "y": 1200, "w": 390, "h": 844, "title": "Today (Home)", "is_interactive": true},
+    "Home-FirstDay.dc.html": {"x": 470, "y": 1200, "w": 390, "h": 844, "title": "Today · first day (empty)"},
+    "Home-MissedDay.dc.html": {"x": 940, "y": 1200, "w": 390, "h": 844, "title": "Today · missed yesterday, freeze used"},
+    "Home-FiveMinutes.dc.html": {"x": 1410, "y": 1200, "w": 390, "h": 844, "title": "5-minute mode"},
+
+    "Ex-Intro.dc.html": {"x": 0, "y": 2400, "w": 390, "h": 844, "title": "Exercise · New word"},
+    "Ex-ListenPick.dc.html": {"x": 470, "y": 2400, "w": 390, "h": 844, "title": "Exercise · Listen & pick", "is_interactive": true},
+    "Ex-Build.dc.html": {"x": 940, "y": 2400, "w": 390, "h": 844, "title": "Exercise · Build the sentence", "is_interactive": true},
+    "Ex-Type.dc.html": {"x": 1410, "y": 2400, "w": 390, "h": 844, "title": "Exercise · Type it", "is_interactive": true},
+    "Ex-Say.dc.html": {"x": 1880, "y": 2400, "w": 390, "h": 844, "title": "Exercise · Say it"},
+    "Ex-Fill.dc.html": {"x": 2350, "y": 2400, "w": 390, "h": 844, "title": "Exercise · Fill the chunk", "is_interactive": true},
+    "Ex-Dialogue.dc.html": {"x": 2820, "y": 2400, "w": 390, "h": 844, "title": "Exercise · Dialogue", "is_interactive": true},
+    "Ex-Shadow.dc.html": {"x": 3290, "y": 2400, "w": 390, "h": 844, "title": "Exercise · Shadowing"},
+
+    "Feedback-Correct.dc.html": {"x": 0, "y": 3600, "w": 390, "h": 844, "title": "Feedback · correct"},
+    "Feedback-Wrong.dc.html": {"x": 470, "y": 3600, "w": 390, "h": 844, "title": "Feedback · wrong"},
+    "Session-Complete.dc.html": {"x": 940, "y": 3600, "w": 390, "h": 844, "title": "Session complete"},
+
+    "Course-Map.dc.html": {"x": 0, "y": 4800, "w": 390, "h": 844, "title": "Course map"},
+    "Stories.dc.html": {"x": 470, "y": 4800, "w": 390, "h": 844, "title": "Stories · library"},
+    "Story-Reader.dc.html": {"x": 940, "y": 4800, "w": 390, "h": 844, "title": "Stories · reader", "is_interactive": true},
+    "Talk.dc.html": {"x": 1410, "y": 4800, "w": 390, "h": 844, "title": "Talk (coming soon)"},
+
+    "Stats.dc.html": {"x": 0, "y": 6000, "w": 390, "h": 844, "title": "Me · Stats"},
+    "Word-Bank.dc.html": {"x": 470, "y": 6000, "w": 390, "h": 844, "title": "Me · Word bank", "is_interactive": true},
+    "Street.dc.html": {"x": 940, "y": 6000, "w": 390, "h": 844, "title": "Me · Street German"},
+    "Settings.dc.html": {"x": 1410, "y": 6000, "w": 390, "h": 844, "title": "Me · Settings", "is_interactive": true}
+  },
+  "order": [
+    "Main.dc.html",
+    "Onboard-1-Language.dc.html", "Onboard-2-Why.dc.html", "Onboard-3-Goal.dc.html", "Onboard-4-Reminder.dc.html",
+    "Home-FirstDay.dc.html", "Home-MissedDay.dc.html", "Home-FiveMinutes.dc.html",
+    "Ex-Intro.dc.html", "Ex-ListenPick.dc.html", "Ex-Build.dc.html", "Ex-Type.dc.html", "Ex-Say.dc.html", "Ex-Fill.dc.html", "Ex-Dialogue.dc.html", "Ex-Shadow.dc.html",
+    "Feedback-Correct.dc.html", "Feedback-Wrong.dc.html", "Session-Complete.dc.html",
+    "Course-Map.dc.html", "Stories.dc.html", "Story-Reader.dc.html", "Talk.dc.html",
+    "Stats.dc.html", "Word-Bank.dc.html", "Street.dc.html", "Settings.dc.html"
+  ],
+  "notes": {
+    "t-onboard": {"x": 0, "y": -260, "text": "Onboarding", "kind": "title1", "maxW": 1800},
+    "t-today": {"x": 0, "y": 940, "text": "Today", "kind": "title1", "maxW": 1800},
+    "t-session": {"x": 0, "y": 2140, "text": "Session player · one component per exercise", "kind": "title1", "maxW": 3680},
+    "t-feedback": {"x": 0, "y": 3340, "text": "Feedback & finish", "kind": "title1", "maxW": 1330},
+    "t-explore": {"x": 0, "y": 4540, "text": "Course · Stories · Talk", "kind": "title1", "maxW": 1800},
+    "t-me": {"x": 0, "y": 5740, "text": "Me", "kind": "title1", "maxW": 1800}
+  },
+  "designSystems": []
+}
