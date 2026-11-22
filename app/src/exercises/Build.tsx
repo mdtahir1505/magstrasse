@@ -1,11 +1,16 @@
 import { useState } from 'react';
 import { checkTokens } from '../engine/check';
+import { explainDiff, relevantTip } from '../engine/explain';
 import type { ExProps } from '../types';
 
 export default function Build({ ex, pack, done }: ExProps<'build'>) {
   const [placed, setPlaced] = useState<number[]>([]);
   const words = placed.map((i) => ex.tiles[i]);
-  const submit = () => placed.length && done({ correct: checkTokens(words, ex.answer), answer: ex.answer.join(' '), given: words.join(' '), why: ex.why });
+  const submit = () => {
+    if (!placed.length) return;
+    const ok = checkTokens(words, ex.answer), answer = ex.answer.join(' '), given = words.join(' ');
+    done({ correct: ok, answer, given, why: ok ? relevantTip(ex.why, answer) : explainDiff(given, answer) });
+  };
   return <>
     <h1 className="instruction pad" style={{ marginTop: 18 }}>Build it</h1>
     <div className="pad" style={{ marginTop: 14 }}>

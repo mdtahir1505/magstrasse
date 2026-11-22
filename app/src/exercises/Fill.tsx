@@ -1,10 +1,15 @@
 import { useState } from 'react';
+import { explainFill, relevantTip } from '../engine/explain';
 import type { ExProps } from '../types';
 
 export default function Fill({ ex, pack, done }: ExProps<'fill'>) {
   const [p, setP] = useState<number | null>(null);
-  const submit = () => p !== null && done({ correct: p === ex.answer, why: ex.why ?? ex.english,
-    answer: ex.before + ex.options[ex.answer] + ex.after, given: ex.options[p] });
+  const submit = () => {
+    if (p === null) return;
+    const answer = ex.before + ex.options[ex.answer] + ex.after;
+    done({ correct: p === ex.answer, answer, given: ex.options[p],
+      why: p === ex.answer ? relevantTip(ex.why, answer) : explainFill(ex.before, ex.after, ex.options[p], ex.options[ex.answer], ex.english) });
+  };
   return <>
     <h1 className="instruction pad" style={{ marginTop: 18 }}>Fill the gap</h1>
     <section className="pad" style={{ marginTop: 60 }}>

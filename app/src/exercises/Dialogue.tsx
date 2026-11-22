@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { explainDialogue } from '../engine/explain';
 import { speak } from '../engine/speech';
 import type { ExProps } from '../types';
 import { Ico, SPEAKER_SM } from '../ui';
@@ -23,7 +24,8 @@ export default function Dialogue({ ex, pack, done }: ExProps<'dialogue'>) {
       {ex.replyOptions.map((text, i) => <button key={i} type="button" className="opt" onClick={() => { setR(i); speak(text); }}>{text}</button>)}
     </div>}
     <div className="foot">
-      {r !== null && <button type="button" className="btn block" onClick={() => done({ correct: r === ex.answer, answer: ex.replyOptions[ex.answer], given: ex.replyOptions[r], why: ex.why, silent: r === ex.answer })}>Continue</button>}
+      {r !== null && <button type="button" className="btn block" onClick={() => done({ correct: r === ex.answer, answer: ex.replyOptions[ex.answer], given: ex.replyOptions[r], silent: r === ex.answer,
+        why: r === ex.answer ? undefined : explainDialogue([...ex.lines].reverse().find((l) => l.who === 'them'), ex.replyOptions[r], ex.replyOptions[ex.answer]) })}>Continue</button>}
     </div>
   </>;
 }

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { check } from '../engine/check';
+import { explainDiff, relevantTip } from '../engine/explain';
 import type { ExProps } from '../types';
 
 const ART = /^(der|die|das)\s+/i;
@@ -12,7 +13,10 @@ export default function TypeIt({ ex, pack, done }: ExProps<'type'>) {
     const r = check(text, ex.answer, ex.alts);
     const wrongArticle = !r.ok && ART.test(ex.answer) && check(text.replace(ART, ''), ex.answer.replace(ART, '')).ok;
     done({ correct: r.ok, answer: ex.answer, given: text,
-      why: wrongArticle ? `Right word, wrong article: ${ex.answer}.` : r.ok && r.umlaut ? `Watch the umlaut. It's spelled "${ex.answer}".` : ex.why });
+      why: wrongArticle ? `Right word, wrong article: ${ex.answer}.`
+        : r.ok && r.umlaut ? `Watch the umlaut. It's spelled "${ex.answer}".`
+        : r.ok ? relevantTip(ex.why, ex.answer)
+        : explainDiff(text, ex.answer) });
   };
   return <>
     <h1 className="instruction pad" style={{ marginTop: 18 }}>Type it</h1>

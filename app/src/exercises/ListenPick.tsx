@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { relevantTip } from '../engine/explain';
 import { speak } from '../engine/speech';
 import type { ExProps } from '../types';
 import { Ico, SPEAKER } from '../ui';
@@ -10,7 +11,9 @@ export default function ListenPick({ ex, done }: ExProps<'listenPick'>) {
   const submit = () => {
     if (picked === null) return;
     setChecked(true);
-    done({ correct: picked === ex.answer, answer: `${ex.audioText} · ${ex.english}`, why: ex.why });
+    const ok = picked === ex.answer;
+    done({ correct: ok, answer: `${ex.audioText} · ${ex.english}`,
+      why: ok ? relevantTip(ex.why, ex.audioText) : `"${ex.audioText}" means "${ex.english}", not "${ex.options[picked]}". Tap 🔊 and hear it again.` });
   };
   return <>
     <h1 className="instruction pad" style={{ marginTop: 18 }}>What did you hear?</h1>
