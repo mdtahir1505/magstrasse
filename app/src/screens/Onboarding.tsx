@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { lockAvailable } from '../engine/lock';
+import Lock from './Lock';
 import type { StoredProfile } from '../engine/storage';
 import { A, BACK, CHECK, Ico, Screen } from '../ui';
 
@@ -32,9 +34,13 @@ export default function Onboarding({ langs, initial, done }: { langs: LangOption
   const [goal, setGoal] = useState(initial.dailyGoalMin);
   const [time, setTime] = useState(initial.reminder);
   const [street, setStreet] = useState(initial.streetEnabled);
+  const [pinning, setPinning] = useState(false);
+  const [pinSet, setPinSet] = useState(false);
   const next = () => setStep(step + 1);
   const back = () => setStep(step - 1);
   const langName = langs.find((l) => l.code === lang)?.name ?? '';
+
+  if (pinning) return <Lock mode="set" onCancel={() => setPinning(false)} onDone={() => { setPinSet(true); setPinning(false); }} />;
 
   return <Screen>
     {step === 1 && <>
@@ -130,6 +136,15 @@ export default function Onboarding({ langs, initial, done }: { langs: LangOption
           <label className="switch"><input type="checkbox" aria-label={`Enable Street ${langName} (18+)`} checked={street} onChange={(e) => setStreet(e.target.checked)} /><span></span></label>
         </div>
       </div>
+      {lockAvailable() && <div className="pad" style={{ marginTop: 18 }}>
+        <div className="card" style={{ padding: 16, display: 'flex', gap: 14, alignItems: 'center' }}>
+          <div style={{ flex: 1 }}>
+            <div style={{ fontWeight: 800, fontSize: 18 }}>Lock it with a PIN?</div>
+            <div className="small dim">Optional. Change it later in Settings.</div>
+          </div>
+          {pinSet ? <span className="sticker y">PIN set</span> : <button type="button" className="chip dark" style={{ minHeight: 44 }} onClick={() => setPinning(true)}>Set PIN</button>}
+        </div>
+      </div>}
     </>}
 
     <div className="foot" style={{ marginTop: 'auto' }}>

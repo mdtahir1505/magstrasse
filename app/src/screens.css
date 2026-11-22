@@ -30,3 +30,18 @@ body{margin:0}
 .screen { overflow-y: auto; }
 .screen > .tabbar { position: sticky; bottom: 0; z-index: 5; margin-top: auto; }
 
+
+/* PIN lock */
+.lock { overflow-y: auto; padding-bottom: var(--safe-bottom); }
+.pin-dots { display: flex; gap: 16px; margin-top: 26px; }
+.pin-dots i { width: 26px; height: 26px; border-radius: 50%; border: var(--bw) solid var(--c-ink); background: var(--c-paper); box-shadow: var(--shadow-sm); transition: background var(--t-fast) ease, transform var(--t-fast) var(--ease-snap); }
+.pin-dots i.on { background: var(--c-yellow); transform: scale(1.12) rotate(-6deg); }
+.pin-dots.shake { animation: pin-shake 380ms ease; }
+@keyframes pin-shake { 20%, 60% { transform: translateX(-10px); } 40%, 80% { transform: translateX(10px); } }
+.lock-msg { min-height: 30px; margin-top: 12px; text-align: center; }
+.keypad { display: grid; grid-template-columns: repeat(3, 76px); gap: 14px; margin-top: 10px; }
+.key { height: 64px; border: var(--bw) solid var(--c-ink); border-radius: var(--r-sm); background: var(--c-paper); color: var(--c-ink); font: 400 30px var(--f-display); box-shadow: var(--shadow); cursor: pointer; transition: transform var(--t-fast) ease, box-shadow var(--t-fast) ease; }
+.key:active { transform: translate(var(--sx), var(--sy)); box-shadow: 0 0 0 var(--c-shadow); }
+.key:focus-visible { outline: 3px solid var(--c-cyan); outline-offset: 3px; }
+.key[disabled] { background: var(--c-surface-2); color: var(--c-text-dim); border-color: var(--c-line); box-shadow: none; cursor: default; }
+@media (prefers-reduced-motion: reduce) { .pin-dots.shake { animation: none; } .key, .pin-dots i { transition: none; } }

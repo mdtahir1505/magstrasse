@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import { loadLang, packs } from './content';
 import { configureSpeech } from './engine/speech';
-import { load, rollDay, save, ymd, type State } from './engine/storage';
+import { disableLock, isLockEnabled } from './engine/lock';
+import { load, reset, rollDay, save, ymd, type State } from './engine/storage';
 import Complete from './screens/Complete';
 import Course from './screens/Course';
+import Lock from './screens/Lock';
 import Me from './screens/Me';
 import Onboarding, { type LangOption } from './screens/Onboarding';
 import Player, { type Stats } from './screens/Player';
@@ -24,6 +26,7 @@ const BLURB: Record<string, string> = { de: 'Berlin-ready' };
 export default function App() {
   const [state, setState] = useState<State>(() => { const s = load(); rollDay(s.progress); save(s); return s; });
   const [screen, setScreen] = useState<Screen>(() => (state.profile.onboarded ? { s: 'tab', tab: 'today' } : { s: 'onboard' }));
+  const [locked, setLocked] = useState(isLockEnabled);
   const { profile: stored, progress } = state;
   const lang = loadLang(stored.language);
   const today = ymd();
@@ -37,7 +40,24 @@ export default function App() {
     document.addEventListener('visibilitychange', f);
     return () => document.removeEventListener('visibilitychange', f);
   }, []);
+  useEffect(() => { // re-lock after more than 60 s in the background
+    let hiddenAt = 0;
+    const f = () => {
+      if (document.hidden) hiddenAt = Date.now();
+      else if (hiddenAt && Date.now() - hiddenAt > 60_000 && isLockEnabled()) setLocked(true);
+    };
+    document.addEventListener('visibilitychange', f);
+    return () => document.removeEventListener('visibilitychange', f);
+  }, []);
 
+  if (locked) {
+    const forgot = () => {
+      if (!window.confirm("There's no PIN recovery: the app has no server. The only way in is to wipe all progress on this phone (words, streak, settings). If you exported a backup, you can import it afterwards. Continue?")) return;
+      if (!window.confirm('Really erase everything on this phone?')) return;
+      disableLock(); replace(reset(stored.language)); setLocked(false);
+    };
+    return <Lock mode="unlock" onDone={() => setLocked(false)} onForgot={forgot} />;
+  }
   if (!lang) return <main className="screen pad" style={{ height: '100dvh' }}><h1 className="display" style={{ fontSize: 40, marginTop: 40 }}>No content found.</h1></main>;
 
   const profile: Profile = { language: stored.language, streak: progress.streak, freezesLeft: progress.freezesLeft,

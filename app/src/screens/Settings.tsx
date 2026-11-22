@@ -1,10 +1,15 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
+import { disableLock, isLockEnabled, lockAvailable } from '../engine/lock';
 import { exportJson, importJson, reset } from '../engine/storage';
 import { packs } from '../content';
+import Lock from './Lock';
 import type { MeProps } from './Me';
 
 export default function Settings({ lang, stored, profile, progress, update, replace }: MeProps) {
   const file = useRef<HTMLInputElement>(null);
+  const [lockFlow, setLockFlow] = useState<null | 'set' | 'verify-change' | 'verify-off'>(null);
+  const [lockOn, setLockOn] = useState(isLockEnabled);
+  const avail = lockAvailable();
   const set = (p: Partial<typeof stored>) => update((s) => { Object.assign(s.profile, p); });
   const langs = [...packs().map((p) => ({ code: p.id, label: p.nativeName, available: true })), { code: 'ru', label: 'Русский · soon', available: false }];
 
@@ -27,6 +32,12 @@ export default function Settings({ lang, stored, profile, progress, update, repl
     if (!window.confirm('Reset all progress? Words, streak and settings will be erased.')) return;
     if (window.confirm('Really? This cannot be undone.')) replace(reset(stored.language));
   };
+
+  if (lockFlow) {
+    const end = () => setLockFlow(null);
+    if (lockFlow === 'set') return <Lock mode="set" onCancel={end} onDone={() => { setLockOn(true); end(); }} />;
+    return <Lock mode="verify" onCancel={end} onDone={() => { if (lockFlow === 'verify-off') { disableLock(); setLockOn(false); end(); } else setLockFlow('set'); }} />;
+  }
 
   return <div className="grow scroll pad" style={{ paddingTop: 14, paddingBottom: 28, display: 'flex', flexDirection: 'column', gap: 18 }}>
     <section>
@@ -59,6 +70,21 @@ export default function Settings({ lang, stored, profile, progress, update, repl
         <div className="set">
           <span className="lbl">Street {lang.pack.name} <span className="sticker p" style={{ ['--rot' as string]: '-4deg', marginLeft: 4 }}>18+</span><span className="sub">Slang &amp; swearing section</span></span>
           <label className="switch"><input type="checkbox" aria-label={`Street ${lang.pack.name}`} checked={profile.streetEnabled} onChange={(e) => set({ streetEnabled: e.target.checked })} /><span></span></label>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <p className="eyebrow" style={{ marginBottom: 8 }}>Privacy</p>
+      <div className="card group">
+        <div className="set">
+          <span className="lbl">App lock<span className="sub">{avail ? 'Ask for a 4-digit PIN on open' : 'Needs the installed app (https)'}</span></span>
+          {lockOn
+            ? <div className="seg">
+                <button type="button" className="chip dark" onClick={() => setLockFlow('verify-change')}>Change PIN</button>
+                <button type="button" className="chip dark" onClick={() => setLockFlow('verify-off')}>Turn off</button>
+              </div>
+            : <label className="switch"><input type="checkbox" aria-label="App lock" disabled={!avail} checked={false} onChange={() => setLockFlow('set')} /><span></span></label>}
         </div>
       </div>
     </section>
