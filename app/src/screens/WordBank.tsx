@@ -3,10 +3,10 @@ import { allItems } from '../content';
 import { speak } from '../engine/speech';
 import { strength } from '../engine/srs';
 import type { Gender } from '../types';
-import { Ico, nounOnly, Tag } from '../ui';
+import { genderTags, Ico, nounOnly, Tag } from '../ui';
 import type { MeProps } from './Me';
 
-export default function WordBank({ lang, progress }: MeProps) {
+export default function WordBank({ lang, progress, tr }: MeProps) {
   const [q, setQ] = useState('');
   const [gender, setGender] = useState<Gender>(null);
   const [weak, setWeak] = useState(false);
@@ -25,9 +25,9 @@ export default function WordBank({ lang, progress }: MeProps) {
       </label>
       <div style={{ display: 'flex', gap: 8, marginTop: 10, overflowX: 'auto', paddingBottom: 4 }} role="group" aria-label="Filters">
         <button type="button" className={'chip dark' + (stage !== null ? ' sel' : '')} onClick={() => setStage(stage === null ? 0 : stage + 1 < lang.stages.length ? stage + 1 : null)}>{stage === null ? 'All stages' : `Stage ${stage + 1}`} ▾</button>
-        {(['m', 'f', 'n'] as const).map((g) =>
+        {genderTags(lang.pack) && (['m', 'f', 'n'] as const).map((g) =>
           <button key={g} type="button" className={'chip dark' + (gender === g ? ' sel' : '')} aria-pressed={gender === g} onClick={() => setGender(gender === g ? null : g)}>
-            <span className={'tag ' + g} style={{ fontSize: 13 }}>{lang.pack.articles?.[g]}</span>
+            <span className={'tag ' + g} style={{ fontSize: 13 }}>{genderTags(lang.pack)?.[g]}</span>
           </button>)}
         <button type="button" className={'chip dark' + (weak ? ' sel' : '')} aria-pressed={weak} onClick={() => setWeak(!weak)}>Weak only</button>
       </div>
@@ -40,8 +40,9 @@ export default function WordBank({ lang, progress }: MeProps) {
             <span aria-hidden="true" style={{ fontSize: 26, width: 34, textAlign: 'center' }}>{it.emoji}</span>
             <span style={{ flex: 1, minWidth: 0 }}>
               <span lang={lang.pack.voice} style={{ display: 'flex', alignItems: 'center', gap: 8, fontWeight: 800, fontSize: 18 }}>
-                <Tag g={it.gender} articles={lang.pack.articles} size={14} />{nounOnly(it)}
+                <Tag g={it.gender} articles={genderTags(lang.pack)} size={14} />{nounOnly(it)}
               </span>
+              {tr && it.translit && <span className="small dim translit" style={{ display: 'block' }}>{it.translit}</span>}
               <span className="small dim" style={{ display: 'block' }}>{it.english}</span>
             </span>
             <span className="meter" aria-hidden="true">{[1, 2, 3, 4, 5].map((n) => <i key={n} className={n <= it.strength ? 'on' : ''}></i>)}</span>

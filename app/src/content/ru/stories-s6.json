@@ -1,0 +1,335 @@
+[
+  {
+    "id": "ru-s6-st1",
+    "title": "Первый день в офисе",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "target": "Алекс начинает работать в новой компании. Сегодня его первый день.",
+        "english": "Alex starts working at a new company. Today is his first day.",
+        "translit": "Aleks nachinayet rabotat' v novoy kompanii. Sevodnya yevo pervyy den'."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Привет! Ты наш новый сотрудник? Я Катя, руководитель проекта.",
+        "english": "Hi! Are you our new employee? I am Katya, the project manager.",
+        "translit": "Privet! Ty nash novyy sotrudnik? Ya Katya, rukovoditel' proyekta."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Да, я Алекс. У меня было собеседование на прошлой неделе.",
+        "english": "Yes, I am Alex. I had an interview last week.",
+        "translit": "Da, ya Aleks. U menya bylo sobesedovaniye na proshloy nedele."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Отлично! Вот твой офис и твой график. Испытательный срок — три месяца.",
+        "english": "Great! Here is your office and your schedule. The probation period is three months.",
+        "translit": "Otlichno! Vot tvoy ofis i tvoy grafik. Ispytatel'nyy srok — tri mesyatsa."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "А какая у меня первая задача?",
+        "english": "And what is my first task?",
+        "translit": "A kakaya u menya pervaya zadacha?"
+      },
+      {
+        "speaker": "Катя",
+        "target": "Во-первых, отчёт для клиента. Во-вторых, презентация. Дедлайн — в пятницу.",
+        "english": "Firstly, a report for the client. Secondly, a presentation. The deadline is Friday.",
+        "translit": "Vo-pervykh, otchyot dlya kliyenta. Vo-vtorykh, prezentatsiya. Dedlayn — v pyatnitsu."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Хорошо. А когда обеденный перерыв?",
+        "english": "Okay. And when is the lunch break?",
+        "translit": "Khorosho. A kogda obedennyy pereryv?"
+      },
+      {
+        "speaker": "Катя",
+        "target": "В час. И не стесняйся, спрашивай, если что.",
+        "english": "At one. And don't be shy, ask if anything comes up.",
+        "translit": "V chas. I ne stesnyaysya, sprashivay, yesli shto."
+      },
+      {
+        "target": "В обед Алекс получил письмо: «Уважаемый Алекс! Во вложении договор. С уважением, Катя».",
+        "english": "At lunch Alex got an email: 'Dear Alex! Attached is the contract. Sincerely, Katya'.",
+        "translit": "V obed Aleks poluchil pis'mo: «Uvazhayemyy Aleks! Vo vlozhenii dogovor. S uvazheniyem, Katya»."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Она пишет мне формально, хотя сидит рядом! Классная компания.",
+        "english": "She writes me formally even though she sits next to me! A great company.",
+        "translit": "Ona pishet mne formal'no, khotya sidit ryadom! Klassnaya kompaniya."
+      }
+    ]
+  },
+  {
+    "id": "ru-s6-st2",
+    "title": "Новый год у бабушки",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "target": "Алекс едет в Москву на Новый год. Его друг Дима зовёт его к бабушке.",
+        "english": "Alex is going to Moscow for New Year. His friend Dima invites him to his grandmother's.",
+        "translit": "Aleks yedet v Moskvu na Novyy god. Yevo drug Dima zovyot yevo k babushke."
+      },
+      {
+        "speaker": "Бабушка",
+        "target": "Проходи, не стесняйся! Разувайся, вот тапочки.",
+        "english": "Come in, don't be shy! Take your shoes off, here are slippers.",
+        "translit": "Prokhodi, ne stesnyaysya! Razuvaysya, vot tapochki."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Спасибо большое! Какая красивая ёлка!",
+        "english": "Thank you so much! What a beautiful tree!",
+        "translit": "Spasibo bol'shoye! Kakaya krasivaya yolka!"
+      },
+      {
+        "speaker": "Бабушка",
+        "target": "Угощайся! Сегодня у нас оливье, селёдка и пельмени.",
+        "english": "Help yourself! Today we have Olivier, herring and dumplings.",
+        "translit": "Ugoshchaysya! Sevodnya u nas oliv'ye, selyodka i pel'meni."
+      },
+      {
+        "speaker": "Дима",
+        "target": "И, конечно, борщ со сметаной. Бабушка делает его лучше всех.",
+        "english": "And of course borscht with sour cream. Grandma makes it best of all.",
+        "translit": "I, koneshno, borshch so smetanoy. Babushka delayet yevo luchshe vsekh."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Пальчики оближешь! А что на десерт?",
+        "english": "Finger-licking good! And what is for dessert?",
+        "translit": "Pal'chiki oblizhesh'! A shto na desert?"
+      },
+      {
+        "speaker": "Бабушка",
+        "target": "Чай с вареньем и пирожки. Всё как у нас в России.",
+        "english": "Tea with jam and pies. Everything as we do in Russia.",
+        "translit": "Chay s varen'yem i pirozhki. Vsyo kak u nas v Rossii."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Скоро полночь! Алекс, налей шампанское, будет тост.",
+        "english": "It is almost midnight! Alex, pour the champagne, there will be a toast.",
+        "translit": "Skoro polnoch'! Aleks, naley shampanskoye, budet tost."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "За здоровье бабушки! С Новым годом!",
+        "english": "To grandma's health! Happy New Year!",
+        "translit": "Za zdorov'ye babushki! S Novym godom!"
+      },
+      {
+        "target": "На улице начался салют, и все присели на дорожку у окна.",
+        "english": "Fireworks started outside, and everybody sat down by the window for a moment.",
+        "translit": "Na ulitse nachalsya salyut, i vse priseli na dorozhku u okna."
+      }
+    ]
+  },
+  {
+    "id": "ru-s6-st3",
+    "title": "Спор о поездке",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "target": "Алекс и Катя спорят: ехать на Байкал или остаться в Москве.",
+        "english": "Alex and Katya are arguing: to go to Baikal or stay in Moscow.",
+        "translit": "Aleks i Katya sporyat: yekhat' na Baykal ili ostat'sya v Moskve."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Я хочу на Байкал. Во-первых, это красиво, во-вторых, там тихо.",
+        "english": "I want Baikal. Firstly, it is beautiful, secondly, it is quiet there.",
+        "translit": "Ya khochu na Baykal. Vo-pervykh, eto krasivo, vo-vtorykh, tam tikho."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Не совсем так. С одной стороны, это красиво, с другой стороны, это очень далеко.",
+        "english": "Not quite. On the one hand it is beautiful, on the other hand it is very far.",
+        "translit": "Ne sovsem tak. S odnoy storony, eto krasivo, s drugoy storony, eto ochen' daleko."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Но мы можем поехать по Транссибирской магистрали. Это же приключение!",
+        "english": "But we can go by the Trans-Siberian. That is an adventure!",
+        "translit": "No my mozhem poyekhat' po Transsibirskoy magistrali. Eto zhe priklyucheniye!"
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Вряд ли у нас хватит времени. Дедлайн по проекту в июне.",
+        "english": "We are unlikely to have enough time. The project deadline is in June.",
+        "translit": "Vryad li u nas khvatit vremeni. Dedlayn po proyektu v iyune."
+      },
+      {
+        "speaker": "Катя",
+        "target": "На самом деле я уже говорила с руководителем. Он согласен.",
+        "english": "Actually I have already talked to the manager. He agrees.",
+        "translit": "Na samom dele ya uzhe govorila s rukovoditelem. On soglasen."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Правда? Тогда ты права, в этом есть смысл.",
+        "english": "Really? Then you are right, that makes sense.",
+        "translit": "Pravda? Togda ty prava, v etom yest' smysl."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Вот именно! Значит, билеты берём сегодня.",
+        "english": "Exactly! So we get the tickets today.",
+        "translit": "Vot imenno! Znachit, bilety beryom sevodnya."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Принято. Но я возражаю против верхней полки!",
+        "english": "Agreed. But I object to the upper bunk!",
+        "translit": "Prinyato. No ya vozrazhayu protiv verkhney polki!"
+      },
+      {
+        "speaker": "Катя",
+        "target": "Ну вот, ты всё-таки спорщик. Ладно, нижняя твоя.",
+        "english": "Well there you go, you are a debater after all. Fine, the lower one is yours.",
+        "translit": "Nu vot, ty vsyo-taki sporshchik. Ladno, nizhnyaya tvoya."
+      }
+    ]
+  },
+  {
+    "id": "ru-s6-st4",
+    "title": "Идиомы за обедом",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "target": "Дима учит Алекса русским идиомам за обедом.",
+        "english": "Dima teaches Alex Russian idioms over lunch.",
+        "translit": "Dima uchit Aleksa russkim idiomam za obedom."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Ты выглядишь усталым. Что случилось?",
+        "english": "You look tired. What happened?",
+        "translit": "Ty vyglyadish' ustalym. Shto sluchilos'?"
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Я кручусь как белка в колесе. Работаю как лошадь.",
+        "english": "I am running like a squirrel in a wheel. I work like a horse.",
+        "translit": "Ya kruchus' kak belka v kolese. Rabotayu kak loshad'."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Не вешай нос! Лучше поздно, чем никогда, отпуск будет.",
+        "english": "Don't be downcast! Better late than never, there will be a holiday.",
+        "translit": "Ne veshay nos! Luchshe pozdno, chem nikogda, otpusk budet."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Я в этих выражениях ни в зуб ногой. Объясни ещё раз.",
+        "english": "I am clueless about these expressions. Explain again.",
+        "translit": "Ya v etikh vyrazheniyakh ni v zub nogoy. Obyasni yeshchyo raz."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Не делай из мухи слона. Идиомы — это просто. Повторение — мать учения.",
+        "english": "Don't make a mountain out of a molehill. Idioms are easy. Repetition is the mother of learning.",
+        "translit": "Ne delay iz mukhi slona. Idiomy — eto prosto. Povtoreniye — mat' ucheniya."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Хорошо. А как сказать «good luck»?",
+        "english": "Okay. And how do you say 'good luck'?",
+        "translit": "Khorosho. A kak skazat' «good luck»?"
+      },
+      {
+        "speaker": "Дима",
+        "target": "Ни пуха ни пера! А в ответ — «К чёрту!».",
+        "english": "Ni pukha ni pera! And the reply is 'Go to hell!'.",
+        "translit": "Ni pukha ni pera! A v otvet — «K chyortu!»."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Странно, но запомню. Ни за что не забуду!",
+        "english": "Strange, but I will remember. I will never forget!",
+        "translit": "Stranno, no zapomnyu. Ni za shto ne zabudu!"
+      },
+      {
+        "speaker": "Дима",
+        "target": "Вот и отлично. Тише едешь — дальше будешь. Расплачивайся за обед!",
+        "english": "There you go. Slow and steady wins the race. Pay for lunch!",
+        "translit": "Vot i otlichno. Tishe yedesh' — dal'she budesh'. Rasplachivaysya za obed!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s6-st5",
+    "title": "Давно не виделись",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "target": "Алекс случайно встретил старого друга Мишу в метро.",
+        "english": "Alex accidentally met his old friend Misha on the metro.",
+        "translit": "Aleks sluchayno vstretil starovo druga Mishu v metro."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Ого, Алекс! Сколько лет, сколько зим!",
+        "english": "Wow, Alex! Long time no see!",
+        "translit": "Ogo, Aleks! Skol'ko let, skol'ko zim!"
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Миша! Мир тесен. Как сам? Что нового?",
+        "english": "Misha! It's a small world. How are you? What's new?",
+        "translit": "Misha! Mir tesen. Kak sam? Shto novovo?"
+      },
+      {
+        "speaker": "Миша",
+        "target": "Да всё по-старому, держимся. А ты вообще где сейчас?",
+        "english": "Same old, hanging in there. And where are you these days?",
+        "translit": "Da vsyo po-staromu, derzhimsya. A ty voobshche gde seychas?"
+      },
+      {
+        "speaker": "Алекс",
+        "target": "В Москве. Я типа работаю в компании, но жесть, сколько работы.",
+        "english": "In Moscow. I sort of work at a company, but it's insane how much work there is.",
+        "translit": "V Moskve. Ya tipa rabotayu v kompanii, no zhest', skol'ko raboty."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Блин, понятно. Слушай, давай на ты? Мы же старые друзья.",
+        "english": "Damn, got it. Listen, let's use ty? We are old friends.",
+        "translit": "Blin, ponyatno. Slushay, davay na ty? My zhe staryye druz'ya."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Ну да, мы всегда были на ты. Просто я думал, ты в курсе.",
+        "english": "Well yes, we were always on ty. I just thought you were aware.",
+        "translit": "Nu da, my vsegda byli na ty. Prosto ya dumal, ty v kurse."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Ладно, в субботу тусовка у меня. Приходи, будет классно.",
+        "english": "Fine, on Saturday there's a party at my place. Come, it will be great.",
+        "translit": "Ladno, v subbotu tusovka u menya. Prikhodi, budet klassno."
+      },
+      {
+        "speaker": "Алекс",
+        "target": "Обязательно приду. Не пропадай, пиши!",
+        "english": "I will definitely come. Don't disappear, write!",
+        "translit": "Obyazatel'no pridu. Ne propaday, pishi!"
+      },
+      {
+        "speaker": "Миша",
+        "target": "Я на связи. Пока-пока!",
+        "english": "I am reachable. Bye-bye!",
+        "translit": "Ya na svyazi. Poka-poka!"
+      }
+    ]
+  }
+]

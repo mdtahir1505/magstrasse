@@ -22,7 +22,7 @@ export default function Feedback({ res, pack, requeued, onContinue }: { res: Res
           <h2 id="verdict" className="verdict"><Ico d={CHECK} style={{ width: 48, height: 48, strokeWidth: 3.4 }} />{praise}</h2>
           {audio}
         </div>
-        <p id="answer" lang={pack.voice} className="answer">{res.answer}</p>
+        <p id="answer" lang={pack.voice} className="answer">{res.answer}{res.translit && <span className="small dim translit" style={{ display: 'block', fontWeight: 500 }}>{res.translit}</span>}</p>
       </> : <>
         <h2 id="verdict" className="verdict"><Ico d={CLOSE} style={{ width: 44, height: 44, strokeWidth: 3.4 }} />Not quite</h2>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
@@ -30,6 +30,7 @@ export default function Feedback({ res, pack, requeued, onContinue }: { res: Res
           <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
             <p id="answer" lang={pack.voice} className="answer" style={{ flex: 1 }}>
               {parts.map((p, i) => <span key={i} className={p.hl ? 'hl' : ''}>{p.text} </span>)}
+              {res.translit && <span className="small dim translit" style={{ display: 'block', fontWeight: 500 }}>{res.translit}</span>}
             </p>
             {audio}
           </div>

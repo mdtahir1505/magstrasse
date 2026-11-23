@@ -27,7 +27,8 @@ jobs:
           cache: npm
           cache-dependency-path: app/package-lock.json
       - run: npm ci
-      - run: npx tsx src/engine/check.test.ts && npx tsx src/engine/explain.test.ts && npx tsx src/engine/lock.test.ts
+      - run: node scripts/content.mjs check
+      - run: for t in src/engine/*.test.ts; do npx tsx "$t"; done
       - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

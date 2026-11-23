@@ -6,7 +6,7 @@ import { Screen, Tab, TabBar } from '../ui';
 const COLORS = ['var(--c-yellow)', 'var(--c-cyan)', 'var(--c-pink)'];
 type St = 'locked' | 'current' | 'done';
 
-export default function Course({ lang, progress, go }: { lang: Lang; progress: Progress; go: (t: Tab) => void }) {
+export default function Course({ lang, progress, go, startBoss }: { lang: Lang; progress: Progress; go: (t: Tab) => void; startBoss: (unitId: string) => void }) {
   // first lesson not done is current; everything after is locked
   const firstOpen = flatLessons(lang).find((f) => !progress.lessonsDone.includes(f.lesson.id))?.lesson.id;
   const state = (id: string): St => {
@@ -56,6 +56,9 @@ export default function Course({ lang, progress, go }: { lang: Lang; progress: P
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 8 }}>
                     <p lang={lang.pack.voice} style={{ fontWeight: 800, fontSize: 17 }}>{u.title}</p>
                     {s === 'current' && <span className="sticker y" style={{ ['--rot' as string]: '4deg' }}>You're here</span>}
+                    {s === 'done' && (progress.bossesBeaten.includes(u.id)
+                      ? <span className="sticker c" style={{ ['--rot' as string]: '3deg' }}>Boss down</span>
+                      : <button type="button" className="sticker p" aria-label={`Boss fight: ${u.title}`} onClick={() => startBoss(u.id)} style={{ ['--rot' as string]: '-4deg', cursor: 'pointer' }}>Boss</button>)}
                     {s === 'locked' && <svg className="ico" viewBox="0 0 24 24" aria-label="Locked" role="img" style={{ width: 18, height: 18 }}><rect x="5" y="11" width="14" height="10" rx="2" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></svg>}
                   </div>
                   <div className="dots" role="img" aria-label={`${ls.filter((x) => x === 'done').length} of ${ls.length} lessons done`}>

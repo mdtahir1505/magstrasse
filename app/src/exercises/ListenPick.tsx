@@ -4,7 +4,7 @@ import { speak } from '../engine/speech';
 import type { ExProps } from '../types';
 import { Ico, SPEAKER } from '../ui';
 
-export default function ListenPick({ ex, done }: ExProps<'listenPick'>) {
+export default function ListenPick({ ex, tr, done }: ExProps<'listenPick'>) {
   const [picked, setPicked] = useState<number | null>(null);
   const [checked, setChecked] = useState(false);
   useEffect(() => { speak(ex.audioText); }, [ex.audioText]);
@@ -12,7 +12,7 @@ export default function ListenPick({ ex, done }: ExProps<'listenPick'>) {
     if (picked === null) return;
     setChecked(true);
     const ok = picked === ex.answer;
-    done({ correct: ok, answer: `${ex.audioText} · ${ex.english}`,
+    done({ correct: ok, answer: `${ex.audioText} · ${ex.english}`, translit: tr ? ex.translit : undefined,
       why: ok ? relevantTip(ex.why, ex.audioText) : `"${ex.audioText}" means "${ex.english}", not "${ex.options[picked]}". Tap 🔊 and hear it again.` });
   };
   return <>

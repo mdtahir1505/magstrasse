@@ -1,0 +1,372 @@
+[
+  {
+    "id": "ru-s3-st1",
+    "title": "Вчера у Лены",
+    "level": "A2",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Привет, Лена! Где ты была вчера?",
+        "english": "Hi, Lena! Where were you yesterday?",
+        "translit": "Privet, Lena! Gde ty byla vchera?"
+      },
+      {
+        "speaker": "Лена",
+        "target": "Утром я встала и позавтракала. Потом я поехала на работу.",
+        "english": "In the morning I got up and had breakfast. Then I went to work.",
+        "translit": "Utrom ya vstala i pozavtrakala. Potom ya poyekhala na rabotu."
+      },
+      {
+        "speaker": "Том",
+        "target": "А вечером?",
+        "english": "And in the evening?",
+        "translit": "A vecherom?"
+      },
+      {
+        "speaker": "Лена",
+        "target": "Вечером я была в кино. Мы смотрели фильм.",
+        "english": "In the evening I was at the cinema. We watched a film.",
+        "translit": "Vecherom ya byla v kino. My smotreli fil'm."
+      },
+      {
+        "speaker": "Том",
+        "target": "Интересно?",
+        "english": "Was it good?",
+        "translit": "Interesno?"
+      },
+      {
+        "speaker": "Лена",
+        "target": "Сначала было скучно, но потом очень интересно!",
+        "english": "At first it was boring, but then it was really interesting!",
+        "translit": "Snachala bylo skushno, no potom ochen' interesno!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Круто! А я недавно потерял телефон.",
+        "english": "Cool! And I lost my phone recently.",
+        "translit": "Kruto! A ya nedavno poteryal telefon."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Ты нашёл его?",
+        "english": "Did you find it?",
+        "translit": "Ty nashyol yevo?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да, к счастью, я нашёл его в метро.",
+        "english": "Yes, luckily I found it on the metro.",
+        "translit": "Da, k schast'yu, ya nashyol yevo v metro."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Отлично!",
+        "english": "Great!",
+        "translit": "Otlichno!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да, всё было хорошо.",
+        "english": "Yes, everything was fine.",
+        "translit": "Da, vsyo bylo khorosho."
+      }
+    ]
+  },
+  {
+    "id": "ru-s3-st2",
+    "title": "Отпуск на море",
+    "level": "A2",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Лена",
+        "target": "Том, у тебя скоро отпуск?",
+        "english": "Tom, do you have a holiday soon?",
+        "translit": "Tom, u tebya skoro otpusk?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да! Я еду на остров, на море.",
+        "english": "Yes! I'm going to an island, to the sea.",
+        "translit": "Da! Ya yedu na ostrov, na more."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Круто! Ты купил билет на самолёт?",
+        "english": "Cool! Did you buy a plane ticket?",
+        "translit": "Kruto! Ty kupil bilet na samolyot?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да, я уже купил. Вылет утром.",
+        "english": "Yes, I already bought it. Departure is in the morning.",
+        "translit": "Da, ya uzhe kupil. Vylet utrom."
+      },
+      {
+        "speaker": "Лена",
+        "target": "А гостиница?",
+        "english": "And the hotel?",
+        "translit": "A gostinitsa?"
+      },
+      {
+        "speaker": "Том",
+        "target": "У меня есть бронь на три ночи. Одноместный номер, завтрак включён.",
+        "english": "I have a booking for three nights. Single room, breakfast included.",
+        "translit": "U menya yest' bron' na tri nochi. Odnomestnyy nomer, zavtrak vklyuchyon."
+      },
+      {
+        "speaker": "Лена",
+        "target": "В номере есть кондиционер и вай-фай?",
+        "english": "Is there air conditioning and wi-fi in the room?",
+        "translit": "V nomere yest' konditsioner i vay-fay?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да! И пляж рядом.",
+        "english": "Yes! And the beach is close.",
+        "translit": "Da! I plyazh ryadom."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Ты взял паспорт?",
+        "english": "Did you take your passport?",
+        "translit": "Ty vzyal pasport?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Конечно, я взял паспорт.",
+        "english": "Of course I took my passport.",
+        "translit": "Koneshno, ya vzyal pasport."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Я тоже хочу в отпуск!",
+        "english": "I want a holiday too!",
+        "translit": "Ya tozhe khochu v otpusk!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s3-st3",
+    "title": "Том заболел",
+    "level": "A2",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Лена, мне плохо. У меня болит горло и голова.",
+        "english": "Lena, I feel bad. My throat and head hurt.",
+        "translit": "Lena, mne plokho. U menya bolit gorlo i golova."
+      },
+      {
+        "speaker": "Лена",
+        "target": "У тебя температура?",
+        "english": "Do you have a temperature?",
+        "translit": "U tebya temperatura?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да. И кашель, и насморк. Я простудился.",
+        "english": "Yes. And a cough and a runny nose. I caught a cold.",
+        "translit": "Da. I kashel', i nasmork. Ya prostudilsya."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Нужен врач. Я позвоню в поликлинику.",
+        "english": "We need a doctor. I'll call the clinic.",
+        "translit": "Nuzhen vrach. Ya pozvonyu v polikliniku."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Здравствуйте! Можно записаться к врачу на завтра?",
+        "english": "Hello! Can I book a doctor's appointment for tomorrow?",
+        "translit": "Zdravstvuyte! Mozhno zapisat'sya k vrachu na zavtra?"
+      },
+      {
+        "speaker": "Врач",
+        "target": "Да, приём по записи. У вас есть страховка?",
+        "english": "Yes, appointments only. Do you have insurance?",
+        "translit": "Da, priyom po zapisi. U vas yest' strakhovka?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да, у меня есть страховка.",
+        "english": "Yes, I have insurance.",
+        "translit": "Da, u menya yest' strakhovka."
+      },
+      {
+        "speaker": "Врач",
+        "target": "Хорошо. Вот рецепт. Принимать таблетки три раза в день.",
+        "english": "Fine. Here's a prescription. Take the pills three times a day.",
+        "translit": "Khorosho. Vot retsept. Prinimat' tabletki tri raza v den'."
+      },
+      {
+        "speaker": "Том",
+        "target": "Спасибо! Как часто принимать антибиотик?",
+        "english": "Thanks! How often should I take the antibiotic?",
+        "translit": "Spasibo! Kak chasto prinimat' antibiotik?"
+      },
+      {
+        "speaker": "Врач",
+        "target": "Три раза в день. Поправляйтесь!",
+        "english": "Three times a day. Get well soon!",
+        "translit": "Tri raza v den'. Popravlyaytes'!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s3-st4",
+    "title": "Погода и сезоны",
+    "level": "A2",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Лена, как погода у тебя?",
+        "english": "Lena, what's the weather like with you?",
+        "translit": "Lena, kak pogoda u tebya?"
+      },
+      {
+        "speaker": "Лена",
+        "target": "Холодно! Идёт снег и скользко.",
+        "english": "Cold! It's snowing and slippery.",
+        "translit": "Kholodno! Idyot sneg i skol'zko."
+      },
+      {
+        "speaker": "Том",
+        "target": "А у меня на юге тепло. Светит солнце.",
+        "english": "And in my south it's warm. The sun is shining.",
+        "translit": "A u menya na yuge teplo. Svetit solntse."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Круто! Ты любишь лето?",
+        "english": "Cool! Do you like summer?",
+        "translit": "Kruto! Ty lyubish' leto?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Я люблю лето, но осенью тоже красиво.",
+        "english": "I love summer, but autumn is beautiful too.",
+        "translit": "Ya lyublyu leto, no osen'yu tozhe krasivo."
+      },
+      {
+        "speaker": "Лена",
+        "target": "А зимой?",
+        "english": "And winter?",
+        "translit": "A zimoy?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Зимой я не люблю мороз.",
+        "english": "In winter I don't like the frost.",
+        "translit": "Zimoy ya ne lyublyu moroz."
+      },
+      {
+        "speaker": "Лена",
+        "target": "А я люблю зиму. И у меня есть собака.",
+        "english": "I like winter. And I have a dog.",
+        "translit": "A ya lyublyu zimu. I u menya yest' sobaka."
+      },
+      {
+        "speaker": "Том",
+        "target": "Она большая?",
+        "english": "Is she big?",
+        "translit": "Ona bol'shaya?"
+      },
+      {
+        "speaker": "Лена",
+        "target": "Нет, маленькая и добрая.",
+        "english": "No, small and kind.",
+        "translit": "Net, malen'kaya i dobraya."
+      },
+      {
+        "speaker": "Том",
+        "target": "Прогноз погоды: завтра ясно.",
+        "english": "Weather forecast: clear skies tomorrow.",
+        "translit": "Prognoz pogody: zavtra yasno."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Отлично! Пойдём гулять!",
+        "english": "Great! Let's go for a walk!",
+        "translit": "Otlichno! Poydyom gulyat'!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s3-st5",
+    "title": "Планы на год",
+    "level": "A2",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Лена",
+        "target": "Том, что ты планируешь в следующем году?",
+        "english": "Tom, what are you planning for next year?",
+        "translit": "Tom, shto ty planiruyesh' v sleduyushchem godu?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Я собираюсь выучить язык и поехать в Россию.",
+        "english": "I'm going to learn the language and go to Russia.",
+        "translit": "Ya sobirayus' vyuchit' yazyk i poyekhat' v Rossiyu."
+      },
+      {
+        "speaker": "Лена",
+        "target": "Это твоя мечта?",
+        "english": "Is that your dream?",
+        "translit": "Eto tvoya mechta?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да. И ещё накопить деньги и найти работу.",
+        "english": "Yes. And also save money and find a job.",
+        "translit": "Da. I yeshchyo nakopit' den'gi i nayti rabotu."
+      },
+      {
+        "speaker": "Лена",
+        "target": "У меня идея! Давайте встретимся через неделю.",
+        "english": "I have an idea! Let's meet in a week.",
+        "translit": "U menya ideya! Davayte vstretimsya cherez nedelyu."
+      },
+      {
+        "speaker": "Том",
+        "target": "С удовольствием! Как насчёт кафе?",
+        "english": "Gladly! How about a café?",
+        "translit": "S udovol'stviyem! Kak naschyot kafe?"
+      },
+      {
+        "speaker": "Лена",
+        "target": "По рукам! Я напишу позже.",
+        "english": "Deal! I'll write later.",
+        "translit": "Po rukam! Ya napishu pozzhe."
+      },
+      {
+        "speaker": "Том",
+        "target": "А ты что хочешь?",
+        "english": "And what do you want?",
+        "translit": "A ty shto khochesh'?"
+      },
+      {
+        "speaker": "Лена",
+        "target": "Я хочу открыть бизнес. Это моя цель.",
+        "english": "I want to start a business. That's my goal.",
+        "translit": "Ya khochu otkryt' biznes. Eto moya tsel'."
+      },
+      {
+        "speaker": "Том",
+        "target": "У тебя будет успех!",
+        "english": "You'll have success!",
+        "translit": "U tebya budet uspekh!"
+      },
+      {
+        "speaker": "Лена",
+        "target": "Я подумаю, потом скажу. Но шанс есть!",
+        "english": "I'll think, then I'll tell you. But there's a chance!",
+        "translit": "Ya podumayu, potom skazhu. No shans yest'!"
+      }
+    ]
+  }
+]

@@ -1,0 +1,363 @@
+[
+  {
+    "id": "ru-s5-st1",
+    "title": "The metro teacher",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "target": "Однажды я ехал на работу на метро.",
+        "english": "One day I was riding to work on the metro.",
+        "translit": "Odnazhdy ya yekhal na rabotu na metro."
+      },
+      {
+        "target": "Я читал книгу и ничего не замечал.",
+        "english": "I was reading a book and noticing nothing.",
+        "translit": "Ya chital knigu i nichevo ne zamechal."
+      },
+      {
+        "target": "Вдруг рядом со мной сел старый мужчина.",
+        "english": "Suddenly an old man sat down next to me.",
+        "translit": "Vdrug ryadom so mnoy sel staryy muzhchina."
+      },
+      {
+        "target": "Он улыбнулся и сказал: \"Привет, Миша!\"",
+        "english": "He smiled and said: \"Hi, Misha!\"",
+        "translit": "On ulybnulsya i skazal: \"Privet, Misha!\""
+      },
+      {
+        "target": "Я очень удивился: я его не знал.",
+        "english": "I was very surprised: I didn't know him.",
+        "translit": "Ya ochen' udivilsya: ya yevo ne znal."
+      },
+      {
+        "target": "Оказалось, что это мой школьный учитель.",
+        "english": "It turned out he was my school teacher.",
+        "translit": "Okazalos', shto eto moy shkol'nyy uchitel'."
+      },
+      {
+        "target": "Раньше он преподавал в нашем городе.",
+        "english": "He used to teach in our town.",
+        "translit": "Ran'she on prepodaval v nashem gorode."
+      },
+      {
+        "target": "Мы разговаривали всю дорогу и смеялись.",
+        "english": "We talked and laughed all the way.",
+        "translit": "My razgovarivali vsyu dorogu i smeyalis'."
+      },
+      {
+        "target": "Тем временем я проехал свою станцию!",
+        "english": "Meanwhile I'd gone past my stop!",
+        "translit": "Tem vremenem ya proyekhal svoyu stantsiyu!"
+      },
+      {
+        "target": "Я вышел, перешёл на другую линию и вернулся назад.",
+        "english": "I got out, changed to the other line and went back.",
+        "translit": "Ya vyshel, pereshyol na druguyu liniyu i vernulsya nazad."
+      },
+      {
+        "target": "В конце концов я пришёл на работу на час позже.",
+        "english": "In the end I got to work an hour late.",
+        "translit": "V kontse kontsov ya prishyol na rabotu na chas pozzhe."
+      },
+      {
+        "target": "Короче, день был сумасшедший, но я не жалею.",
+        "english": "Long story short, it was a crazy day, but I don't regret it.",
+        "translit": "Koroche, den' byl sumasshedshiy, no ya ne zhaleyu."
+      }
+    ]
+  },
+  {
+    "id": "ru-s5-st2",
+    "title": "Two cities",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "speaker": "Миша",
+        "target": "Я не могу решить, где жить: в столице или здесь.",
+        "english": "I can't decide where to live: in the capital or here.",
+        "translit": "Ya ne mogu reshit', gde zhit': v stolitse ili zdes'."
+      },
+      {
+        "speaker": "Аня",
+        "target": "В столице зарплата выше, чем у нас.",
+        "english": "Salaries are higher in the capital than here.",
+        "translit": "V stolitse zarplata vyshe, chem u nas."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Да, но квартира намного дороже.",
+        "english": "Yes, but a flat is much more expensive.",
+        "translit": "Da, no kvartira namnovo dorozhe."
+      },
+      {
+        "speaker": "Аня",
+        "target": "И шумнее! По сравнению с нашим районом там просто ужас.",
+        "english": "And noisier! Compared to our district it's awful there.",
+        "translit": "I shumneye! Po sravneniyu s nashim rayonom tam prosto uzhas."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Зато там больше работы и самые интересные люди.",
+        "english": "But there's more work and the most interesting people.",
+        "translit": "Zato tam bol'she raboty i samyye interesnyye lyudi."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Здесь безопаснее, и расстояние до парка меньше.",
+        "english": "It's safer here, and the distance to the park is shorter.",
+        "translit": "Zdes' bezopasneye, i rasstoyaniye do parka men'she."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Ты права. Но я хочу попробовать что-то новое.",
+        "english": "You're right. But I want to try something new.",
+        "translit": "Ty prava. No ya khochu poprobovat' shto-to novoye."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Тогда поезжай на месяц и посмотри.",
+        "english": "Then go for a month and see.",
+        "translit": "Togda poyezzhay na mesyats i posmotri."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Хорошая идея! Это самый простой план.",
+        "english": "Good idea! That's the simplest plan.",
+        "translit": "Khoroshaya ideya! Eto samyy prostoy plan."
+      },
+      {
+        "speaker": "Аня",
+        "target": "А если тебе не понравится, возвращайся.",
+        "english": "And if you don't like it, come back.",
+        "translit": "A yesli tebe ne ponravitsya, vozvrashchaysya."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Спасибо, ты самая лучшая подруга.",
+        "english": "Thanks, you're the best friend.",
+        "translit": "Spasibo, ty samaya luchshaya podruga."
+      }
+    ]
+  },
+  {
+    "id": "ru-s5-st3",
+    "title": "The broken phone",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "target": "Месяц назад я купил новый телефон.",
+        "english": "A month ago I bought a new phone.",
+        "translit": "Mesyats nazad ya kupil novyy telefon."
+      },
+      {
+        "target": "Вчера он вдруг сломался и не включается.",
+        "english": "Yesterday it suddenly broke and won't turn on.",
+        "translit": "Vchera on vdrug slomalsya i ne vklyuchayetsya."
+      },
+      {
+        "target": "Я пошёл в магазин с квитанцией и гарантией.",
+        "english": "I went to the shop with the receipt and warranty.",
+        "translit": "Ya poshyol v magazin s kvitantsiyey i garantiyey."
+      },
+      {
+        "speaker": "Продавец",
+        "target": "Здравствуйте, чем могу помочь?",
+        "english": "Hello, how can I help?",
+        "translit": "Zdravstvuyte, chem mogu pomoch'?"
+      },
+      {
+        "speaker": "Я",
+        "target": "У меня проблема. Телефон не работает, это брак.",
+        "english": "I have a problem. The phone doesn't work, it's faulty.",
+        "translit": "U menya problema. Telefon ne rabotayet, eto brak."
+      },
+      {
+        "speaker": "Продавец",
+        "target": "Вы его уронили? Экран не треснул?",
+        "english": "Did you drop it? The screen isn't cracked?",
+        "translit": "Vy yevo uronili? Ekran ne tresnul?"
+      },
+      {
+        "speaker": "Я",
+        "target": "Нет, это не моя вина. Я хочу вернуть деньги.",
+        "english": "No, it's not my fault. I want my money back.",
+        "translit": "Net, eto ne moya vina. Ya khochu vernut' den'gi."
+      },
+      {
+        "speaker": "Продавец",
+        "target": "Давайте спокойно. Мастер посмотрит и починит.",
+        "english": "Let's stay calm. The repairman will look and fix it.",
+        "translit": "Davayte spokoyno. Master posmotrit i pochinit."
+      },
+      {
+        "speaker": "Я",
+        "target": "Не могли бы вы просто заменить его?",
+        "english": "Could you just replace it?",
+        "translit": "Ne mogli by vy prosto zamenit' yevo?"
+      },
+      {
+        "speaker": "Продавец",
+        "target": "Хорошо, договоримся: новый телефон через три дня.",
+        "english": "Fine, let's agree: a new phone in three days.",
+        "translit": "Khorosho, dogovorimsya: novyy telefon cherez tri dnya."
+      },
+      {
+        "speaker": "Я",
+        "target": "Спасибо, это хороший компромисс.",
+        "english": "Thanks, that's a good compromise.",
+        "translit": "Spasibo, eto khoroshiy kompromiss."
+      }
+    ]
+  },
+  {
+    "id": "ru-s5-st4",
+    "title": "Picking a restaurant",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "speaker": "Аня",
+        "target": "Что будем есть сегодня? Мне всё равно, выбирай ты.",
+        "english": "What are we eating tonight? I don't mind, you choose.",
+        "translit": "Shto budem yest' sevodnya? Mne vsyo ravno, vybiray ty."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Я предпочитаю что-нибудь острое.",
+        "english": "I prefer something spicy.",
+        "translit": "Ya predpochitayu shto-nibud' ostroye."
+      },
+      {
+        "speaker": "Аня",
+        "target": "А я люблю сладкое, вместо ужина возьму торт!",
+        "english": "And I like sweet, I'll have cake instead of dinner!",
+        "translit": "A ya lyublyu sladkoye, vmesto uzhina voz'mu tort!"
+      },
+      {
+        "speaker": "Миша",
+        "target": "Стоит ли идти в новый ресторан у метро?",
+        "english": "Is it worth going to the new restaurant by the metro?",
+        "translit": "Stoit li idti v novyy restoran u metro?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Это место, где готовят домашнюю еду. Мне рекомендовали его.",
+        "english": "It's a place where they make homemade food. It was recommended to me.",
+        "translit": "Eto mesto, gde gotovyat domashnyuyu yedu. Mne rekomendovali yevo."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Хорошо, пойдём. Что там самое популярное?",
+        "english": "Okay, let's go. What's the most popular there?",
+        "translit": "Khorosho, poydyom. Shto tam samoye populyarnoye?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Жареная рыба и запечённая картошка.",
+        "english": "Fried fish and baked potato.",
+        "translit": "Zharenaya ryba i zapechyonnaya kartoshka."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Тогда я возьму рыбу и острый суп.",
+        "english": "Then I'll have fish and spicy soup.",
+        "translit": "Togda ya voz'mu rybu i ostryy sup."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Суп слишком острый, я не советую.",
+        "english": "The soup is too spicy, I don't advise it.",
+        "translit": "Sup slishkom ostryy, ya ne sovetuyu."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Ладно, на твой вкус! Ты всегда права.",
+        "english": "Fine, to your taste! You're always right.",
+        "translit": "Ladno, na tvoy vkus! Ty vsegda prava."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Конечно. Это мой образ жизни.",
+        "english": "Of course. It's my lifestyle.",
+        "translit": "Koneshno. Eto moy obraz zhizni."
+      }
+    ]
+  },
+  {
+    "id": "ru-s5-st5",
+    "title": "If I were rich",
+    "level": "B1",
+    "minutes": 3,
+    "lines": [
+      {
+        "speaker": "Аня",
+        "target": "Если бы ты выиграл в лотерею, что бы ты сделал?",
+        "english": "If you won the lottery, what would you do?",
+        "translit": "Yesli by ty vyigral v lotereyu, shto by ty sdelal?"
+      },
+      {
+        "speaker": "Миша",
+        "target": "Я бы бросил работу и объехал мир.",
+        "english": "I'd quit my job and travel around the world.",
+        "translit": "Ya by brosil rabotu i obyekhal mir."
+      },
+      {
+        "speaker": "Аня",
+        "target": "А я бы купила дом у моря.",
+        "english": "And I'd buy a house by the sea.",
+        "translit": "A ya by kupila dom u morya."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Было бы здорово жить за границей!",
+        "english": "It would be great to live abroad!",
+        "translit": "Bylo by zdorovo zhit' za granitsey!"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Мне бы хотелось свободно говорить по-русски.",
+        "english": "I'd like to speak Russian fluently.",
+        "translit": "Mne by khotelos' svobodno govorit' po-russki."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Тебе стоит учить его каждый день.",
+        "english": "You should study it every day.",
+        "translit": "Tebe stoit uchit' yevo kazhdyy den'."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Знаю. Но я всегда откладываю на завтра.",
+        "english": "I know. But I always put it off till tomorrow.",
+        "translit": "Znayu. No ya vsegda otkladyvayu na zavtra."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Не торопись, но и не стой на месте.",
+        "english": "Don't rush, but don't stand still either.",
+        "translit": "Ne toropis', no i ne stoy na meste."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Если бы не лень, я бы уже говорила идеально!",
+        "english": "If it weren't for laziness, I'd already speak perfectly!",
+        "translit": "Yesli by ne len', ya by uzhe govorila ideal'no!"
+      },
+      {
+        "speaker": "Миша",
+        "target": "Хочу, чтобы ты исполнила свою мечту.",
+        "english": "I want you to make your dream come true.",
+        "translit": "Khochu, shtoby ty ispolnila svoyu mechtu."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Пусть так и будет. Спасибо!",
+        "english": "So be it. Thanks!",
+        "translit": "Pust' tak i budet. Spasibo!"
+      }
+    ]
+  }
+]

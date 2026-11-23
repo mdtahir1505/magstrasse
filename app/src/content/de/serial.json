@@ -1,0 +1,2312 @@
+[
+ {
+  "id": "de-ep1",
+  "n": 1,
+  "title": "Neu im Kiez",
+  "minLesson": "s1u1l2",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Hallo! Guten Morgen!",
+    "english": "Hello! Good morning!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Guten Morgen... Entschuldigung. Wie heißt du?",
+    "english": "Good morning... sorry. What's your name?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich heiße Lena. Und du?",
+    "english": "I'm called Lena. And you?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich bin Jonas. Wie geht's?",
+    "english": "I'm Jonas. How's it going?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Mir geht's gut, danke! Und du?",
+    "english": "I'm good, thanks! And you?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Gut... ja, gut. Gute Nacht!",
+    "english": "Good... yeah, good. Good night!"
+   },
+   {
+    "speaker": "Katze",
+    "emoji": "🐱",
+    "target": "Miau.",
+    "english": "Meow."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Hallo! Wie heißt du?",
+    "english": "Hello! What's your name?"
+   }
+  ],
+  "cliffhanger": "Lena opens the fridge to make breakfast. Her cheese has vanished. All that's left is one tiny clue."
+ },
+ {
+  "id": "de-ep2",
+  "n": 2,
+  "title": "Das Späti",
+  "minLesson": "s1u2l1",
+  "panels": [
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Guten Tag! Ich bin Herr Kaya. Wer bist du?",
+    "english": "Hello! I'm Mr Kaya. Who are you?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Hallo! Ich bin Lena. Ich wohne in Berlin.",
+    "english": "Hello! I'm Lena. I live in Berlin."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Woher kommst du?",
+    "english": "Where do you come from?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich komme aus England.",
+    "english": "I come from England."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "England! Ich spreche ein bisschen Englisch. Sprichst du Deutsch?",
+    "english": "England! I speak a bit of English. Do you speak German?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ein bisschen. Langsam, bitte!",
+    "english": "A bit. Slowly, please!"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Gut. Wasser? Kaffee? Cola?",
+    "english": "Fine. Water? Coffee? Cola?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich hätte gern Cola, bitte.",
+    "english": "I'd like a cola, please."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Bitte schön! Das ist mein Späti. Das ist dein Späti!",
+    "english": "Here you go! This is my Späti. It's your Späti too!"
+   }
+  ],
+  "cliffhanger": "Under the Späti counter Lena spots a hatch in the floor and a sign: \"Proberaum. Nobody allowed.\" What's down there?"
+ },
+ {
+  "id": "de-ep3",
+  "n": 3,
+  "title": "Wo ist mein Käse?",
+  "minLesson": "s1u2l5",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Guten Morgen! Wo ist mein Käse?",
+    "english": "Good morning! Where's my cheese?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Käse? Ich nicht! Ich esse Brot mit Ei. Das schmeckt gut.",
+    "english": "Cheese? Not me! I'm eating bread with egg. It tastes good."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Hallo, Lena! Ich bin Pia. Freut mich!",
+    "english": "Hi, Lena! I'm Pia. Nice to meet you!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Freut mich, Pia! Pia, du? Mein Käse?",
+    "english": "Nice to meet you, Pia! Pia, you? My cheese?"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Ich nicht! Ich esse Salat und Suppe. Heute und jetzt.",
+    "english": "Not me! I eat salad and soup. Today and now."
+   },
+   {
+    "speaker": "Katze",
+    "emoji": "🐱",
+    "target": "Miau.",
+    "english": "Meow."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Guten Appetit, Lena! Ist hier noch frei?",
+    "english": "Enjoy your meal, Lena! Is this seat still free?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ja, bitte. Aber wo ist mein Käse?",
+    "english": "Yes, please. But where is my cheese?"
+   }
+  ],
+  "cliffhanger": "A trail of tiny cheesy crumbs leads straight to Jonas's door. Or is it the cat's?"
+ },
+ {
+  "id": "de-ep4",
+  "n": 4,
+  "title": "Zwei Euro",
+  "minLesson": "s1u3l3",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Guten Abend, Herr Kaya! Was kostet die Cola?",
+    "english": "Good evening, Mr Kaya! What does the cola cost?"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Das macht zwei Euro, bitte.",
+    "english": "That comes to two euros, please."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Zwei Euro? Das ist billig! Und das Bier?",
+    "english": "Two euros? That's cheap! And the beer?"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Das Bier? Drei Euro. Das Wasser? Ein Euro.",
+    "english": "The beer? Three euros. The water? One euro."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Hallo! Ich zahle. Hier, bar.",
+    "english": "Hi! I'll pay. Here, cash."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Nein! Was ist das? Eins, zwei, drei... zwanzig Cent?",
+    "english": "No! What is this? One, two, three... twenty cents?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ja, Cent, Cent, Cent! Das ist mein Geld.",
+    "english": "Yes, cents, cents, cents! That's my money."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Hmm... Moment. Was ist das? Das ist teuer!",
+    "english": "Hmm... hold on. What is THIS? This one is expensive!"
+   }
+  ],
+  "cliffhanger": "Among Jonas's coins, Kaya finds one he has been hunting for ten years. He wants to know where Jonas got it."
+ },
+ {
+  "id": "de-ep5",
+  "n": 5,
+  "title": "Links oder rechts?",
+  "minLesson": "s1u4l2",
+  "panels": [
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Lena, hier ist die Straße. Immer geradeaus!",
+    "english": "Lena, here's the street. Straight on all the way!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Wo ist die Band? Ist das weit?",
+    "english": "Where's the band? Is it far?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Nein, das ist nicht weit. Dann links, dort an der Ecke.",
+    "english": "No, it's not far. Then left, there at the corner."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Links? Rechts? Wo?",
+    "english": "Left? Right? Where?"
+   },
+   {
+    "speaker": "Brötchen",
+    "emoji": "🐱",
+    "target": "Miau!",
+    "english": "Meow!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Das ist Brötchen. Brötchen kommt mit.",
+    "english": "That's Brötchen. Brötchen is coming along."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Du heißt Brötchen? Gut, Brötchen. Wo ist die Band?",
+    "english": "Your name is Brötchen? Fine, Brötchen. Where's the band?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Hier... Oh nein. Das ist die Toilette!",
+    "english": "Here... oh no. That's the toilet!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Nein, nein! Rechts, Lena! Rechts!",
+    "english": "No, no! Right, Lena! Right!"
+   }
+  ],
+  "cliffhanger": "Behind the right door stand four people who have all stopped talking and are staring at Lena."
+ },
+ {
+  "id": "de-ep6",
+  "n": 6,
+  "title": "Die Band",
+  "minLesson": "s1u5l1",
+  "panels": [
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Das ist die Band. Wir sind Heiße Pinguine.",
+    "english": "This is the band. We're Hot Penguins."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Hallo, ich bin Ali. Ich komme gleich vom Café. Und das ist mein Bass.",
+    "english": "Hi, I'm Ali. I just came from the café. And this is my bass."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Freut mich, Ali! Heiße Pinguine? Das ist ein super Name.",
+    "english": "Nice to meet you, Ali! Hot Penguins? That's a super name."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Danke! Möchtest du einen Döner? Mit Salat, ohne Salz?",
+    "english": "Thanks! Would you like a döner? With salad, without salt?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ja, gern! Ich möchte einen Döner mit Käse, bitte.",
+    "english": "Yes, gladly! I'd like a döner with cheese, please."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Käse?! Äh... Käse? Ich... natürlich. Kein Problem.",
+    "english": "Cheese?! Uh... cheese? I... of course. No problem."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ali? Alles klar?",
+    "english": "Ali? All good?"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ja, ja! Alles klar! Ich komme gleich.",
+    "english": "Yes, yes! All good! I'll be right back."
+   }
+  ],
+  "cliffhanger": "Ali goes pale at the word \"cheese\" and quietly leaves the room. What does he know?"
+ },
+ {
+  "id": "de-ep7",
+  "n": 7,
+  "title": "Singen",
+  "minLesson": "s1u5l5",
+  "panels": [
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Lena, kannst du singen?",
+    "english": "Lena, can you sing?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ein bisschen. Warum?",
+    "english": "A little. Why?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Wir brauchen Hilfe. Wir haben keine Sängerin.",
+    "english": "We need help. We don't have a singer."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Wirklich? Ich habe Hunger und bin müde, aber... gut.",
+    "english": "Really? I'm hungry and tired, but... fine."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich singe. Eins, zwei, drei, vier!",
+    "english": "I'll sing. One, two, three, four!"
+   },
+   {
+    "speaker": "Brötchen",
+    "emoji": "🐱",
+    "target": "Miau! Miau!",
+    "english": "Meow! Meow!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Super! Das ist wirklich toll!",
+    "english": "Great! That's really brilliant!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Du musst heute kommen. Wir haben ein Konzert!",
+    "english": "You have to come today. We've got a concert!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ein Konzert? Wann?",
+    "english": "A concert? When?"
+   }
+  ],
+  "cliffhanger": "The Kiezfest booking arrives: the band will play in front of 500 people in six days, and they know exactly one song."
+ },
+ {
+  "id": "de-ep8",
+  "n": 8,
+  "title": "Pias Mutter",
+  "minLesson": "s2u1l4",
+  "panels": [
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Lena, das ist meine Mutter. Sie ist heute hier.",
+    "english": "Lena, this is my mother. She's here today."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Hallo, Lena! Du bist die Neue. Du bist wirklich schön und klug.",
+    "english": "Hello, Lena! You're the new one. You're really pretty and smart."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Danke! Sie sind sehr nett.",
+    "english": "Thanks! You're very nice."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Und der Typ da? Ist er dein Freund?",
+    "english": "And that guy there? Is he your boyfriend?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Nein! Ich bin ein Nachbar... äh, ein Freund. Ich bin ledig!",
+    "english": "No! I'm a neighbour... uh, a friend. I'm single!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Mama! Er ist ruhig und sympathisch. Er ist nicht dein Sohn.",
+    "english": "Mum! He's quiet and likeable. He's not your son."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Er sieht gut aus. Pia, wir treffen uns heute zum Essen. Ich koche!",
+    "english": "He's good-looking. Pia, we're meeting for dinner today. I'm cooking!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Ich habe zwei Brüder und eine Mutter. Das ist zu viel.",
+    "english": "I have two brothers and one mother. That's too much."
+   }
+  ],
+  "cliffhanger": "Pia's mother announces she is staying \"for a few weeks\". She has already unpacked."
+ },
+ {
+  "id": "de-ep9",
+  "n": 9,
+  "title": "Im Mai",
+  "minLesson": "s2u2l2",
+  "panels": [
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Lena, hast du einen Kalender? Wann ist das Konzert?",
+    "english": "Lena, do you have a calendar? When's the concert?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Am Samstag. Im Juni.",
+    "english": "On Saturday. In June."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Gut! Ich bin bis Mai hier. Oder bis Juli.",
+    "english": "Good! I'm here until May. Or until July."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Mama! Mai? Juli? Wie lange bist du hier?",
+    "english": "Mum! May? July? How long are you here for?"
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Ich habe Zeit. Von Montag bis Sonntag, jeden Tag!",
+    "english": "I've got time. From Monday to Sunday, every day!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Jeden Tag? Im Dezember auch?",
+    "english": "Every day? In December too?"
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Warum nicht? Berlin ist schön im Winter!",
+    "english": "Why not? Berlin is lovely in winter!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Jonas, hilf mir. Bitte.",
+    "english": "Jonas, help me. Please."
+   }
+  ],
+  "cliffhanger": "Mama has rearranged the entire kitchen. Including the cheese's old hiding place."
+ },
+ {
+  "id": "de-ep10",
+  "n": 10,
+  "title": "Kostüme",
+  "minLesson": "s2u3l1",
+  "panels": [
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Wir brauchen Kostüme. Das ist toll für das Konzert.",
+    "english": "We need costumes. It's great for the concert."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich brauche ein T-Shirt und eine Jacke. Und einen Pullover!",
+    "english": "I need a T-shirt and a jacket. And a sweater!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich habe eine Hose und einen Mantel. Aber ich habe keine Schuhe.",
+    "english": "I've got trousers and a coat. But I have no shoes."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ein Pinguin braucht Schuhe? Das ist lustig!",
+    "english": "A penguin needs shoes? That's funny!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Hier, Jonas. Die Jeans ist alt, aber die Jacke ist neu.",
+    "english": "Here, Jonas. The jeans are old, but the jacket is new."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Sie passt mir! Das Hemd ist zu klein, aber die Mütze ist toll.",
+    "english": "It fits me! The shirt is too small, but the hat is great."
+   },
+   {
+    "speaker": "Brötchen",
+    "emoji": "🐱",
+    "target": "Miau!",
+    "english": "Meow!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Brötchen ist auf dem Kostüm! Brötchen, nein!",
+    "english": "Brötchen is on the costume! Brötchen, no!"
+   }
+  ],
+  "cliffhanger": "Under the cat, the costume turns out to be a blanket. The real penguin suits have vanished, and so has the last of the cheese."
+ },
+ {
+  "id": "de-ep11",
+  "n": 11,
+  "title": "Im Supermarkt",
+  "minLesson": "s2u3l5",
+  "panels": [
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Lena, wir brauchen Kartoffeln, Tomaten und Zwiebeln.",
+    "english": "Lena, we need potatoes, tomatoes and onions."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich nehme das Obst. Äpfel und Bananen sind im Angebot!",
+    "english": "I'll take the fruit. Apples and bananas are on offer!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Und die Butter? Das Mehl? Die Nudeln? Wir haben nichts.",
+    "english": "And the butter? The flour? The pasta? We have nothing."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Haben Sie eine Tüte, bitte? Ich schaue nur.",
+    "english": "Do you have a bag, please? I'm just looking."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Schau mal, Lena. Der Kassenbon von meiner Mutter. Käse, Käse, Käse!",
+    "english": "Look, Lena. My mother's receipt. Cheese, cheese, cheese!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Kann ich mit Karte zahlen? Hm... das ist mein Käse!",
+    "english": "Can I pay by card? Hm... that's MY cheese!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Meine Mutter isst jeden Tag Käse. Jeden Tag!",
+    "english": "My mother eats cheese every day. Every single day!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Jeden Tag? Und wo ist mein Käse?",
+    "english": "Every day? And where is MY cheese?"
+   }
+  ],
+  "cliffhanger": "Pia's mother buys exactly the same brand of cheese as Lena. Every single day."
+ },
+ {
+  "id": "de-ep12",
+  "n": 12,
+  "title": "Der Putzplan",
+  "minLesson": "s2u4l4",
+  "panels": [
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Wir haben jetzt einen Putzplan. Jonas, du musst abwaschen.",
+    "english": "We have a cleaning rota now. Jonas, you have to wash up."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich kann nicht. Ich bin müde. Ich muss schlafen.",
+    "english": "I can't. I'm tired. I have to sleep."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Lena, du musst staubsaugen. Pia, du musst aufräumen.",
+    "english": "Lena, you have to vacuum. Pia, you have to tidy up."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Mama, die Wohnung ist sauber! Und ordentlich!",
+    "english": "Mum, the flat is clean! And tidy!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Aber hier ist es schmutzig. Dort ist eine Tür.",
+    "english": "But it's dirty here. There's a door over there."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Das ist kein Zimmer. Das ist ein Schrank.",
+    "english": "That's not a room. That's a cupboard."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ein Schrank mit einem Flur? Und dort ist es hell!",
+    "english": "A cupboard with a hallway? And it's bright in there!"
+   },
+   {
+    "speaker": "Brötchen",
+    "emoji": "🐱",
+    "target": "Miau.",
+    "english": "Meow."
+   }
+  ],
+  "cliffhanger": "The little door behind the sofa is not a cupboard. It is a staircase, and it leads down."
+ },
+ {
+  "id": "de-ep13",
+  "n": 13,
+  "title": "Das Spiel",
+  "minLesson": "s2u5l3",
+  "panels": [
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Heute ist das Spiel! Wir haben eine Mannschaft!",
+    "english": "Today is the game! We have a team!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ich laufe jeden Tag. Ich spiele gern Fußball.",
+    "english": "I run every day. I like playing football."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich hasse Sport. Ich trainiere nie. Ich bin kein Fußballer.",
+    "english": "I hate sport. I never train. I'm not a footballer."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich kann schwimmen, aber Fußball? Ich weiß nicht.",
+    "english": "I can swim, but football? I don't know."
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Guten Tag, Herr Kaya. Meine Mannschaft ist heute da.",
+    "english": "Hello, Mr Kaya. My team is here today."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Frau Vogel. Sie wollen gewinnen? Wir spielen auch gut.",
+    "english": "Mrs Vogel. You want to win? We play well too."
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Wir sehen uns später. Herr Kaya, ist es noch unten?",
+    "english": "We'll see each other later. Mr Kaya, is it still down there?"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "...",
+    "english": "..."
+   }
+  ],
+  "cliffhanger": "Frau Vogel looks at the hatch in the Späti floor and asks Kaya one thing: \"Is it still down there?\" Kaya turns white."
+ },
+ {
+  "id": "de-ep14",
+  "n": 14,
+  "title": "Das Wochenende",
+  "minLesson": "s3u1l2",
+  "panels": [
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Was hast du am Wochenende gemacht, Lena?",
+    "english": "What did you do at the weekend, Lena?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich habe viel gemacht. Ich habe einen Film gesehen und ein Buch gelesen.",
+    "english": "I did a lot. I watched a film and read a book."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Ich habe gekocht. Meine Mutter hat auch gekocht. Zweimal!",
+    "english": "I cooked. My mother cooked too. Twice!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich habe lange geschlafen. Sehr lange.",
+    "english": "I slept for a long time. A very long time."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ich habe gearbeitet und Kaffee getrunken. Das ist alles.",
+    "english": "I worked and drank coffee. That's all."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich habe auch Deutsch gelernt und ein bisschen gesungen.",
+    "english": "I also learned German and sang a little."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Und ich habe heute Nacht etwas gesehen. In der Küche.",
+    "english": "And I saw something tonight. In the kitchen."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Was denn?",
+    "english": "What?"
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Morgen!",
+    "english": "Tomorrow!"
+   }
+  ],
+  "cliffhanger": "Mama says she saw something in the kitchen last night. She won't say what until tomorrow."
+ },
+ {
+  "id": "de-ep15",
+  "n": 15,
+  "title": "Der Bus",
+  "minLesson": "s3u1l5",
+  "panels": [
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Jonas, du bist spät! Was ist passiert?",
+    "english": "Jonas, you're late! What happened?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich habe den Bus verpasst. Ich bin spät aufgestanden.",
+    "english": "I missed the bus. I got up late."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Wie war dein Wochenende?",
+    "english": "How was your weekend?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Langweilig. Ich war zu Hause. Ich habe schlecht geschlafen.",
+    "english": "Boring. I was at home. I slept badly."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Du bist immer müde. Das ist lustig.",
+    "english": "You're always tired. That's funny."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Es war nichts Besonderes. Ich bin nur müde.",
+    "english": "It was nothing special. I'm just tired."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Und warum hast du Brot auf dem Hemd?",
+    "english": "And why do you have bread on your shirt?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Brot? Das ist... Brot. Ich habe Brot gegessen.",
+    "english": "Bread? That's... bread. I ate bread."
+   }
+  ],
+  "cliffhanger": "Jonas's pyjamas are covered in crumbs. Cheesy crumbs."
+ },
+ {
+  "id": "de-ep16",
+  "n": 16,
+  "title": "Der Zug nach München",
+  "minLesson": "s3u2l4",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ali ist nicht da. Wo ist er?",
+    "english": "Ali isn't here. Where is he?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Er ist nach München gefahren. Sein Cousin hat einen Bass.",
+    "english": "He went to Munich. His cousin has a bass."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Wir haben bald das Konzert! Ich rufe ihn an.",
+    "english": "The concert is soon! I'll call him."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Hallo, Lena! Ich bin am Bahnhof. Der Zug hat Verspätung.",
+    "english": "Hi, Lena! I'm at the station. The train is delayed."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Wie lange? Wann kommst du an?",
+    "english": "How long? When are you arriving?"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ich weiß nicht. Ich muss umsteigen. Die Abfahrt ist um acht.",
+    "english": "I don't know. I have to change trains. Departure is at eight."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Fahr mit dem Zug, nicht mit dem Auto!",
+    "english": "Take the train, not the car!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ich fahre ja mit dem... Hallo? Hallo?",
+    "english": "I AM taking the... Hello? Hello?"
+   }
+  ],
+  "cliffhanger": "Ali missed his connecting train. And his phone has just died."
+ },
+ {
+  "id": "de-ep17",
+  "n": 17,
+  "title": "Fieber",
+  "minLesson": "s3u3l3",
+  "panels": [
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Mir tut der Kopf weh. Ich habe Halsschmerzen.",
+    "english": "My head hurts. I've got a sore throat."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Du hast Fieber! Du bist erkältet.",
+    "english": "You've got a fever! You've got a cold."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Ich koche Suppe. Du musst im Bett bleiben.",
+    "english": "I'll make soup. You have to stay in bed."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich habe keine Zeit! Das Konzert ist am Samstag!",
+    "english": "I don't have time! The concert is on Saturday!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Du brauchst Hilfe. Mir ist auch ein bisschen übel.",
+    "english": "You need help. I feel a bit sick too."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Nein! Mir geht's gut. Mir tut nur der Bauch weh.",
+    "english": "No! I'm fine. Only my stomach hurts."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Zu viel gegessen?",
+    "english": "Eaten too much?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Nein! Ich habe nichts gegessen. Ich habe... geschlafen.",
+    "english": "No! I haven't eaten anything. I've... slept."
+   }
+  ],
+  "cliffhanger": "Jonas sneaks out of bed at midnight. Barefoot, eyes closed, walking towards the kitchen."
+ },
+ {
+  "id": "de-ep18",
+  "n": 18,
+  "title": "Regen",
+  "minLesson": "s3u4l2",
+  "panels": [
+   {
+    "speaker": "Ärztin",
+    "emoji": "🩺",
+    "target": "Guten Tag, Herr Jonas. Seit wann haben Sie das?",
+    "english": "Hello, Jonas. Since when have you had this?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Seit gestern. Mir tut alles weh.",
+    "english": "Since yesterday. Everything hurts."
+   },
+   {
+    "speaker": "Ärztin",
+    "emoji": "🩺",
+    "target": "Nehmen Sie die Tablette dreimal täglich. Und Sie müssen im Bett bleiben.",
+    "english": "Take the tablet three times a day. And you must stay in bed."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Aber ich habe ein Konzert!",
+    "english": "But I've got a concert!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Hier regnet es! Wie ist das Wetter am Samstag?",
+    "english": "It's raining here! What's the weather like on Saturday?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Es ist windig. Die Temperatur ist kühl. Das Gewitter kommt!",
+    "english": "It's windy. The temperature is cool. A thunderstorm is coming!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Was für ein Wetter! Wir spielen auf dem Platz, nicht im Haus.",
+    "english": "What weather! We're playing on the square, not indoors."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Super. Regen, Fieber, Gewitter.",
+    "english": "Great. Rain, fever, thunderstorm."
+   }
+  ],
+  "cliffhanger": "The forecast for Saturday: thunderstorms. The Kiezfest is on an open square."
+ },
+ {
+  "id": "de-ep19",
+  "n": 19,
+  "title": "Plan B",
+  "minLesson": "s3u5l1",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Herr Kaya, wir haben ein Problem. Es wird regnen.",
+    "english": "Mr Kaya, we have a problem. It's going to rain."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Ich weiß. Ich habe den Wetterbericht gesehen.",
+    "english": "I know. I've seen the weather report."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Wir werden hier nicht spielen. Wir haben keinen Plan.",
+    "english": "We're not going to play here. We have no plan."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Unten ist ein Zimmer. Das ist groß. Werden Sie uns helfen?",
+    "english": "Downstairs there's a room. It's big. Will you help us?"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Ich werde es versuchen. Das ist mein Zimmer... äh, unser Zimmer.",
+    "english": "I'll try. That's my room... uh, our room."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Wir werden dort spielen? Mit Fieber?",
+    "english": "We'll play there? With a fever?"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Ja. Aber Lena, du musst auch etwas für mich machen.",
+    "english": "Yes. But Lena, you have to do something for me too."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Was denn?",
+    "english": "What?"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Nächste Woche, Lena. Nächste Woche.",
+    "english": "Next week, Lena. Next week."
+   }
+  ],
+  "cliffhanger": "Kaya says yes, but on one condition. He won't say what it is until next week."
+ },
+ {
+  "id": "de-ep20",
+  "n": 20,
+  "title": "Alles Gute!",
+  "minLesson": "s3u5l5",
+  "panels": [
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Mein Geburtstag ist am Freitag. Ich will keine Feier!",
+    "english": "My birthday is on Friday. I don't want a party!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Natürlich nicht. Wir feiern nicht.",
+    "english": "Of course not. We're not celebrating."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ich lade alle ein. Es wird lustig!",
+    "english": "I'm inviting everyone. It'll be fun!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Ich kann leider nicht kommen... Nein! Ich komme gern!",
+    "english": "Sadly I can't come... no! I'm happy to come!"
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Ich schenke dir ein Buch, Herr Kaya.",
+    "english": "I'll give you a book, Mr Kaya."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Herzlichen Glückwunsch! Alles Gute zum Geburtstag!",
+    "english": "Congratulations! Happy birthday!"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Danke... Wer ist denn das da?",
+    "english": "Thanks... who is that over there?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Das ist Frau Vogel. Ich habe sie auch eingeladen.",
+    "english": "That's Mrs Vogel. I invited her too."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Du hast WAS gemacht?",
+    "english": "You did WHAT?"
+   }
+  ],
+  "cliffhanger": "The guest list includes Frau Vogel, whom Kaya has not spoken to in twenty years."
+ },
+ {
+  "id": "de-ep21",
+  "n": 21,
+  "title": "Der Name",
+  "minLesson": "s4u1l3",
+  "panels": [
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ich finde, dass Heiße Pinguine ein guter Name ist.",
+    "english": "I think Hot Penguins is a good name."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Meiner Meinung nach ist der Name nicht gut. Warum Pinguine?",
+    "english": "In my opinion the name isn't good. Why penguins?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Weil Pinguine cool sind!",
+    "english": "Because penguins are cool!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich glaube, dass wir keinen neuen Namen brauchen. Der Grund: Alle kennen uns.",
+    "english": "I think we don't need a new name. The reason: everybody knows us."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Da hast du recht, Lena. Das stimmt.",
+    "english": "You're right there, Lena. That's true."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Ich bin dagegen. Ich finde, dass Die Käsefreunde super ist.",
+    "english": "I'm against it. I think Die Käsefreunde is great."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Warum Käse? Ich habe keinen Käse gegessen!",
+    "english": "Why cheese? I haven't eaten any cheese!"
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Käse? Ich? Nein, nein!",
+    "english": "Cheese? Me? No, no!"
+   }
+  ],
+  "cliffhanger": "Mama has already printed 200 posters announcing \"Die Käsefreunde\"."
+ },
+ {
+  "id": "de-ep22",
+  "n": 22,
+  "title": "Treffpunkt",
+  "minLesson": "s4u2l2",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Wo treffen wir uns? Um wie viel Uhr?",
+    "english": "Where do we meet? At what time?"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Um acht am Bahnhof. Wir haben die Plakate.",
+    "english": "At eight at the station. We've got the posters."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Ich bin schon da! Wo seid ihr?",
+    "english": "I'm already here! Where are you?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich bin unterwegs. Ich bin gleich da.",
+    "english": "I'm on my way. I'll be there in a moment."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich bin zehn Minuten zu spät. Ich habe den Bus verpasst. Wieder.",
+    "english": "I'm ten minutes late. I missed the bus. Again."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ich warte auf dich, Jonas. Wir sehen uns dort.",
+    "english": "I'll wait for you, Jonas. See you there."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Bis gleich! Wo ist Jonas?",
+    "english": "See you in a moment! Where's Jonas?"
+   },
+   {
+    "speaker": "Brötchen",
+    "emoji": "🐱",
+    "target": "Miau.",
+    "english": "Meow."
+   }
+  ],
+  "cliffhanger": "Next morning every poster in the Kiez has vanished, except one: the one in Frau Vogel's window."
+ },
+ {
+  "id": "de-ep23",
+  "n": 23,
+  "title": "Falsch verbunden",
+  "minLesson": "s4u3l1",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Mein Akku ist kaputt! Hast du ein Ladekabel?",
+    "english": "My battery is dead! Do you have a charging cable?"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Hier. Aber hier gibt es kein Netz und keinen Empfang.",
+    "english": "Here. But there's no network and no reception here."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich rufe Herrn Kaya an. Ich habe seine Nummer.",
+    "english": "I'm calling Mr Kaya. I have his number."
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Hier ist die Mailbox von Frau Vogel. Ich bin nicht erreichbar.",
+    "english": "This is Frau Vogel's voicemail. I'm not reachable."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Oh nein, falsch! Das ist die falsche Nummer!",
+    "english": "Oh no, wrong! That's the wrong number!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Schick ihm eine Nachricht, Lena.",
+    "english": "Send him a message, Lena."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich schreibe ihm. Aber ich habe jetzt Frau Vogels Nummer.",
+    "english": "I'll text him. But now I have Frau Vogel's number."
+   }
+  ],
+  "cliffhanger": "On Frau Vogel's voicemail: \"If you're calling about the cassette: stop looking.\""
+ },
+ {
+  "id": "de-ep24",
+  "n": 24,
+  "title": "Das Selfie",
+  "minLesson": "s4u3l5",
+  "panels": [
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Lena, hast du das gesehen? Mein Beitrag ist viral gegangen!",
+    "english": "Lena, did you see that? My post went viral!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Welcher Beitrag? Das Selfie mit Brötchen?",
+    "english": "Which post? The selfie with Brötchen?"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Ja! Brötchen mit Mütze. Viele Follower!",
+    "english": "Yes! Brötchen with a hat. Loads of followers!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ich habe es gesehen. Ich habe den Link zum Konzert kommentiert.",
+    "english": "I saw it. I commented on the concert link."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Schau mal. Warum hast du ein Video von der Küche?",
+    "english": "Show me. Why do you have a video of the kitchen?"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Das ist ein Video von heute Nacht. Ich habe eine neue App.",
+    "english": "That's a video from last night. I've got a new app."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Eine Kamera in der Küche? Für meinen Käse?",
+    "english": "A camera in the kitchen? For my cheese?"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Ja. Und ich habe etwas gefunden.",
+    "english": "Yes. And I found something."
+   }
+  ],
+  "cliffhanger": "Pia's night camera caught something in the kitchen at 3:12 a.m. It wasn't the cat."
+ },
+ {
+  "id": "de-ep25",
+  "n": 25,
+  "title": "Keine Sorge",
+  "minLesson": "s4u4l4",
+  "panels": [
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Schaut mal. Das Video. Drei Uhr zwölf.",
+    "english": "Look. The video. Twelve past three."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Da ist ein Mann in der Küche! Er hat die Augen zu!",
+    "english": "There's a man in the kitchen! His eyes are closed!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Das ist Jonas! Er schläft und isst Käse!",
+    "english": "That's Jonas! He's asleep and eating cheese!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Nein! Das bin ich nicht! Das ist... ein Traum!",
+    "english": "No! That's not me! That's... a dream!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich bin nicht wütend, Jonas. Keine Sorge. Aber mein Käse!",
+    "english": "I'm not angry, Jonas. Don't worry. But my cheese!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich habe Angst. Ich mache mir Sorgen.",
+    "english": "I'm scared. I'm worried."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Kopf hoch, Jonas. Das wird schon. Ich bin für dich da.",
+    "english": "Chin up, Jonas. It'll be fine. I'm here for you."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Und ich bin nervös. Das Konzert ist bald. Beruhige dich, Lena!",
+    "english": "And I'm nervous. The concert is soon. Calm down, Lena!"
+   }
+  ],
+  "cliffhanger": "Pia posted the video. By morning it has 40,000 views, and Jonas's mother is calling."
+ },
+ {
+  "id": "de-ep26",
+  "n": 26,
+  "title": "Der Beste",
+  "minLesson": "s4u5l2",
+  "panels": [
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Wo ist die beste Band in Kreuzberg? Hier! Wir!",
+    "english": "Where's the best band in Kreuzberg? Right here! Us!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Die Kater sind älter als wir. Und sie spielen besser.",
+    "english": "The Tomcats are older than us. And they play better."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Aber wir sind lustiger. Und wir haben die beste Sängerin!",
+    "english": "But we're funnier. And we have the best singer!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Du singst genauso gut wie sie.",
+    "english": "You sing just as well as she does."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Das ist ein Unterschied. Sie ist größer als du.",
+    "english": "That's a difference. She's taller than you."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Danke, Jonas. Das ist sehr nett.",
+    "english": "Thanks, Jonas. That's very kind."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Hier, der Plan: Wir spielen am Samstag um acht. Wer spielt vor uns?",
+    "english": "Here, the schedule: we play on Saturday at eight. Who's on before us?"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Hier: Überraschung!",
+    "english": "Here: Surprise!"
+   }
+  ],
+  "cliffhanger": "The festival schedule is out: the Hot Penguins play right after Frau Vogel's mystery act."
+ },
+ {
+  "id": "de-ep27",
+  "n": 27,
+  "title": "Früher",
+  "minLesson": "s5u1l1",
+  "panels": [
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Früher hatte ich auch eine Band. Das war vor zwanzig Jahren.",
+    "english": "I used to have a band too. That was twenty years ago."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Wirklich? Wie hießen Sie?",
+    "english": "Really? What were you called?"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Wir hießen... Heiße Pinguine.",
+    "english": "We were called... Hot Penguins."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Was? Das ist unser Name!",
+    "english": "What? That's our name!"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Damals war ich jung. Wir hatten Zeit und keinen Plan.",
+    "english": "Back then I was young. We had time and no plan."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Und dann? Was ist passiert?",
+    "english": "And then? What happened?"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Es gab einen Streit. Wir hatten eine Kassette. Sie ist noch unten.",
+    "english": "There was an argument. We had a cassette. It's still downstairs."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Eine Kassette? Wo?",
+    "english": "A cassette? Where?"
+   }
+  ],
+  "cliffhanger": "Kaya says the cassette is still down in the cellar, and that someone else has the other half."
+ },
+ {
+  "id": "de-ep28",
+  "n": 28,
+  "title": "Die Kassette",
+  "minLesson": "s5u1l5",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Hier! Eine Kassette. Auf dem Boden, unter dem Schrank!",
+    "english": "Here! A cassette. On the floor, under the cupboard!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Echt? Hast du ein Radio?",
+    "english": "Really? Do you have a radio?"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Hier. Das ist alt, aber gut. Play!",
+    "english": "Here. It's old, but good. Play!"
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Wir sind die Heißen Pinguine! Eins, zwei, drei!",
+    "english": "We are the Hot Penguins! One, two, three!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Wahnsinn! Das ist eine Frau. Sie singt toll!",
+    "english": "Madness! That's a woman. She sings great!"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Das ist Frau Vogel. Sie war die Sängerin.",
+    "english": "That's Mrs Vogel. She was the singer."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Unglaublich! Frau Vogel? Was ist dann passiert?",
+    "english": "Unbelievable! Mrs Vogel? What happened then?"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Ein Streit. Ein Käsebrötchen.",
+    "english": "An argument. A cheese roll."
+   }
+  ],
+  "cliffhanger": "Frau Vogel is standing in the cellar doorway. \"I want my cassette back.\""
+ },
+ {
+  "id": "de-ep29",
+  "n": 29,
+  "title": "Vom Land",
+  "minLesson": "s5u2l4",
+  "panels": [
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Ich komme vom Land. Dort ist es ruhiger, aber Berlin ist lebendiger.",
+    "english": "I come from the countryside. It's quieter there, but Berlin is livelier."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Frau Vogel, hören Sie... Das war vor zwanzig Jahren!",
+    "english": "Mrs Vogel, listen... That was twenty years ago!"
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Sie haben mein Käsebrötchen gegessen! Beim Konzert!",
+    "english": "You ate my cheese roll! At the concert!"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Es war ein kleines Brötchen.",
+    "english": "It was a small roll."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Entschuldigung. Ein Käsebrötchen? Wirklich? Deshalb gab es einen Streit?",
+    "english": "Excuse me. A cheese roll? Really? That's why there was an argument?"
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Es war nicht nur ein Brötchen. Es war mein Käsebrötchen!",
+    "english": "It wasn't just a roll. It was MY cheese roll!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich verstehe das. Ich liebe auch Käse.",
+    "english": "I understand that. I love cheese too."
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Die Kassette ist meine. Auf Wiedersehen!",
+    "english": "The cassette is mine. Goodbye!"
+   }
+  ],
+  "cliffhanger": "Frau Vogel takes the cassette and a cheese roll, and walks out without saying goodbye."
+ },
+ {
+  "id": "de-ep30",
+  "n": 30,
+  "title": "Die Reklamation",
+  "minLesson": "s5u3l3",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Guten Tag. Ich möchte das Mikrofon zurückgeben.",
+    "english": "Hello. I'd like to return the microphone."
+   },
+   {
+    "speaker": "Verkäufer",
+    "emoji": "🛒",
+    "target": "Warum? Was ist das Problem?",
+    "english": "Why? What's the problem?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Es funktioniert nicht. Es ist kaputt. Ich habe den Beleg dabei.",
+    "english": "It doesn't work. It's broken. I have the receipt with me."
+   },
+   {
+    "speaker": "Verkäufer",
+    "emoji": "🛒",
+    "target": "Möchten Sie es umtauschen? Oder soll ich Ihnen das Geld zurückgeben?",
+    "english": "Would you like to exchange it? Or should I give you your money back?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich hätte gern mein Geld zurück. Und ein neues Mikrofon, bitte.",
+    "english": "I'd like my money back. And a new microphone, please."
+   },
+   {
+    "speaker": "Verkäufer",
+    "emoji": "🛒",
+    "target": "Das geht. Haben Sie die Quittung?",
+    "english": "That works. Do you have the receipt?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Hier, bitte. Ist alles in Ordnung?",
+    "english": "Here you go. Is everything all right?"
+   },
+   {
+    "speaker": "Verkäufer",
+    "emoji": "🛒",
+    "target": "Moment. Das Mikrofon... Das kenne ich.",
+    "english": "One moment. This microphone... I know it."
+   }
+  ],
+  "cliffhanger": "The clerk checks his computer: \"This microphone has been returned eleven times. Always by the same customer: Frau Brandt.\""
+ },
+ {
+  "id": "de-ep31",
+  "n": 31,
+  "title": "Vegan",
+  "minLesson": "s5u4l2",
+  "panels": [
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Für das Kiezfest mache ich einen Döner. Ohne Fleisch. Mit Soße!",
+    "english": "For the Kiezfest I'm making a döner. Without meat. With sauce!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Ich bin Vegetarierin. Ich esse kein Fleisch. Ist er vegan?",
+    "english": "I'm a vegetarian. I don't eat meat. Is it vegan?"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ja. Ohne Käse. Ohne Ei. Und er ist glutenfrei.",
+    "english": "Yes. No cheese. No egg. And it's gluten-free."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ohne Käse? Das ist nichts für mich. Ich esse gern Käse.",
+    "english": "No cheese? That's not for me. I like eating cheese."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ist er scharf? Ich mag scharf nicht. Ich habe Halsschmerzen.",
+    "english": "Is it spicy? I don't like spicy. I've got a sore throat."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ein bisschen scharf, ein bisschen sauer, ein bisschen salzig.",
+    "english": "A little spicy, a little sour, a little salty."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Und ich mache Kartoffelsalat. Ich habe keine Allergie. Ich esse alles!",
+    "english": "And I'll make potato salad. I have no allergy. I eat everything!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Vegan, scharf, salzig... Und wo ist mein Käse?",
+    "english": "Vegan, spicy, salty... and where's my cheese?"
+   }
+  ],
+  "cliffhanger": "A man in a grey coat is taking notes at Ali's stand. Nobody knows who he is."
+ },
+ {
+  "id": "de-ep32",
+  "n": 32,
+  "title": "Würden Sie?",
+  "minLesson": "s5u5l1",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Frau Vogel, würden Sie bitte kurz warten? Ich hätte eine Frage.",
+    "english": "Mrs Vogel, would you please wait a moment? I have a question."
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Ja, bitte. Ich würde gern gehen, aber ich höre zu.",
+    "english": "Yes, please. I'd like to leave, but I'm listening."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Würden Sie am Samstag mit uns singen? Es würde mich sehr freuen.",
+    "english": "Would you sing with us on Saturday? It would make me very happy."
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Das wäre nicht schlecht. Ich hätte Lust, wirklich.",
+    "english": "That wouldn't be bad. I'd like to, really."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Das wäre toll! Wir würden die Kassette spielen.",
+    "english": "That would be great! We'd play the cassette."
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Aber ich würde nur singen, wenn Herr Kaya sich entschuldigt.",
+    "english": "But I'd only sing if Mr Kaya apologises."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Entschuldigen? Ich würde lieber einen Kaktus essen!",
+    "english": "Apologise? I'd rather eat a cactus!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Würde es dir etwas ausmachen, dich zu entschuldigen?",
+    "english": "Would you mind apologising?"
+   }
+  ],
+  "cliffhanger": "Frau Vogel says yes, but only if Kaya says one little word to her. Kaya would rather eat a cactus."
+ },
+ {
+  "id": "de-ep33",
+  "n": 33,
+  "title": "Ein guter Rat",
+  "minLesson": "s5u5l4",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Herr Kaya, ich gebe Ihnen einen Tipp: Sie sollten es auf Papier schreiben.",
+    "english": "Mr Kaya, here's a tip: you should write it down on paper."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Auf Papier? An deiner Stelle würde ich warten.",
+    "english": "On paper? In your place I'd wait."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Du solltest nicht warten. Ich empfehle Papier und ein Geschenk.",
+    "english": "You shouldn't wait. I recommend paper and a gift."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Was würdest du tun, Jonas?",
+    "english": "What would you do, Jonas?"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich würde Käse schenken. Äh, nein. Ich würde Kuchen schenken.",
+    "english": "I'd give cheese. Uh, no. I'd give cake."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Gut. Ich schreibe: Liebe Frau Vogel, es tut mir leid. Das Brötchen war lecker.",
+    "english": "Fine. I'll write: Dear Mrs Vogel, I'm sorry. The roll was delicious."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Das solltest du nicht schreiben!",
+    "english": "You shouldn't write that!"
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Wie auch immer. Ich bringe das Papier gleich zu ihr.",
+    "english": "Whatever. I'll take the note over to her right away."
+   }
+  ],
+  "cliffhanger": "Kaya's apology note blows away in the wind, straight onto Ali's döner grill."
+ },
+ {
+  "id": "de-ep34",
+  "n": 34,
+  "title": "Das Vorstellungsgespräch",
+  "minLesson": "s6u1l3",
+  "panels": [
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Ich habe ein Vorstellungsgespräch. Bei einer Firma, die Software macht.",
+    "english": "I have a job interview. At a company that makes software."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Super! Wann ist es? Wer ist der Chef?",
+    "english": "Great! When is it? Who's the boss?"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Das Projekt, das ich machen soll, ist groß. Ich bin so nervös.",
+    "english": "The project I'm supposed to do is big. I'm so nervous."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Du schaffst das, Pia. Du bist die Studentin, die am besten ist.",
+    "english": "You can do it, Pia. You're the student who is the best."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Ich habe hier deinen Lebenslauf. Er ist sehr gut.",
+    "english": "I've got your CV here. It's very good."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Danke, Jonas. Ich muss mich um die Bewerbung kümmern.",
+    "english": "Thanks, Jonas. I have to take care of the application."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Wann ist der Termin?",
+    "english": "When's the appointment?"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Am Samstag um acht. Genau beim Konzert.",
+    "english": "On Saturday at eight. Exactly at the concert."
+   }
+  ],
+  "cliffhanger": "Pia's interview is on Saturday at eight, exactly when the concert starts."
+ },
+ {
+  "id": "de-ep35",
+  "n": 35,
+  "title": "Der Stammtisch",
+  "minLesson": "s6u2l2",
+  "panels": [
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Das Kiezfest ist morgen! Ich mache Currywurst und meinen Döner.",
+    "english": "The Kiezfest is tomorrow! I'm making currywurst and my döner."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Ich bringe Kartoffelsalat und Brezeln mit. Das ist meine Spezialität.",
+    "english": "I'm bringing potato salad and pretzels. That's my speciality."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Und ich bringe Bier. Im Biergarten gibt es Bier. Das ist Tradition.",
+    "english": "And I'll bring beer. There's beer in the beer garden. That's tradition."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Am Stammtisch sitzen die Nachbarn. Wir sitzen alle zusammen.",
+    "english": "The neighbours sit at the regulars' table. We all sit together."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Lecker! Hoffentlich gibt es auch Kuchen.",
+    "english": "Delicious! I hope there's cake too."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Wir müssen noch den Soundcheck machen.",
+    "english": "We still have to do the soundcheck."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Eins, zwei... Hallo? Hallo? Es funktioniert nicht!",
+    "english": "One, two... Hello? Hello? It doesn't work!"
+   }
+  ],
+  "cliffhanger": "At the soundcheck the PA system dies. The only sound left is Brötchen purring into the microphone."
+ },
+ {
+  "id": "de-ep36",
+  "n": 36,
+  "title": "Erstens, zweitens",
+  "minLesson": "s6u3l1",
+  "panels": [
+   {
+    "speaker": "Herr Weber",
+    "emoji": "📋",
+    "target": "Ich habe ein Problem. Die Band ist zu laut. Ich möchte Ihren Termin absagen.",
+    "english": "I have a problem. The band is too loud. I'd like to cancel your slot."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Darf ich kurz etwas sagen? Erstens: Wir sind gar nicht laut.",
+    "english": "May I say something briefly? First: we're not loud at all."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Zweitens: Wir sind seit Wochen dabei. Zum Beispiel haben wir jeden Tag gespielt.",
+    "english": "Second: we've been on board for weeks. For example, we've played every day."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Außerdem haben wir viele Fans. Das Video von Brötchen hat viele Likes.",
+    "english": "Besides, we have lots of fans. The Brötchen video has loads of likes."
+   },
+   {
+    "speaker": "Herr Weber",
+    "emoji": "📋",
+    "target": "Einerseits ist das gut. Andererseits ist Brötchen eine Katze.",
+    "english": "On one hand that's good. On the other, Brötchen is a cat."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Kurz gesagt: Wir sind die beste Band im Kiez. Insgesamt bringen wir Leute zusammen.",
+    "english": "In short: we're the best band in the Kiez. Overall, we bring people together."
+   },
+   {
+    "speaker": "Herr Weber",
+    "emoji": "📋",
+    "target": "Gut. Ihr bekommt einen Termin. Aber nur drei Minuten.",
+    "english": "Fine. You'll get a slot. But only three minutes."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Drei Minuten? Das ist ein Lied!",
+    "english": "Three minutes? That's one song!"
+   }
+  ],
+  "cliffhanger": "The organiser says yes, but the band gets three minutes, not thirty."
+ },
+ {
+  "id": "de-ep37",
+  "n": 37,
+  "title": "Das Amt",
+  "minLesson": "s6u3l5",
+  "panels": [
+   {
+    "speaker": "Herr Weber",
+    "emoji": "📋",
+    "target": "Es gibt ein Problem mit der Anmeldung. Das Fest ist am Sonntag, nicht am Samstag.",
+    "english": "There's a problem with the registration. The festival is on Sunday, not Saturday."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Was? Das Konzert ist am Samstag! Das ist wichtig!",
+    "english": "What? The concert is on Saturday! That's important!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Wir müssen zum Bürgeramt. Das ist die Bürokratie in Deutschland.",
+    "english": "We have to go to the registry office. That's German bureaucracy."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Ich kenne das. Ich habe oft Formulare ausgefüllt.",
+    "english": "I know it. I've filled in lots of forms."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Hier ist das Amt. Aber es macht gleich Feierabend!",
+    "english": "Here's the office. But it's about to close for the day!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Entschuldigung, wir brauchen eine Unterschrift. Das ist ein Notfall!",
+    "english": "Excuse me, we need a signature. It's an emergency!"
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Es ist um fünf. Die Frau macht Feierabend. Sie schaut nicht auf.",
+    "english": "It's five. The woman is finishing for the day. She isn't looking up."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Bitte! Das Problem ist: Wir haben Verantwortung für das ganze Kiezfest!",
+    "english": "Please! The problem is: we're responsible for the whole Kiezfest!"
+   }
+  ],
+  "cliffhanger": "The permit is signed, and in that same second the rain starts."
+ },
+ {
+  "id": "de-ep38",
+  "n": 38,
+  "title": "Backstage",
+  "minLesson": "s6u4l4",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Also, ich bin irgendwie nervös. Na ja, halt ein bisschen sehr.",
+    "english": "So, I'm kind of nervous. Well, just a little. Very much, actually."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Weißt du was? Ich auch. Übrigens, ich habe nicht geschlafen.",
+    "english": "You know what? Me too. By the way, I haven't slept."
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Ehrlich gesagt, ich weiß nicht, was wir spielen.",
+    "english": "To be honest, I don't know what we're playing."
+   },
+   {
+    "speaker": "Pia",
+    "emoji": "🪴",
+    "target": "Das ist eben so. Wir spielen doch immer ein Lied.",
+    "english": "That's just how it is. We always play one song."
+   },
+   {
+    "speaker": "Pias Mama",
+    "emoji": "👩‍🦳",
+    "target": "Wie gesagt: Ich glaube an euch. Jedenfalls ein bisschen.",
+    "english": "As I said: I believe in you. At least a bit."
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Ich bin da. Ich habe die Kassette. Wir singen zusammen.",
+    "english": "I'm here. I've got the cassette. We'll sing together."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Frau Vogel... Es tut mir leid. Wirklich.",
+    "english": "Mrs Vogel... I'm sorry. Really."
+   },
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Na ja. Gut. Wir singen jetzt!",
+    "english": "Well. Fine. Let's sing now!"
+   }
+  ],
+  "cliffhanger": "In the dark someone shouts: \"Where is Jonas?\" Then: \"Where is the cheese?\""
+ },
+ {
+  "id": "de-ep39",
+  "n": 39,
+  "title": "Du oder Sie?",
+  "minLesson": "s6u5l3",
+  "panels": [
+   {
+    "speaker": "Frau Vogel",
+    "emoji": "🎤",
+    "target": "Darf ich du sagen, Kaya? Wir können uns duzen.",
+    "english": "May I say du, Kaya? We can use du."
+   },
+   {
+    "speaker": "Herr Kaya",
+    "emoji": "🧔",
+    "target": "Natürlich, Vogel... äh, Frau Vogel... äh, Margit.",
+    "english": "Of course, Vogel... uh, Mrs Vogel... uh, Margit."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ihr wart toll! Das war so schön!",
+    "english": "You were great! That was so beautiful!"
+   },
+   {
+    "speaker": "Ali",
+    "emoji": "🥙",
+    "target": "Bis morgen! Wir sehen uns im Späti!",
+    "english": "Until tomorrow! See you at the Späti!"
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Moin? Servus? Wie sagt man das hier? Man sieht sich!",
+    "english": "Moin? Servus? What do you say here? Man sieht sich!"
+   },
+   {
+    "speaker": "Fremder",
+    "emoji": "🕶️",
+    "target": "Entschuldigen Sie. Darf ich Sie ansprechen? Ich bin... das ist meine Karte.",
+    "english": "Excuse me. May I address you? I'm... this is my card."
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Oh, danke. Das ist zu förmlich... Entschuldigung.",
+    "english": "Oh, thanks. That's too formal... sorry."
+   },
+   {
+    "speaker": "Fremder",
+    "emoji": "🕶️",
+    "target": "Rufen Sie mich morgen an. Aber sagen Sie es den anderen nicht.",
+    "english": "Call me tomorrow. But don't tell the others."
+   }
+  ],
+  "cliffhanger": "After the show a stranger presses a card into Lena's hand: \"Call me. Tomorrow. Don't tell the others.\""
+ },
+ {
+  "id": "de-ep40",
+  "n": 40,
+  "title": "Was heißt das?",
+  "minLesson": "s6u5l5",
+  "panels": [
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Entschuldigung, kannst du das wiederholen? Kannst du langsamer sprechen?",
+    "english": "Sorry, can you repeat that? Can you speak more slowly?"
+   },
+   {
+    "speaker": "Fremder",
+    "emoji": "🕶️",
+    "target": "Ich habe eine Idee. Ein Video, eine Katze. Verstehen Sie?",
+    "english": "I have an idea. A video, a cat. Understand?"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Ich habe das nicht verstanden. Was heißt das auf Englisch? Worum geht es?",
+    "english": "I didn't understand that. What does that mean in English? What's it about?"
+   },
+   {
+    "speaker": "Fremder",
+    "emoji": "🕶️",
+    "target": "Ich suche eine Katze für ein Video. Für Katzen!",
+    "english": "I'm looking for a cat for a video. For cats!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Moment. Wie sagt man das auf Deutsch? Sie meinen Brötchen?",
+    "english": "Wait. How do you say that in German? You mean Brötchen?"
+   },
+   {
+    "speaker": "Brötchen",
+    "emoji": "🐱",
+    "target": "Miau.",
+    "english": "Meow."
+   },
+   {
+    "speaker": "Fremder",
+    "emoji": "🕶️",
+    "target": "Genau! Brötchen! Die Katze mit der Mütze!",
+    "english": "Exactly! Brötchen! The cat with the hat!"
+   },
+   {
+    "speaker": "Lena",
+    "emoji": "👩🏽‍🎤",
+    "target": "Das muss ich mit der Band besprechen... Ich habe den Faden verloren.",
+    "english": "I have to discuss that with the band... I've lost the thread."
+   },
+   {
+    "speaker": "Jonas",
+    "emoji": "🥁",
+    "target": "Gute Nacht, ihr Leute. Ich gehe schlafen. Gute Nacht, Käse!",
+    "english": "Good night, everyone. I'm going to sleep. Good night, cheese!"
+   }
+  ],
+  "cliffhanger": "The next morning Lena opens the fridge. Her new cheese is gone again. Jonas swears he locked his door. Season two?"
+ }
+]

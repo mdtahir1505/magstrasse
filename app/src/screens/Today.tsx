@@ -1,11 +1,12 @@
 ﻿import { useState } from 'react';
-import { currentLesson } from '../engine/session';
+import { bossReady, currentLesson } from '../engine/session';
 import { dueIds } from '../engine/srs';
 import type { Progress } from '../engine/storage';
 import type { Lang, Profile } from '../types';
-import { A, BACK, CLOSE, CHECK, Drips, Flame, Ico, nounOnly, Screen, Tab, TabBar, Tag } from '../ui';
+import { A, BACK, CLOSE, CHECK, Drips, Flame, genderTags, Ico, nounOnly, Screen, Tab, TabBar, Tag } from '../ui';
 
-type Props = { lang: Lang; profile: Profile; progress: Progress; today: string; go: (t: Tab) => void; start: (m: 'full' | 'five') => void; openFive: () => void };
+type Props = { lang: Lang; profile: Profile; progress: Progress; today: string; go: (t: Tab) => void; start: (m: 'full' | 'five' | 'one') => void; openFive: () => void;
+  speed: () => void; startBoss: (unitId: string) => void; dismissBoss: () => void };
 const DRIPS = 'M40 0v14a4 4 0 0 0 8 0V0zM118 0v22a5 5 0 0 0 10 0V0zM205 0v9a3.5 3.5 0 0 0 7 0V0zM288 0v18a4.5 4.5 0 0 0 9 0V0z';
 const LABEL = { review: 'Review', new: 'New lesson', speak: 'Listen & speak' };
 const TINT = { review: 'var(--c-cyan)', new: 'var(--c-yellow)', speak: 'var(--c-pink)' };
@@ -23,7 +24,7 @@ const Header = ({ lang, profile, frozen, first }: { lang: Lang; profile: Profile
 const StartButton = ({ onClick }: { onClick: () => void }) =>
   <div className="drip-wrap"><A className="btn giant block" onClick={onClick}>Start</A><Drips d={DRIPS} color="var(--c-yellow)" /></div>;
 
-export default function Today({ lang, profile, progress, today, go, start, openFive }: Props) {
+export default function Today({ lang, profile, progress, today, go, start, openFive, speed, startBoss, dismissBoss }: Props) {
   const [dismissed, setDismissed] = useState(false);
   const cur = currentLesson(lang, progress);
   const hasCards = Object.keys(progress.cards).length > 0;
@@ -47,6 +48,7 @@ export default function Today({ lang, profile, progress, today, go, start, openF
     return { ...b, n: i + 1, isNext, cls: 'plan-block' + (isDone ? ' done' : isNext ? ' now' : '') };
   });
   const due = dueIds(progress.cards).length;
+  const boss = progress.bossDismissed === today ? undefined : bossReady(lang, progress);
 
   return <Screen>
     <Header lang={lang} profile={profile} frozen={missed} first={first} />
@@ -58,7 +60,7 @@ export default function Today({ lang, profile, progress, today, go, start, openF
           <p className="eyebrow" style={{ position: 'relative' }}>Day one</p>
           <h1 className="display" style={{ fontSize: 56, position: 'relative', marginTop: 6 }}>Fresh<br />wall.</h1>
           <p style={{ position: 'relative', marginTop: 12, fontWeight: 600, fontSize: 17 }}>
-            Your first spot: {cur.lesson.title}.{cur.lesson.items[0] && <> You'll say <span className="noun target"><Tag g={cur.lesson.items[0].gender} articles={lang.pack.articles} size={0} />{nounOnly(cur.lesson.items[0])}</span> out loud in about 15 minutes.</>}
+            Your first spot: {cur.lesson.title}.{cur.lesson.items[0] && <> You'll say <span className="noun target"><Tag g={cur.lesson.items[0].gender} articles={genderTags(lang.pack)} size={0} />{nounOnly(cur.lesson.items[0])}</span> out loud in about 15 minutes.</>}
           </p>
         </div>
         <span className="sticker c" style={{ position: 'absolute', right: 30, bottom: -14, ['--rot' as string]: '5deg' }}>0 words · so far</span>
@@ -106,11 +108,29 @@ export default function Today({ lang, profile, progress, today, go, start, openF
       </ol>
       {!cur && <p className="small dim pad" style={{ marginTop: 12 }}>That's every lesson so far. Review keeps it fresh.</p>}
 
+      {boss && <div className="pad" style={{ marginTop: 16 }}>
+        <div className="paper tilt" role="status" style={{ ['--rot' as string]: '-1deg', padding: '10px 10px 10px 14px', display: 'flex', alignItems: 'center', gap: 10, background: 'var(--c-pink)' }}>
+          <span aria-hidden="true" style={{ fontSize: 30 }}>👹</span>
+          <p style={{ flex: 1, minWidth: 0, fontWeight: 800, lineHeight: 1.2 }}>Boss fight ready: <span lang={lang.pack.voice}>{boss.title}</span></p>
+          <A className="btn" onClick={() => startBoss(boss.id)} style={{ minHeight: 44, padding: '0 14px', fontSize: 18, background: 'var(--c-yellow)' }}>Fight</A>
+          <button type="button" className="icon-btn plain" aria-label="Dismiss boss fight for today" onClick={dismissBoss} style={{ color: 'var(--c-ink)', width: 36 }}><Ico d={CLOSE} /></button>
+        </div>
+      </div>}
+
+      {Object.keys(progress.cards).length >= 8 && <div className="pad" style={{ marginTop: 14 }}>
+        <button type="button" className="chip dark" onClick={speed} style={{ width: '100%', justifyContent: 'space-between', padding: '0 14px', minHeight: 44 }}>
+          <span><span aria-hidden="true">⚡</span> Speed round · 60 s</span><span style={{ color: 'var(--c-yellow)' }}>best {progress.speedBest}</span>
+        </button>
+      </div>}
+
       {!missed && <p className="statline pad" style={{ marginTop: 16 }}><b>{profile.wordsKnown}</b> words · {stageLabel} · {unitLabel}</p>}
 
       <div className="pad" style={{ marginTop: 'auto', paddingBottom: 6, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 22 }}>
         <StartButton onClick={() => start('full')} />
-        <A className="link" onClick={openFive}>Only got 5 minutes?</A>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: -14 }}>
+          <A className="link" onClick={openFive}>Only got 5 minutes?</A>
+          <A className="link" onClick={() => start('one')}>Just 1 minute</A>
+        </div>
       </div>
     </>}
 

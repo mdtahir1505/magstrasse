@@ -9,6 +9,10 @@ export const packs = (): Pack[] =>
 const lesson = (l: Partial<LessonContent>): LessonContent =>
   ({ id: '', title: '', items: [], sentences: [], fills: [], dialogue: undefined as never, ...l });
 
+const merged = <T,>(code: string, base: string): T[] =>
+  Object.keys(files).filter((k) => new RegExp(`^\\./${code}/${base}(-[\\w-]+)?\\.json$`).test(k)).sort()
+    .flatMap((k) => (files[k] as T[] | undefined) ?? []);
+
 export function loadLang(code: string): Lang | null {
   const pack = files[`./${code}/pack.json`] as Pack | undefined;
   if (!pack) return null;
@@ -17,8 +21,9 @@ export function loadLang(code: string): Lang | null {
     .map((s) => ({ ...s, units: (s.units ?? []).map((u: UnitContent) => ({ ...u, lessons: (u.lessons ?? []).map(lesson) })) }));
   return {
     pack, stages,
-    stories: (files[`./${code}/stories.json`] as Story[] | undefined) ?? [],
-    street: (files[`./${code}/street.json`] as StreetItem[] | undefined) ?? [],
+    // stories.json, stories-s2.json, … and street.json, street-s2.json, … are merged in file-name order
+    stories: merged<Story>(code, 'stories'),
+    street: merged<StreetItem>(code, 'street'),
   };
 }
 

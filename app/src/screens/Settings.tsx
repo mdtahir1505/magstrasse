@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { disableLock, isLockEnabled, lockAvailable } from '../engine/lock';
-import { exportJson, importJson, reset } from '../engine/storage';
-import { packs } from '../content';
+import { exportJson, importJson, reset, setLanguage } from '../engine/storage';
+import { hasTranslit, langChoices } from '../engine/langs';
 import Lock from './Lock';
 import type { MeProps } from './Me';
 
@@ -11,7 +11,7 @@ export default function Settings({ lang, stored, profile, progress, update, repl
   const [lockOn, setLockOn] = useState(isLockEnabled);
   const avail = lockAvailable();
   const set = (p: Partial<typeof stored>) => update((s) => { Object.assign(s.profile, p); });
-  const langs = [...packs().map((p) => ({ code: p.id, label: p.nativeName, available: true })), { code: 'ru', label: 'Русский · soon', available: false }];
+  const langs = langChoices().map((l) => ({ code: l.code, label: l.native + (l.available ? '' : ' · soon'), available: l.available }));
 
   const doExport = () => {
     const a = document.createElement('a');
@@ -46,9 +46,15 @@ export default function Settings({ lang, stored, profile, progress, update, repl
         <div className="set">
           <span className="lbl">Language</span>
           <div className="seg" role="radiogroup" aria-label="Active language">
-            {langs.map((l) => <button key={l.code} type="button" role="radio" aria-checked={l.code === stored.language} className={'chip dark' + (l.code === stored.language ? ' sel' : '')} disabled={!l.available} onClick={() => set({ language: l.code })}>{l.label}</button>)}
+            {langs.map((l) => <button key={l.code} type="button" role="radio" aria-checked={l.code === stored.language} className={'chip dark' + (l.code === stored.language ? ' sel' : '')} disabled={!l.available} onClick={() => update((s) => setLanguage(s, l.code))}>{l.label}</button>)}
           </div>
         </div>
+        {hasTranslit(lang.pack) && <div className="set" style={{ flexWrap: 'wrap' }}>
+          <span className="lbl">Latin spelling<span className="sub">Show how it sounds in Latin letters</span></span>
+          <div className="seg" role="radiogroup" aria-label="Latin spelling">
+            {(['auto', 'always', 'never'] as const).map((m) => <button key={m} type="button" role="radio" aria-checked={m === stored.translit} className={'chip dark' + (m === stored.translit ? ' sel' : '')} onClick={() => set({ translit: m })}>{m[0].toUpperCase() + m.slice(1)}</button>)}
+          </div>
+        </div>}
         <div className="set" style={{ flexWrap: 'wrap' }}>
           <span className="lbl">Daily goal</span>
           <div className="seg" role="radiogroup" aria-label="Daily goal in minutes">

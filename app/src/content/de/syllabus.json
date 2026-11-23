@@ -1,0 +1,2570 @@
+{
+ "lang": "de",
+ "stages": [
+  {
+   "file": "stage2.json",
+   "id": "s2",
+   "title": "Daily life",
+   "level": "A1",
+   "units": [
+    {
+     "id": "s2u1",
+     "title": "Family & friends",
+     "lessons": [
+      {
+       "id": "s2u1l1",
+       "title": "My family",
+       "grammar": "possessives mein/dein + noun: mein Vater, meine Mutter, meine Eltern",
+       "vocab": [
+        "die Mutter",
+        "der Vater",
+        "die Eltern",
+        "der Bruder",
+        "die Schwester",
+        "der Sohn",
+        "die Tochter",
+        "das Kind",
+        "die Familie",
+        "die Oma",
+        "der Opa",
+        "Ich habe zwei Geschwister"
+       ]
+      },
+      {
+       "id": "s2u1l2",
+       "title": "Relatives",
+       "grammar": "possessives sein/ihr: sein Onkel, ihre Tante",
+       "vocab": [
+        "der Onkel",
+        "die Tante",
+        "der Cousin",
+        "die Cousine",
+        "die Großeltern",
+        "der Neffe",
+        "die Nichte",
+        "verheiratet",
+        "ledig",
+        "geschieden",
+        "das Baby",
+        "die Verwandten"
+       ]
+      },
+      {
+       "id": "s2u1l3",
+       "title": "Friends & neighbours",
+       "grammar": "unser/euer/ihr: unsere Freunde, eure Nachbarn",
+       "vocab": [
+        "der Kollege",
+        "die Kollegin",
+        "der Nachbar",
+        "die Nachbarin",
+        "der Partner",
+        "die Partnerin",
+        "der Mensch",
+        "die Leute",
+        "der Typ",
+        "die Gruppe",
+        "befreundet sein",
+        "Wir sind Freunde"
+       ]
+      },
+      {
+       "id": "s2u1l4",
+       "title": "Describing people",
+       "grammar": "adjective after sein: Er ist groß, Sie ist nett",
+       "vocab": [
+        "groß",
+        "klein",
+        "jung",
+        "nett",
+        "freundlich",
+        "lustig",
+        "ruhig",
+        "klug",
+        "schön",
+        "sportlich",
+        "sympathisch",
+        "Er sieht gut aus"
+       ]
+      },
+      {
+       "id": "s2u1l5",
+       "title": "Meeting people",
+       "grammar": "accusative via chunks: Ich kenne ihn, Ich kenne sie nicht",
+       "vocab": [
+        "kennen",
+        "treffen",
+        "besuchen",
+        "einladen",
+        "die Einladung",
+        "Schön, dich kennenzulernen",
+        "Kennst du ihn?",
+        "Ich kenne sie nicht",
+        "Das ist meine Mutter",
+        "Darf ich vorstellen?",
+        "Wie lange kennst du ihn?",
+        "Das ist mein Bruder"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s2u2",
+     "title": "Time, days, plans",
+     "lessons": [
+      {
+       "id": "s2u2l1",
+       "title": "Days of the week",
+       "grammar": "am + day: am Montag",
+       "vocab": [
+        "der Montag",
+        "der Dienstag",
+        "der Mittwoch",
+        "der Donnerstag",
+        "der Freitag",
+        "der Samstag",
+        "der Sonntag",
+        "der Tag",
+        "die Woche",
+        "das Wochenende",
+        "am Montag",
+        "Welcher Tag ist heute?"
+       ]
+      },
+      {
+       "id": "s2u2l2",
+       "title": "Months",
+       "grammar": "im + month: im Mai",
+       "vocab": [
+        "der Januar",
+        "der Februar",
+        "der März",
+        "der April",
+        "der Mai",
+        "der Juni",
+        "der Juli",
+        "der August",
+        "der September",
+        "der Oktober",
+        "der November",
+        "der Dezember"
+       ]
+      },
+      {
+       "id": "s2u2l3",
+       "title": "Parts of the day",
+       "grammar": "time adverbs and verb in second place: Morgens trinke ich Kaffee",
+       "vocab": [
+        "der Morgen",
+        "der Vormittag",
+        "der Mittag",
+        "der Nachmittag",
+        "der Abend",
+        "die Nacht",
+        "immer",
+        "oft",
+        "manchmal",
+        "nie",
+        "morgen",
+        "gestern"
+       ]
+      },
+      {
+       "id": "s2u2l4",
+       "title": "Making plans",
+       "grammar": "separable verbs: Ich hole dich ab, Kommst du mit?",
+       "vocab": [
+        "der Plan",
+        "der Termin",
+        "Was hast du vor?",
+        "Hast du Lust?",
+        "Wann passt es dir?",
+        "Das passt mir gut",
+        "Das geht leider nicht",
+        "Ich bin am Samstag frei",
+        "Wir treffen uns um acht",
+        "abholen",
+        "mitkommen",
+        "Kommst du mit?"
+       ]
+      },
+      {
+       "id": "s2u2l5",
+       "title": "Soon, later, how long",
+       "grammar": "time expressions: in einer Woche, jeden Tag",
+       "vocab": [
+        "bald",
+        "sofort",
+        "später",
+        "nachher",
+        "schon",
+        "wieder",
+        "pünktlich",
+        "dauern",
+        "Wie lange dauert das?",
+        "Es dauert eine Stunde",
+        "in einer Woche",
+        "jeden Tag"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s2u3",
+     "title": "Shopping",
+     "lessons": [
+      {
+       "id": "s2u3l1",
+       "title": "Clothes",
+       "grammar": "accusative chunks: Ich brauche einen Pullover, ein Hemd, eine Jacke",
+       "vocab": [
+        "das T-Shirt",
+        "die Hose",
+        "die Jacke",
+        "der Pullover",
+        "das Hemd",
+        "das Kleid",
+        "der Rock",
+        "die Schuhe",
+        "die Socken",
+        "die Mütze",
+        "der Mantel",
+        "die Jeans"
+       ]
+      },
+      {
+       "id": "s2u3l2",
+       "title": "Colours",
+       "grammar": "adjectives after sein: Das Hemd ist blau",
+       "vocab": [
+        "rot",
+        "blau",
+        "grün",
+        "gelb",
+        "schwarz",
+        "weiß",
+        "grau",
+        "braun",
+        "rosa",
+        "bunt",
+        "hell",
+        "dunkel"
+       ]
+      },
+      {
+       "id": "s2u3l3",
+       "title": "In the shop",
+       "grammar": "modal können + infinitive: Kann ich das anprobieren?",
+       "vocab": [
+        "das Geschäft",
+        "der Laden",
+        "die Größe",
+        "anprobieren",
+        "Kann ich das anprobieren?",
+        "Haben Sie das in Größe M?",
+        "Das passt mir",
+        "Das ist zu klein",
+        "Das gefällt mir",
+        "Ich nehme es",
+        "die Kasse",
+        "der Preis"
+       ]
+      },
+      {
+       "id": "s2u3l4",
+       "title": "Groceries",
+       "grammar": "plural nouns and quantities: zwei Tomaten, ein Kilo Äpfel",
+       "vocab": [
+        "die Kartoffel",
+        "die Tomate",
+        "die Zwiebel",
+        "das Gemüse",
+        "das Obst",
+        "die Butter",
+        "das Mehl",
+        "der Reis",
+        "die Nudeln",
+        "das Hähnchen",
+        "der Fisch",
+        "die Wurst"
+       ]
+      },
+      {
+       "id": "s2u3l5",
+       "title": "Paying & deals",
+       "grammar": "haben + accusative: Haben Sie Wechselgeld?",
+       "vocab": [
+        "das Angebot",
+        "der Rabatt",
+        "die Tüte",
+        "der Kassenbon",
+        "die Kreditkarte",
+        "Kann ich mit Karte zahlen?",
+        "Haben Sie Wechselgeld?",
+        "Das ist im Angebot",
+        "Ich schaue nur",
+        "Kann ich umtauschen?",
+        "Brauchen Sie eine Tüte?",
+        "günstig"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s2u4",
+     "title": "Home & routine",
+     "lessons": [
+      {
+       "id": "s2u4l1",
+       "title": "Rooms",
+       "grammar": "in + dative as chunks: in der Küche, im Bad",
+       "vocab": [
+        "das Haus",
+        "die Wohnung",
+        "das Zimmer",
+        "die Küche",
+        "das Bad",
+        "das Schlafzimmer",
+        "das Wohnzimmer",
+        "der Balkon",
+        "der Garten",
+        "die Tür",
+        "das Fenster",
+        "der Flur"
+       ]
+      },
+      {
+       "id": "s2u4l2",
+       "title": "Furniture",
+       "grammar": "es gibt + accusative: Es gibt einen Tisch",
+       "vocab": [
+        "das Bett",
+        "der Stuhl",
+        "das Sofa",
+        "der Schrank",
+        "der Schreibtisch",
+        "die Lampe",
+        "der Fernseher",
+        "der Kühlschrank",
+        "das Regal",
+        "der Teppich",
+        "die Waschmaschine",
+        "der Spiegel"
+       ]
+      },
+      {
+       "id": "s2u4l3",
+       "title": "Morning to night",
+       "grammar": "separable verbs: Ich stehe um sieben auf",
+       "vocab": [
+        "aufstehen",
+        "aufwachen",
+        "duschen",
+        "frühstücken",
+        "anziehen",
+        "losgehen",
+        "arbeiten",
+        "die Arbeit",
+        "nach Hause kommen",
+        "kochen",
+        "schlafen",
+        "einschlafen"
+       ]
+      },
+      {
+       "id": "s2u4l4",
+       "title": "Chores",
+       "grammar": "separable verbs and müssen: Ich muss aufräumen",
+       "vocab": [
+        "putzen",
+        "aufräumen",
+        "waschen",
+        "abwaschen",
+        "einkaufen",
+        "der Müll",
+        "bügeln",
+        "staubsaugen",
+        "die Wäsche",
+        "sauber",
+        "schmutzig",
+        "ordentlich"
+       ]
+      },
+      {
+       "id": "s2u4l5",
+       "title": "Where things are",
+       "grammar": "in/auf/unter/neben + dative as chunks",
+       "vocab": [
+        "auf dem Tisch",
+        "unter dem Bett",
+        "neben dem Sofa",
+        "hinter der Tür",
+        "vor dem Haus",
+        "zwischen den Zimmern",
+        "über der Tür",
+        "an der Wand",
+        "die Wand",
+        "oben",
+        "unten",
+        "der Boden"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s2u5",
+     "title": "Likes & hobbies",
+     "lessons": [
+      {
+       "id": "s2u5l1",
+       "title": "What I like",
+       "grammar": "mögen, lieber, am liebsten",
+       "vocab": [
+        "mögen",
+        "lieben",
+        "hassen",
+        "lieber",
+        "am liebsten",
+        "Ich mag Kaffee",
+        "Das mag ich nicht",
+        "Ich liebe es",
+        "Ich hasse das",
+        "Es ist mir egal",
+        "Ich finde das gut",
+        "Das ist nicht mein Ding"
+       ]
+      },
+      {
+       "id": "s2u5l2",
+       "title": "Hobbies",
+       "grammar": "verbs + gern: Ich lese gern",
+       "vocab": [
+        "das Hobby",
+        "die Musik",
+        "der Film",
+        "das Buch",
+        "lesen",
+        "hören",
+        "sehen",
+        "spielen",
+        "tanzen",
+        "singen",
+        "malen",
+        "die Freizeit"
+       ]
+      },
+      {
+       "id": "s2u5l3",
+       "title": "Sport",
+       "grammar": "können and wollen with sports: Ich kann schwimmen",
+       "vocab": [
+        "der Sport",
+        "der Fußball",
+        "laufen",
+        "schwimmen",
+        "Rad fahren",
+        "das Fahrrad",
+        "trainieren",
+        "das Spiel",
+        "die Mannschaft",
+        "gewinnen",
+        "verlieren",
+        "das Fitnessstudio"
+       ]
+      },
+      {
+       "id": "s2u5l4",
+       "title": "Phones & games",
+       "grammar": "verbs with accusative: Ich benutze das Handy",
+       "vocab": [
+        "das Handy",
+        "der Computer",
+        "das Internet",
+        "die Serie",
+        "das Video",
+        "das Foto",
+        "das Videospiel",
+        "zocken",
+        "streamen",
+        "die App",
+        "das Passwort",
+        "online"
+       ]
+      },
+      {
+       "id": "s2u5l5",
+       "title": "Going out",
+       "grammar": "ins/in die + chunks: Ich gehe ins Kino",
+       "vocab": [
+        "das Konzert",
+        "die Party",
+        "die Kneipe",
+        "der Club",
+        "das Festival",
+        "der Spaziergang",
+        "spazieren gehen",
+        "wandern",
+        "die Natur",
+        "der See",
+        "das Schwimmbad",
+        "ins Kino gehen"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "file": "stage3.json",
+   "id": "s3",
+   "title": "Past & future",
+   "level": "A2",
+   "units": [
+    {
+     "id": "s3u1",
+     "title": "What I did (Perfekt)",
+     "lessons": [
+      {
+       "id": "s3u1l1",
+       "title": "Perfekt with haben",
+       "grammar": "haben + ge-…-t: Ich habe gemacht",
+       "vocab": [
+        "machen",
+        "lernen",
+        "Ich habe viel gemacht",
+        "Was hast du gemacht?",
+        "Ich habe gearbeitet",
+        "Ich habe gekocht",
+        "Ich habe eingekauft",
+        "Ich habe gelernt",
+        "Wir haben gespielt",
+        "letzte Woche",
+        "vorgestern",
+        "letztes Jahr"
+       ]
+      },
+      {
+       "id": "s3u1l2",
+       "title": "Irregular participles",
+       "grammar": "haben + ge-…-en: Ich habe gegessen",
+       "vocab": [
+        "schreiben",
+        "geben",
+        "nehmen",
+        "bekommen",
+        "Ich habe gegessen",
+        "Ich habe getrunken",
+        "Ich habe einen Film gesehen",
+        "Ich habe ein Buch gelesen",
+        "Ich habe lange geschlafen",
+        "Ich habe Deutsch gesprochen",
+        "Ich habe es gefunden",
+        "Ich habe eine Mail geschrieben"
+       ]
+      },
+      {
+       "id": "s3u1l3",
+       "title": "Perfekt with sein",
+       "grammar": "sein for movement and change: Ich bin gefahren",
+       "vocab": [
+        "bleiben",
+        "fliegen",
+        "ankommen",
+        "abfahren",
+        "Ich bin gegangen",
+        "Ich bin gefahren",
+        "Ich bin gekommen",
+        "Ich bin geblieben",
+        "Ich bin gewesen",
+        "Ich bin aufgestanden",
+        "Ich bin spät angekommen",
+        "Ich bin nach Hause gefahren"
+       ]
+      },
+      {
+       "id": "s3u1l4",
+       "title": "Yesterday",
+       "grammar": "participles without ge-: bezahlt, bestellt, vergessen",
+       "vocab": [
+        "anrufen",
+        "bestellen",
+        "bezahlen",
+        "vergessen",
+        "verpassen",
+        "passieren",
+        "Ich habe ihn angerufen",
+        "Ich habe bezahlt",
+        "Ich habe es vergessen",
+        "Ich habe den Bus verpasst",
+        "Was ist passiert?",
+        "Das ist passiert"
+       ]
+      },
+      {
+       "id": "s3u1l5",
+       "title": "My weekend",
+       "grammar": "war + adjective as a chunk: Es war schön",
+       "vocab": [
+        "Wie war dein Wochenende?",
+        "Es war schön",
+        "Es war langweilig",
+        "Nichts Besonderes",
+        "Und bei dir?",
+        "langweilig",
+        "anstrengend",
+        "interessant",
+        "schrecklich",
+        "wunderbar",
+        "Das war lustig",
+        "Ich war zu Hause"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s3u2",
+     "title": "Travel & hotels",
+     "lessons": [
+      {
+       "id": "s3u2l1",
+       "title": "Travel basics",
+       "grammar": "Perfekt with sein for trips: Wir sind geflogen",
+       "vocab": [
+        "die Reise",
+        "der Urlaub",
+        "reisen",
+        "der Koffer",
+        "das Gepäck",
+        "der Pass",
+        "das Ticket",
+        "das Flugzeug",
+        "der Flug",
+        "die Grenze",
+        "das Ausland",
+        "verreisen"
+       ]
+      },
+      {
+       "id": "s3u2l2",
+       "title": "At the hotel",
+       "grammar": "Haben Sie…? and Ich habe reserviert",
+       "vocab": [
+        "das Einzelzimmer",
+        "das Doppelzimmer",
+        "die Rezeption",
+        "der Schlüssel",
+        "die Übernachtung",
+        "buchen",
+        "die Reservierung",
+        "Haben Sie ein Zimmer frei?",
+        "Ich habe reserviert",
+        "Wie viel kostet eine Nacht?",
+        "Ist Frühstück inklusive?",
+        "einchecken"
+       ]
+      },
+      {
+       "id": "s3u2l3",
+       "title": "Getting there",
+       "grammar": "dative chunks with mit: mit dem Zug, mit der Bahn",
+       "vocab": [
+        "das Auto",
+        "das Schiff",
+        "die Fähre",
+        "die Straßenbahn",
+        "der Fahrplan",
+        "die Verspätung",
+        "umsteigen",
+        "die Abfahrt",
+        "die Ankunft",
+        "Der Zug hat Verspätung",
+        "mit dem Auto",
+        "mit dem Zug"
+       ]
+      },
+      {
+       "id": "s3u2l4",
+       "title": "Sightseeing",
+       "grammar": "dative chunks: in der Altstadt, am Strand",
+       "vocab": [
+        "die Sehenswürdigkeit",
+        "das Schloss",
+        "der Turm",
+        "der Dom",
+        "die Altstadt",
+        "der Platz",
+        "der Strand",
+        "der Berg",
+        "das Meer",
+        "die Führung",
+        "Wo kann man das sehen?",
+        "Kann ich hier ein Foto machen?"
+       ]
+      },
+      {
+       "id": "s3u2l5",
+       "title": "When things go wrong",
+       "grammar": "Perfekt of verlieren and passieren",
+       "vocab": [
+        "verloren",
+        "gestohlen",
+        "kaputt",
+        "der Notfall",
+        "die Polizei",
+        "die Panne",
+        "weg",
+        "Ich habe meinen Pass verloren",
+        "Mein Koffer ist weg",
+        "Ich habe mich verlaufen",
+        "Rufen Sie die Polizei!",
+        "Ich brauche sofort Hilfe"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s3u3",
+     "title": "Appointments & doctor",
+     "lessons": [
+      {
+       "id": "s3u3l1",
+       "title": "Making an appointment",
+       "grammar": "dative chunks: Passt Ihnen Dienstag?, Das passt mir",
+       "vocab": [
+        "die Praxis",
+        "die Sprechstunde",
+        "vereinbaren",
+        "absagen",
+        "verschieben",
+        "der Kalender",
+        "Ich möchte einen Termin vereinbaren",
+        "Passt Ihnen Dienstag?",
+        "Ich muss den Termin absagen",
+        "Können wir das verschieben?",
+        "Ich habe einen Termin um zehn",
+        "Ich komme etwas später"
+       ]
+      },
+      {
+       "id": "s3u3l2",
+       "title": "The body",
+       "grammar": "dative chunk: Mir tut der Kopf weh",
+       "vocab": [
+        "der Kopf",
+        "der Arm",
+        "das Bein",
+        "die Hand",
+        "der Fuß",
+        "der Bauch",
+        "der Rücken",
+        "das Auge",
+        "das Ohr",
+        "der Mund",
+        "die Nase",
+        "der Hals"
+       ]
+      },
+      {
+       "id": "s3u3l3",
+       "title": "Symptoms",
+       "grammar": "dative chunks: Mir ist übel, Mir tut … weh",
+       "vocab": [
+        "wehtun",
+        "Mir tut der Kopf weh",
+        "die Kopfschmerzen",
+        "die Halsschmerzen",
+        "das Fieber",
+        "der Husten",
+        "die Erkältung",
+        "die Schmerzen",
+        "Ich bin erkältet",
+        "Mir ist übel",
+        "allergisch",
+        "Es tut hier weh"
+       ]
+      },
+      {
+       "id": "s3u3l4",
+       "title": "At the doctor",
+       "grammar": "formal imperatives as chunks: Nehmen Sie das",
+       "vocab": [
+        "der Arzt",
+        "die Ärztin",
+        "das Krankenhaus",
+        "das Medikament",
+        "das Rezept",
+        "die Tablette",
+        "die Versicherung",
+        "Seit wann haben Sie das?",
+        "Seit gestern",
+        "Nehmen Sie das dreimal täglich",
+        "Sie müssen im Bett bleiben",
+        "Ich bin krankgeschrieben"
+       ]
+      },
+      {
+       "id": "s3u3l5",
+       "title": "Pharmacy & health",
+       "grammar": "gegen + accusative: etwas gegen Husten",
+       "vocab": [
+        "gesund",
+        "die Gesundheit",
+        "das Pflaster",
+        "die Salbe",
+        "der Schnupfen",
+        "der Krankenwagen",
+        "Ich brauche etwas gegen Kopfschmerzen",
+        "Haben Sie etwas gegen Husten?",
+        "Wie oft muss ich das nehmen?",
+        "Es geht mir besser",
+        "Ich habe Rückenschmerzen",
+        "Das hilft"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s3u4",
+     "title": "Weather & seasons",
+     "lessons": [
+      {
+       "id": "s3u4l1",
+       "title": "Weather words",
+       "grammar": "impersonal es: Es regnet",
+       "vocab": [
+        "das Wetter",
+        "die Sonne",
+        "der Regen",
+        "der Wind",
+        "der Schnee",
+        "die Wolke",
+        "das Gewitter",
+        "der Nebel",
+        "warm",
+        "kühl",
+        "regnen",
+        "schneien"
+       ]
+      },
+      {
+       "id": "s3u4l2",
+       "title": "Talking about weather",
+       "grammar": "es + adjective/verb: Es ist windig",
+       "vocab": [
+        "Wie ist das Wetter?",
+        "Es regnet",
+        "Es schneit",
+        "Die Sonne scheint",
+        "Es ist windig",
+        "Es ist sonnig",
+        "Es ist bewölkt",
+        "Es ist schwül",
+        "die Temperatur",
+        "Grad",
+        "Es hat zwanzig Grad",
+        "Was für ein Wetter!"
+       ]
+      },
+      {
+       "id": "s3u4l3",
+       "title": "Seasons & holidays",
+       "grammar": "im + season: im Winter",
+       "vocab": [
+        "der Frühling",
+        "der Sommer",
+        "der Herbst",
+        "der Winter",
+        "die Jahreszeit",
+        "im Sommer",
+        "im Winter",
+        "die Ferien",
+        "der Feiertag",
+        "Weihnachten",
+        "Ostern",
+        "Silvester"
+       ]
+      },
+      {
+       "id": "s3u4l4",
+       "title": "What to wear",
+       "grammar": "du imperative: Zieh dich warm an!",
+       "vocab": [
+        "der Regenschirm",
+        "die Sonnenbrille",
+        "der Schal",
+        "die Handschuhe",
+        "die Stiefel",
+        "die Regenjacke",
+        "die Sonnencreme",
+        "nass",
+        "trocken",
+        "Nimm einen Schirm mit",
+        "Zieh dich warm an",
+        "Es wird kalt"
+       ]
+      },
+      {
+       "id": "s3u4l5",
+       "title": "Forecast",
+       "grammar": "werden for weather: Es wird sonnig",
+       "vocab": [
+        "der Wetterbericht",
+        "die Vorhersage",
+        "Morgen soll es regnen",
+        "Es wird sonnig",
+        "Es wird kälter",
+        "hoffentlich",
+        "wahrscheinlich",
+        "leider",
+        "zum Glück",
+        "Schade!",
+        "Wir fahren trotzdem",
+        "bei schönem Wetter"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s3u5",
+     "title": "Plans (werden)",
+     "lessons": [
+      {
+       "id": "s3u5l1",
+       "title": "The future with werden",
+       "grammar": "werden + infinitive at the end: Ich werde lernen",
+       "vocab": [
+        "werden",
+        "die Zukunft",
+        "planen",
+        "versuchen",
+        "Ich werde lernen",
+        "Wir werden sehen",
+        "Ich werde es versuchen",
+        "nächste Woche",
+        "nächstes Jahr",
+        "nächsten Monat",
+        "übermorgen",
+        "in zwei Tagen"
+       ]
+      },
+      {
+       "id": "s3u5l2",
+       "title": "Goals & dreams",
+       "grammar": "werden for goals: Ich will besser werden",
+       "vocab": [
+        "das Ziel",
+        "der Traum",
+        "der Wunsch",
+        "hoffen",
+        "schaffen",
+        "anfangen",
+        "aufhören",
+        "weitermachen",
+        "Ich will besser werden",
+        "Ich werde es schaffen",
+        "Ich habe einen Traum",
+        "Viel Erfolg!"
+       ]
+      },
+      {
+       "id": "s3u5l3",
+       "title": "Commands & orders",
+       "grammar": "imperatives du/ihr/Sie: Komm!, Kommt!, Kommen Sie!",
+       "vocab": [
+        "Komm her!",
+        "Warte mal!",
+        "Schau mal!",
+        "Hör zu!",
+        "Sei vorsichtig!",
+        "Pass auf!",
+        "Beeil dich!",
+        "Keine Panik!",
+        "Lass uns gehen",
+        "Gib mir bitte das Salz",
+        "Sag mir Bescheid",
+        "Mach bitte auf"
+       ]
+      },
+      {
+       "id": "s3u5l4",
+       "title": "Polite requests",
+       "grammar": "Sie-forms and Darf ich…?",
+       "vocab": [
+        "Entschuldigen Sie",
+        "Darf ich hier sitzen?",
+        "Einen Moment, bitte",
+        "Moment mal",
+        "Warten Sie bitte",
+        "Kommen Sie herein",
+        "Nehmen Sie Platz",
+        "Gern geschehen",
+        "Keine Ursache",
+        "Vielen Dank",
+        "Könnten Sie das wiederholen?",
+        "Bitte sehr"
+       ]
+      },
+      {
+       "id": "s3u5l5",
+       "title": "Parties & invitations",
+       "grammar": "dative with schenken: Ich schenke dir ein Buch",
+       "vocab": [
+        "die Feier",
+        "der Geburtstag",
+        "das Geschenk",
+        "schenken",
+        "feiern",
+        "die Hochzeit",
+        "Herzlichen Glückwunsch",
+        "Alles Gute zum Geburtstag",
+        "Ich lade dich ein",
+        "Ich komme gern",
+        "Ich kann leider nicht kommen",
+        "Ich schenke dir ein Buch"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "file": "stage4.json",
+   "id": "s4",
+   "title": "Social",
+   "level": "A2",
+   "units": [
+    {
+     "id": "s4u1",
+     "title": "Opinions (weil/dass)",
+     "lessons": [
+      {
+       "id": "s4u1l1",
+       "title": "Giving an opinion",
+       "grammar": "dass-clause: verb to the end: Ich finde, dass es gut ist",
+       "vocab": [
+        "die Meinung",
+        "meinen",
+        "denken",
+        "glauben",
+        "Ich finde, dass es gut ist",
+        "Ich glaube, dass du recht hast",
+        "Meiner Meinung nach",
+        "Das stimmt nicht",
+        "Da hast du recht",
+        "Ich bin dafür",
+        "Ich bin dagegen",
+        "Ich denke schon"
+       ]
+      },
+      {
+       "id": "s4u1l2",
+       "title": "Agreeing & disagreeing",
+       "grammar": "short reactions, no new grammar load",
+       "vocab": [
+        "einverstanden",
+        "Genau!",
+        "Auf jeden Fall",
+        "Absolut",
+        "Das sehe ich anders",
+        "Da bin ich nicht sicher",
+        "Im Gegenteil",
+        "Ich weiß nicht",
+        "Das glaube ich nicht",
+        "Das ist wahr",
+        "Gar nicht",
+        "Ich sehe das auch so"
+       ]
+      },
+      {
+       "id": "s4u1l3",
+       "title": "Giving reasons",
+       "grammar": "weil-clause: verb to the end: Ich bin müde, weil ich wenig geschlafen habe",
+       "vocab": [
+        "der Grund",
+        "deshalb",
+        "denn",
+        "darum",
+        "nämlich",
+        "Ich bin müde, weil ich wenig geschlafen habe",
+        "Ich lerne Deutsch, weil ich in Berlin wohne",
+        "Das ist der Grund",
+        "Deshalb bin ich hier",
+        "Aus welchem Grund?",
+        "Es liegt daran, dass…",
+        "Weil ich Lust habe"
+       ]
+      },
+      {
+       "id": "s4u1l4",
+       "title": "What matters",
+       "grammar": "Es ist + adjective, dass…",
+       "vocab": [
+        "wichtig",
+        "richtig",
+        "falsch",
+        "möglich",
+        "unmöglich",
+        "sicher",
+        "einfach",
+        "schwer",
+        "nötig",
+        "Es ist wichtig, dass du kommst",
+        "Ich bin sicher, dass es klappt",
+        "Es ist schade, dass du gehst"
+       ]
+      },
+      {
+       "id": "s4u1l5",
+       "title": "If & whether",
+       "grammar": "wenn and ob: verb to the end",
+       "vocab": [
+        "wenn",
+        "falls",
+        "ob",
+        "sonst",
+        "außer",
+        "Wenn ich Zeit habe",
+        "Wenn es regnet",
+        "Ich weiß nicht, ob er kommt",
+        "Das kommt drauf an",
+        "Es hängt davon ab",
+        "Ich komme, falls es geht",
+        "Sonst nichts"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s4u2",
+     "title": "Making plans with people",
+     "lessons": [
+      {
+       "id": "s4u2l1",
+       "title": "Suggesting things",
+       "grammar": "Wollen wir…? / Sollen wir…? / Lass uns…",
+       "vocab": [
+        "der Vorschlag",
+        "vorschlagen",
+        "Wollen wir ins Kino gehen?",
+        "Sollen wir etwas essen?",
+        "Wie wäre es mit morgen?",
+        "Lass uns spazieren gehen",
+        "Gute Idee",
+        "Ich bin dabei",
+        "Das klingt gut",
+        "Mal sehen",
+        "Hast du einen Vorschlag?",
+        "Ich schlage vor, dass wir gehen"
+       ]
+      },
+      {
+       "id": "s4u2l2",
+       "title": "Where & when to meet",
+       "grammar": "reflexive chunk: Wir treffen uns",
+       "vocab": [
+        "der Treffpunkt",
+        "warten",
+        "unterwegs",
+        "Wo treffen wir uns?",
+        "Um wie viel Uhr?",
+        "Bis gleich!",
+        "Ich bin gleich da",
+        "Ich bin unterwegs",
+        "Ich warte auf dich",
+        "Ich bin schon da",
+        "Wir sehen uns dort",
+        "Ich bin zehn Minuten zu spät"
+       ]
+      },
+      {
+       "id": "s4u2l3",
+       "title": "Changing plans",
+       "grammar": "leider + dass-clause: Es tut mir leid, dass ich nicht kann",
+       "vocab": [
+        "dazwischenkommen",
+        "Etwas ist dazwischengekommen",
+        "Ich schaffe es nicht",
+        "Können wir einen anderen Tag machen?",
+        "Das macht nichts",
+        "Nächstes Mal",
+        "Ich melde mich",
+        "Wir holen es nach",
+        "ändern",
+        "ausfallen",
+        "Das müssen wir leider absagen",
+        "Kein Stress"
+       ]
+      },
+      {
+       "id": "s4u2l4",
+       "title": "Going out",
+       "grammar": "Perfekt + plans: Ich habe vor auszugehen",
+       "vocab": [
+        "ausgehen",
+        "gemeinsam",
+        "Was machst du heute Abend?",
+        "Hast du schon was vor?",
+        "Ich habe noch nichts vor",
+        "Ich gehe heute aus",
+        "Wir gehen was trinken",
+        "das Date",
+        "Wir sehen uns",
+        "Das wird lustig",
+        "Ich freue mich darauf",
+        "Ich bin müde, aber ich komme mit"
+       ]
+      },
+      {
+       "id": "s4u2l5",
+       "title": "Planning as a group",
+       "grammar": "mitbringen, übernehmen (separable/inseparable)",
+       "vocab": [
+        "organisieren",
+        "entscheiden",
+        "mitbringen",
+        "übernehmen",
+        "teilen",
+        "die Kosten",
+        "Wer bringt was mit?",
+        "Ich bringe Getränke mit",
+        "Ich übernehme das",
+        "Jeder zahlt für sich",
+        "Getrennt oder zusammen?",
+        "Wir teilen uns die Rechnung"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s4u3",
+     "title": "Texting & phone",
+     "lessons": [
+      {
+       "id": "s4u3l1",
+       "title": "Phone words",
+       "grammar": "accusative verbs: Ich lade den Akku auf",
+       "vocab": [
+        "das Telefon",
+        "telefonieren",
+        "die Nummer",
+        "die Nachricht",
+        "der Anruf",
+        "der Akku",
+        "aufladen",
+        "das Netz",
+        "der Empfang",
+        "das Ladekabel",
+        "erreichbar",
+        "die Mailbox"
+       ]
+      },
+      {
+       "id": "s4u3l2",
+       "title": "Phone calls",
+       "grammar": "Kann ich bitte … sprechen?",
+       "vocab": [
+        "Hier ist Anna",
+        "Wer ist da?",
+        "Kann ich bitte Herrn Müller sprechen?",
+        "Einen Moment, ich verbinde",
+        "Er ist nicht da",
+        "Kann ich etwas ausrichten?",
+        "Ich rufe später zurück",
+        "Falsch verbunden",
+        "Die Verbindung ist schlecht",
+        "Ich kann dich kaum hören",
+        "Bist du noch dran?",
+        "Ich melde mich später"
+       ]
+      },
+      {
+       "id": "s4u3l3",
+       "title": "Texting",
+       "grammar": "dative + accusative: Ich schicke dir ein Foto",
+       "vocab": [
+        "schicken",
+        "antworten",
+        "die Antwort",
+        "der Chat",
+        "die Sprachnachricht",
+        "der Kontakt",
+        "Schreib mir",
+        "Schick mir ein Foto",
+        "Ich schreibe dir später",
+        "Hast du meine Nachricht gelesen?",
+        "Bist du online?",
+        "Ich habe keine Antwort bekommen"
+       ]
+      },
+      {
+       "id": "s4u3l4",
+       "title": "Email",
+       "grammar": "du/Sie register: Liebe Grüße vs Mit freundlichen Grüßen",
+       "vocab": [
+        "die E-Mail",
+        "die Adresse",
+        "der Betreff",
+        "der Anhang",
+        "senden",
+        "weiterleiten",
+        "Sehr geehrte Damen und Herren",
+        "Mit freundlichen Grüßen",
+        "Liebe Grüße",
+        "Viele Grüße",
+        "Anbei finden Sie…",
+        "Ich freue mich auf Ihre Antwort"
+       ]
+      },
+      {
+       "id": "s4u3l5",
+       "title": "Social media",
+       "grammar": "accusative verbs: Ich folge ihm",
+       "vocab": [
+        "das Profil",
+        "der Beitrag",
+        "posten",
+        "kommentieren",
+        "folgen",
+        "der Follower",
+        "das Selfie",
+        "das Emoji",
+        "der Link",
+        "das Netzwerk",
+        "Hast du das gesehen?",
+        "Das ist viral gegangen"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s4u4",
+     "title": "Feelings",
+     "lessons": [
+      {
+       "id": "s4u4l1",
+       "title": "Feeling words",
+       "grammar": "sein + adjective: Ich bin nervös",
+       "vocab": [
+        "glücklich",
+        "traurig",
+        "wütend",
+        "nervös",
+        "aufgeregt",
+        "zufrieden",
+        "enttäuscht",
+        "überrascht",
+        "stolz",
+        "eifersüchtig",
+        "einsam",
+        "entspannt"
+       ]
+      },
+      {
+       "id": "s4u4l2",
+       "title": "Feeling chunks",
+       "grammar": "reflexive verbs: sich freuen, sich ärgern",
+       "vocab": [
+        "sich fühlen",
+        "sich freuen",
+        "sich ärgern",
+        "sich langweilen",
+        "Ich fühle mich schlecht",
+        "Ich freue mich für dich",
+        "Ich ärgere mich über das Wetter",
+        "Ich habe Angst",
+        "Ich mache mir Sorgen",
+        "Ich bin sauer",
+        "Ich bin gestresst",
+        "Ich bin überfordert"
+       ]
+      },
+      {
+       "id": "s4u4l3",
+       "title": "Everyday reflexives",
+       "grammar": "reflexive pronouns mich/dich/sich/uns",
+       "vocab": [
+        "sich waschen",
+        "sich anziehen",
+        "sich setzen",
+        "sich beeilen",
+        "sich erinnern",
+        "sich entscheiden",
+        "sich treffen",
+        "sich ausruhen",
+        "sich entschuldigen",
+        "sich vorstellen",
+        "sich interessieren für",
+        "sich kümmern um"
+       ]
+      },
+      {
+       "id": "s4u4l4",
+       "title": "Comforting & cheering",
+       "grammar": "imperatives + reflexive: Beruhige dich!",
+       "vocab": [
+        "Keine Sorge",
+        "Alles wird gut",
+        "Kopf hoch",
+        "Mach dir keine Sorgen",
+        "Das tut mir leid für dich",
+        "Ich bin für dich da",
+        "Ich verstehe dich",
+        "Du schaffst das",
+        "Beruhige dich",
+        "Atme tief durch",
+        "Das wird schon",
+        "trösten"
+       ]
+      },
+      {
+       "id": "s4u4l5",
+       "title": "Mood & stress",
+       "grammar": "nouns for feelings + haben: Ich habe Stress",
+       "vocab": [
+        "die Laune",
+        "schlecht gelaunt",
+        "der Stress",
+        "die Angst",
+        "die Sorge",
+        "die Freude",
+        "die Liebe",
+        "die Wut",
+        "der Streit",
+        "sich streiten",
+        "sich entspannen",
+        "sich vertragen"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s4u5",
+     "title": "Small talk",
+     "lessons": [
+      {
+       "id": "s4u5l1",
+       "title": "Comparing two things",
+       "grammar": "comparative -er + als: größer als",
+       "vocab": [
+        "größer",
+        "kleiner",
+        "besser",
+        "schlechter",
+        "älter",
+        "jünger",
+        "schneller",
+        "langsamer",
+        "teurer",
+        "billiger",
+        "wärmer",
+        "kälter"
+       ]
+      },
+      {
+       "id": "s4u5l2",
+       "title": "Best & most",
+       "grammar": "superlative am -sten, so … wie",
+       "vocab": [
+        "der beste",
+        "am besten",
+        "am meisten",
+        "am schönsten",
+        "am größten",
+        "besser als",
+        "so gut wie",
+        "genauso",
+        "anders",
+        "ähnlich",
+        "verschieden",
+        "der Unterschied"
+       ]
+      },
+      {
+       "id": "s4u5l3",
+       "title": "Chatting",
+       "grammar": "open questions and short answers",
+       "vocab": [
+        "Wie war dein Tag?",
+        "Was gibt's Neues?",
+        "Und sonst?",
+        "Wie läuft's?",
+        "Alles gut?",
+        "Nicht schlecht",
+        "Es geht",
+        "So lala",
+        "Bei mir ist alles gut",
+        "Was machst du so?",
+        "Lange nicht gesehen",
+        "Was machst du beruflich?"
+       ]
+      },
+      {
+       "id": "s4u5l4",
+       "title": "Talking about myself",
+       "grammar": "als + job: Ich arbeite als Ingenieur",
+       "vocab": [
+        "der Beruf",
+        "der Job",
+        "der Student",
+        "die Studentin",
+        "studieren",
+        "der Lehrer",
+        "die Lehrerin",
+        "Ich arbeite als Ingenieur",
+        "Ich studiere Medizin",
+        "Ich suche einen Job",
+        "selbstständig",
+        "arbeitslos"
+       ]
+      },
+      {
+       "id": "s4u5l5",
+       "title": "Compliments & goodbyes",
+       "grammar": "dative chunks: Das steht dir gut",
+       "vocab": [
+        "Das steht dir gut",
+        "Du siehst toll aus",
+        "Gut gemacht!",
+        "Respekt!",
+        "Das ist nett von dir",
+        "Prost!",
+        "Wie schön!",
+        "Das ist schön für dich",
+        "Schönen Tag noch!",
+        "Mach's gut!",
+        "Bis bald!",
+        "Schönes Wochenende!"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "file": "stage5.json",
+   "id": "s5",
+   "title": "Real conversations",
+   "level": "B1",
+   "units": [
+    {
+     "id": "s5u1",
+     "title": "Telling stories",
+     "lessons": [
+      {
+       "id": "s5u1l1",
+       "title": "Was and hatte",
+       "grammar": "Präteritum of sein and haben: Ich war, Ich hatte",
+       "vocab": [
+        "war",
+        "hatte",
+        "es gab",
+        "früher",
+        "damals",
+        "neulich",
+        "als Kind",
+        "Ich war müde",
+        "Ich hatte keine Zeit",
+        "Wir waren in Spanien",
+        "Es war einmal",
+        "vor drei Jahren"
+       ]
+      },
+      {
+       "id": "s5u1l2",
+       "title": "Story connectors",
+       "grammar": "adverbs that take verb-second: Dann bin ich gegangen",
+       "vocab": [
+        "zuerst",
+        "danach",
+        "schließlich",
+        "plötzlich",
+        "auf einmal",
+        "inzwischen",
+        "eines Tages",
+        "am Anfang",
+        "am Ende",
+        "zum Schluss",
+        "währenddessen",
+        "kurz darauf"
+       ]
+      },
+      {
+       "id": "s5u1l3",
+       "title": "When, while, after",
+       "grammar": "als, während, nachdem, bevor: verb to the end",
+       "vocab": [
+        "als",
+        "während",
+        "nachdem",
+        "bevor",
+        "seit",
+        "sobald",
+        "Als ich klein war",
+        "Während ich gekocht habe",
+        "Nachdem wir gegessen hatten",
+        "Bevor ich gegangen bin",
+        "Seit ich hier wohne",
+        "Sobald ich Zeit habe"
+       ]
+      },
+      {
+       "id": "s5u1l4",
+       "title": "Modals in the past",
+       "grammar": "Präteritum of modals: konnte, musste, wollte",
+       "vocab": [
+        "konnte",
+        "musste",
+        "wollte",
+        "durfte",
+        "sollte",
+        "wusste",
+        "Ich konnte nicht schlafen",
+        "Ich musste lange warten",
+        "Ich wollte dich anrufen",
+        "Wir durften nicht rein",
+        "Er sollte pünktlich sein",
+        "Ich wusste es nicht"
+       ]
+      },
+      {
+       "id": "s5u1l5",
+       "title": "Reacting to stories",
+       "grammar": "short listener reactions",
+       "vocab": [
+        "Echt?",
+        "Ehrlich?",
+        "Und dann?",
+        "Was ist dann passiert?",
+        "Du machst Witze",
+        "Das ist ja verrückt",
+        "Unglaublich",
+        "Wahnsinn",
+        "Nicht zu glauben",
+        "Das ist mir auch passiert",
+        "Zum Glück nicht",
+        "Was für ein Zufall"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s5u2",
+     "title": "Comparing things",
+     "lessons": [
+      {
+       "id": "s5u2l1",
+       "title": "Describing qualities",
+       "grammar": "adjective endings lite: ein neuer Tisch, eine neue Lampe",
+       "vocab": [
+        "bequem",
+        "praktisch",
+        "modern",
+        "altmodisch",
+        "spannend",
+        "nützlich",
+        "wertvoll",
+        "einzigartig",
+        "normal",
+        "besonders",
+        "perfekt",
+        "gewöhnlich"
+       ]
+      },
+      {
+       "id": "s5u2l2",
+       "title": "How much",
+       "grammar": "quantity words before adjectives",
+       "vocab": [
+        "genug",
+        "zu viel",
+        "zu wenig",
+        "ziemlich",
+        "ganz",
+        "sehr",
+        "fast",
+        "ungefähr",
+        "mindestens",
+        "höchstens",
+        "einige",
+        "mehrere"
+       ]
+      },
+      {
+       "id": "s5u2l3",
+       "title": "This one or that one",
+       "grammar": "welcher/welche/welches; entweder … oder",
+       "vocab": [
+        "welcher",
+        "der Vorteil",
+        "der Nachteil",
+        "der Vergleich",
+        "vergleichen",
+        "bevorzugen",
+        "Was ist besser?",
+        "im Vergleich zu",
+        "Beides ist gut",
+        "Keins von beiden",
+        "entweder … oder",
+        "weder … noch"
+       ]
+      },
+      {
+       "id": "s5u2l4",
+       "title": "Places compared",
+       "grammar": "comparatives with places and als",
+       "vocab": [
+        "das Land",
+        "das Dorf",
+        "die Großstadt",
+        "die Gegend",
+        "der Norden",
+        "der Süden",
+        "der Osten",
+        "der Westen",
+        "auf dem Land",
+        "ruhiger",
+        "lebendiger",
+        "die Lage"
+       ]
+      },
+      {
+       "id": "s5u2l5",
+       "title": "Things & materials",
+       "grammar": "adjective endings after ein-/kein-",
+       "vocab": [
+        "das Material",
+        "die Form",
+        "das Gewicht",
+        "das Holz",
+        "das Metall",
+        "das Plastik",
+        "das Papier",
+        "leicht",
+        "weich",
+        "hart",
+        "breit",
+        "tief"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s5u3",
+     "title": "Complaining & solving problems",
+     "lessons": [
+      {
+       "id": "s5u3l1",
+       "title": "Complaining politely",
+       "grammar": "Ich möchte mich beschweren; Das ist nicht in Ordnung",
+       "vocab": [
+        "das Problem",
+        "der Fehler",
+        "die Beschwerde",
+        "sich beschweren",
+        "Ich möchte mich beschweren",
+        "Das ist nicht in Ordnung",
+        "Das geht so nicht",
+        "Ich bin damit nicht zufrieden",
+        "Das kann doch nicht wahr sein",
+        "Das ist eine Frechheit",
+        "Was soll das?",
+        "Das ist inakzeptabel"
+       ]
+      },
+      {
+       "id": "s5u3l2",
+       "title": "When things break",
+       "grammar": "Perfekt of kaputtgehen; Es funktioniert nicht",
+       "vocab": [
+        "funktionieren",
+        "defekt",
+        "das Gerät",
+        "die Reparatur",
+        "reparieren",
+        "ersetzen",
+        "der Ersatz",
+        "die Garantie",
+        "der Kundendienst",
+        "Es funktioniert nicht",
+        "Es ist kaputtgegangen",
+        "Der Akku ist leer"
+       ]
+      },
+      {
+       "id": "s5u3l3",
+       "title": "Returns & refunds",
+       "grammar": "zu-infinitive lite: Ich habe vor, es zurückzugeben",
+       "vocab": [
+        "zurückgeben",
+        "umtauschen",
+        "reklamieren",
+        "die Reklamation",
+        "der Gutschein",
+        "die Quittung",
+        "die Rückerstattung",
+        "Ich möchte das zurückgeben",
+        "Ich hätte gern mein Geld zurück",
+        "Ich habe den Beleg dabei",
+        "Es kam beschädigt an",
+        "Was kann ich da machen?"
+       ]
+      },
+      {
+       "id": "s5u3l4",
+       "title": "Finding a solution",
+       "grammar": "Wie können wir…? and Lass uns…",
+       "vocab": [
+        "die Lösung",
+        "lösen",
+        "ausprobieren",
+        "der Kompromiss",
+        "Wie können wir das lösen?",
+        "Ich habe eine Lösung",
+        "Das lässt sich regeln",
+        "Wir finden eine Lösung",
+        "Lass mich das versuchen",
+        "Versuchen wir es anders",
+        "Was schlagen Sie vor?",
+        "Das ist eine gute Lösung"
+       ]
+      },
+      {
+       "id": "s5u3l5",
+       "title": "Landlord & neighbours",
+       "grammar": "stören + accusative; Das stört mich",
+       "vocab": [
+        "der Vermieter",
+        "der Mieter",
+        "die Miete",
+        "der Lärm",
+        "laut",
+        "leise",
+        "stören",
+        "Das stört mich",
+        "die Heizung",
+        "die Hausordnung",
+        "der Schaden",
+        "die Nachbarschaft"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s5u4",
+     "title": "Preferences",
+     "lessons": [
+      {
+       "id": "s5u4l1",
+       "title": "Likes & favourites",
+       "grammar": "comparative + lieber; Mir ist … lieber",
+       "vocab": [
+        "der Favorit",
+        "der Lieblingsfilm",
+        "das Lieblingsessen",
+        "der Geschmack",
+        "Das ist Geschmackssache",
+        "Je nachdem",
+        "Ich bin da flexibel",
+        "Mir ist beides recht",
+        "Das ist mein Favorit",
+        "Ich mag das lieber",
+        "Ich bin kein Fan davon",
+        "Das ist nichts für mich"
+       ]
+      },
+      {
+       "id": "s5u4l2",
+       "title": "Food preferences",
+       "grammar": "ich esse kein + noun",
+       "vocab": [
+        "vegetarisch",
+        "vegan",
+        "scharf",
+        "salzig",
+        "sauer",
+        "bitter",
+        "die Allergie",
+        "laktosefrei",
+        "glutenfrei",
+        "Ich esse kein Fleisch",
+        "Ich bin Vegetarier",
+        "die Soße"
+       ]
+      },
+      {
+       "id": "s5u4l3",
+       "title": "Music, film & books",
+       "grammar": "stehen auf + accusative (colloquial)",
+       "vocab": [
+        "der Krimi",
+        "die Komödie",
+        "der Roman",
+        "das Lied",
+        "die Band",
+        "der Sänger",
+        "die Sängerin",
+        "der Schauspieler",
+        "die Schauspielerin",
+        "das Genre",
+        "die Hauptrolle",
+        "Ich stehe auf Krimis"
+       ]
+      },
+      {
+       "id": "s5u4l4",
+       "title": "Lifestyle",
+       "grammar": "sich gewöhnen an + accusative",
+       "vocab": [
+        "das Leben",
+        "leben",
+        "der Alltag",
+        "die Gewohnheit",
+        "sich gewöhnen an",
+        "der Frühaufsteher",
+        "die Nachteule",
+        "ausschlafen",
+        "die Ruhe",
+        "der Ausgleich",
+        "Ich brauche meine Ruhe",
+        "Ich bin ein Gewohnheitstier"
+       ]
+      },
+      {
+       "id": "s5u4l5",
+       "title": "Choosing",
+       "grammar": "sich entscheiden für + accusative",
+       "vocab": [
+        "wählen",
+        "aussuchen",
+        "die Auswahl",
+        "die Wahl",
+        "die Alternative",
+        "die Möglichkeit",
+        "Such dir was aus",
+        "Ich kann mich nicht entscheiden",
+        "Ich bin unentschlossen",
+        "Ich entscheide mich für das Blaue",
+        "Ich nehme das hier",
+        "Beides gefällt mir"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s5u5",
+     "title": "\"If I were…\"",
+     "lessons": [
+      {
+       "id": "s5u5l1",
+       "title": "Würde + infinitive",
+       "grammar": "Konjunktiv II: Ich würde gern… / Würden Sie…?",
+       "vocab": [
+        "Ich würde gern gehen",
+        "Würdest du mir helfen?",
+        "Würden Sie bitte warten?",
+        "Ich würde sagen",
+        "Ich würde das machen",
+        "Ich würde lieber warten",
+        "Würde es dir etwas ausmachen?",
+        "Es würde mich freuen",
+        "Das würde ich nicht machen",
+        "Ich würde sofort kommen",
+        "Ich würde dir gern helfen",
+        "Wir würden uns freuen"
+       ]
+      },
+      {
+       "id": "s5u5l2",
+       "title": "Hätte & wäre",
+       "grammar": "Konjunktiv II of haben and sein: Ich hätte Zeit, Das wäre toll",
+       "vocab": [
+        "Ich hätte Zeit",
+        "Ich hätte Lust",
+        "Ich wäre froh",
+        "Das wäre toll",
+        "Das wäre schön",
+        "Es wäre besser",
+        "Wäre das möglich?",
+        "Hätten Sie ein Zimmer?",
+        "Wenn ich Zeit hätte",
+        "Wenn ich reich wäre",
+        "Wenn ich du wäre",
+        "Ich wäre gern dort"
+       ]
+      },
+      {
+       "id": "s5u5l3",
+       "title": "Wishes & could",
+       "grammar": "könnte/könntest; Wenn ich nur…",
+       "vocab": [
+        "Ich wünschte, ich könnte fliegen",
+        "Ich wünsche mir Ruhe",
+        "Wenn ich nur mehr Zeit hätte",
+        "Ich könnte",
+        "Du könntest",
+        "Wir könnten",
+        "Man könnte",
+        "Das könnte klappen",
+        "Das könnte sein",
+        "Es könnte schlimmer sein",
+        "Das hätte ich nie gedacht",
+        "Hätte ich das gewusst"
+       ]
+      },
+      {
+       "id": "s5u5l4",
+       "title": "Giving advice",
+       "grammar": "sollte, An deiner Stelle würde ich…",
+       "vocab": [
+        "der Rat",
+        "der Tipp",
+        "empfehlen",
+        "Du solltest mehr schlafen",
+        "Sie sollten zum Arzt gehen",
+        "An deiner Stelle würde ich warten",
+        "Was würdest du tun?",
+        "Ich empfehle dir das Café",
+        "Ich gebe dir einen Tipp",
+        "Probier das mal",
+        "Das solltest du nicht tun",
+        "Hör auf mich"
+       ]
+      },
+      {
+       "id": "s5u5l5",
+       "title": "What if…?",
+       "grammar": "indirect questions and hypotheticals: Ich weiß nicht, was ich tun soll",
+       "vocab": [
+        "angenommen",
+        "theoretisch",
+        "eigentlich",
+        "im Grunde",
+        "im Prinzip",
+        "sozusagen",
+        "notfalls",
+        "Was wäre, wenn…?",
+        "Stell dir vor",
+        "Das wäre nicht schlecht",
+        "Das käme darauf an",
+        "Ich weiß nicht, was ich tun soll"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "file": "stage6.json",
+   "id": "s6",
+   "title": "Fluency",
+   "level": "B1",
+   "units": [
+    {
+     "id": "s6u1",
+     "title": "Work & study",
+     "lessons": [
+      {
+       "id": "s6u1l1",
+       "title": "Jobs & workplaces",
+       "grammar": "relative clauses lite: der Chef, der…",
+       "vocab": [
+        "der Chef",
+        "die Chefin",
+        "der Mitarbeiter",
+        "die Firma",
+        "das Büro",
+        "das Gehalt",
+        "der Lohn",
+        "die Stelle",
+        "die Bewerbung",
+        "der Lebenslauf",
+        "das Vorstellungsgespräch",
+        "der Vertrag"
+       ]
+      },
+      {
+       "id": "s6u1l2",
+       "title": "Office talk",
+       "grammar": "relative clauses lite: das Projekt, das…",
+       "vocab": [
+        "die Besprechung",
+        "die Aufgabe",
+        "das Projekt",
+        "die Frist",
+        "die Überstunden",
+        "der Feierabend",
+        "die Kündigung",
+        "kündigen",
+        "der Kunde",
+        "der Auftrag",
+        "Ich bin im Meeting",
+        "Ich mache Feierabend"
+       ]
+      },
+      {
+       "id": "s6u1l3",
+       "title": "University",
+       "grammar": "relative clauses lite: der Kurs, den…",
+       "vocab": [
+        "die Universität",
+        "das Studium",
+        "die Vorlesung",
+        "die Prüfung",
+        "die Note",
+        "das Fach",
+        "der Kurs",
+        "die Hausaufgabe",
+        "der Abschluss",
+        "bestehen",
+        "durchfallen",
+        "Ich lerne für die Prüfung"
+       ]
+      },
+      {
+       "id": "s6u1l4",
+       "title": "Professional writing & calls",
+       "grammar": "Sie register and formal phrases",
+       "vocab": [
+        "nachfragen",
+        "bezüglich",
+        "wie besprochen",
+        "Vielen Dank für Ihre Nachricht",
+        "Ich wollte nachfragen",
+        "Ich bitte um Rückmeldung",
+        "Mit besten Grüßen",
+        "Ich melde mich bei Ihnen",
+        "Bitte entschuldigen Sie die Verspätung",
+        "Haben Sie einen Moment Zeit?",
+        "Ich komme darauf zurück",
+        "Zur Information"
+       ]
+      },
+      {
+       "id": "s6u1l5",
+       "title": "Money & paperwork",
+       "grammar": "um … zu and damit lite",
+       "vocab": [
+        "das Konto",
+        "überweisen",
+        "die Steuer",
+        "das Formular",
+        "ausfüllen",
+        "die Unterschrift",
+        "unterschreiben",
+        "der Antrag",
+        "der Ausweis",
+        "das Amt",
+        "sich anmelden",
+        "die Anmeldung"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s6u2",
+     "title": "Culture & Germany",
+     "lessons": [
+      {
+       "id": "s6u2l1",
+       "title": "Countries & places",
+       "grammar": "in/nach + country as chunks",
+       "vocab": [
+        "Österreich",
+        "die Schweiz",
+        "Frankreich",
+        "Polen",
+        "Italien",
+        "Spanien",
+        "die Türkei",
+        "Europa",
+        "die Hauptstadt",
+        "Hamburg",
+        "Köln",
+        "Bayern"
+       ]
+      },
+      {
+       "id": "s6u2l2",
+       "title": "German food culture",
+       "grammar": "relative clauses lite: ein Gericht, das…",
+       "vocab": [
+        "die Bratwurst",
+        "die Brezel",
+        "das Schnitzel",
+        "das Sauerkraut",
+        "der Döner",
+        "die Currywurst",
+        "das Vollkornbrot",
+        "der Kartoffelsalat",
+        "der Lebkuchen",
+        "der Biergarten",
+        "der Stammtisch",
+        "die Spezialität"
+       ]
+      },
+      {
+       "id": "s6u2l3",
+       "title": "Traditions & holidays",
+       "grammar": "passive lite: Es wird gefeiert",
+       "vocab": [
+        "der Weihnachtsmarkt",
+        "der Karneval",
+        "das Oktoberfest",
+        "der Brauch",
+        "die Tradition",
+        "die Kultur",
+        "der Heiligabend",
+        "die Bescherung",
+        "der Muttertag",
+        "Frohe Weihnachten!",
+        "Frohes neues Jahr!",
+        "Guten Rutsch!"
+       ]
+      },
+      {
+       "id": "s6u2l4",
+       "title": "History & society",
+       "grammar": "Präteritum of common verbs in reading: wurde, gab",
+       "vocab": [
+        "die Geschichte",
+        "der Krieg",
+        "der Frieden",
+        "die Mauer",
+        "die Wiedervereinigung",
+        "die Regierung",
+        "der Bundeskanzler",
+        "die Demokratie",
+        "die Politik",
+        "die Gesellschaft",
+        "das Gesetz",
+        "die Meinungsfreiheit"
+       ]
+      },
+      {
+       "id": "s6u2l5",
+       "title": "Life in Germany",
+       "grammar": "man + verb: Man trennt den Müll",
+       "vocab": [
+        "das Pfand",
+        "der Pfandautomat",
+        "die Mülltrennung",
+        "die Sonntagsruhe",
+        "die Bürokratie",
+        "der Verein",
+        "die Krankenkasse",
+        "das Deutschlandticket",
+        "die WG",
+        "der Spätkauf",
+        "der Mietvertrag",
+        "das Bürgeramt"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s6u3",
+     "title": "Arguing your point",
+     "lessons": [
+      {
+       "id": "s6u3l1",
+       "title": "Structuring an argument",
+       "grammar": "discourse markers: erstens, außerdem, zum Beispiel",
+       "vocab": [
+        "erstens",
+        "zweitens",
+        "außerdem",
+        "zum Beispiel",
+        "zum einen … zum anderen",
+        "einerseits … andererseits",
+        "zusammenfassend",
+        "kurz gesagt",
+        "insgesamt",
+        "Ich möchte betonen, dass…",
+        "Dazu möchte ich sagen",
+        "Ein Beispiel dafür ist…"
+       ]
+      },
+      {
+       "id": "s6u3l2",
+       "title": "Contrast & concession",
+       "grammar": "obwohl-clauses; trotzdem with verb-second",
+       "vocab": [
+        "trotzdem",
+        "dennoch",
+        "obwohl",
+        "jedoch",
+        "allerdings",
+        "dagegen",
+        "aber",
+        "im Gegensatz dazu",
+        "auf der anderen Seite",
+        "zwar … aber",
+        "Das stimmt zwar, aber…",
+        "Ich sehe das trotzdem anders"
+       ]
+      },
+      {
+       "id": "s6u3l3",
+       "title": "Backing it up",
+       "grammar": "indirect speech lite: Er sagt, dass…",
+       "vocab": [
+        "das Argument",
+        "die Behauptung",
+        "behaupten",
+        "der Beweis",
+        "die Tatsache",
+        "die Studie",
+        "tatsächlich",
+        "offensichtlich",
+        "die Quelle",
+        "widersprechen",
+        "Da muss ich widersprechen",
+        "Das ist ein gutes Argument"
+       ]
+      },
+      {
+       "id": "s6u3l4",
+       "title": "Interrupting & pushing back",
+       "grammar": "Konjunktiv II for politeness + discourse markers",
+       "vocab": [
+        "Darf ich kurz etwas sagen?",
+        "Lass mich ausreden",
+        "Entschuldige, wenn ich unterbreche",
+        "Ich bin noch nicht fertig",
+        "Ich verstehe deinen Punkt, aber…",
+        "Da ist was dran",
+        "Ich bin nicht überzeugt",
+        "Das überzeugt mich nicht",
+        "Lass uns sachlich bleiben",
+        "Wir drehen uns im Kreis",
+        "Wir sind uns nicht einig",
+        "Einverstanden, machen wir es so"
+       ]
+      },
+      {
+       "id": "s6u3l5",
+       "title": "Big topics",
+       "grammar": "passive lite: Das Problem wird diskutiert",
+       "vocab": [
+        "die Umwelt",
+        "der Klimawandel",
+        "die Technologie",
+        "die künstliche Intelligenz",
+        "der Verkehr",
+        "die Wirtschaft",
+        "die Bildung",
+        "die Armut",
+        "die Freiheit",
+        "die Verantwortung",
+        "die Gleichberechtigung",
+        "die Sicherheit"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s6u4",
+     "title": "Idioms",
+     "lessons": [
+      {
+       "id": "s6u4l1",
+       "title": "Everyday idioms",
+       "grammar": "idioms are fixed chunks, never translate word for word",
+       "vocab": [
+        "Das ist mir Wurst",
+        "Ich verstehe nur Bahnhof",
+        "Das ist nicht mein Bier",
+        "Ich drücke dir die Daumen",
+        "Das ist ein Katzensprung",
+        "Ich habe die Nase voll",
+        "Das ist ein Kinderspiel",
+        "Das ist mir zu hoch",
+        "Ich habe Schwein gehabt",
+        "Pech gehabt",
+        "Da hast du den Salat",
+        "Alles in Butter"
+       ]
+      },
+      {
+       "id": "s6u4l2",
+       "title": "Body & animal idioms",
+       "grammar": "dative chunks: Das geht mir auf die Nerven",
+       "vocab": [
+        "Ich stehe auf dem Schlauch",
+        "Das geht mir auf die Nerven",
+        "Ich bin hundemüde",
+        "Ich habe einen Kater",
+        "Ich habe kalte Füße",
+        "Mir fällt ein Stein vom Herzen",
+        "Das liegt mir am Herzen",
+        "Ich habe es satt",
+        "Mir platzt der Kragen",
+        "Ich bin ganz Ohr",
+        "Hand aufs Herz",
+        "Er hat zwei linke Hände"
+       ]
+      },
+      {
+       "id": "s6u4l3",
+       "title": "Proverbs & sayings",
+       "grammar": "fixed sayings with imperative and subjunctive flavour",
+       "vocab": [
+        "Es ist höchste Zeit",
+        "Zeit ist Geld",
+        "Ich habe alle Hände voll zu tun",
+        "Das hat Zeit",
+        "Gut Ding will Weile haben",
+        "Aller Anfang ist schwer",
+        "Übung macht den Meister",
+        "Ende gut, alles gut",
+        "Glück im Unglück",
+        "Wer rastet, der rostet",
+        "Man lernt nie aus",
+        "Wie du mir, so ich dir"
+       ]
+      },
+      {
+       "id": "s6u4l4",
+       "title": "Filler words & particles",
+       "grammar": "modal particles: doch, halt, eben",
+       "vocab": [
+        "also",
+        "na ja",
+        "halt",
+        "eben",
+        "doch",
+        "irgendwie",
+        "übrigens",
+        "jedenfalls",
+        "ehrlich gesagt",
+        "wie gesagt",
+        "ich meine",
+        "Weißt du was?"
+       ]
+      },
+      {
+       "id": "s6u4l5",
+       "title": "Natural set phrases",
+       "grammar": "everyday reactions as chunks",
+       "vocab": [
+        "Keine Ahnung",
+        "Na klar",
+        "Mal schauen",
+        "Kein Wunder",
+        "Schwamm drüber",
+        "Was soll's",
+        "Ach so",
+        "Auf geht's!",
+        "Wie auch immer",
+        "Auf keinen Fall",
+        "Egal",
+        "Genau das"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "s6u5",
+     "title": "Fast natural speech",
+     "lessons": [
+      {
+       "id": "s6u5l1",
+       "title": "Contractions",
+       "grammar": "colloquial contractions: hab, gibt's, haste, biste",
+       "vocab": [
+        "Ich hab's",
+        "Gibt's was Neues?",
+        "Haste mal Zeit?",
+        "Biste da?",
+        "Wie war's?",
+        "Was machste?",
+        "Weiß nich",
+        "Ich hab 'ne Frage",
+        "'nen Kaffee",
+        "'n bisschen",
+        "Geht klar",
+        "Ich muss los"
+       ]
+      },
+      {
+       "id": "s6u5l2",
+       "title": "Greetings & slang farewells",
+       "grammar": "regional and casual greetings",
+       "vocab": [
+        "Moin",
+        "Servus",
+        "Grüß dich",
+        "Hey",
+        "Na?",
+        "Was geht?",
+        "Bis dann",
+        "Ciao",
+        "Bis morgen",
+        "Wir hören uns",
+        "Schönen Feierabend",
+        "Man sieht sich"
+       ]
+      },
+      {
+       "id": "s6u5l3",
+       "title": "Du or Sie",
+       "grammar": "register: du/Sie, förmlich/locker",
+       "vocab": [
+        "duzen",
+        "siezen",
+        "höflich",
+        "unhöflich",
+        "förmlich",
+        "locker",
+        "Darf ich du sagen?",
+        "Wir können uns duzen",
+        "Bitte sagen Sie du zu mir",
+        "Wie darf ich Sie ansprechen?",
+        "Das ist zu förmlich",
+        "Das war unhöflich"
+       ]
+      },
+      {
+       "id": "s6u5l4",
+       "title": "Signs & rules",
+       "grammar": "passive lite: Hier wird nicht geraucht",
+       "vocab": [
+        "geöffnet",
+        "geschlossen",
+        "verboten",
+        "erlaubt",
+        "Hier wird nicht geraucht",
+        "Das wird gemacht",
+        "Es wird gesagt, dass…",
+        "Das Auto wurde repariert",
+        "Ich wurde eingeladen",
+        "Es wurde viel gelacht",
+        "Das wird empfohlen",
+        "Das Essen wird serviert"
+       ]
+      },
+      {
+       "id": "s6u5l5",
+       "title": "Surviving fast speech",
+       "grammar": "repair phrases for when you get lost",
+       "vocab": [
+        "Kannst du das wiederholen?",
+        "Kannst du langsamer sprechen?",
+        "Was heißt das auf Englisch?",
+        "Wie sagt man … auf Deutsch?",
+        "Ich habe das nicht verstanden",
+        "Ich habe den Faden verloren",
+        "Was meinst du damit?",
+        "Worum geht es?",
+        "Ich verstehe nur die Hälfte",
+        "Das habe ich nicht mitbekommen",
+        "Sprich bitte deutlich",
+        "Kannst du das buchstabieren?"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -56,3 +56,43 @@ body{margin:0}
 .wrow:active { background: var(--c-surface); }
 /* Say it: words the mic missed */
 .w.missed { box-shadow: inset 0 -3px 0 var(--c-pink); }
+
+/* ---- Phase 2 ---- */
+/* Cyrillic fallbacks: Anton / Permanent Marker have no Cyrillic glyphs, so the browser falls through to Oswald / Caveat per glyph */
+:root { --f-display: "Anton", "Oswald", "Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif; --f-marker: "Permanent Marker", "Caveat", "Marker Felt", "Comic Sans MS", cursive; }
+.translit { font-style: italic; letter-spacing: .01em; }
+
+/* boss fight: hearts in the session bar, BOSS DOWN stamp */
+.lives { display: flex; gap: 2px; color: var(--c-pink); font-size: 22px; line-height: 1; }
+.lives i { font-style: normal; opacity: .22; transition: opacity var(--t-med) ease, transform var(--t-med) var(--ease-snap); }
+.lives i.on { opacity: 1; }
+.boss-stamp { display: inline-block; font-size: 68px; color: var(--c-pink); border: 6px solid var(--c-pink); border-radius: 8px; padding: 8px 18px; text-shadow: 3px 3px 0 var(--c-ink); animation: stamp 600ms var(--ease-snap) both; }
+.shaky { animation: shake 360ms ease; }
+.record { animation: stamp 600ms var(--ease-snap) 200ms both; }
+
+/* sticker wall + peel card */
+.sticker.big { flex-direction: column; gap: 4px; justify-content: center; min-width: 128px; max-width: 100%; padding: 14px 16px; text-align: center; white-space: normal; }
+.sticker.big .em { font-size: 44px; line-height: 1; }
+.sticker.big .word { font: 400 30px/1 var(--f-display); text-transform: uppercase; letter-spacing: .02em; }
+.sticker.locked { background: var(--c-asphalt); color: var(--c-text-dim); border: 2px dashed var(--c-line); box-shadow: none; }
+.wall { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 12px; }
+.slot { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
+.legend { font-weight: 800; color: var(--c-yellow); }
+.peel-scrim { font-family: var(--f-body); position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 20px; background: rgba(0, 0, 0, .68); }
+.peel-card { width: min(360px, 100%); padding: 22px 20px; text-align: center; }
+.peel { display: inline-block; transform-origin: 0 100%; animation: peel 800ms var(--ease-snap) both; }
+@keyframes peel { 0% { opacity: 0; transform: perspective(500px) rotateX(60deg) rotate(-12deg) scale(.5); } 100% { opacity: 1; transform: none; } }
+
+/* Kiez Chronicles comic reader */
+.comic { padding-top: 14px; padding-bottom: 24px; display: flex; flex-direction: column; gap: 22px; }
+.panel { padding: 14px 14px 16px; }
+.panel.now { outline: 3px solid var(--c-cyan); outline-offset: 4px; }
+.panel .who { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.panel .avatar { display: grid; place-items: center; width: 52px; height: 52px; flex: none; font-size: 32px; background: #fff; border: 3px solid var(--c-ink); border-radius: 50%; }
+.panel .who .marker { font-size: 26px; line-height: 1; color: var(--c-ink); }
+.bubble { position: relative; padding: 10px 14px 12px; background: #fff; color: var(--c-ink); border: 3px solid var(--c-ink); border-radius: 18px; }
+.bubble::before { content: ""; position: absolute; top: -10px; left: 26px; width: 16px; height: 16px; background: #fff; border-left: 3px solid var(--c-ink); border-top: 3px solid var(--c-ink); transform: rotate(45deg); }
+.panel.tbc { position: relative; overflow: hidden; text-align: center; padding: 28px 16px; background: var(--c-ink); border-color: var(--c-yellow); }
+@media (prefers-reduced-motion: reduce) { .peel, .boss-stamp, .record, .shaky { animation: none; } }
+.comic > * { flex: none; }
+button.link { background: none; border: 0; cursor: pointer; font-family: inherit; }

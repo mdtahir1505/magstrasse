@@ -9,7 +9,7 @@ type Rec = Awaited<ReturnType<typeof record>>;
 type Lis = ReturnType<typeof listen>;
 const H = [40, 70, 55, 90, 35, 80, 60, 100, 45, 75, 30, 85, 50, 95, 40, 65, 80, 35, 70, 55, 90, 45, 60, 30];
 
-export default function Say({ ex, pack, done }: ExProps<'say'>) {
+export default function Say({ ex, pack, tr, done }: ExProps<'say'>) {
   const words = ex.target.split(/\s+/);
   const [phase, setPhase] = useState<'idle' | 'live' | 'ok' | 'fallback'>('idle');
   const [hits, setHits] = useState<boolean[]>([]);
@@ -50,6 +50,7 @@ export default function Say({ ex, pack, done }: ExProps<'say'>) {
         <p lang={pack.voice} aria-live="polite" style={{ fontSize: 32, fontWeight: 800, lineHeight: 1.25, display: 'flex', flexWrap: 'wrap', gap: '4px 8px' }}>
           {words.map((w, i) => <span key={i} className={'w' + (hits[i] ? ' heard' : phase === 'fallback' && hits[i] === false ? ' missed' : '')}>{w}</span>)}
         </p>
+        {tr && ex.translit && <p className="small dim translit">{ex.translit}</p>}
         <p className="dim" style={{ fontSize: 17 }}>{ex.english}</p>
         <div style={{ display: 'flex', gap: 8, marginTop: 4 }}>
           <button type="button" className="audio sm" aria-label="Hear it first" onClick={() => speak(ex.target)}><Ico d={SPEAKER_SM} /></button>

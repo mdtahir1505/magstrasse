@@ -2,19 +2,26 @@ import type { Card } from 'ts-fsrs';
 import { reviveCard } from './srs';
 
 export type StoredProfile = { onboarded: boolean; language: string; reason: string; dailyGoalMin: number;
-  reminder: string; voiceSpeed: number; streetEnabled: boolean; lastBackup: string };
+  reminder: string; voiceSpeed: number; streetEnabled: boolean; lastBackup: string;
+  translit: 'auto' | 'always' | 'never'; stickers: { id: string; at: string }[] };
 export type Progress = { cards: Record<string, Card>; lessonsDone: string[];
-  days: Record<string, { min: number; freeze?: boolean }>;
-  streak: number; bestStreak: number; freezesLeft: number; freezeWeek: string; lastDay: string; bannerDay: string };
+  days: Record<string, { min: number; freeze?: boolean; done?: boolean }>;
+  streak: number; bestStreak: number; freezesLeft: number; freezeWeek: string; lastDay: string; bannerDay: string;
+  bossesBeaten: string[]; bossDismissed: string; speedBest: number; speedPlays: number;
+  serialSeen: number; serialUnlocked: number; serialUnlockedOn: string };
 export type State = { profile: StoredProfile; progress: Progress };
 
 const PROFILE_KEY = 'strasse:profile';
 const progressKey = (lang: string) => `strasse:${lang}:progress`;
+// The streak belongs to the profile, not the language: these fields live in one shared key and overlay every language's progress.
+const SHARED_KEY = 'strasse:shared';
+const SHARED = ['days', 'streak', 'bestStreak', 'freezesLeft', 'freezeWeek', 'lastDay', 'bannerDay'] as const;
 
 export const defaultProfile = (): StoredProfile => ({ onboarded: false, language: 'de', reason: 'people', dailyGoalMin: 30,
-  reminder: '19:00', voiceSpeed: 0.9, streetEnabled: false, lastBackup: '' });
+  reminder: '19:00', voiceSpeed: 0.9, streetEnabled: false, lastBackup: '', translit: 'auto', stickers: [] });
 export const emptyProgress = (): Progress => ({ cards: {}, lessonsDone: [], days: {}, streak: 0, bestStreak: 0,
-  freezesLeft: 1, freezeWeek: '', lastDay: '', bannerDay: '' });
+  freezesLeft: 1, freezeWeek: '', lastDay: '', bannerDay: '',
+  bossesBeaten: [], bossDismissed: '', speedBest: 0, speedPlays: 0, serialSeen: 0, serialUnlocked: 0, serialUnlockedOn: '' });
 
 const read = (k: string): unknown => { try { return JSON.parse(localStorage.getItem(k) ?? 'null'); } catch { return null; } };
 
@@ -24,15 +31,24 @@ const reviveProgress = (raw: unknown): Progress => {
   return p;
 };
 
+const loadProgress = (lang: string): Progress => ({ ...reviveProgress(read(progressKey(lang))), ...(read(SHARED_KEY) as Partial<Progress> | null) });
+
 export function load(): State {
   const profile = { ...defaultProfile(), ...(read(PROFILE_KEY) as Partial<StoredProfile> | null) };
-  return { profile, progress: reviveProgress(read(progressKey(profile.language))) };
+  return { profile, progress: loadProgress(profile.language) };
+}
+
+/** Switch the active language; the streak and day log carry over, words and lessons are that language's own. */
+export function setLanguage(s: State, code: string) {
+  s.profile.language = code;
+  s.progress = loadProgress(code);
 }
 
 export function save(s: State) {
   try {
     localStorage.setItem(PROFILE_KEY, JSON.stringify(s.profile));
     localStorage.setItem(progressKey(s.profile.language), JSON.stringify(s.progress));
+    localStorage.setItem(SHARED_KEY, JSON.stringify(Object.fromEntries(SHARED.map((k) => [k, s.progress[k]]))));
   } catch { /* storage full or blocked: keep playing in memory */ }
 }
 
@@ -48,7 +64,7 @@ export function importJson(text: string): State {
 }
 
 export function reset(lang: string): State {
-  try { localStorage.removeItem(PROFILE_KEY); localStorage.removeItem(progressKey(lang)); } catch { /* ignore */ }
+  try { localStorage.removeItem(PROFILE_KEY); localStorage.removeItem(progressKey(lang)); localStorage.removeItem(SHARED_KEY); } catch { /* ignore */ }
   return { profile: defaultProfile(), progress: emptyProgress() };
 }
 
@@ -80,11 +96,12 @@ export function rollDay(p: Progress, today = ymd()) {
   } else p.streak = 0;
 }
 
-/** Add practice minutes; the day counts toward the streak at >= 5 min. */
-export function addMinutes(p: Progress, min: number, today = ymd()) {
+/** Add practice minutes; the day counts toward the streak at >= 5 min or once any session is completed (done). */
+export function addMinutes(p: Progress, min: number, today = ymd(), done = false) {
   const d = (p.days[today] ??= { min: 0 });
   d.min += min;
-  if (d.min >= 5 && p.lastDay !== today) {
+  if (done) d.done = true;
+  if ((d.min >= 5 || d.done) && p.lastDay !== today) {
     p.streak = p.lastDay && dayDiff(p.lastDay, today) === 1 ? p.streak + 1 : 1;
     p.lastDay = today; p.bestStreak = Math.max(p.bestStreak, p.streak);
   }

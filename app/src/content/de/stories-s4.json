@@ -1,0 +1,301 @@
+[
+ {
+  "id": "de-s4-st1",
+  "title": "Pizza or cinema?",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Tom, was machen wir heute Abend? Ich finde, dass wir ins Kino gehen sollen.",
+    "english": "Tom, what are we doing tonight? I think we should go to the cinema."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Meiner Meinung nach ist das Kino zu teuer. Ich bin dagegen.",
+    "english": "In my opinion the cinema is too expensive. I'm against it."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das sehe ich anders. Es ist wichtig, dass wir mal ausgehen.",
+    "english": "I see that differently. It's important that we go out for once."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Da hast du recht. Aber ich habe Hunger. Wollen wir zuerst Pizza essen?",
+    "english": "You're right about that. But I'm hungry. Shall we eat pizza first?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Gute Idee! Ich bin dabei.",
+    "english": "Good idea! I'm in."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Wenn wir Pizza essen, haben wir wenig Geld für das Kino.",
+    "english": "If we eat pizza, we'll have little money for the cinema."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das stimmt nicht! Heute ist Dienstag. Da gibt es einen Rabatt.",
+    "english": "That's not true! Today is Tuesday. There's a discount then."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Wirklich? Dann bin ich einverstanden. Aber ich weiß nicht, ob der Film gut ist.",
+    "english": "Really? Then I agree. But I don't know whether the film is good."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das kommt drauf an. Ich glaube, dass er sehr lustig ist.",
+    "english": "That depends. I believe it's very funny."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Auf jeden Fall! Pizza zuerst, dann Kino.",
+    "english": "Definitely! Pizza first, then cinema."
+   }
+  ]
+ },
+ {
+  "id": "de-s4-st2",
+  "title": "The plan that fell through",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Lena",
+    "target": "Hi Lukas! Wollen wir am Samstag ins Café gehen?",
+    "english": "Hi Lukas! Shall we go to a café on Saturday?"
+   },
+   {
+    "speaker": "Lukas",
+    "target": "Gute Idee! Wo treffen wir uns?",
+    "english": "Good idea! Where shall we meet?"
+   },
+   {
+    "speaker": "Lena",
+    "target": "Am Bahnhof, um zehn Uhr. Ich warte auf dich.",
+    "english": "At the station, at ten o'clock. I'll wait for you."
+   },
+   {
+    "speaker": "Lukas",
+    "target": "Das klingt gut. Bis Samstag!",
+    "english": "Sounds good. See you Saturday!"
+   },
+   {
+    "target": "Am Samstag um halb zehn.",
+    "english": "On Saturday at half past nine."
+   },
+   {
+    "speaker": "Lukas",
+    "target": "Es tut mir leid, dass ich nicht kann. Etwas ist dazwischengekommen.",
+    "english": "I'm sorry that I can't. Something came up."
+   },
+   {
+    "speaker": "Lena",
+    "target": "Oh nein! Was ist passiert?",
+    "english": "Oh no! What happened?"
+   },
+   {
+    "speaker": "Lukas",
+    "target": "Meine Mutter ist krank. Ich muss zu Hause bleiben.",
+    "english": "My mother is sick. I have to stay at home."
+   },
+   {
+    "speaker": "Lena",
+    "target": "Das macht nichts. Kein Stress! Können wir einen anderen Tag machen?",
+    "english": "That doesn't matter. No stress! Can we pick another day?"
+   },
+   {
+    "speaker": "Lukas",
+    "target": "Ja, nächstes Mal. Ich melde mich morgen.",
+    "english": "Yes, next time. I'll get in touch tomorrow."
+   },
+   {
+    "speaker": "Lena",
+    "target": "Super. Wir holen es nach. Gute Besserung für deine Mutter!",
+    "english": "Great. We'll make up for it. Get well soon to your mother!"
+   }
+  ]
+ },
+ {
+  "id": "de-s4-st3",
+  "title": "Bad connection",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Hallo Tom! Hier ist Anna. Ich kann dich kaum hören.",
+    "english": "Hello Tom! This is Anna. I can barely hear you."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Die Verbindung ist schlecht. Hast du meine Nachricht gelesen?",
+    "english": "The connection is bad. Did you read my message?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Nein, ich habe hier keinen Empfang.",
+    "english": "No, I have no reception here."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Bist du noch dran?",
+    "english": "Are you still there?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ja, ich bin noch da. Schick mir die Nachricht noch einmal, bitte.",
+    "english": "Yes, I'm still here. Send me the message again, please."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich schicke dir ein Foto von dem Café.",
+    "english": "I'll send you a photo of the café."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Super! Ich antworte dir gleich im Chat.",
+    "english": "Great! I'll answer you in the chat right away."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Okay. Bist du morgen erreichbar?",
+    "english": "Okay. Will you be reachable tomorrow?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ja, ruf mich an. Sonst schreibe ich dir eine Sprachnachricht.",
+    "english": "Yes, call me. Otherwise I'll send you a voice message."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Gut. Ich lade den Akku auf und melde mich später.",
+    "english": "Good. I'll charge the battery and get in touch later."
+   }
+  ]
+ },
+ {
+  "id": "de-s4-st4",
+  "title": "A stressful week",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Tom, du siehst traurig aus. Wie fühlst du dich?",
+    "english": "Tom, you look sad. How do you feel?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Nicht gut. Ich bin gestresst und überfordert.",
+    "english": "Not good. I'm stressed and overwhelmed."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Warum? Hast du viel Arbeit?",
+    "english": "Why? Do you have a lot of work?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ja, und ich ärgere mich über meinen Kollegen.",
+    "english": "Yes, and I'm annoyed about my colleague."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das tut mir leid für dich. Mach dir keine Sorgen. Du schaffst das!",
+    "english": "I'm sorry for you. Don't worry. You can do it!"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Danke. Ich habe auch Angst, dass es nicht klappt.",
+    "english": "Thanks. I'm also afraid that it won't work out."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Beruhige dich. Atme tief durch. Alles wird gut.",
+    "english": "Calm down. Take a deep breath. Everything will be fine."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Du hast recht. Ich freue mich auf das Wochenende.",
+    "english": "You're right. I'm looking forward to the weekend."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich bin für dich da. Wir gehen was trinken und entspannen uns.",
+    "english": "I'm here for you. We'll go for a drink and relax."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Gute Idee! Ich bin dabei. Ich bin schon ein bisschen glücklicher.",
+    "english": "Good idea! I'm in. I'm already a little happier."
+   }
+  ]
+ },
+ {
+  "id": "de-s4-st5",
+  "title": "Small talk at the party",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Julia",
+    "target": "Hallo! Ich bin Julia. Ich glaube, wir kennen uns nicht.",
+    "english": "Hello! I'm Julia. I think we don't know each other."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Hi, ich bin Tom. Freut mich! Das Kleid steht dir gut.",
+    "english": "Hi, I'm Tom. Nice to meet you! The dress suits you."
+   },
+   {
+    "speaker": "Julia",
+    "target": "Das ist nett von dir! Was machst du beruflich?",
+    "english": "That's nice of you! What do you do for work?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich arbeite als Ingenieur. Und du?",
+    "english": "I work as an engineer. And you?"
+   },
+   {
+    "speaker": "Julia",
+    "target": "Ich bin Studentin. Ich studiere Medizin in Berlin.",
+    "english": "I'm a student. I study medicine in Berlin."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Respekt! Das ist nicht einfach. Wie läuft's?",
+    "english": "Respect! That's not easy. How's it going?"
+   },
+   {
+    "speaker": "Julia",
+    "target": "Es geht. Manchmal bin ich gestresst, aber ich interessiere mich sehr dafür.",
+    "english": "It's okay. Sometimes I'm stressed, but I'm very interested in it."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Prost! Auf uns!",
+    "english": "Cheers! To us!"
+   },
+   {
+    "speaker": "Julia",
+    "target": "Prost! Wie schön, dass du hier bist.",
+    "english": "Cheers! How lovely that you're here."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Es war schön mit dir. Schönes Wochenende!",
+    "english": "It was nice with you. Have a nice weekend!"
+   },
+   {
+    "speaker": "Julia",
+    "target": "Dir auch! Bis bald!",
+    "english": "You too! See you soon!"
+   }
+  ]
+ }
+]

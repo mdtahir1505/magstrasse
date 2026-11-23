@@ -5,7 +5,7 @@ import { Ico, SPEAKER_SM } from '../ui';
 
 type Rec = Awaited<ReturnType<typeof record>>;
 
-export default function Shadow({ ex, pack, done }: ExProps<'shadow'>) {
+export default function Shadow({ ex, pack, tr, done }: ExProps<'shadow'>) {
   const [phase, setPhase] = useState<'idle' | 'rec' | 'done'>('idle');
   const [mine, setMine] = useState<{ url: string; bars: number[] } | null>(null);
   const [noMic, setNoMic] = useState(false);
@@ -34,6 +34,7 @@ export default function Shadow({ ex, pack, done }: ExProps<'shadow'>) {
 
     <section className="pad" style={{ marginTop: 24 }}>
       <p lang={pack.voice} style={{ fontSize: 28, fontWeight: 800, lineHeight: 1.25 }}>{ex.target}</p>
+      {tr && ex.translit && <p className="small dim translit" style={{ marginTop: 4 }}>{ex.translit}</p>}
       <p className="dim" style={{ marginTop: 4, fontSize: 17 }}>{ex.english}</p>
     </section>
 

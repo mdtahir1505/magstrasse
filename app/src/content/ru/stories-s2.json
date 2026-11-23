@@ -1,0 +1,384 @@
+[
+  {
+    "id": "ru-s2-st1",
+    "title": "Anya's family",
+    "level": "A1",
+    "minutes": 3,
+    "lines": [
+      {
+        "speaker": "Аня",
+        "target": "Привет! Меня зовут Аня. Это моя семья.",
+        "english": "Hi! My name is Anya. This is my family.",
+        "translit": "Privet! Menya zovut Anya. Eto moya sem'ya."
+      },
+      {
+        "speaker": "Аня",
+        "target": "У меня есть мама, папа и брат.",
+        "english": "I have a mum, a dad and a brother.",
+        "translit": "U menya yest' mama, papa i brat."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Мой брат Миша — студент. Он молодой и весёлый.",
+        "english": "My brother Misha is a student. He is young and cheerful.",
+        "translit": "Moy brat Misha — student. On molodoy i vesyolyy."
+      },
+      {
+        "speaker": "Том",
+        "target": "А сестра у тебя есть?",
+        "english": "And do you have a sister?",
+        "translit": "A sestra u tebya yest'?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Нет. Но у меня есть хорошая подруга.",
+        "english": "No. But I have a good friend.",
+        "translit": "Net. No u menya yest' khoroshaya podruga."
+      },
+      {
+        "speaker": "Том",
+        "target": "Твой папа — врач?",
+        "english": "Is your dad a doctor?",
+        "translit": "Tvoy papa — vrach?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Нет, он инженер. А мама — учитель.",
+        "english": "No, he's an engineer. And mum is a teacher.",
+        "translit": "Net, on inzhener. A mama — uchitel'."
+      },
+      {
+        "speaker": "Том",
+        "target": "У вас большая семья?",
+        "english": "Do you have a big family?",
+        "translit": "U vas bol'shaya sem'ya?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Да, и бабушка, и дедушка. Они очень добрые.",
+        "english": "Yes, and grandma, and grandpa. They are very kind.",
+        "translit": "Da, i babushka, i dedushka. Oni ochen' dobryye."
+      },
+      {
+        "speaker": "Том",
+        "target": "Хорошо! У меня есть брат.",
+        "english": "Nice! I have a brother.",
+        "translit": "Khorosho! U menya yest' brat."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Ничего страшного. У тебя есть друг!",
+        "english": "No problem. You have a friend!",
+        "translit": "Nichevo strashnovo. U tebya yest' drug!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s2-st2",
+    "title": "Let's meet on Friday",
+    "level": "A1",
+    "minutes": 3,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Привет, Аня! Ты свободна в пятницу?",
+        "english": "Hi, Anya! Are you free on Friday?",
+        "translit": "Privet, Anya! Ty svobodna v pyatnitsu?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Привет! В пятницу я занята.",
+        "english": "Hi! On Friday I'm busy.",
+        "translit": "Privet! V pyatnitsu ya zanyata."
+      },
+      {
+        "speaker": "Том",
+        "target": "А в субботу? Давай встретимся!",
+        "english": "And on Saturday? Let's meet!",
+        "translit": "A v subbotu? Davay vstretimsya!"
+      },
+      {
+        "speaker": "Аня",
+        "target": "В субботу утром я хочу спать.",
+        "english": "On Saturday morning I want to sleep.",
+        "translit": "V subbotu utrom ya khochu spat'."
+      },
+      {
+        "speaker": "Том",
+        "target": "Хорошо! А вечером? Во сколько?",
+        "english": "OK! And in the evening? What time?",
+        "translit": "Khorosho! A vecherom? Vo skol'ko?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "В пять часов. Я приду, и Миша тоже.",
+        "english": "At five o'clock. I'll come, and Misha too.",
+        "translit": "V pyat' chasov. Ya pridu, i Misha tozhe."
+      },
+      {
+        "speaker": "Том",
+        "target": "Хорошо! Где мы встретимся?",
+        "english": "Good! Where shall we meet?",
+        "translit": "Khorosho! Gde my vstretimsya?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Рядом с метро. Я всегда вовремя!",
+        "english": "Near the metro. I'm always on time!",
+        "translit": "Ryadom s metro. Ya vsegda vovremya!"
+      },
+      {
+        "speaker": "Том",
+        "target": "А я иногда опоздаю.",
+        "english": "And I'll sometimes be late.",
+        "translit": "A ya inogda opozdayu."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Я знаю. Но не слишком поздно, ладно?",
+        "english": "I know. But not too late, okay?",
+        "translit": "Ya znayu. No ne slishkom pozdno, ladno?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Договорились! До субботы!",
+        "english": "Deal! See you Saturday!",
+        "translit": "Dogovorilis'! Do subboty!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s2-st3",
+    "title": "A gift for Anya",
+    "level": "A1",
+    "minutes": 3,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Миша, завтра день рождения! Нужен подарок.",
+        "english": "Misha, tomorrow is a birthday! We need a gift.",
+        "translit": "Misha, zavtra den' rozhdeniya! Nuzhen podarok."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Я хочу купить цветы.",
+        "english": "I want to buy flowers.",
+        "translit": "Ya khochu kupit' tsvety."
+      },
+      {
+        "speaker": "Том",
+        "target": "Цветы — это хорошо. А ещё духи?",
+        "english": "Flowers are good. And perfume too?",
+        "translit": "Tsvety — eto khorosho. A yeshchyo dukhi?"
+      },
+      {
+        "speaker": "Миша",
+        "target": "Сколько стоят духи?",
+        "english": "How much is perfume?",
+        "translit": "Skol'ko stoyat dukhi?"
+      },
+      {
+        "speaker": "Продавец",
+        "target": "Тысяча рублей.",
+        "english": "A thousand roubles.",
+        "translit": "Tysyacha rubley."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Это слишком дорого!",
+        "english": "That's too expensive!",
+        "translit": "Eto slishkom dorogo!"
+      },
+      {
+        "speaker": "Том",
+        "target": "У вас есть другой подарок?",
+        "english": "Do you have another gift?",
+        "translit": "U vas yest' drugoy podarok?"
+      },
+      {
+        "speaker": "Продавец",
+        "target": "Есть красивая шапка. Синяя и белая.",
+        "english": "There's a beautiful hat. Blue and white.",
+        "translit": "Yest' krasivaya shapka. Sinyaya i belaya."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Шапка — это хорошо!",
+        "english": "A hat is good!",
+        "translit": "Shapka — eto khorosho!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Я возьму синюю. Сколько стоит?",
+        "english": "I'll take the blue one. How much?",
+        "translit": "Ya voz'mu sinyuyu. Skol'ko stoit?"
+      },
+      {
+        "speaker": "Продавец",
+        "target": "Двести рублей. Касса там.",
+        "english": "Two hundred roubles. The till is there.",
+        "translit": "Dvesti rubley. Kassa tam."
+      },
+      {
+        "speaker": "Том",
+        "target": "Это всё. Спасибо большое!",
+        "english": "That's all. Thank you very much!",
+        "translit": "Eto vsyo. Spasibo bol'shoye!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s2-st4",
+    "title": "Tom's morning",
+    "level": "A1",
+    "minutes": 3,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Привет! Это моя квартира. Она маленькая, но красивая.",
+        "english": "Hi! This is my flat. It's small but beautiful.",
+        "translit": "Privet! Eto moya kvartira. Ona malen'kaya, no krasivaya."
+      },
+      {
+        "speaker": "Том",
+        "target": "Здесь кухня, ванная и спальня. Балкон тоже есть!",
+        "english": "Here's a kitchen, bathroom and bedroom. There's a balcony too!",
+        "translit": "Zdes' kukhnya, vannaya i spal'nya. Balkon tozhe yest'!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Утром я не хочу вставать. Но мне нужно идти на работу.",
+        "english": "In the morning I don't want to get up. But I need to go to work.",
+        "translit": "Utrom ya ne khochu vstavat'. No mne nuzhno idti na rabotu."
+      },
+      {
+        "speaker": "Том",
+        "target": "Я хочу принимать душ и готовить завтрак.",
+        "english": "I want to take a shower and cook breakfast.",
+        "translit": "Ya khochu prinimat' dush i gotovit' zavtrak."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Привет, Том! Что ты делаешь?",
+        "english": "Hi, Tom! What are you doing?",
+        "translit": "Privet, Tom! Shto ty delayesh'?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Я завтракаю! А ты?",
+        "english": "I'm having breakfast! And you?",
+        "translit": "Ya zavtrakayu! A ty?"
+      },
+      {
+        "speaker": "Миша",
+        "target": "Я работаю. Я всегда работаю!",
+        "english": "I'm working. I'm always working!",
+        "translit": "Ya rabotayu. Ya vsegda rabotayu!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Ты знаешь, где мой телефон? Я не вижу его.",
+        "english": "Do you know where my phone is? I can't see it.",
+        "translit": "Ty znayesh', gde moy telefon? Ya ne vizhu yevo."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Вот он, на столе!",
+        "english": "Here it is, on the table!",
+        "translit": "Vot on, na stole!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Спасибо! Сейчас я могу идти на работу.",
+        "english": "Thanks! Now I can go to work.",
+        "translit": "Spasibo! Seychas ya mogu idti na rabotu."
+      },
+      {
+        "speaker": "Миша",
+        "target": "Хорошо! До вечера!",
+        "english": "Good! See you this evening!",
+        "translit": "Khorosho! Do vechera!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s2-st5",
+    "title": "Weekend plans",
+    "level": "A1",
+    "minutes": 4,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Аня, что ты делаешь на выходных?",
+        "english": "Anya, what are you doing at the weekend?",
+        "translit": "Anya, shto ty delayesh' na vykhodnykh?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Наверное, отдыхаю. Я люблю отдыхать.",
+        "english": "Probably relaxing. I like to relax.",
+        "translit": "Navernoye, otdykhayu. Ya lyublyu otdykhat'."
+      },
+      {
+        "speaker": "Том",
+        "target": "Пойдём в кино! Там новый фильм.",
+        "english": "Let's go to the cinema! There's a new film.",
+        "translit": "Poydyom v kino! Tam novyy fil'm."
+      },
+      {
+        "speaker": "Аня",
+        "target": "Он интересный?",
+        "english": "Is it interesting?",
+        "translit": "On interesnyy?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Это круто, говорят. Больше всего я люблю фильмы.",
+        "english": "It's cool, they say. Most of all I love films.",
+        "translit": "Eto kruto, govoryat. Bol'she vsevo ya lyublyu fil'my."
+      },
+      {
+        "speaker": "Аня",
+        "target": "А я люблю музыку. Давай пойдём на концерт!",
+        "english": "And I like music. Let's go to a concert!",
+        "translit": "A ya lyublyu muzyku. Davay poydyom na kontsert!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Хорошая идея! Когда?",
+        "english": "Good idea! When?",
+        "translit": "Khoroshaya ideya! Kogda?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "В субботу вечером. Концерт в клубе.",
+        "english": "On Saturday evening. The concert is in a club.",
+        "translit": "V subbotu vecherom. Kontsert v klube."
+      },
+      {
+        "speaker": "Том",
+        "target": "Жаль, в субботу я занят. А в воскресенье?",
+        "english": "Pity, on Saturday I'm busy. And on Sunday?",
+        "translit": "Zhal', v subbotu ya zanyat. A v voskresen'ye?"
+      },
+      {
+        "speaker": "Аня",
+        "target": "Может быть. Я не знаю. Миша, ты свободен?",
+        "english": "Maybe. I don't know. Misha, are you free?",
+        "translit": "Mozhet byt'. Ya ne znayu. Misha, ty svoboden?"
+      },
+      {
+        "speaker": "Миша",
+        "target": "Да, я свободен! Пойдём на концерт и в бар!",
+        "english": "Yes, I'm free! Let's go to a concert and a bar!",
+        "translit": "Da, ya svoboden! Poydyom na kontsert i v bar!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Обязательно! До воскресенья!",
+        "english": "Definitely! See you Sunday!",
+        "translit": "Obyazatel'no! Do voskresen'ya!"
+      }
+    ]
+  }
+]

@@ -1,8 +1,10 @@
+import type { Episode } from '../types';
 import type { Stats } from './Player';
 import { Screen } from '../ui';
 
-export default function Complete({ stats, streak, freezesLeft, done, bonus }: {
+export default function Complete({ stats, streak, freezesLeft, done, bonus, episode, read, speed, voice }: {
   stats: Stats; streak: number; freezesLeft: number; done: () => void; bonus: (() => void) | null;
+  episode: Episode | null; read: () => void; speed: (() => void) | null; voice: string;
 }) {
   const up = streak > stats.streakBefore;
   return <Screen>
@@ -37,9 +39,23 @@ export default function Complete({ stats, streak, freezesLeft, done, bonus }: {
       <li className="paper tilt rise" style={{ ['--rot' as string]: '-1deg', padding: '12px 10px', textAlign: 'center', background: 'var(--c-yellow)', animationDelay: '300ms' }}><p className="display" style={{ fontSize: 40 }}>{stats.reviewed}</p><p className="small" style={{ fontWeight: 700 }}>reviewed</p></li>
     </ul>
 
+    {episode && <section className="pad" style={{ marginTop: 22 }}>
+      <div className="paper tilt rise" style={{ ['--rot' as string]: '1.2deg', padding: '12px 14px', display: 'flex', alignItems: 'center', gap: 12, background: 'var(--c-cyan)', animationDelay: '400ms' }}>
+        <span aria-hidden="true" style={{ display: 'grid', placeItems: 'center', width: 56, height: 56, flex: 'none', fontSize: 32, background: 'var(--c-paper)', border: '3px solid var(--c-ink)', borderRadius: 4 }}>{episode.panels[0]?.emoji ?? '📖'}</span>
+        <div style={{ minWidth: 0 }}>
+          <p className="eyebrow">Kiez Chronicles · Ep. {episode.n}</p>
+          <p lang={voice} style={{ fontWeight: 800 }}>New episode: {episode.title}</p>
+        </div>
+      </div>
+    </section>}
+
     <div className="foot" style={{ marginTop: 'auto' }}>
-      <button type="button" className="btn block" onClick={done}>Done</button>
-      {bonus && <button type="button" className="btn ghost block" onClick={bonus}>Bonus round?</button>}
+      {episode && <button type="button" className="btn block" onClick={read}>Read now</button>}
+      <button type="button" className={'btn block' + (episode ? ' ghost' : '')} onClick={done}>Done</button>
+      {(bonus || speed) && <div style={{ display: 'flex', justifyContent: 'center', gap: 8 }}>
+        {bonus && <button type="button" className="link" onClick={bonus}>Bonus story</button>}
+        {speed && <button type="button" className="link" onClick={speed}>Speed round</button>}
+      </div>}
     </div>
   </Screen>;
 }

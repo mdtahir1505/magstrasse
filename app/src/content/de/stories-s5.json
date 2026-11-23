@@ -1,0 +1,93 @@
+[
+ {
+  "id": "de-s5-st1",
+  "title": "The train that left without me",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Tom", "target": "Anna, du kommst zu spät! Was ist passiert?", "english": "Anna, you're late! What happened?"},
+   {"speaker": "Anna", "target": "Du glaubst nicht, was mir heute passiert ist. Zuerst habe ich lange geschlafen.", "english": "You won't believe what happened to me today. First I slept in."},
+   {"speaker": "Tom", "target": "Echt? Und dann?", "english": "Really? And then?"},
+   {"speaker": "Anna", "target": "Danach bin ich schnell zum Bahnhof gelaufen. Ich wollte den Zug um acht nehmen.", "english": "Afterwards I ran to the station. I wanted to take the eight o'clock train."},
+   {"speaker": "Anna", "target": "Als ich ankam, war der Zug plötzlich weg. Ich musste eine Stunde warten.", "english": "When I got there, the train was suddenly gone. I had to wait an hour."},
+   {"speaker": "Tom", "target": "Das ist mir auch passiert, vor drei Jahren. Was hast du gemacht?", "english": "That happened to me too, three years ago. What did you do?"},
+   {"speaker": "Anna", "target": "Während ich gewartet habe, habe ich einen Kaffee getrunken. Und auf einmal hat mein Kollege angerufen.", "english": "While I was waiting, I drank a coffee. And all of a sudden my colleague called."},
+   {"speaker": "Tom", "target": "Wahnsinn! Was wollte er?", "english": "Madness! What did he want?"},
+   {"speaker": "Anna", "target": "Er wusste schon alles. Er sollte auch im selben Zug sein!", "english": "He already knew everything. He was supposed to be on the same train!"},
+   {"speaker": "Tom", "target": "Was für ein Zufall! Und schließlich?", "english": "What a coincidence! And in the end?"},
+   {"speaker": "Anna", "target": "Am Ende sind wir zusammen mit dem Taxi gefahren. Zum Glück war er nett.", "english": "In the end we went together by taxi. Luckily he was nice."}
+  ]
+ },
+ {
+  "id": "de-s5-st2",
+  "title": "Village or big city?",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Anna", "target": "Tom, wo möchtest du später wohnen? In der Großstadt oder auf dem Land?", "english": "Tom, where would you like to live later? In the big city or in the countryside?"},
+   {"speaker": "Tom", "target": "Schwer zu sagen. Das Dorf ist ruhiger als Berlin, aber die Stadt ist lebendiger.", "english": "Hard to say. The village is quieter than Berlin, but the city is livelier."},
+   {"speaker": "Anna", "target": "Meine Eltern wohnen im Süden, in einem kleinen Dorf. Die Gegend ist perfekt.", "english": "My parents live in the south, in a small village. The area is perfect."},
+   {"speaker": "Tom", "target": "Was ist der Vorteil?", "english": "What's the advantage?"},
+   {"speaker": "Anna", "target": "Das Leben ist billiger, und das Haus ist sehr bequem. Der Nachteil ist, dass der Bahnhof weit weg ist.", "english": "Life is cheaper, and the house is very comfortable. The disadvantage is that the station is far away."},
+   {"speaker": "Tom", "target": "Im Vergleich zu meiner Wohnung klingt das fast zu schön.", "english": "Compared to my flat, that sounds almost too good."},
+   {"speaker": "Anna", "target": "Bei dir ist es nicht so ruhig, oder?", "english": "It's not so quiet where you live, is it?"},
+   {"speaker": "Tom", "target": "Nein, leider nicht. Aber die Lage ist praktisch, alles ist nah.", "english": "No, unfortunately not. But the location is practical, everything is close."},
+   {"speaker": "Anna", "target": "Dann nimm doch beides: entweder ein Wochenende im Dorf oder einen Abend in der Stadt.", "english": "Then take both: either a weekend in the village or an evening in the city."},
+   {"speaker": "Tom", "target": "Gute Idee! Welches Dorf nehmen wir zuerst?", "english": "Good idea! Which village do we take first?"}
+  ]
+ },
+ {
+  "id": "de-s5-st3",
+  "title": "The broken laptop",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Tom", "target": "Mein Laptop ist gestern kaputtgegangen. Er funktioniert nicht mehr.", "english": "My laptop broke yesterday. It doesn't work any more."},
+   {"speaker": "Anna", "target": "Hast du noch Garantie? Dann ruf den Kundendienst an.", "english": "Do you still have a warranty? Then call customer service."},
+   {"speaker": "Tom", "target": "Ich habe angerufen. Ich musste zwanzig Minuten warten.", "english": "I called. I had to wait twenty minutes."},
+   {"speaker": "Anna", "target": "Und was haben sie gesagt?", "english": "And what did they say?"},
+   {"speaker": "Tom", "target": "Die Reparatur dauert drei Wochen. Das geht so nicht, ich brauche ihn für die Arbeit!", "english": "The repair takes three weeks. That won't do, I need it for work!"},
+   {"speaker": "Anna", "target": "Du solltest dich beschweren. Das ist nicht in Ordnung.", "english": "You should complain. That's not OK."},
+   {"speaker": "Tom", "target": "Ich habe es versucht. Ich möchte einen Ersatz, oder ich gebe ihn zurück.", "english": "I tried. I want a replacement, or I'll give it back."},
+   {"speaker": "Anna", "target": "Hast du die Quittung dabei? Dann bekommst du dein Geld zurück.", "english": "Do you have the receipt with you? Then you'll get your money back."},
+   {"speaker": "Tom", "target": "Ja, hier ist sie. Das lässt sich regeln.", "english": "Yes, here it is. It can be sorted out."},
+   {"speaker": "Anna", "target": "Wir finden eine Lösung. Probier es noch einmal, aber freundlich!", "english": "We'll find a solution. Try again, but be friendly!"}
+  ]
+ },
+ {
+  "id": "de-s5-st4",
+  "title": "Pizza, soup or something else?",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Tom", "target": "Was möchtest du essen? Mir ist beides recht, Pizza oder Suppe.", "english": "What would you like to eat? Both are fine with me, pizza or soup."},
+   {"speaker": "Anna", "target": "Ich bin Vegetarierin und esse kein Fleisch. Aber Pizza mit Käse ist mein Favorit.", "english": "I'm a vegetarian and don't eat meat. But pizza with cheese is my favourite."},
+   {"speaker": "Tom", "target": "Gut, ich esse lieber Pizza als Suppe.", "english": "Good, I prefer pizza to soup."},
+   {"speaker": "Anna", "target": "Ist die Soße scharf? Ich bin kein Fan von scharfem Essen.", "english": "Is the sauce spicy? I'm not a fan of spicy food."},
+   {"speaker": "Tom", "target": "Ein bisschen. Such dir was anderes aus, es gibt eine große Auswahl.", "english": "A bit. Pick something else, there's a big selection."},
+   {"speaker": "Anna", "target": "Ich kann mich nicht entscheiden. Beides gefällt mir!", "english": "I can't decide. I like both!"},
+   {"speaker": "Tom", "target": "Und danach gehen wir ins Kino? Ich stehe auf Krimis.", "english": "And afterwards we go to the cinema? I'm into thrillers."},
+   {"speaker": "Anna", "target": "Ich nicht. Ich mag Komödien lieber. Das ist Geschmackssache.", "english": "Not me. I like comedies better. It's a matter of taste."},
+   {"speaker": "Tom", "target": "Je nachdem, wer die Hauptrolle spielt. Ich bin da flexibel.", "english": "Depends who plays the lead role. I'm flexible."},
+   {"speaker": "Anna", "target": "Dann entscheide ich mich für die Komödie. Ich nehme die Pizza hier.", "english": "Then I'm going for the comedy. I'll take the pizza here."}
+  ]
+ },
+ {
+  "id": "de-s5-st5",
+  "title": "If I were rich",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Tom", "target": "Anna, was würdest du machen, wenn du reich wärst?", "english": "Anna, what would you do if you were rich?"},
+   {"speaker": "Anna", "target": "Angenommen, ich hätte viel Geld. Dann würde ich ein Haus am Meer kaufen.", "english": "Suppose I had a lot of money. Then I'd buy a house by the sea."},
+   {"speaker": "Tom", "target": "Das wäre nicht schlecht! Ich würde lieber reisen.", "english": "That wouldn't be bad! I'd rather travel."},
+   {"speaker": "Anna", "target": "Wir könnten zusammen fahren. Theoretisch hätten wir sofort Zeit.", "english": "We could go together. In theory we'd have time right away."},
+   {"speaker": "Tom", "target": "Eigentlich habe ich im Moment kein Geld. Ich weiß nicht, was ich tun soll.", "english": "Actually I have no money at the moment. I don't know what to do."},
+   {"speaker": "Anna", "target": "An deiner Stelle würde ich mehr arbeiten. Du solltest einen Job suchen.", "english": "In your place I'd work more. You should look for a job."},
+   {"speaker": "Tom", "target": "Wenn ich nur mehr Zeit hätte! Aber ich hätte Lust auf einen Urlaub.", "english": "If only I had more time! But I'd feel like a holiday."},
+   {"speaker": "Anna", "target": "Ich gebe dir einen Tipp: Arbeite mehr und kaufe weniger.", "english": "I'll give you a tip: work more and buy less."},
+   {"speaker": "Tom", "target": "Das könnte klappen. Würdest du mir helfen?", "english": "That could work. Would you help me?"},
+   {"speaker": "Anna", "target": "Klar, ich würde dir gern helfen. Hör auf mich, dann wird das schon!", "english": "Sure, I'd like to help you. Listen to me and it'll work out!"}
+  ]
+ }
+]

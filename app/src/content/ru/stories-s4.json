@@ -1,0 +1,366 @@
+[
+  {
+    "id": "ru-s4-st1",
+    "title": "Dima and Katya: the film debate",
+    "level": "A2",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Дима",
+        "target": "Катя, ты смотрела фильм вчера?",
+        "english": "Katya, did you watch the film yesterday?",
+        "translit": "Katya, ty smotrela fil'm vchera?"
+      },
+      {
+        "speaker": "Катя",
+        "target": "Да, смотрела. По-моему, он замечательный!",
+        "english": "Yes, I did. In my opinion, it's wonderful!",
+        "translit": "Da, smotrela. Po-moyemu, on zamechatel'nyy!"
+      },
+      {
+        "speaker": "Дима",
+        "target": "Серьёзно? Мне кажется, он скучный.",
+        "english": "Seriously? I feel like it's boring.",
+        "translit": "Ser'yozno? Mne kazhetsya, on skuchnyy."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Не может быть! Он интересный и смешной.",
+        "english": "No way! It's interesting and funny.",
+        "translit": "Ne mozhet byt'! On interesnyy i smeshnoy."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Я не согласен. Мне скучно, потому что фильм длинный.",
+        "english": "I disagree. I'm bored because the film is long.",
+        "translit": "Ya ne soglasen. Mne skushno, potomu shto fil'm dlinnyy."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Зато музыка хорошая! Тебе нравится музыка?",
+        "english": "But the music is good! Do you like the music?",
+        "translit": "Zato muzyka khoroshaya! Tebe nravitsya muzyka?"
+      },
+      {
+        "speaker": "Дима",
+        "target": "Музыка неплохая. Хотя я считаю, что фильм слишком длинный.",
+        "english": "The music is not bad. Although I reckon the film is too long.",
+        "translit": "Muzyka neplokhaya. Khotya ya schitayu, shto fil'm slishkom dlinnyy."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Возможно. Но мне нравится! Пойдём вместе в кино завтра?",
+        "english": "Maybe. But I like it! Shall we go to the cinema together tomorrow?",
+        "translit": "Vozmozhno. No mne nravitsya! Poydyom vmeste v kino zavtra?"
+      },
+      {
+        "speaker": "Дима",
+        "target": "Мне надо работать. Но после работы можно.",
+        "english": "I have to work. But after work it's possible.",
+        "translit": "Mne nado rabotat'. No posle raboty mozhno."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Хорошо! Договорились.",
+        "english": "Great! Deal.",
+        "translit": "Khorosho! Dogovorilis'."
+      }
+    ]
+  },
+  {
+    "id": "ru-s4-st2",
+    "title": "Katya's Saturday party",
+    "level": "A2",
+    "minutes": 3,
+    "lines": [
+      {
+        "speaker": "Катя",
+        "target": "Дима, приходи в гости в субботу! Будет праздник.",
+        "english": "Dima, come over on Saturday! There'll be a celebration.",
+        "translit": "Dima, prikhodi v gosti v subbotu! Budet prazdnik."
+      },
+      {
+        "speaker": "Дима",
+        "target": "С удовольствием! Что взять?",
+        "english": "With pleasure! What should I bring?",
+        "translit": "S udovol'stviyem! Shto vzyat'?"
+      },
+      {
+        "speaker": "Катя",
+        "target": "Ничего не надо, у нас будет угощение. Но ты можешь принести лимонад.",
+        "english": "Nothing, we'll have treats. But you can bring lemonade.",
+        "translit": "Nichevo ne nado, u nas budet ugoshcheniye. No ty mozhesh' prinesti limonad."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Хорошо, я принесу лимонад и торт. Сколько человек будет?",
+        "english": "Okay, I'll bring lemonade and a cake. How many people will there be?",
+        "translit": "Khorosho, ya prinesu limonad i tort. Skol'ko chelovek budet?"
+      },
+      {
+        "speaker": "Катя",
+        "target": "Пять человек: два друга и три подруги.",
+        "english": "Five people: two friends and three girlfriends.",
+        "translit": "Pyat' chelovek: dva druga i tri podrugi."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Где встретимся? У метро?",
+        "english": "Where shall we meet? By the metro?",
+        "translit": "Gde vstretimsya? U metro?"
+      },
+      {
+        "speaker": "Катя",
+        "target": "Да, у метро, около банка. После работы, в шесть.",
+        "english": "Yes, by the metro, near the bank. After work, at six.",
+        "translit": "Da, u metro, okolo banka. Posle raboty, v shest'."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Окей. Если у меня не будет времени, я напишу.",
+        "english": "Okay. If I don't have time, I'll text.",
+        "translit": "Okey. Yesli u menya ne budet vremeni, ya napishu."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Нет проблем! Мы будем рады.",
+        "english": "No problem! We'll be glad.",
+        "translit": "Net problem! My budem rady."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Суббота, шесть часов. Я уже здесь, у метро. Где ты?",
+        "english": "Saturday, six o'clock. I'm already here, by the metro. Where are you?",
+        "translit": "Subbota, shest' chasov. Ya uzhe zdes', u metro. Gde ty?"
+      },
+      {
+        "speaker": "Катя",
+        "target": "Я иду! Подожди у входа.",
+        "english": "I'm on my way! Wait at the entrance.",
+        "translit": "Ya idu! Podozhdi u vkhoda."
+      }
+    ]
+  },
+  {
+    "id": "ru-s4-st3",
+    "title": "Wrong number",
+    "level": "A2",
+    "minutes": 3,
+    "lines": [
+      {
+        "speaker": "Дима",
+        "target": "Алло? Это Дима. Можно позвать Катю?",
+        "english": "Hello? It's Dima. Can I speak to Katya?",
+        "translit": "Allo? Eto Dima. Mozhno pozvat' Katyu?"
+      },
+      {
+        "speaker": "Мужчина",
+        "target": "Алло, слушаю. Кто говорит? Здесь нет Кати.",
+        "english": "Hello, I'm listening. Who's speaking? There's no Katya here.",
+        "translit": "Allo, slushayu. Kto govorit? Zdes' net Kati."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Извините, я ошибся номером.",
+        "english": "Sorry, I dialled the wrong number.",
+        "translit": "Izvinite, ya oshibsya nomerom."
+      },
+      {
+        "speaker": "Мужчина",
+        "target": "Ничего страшного. Всего доброго!",
+        "english": "It's nothing. All the best!",
+        "translit": "Nichevo strashnovo. Vsevo dobrovo!"
+      },
+      {
+        "speaker": "Дима",
+        "target": "Ой, мне надо написать Кате в чат.",
+        "english": "Oops, I need to text Katya in the chat.",
+        "translit": "Oy, mne nado napisat' Kate v chat."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Привет! Скинь мне номер телефона, пжлст.",
+        "english": "Hi! Send me your phone number, please.",
+        "translit": "Privet! Skin' mne nomer telefona, pzhlst."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Ща, отправляю! Это мой новый номер. У меня новый смартфон!",
+        "english": "One sec, sending! This is my new number. I have a new smartphone!",
+        "translit": "Shcha, otpravlyayu! Eto moy novyy nomer. U menya novyy smartfon!"
+      },
+      {
+        "speaker": "Дима",
+        "target": "Спс! Я перезвоню вечером.",
+        "english": "Thanks! I'll call back in the evening.",
+        "translit": "Sps! Ya perezvonyu vecherom."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Окей. Только у меня плохая батарея, мб я не отвечу.",
+        "english": "Okay. But my battery is bad, maybe I won't answer.",
+        "translit": "Okey. Tol'ko u menya plokhaya batareya, mb ya ne otvechu."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Лол, тебе нужна зарядка!",
+        "english": "Lol, you need a charger!",
+        "translit": "Lol, tebe nuzhna zaryadka!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s4-st4",
+    "title": "A hard day",
+    "level": "A2",
+    "minutes": 4,
+    "lines": [
+      {
+        "speaker": "Дима",
+        "target": "Катя, как ты себя чувствуешь? Ты грустная.",
+        "english": "Katya, how are you feeling? You look sad.",
+        "translit": "Katya, kak ty sebya chuvstvuyesh'? Ty grustnaya."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Мне хуже. У меня стресс на работе, я нервная и уставшая.",
+        "english": "Worse. I'm stressed at work, I'm nervous and tired.",
+        "translit": "Mne khuzhe. U menya stress na rabote, ya nervnaya i ustavshaya."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Не волнуйся, всё будет хорошо.",
+        "english": "Don't worry, everything will be fine.",
+        "translit": "Ne volnuysya, vsyo budet khorosho."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Мне стыдно, я была злая.",
+        "english": "I'm ashamed, I was angry.",
+        "translit": "Mne stydno, ya byla zlaya."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Я тебя понимаю. Мне тебя жаль. Держись!",
+        "english": "I understand you. I feel sorry for you. Hang in there!",
+        "translit": "Ya tebya ponimayu. Mne tebya zhal'. Derzhis'!"
+      },
+      {
+        "speaker": "Катя",
+        "target": "Спасибо большое. С тобой интересно, ты смешной.",
+        "english": "Thank you very much. It's interesting with you, you're funny.",
+        "translit": "Spasibo bol'shoye. S toboy interesno, ty smeshnoy."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Ты мне нравишься. Ты умница!",
+        "english": "I like you. You're a clever girl!",
+        "translit": "Ty mne nravish'sya. Ty umnitsa!"
+      },
+      {
+        "speaker": "Катя",
+        "target": "Мне приятно. Мне уже лучше.",
+        "english": "That's nice. I already feel better.",
+        "translit": "Mne priyatno. Mne uzhe luchshe."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Хочешь, я приду? Я принесу угощение.",
+        "english": "Do you want me to come over? I'll bring treats.",
+        "translit": "Khochesh', ya pridu? Ya prinesu ugoshcheniye."
+      },
+      {
+        "speaker": "Катя",
+        "target": "Да! Я хочу тебя обнять.",
+        "english": "Yes! I want to hug you.",
+        "translit": "Da! Ya khochu tebya obnyat'."
+      },
+      {
+        "speaker": "Дима",
+        "target": "Вот это да! Я счастлив.",
+        "english": "Wow! I'm happy.",
+        "translit": "Vot eto da! Ya schastliv."
+      }
+    ]
+  },
+  {
+    "id": "ru-s4-st5",
+    "title": "Tom meets Olga",
+    "level": "A2",
+    "minutes": 5,
+    "lines": [
+      {
+        "speaker": "Ольга",
+        "target": "Добрый вечер! Откуда вы?",
+        "english": "Good evening! Where are you from?",
+        "translit": "Dobryy vecher! Otkuda vy?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Я из Англии. Я здесь первый раз в России.",
+        "english": "I'm from England. It's my first time in Russia.",
+        "translit": "Ya iz Anglii. Ya zdes' pervyy raz v Rossii."
+      },
+      {
+        "speaker": "Ольга",
+        "target": "Серьёзно? Вы давно здесь?",
+        "english": "Seriously? Have you been here long?",
+        "translit": "Ser'yozno? Vy davno zdes'?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Нет, несколько дней. А вы?",
+        "english": "No, a few days. And you?",
+        "translit": "Net, neskol'ko dney. A vy?"
+      },
+      {
+        "speaker": "Ольга",
+        "target": "Я живу здесь. Давайте познакомимся. Меня зовут Ольга.",
+        "english": "I live here. Let's get acquainted. My name is Olga.",
+        "translit": "Ya zhivu zdes'. Davayte poznakomimsya. Menya zovut Ol'ga."
+      },
+      {
+        "speaker": "Том",
+        "target": "Очень приятно, я Том.",
+        "english": "Nice to meet you, I'm Tom.",
+        "translit": "Ochen' priyatno, ya Tom."
+      },
+      {
+        "speaker": "Ольга",
+        "target": "Чем вы занимаетесь?",
+        "english": "What do you do?",
+        "translit": "Chem vy zanimayetes'?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Я программист. А вы?",
+        "english": "I'm a programmer. And you?",
+        "translit": "Ya programmist. A vy?"
+      },
+      {
+        "speaker": "Ольга",
+        "target": "Я врач. Расскажите, вам понравилось в России?",
+        "english": "I'm a doctor. Tell me, did you like Russia?",
+        "translit": "Ya vrach. Rasskazhite, vam ponravilos' v Rossii?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да, ничего себе, очень! Цены неплохие, люди добрые.",
+        "english": "Yes, wow, a lot! The prices aren't bad, the people are kind.",
+        "translit": "Da, nichevo sebe, ochen'! Tseny neplokhiye, lyudi dobryye."
+      },
+      {
+        "speaker": "Ольга",
+        "target": "Как здорово! Мне пора идти, было приятно.",
+        "english": "How great! I have to go, it was nice.",
+        "translit": "Kak zdorovo! Mne pora idti, bylo priyatno."
+      },
+      {
+        "speaker": "Том",
+        "target": "Мне тоже. Всего доброго!",
+        "english": "Me too. All the best!",
+        "translit": "Mne tozhe. Vsevo dobrovo!"
+      }
+    ]
+  }
+]

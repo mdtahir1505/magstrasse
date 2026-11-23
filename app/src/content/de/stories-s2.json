@@ -1,0 +1,327 @@
+[
+ {
+  "id": "de-s2-st1",
+  "title": "Anna's family",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Tom, darf ich vorstellen? Das ist meine Familie.",
+    "english": "Tom, may I introduce you? This is my family."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Hallo! Freut mich!",
+    "english": "Hello! Nice to meet you!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das ist mein Vater, und das ist meine Mutter.",
+    "english": "This is my father, and this is my mother."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das ist mein Bruder Jonas. Er ist groß und sportlich.",
+    "english": "This is my brother Jonas. He is tall and sporty."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Und wer ist die Frau? Ist das deine Schwester?",
+    "english": "And who is the woman? Is that your sister?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Nein, das ist meine Tante. Sie ist geschieden.",
+    "english": "No, that is my aunt. She is divorced."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ihr Sohn ist mein Cousin. Er wohnt in München.",
+    "english": "Her son is my cousin. He lives in Munich."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Deine Familie ist groß! Ich habe nur einen Bruder.",
+    "english": "Your family is big! I only have one brother."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Unsere Oma wohnt auch hier. Sie ist nett.",
+    "english": "Our grandma lives here too. She is nice."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Kennst du die Leute hier?",
+    "english": "Do you know the people here?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ja, das sind unsere Nachbarn. Wir sind befreundet.",
+    "english": "Yes, those are our neighbours. We are friends."
+   }
+  ]
+ },
+ {
+  "id": "de-s2-st2",
+  "title": "Saturday plans",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Hallo Anna! Was hast du am Samstag vor?",
+    "english": "Hi Anna! What are you up to on Saturday?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich habe noch keinen Plan.",
+    "english": "I don't have a plan yet."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Hast du Lust? Wir gehen in den Park.",
+    "english": "Do you feel like it? We are going to the park."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Gern! Wann passt es dir?",
+    "english": "Gladly! When suits you?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Um acht Uhr? Ich hole dich ab.",
+    "english": "At eight o'clock? I'll pick you up."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das geht leider nicht. Am Vormittag habe ich einen Termin.",
+    "english": "Sadly that doesn't work. In the late morning I have an appointment."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Kein Problem. Am Nachmittag?",
+    "english": "No problem. In the afternoon?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ja! Am Nachmittag bin ich frei. Ich komme pünktlich.",
+    "english": "Yes! In the afternoon I'm free. I'll be on time."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Super. Wir treffen uns um drei am Bahnhof.",
+    "english": "Great. We meet at three at the station."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Bis Samstag!",
+    "english": "See you Saturday!"
+   }
+  ]
+ },
+ {
+  "id": "de-s2-st3",
+  "title": "The new jacket",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Tom, ich brauche eine Jacke. Im Oktober ist es kalt.",
+    "english": "Tom, I need a jacket. In October it is cold."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Hier ist ein Geschäft. Kommst du?",
+    "english": "Here is a shop. Are you coming?"
+   },
+   {
+    "speaker": "Verkäuferin",
+    "target": "Guten Tag! Kann ich helfen?",
+    "english": "Hello! Can I help?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ja, ich suche eine Jacke. Haben Sie die in Größe M?",
+    "english": "Yes, I am looking for a jacket. Do you have it in size M?"
+   },
+   {
+    "speaker": "Verkäuferin",
+    "target": "Ja, wir haben die Jacke in schwarz und in grau.",
+    "english": "Yes, we have the jacket in black and in grey."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Kann ich die Jacke in grau anprobieren?",
+    "english": "Can I try on the jacket in grey?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Sie passt mir! Das gefällt mir. Was ist der Preis?",
+    "english": "It fits me! I like it. What is the price?"
+   },
+   {
+    "speaker": "Verkäuferin",
+    "target": "Sie ist im Angebot. Sie kostet zwanzig Euro.",
+    "english": "It is on offer. It costs twenty euros."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Das ist günstig!",
+    "english": "That is good value!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich nehme sie. Kann ich mit Karte zahlen?",
+    "english": "I'll take it. Can I pay by card?"
+   },
+   {
+    "speaker": "Verkäuferin",
+    "target": "Natürlich. Brauchen Sie eine Tüte?",
+    "english": "Of course. Do you need a bag?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Nein, danke. Tschüss!",
+    "english": "No, thanks. Bye!"
+   }
+  ]
+ },
+ {
+  "id": "de-s2-st4",
+  "title": "Tom's day",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Tom, wie ist dein Tag? Wann stehst du auf?",
+    "english": "Tom, what is your day like? When do you get up?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich stehe um sieben auf und dusche.",
+    "english": "I get up at seven and shower."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Dann frühstücke ich in der Küche. Ich trinke immer Kaffee.",
+    "english": "Then I have breakfast in the kitchen. I always drink coffee."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Und wann gehst du los?",
+    "english": "And when do you set off?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Um acht. Ich arbeite bis fünf Uhr.",
+    "english": "At eight. I work until five o'clock."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Um sechs komme ich nach Hause. Ich bin müde.",
+    "english": "At six I come home. I am tired."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Und dann? Hast du Zeit?",
+    "english": "And then? Do you have time?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Nein, die Wohnung ist schmutzig. Ich muss putzen und aufräumen.",
+    "english": "No, the flat is dirty. I have to clean and tidy up."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Meine Wäsche ist auf dem Boden. Ich muss waschen.",
+    "english": "My laundry is on the floor. I have to wash."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Und abends?",
+    "english": "And in the evening?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich koche Nudeln, dann sehe ich eine Serie auf dem Sofa.",
+    "english": "I cook pasta, then I watch a series on the sofa."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Um elf schlafe ich ein. Gute Nacht!",
+    "english": "At eleven I fall asleep. Good night!"
+   }
+  ]
+ },
+ {
+  "id": "de-s2-st5",
+  "title": "Concert at the lake",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Tom, was ist dein Hobby?",
+    "english": "Tom, what is your hobby?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich spiele gern Fußball und ich höre Musik. Und du?",
+    "english": "I like playing football and I listen to music. And you?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich lese gern und ich tanze. Am liebsten tanze ich auf einer Party.",
+    "english": "I like reading and I dance. Most of all I dance at a party."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Am Samstag ist ein Konzert im Park. Hast du Lust?",
+    "english": "On Saturday there is a concert in the park. Do you feel like it?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ja, gern! Ich liebe Konzerte.",
+    "english": "Yes, gladly! I love concerts."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Dann gehen wir in die Kneipe.",
+    "english": "Then we go to the pub."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich kann nicht lange. Ich muss am Sonntag früh aufstehen.",
+    "english": "I can't stay long. I have to get up early on Sunday."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Kein Problem. Am Sonntag gehen wir am See spazieren.",
+    "english": "No problem. On Sunday we go for a walk at the lake."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Sport ist nicht mein Ding. Ich mag die Natur.",
+    "english": "Sport is not my thing. I like nature."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Super! Und ich kann schwimmen!",
+    "english": "Great! And I can swim!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Du hast immer einen Plan!",
+    "english": "You always have a plan!"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Natürlich. Das ist mein Hobby.",
+    "english": "Of course. That is my hobby."
+   }
+  ]
+ }
+]

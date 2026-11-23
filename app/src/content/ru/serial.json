@@ -1,0 +1,2651 @@
+[
+  {
+    "id": "ru-ep-01",
+    "n": 1,
+    "title": "Flat Number 12",
+    "minLesson": "s1u1l2",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Здравствуйте!",
+        "english": "Hello! (formal: Tom is nervous)",
+        "translit": "Zdravstvuyte!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Добрый день! Привет!",
+        "english": "Good afternoon! Hi!",
+        "translit": "Dobryy den'! Privet!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Кофе? Да или нет?",
+        "english": "Coffee? Yes or no?",
+        "translit": "Kofe? Da ili net?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Да! Кофе, пожалуйста. Спасибо!",
+        "english": "Yes! Coffee, please. Thanks!",
+        "translit": "Da! Kofe, pozhaluysta. Spasibo!"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Доброе утро...",
+        "english": "Good morning... (it is 3 p.m.)",
+        "translit": "Dobroye utro..."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Дима! Добрый день!",
+        "english": "Dima! Good afternoon!",
+        "translit": "Dima! Dobryy den'!"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Спокойной ночи.",
+        "english": "Good night. (he goes back to bed)",
+        "translit": "Spokoynoy nochi."
+      },
+      {
+        "speaker": "Борис",
+        "emoji": "🐈",
+        "target": "Мяу.",
+        "english": "Meow.",
+        "translit": "Myau."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Привет, Борис!",
+        "english": "Hi, Boris!",
+        "translit": "Privet, Boris!"
+      }
+    ],
+    "cliffhanger": "Tom finds a note on the fridge: \"The chocolate is MINE. Touch it and you're dead.\""
+  },
+  {
+    "id": "ru-ep-02",
+    "n": 2,
+    "title": "Who Ate the Chocolate?",
+    "minLesson": "s1u2l1",
+    "panels": [
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Шоколад? Нет! Нет, нет, нет!",
+        "english": "Chocolate? No! No, no, no!",
+        "translit": "Shokolad? Net! Net, net, net!"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Кто? Кто?",
+        "english": "Who? Who?",
+        "translit": "Kto? Kto?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Я? Нет! Я программист!",
+        "english": "Me? No! I'm a programmer! (not a thief)",
+        "translit": "Ya? Net! Ya programmist!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Меня зовут Том. Я из Англии. Я не понимаю!",
+        "english": "My name is Tom. I'm from England. I don't understand!",
+        "translit": "Menya zovut Tom. Ya iz Anglii. Ya ne ponimayu!"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Том? Ты студент?",
+        "english": "Tom? Are you a student?",
+        "translit": "Tom? Ty student?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Да, я студент. Чай, вода, сок, молоко. Не шоколад!",
+        "english": "Yes, I'm a student. Tea, water, juice, milk. Not chocolate!",
+        "translit": "Da, ya student. Chay, voda, sok, moloko. Ne shokolad!"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Борис?",
+        "english": "Boris?",
+        "translit": "Boris?"
+      },
+      {
+        "speaker": "Борис",
+        "emoji": "🐈",
+        "target": "Мяу.",
+        "english": "Meow. (he is innocent. Probably.)",
+        "translit": "Myau."
+      }
+    ],
+    "cliffhanger": "At midnight Tom hears a key in the front door. Somebody is coming in, and it is not Lena."
+  },
+  {
+    "id": "ru-ep-03",
+    "n": 3,
+    "title": "The Café Test",
+    "minLesson": "s1u2l5",
+    "panels": [
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Вот кафе. Меню, пожалуйста.",
+        "english": "Here's a café. The menu, please.",
+        "translit": "Vot kafe. Menyu, pozhaluysta."
+      },
+      {
+        "speaker": "Официантка",
+        "emoji": "🧑‍🍳",
+        "target": "Добрый день! Приятного аппетита!",
+        "english": "Good afternoon! Enjoy your meal!",
+        "translit": "Dobryy den'! Priyatnovo appetita!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Можно чай? Горячий, пожалуйста.",
+        "english": "Can I have tea? Hot, please.",
+        "translit": "Mozhno chay? Goryachiy, pozhaluysta."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Я хочу кофе и торт.",
+        "english": "I want coffee and cake.",
+        "translit": "Ya khochu kofe i tort."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Мне, пожалуйста, ещё стакан воды. Вкусно!",
+        "english": "And a glass of water for me, please. Delicious!",
+        "translit": "Mne, pozhaluysta, yeshchyo stakan vody. Vkusno!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Счёт, пожалуйста. По карте.",
+        "english": "The bill, please. By card.",
+        "translit": "Schyot, pozhaluysta. Po karte."
+      },
+      {
+        "speaker": "Официантка",
+        "emoji": "🧑‍🍳",
+        "target": "Нет, только наличные.",
+        "english": "No, cash only.",
+        "translit": "Net, tol'ko nalichnyye."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Блин! У нас нет наличных.",
+        "english": "Damn! We have no cash.",
+        "translit": "Blin! U nas net nalichnykh."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Привет! Я плачу. Наличные!",
+        "english": "Hi! I'm paying. Cash!",
+        "translit": "Privet! Ya plachu. Nalichnyye!"
+      }
+    ],
+    "cliffhanger": "Dima never has money. So where did he get a whole wad of cash?"
+  },
+  {
+    "id": "ru-ep-04",
+    "n": 4,
+    "title": "Market Prices",
+    "minLesson": "s1u3l4",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Сколько стоит шоколад?",
+        "english": "How much is the chocolate?",
+        "translit": "Skol'ko stoit shokolad?"
+      },
+      {
+        "speaker": "Продавец",
+        "emoji": "🧑‍🌾",
+        "target": "Двести рублей. Скидка — сто пятьдесят.",
+        "english": "Two hundred roubles. With the discount, one fifty.",
+        "translit": "Dvesti rubley. Skidka — sto pyat'desyat."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Это дорого! Это всё?",
+        "english": "That's expensive! Is that all?",
+        "translit": "Eto dorogo! Eto vsyo?"
+      },
+      {
+        "speaker": "Продавец",
+        "emoji": "🧑‍🌾",
+        "target": "Десять, пожалуйста? Каждый день один человек — десять!",
+        "english": "Ten, please? Every day one person buys ten!",
+        "translit": "Desyat', pozhaluysta? Kazhdyy den' odin chelovek — desyat'!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Кто? Кто покупает десять шоколадов?",
+        "english": "Who? Who buys ten chocolates?",
+        "translit": "Kto? Kto pokupayet desyat' shokoladov?"
+      },
+      {
+        "speaker": "Продавец",
+        "emoji": "🧑‍🌾",
+        "target": "Я не знаю. Чек, пожалуйста.",
+        "english": "I don't know. Here's your receipt.",
+        "translit": "Ya ne znayu. Chek, pozhaluysta."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Метро, музыка, деньги! Это секрет.",
+        "english": "Metro, music, money! It's a secret.",
+        "translit": "Metro, muzyka, den'gi! Eto sekret."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Дима, откуда деньги?",
+        "english": "Dima, where does the money come from?",
+        "translit": "Dima, otkuda den'gi?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Музыка! Пакет, пожалуйста.",
+        "english": "Music! A bag, please.",
+        "translit": "Muzyka! Paket, pozhaluysta."
+      }
+    ],
+    "cliffhanger": "Dima is busking in the metro. But why does he keep looking at a long black case?"
+  },
+  {
+    "id": "ru-ep-05",
+    "n": 5,
+    "title": "Lost at the Station",
+    "minLesson": "s1u4l2",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Извините, где вокзал?",
+        "english": "Excuse me, where is the station?",
+        "translit": "Izvinite, gde vokzal?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Прямо, потом налево. Далеко!",
+        "english": "Straight, then left. It's far!",
+        "translit": "Pryamo, potom nalevo. Daleko!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Где здесь туалет и банкомат?",
+        "english": "Where's the toilet and an ATM here?",
+        "translit": "Gde zdes' tualet i bankomat?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Спасибо! Вот вокзал и станция.",
+        "english": "Thanks! There's the station.",
+        "translit": "Spasibo! Vot vokzal i stantsiya."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Том? Что ты здесь делаешь?",
+        "english": "Tom? What are you doing here?",
+        "translit": "Tom? Shto ty zdes' delayesh'?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я потерялся. А ты?",
+        "english": "I'm lost. And you?",
+        "translit": "Ya poteryalsya. A ty?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Это секрет! Не говори Лене!",
+        "english": "It's a secret! Don't tell Lena!",
+        "translit": "Eto sekret! Ne govori Lene!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Не говори мне что?",
+        "english": "Don't tell me what?",
+        "translit": "Ne govori mne shto?"
+      }
+    ],
+    "cliffhanger": "Lena is standing right behind them. Dima's long black case is wide open."
+  },
+  {
+    "id": "ru-ep-06",
+    "n": 6,
+    "title": "Don't Tell Lena",
+    "minLesson": "s1u5l1",
+    "panels": [
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Дима, что у тебя?",
+        "english": "Dima, what do you have?",
+        "translit": "Dima, shto u tebya?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "У меня есть кофе. У меня нет ничего!",
+        "english": "I have coffee. I have nothing!",
+        "translit": "U menya yest' kofe. U menya net nichevo!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Это гитара? Сколько она стоит?",
+        "english": "Is that a guitar? How much did it cost?",
+        "translit": "Eto gitara? Skol'ko ona stoit?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Я хочу играть. Я не хочу работать!",
+        "english": "I want to play. I don't want to work!",
+        "translit": "Ya khochu igrat'. Ya ne khochu rabotat'!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "У нас нет денег! Ты хочешь спать на улице?",
+        "english": "We have no money! Do you want to sleep on the street?",
+        "translit": "U nas net deneg! Ty khochesh' spat' na ulitse?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я хочу есть. Пойдём домой?",
+        "english": "I want to eat. Shall we go home?",
+        "translit": "Ya khochu yest'. Poydyom domoy?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Хорошо. Но я хочу пить.",
+        "english": "Fine. But I want a drink.",
+        "translit": "Khorosho. No ya khochu pit'."
+      },
+      {
+        "speaker": "Борис",
+        "emoji": "🐈",
+        "target": "Мяу!",
+        "english": "Meow!",
+        "translit": "Myau!"
+      }
+    ],
+    "cliffhanger": "From upstairs comes a scream: \"HELP!\" Everyone freezes. It's Baba Valya's voice."
+  },
+  {
+    "id": "ru-ep-07",
+    "n": 7,
+    "title": "Help!",
+    "minLesson": "s1u5l5",
+    "panels": [
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Помогите! Помогите!",
+        "english": "Help! Help!",
+        "translit": "Pomogite! Pomogite!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Что случилось? Мне плохо...",
+        "english": "What happened? I feel sick...",
+        "translit": "Shto sluchilos'? Mne plokho..."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Борис! Он на балконе! Вызовите врача!",
+        "english": "Boris! He's on the balcony! Call a doctor!",
+        "translit": "Boris! On na balkone! Vyzovite vracha!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Врача? Не надо. Нужна помощь!",
+        "english": "A doctor? No. We need help!",
+        "translit": "Vracha? Ne nado. Nuzhna pomoshch'!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я могу помочь. Подождите! Минуточку!",
+        "english": "I can help. Wait! One minute!",
+        "translit": "Ya mogu pomoch'. Podozhdite! Minutochku!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Рыба, Борис! Вкусно! Иди сюда!",
+        "english": "Fish, Boris! Yummy! Come here!",
+        "translit": "Ryba, Boris! Vkusno! Idi syuda!"
+      },
+      {
+        "speaker": "Борис",
+        "emoji": "🐈",
+        "target": "Мяу!",
+        "english": "Meow!",
+        "translit": "Myau!"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Спасибо, молодой человек!",
+        "english": "Thank you, young man!",
+        "translit": "Spasibo, molodoy chelovek!"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Заходите! Я не говорю по-английски.",
+        "english": "Come in! I don't speak English.",
+        "translit": "Zakhodite! Ya ne govoryu po-angliyski."
+      }
+    ],
+    "cliffhanger": "In Baba Valya's flat, Tom spots a mountain of chocolate wrappers on the table."
+  },
+  {
+    "id": "ru-ep-08",
+    "n": 8,
+    "title": "The Chocolate Grandmother",
+    "minLesson": "s2u1l4",
+    "panels": [
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Меня зовут Баба Валя. Я старая, но весёлая.",
+        "english": "My name is Baba Valya. I'm old, but cheerful.",
+        "translit": "Menya zovut Baba Valya. Ya staraya, no vesyolaya."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "У меня большая семья: сын, дочь, внук.",
+        "english": "I have a big family: a son, a daughter, a grandson.",
+        "translit": "U menya bol'shaya sem'ya: syn, doch', vnuk."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "У вас красивая квартира. Это ваш шоколад?",
+        "english": "You have a beautiful flat. Is this your chocolate?",
+        "translit": "U vas krasivaya kvartira. Eto vash shokolad?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Мой? Нет! Это... хороший шоколад. Не мой.",
+        "english": "Mine? No! It's... good chocolate. Not mine.",
+        "translit": "Moy? Net! Eto... khoroshiy shokolad. Ne moy."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Она добрая. Но очень умная.",
+        "english": "She's kind. But very clever.",
+        "translit": "Ona dobraya. No ochen' umnaya."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Борис — мой друг. Он приходит каждый день.",
+        "english": "Boris is my friend. He comes every day.",
+        "translit": "Boris — moy drug. On prikhodit kazhdyy den'."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Баба Валя, у вас новый ключ?",
+        "english": "Baba Valya, do you have a new key?",
+        "translit": "Baba Valya, u vas novyy klyuch?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Ключ? Нет. Старый. Чай, молодые люди?",
+        "english": "A key? No. An old one. Tea, young people?",
+        "translit": "Klyuch? Net. Staryy. Chay, molodyye lyudi?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Завтра придёт хозяин. Плохие новости.",
+        "english": "The landlord comes tomorrow. Bad news.",
+        "translit": "Zavtra pridyot khozyain. Plokhiye novosti."
+      }
+    ],
+    "cliffhanger": "Baba Valya whispers the bad news: the owner wants to sell the whole building."
+  },
+  {
+    "id": "ru-ep-09",
+    "n": 9,
+    "title": "Friday, 10 A.M.",
+    "minLesson": "s2u2l3",
+    "panels": [
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Сегодня четверг. Завтра пятница.",
+        "english": "Today is Thursday. Tomorrow is Friday.",
+        "translit": "Sevodnya chetverg. Zavtra pyatnitsa."
+      },
+      {
+        "speaker": "Хозяин",
+        "emoji": "🕴️",
+        "target": "Здравствуйте. Я хозяин. Меня зовут Павел Сергеевич.",
+        "english": "Hello. I'm the owner. My name is Pavel Sergeyevich.",
+        "translit": "Zdravstvuyte. Ya khozyain. Menya zovut Pavel Sergeyevich."
+      },
+      {
+        "speaker": "Хозяин",
+        "emoji": "🕴️",
+        "target": "Я продаю дом. Последний месяц — декабрь.",
+        "english": "I'm selling the building. The last month is December.",
+        "translit": "Ya prodayu dom. Posledniy mesyats — dekabr'."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Декабрь? Сейчас ноябрь!",
+        "english": "December? It's November now!",
+        "translit": "Dekabr'? Seychas noyabr'!"
+      },
+      {
+        "speaker": "Хозяин",
+        "emoji": "🕴️",
+        "target": "Да. Каждый месяц — пятьдесят тысяч. С января.",
+        "english": "Yes. Fifty thousand every month. From January.",
+        "translit": "Da. Kazhdyy mesyats — pyat'desyat tysyach. S yanvarya."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Пятьдесят тысяч?! Это дорого!",
+        "english": "Fifty thousand?! That's expensive!",
+        "translit": "Pyat'desyat tysyach?! Eto dorogo!"
+      },
+      {
+        "speaker": "Хозяин",
+        "emoji": "🕴️",
+        "target": "До свидания. Я приду в субботу, в десять.",
+        "english": "Goodbye. I'll come on Saturday at ten.",
+        "translit": "Do svidaniya. Ya pridu v subbotu, v desyat'."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Суббота, десять часов. Это скоро.",
+        "english": "Saturday, ten o'clock. That's soon.",
+        "translit": "Subbota, desyat' chasov. Eto skoro."
+      }
+    ],
+    "cliffhanger": "A stranger stands on the street, photographing the building. He's holding a coffee cup with a logo."
+  },
+  {
+    "id": "ru-ep-10",
+    "n": 10,
+    "title": "Red Jacket, Blue Socks",
+    "minLesson": "s2u3l2",
+    "panels": [
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Привет! Посылка для Димы. Красная куртка.",
+        "english": "Hi! A parcel for Dima. A red jacket.",
+        "translit": "Privet! Posylka dlya Dimy. Krasnaya kurtka."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Круто! Концерт в субботу, в клубе!",
+        "english": "Cool! The gig is on Saturday, at the club!",
+        "translit": "Kruto! Kontsert v subbotu, v klube!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я хочу синюю футболку и жёлтые носки.",
+        "english": "I want a blue T-shirt and yellow socks.",
+        "translit": "Ya khochu sinyuyu futbolku i zhyoltyye noski."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Жёлтые носки? Том, это ужасно!",
+        "english": "Yellow socks? Tom, that's awful!",
+        "translit": "Zhyoltyye noski? Tom, eto uzhasno!"
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Меня зовут Макс. Я курьер. А как вас зовут?",
+        "english": "My name is Max. I'm a courier. And what's your name?",
+        "translit": "Menya zovut Maks. Ya kur'yer. A kak vas zovut?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Лена. Я программист.",
+        "english": "Lena. I'm a programmer.",
+        "translit": "Lena. Ya programmist."
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Лена... красивое имя. Чёрный кофе?",
+        "english": "Lena... a pretty name. Black coffee?",
+        "translit": "Lena... krasivoye imya. Chyornyy kofe?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Белый! Это белый кофе. С молоком.",
+        "english": "White! This is white coffee. With milk.",
+        "translit": "Belyy! Eto belyy kofe. S molokom."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Макс, ты из кофейни на улице?",
+        "english": "Max, are you from the café on the street?",
+        "translit": "Maks, ty iz kofeyni na ulitse?"
+      }
+    ],
+    "cliffhanger": "That night Tom follows a shadow in the hall. Baba Valya unlocks their kitchen with a spare key."
+  },
+  {
+    "id": "ru-ep-11",
+    "n": 11,
+    "title": "Caught Red-Handed",
+    "minLesson": "s2u3l5",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Баба Валя? Вы?",
+        "english": "Baba Valya? You?",
+        "translit": "Baba Valya? Vy?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Тише! Я оставляю пирожки. Это обмен!",
+        "english": "Shh! I'm leaving pies. It's a swap!",
+        "translit": "Tishe! Ya ostavlyayu pirozhki. Eto obmen!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Шоколад? Это вы?! Десять шоколадов?",
+        "english": "Chocolate? It was you?! Ten chocolates?",
+        "translit": "Shokolad? Eto vy?! Desyat' shokoladov?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Мой муж... Шоколад в пятницу. Каждая пятница.",
+        "english": "My husband... Chocolate on Friday. Every Friday.",
+        "translit": "Moy muzh... Shokolad v pyatnitsu. Kazhdaya pyatnitsa."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Баба Валя... Это очень грустно. И очень вкусно.",
+        "english": "Baba Valya... That's very sad. And very yummy.",
+        "translit": "Baba Valya... Eto ochen' grustno. I ochen' vkusno."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Ладно. Новый ключ — у меня. Пирожки — каждый день!",
+        "english": "Okay. The new key stays with me. Pies every day!",
+        "translit": "Ladno. Novyy klyuch — u menya. Pirozhki — kazhdyy den'!"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Есть ещё новость. Я знаю, кто покупает дом.",
+        "english": "There's more news. I know who's buying the building.",
+        "translit": "Yest' yeshchyo novost'. Ya znayu, kto pokupayet dom."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Кто?",
+        "english": "Who?",
+        "translit": "Kto?"
+      }
+    ],
+    "cliffhanger": "Baba Valya says the name. Lena drops her cup, and it is a name she knows very well."
+  },
+  {
+    "id": "ru-ep-12",
+    "n": 12,
+    "title": "The Buyer's Name",
+    "minLesson": "s2u4l4",
+    "panels": [
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Это «Кофе-Бум». Большая сеть. Они хотят здесь кофейню.",
+        "english": "It's \"Coffee-Boom\". A big chain. They want a café here.",
+        "translit": "Eto «Kofe-Bum». Bol'shaya set'. Oni khotyat zdes' kofeynyu."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Я работаю рядом с их офисом. Я читаю их письма.",
+        "english": "I work next to their office. I read their emails.",
+        "translit": "Ya rabotayu ryadom s ikh ofisom. Ya chitayu ikh pis'ma."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Лена, ты думаешь, мы можем что-то делать?",
+        "english": "Lena, do you think we can do anything?",
+        "translit": "Lena, ty dumayesh', my mozhem shto-to delat'?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я знаю! Мы пишем письмо. Все соседи пишут.",
+        "english": "I know! We write a letter. All the neighbours write.",
+        "translit": "Ya znayu! My pishem pis'mo. Vse sosedi pishut."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Нужно двадцать подписей. Мы слушаем соседей, мы спрашиваем.",
+        "english": "We need twenty signatures. We listen to the neighbours, we ask.",
+        "translit": "Nuzhno dvadtsat' podpisey. My slushayem sosedey, my sprashivayem."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Я играю музыку. Соседи любят музыку!",
+        "english": "I play music. The neighbours love music!",
+        "translit": "Ya igrayu muzyku. Sosedi lyubyat muzyku!"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Не любят! Они звонят в полицию каждый вечер.",
+        "english": "They don't! They call the police every evening.",
+        "translit": "Ne lyubyat! Oni zvonyat v politsiyu kazhdyy vecher."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Тогда я гуляю и отвечаю на вопросы.",
+        "english": "Then I'll walk around and answer questions.",
+        "translit": "Togda ya gulyayu i otvechayu na voprosy."
+      }
+    ],
+    "cliffhanger": "Five neighbours signed. Fifteen to go, and the Coffee-Boom lawyer lives on the fourth floor."
+  },
+  {
+    "id": "ru-ep-13",
+    "n": 13,
+    "title": "Door to Door",
+    "minLesson": "s2u5l3",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Здравствуйте! Вы любите футбол?",
+        "english": "Hello! Do you like football?",
+        "translit": "Zdravstvuyte! Vy lyubite futbol?"
+      },
+      {
+        "speaker": "Сосед",
+        "emoji": "🧓",
+        "target": "Конечно! Я смотрю матч каждый день.",
+        "english": "Of course! I watch a match every day.",
+        "translit": "Koneshno! Ya smotryu match kazhdyy den'."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Подпись, пожалуйста? Футбол? Мы выиграем!",
+        "english": "A signature, please? Football? We'll win!",
+        "translit": "Podpis', pozhaluysta? Futbol? My vyigrayem!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Эта соседка любит йогу и танцы. Подпись есть!",
+        "english": "This neighbour loves yoga and dancing. Signature's in!",
+        "translit": "Eta sosedka lyubit yogu i tantsy. Podpis' yest'!"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "А этот сосед плавает и играет в теннис. Подпись есть!",
+        "english": "And this neighbour swims and plays tennis. Signature's in!",
+        "translit": "A etot sosed plavayet i igrayet v tennis. Podpis' yest'!"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Двенадцать подписей. Хорошо! Я пеку пирожки.",
+        "english": "Twelve signatures. Good! I'm baking pies.",
+        "translit": "Dvenadtsat' podpisey. Khorosho! Ya peku pirozhki."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Осталась последняя дверь. Четвёртый этаж.",
+        "english": "One last door is left. The fourth floor.",
+        "translit": "Ostalas' poslednyaya dver'. Chetvyortyy etazh."
+      },
+      {
+        "speaker": "Юрист",
+        "emoji": "🧑‍⚖️",
+        "target": "Кто там? Я юрист. Я не подписываю!",
+        "english": "Who's there? I'm a lawyer. I don't sign!",
+        "translit": "Kto tam? Ya yurist. Ya ne podpisyvayu!"
+      }
+    ],
+    "cliffhanger": "The lawyer slams the door. Behind him, Tom glimpses a poster: \"Coffee-Boom: Opening Soon, This Address\"."
+  },
+  {
+    "id": "ru-ep-14",
+    "n": 14,
+    "title": "What Happened Yesterday",
+    "minLesson": "s3u1l2",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Вчера я ходил по домам. Я говорил со всеми.",
+        "english": "Yesterday I went from door to door. I talked to everyone.",
+        "translit": "Vchera ya khodil po domam. Ya govoril so vsemi."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Я работала. Я читала письма и писала отчёт.",
+        "english": "I worked. I read emails and wrote a report.",
+        "translit": "Ya rabotala. Ya chitala pis'ma i pisala otchyot."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "А я играл на гитаре. Я не знал, что соседи спят.",
+        "english": "And I played guitar. I didn't know the neighbours were asleep.",
+        "translit": "A ya igral na gitare. Ya ne znal, shto sosedi spyat."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Я жила здесь сорок лет. Я знала, что ты шумишь.",
+        "english": "I've lived here forty years. I knew you were noisy.",
+        "translit": "Ya zhila zdes' sorok let. Ya znala, shto ty shumish'."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Подписей — четырнадцать. Я смотрел список.",
+        "english": "Fourteen signatures. I looked at the list.",
+        "translit": "Podpisey — chetyrnadtsat'. Ya smotrel spisok."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Сегодня утром список лежал на столе.",
+        "english": "This morning the list was on the table.",
+        "translit": "Sevodnya utrom spisok lezhal na stole."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Лежал?! Где он сейчас?",
+        "english": "Was?! Where is it now?",
+        "translit": "Lezhal?! Gde on seychas?"
+      },
+      {
+        "speaker": "Борис",
+        "emoji": "🐈",
+        "target": "Мяу.",
+        "english": "Meow. (very suspicious, and very quiet)",
+        "translit": "Myau."
+      }
+    ],
+    "cliffhanger": "The petition has vanished. And there's chocolate on Boris's whiskers."
+  },
+  {
+    "id": "ru-ep-15",
+    "n": 15,
+    "title": "Night Train to Moscow",
+    "minLesson": "s3u2l1",
+    "panels": [
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Список нашёлся! Борис спал на нём.",
+        "english": "The list is found! Boris was sleeping on it.",
+        "translit": "Spisok nashyolsya! Boris spal na nyom."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Но нужен юрист. Моя сестра живёт в Москве.",
+        "english": "But we need a lawyer. My sister lives in Moscow.",
+        "translit": "No nuzhen yurist. Moya sestra zhivyot v Moskve."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Поезд? Я хочу в путешествие! Я никогда не был в Москве.",
+        "english": "A train? I want a trip! I've never been to Moscow.",
+        "translit": "Poyezd? Ya khochu v puteshestviye! Ya nikogda ne byl v Moskve."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Я тоже поеду. Я возьму гитару.",
+        "english": "I'll come too. I'll take my guitar.",
+        "translit": "Ya tozhe poyedu. Ya voz'mu gitaru."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Нет! Гитару — нет!",
+        "english": "No! The guitar — no!",
+        "translit": "Net! Gitaru — net!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Вот вокзал. Вот платформа. Где наши места?",
+        "english": "Here's the station. Here's the platform. Where are our seats?",
+        "translit": "Vot vokzal. Vot platforma. Gde nashi mesta?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Двое в купе? Нас трое!",
+        "english": "Two in a compartment? There are three of us!",
+        "translit": "Dvoye v kupe? Nas troye!"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Возьмите пирожки в дорогу!",
+        "english": "Take pies for the road!",
+        "translit": "Voz'mite pirozhki v dorogu!"
+      }
+    ],
+    "cliffhanger": "Halfway there, the train stops in the middle of a forest. Nobody knows why."
+  },
+  {
+    "id": "ru-ep-16",
+    "n": 16,
+    "title": "Room 404",
+    "minLesson": "s3u2l5",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Здравствуйте. У нас бронь на фамилию Смит.",
+        "english": "Hello. We have a booking under the name Smith.",
+        "translit": "Zdravstvuyte. U nas bron' na familiyu Smit."
+      },
+      {
+        "speaker": "Администратор",
+        "emoji": "💁",
+        "target": "Двухместный номер? Завтрак включён.",
+        "english": "A double room? Breakfast is included.",
+        "translit": "Dvukhmestnyy nomer? Zavtrak vklyuchyon."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Нет, нам нужно два одноместных номера.",
+        "english": "No, we need two single rooms.",
+        "translit": "Net, nam nuzhno dva odnomestnykh nomera."
+      },
+      {
+        "speaker": "Администратор",
+        "emoji": "💁",
+        "target": "У нас только один номер. Четыреста четыре.",
+        "english": "We only have one room. Four-oh-four.",
+        "translit": "U nas tol'ko odin nomer. Chetyresta chetyre."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Я буду спать в ванной.",
+        "english": "I'll sleep in the bathroom.",
+        "translit": "Ya budu spat' v vannoy."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Здесь есть паркинг и заправка? Мы без машины.",
+        "english": "Is there parking and a petrol station? We have no car.",
+        "translit": "Zdes' yest' parking i zapravka? My bez mashiny."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Том, не смеши меня. Где мой чемодан?",
+        "english": "Tom, don't make me laugh. Where's my suitcase?",
+        "translit": "Tom, ne smeshi menya. Gde moy chemodan?"
+      },
+      {
+        "speaker": "Администратор",
+        "emoji": "💁",
+        "target": "Ваш чемодан? В аэропорту, наверное. Рейс задержали.",
+        "english": "Your suitcase? At the airport, probably. The flight was delayed.",
+        "translit": "Vash chemodan? V aeroportu, navernoye. Reys zaderzhali."
+      }
+    ],
+    "cliffhanger": "Lena's suitcase has all the documents. Where is it now? Possibly in Sochi."
+  },
+  {
+    "id": "ru-ep-17",
+    "n": 17,
+    "title": "Lena's Sister",
+    "minLesson": "s3u3l3",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "У меня болит голова. И горло.",
+        "english": "I have a headache. And a sore throat.",
+        "translit": "U menya bolit golova. I gorlo."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Ты простудился. У тебя температура?",
+        "english": "You've caught a cold. Do you have a temperature?",
+        "translit": "Ty prostudilsya. U tebya temperatura?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Кашель, насморк... Том, не дыши на меня!",
+        "english": "A cough, a runny nose... Tom, don't breathe on me!",
+        "translit": "Kashel', nasmork... Tom, ne dyshi na menya!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Моя сестра Аня — врач. Она даст таблетки.",
+        "english": "My sister Anya is a doctor. She'll give you pills.",
+        "translit": "Moya sestra Anya — vrach. Ona dast tabletki."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Мне очень плохо. Меня тошнит.",
+        "english": "I feel very bad. I feel nauseous.",
+        "translit": "Mne ochen' plokho. Menya toshnit."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Не волнуйся. Ты в Москве. Здесь всё есть.",
+        "english": "Don't worry. You're in Moscow. They have everything here.",
+        "translit": "Ne volnuysya. Ty v Moskve. Zdes' vsyo yest'."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Аня! Она красивая!",
+        "english": "Anya! She's beautiful!",
+        "translit": "Anya! Ona krasivaya!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Дима, не сейчас!",
+        "english": "Dima, not now!",
+        "translit": "Dima, ne seychas!"
+      }
+    ],
+    "cliffhanger": "Anya takes one look at the petition and goes pale. She knows the Coffee-Boom lawyer. Personally."
+  },
+  {
+    "id": "ru-ep-18",
+    "n": 18,
+    "title": "Snowstorm",
+    "minLesson": "s3u4l2",
+    "panels": [
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "На улице идёт снег. Холодно и скользко!",
+        "english": "It's snowing outside. It's cold and slippery!",
+        "translit": "Na ulitse idyot sneg. Kholodno i skol'zko!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Мороз! Ветер! Я не люблю зиму.",
+        "english": "Frost! Wind! I don't like winter.",
+        "translit": "Moroz! Veter! Ya ne lyublyu zimu."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Прогноз погоды: снег, снег и ещё раз снег.",
+        "english": "The weather forecast: snow, snow and more snow.",
+        "translit": "Prognoz pogody: sneg, sneg i yeshchyo raz sneg."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Поезд опаздывает на три часа.",
+        "english": "The train is running three hours late.",
+        "translit": "Poyezd opazdyvayet na tri chasa."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Мне холодно. Где моя шапка?",
+        "english": "I'm cold. Where's my hat?",
+        "translit": "Mne kholodno. Gde moya shapka?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Моя шапка на Борисе. А где Борис?",
+        "english": "My hat's on Boris. And where's Boris?",
+        "translit": "Moya shapka na Borise. A gde Boris?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Борис в Петербурге. Это ты, Дима, в шапке!",
+        "english": "Boris is in Petersburg. It's you, Dima, wearing the hat!",
+        "translit": "Boris v Peterburge. Eto ty, Dima, v shapke!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Ясно. Я очень устал.",
+        "english": "Right. I'm very tired.",
+        "translit": "Yasno. Ya ochen' ustal."
+      }
+    ],
+    "cliffhanger": "Their phones ring at once. Baba Valya texts: \"HURRY. SOMEONE IS INSIDE OUR FLAT.\""
+  },
+  {
+    "id": "ru-ep-19",
+    "n": 19,
+    "title": "I Will Be Brave",
+    "minLesson": "s3u5l1",
+    "panels": [
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Мы будем дома завтра утром.",
+        "english": "We'll be home tomorrow morning.",
+        "translit": "My budem doma zavtra utrom."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я буду готовить ужин. Я позвоню Баба Вале.",
+        "english": "I'll cook dinner. I'll call Baba Valya.",
+        "translit": "Ya budu gotovit' uzhin. Ya pozvonyu Baba Vale."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Я буду ждать у двери с гитарой.",
+        "english": "I'll wait by the door with my guitar.",
+        "translit": "Ya budu zhdat' u dveri s gitaroy."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Нет, ты не будешь ждать с гитарой!",
+        "english": "No, you will not wait with a guitar!",
+        "translit": "Net, ty ne budesh' zhdat' s gitaroy!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Послезавтра будет вечеринка. Мы позовём всех соседей.",
+        "english": "The day after tomorrow there'll be a party. We'll invite all the neighbours.",
+        "translit": "Poslezavtra budet vecherinka. My pozovyom vsekh sosedey."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "На следующей неделе будет концерт. Он будет громкий.",
+        "english": "Next week there'll be a gig. It'll be loud.",
+        "translit": "Na sleduyushchey nedele budet kontsert. On budet gromkiy."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Через неделю мы будем знаменитыми. Или бездомными.",
+        "english": "In a week we'll be famous. Or homeless.",
+        "translit": "Cherez nedelyu my budem znamenitymi. Ili bezdomnymi."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я буду знаменитым!",
+        "english": "I'll be famous!",
+        "translit": "Ya budu znamenitym!"
+      }
+    ],
+    "cliffhanger": "At home, the \"intruder\" turns out to be Max. And he's holding a Coffee-Boom folder."
+  },
+  {
+    "id": "ru-ep-20",
+    "n": 20,
+    "title": "Big Plans",
+    "minLesson": "s3u5l5",
+    "panels": [
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Я могу всё объяснить! Я курьер, я должен доставить папку.",
+        "english": "I can explain everything! I'm a courier, I have to deliver a folder.",
+        "translit": "Ya mogu vsyo obyasnit'! Ya kur'yer, ya dolzhen dostavit' papku."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Кому? Нам? От «Кофе-Бум»?",
+        "english": "To whom? To us? From Coffee-Boom?",
+        "translit": "Komu? Nam? Ot «Kofe-Bum»?"
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Это предложение. Они хотят купить дом.",
+        "english": "It's an offer. They want to buy the building.",
+        "translit": "Eto predlozheniye. Oni khotyat kupit' dom."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Мы не продаём! У нас есть планы!",
+        "english": "We're not selling! We have plans!",
+        "translit": "My ne prodayom! U nas yest' plany!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Я собираюсь найти новую работу и накопить деньги.",
+        "english": "I'm planning to find a new job and save money.",
+        "translit": "Ya sobirayus' nayti novuyu rabotu i nakopit' den'gi."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я хочу выучить язык и остаться в России.",
+        "english": "I want to learn the language and stay in Russia.",
+        "translit": "Ya khochu vyuchit' yazyk i ostat'sya v Rossii."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Моя мечта — записать альбом.",
+        "english": "My dream is to record an album.",
+        "translit": "Moya mechta — zapisat' al'bom."
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "А моя цель — пригласить Лену в кино.",
+        "english": "And my goal is to ask Lena out to the cinema.",
+        "translit": "A moya tsel' — priglasit' Lenu v kino."
+      }
+    ],
+    "cliffhanger": "Lena smiles. Tom's smile freezes. The folder falls open, and there's a photo of Baba Valya inside."
+  },
+  {
+    "id": "ru-ep-21",
+    "n": 21,
+    "title": "The Founder's Mother",
+    "minLesson": "s4u1l4",
+    "panels": [
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Это фото основателя «Кофе-Бум». А это его мама.",
+        "english": "This is a photo of the founder of Coffee-Boom. And this is his mother.",
+        "translit": "Eto foto osnovatelya «Kofe-Bum». A eto yevo mama."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Баба Валя?! Это её сын?",
+        "english": "Baba Valya?! Is he her son?",
+        "translit": "Baba Valya?! Eto yeyo syn?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Игорь. Я не говорила с ним три года.",
+        "english": "Igor. I haven't spoken to him in three years.",
+        "translit": "Igor'. Ya ne govorila s nim tri goda."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Вам нравится его кофе?",
+        "english": "Do you like his coffee?",
+        "translit": "Vam nravitsya yevo kofe?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Мне не нравится его кофе. Мне не нравится его дом! Мне нравится только шоколад.",
+        "english": "I don't like his coffee. I don't like his house! I only like chocolate.",
+        "translit": "Mne ne nravitsya yevo kofe. Mne ne nravitsya yevo dom! Mne nravitsya tol'ko shokolad."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Мне интересно. Ему нравятся пирожки?",
+        "english": "I'm curious. Does he like pies?",
+        "translit": "Mne interesno. Yemu nravyatsya pirozhki?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Ему нравятся только деньги. Нам надо что-то делать.",
+        "english": "He only likes money. We have to do something.",
+        "translit": "Yemu nravyatsya tol'ko den'gi. Nam nado shto-to delat'."
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Мне пора. Но мне очень жаль, правда.",
+        "english": "I have to go. But I'm really sorry.",
+        "translit": "Mne pora. No mne ochen' zhal', pravda."
+      }
+    ],
+    "cliffhanger": "Baba Valya picks up the phone for the first time in three years. It rings. And rings. And then someone answers."
+  },
+  {
+    "id": "ru-ep-22",
+    "n": 22,
+    "title": "Igor Is Invited",
+    "minLesson": "s4u2l3",
+    "panels": [
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Игорь? Это мама. Не бросай трубку!",
+        "english": "Igor? It's Mum. Don't hang up!",
+        "translit": "Igor'? Eto mama. Ne brosay trubku!"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Приходи в гости в субботу. Принеси подарок. Мы будем рады.",
+        "english": "Come visit on Saturday. Bring a present. We'll be glad.",
+        "translit": "Prikhodi v gosti v subbotu. Prinesi podarok. My budem rady."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Что нужно взять? Я принесу салат.",
+        "english": "What do we need to bring? I'll bring a salad.",
+        "translit": "Shto nuzhno vzyat'? Ya prinesu salat."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я принесу пять бутылок воды и два торта.",
+        "english": "I'll bring five bottles of water and two cakes.",
+        "translit": "Ya prinesu pyat' butylok vody i dva torta."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "А я принесу много музыки. Несколько песен.",
+        "english": "And I'll bring lots of music. A few songs.",
+        "translit": "A ya prinesu mnogo muzyki. Neskol'ko pesen."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Сколько человек придёт? Двадцать? Тридцать?",
+        "english": "How many people will come? Twenty? Thirty?",
+        "translit": "Skol'ko chelovek pridyot? Dvadtsat'? Tridtsat'?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Достаточно. Много людей — мало места.",
+        "english": "Enough. Many people, little space.",
+        "translit": "Dostatochno. Mnogo lyudey — malo mesta."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Он сказал: «Хорошо, мама. Я приду».",
+        "english": "He said: \"Okay, Mum. I'll come.\"",
+        "translit": "On skazal: «Khorosho, mama. Ya pridu»."
+      }
+    ],
+    "cliffhanger": "Saturday morning. A black car stops at the door. Igor isn't alone, and his companion has a camera crew."
+  },
+  {
+    "id": "ru-ep-23",
+    "n": 23,
+    "title": "Bad Connection",
+    "minLesson": "s4u3l1",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Алло? Лена, это ты? Плохая связь!",
+        "english": "Hello? Lena, is that you? Bad connection!",
+        "translit": "Allo? Lena, eto ty? Plokhaya svyaz'!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Слушаю! Том, кто говорит? Я не слышу.",
+        "english": "Speaking! Tom, who's talking? I can't hear.",
+        "translit": "Slushayu! Tom, kto govorit? Ya ne slyshu."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Мой телефон разряжен. У кого есть зарядка?",
+        "english": "My phone is dead. Who has a charger?",
+        "translit": "Moy telefon razryazhen. U kovo yest' zaryadka?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Пароль от интернета? Сеть не работает!",
+        "english": "The wifi password? The network is down!",
+        "translit": "Parol' ot interneta? Set' ne rabotayet!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Пароль: борис123. Экран сломан, я не вижу.",
+        "english": "The password: boris123. The screen is cracked, I can't see.",
+        "translit": "Parol': boris123. Ekran sloman, ya ne vizhu."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Алло? Можно позвать Игоря? Занято...",
+        "english": "Hello? Can I speak to Igor? Busy...",
+        "translit": "Allo? Mozhno pozvat' Igorya? Zanyato..."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Игорь перезвонит. Он ошибся номером. Дважды!",
+        "english": "Igor will call back. He dialled the wrong number. Twice!",
+        "translit": "Igor' perezvonit. On oshibsya nomerom. Dvazhdy!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Ничего. У меня есть новое приложение.",
+        "english": "Never mind. I have a new app.",
+        "translit": "Nichevo. U menya yest' novoye prilozheniye."
+      }
+    ],
+    "cliffhanger": "In the group chat, someone types: \"Don't trust Max.\" Nobody admits to sending it."
+  },
+  {
+    "id": "ru-ep-24",
+    "n": 24,
+    "title": "The Group Chat",
+    "minLesson": "s4u3l5",
+    "panels": [
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Кто написал «Не верьте Максу»? Хз.",
+        "english": "Who wrote \"Don't trust Max\"? No idea.",
+        "translit": "Kto napisal «Ne ver'te Maksu»? Khz."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Не я! Мб Том. Лол.",
+        "english": "Not me! Maybe Tom. Lol.",
+        "translit": "Ne ya! Mb Tom. Lol."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я? Нет! Спс за доверие, Дима.",
+        "english": "Me? No! Thanks for the trust, Dima.",
+        "translit": "Ya? Net! Sps za doveriye, Dima."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Го в кафе? Норм идея?",
+        "english": "Let's go to the café? Good idea?",
+        "translit": "Go v kafe? Norm ideya?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Щас приду. Сорри, ща у меня звонок.",
+        "english": "Coming now. Sorry, I'm on a call right now.",
+        "translit": "Shchas pridu. Sorri, shcha u menya zvonok."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Кстати, Макс оч милый. Но чё он делает у нас?",
+        "english": "By the way, Max is very nice. But what's he doing at ours?",
+        "translit": "Kstati, Maks och milyy. No chyo on delayet u nas?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Пжлст, не ревнуй, Том. Окей?",
+        "english": "Please don't be jealous, Tom. Okay?",
+        "translit": "Pzhlst, ne revnuy, Tom. Okey?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я не ревную! Я просто спросил.",
+        "english": "I'm not jealous! I just asked.",
+        "translit": "Ya ne revnuyu! Ya prosto sprosil."
+      }
+    ],
+    "cliffhanger": "The sender turns out to be Baba Valya. She's learned to text, and now she can't stop."
+  },
+  {
+    "id": "ru-ep-25",
+    "n": 25,
+    "title": "A Date and a Dilemma",
+    "minLesson": "s4u4l4",
+    "panels": [
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Лена, я скучаю по тебе. Пойдём на свидание?",
+        "english": "Lena, I miss you. Shall we go on a date?",
+        "translit": "Lena, ya skuchayu po tebe. Poydyom na svidaniye?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Я... да. С удовольствием.",
+        "english": "I... yes. With pleasure.",
+        "translit": "Ya... da. S udovol'stviyem."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Ты красивая, Лена. То есть... ты отличный программист.",
+        "english": "You're beautiful, Lena. I mean... you're a great programmer.",
+        "translit": "Ty krasivaya, Lena. To yest'... ty otlichnyy programmist."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Спасибо большое, Том. Ты очень милый.",
+        "english": "Thank you very much, Tom. You're very sweet.",
+        "translit": "Spasibo bol'shoye, Tom. Ty ochen' milyy."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Том влюбился. Всё ясно.",
+        "english": "Tom has fallen in love. It's all clear.",
+        "translit": "Tom vlyubilsya. Vsyo yasno."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Дима, не говори! Мне приятно, что она счастлива.",
+        "english": "Dima, don't tell! I'm glad she's happy.",
+        "translit": "Dima, ne govori! Mne priyatno, shto ona schastliva."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Молодец, Том. Не расстраивайся. Не волнуйся.",
+        "english": "Well done, Tom. Don't be upset. Don't worry.",
+        "translit": "Molodets, Tom. Ne rasstraivaysya. Ne volnuysya."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Не за что. Я всё видел.",
+        "english": "You're welcome. I saw everything.",
+        "translit": "Ne za shto. Ya vsyo videl."
+      }
+    ],
+    "cliffhanger": "Lena's date is at the Coffee-Boom café. Max has a very big secret to tell her."
+  },
+  {
+    "id": "ru-ep-26",
+    "n": 26,
+    "title": "Small Talk, Big Secrets",
+    "minLesson": "s4u5l3",
+    "panels": [
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Лена, можно вопрос? Вы давно здесь живёте?",
+        "english": "Lena, may I ask something? Have you lived here long?",
+        "translit": "Lena, mozhno vopros? Vy davno zdes' zhivyote?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Три года. Расскажите мне о вашей работе.",
+        "english": "Three years. Tell me about your job.",
+        "translit": "Tri goda. Rasskazhite mne o vashey rabote."
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Если честно... Игорь — мой дядя. Это не шутка.",
+        "english": "To be honest... Igor is my uncle. No joke.",
+        "translit": "Yesli chestno... Igor' — moy dyadya. Eto ne shutka."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Серьёзно?! Не может быть! Ничего себе!",
+        "english": "Seriously?! No way! Wow!",
+        "translit": "Ser'yozno?! Ne mozhet byt'! Nichevo sebe!"
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Да. Я хочу вам помочь. Я знаю его слабое место.",
+        "english": "Yes. I want to help you. I know his weak spot.",
+        "translit": "Da. Ya khochu vam pomoch'. Ya znayu yevo slaboye mesto."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Какое?",
+        "english": "Which one?",
+        "translit": "Kakoye?"
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Он любит шоколад. И маму. Но больше шоколад.",
+        "english": "He loves chocolate. And his mum. But chocolate more.",
+        "translit": "On lyubit shokolad. I mamu. No bol'she shokolad."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Ха! Это семейное.",
+        "english": "Ha! It runs in the family.",
+        "translit": "Kha! Eto semeynoye."
+      }
+    ],
+    "cliffhanger": "Lena goes home and finds Tom packing his suitcase. He says his visa is about to expire."
+  },
+  {
+    "id": "ru-ep-27",
+    "n": 27,
+    "title": "The Long Way Home",
+    "minLesson": "s5u1l2",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я уезжаю. Виза кончается в пятницу.",
+        "english": "I'm leaving. My visa runs out on Friday.",
+        "translit": "Ya uyezzhayu. Viza konchayetsya v pyatnitsu."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Ты уедешь? А как же мы? Как же дом?",
+        "english": "You'll leave? And what about us? What about the building?",
+        "translit": "Ty uyedesh'? A kak zhe my? Kak zhe dom?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Том, ты выйдешь из дома — и всё? Зайди ко мне!",
+        "english": "Tom, you'll walk out of the door and that's it? Come to my room!",
+        "translit": "Tom, ty vyydesh' iz doma — i vsyo? Zaydi ko mne!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я дойду до вокзала пешком. Мне надо подумать.",
+        "english": "I'll walk to the station. I need to think.",
+        "translit": "Ya doydu do vokzala peshkom. Mne nado podumat'."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Подождите! Вы не уедете! Я приготовила пирожки!",
+        "english": "Wait! You're not leaving! I baked pies!",
+        "translit": "Podozhdite! Vy ne uyedete! Ya prigotovila pirozhki!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Баба Валя, я вернусь. Я приеду весной.",
+        "english": "Baba Valya, I'll be back. I'll come back in spring.",
+        "translit": "Baba Valya, ya vernus'. Ya priyedu vesnoy."
+      },
+      {
+        "speaker": "Борис",
+        "emoji": "🐈",
+        "target": "Мяу!",
+        "english": "Meow! (Boris is already in the suitcase)",
+        "translit": "Myau!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Борис не отпускает. Хорошо, поедем вместе в визовый центр.",
+        "english": "Boris won't let go. Fine, we'll go to the visa centre together.",
+        "translit": "Boris ne otpuskayet. Khorosho, poyedem vmeste v vizovyy tsentr."
+      }
+    ],
+    "cliffhanger": "Visa centre, last minute. The clerk says: \"There's one way to stay. You need an invitation from a company.\""
+  },
+  {
+    "id": "ru-ep-28",
+    "n": 28,
+    "title": "Better Than Coffee",
+    "minLesson": "s5u2l1",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Мне нужно приглашение от компании.",
+        "english": "I need an invitation from a company.",
+        "translit": "Mne nuzhno priglasheniye ot kompanii."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "«Кофе-Бум» больше, чем наша фирма. Но у нас лучше идея.",
+        "english": "Coffee-Boom is bigger than our firm. But we have a better idea.",
+        "translit": "«Kofe-Bum» bol'she, chem nasha firma. No u nas luchshe ideya."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Мы дешевле. И мы быстрее. И мы ближе к людям.",
+        "english": "We're cheaper. And we're faster. And we're closer to the people.",
+        "translit": "My deshevle. I my bystreye. I my blizhe k lyudyam."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Моя виза дороже, чем билет домой.",
+        "english": "My visa is more expensive than a ticket home.",
+        "translit": "Moya viza dorozhe, chem bilet domoy."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Домашний чай лучше, чем кофе из пластика.",
+        "english": "Home-made tea is better than coffee out of plastic.",
+        "translit": "Domashniy chay luchshe, chem kofe iz plastika."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Баба Валя права. Что если мы откроем свою кофейню?",
+        "english": "Baba Valya is right. What if we open our own café?",
+        "translit": "Baba Valya prava. Shto yesli my otkroyem svoyu kofeynyu?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "В нашем доме. Ниже этажом. Наша музыка выше, чем их!",
+        "english": "In our building. A floor below. Our music is louder than theirs!",
+        "translit": "V nashem dome. Nizhe etazhom. Nasha muzyka vyshe, chem ikh!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я больше не хочу уезжать.",
+        "english": "I don't want to leave anymore.",
+        "translit": "Ya bol'she ne khochu uyezzhat'."
+      }
+    ],
+    "cliffhanger": "The empty ground-floor shop belongs to the landlord. He's coming this afternoon, and he's not alone."
+  },
+  {
+    "id": "ru-ep-29",
+    "n": 29,
+    "title": "The Samovar Test",
+    "minLesson": "s5u2l4",
+    "panels": [
+      {
+        "speaker": "Хозяин",
+        "emoji": "🕴️",
+        "target": "Это мой магазин. Здесь будет «Кофе-Бум».",
+        "english": "This is my shop. Coffee-Boom will be here.",
+        "translit": "Eto moy magazin. Zdes' budet «Kofe-Bum»."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Здесь будет наша кофейня. Вот эскиз.",
+        "english": "Our café will be here. Here's the sketch.",
+        "translit": "Zdes' budet nasha kofeynya. Vot eskiz."
+      },
+      {
+        "speaker": "Хозяин",
+        "emoji": "🕴️",
+        "target": "Какое качество! Какой стиль! Но это смешно.",
+        "english": "What quality! What style! But it's laughable.",
+        "translit": "Kakoye kachestvo! Kakoy stil'! No eto smeshno."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Это мой самовар. Он тяжёлый, прочный и очень красивый.",
+        "english": "This is my samovar. It's heavy, sturdy and very beautiful.",
+        "translit": "Eto moy samovar. On tyazhyolyy, prochnyy i ochen' krasivyy."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Мягкий диван, чистые окна, тёплая музыка.",
+        "english": "A soft sofa, clean windows, warm music.",
+        "translit": "Myagkiy divan, chistyye okna, tyoplaya muzyka."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Гладкий пол, удобные кресла, хорошая марка кофе.",
+        "english": "Smooth floor, comfortable chairs, a good coffee brand.",
+        "translit": "Gladkiy pol, udobnyye kresla, khoroshaya marka kofe."
+      },
+      {
+        "speaker": "Хозяин",
+        "emoji": "🕴️",
+        "target": "Мне нужны деньги, а не мебель.",
+        "english": "I need money, not furniture.",
+        "translit": "Mne nuzhny den'gi, a ne mebel'."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Тогда давайте поговорим о цене.",
+        "english": "Then let's talk about the price.",
+        "translit": "Togda davayte pogovorim o tsene."
+      }
+    ],
+    "cliffhanger": "The landlord agrees to a test: one week to prove that the café can make money. Then the boiler explodes."
+  },
+  {
+    "id": "ru-ep-30",
+    "n": 30,
+    "title": "The Boiler Complaint",
+    "minLesson": "s5u3l3",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "У нас проблема. Бойлер сломался и течёт!",
+        "english": "We have a problem. The boiler is broken and leaking!",
+        "translit": "U nas problema. Boyler slomalsya i techyot!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Я хочу пожаловаться. Где администратор?",
+        "english": "I want to complain. Where's the manager?",
+        "translit": "Ya khochu pozhalovat'sya. Gde administrator?"
+      },
+      {
+        "speaker": "Хозяин",
+        "emoji": "🕴️",
+        "target": "Это не моя вина. Это недоразумение.",
+        "english": "It's not my fault. It's a misunderstanding.",
+        "translit": "Eto ne moya vina. Eto nedorazumeniye."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Послушайте, давайте спокойно. Нужен ремонт, нужен мастер.",
+        "english": "Listen, let's stay calm. We need a repair, we need a technician.",
+        "translit": "Poslushayte, davayte spokoyno. Nuzhen remont, nuzhen master."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "У нас есть гарантия? Квитанция?",
+        "english": "Do we have a guarantee? A receipt?",
+        "translit": "U nas yest' garantiya? Kvitantsiya?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Вот квитанция. Бойлер был новый в тысяча девятьсот девяносто пятом.",
+        "english": "Here's the receipt. The boiler was new in 1995.",
+        "translit": "Vot kvitantsiya. Boyler byl novyy v tysyacha devyat'sot devyanosto pyatom."
+      },
+      {
+        "speaker": "Хозяин",
+        "emoji": "🕴️",
+        "target": "Хорошо. Мастер придёт завтра. Не нарочно!",
+        "english": "Fine. A technician will come tomorrow. Not on purpose!",
+        "translit": "Khorosho. Master pridyot zavtra. Ne narochno!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Мы хотим возврат денег за январь.",
+        "english": "We want a refund for January.",
+        "translit": "My khotim vozvrat deneg za yanvar'."
+      }
+    ],
+    "cliffhanger": "The technician arrives. It is Igor, Baba Valya's son, in overalls, with a wrench."
+  },
+  {
+    "id": "ru-ep-31",
+    "n": 31,
+    "title": "Prefer Tea",
+    "minLesson": "s5u4l2",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Игорь? Вы мастер?",
+        "english": "Igor? You're a technician?",
+        "translit": "Igor'? Vy master?"
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Игорь! Мой мальчик! Я предпочитаю, когда ты дома.",
+        "english": "Igor! My boy! I prefer it when you're home.",
+        "translit": "Igor'! Moy mal'chik! Ya predpochitayu, kogda ty doma."
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Это человек, который купил мой дом.",
+        "english": "This is the man who bought my building.",
+        "translit": "Eto chelovek, kotoryy kupil moy dom."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Вы предпочитаете чай или кофе?",
+        "english": "Do you prefer tea or coffee?",
+        "translit": "Vy predpochitayete chay ili kofe?"
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Скорее чай. Мне больше нравится мамин чай.",
+        "english": "Tea, rather. I like Mum's tea more.",
+        "translit": "Skoreye chay. Mne bol'she nravitsya mamin chay."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Что вы посоветуете? Стоит ли открывать кофейню здесь?",
+        "english": "What do you advise? Is it worth opening a café here?",
+        "translit": "Shto vy posovetuyete? Stoit li otkryvat' kofeynyu zdes'?"
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Всё, что я хочу — это шоколад. И мама.",
+        "english": "All I want is chocolate. And Mum.",
+        "translit": "Vsyo, shto ya khochu — eto shokolad. I mama."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Пусть сначала скажет, кто он: директор или мастер.",
+        "english": "Let him first say which he is: director or technician.",
+        "translit": "Pust' snachala skazhet, kto on: direktor ili master."
+      }
+    ],
+    "cliffhanger": "Igor says, \"I'm both.\" Then he adds, \"And one of you is going to ruin my life.\""
+  },
+  {
+    "id": "ru-ep-32",
+    "n": 32,
+    "title": "I Would Like",
+    "minLesson": "s5u5l1",
+    "panels": [
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Я бы хотел жить, как раньше. С мамой.",
+        "english": "I'd like to live like before. With Mum.",
+        "translit": "Ya by khotel zhit', kak ran'she. S mamoy."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Я бы не отказалась от твоих сказок. Ты бы остался?",
+        "english": "I wouldn't say no to your stories. Would you stay?",
+        "translit": "Ya by ne otkazalas' ot tvoikh skazok. Ty by ostalsya?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я бы выпил чаю и съел пирожок.",
+        "english": "I'd drink some tea and eat a pie.",
+        "translit": "Ya by vypil chayu i syel pirozhok."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Мне бы хотелось, чтобы все остались.",
+        "english": "I'd like everyone to stay.",
+        "translit": "Mne by khotelos', shtoby vse ostalis'."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Если бы у меня были деньги, я бы купил дом.",
+        "english": "If I had money, I'd buy the building.",
+        "translit": "Yesli by u menya byli den'gi, ya by kupil dom."
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Если бы я знал, я бы не купил его.",
+        "english": "If I had known, I wouldn't have bought it.",
+        "translit": "Yesli by ya znal, ya by ne kupil yevo."
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Было бы здорово открыть тут кофейню с чаем и пирожками.",
+        "english": "It would be great to open a café here with tea and pies.",
+        "translit": "Bylo by zdorovo otkryt' tut kofeynyu s chayem i pirozhkami."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Игорёк, а вдруг получится?",
+        "english": "Little Igor, what if it works?",
+        "translit": "Igoryok, a vdrug poluchitsya?"
+      }
+    ],
+    "cliffhanger": "Before anyone says yes, the lights go out. Someone has cut the power to the whole building."
+  },
+  {
+    "id": "ru-ep-33",
+    "n": 33,
+    "title": "Pray It Works",
+    "minLesson": "s5u5l5",
+    "panels": [
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Пусть это будет просто авария.",
+        "english": "Let it be just an accident.",
+        "translit": "Pust' eto budet prosto avariya."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Дай бог! Хотелось бы, чтобы это был Борис.",
+        "english": "God willing! I'd like it to be Boris.",
+        "translit": "Day bog! Khotelos' by, shtoby eto byl Boris."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Желаю тебе, Игорёк: пусть всё получится.",
+        "english": "I wish you, Igor, that everything works out.",
+        "translit": "Zhelayu tebe, Igoryok: pust' vsyo poluchitsya."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я надеюсь, что это не «Кофе-Бум».",
+        "english": "I hope it isn't Coffee-Boom.",
+        "translit": "Ya nadeyus', shto eto ne «Kofe-Bum»."
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Я хочу, чтобы это был не мой дядя. Лишь бы не он.",
+        "english": "I want it not to be my uncle. Just not him.",
+        "translit": "Ya khochu, shtoby eto byl ne moy dyadya. Lish' by ne on."
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Я пришёл один. Это не я! Только бы они не знали.",
+        "english": "I came alone. It wasn't me! If only they didn't know.",
+        "translit": "Ya prishyol odin. Eto ne ya! Tol'ko by oni ne znali."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Кто «они»?",
+        "english": "Who is \"they\"?",
+        "translit": "Kto «oni»?"
+      },
+      {
+        "speaker": "Борис",
+        "emoji": "🐈",
+        "target": "Мяу.",
+        "english": "Meow.",
+        "translit": "Myau."
+      }
+    ],
+    "cliffhanger": "A flashlight beam sweeps the basement. Someone is down there, and he's carrying a briefcase."
+  },
+  {
+    "id": "ru-ep-34",
+    "n": 34,
+    "title": "The Big Presentation",
+    "minLesson": "s6u1l4",
+    "panels": [
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Я готовлю презентацию. Дедлайн — завтра.",
+        "english": "I'm preparing a presentation. The deadline is tomorrow.",
+        "translit": "Ya gotovlyu prezentatsiyu. Dedlayn — zavtra."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Совещание в десять. Созвон в двенадцать. Перерыв.",
+        "english": "A meeting at ten. A call at twelve. A break.",
+        "translit": "Soveshchaniye v desyat'. Sozvon v dvenadtsat'. Pereryv."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я пишу отчёт. Я отправил вам договор во вложении.",
+        "english": "I'm writing the report. I sent you the contract as an attachment.",
+        "translit": "Ya pishu otchyot. Ya otpravil vam dogovor vo vlozhenii."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Уважаемый господин директор, прошу вас рассмотреть наше предложение.",
+        "english": "Dear Mr Director, I ask you to consider our proposal.",
+        "translit": "Uvazhayemyy gospodin direktor, proshu vas rassmotret' nashe predlozheniye."
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "С уважением... Лена, это красиво. Согласуйте и отправьте.",
+        "english": "Kind regards... Lena, that's beautiful. Agree it and send.",
+        "translit": "S uvazheniyem... Lena, eto krasivo. Soglasuyte i otprav'te."
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Я получил ваше письмо. Я уточню сроки.",
+        "english": "I received your email. I'll clarify the timing.",
+        "translit": "Ya poluchil vashe pis'mo. Ya utochnyu sroki."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Скоро Новый год. Они должны подписать до праздников.",
+        "english": "It's almost New Year. They must sign before the holidays.",
+        "translit": "Skoro Novyy god. Oni dolzhny podpisat' do prazdnikov."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Вы дадите ответ в ближайшее время?",
+        "english": "Will you give us an answer soon?",
+        "translit": "Vy dadite otvet v blizhaysheye vremya?"
+      }
+    ],
+    "cliffhanger": "Igor reads the letter and says: \"Come to dinner on New Year's Eve. I'll announce my decision there.\""
+  },
+  {
+    "id": "ru-ep-35",
+    "n": 35,
+    "title": "New Year's Eve",
+    "minLesson": "s6u2l2",
+    "panels": [
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "С Новым годом! Ёлка стоит, шампанское готово!",
+        "english": "Happy New Year! The tree's up, the champagne is ready!",
+        "translit": "S Novym godom! Yolka stoit, shampanskoye gotovo!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Дед Мороз пришёл! Это Дима в костюме.",
+        "english": "Father Frost has arrived! It's Dima in a costume.",
+        "translit": "Ded Moroz prishyol! Eto Dima v kostyume."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Ну что, тост? За здоровье! За дружбу!",
+        "english": "So, a toast? To health! To friendship!",
+        "translit": "Nu shto, tost? Za zdorov'ye! Za druzhbu!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "За Баба Валю, которая любит шоколад!",
+        "english": "To Baba Valya, who loves chocolate!",
+        "translit": "Za Baba Valyu, kotoraya lyubit shokolad!"
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Тихо. Салют скоро. Я принял решение.",
+        "english": "Quiet. Fireworks soon. I've made my decision.",
+        "translit": "Tikho. Salyut skoro. Ya prinyal resheniye."
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "«Кофе-Бум» не будет здесь. Мы откроем чайную. Совместно.",
+        "english": "Coffee-Boom won't be here. We'll open a tea room. Together.",
+        "translit": "«Kofe-Bum» ne budet zdes'. My otkroyem chaynuyu. Sovmestno."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Игорёк! Мой мальчик!",
+        "english": "Little Igor! My boy!",
+        "translit": "Igoryok! Moy mal'chik!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Только где-то нужно подписать бумаги. Вы согласны?",
+        "english": "We just need to sign the papers somewhere. Do you agree?",
+        "translit": "Tol'ko gde-to nuzhno podpisat' bumagi. Vy soglasny?"
+      }
+    ],
+    "cliffhanger": "Fireworks. Cheers. And then a man in a grey coat knocks: the previous owner has a legal claim on the building."
+  },
+  {
+    "id": "ru-ep-36",
+    "n": 36,
+    "title": "A Hearing About Pies",
+    "minLesson": "s6u3l1",
+    "panels": [
+      {
+        "speaker": "Прежний владелец",
+        "emoji": "👴",
+        "target": "Во-первых, я прежний владелец. Во-вторых, у меня есть договор.",
+        "english": "First, I'm the previous owner. Second, I have a contract.",
+        "translit": "Vo-pervykh, ya prezhniy vladelets. Vo-vtorykh, u menya yest' dogovor."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "С одной стороны, вы правы. С другой стороны, подписи соседей у нас.",
+        "english": "On one hand, you're right. On the other, we have the neighbours' signatures.",
+        "translit": "S odnoy storony, vy pravy. S drugoy storony, podpisi sosedey u nas."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Кроме того, дом старый, и нужен ремонт. Например, бойлер.",
+        "english": "Besides, the building is old and needs repairs. For example, the boiler.",
+        "translit": "Krome tovo, dom staryy, i nuzhen remont. Naprimer, boyler."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "То есть вы не платили за ремонт десять лет?",
+        "english": "So you haven't paid for repairs in ten years?",
+        "translit": "To yest' vy ne platili za remont desyat' let?"
+      },
+      {
+        "speaker": "Прежний владелец",
+        "emoji": "👴",
+        "target": "Мы можем спорить, но закон на моей стороне.",
+        "english": "We can argue, but the law is on my side.",
+        "translit": "My mozhem sporit', no zakon na moyey storone."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Закон — законом, а пирожки — пирожками. Попробуйте.",
+        "english": "The law is the law, and pies are pies. Try one.",
+        "translit": "Zakon — zakonom, a pirozhki — pirozhkami. Poprobuyte."
+      },
+      {
+        "speaker": "Прежний владелец",
+        "emoji": "👴",
+        "target": "Хм... Вкусно. Это аргумент.",
+        "english": "Hm... Delicious. That's an argument.",
+        "translit": "Khm... Vkusno. Eto argument."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Тем не менее, вы должны подписать до утра.",
+        "english": "Nevertheless, you must sign by morning.",
+        "translit": "Tem ne meneye, vy dolzhny podpisat' do utra."
+      }
+    ],
+    "cliffhanger": "The old owner takes one bite, then another, then stands up. \"I'll sign. But only if she gives me the recipe.\""
+  },
+  {
+    "id": "ru-ep-37",
+    "n": 37,
+    "title": "The Recipe Game",
+    "minLesson": "s6u3l5",
+    "panels": [
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Рецепт? Нет! Это секрет. Держу язык за зубами.",
+        "english": "The recipe? No! It's a secret. I'm keeping my mouth shut.",
+        "translit": "Retsept? Net! Eto sekret. Derzhu yazyk za zubami."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Баба Валя, не повесь нос! У нас золотые руки.",
+        "english": "Baba Valya, don't hang your head! We have golden hands.",
+        "translit": "Baba Valya, ne poves' nos! U nas zolotyye ruki."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Не волнуйтесь. Дело в шляпе. Ни пуха ни пера!",
+        "english": "Don't worry. It's in the bag. Good luck!",
+        "translit": "Ne volnuytes'. Delo v shlyape. Ni pukha ni pera!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "К чёрту! Но мы будем ломать голову, как сохранить рецепт.",
+        "english": "Go to hell! (good luck reply) But we'll rack our brains over how to keep the recipe.",
+        "translit": "K chyortu! No my budem lomat' golovu, kak sokhranit' retsept."
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Я ни в зуб ногой в пирожках.",
+        "english": "I know nothing about pies.",
+        "translit": "Ya ni v zub nogoy v pirozhkakh."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Хорошо. Рецепт — в обмен на подписи. Это честно.",
+        "english": "Fine. The recipe in exchange for signatures. That's fair.",
+        "translit": "Khorosho. Retsept — v obmen na podpisi. Eto chestno."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Я как белка в колесе, но всё получается.",
+        "english": "I'm like a squirrel in a wheel, but it's all working out.",
+        "translit": "Ya kak belka v kolese, no vsyo poluchayetsya."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Подписано! Рецепт у нас. Хорошо, что у Бориса нет рук.",
+        "english": "Signed! The recipe's ours. Good thing Boris has no hands.",
+        "translit": "Podpisano! Retsept u nas. Khorosho, shto u Borisa net ruk."
+      }
+    ],
+    "cliffhanger": "The signatures are in. But the next morning the ground-floor shop is empty. Every chair and the samovar are gone."
+  },
+  {
+    "id": "ru-ep-38",
+    "n": 38,
+    "title": "Proverbs for a Thief",
+    "minLesson": "s6u4l4",
+    "panels": [
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "На воре шапка горит! Это Игорь?",
+        "english": "The thief's hat is on fire! Was it Igor?",
+        "translit": "Na vore shapka gorit! Eto Igor'?"
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Нет! Я не брал ни стула, ни самовара. Волков бояться — в лес не ходить.",
+        "english": "No! I didn't take a single chair or the samovar. If you fear wolves, don't go into the woods.",
+        "translit": "Net! Ya ne bral ni stula, ni samovara. Volkov boyat'sya — v les ne khodit'."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Семь раз отмерь, один отрежь. Давайте проверим камеры.",
+        "english": "Measure seven times, cut once. Let's check the cameras.",
+        "translit": "Sem' raz otmer', odin otrezh'. Davayte proverim kamery."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Лучше поздно, чем никогда! Камера показывает... Макса!",
+        "english": "Better late than never! The camera shows... Max!",
+        "translit": "Luchshe pozdno, chem nikogda! Kamera pokazyvayet... Maksa!"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Макс?! Время — деньги. Где он сейчас?",
+        "english": "Max?! Time is money. Where is he now?",
+        "translit": "Maks?! Vremya — den'gi. Gde on seychas?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Не торопись. Одна голова хорошо, а две лучше.",
+        "english": "Don't rush. Two heads are better than one.",
+        "translit": "Ne toropis'. Odna golova khorosho, a dve luchshe."
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Я не вор! Я взял мебель в ремонт. В один прекрасный день вы поймёте.",
+        "english": "I'm not a thief! I took the furniture for repair. One fine day you'll understand.",
+        "translit": "Ya ne vor! Ya vzyal mebel' v remont. V odin prekrasnyy den' vy poymyote."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Ни свет ни заря он приехал со стульями. Это подарок.",
+        "english": "He came at the crack of dawn with the chairs. It's a gift.",
+        "translit": "Ni svet ni zarya on priyekhal so stul'yami. Eto podarok."
+      }
+    ],
+    "cliffhanger": "Max has repaired the furniture, and he's brought a small gift for Tom: an envelope from the visa office."
+  },
+  {
+    "id": "ru-ep-39",
+    "n": 39,
+    "title": "Slang School",
+    "minLesson": "s6u5l3",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Чё в конверте? Блин, я боюсь.",
+        "english": "What's in the envelope? Damn, I'm scared.",
+        "translit": "Chyo v konverte? Blin, ya boyus'."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Чувак, открывай! Это жесть как интересно!",
+        "english": "Dude, open it! This is insanely interesting!",
+        "translit": "Chuvak, otkryvay! Eto zhest' kak interesno!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Типа, там виза? Или типа, нет?",
+        "english": "Like, is it a visa? Or, like, no?",
+        "translit": "Tipa, tam viza? Ili tipa, net?"
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "В смысле «типа»? Ага, понятно.",
+        "english": "What do you mean \"like\"? Aha, I get it.",
+        "translit": "V smysle «tipa»? Aga, ponyatno."
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "Прикольно, да? Ты залипаешь на конверт, как на мем.",
+        "english": "Fun, right? You're staring at the envelope like it's a meme.",
+        "translit": "Prikol'no, da? Ty zalipayesh' na konvert, kak na mem."
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Тусовка в честь Тома — в тему.",
+        "english": "A party for Tom, that fits.",
+        "translit": "Tusovka v chest' Toma — v temu."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Классно! Ну ладно, открываю. Угу.",
+        "english": "Great! Okay, fine, I'm opening it. Mm-hm.",
+        "translit": "Klassno! Nu ladno, otkryvayu. Ugu."
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Ну?! Не тормози!",
+        "english": "Well?! Don't dawdle!",
+        "translit": "Nu?! Ne tormozi!"
+      }
+    ],
+    "cliffhanger": "Tom opens it, reads it twice, and goes completely silent. Then he asks: \"What does 'Извините, но...' mean?\""
+  },
+  {
+    "id": "ru-ep-40",
+    "n": 40,
+    "title": "Long Time No See",
+    "minLesson": "s6u5l5",
+    "panels": [
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Виза продлена на год. Мне разрешили остаться!",
+        "english": "The visa's extended for a year. I'm allowed to stay!",
+        "translit": "Viza prodlena na god. Mne razreshili ostat'sya!"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Ура! Сколько лет, сколько зим! Как жизнь?",
+        "english": "Hooray! Long time no see! How's life?",
+        "translit": "Ura! Skol'ko let, skol'ko zim! Kak zhizn'?"
+      },
+      {
+        "speaker": "Дима",
+        "emoji": "🎸",
+        "target": "Всё по-старому. Держимся.",
+        "english": "The same as ever. Hanging in there.",
+        "translit": "Vsyo po-staromu. Derzhimsya."
+      },
+      {
+        "speaker": "Баба Валя",
+        "emoji": "👵",
+        "target": "Что нового? Не жалуйся, Игорёк!",
+        "english": "What's new? Don't complain, Igor!",
+        "translit": "Shto novovo? Ne zhaluysya, Igoryok!"
+      },
+      {
+        "speaker": "Игорь",
+        "emoji": "🧔",
+        "target": "Чайная откроется в январе. Пирожки Бабы Вали, музыка Димы.",
+        "english": "The tea room opens in January. Baba Valya's pies, Dima's music.",
+        "translit": "Chaynaya otkroyetsya v yanvare. Pirozhki Baby Vali, muzyka Dimy."
+      },
+      {
+        "speaker": "Макс",
+        "emoji": "🛵",
+        "target": "А я буду разносить заказы. Лена, пойдёшь со мной?",
+        "english": "And I'll deliver the orders. Lena, will you come with me?",
+        "translit": "A ya budu raznosit' zakazy. Lena, poydyosh' so mnoy?"
+      },
+      {
+        "speaker": "Лена",
+        "emoji": "👩‍💻",
+        "target": "Пойду. А Том будет моим партнёром по работе.",
+        "english": "I will. And Tom will be my work partner.",
+        "translit": "Poydu. A Tom budet moim partnyorom po rabote."
+      },
+      {
+        "speaker": "Том",
+        "emoji": "🧳",
+        "target": "Давно пора! Я уже почти местный.",
+        "english": "About time! I'm almost a local.",
+        "translit": "Davno pora! Ya uzhe pochti mestnyy."
+      },
+      {
+        "speaker": "Борис",
+        "emoji": "🐈",
+        "target": "Мяу.",
+        "english": "Meow. (loosely: \"finally\")",
+        "translit": "Myau."
+      }
+    ],
+    "cliffhanger": "Season finale: a new tenant knocks at flat 12 with a cage under his arm. Inside, there's a very large, very angry parrot."
+  }
+]

@@ -1,0 +1,281 @@
+[
+  {
+    "id": "ru-st-privet",
+    "target": "Привет!",
+    "english": "hi / bye (informal)",
+    "rudeness": 1,
+    "whenToUse": "The all-round friendly hello with anyone you call ты: friends, classmates, colleagues your age. With older strangers or a boss, use Здравствуйте instead.",
+    "example": "Привет! Как дела?",
+    "translit": "Privet!"
+  },
+  {
+    "id": "ru-st-zdorovo",
+    "target": "Здорово!",
+    "english": "hey! / what's up! (also: great)",
+    "rudeness": 1,
+    "whenToUse": "A warm, slightly loud greeting between guys or close friends. It also means \"great!\", so listen to the tone. Too casual for formal situations.",
+    "example": "Здорово, братан! Сто лет не виделись!",
+    "translit": "Zdorovo!"
+  },
+  {
+    "id": "ru-st-salyut",
+    "target": "Салют!",
+    "english": "hey / cheers-bye",
+    "rudeness": 1,
+    "whenToUse": "A breezy, slightly retro hello or goodbye among friends. Cheerful and safe, but you won't hear it from older people very often.",
+    "example": "Салют, ребята!",
+    "translit": "Salyut!"
+  },
+  {
+    "id": "ru-st-chyo-kak",
+    "target": "Чё как?",
+    "english": "how's it going? (lazy 'what's up')",
+    "rudeness": 1,
+    "whenToUse": "Чё is the street version of что. Great with friends, strange with your boss or a stranger. A normal answer is Норм, а у тебя?",
+    "example": "Чё как? Всё норм?",
+    "translit": "Chyo kak?"
+  },
+  {
+    "id": "ru-st-davay",
+    "target": "Давай!",
+    "english": "okay! / bye! / let's go!",
+    "rudeness": 1,
+    "whenToUse": "The Swiss army knife of Russian. It ends phone calls (Ну давай!), agrees to plans and urges people on. Safe everywhere with people you call ты.",
+    "example": "Ну давай, до завтра!",
+    "translit": "Davay!"
+  },
+  {
+    "id": "ru-st-norm",
+    "target": "Норм",
+    "english": "fine / okay (short for нормально)",
+    "rudeness": 1,
+    "whenToUse": "The standard lazy answer to how are you. Fine with friends and in chats; in a formal email write нормально instead.",
+    "example": "— Как дела? — Норм.",
+    "translit": "Norm"
+  },
+  {
+    "id": "ru-st-kruto",
+    "target": "Круто!",
+    "english": "cool! / awesome!",
+    "rudeness": 1,
+    "whenToUse": "Praise that works for almost anything: a gig, a new phone, a good story. Safe with all ages, a bit casual for a formal speech.",
+    "example": "Круто! Я тоже хочу такой телефон.",
+    "translit": "Kruto!"
+  },
+  {
+    "id": "ru-st-prikolno",
+    "target": "Прикольно",
+    "english": "cool / fun / neat",
+    "rudeness": 1,
+    "whenToUse": "Friendly and young-sounding. It can mean fun, funny or just interesting. Fine with friends and colleagues, a bit casual with a boss.",
+    "example": "Прикольно! Расскажи ещё.",
+    "translit": "Prikol'no"
+  },
+  {
+    "id": "ru-st-blin",
+    "target": "Блин!",
+    "english": "damn! / darn! (lit. 'pancake')",
+    "rudeness": 1,
+    "whenToUse": "The polite swear: it sounds like the stronger word but is totally safe. Said by kids, parents and teachers alike when something goes wrong. A good one to start with.",
+    "example": "Блин, я забыл ключи!",
+    "translit": "Blin!"
+  },
+  {
+    "id": "ru-st-chert",
+    "target": "Чёрт!",
+    "english": "damn! / hell!",
+    "rudeness": 1,
+    "whenToUse": "Mild and common, a bit old-fashioned. Fine in most casual situations, though some older or religious people may wince. Not for a job interview.",
+    "example": "Чёрт, опять опоздал!",
+    "translit": "Chyort!"
+  },
+  {
+    "id": "ru-st-kapets",
+    "target": "Капец",
+    "english": "oh no / total disaster",
+    "rudeness": 2,
+    "whenToUse": "A softened, slangy stand-in for the much ruder пиздец. Everyone uses it, but it is still crude, so keep it with friends and peers, not parents or bosses.",
+    "example": "Капец, как холодно сегодня!",
+    "translit": "Kapets"
+  },
+  {
+    "id": "ru-st-zhest",
+    "target": "Жесть",
+    "english": "wow / brutal / insane",
+    "rudeness": 1,
+    "whenToUse": "Young slang for something extreme, good or bad: a wild party, an awful exam, a crazy price. Safe among peers, odd in formal talk.",
+    "example": "Вчера была жесть, я еле дошёл домой.",
+    "translit": "Zhest'"
+  },
+  {
+    "id": "ru-st-ofiget",
+    "target": "Офигеть!",
+    "english": "wow! / no way!",
+    "rudeness": 2,
+    "whenToUse": "A mild swear (from фиг, a polite stand-in for the worse word). Common and good-humoured, but still slangy; skip it with older relatives or at work.",
+    "example": "Офигеть! Ты серьёзно?",
+    "translit": "Ofiget'!"
+  },
+  {
+    "id": "ru-st-fignya",
+    "target": "Фигня",
+    "english": "nonsense / rubbish",
+    "rudeness": 2,
+    "whenToUse": "Casual and mild: that's rubbish, no big deal. Fine among friends. A polite-ish stand-in for херня.",
+    "example": "Да ладно, это фигня, не переживай.",
+    "translit": "Fignya"
+  },
+  {
+    "id": "ru-st-chuvak",
+    "target": "Чувак",
+    "english": "dude / guy",
+    "rudeness": 1,
+    "whenToUse": "Relaxed word for a guy, like dude. Fine among peers; it can sound rude or too familiar toward older strangers.",
+    "example": "Чувак, ты видел этот мем?",
+    "translit": "Chuvak"
+  },
+  {
+    "id": "ru-st-spasibo-sps",
+    "target": "спс",
+    "english": "thx (spasibo)",
+    "rudeness": 1,
+    "whenToUse": "Texting shorthand for спасибо. Fine in chats with friends and colleagues; it can feel curt toward someone you barely know.",
+    "example": "Принёс кофе? Спс!",
+    "translit": "sps"
+  },
+  {
+    "id": "ru-st-pzh",
+    "target": "пж",
+    "english": "pls (pozhaluysta)",
+    "rudeness": 1,
+    "whenToUse": "Texting shorthand for пожалуйста. Also written пжлст. Chat-only; never in a formal message or email.",
+    "example": "Дай зарядку, пж.",
+    "translit": "pzh"
+  },
+  {
+    "id": "ru-st-och",
+    "target": "оч",
+    "english": "very (short for очень)",
+    "rudeness": 1,
+    "whenToUse": "Texting shorthand: оч круто, оч устал. Chat-only, with friends. You will not hear it spoken often.",
+    "example": "Оч рад тебя видеть!",
+    "translit": "och"
+  },
+  {
+    "id": "ru-st-shchas",
+    "target": "щас",
+    "english": "right now / in a sec (сейчас)",
+    "rudeness": 1,
+    "whenToUse": "How сейчас sounds in fast speech, also written ща in chats. Perfectly normal among friends. Beware: щас can mean \"in a bit\" too.",
+    "example": "Щас приду, подожди пять минут.",
+    "translit": "shchas"
+  },
+  {
+    "id": "ru-st-hz",
+    "target": "хз",
+    "english": "no idea (from a ruder phrase)",
+    "rudeness": 2,
+    "whenToUse": "Chat shorthand that hides a rude phrase (хрен знает). Everyone uses it with friends, but don't send it to a boss or a teacher.",
+    "example": "— Во сколько начало? — Хз, спроси Диму.",
+    "translit": "khz"
+  },
+  {
+    "id": "ru-st-mb",
+    "target": "мб",
+    "english": "maybe (может быть)",
+    "rudeness": 1,
+    "whenToUse": "Texting shorthand for может быть. Chat-only, with friends.",
+    "example": "Мб завтра встретимся?",
+    "translit": "mb"
+  },
+  {
+    "id": "ru-st-go",
+    "target": "Го!",
+    "english": "let's go! / I'm in!",
+    "rudeness": 1,
+    "whenToUse": "Gamer slang from \"go\". Used for quick plans among friends: Го в кино? Use with peers only.",
+    "example": "Го в кино сегодня вечером?",
+    "translit": "Go!"
+  },
+  {
+    "id": "ru-st-lol",
+    "target": "лол",
+    "english": "lol",
+    "rudeness": 1,
+    "whenToUse": "Used in Russian chats exactly as in English, even spoken aloud with a Russian accent. Safe among friends.",
+    "example": "Лол, я не ожидал такого!",
+    "translit": "lol"
+  },
+  {
+    "id": "ru-st-durak",
+    "target": "Дурак",
+    "english": "fool / idiot (m); дура (f)",
+    "rudeness": 2,
+    "whenToUse": "Mildly insulting. Between close friends it's playful; to a stranger, or in anger, it is a real insult. Never to your boss.",
+    "example": "Ну ты дурак! Я чуть не упал.",
+    "translit": "Durak"
+  },
+  {
+    "id": "ru-st-idiot",
+    "target": "Идиот",
+    "english": "idiot",
+    "rudeness": 2,
+    "whenToUse": "A clear insult, stronger than дурак. A joke only between very close friends; in an argument it will start a fight.",
+    "example": "Он такой идиот, сам себя запер в квартире.",
+    "translit": "Idiot"
+  },
+  {
+    "id": "ru-st-khren",
+    "target": "Хрен",
+    "english": "damn / horseradish (rude stand-in)",
+    "rudeness": 2,
+    "whenToUse": "Literally horseradish. As a stand-in for a ruder word: Какого хрена? = what the hell? Crude, but a notch below real мат; keep it with friends.",
+    "example": "Какого хрена ты мне не позвонил?",
+    "translit": "Khren"
+  },
+  {
+    "id": "ru-st-pizdets",
+    "target": "Пиздец",
+    "english": "total disaster / f*** (мат)",
+    "rudeness": 3,
+    "whenToUse": "Real мат: very strong and vulgar, though common among adults for anything extreme, good or bad. Never with parents, elders, at work or around children. Recognise it; don't use it casually.",
+    "example": "Пиздец, мы опоздали на самолёт.",
+    "translit": "Pizdets"
+  },
+  {
+    "id": "ru-st-blyad",
+    "target": "Блядь",
+    "english": "f*** / damn it (мат)",
+    "rudeness": 3,
+    "whenToUse": "The heaviest everyday swear word, the real thing behind блин. Everyone hears it, but it is highly offensive in public, at work or in front of elders and kids. Only with very close friends, if at all.",
+    "example": "Блядь, я забыл телефон в такси!",
+    "translit": "Blyad'"
+  },
+  {
+    "id": "ru-st-suka",
+    "target": "Сука",
+    "english": "bitch / damn it (мат)",
+    "rudeness": 3,
+    "whenToUse": "Very strong and aggressive. Said of a person it is a serious insult; as an exclamation (Вот сука!) it is rude venting. Avoid it in nearly every situation.",
+    "example": "Сука, опять сломался лифт!",
+    "translit": "Suka"
+  },
+  {
+    "id": "ru-st-nakhren",
+    "target": "Нахрен",
+    "english": "the hell with it / get lost",
+    "rudeness": 3,
+    "whenToUse": "Strong and rude: Иди нахрен! means go to hell. Used to dismiss someone or something; can start a fight. Friends may joke with it, nobody else should.",
+    "example": "Да ну его нахрен, этот проект!",
+    "translit": "Nakhren"
+  },
+  {
+    "id": "ru-st-poshyol-ty",
+    "target": "Пошёл ты",
+    "english": "get lost / piss off",
+    "rudeness": 3,
+    "whenToUse": "A hostile brush-off, softer than the full мат versions but still seriously rude. Never to someone you want to stay on good terms with.",
+    "example": "Пошёл ты, я не буду это делать!",
+    "translit": "Poshyol ty"
+  }
+]

@@ -1,15 +1,20 @@
 {
- "id": "de",
- "name": "German",
- "nativeName": "Deutsch",
- "flag": "🇩🇪",
- "voice": "de-DE",
- "articles": {
-  "m": "der",
-  "f": "die",
-  "n": "das"
- },
- "stages": [
-  "stage1.json"
- ]
+  "id": "de",
+  "name": "German",
+  "nativeName": "Deutsch",
+  "flag": "🇩🇪",
+  "voice": "de-DE",
+  "articles": {
+    "m": "der",
+    "f": "die",
+    "n": "das"
+  },
+  "stages": [
+    "stage1.json",
+    "stage2.json",
+    "stage3.json",
+    "stage4.json",
+    "stage5.json",
+    "stage6.json"
+  ]
 }

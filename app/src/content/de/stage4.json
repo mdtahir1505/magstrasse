@@ -1,0 +1,5062 @@
+{
+ "id": "s4",
+ "title": "Social",
+ "level": "A2",
+ "units": [
+  {
+   "id": "s4u1",
+   "title": "Opinions (weil/dass)",
+   "lessons": [
+    {
+     "id": "s4u1l1",
+     "title": "Giving an opinion",
+     "items": [
+      {
+       "id": "s4u1l1-die-meinung",
+       "target": "die Meinung",
+       "english": "opinion",
+       "gender": "f",
+       "emoji": "💭",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l1-meinen",
+       "target": "meinen",
+       "english": "to mean / to think",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l1-denken",
+       "target": "denken",
+       "english": "to think",
+       "gender": null,
+       "emoji": "🧠",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l1-glauben",
+       "target": "glauben",
+       "english": "to believe / to think",
+       "gender": null,
+       "emoji": "🤞",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l1-ich-finde-dass-es-gut-ist",
+       "target": "Ich finde, dass es gut ist",
+       "english": "I think it's good",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l1-ich-glaube-dass-du-recht-hast",
+       "target": "Ich glaube, dass du recht hast",
+       "english": "I think you're right",
+       "gender": null,
+       "emoji": "✅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l1-meiner-meinung-nach",
+       "target": "Meiner Meinung nach",
+       "english": "in my opinion",
+       "gender": null,
+       "emoji": "💬",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l1-das-stimmt-nicht",
+       "target": "Das stimmt nicht",
+       "english": "That's not true",
+       "gender": null,
+       "emoji": "❌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l1-da-hast-du-recht",
+       "target": "Da hast du recht",
+       "english": "You're right about that",
+       "gender": null,
+       "emoji": "👌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l1-ich-bin-dafuer",
+       "target": "Ich bin dafür",
+       "english": "I'm for it",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l1-ich-bin-dagegen",
+       "target": "Ich bin dagegen",
+       "english": "I'm against it",
+       "gender": null,
+       "emoji": "👎",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l1-ich-denke-schon",
+       "target": "Ich denke schon",
+       "english": "I think so",
+       "gender": null,
+       "emoji": "🙂",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich finde, dass der Film gut ist.",
+       "english": "I think the film is good."
+      },
+      {
+       "target": "Was denkst du?",
+       "english": "What do you think?"
+      },
+      {
+       "target": "Meiner Meinung nach ist das Bier zu teuer.",
+       "english": "In my opinion the beer is too expensive."
+      },
+      {
+       "target": "Ich glaube, dass er recht hat.",
+       "english": "I believe he's right."
+      },
+      {
+       "target": "Ist das Essen lecker? Ich denke schon.",
+       "english": "Is the food tasty? I think so."
+      },
+      {
+       "target": "Ich bin dagegen. Das ist zu teuer.",
+       "english": "I'm against it. That's too expensive."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich finde, ",
+       "after": " es gut ist.",
+       "options": [
+        "dass",
+        "das",
+        "was"
+       ],
+       "answer": 0,
+       "english": "I think it's good."
+      },
+      {
+       "before": "Ich glaube, dass du ",
+       "after": " hast.",
+       "options": [
+        "recht",
+        "gern",
+        "mehr"
+       ],
+       "answer": 0,
+       "english": "I believe you're right."
+      },
+      {
+       "before": "Meiner ",
+       "after": " nach ist das gut.",
+       "options": [
+        "Meinung",
+        "Idee",
+        "Frage"
+       ],
+       "answer": 0,
+       "english": "In my opinion that's good."
+      },
+      {
+       "before": "Ich bin ",
+       "after": ". Das ist zu teuer.",
+       "options": [
+        "dagegen",
+        "dafür",
+        "dort"
+       ],
+       "answer": 0,
+       "english": "I'm against it. That's too expensive."
+      }
+     ],
+     "dialogue": {
+      "scene": "Talking about a film",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo! Wir waren gestern im Kino.",
+        "english": "Hi! We were at the cinema yesterday."
+       },
+       {
+        "who": "me",
+        "target": "Wirklich? Wie war der Film?",
+        "english": "Really? How was the film?"
+       },
+       {
+        "who": "them",
+        "target": "Ich finde, dass er super ist. Was denkst du?",
+        "english": "I think it's great. What do you think?"
+       }
+      ],
+      "replyOptions": [
+       "Ich denke schon. Er ist toll!",
+       "Heute habe ich keine Zeit.",
+       "Der Film ist um acht Uhr."
+      ],
+      "answer": 0
+     },
+     "tip": "dass sends the verb to the end: Ich finde, dass es gut ist. Always a comma before dass."
+    },
+    {
+     "id": "s4u1l2",
+     "title": "Agreeing & disagreeing",
+     "items": [
+      {
+       "id": "s4u1l2-einverstanden",
+       "target": "einverstanden",
+       "english": "agreed / okay with it",
+       "gender": null,
+       "emoji": "✅",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l2-genau",
+       "target": "Genau!",
+       "english": "Exactly!",
+       "gender": null,
+       "emoji": "🎯",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l2-auf-jeden-fall",
+       "target": "Auf jeden Fall",
+       "english": "definitely",
+       "gender": null,
+       "emoji": "💯",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l2-absolut",
+       "target": "Absolut",
+       "english": "absolutely",
+       "gender": null,
+       "emoji": "🙌",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l2-das-sehe-ich-anders",
+       "target": "Das sehe ich anders",
+       "english": "I see that differently",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l2-da-bin-ich-nicht-sicher",
+       "target": "Da bin ich nicht sicher",
+       "english": "I'm not sure about that",
+       "gender": null,
+       "emoji": "😕",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l2-im-gegenteil",
+       "target": "Im Gegenteil",
+       "english": "on the contrary",
+       "gender": null,
+       "emoji": "↔️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l2-ich-weiss-nicht",
+       "target": "Ich weiß nicht",
+       "english": "I don't know",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l2-das-glaube-ich-nicht",
+       "target": "Das glaube ich nicht",
+       "english": "I don't believe that",
+       "gender": null,
+       "emoji": "🙅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l2-das-ist-wahr",
+       "target": "Das ist wahr",
+       "english": "That's true",
+       "gender": null,
+       "emoji": "✔️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l2-gar-nicht",
+       "target": "Gar nicht",
+       "english": "not at all",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l2-ich-sehe-das-auch-so",
+       "target": "Ich sehe das auch so",
+       "english": "I see it that way too",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Genau! Das finde ich auch.",
+       "english": "Exactly! I think so too."
+      },
+      {
+       "target": "Kommst du mit? Auf jeden Fall!",
+       "english": "Are you coming along? Definitely!"
+      },
+      {
+       "target": "Das sehe ich anders. Ich finde es zu teuer.",
+       "english": "I see that differently. I think it's too expensive."
+      },
+      {
+       "target": "Ist das Essen gut? Gar nicht!",
+       "english": "Is the food good? Not at all!"
+      },
+      {
+       "target": "Ich bin einverstanden. Wir treffen uns um acht.",
+       "english": "I agree. We'll meet at eight."
+      },
+      {
+       "target": "Das glaube ich nicht. Er ist nicht krank.",
+       "english": "I don't believe that. He isn't sick."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich sehe das auch ",
+       "after": ".",
+       "options": [
+        "so",
+        "ja",
+        "gut"
+       ],
+       "answer": 0,
+       "english": "I see it that way too."
+      },
+      {
+       "before": "Das sehe ich ",
+       "after": ".",
+       "options": [
+        "anders",
+        "genau",
+        "gleich"
+       ],
+       "answer": 0,
+       "english": "I see that differently."
+      },
+      {
+       "before": "Das ist doch nicht schlecht! Im ",
+       "after": "!",
+       "options": [
+        "Gegenteil",
+        "Moment",
+        "Grund"
+       ],
+       "answer": 0,
+       "english": "But that's not bad! On the contrary!"
+      },
+      {
+       "before": "Auf jeden ",
+       "after": "!",
+       "options": [
+        "Fall",
+        "Tag",
+        "Grund"
+       ],
+       "answer": 0,
+       "english": "Definitely!"
+      }
+     ],
+     "dialogue": {
+      "scene": "Pizza night",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Wollen wir heute Pizza essen?",
+        "english": "Shall we eat pizza today?"
+       },
+       {
+        "who": "me",
+        "target": "Gute Idee! Ich habe Hunger.",
+        "english": "Good idea! I'm hungry."
+       },
+       {
+        "who": "them",
+        "target": "Ich finde, dass Pizza heute super ist. Und du?",
+        "english": "I think pizza is great today. And you?"
+       }
+      ],
+      "replyOptions": [
+       "Ich sehe das auch so!",
+       "Die Pizza kostet zehn Euro.",
+       "Gar nicht, ich esse Pizza gern."
+      ],
+      "answer": 0
+     },
+     "tip": "Short reactions are free points: Genau! Auf jeden Fall! Gar nicht! Learn them as blocks, no grammar needed."
+    },
+    {
+     "id": "s4u1l3",
+     "title": "Giving reasons",
+     "items": [
+      {
+       "id": "s4u1l3-der-grund",
+       "target": "der Grund",
+       "english": "reason",
+       "gender": "m",
+       "emoji": "🔍",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l3-deshalb",
+       "target": "deshalb",
+       "english": "therefore / that's why",
+       "gender": null,
+       "emoji": "➡️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l3-denn",
+       "target": "denn",
+       "english": "because (main clause)",
+       "gender": null,
+       "emoji": "🔗",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l3-darum",
+       "target": "darum",
+       "english": "that's why",
+       "gender": null,
+       "emoji": "➡️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l3-naemlich",
+       "target": "nämlich",
+       "english": "you see / namely",
+       "gender": null,
+       "emoji": "💡",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l3-ich-bin-muede-weil-ich-wenig-geschlafen-habe",
+       "target": "Ich bin müde, weil ich wenig geschlafen habe",
+       "english": "I'm tired because I slept little",
+       "gender": null,
+       "emoji": "😴",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l3-ich-lerne-deutsch-weil-ich-in-berlin-wohne",
+       "target": "Ich lerne Deutsch, weil ich in Berlin wohne",
+       "english": "I learn German because I live in Berlin",
+       "gender": null,
+       "emoji": "🇩🇪",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l3-das-ist-der-grund",
+       "target": "Das ist der Grund",
+       "english": "That's the reason",
+       "gender": null,
+       "emoji": "🔍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l3-deshalb-bin-ich-hier",
+       "target": "Deshalb bin ich hier",
+       "english": "That's why I'm here",
+       "gender": null,
+       "emoji": "📍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l3-aus-welchem-grund",
+       "target": "Aus welchem Grund?",
+       "english": "For what reason?",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l3-es-liegt-daran-dass",
+       "target": "Es liegt daran, dass…",
+       "english": "It's because…",
+       "gender": null,
+       "emoji": "🧩",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l3-weil-ich-lust-habe",
+       "target": "Weil ich Lust habe",
+       "english": "Because I feel like it",
+       "gender": null,
+       "emoji": "😎",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich bin müde, weil ich spät nach Hause gekommen bin.",
+       "english": "I'm tired because I came home late."
+      },
+      {
+       "target": "Ich esse viel Käse, denn ich habe Hunger.",
+       "english": "I eat a lot of cheese because I'm hungry."
+      },
+      {
+       "target": "Es regnet. Deshalb bleibe ich zu Hause.",
+       "english": "It's raining. That's why I'm staying home."
+      },
+      {
+       "target": "Warum lernst du Deutsch? Weil ich in Berlin wohne.",
+       "english": "Why are you learning German? Because I live in Berlin."
+      },
+      {
+       "target": "Aus welchem Grund bist du hier?",
+       "english": "For what reason are you here?"
+      },
+      {
+       "target": "Ich bin müde. Darum schlafe ich heute früh.",
+       "english": "I'm tired. That's why I'm sleeping early today."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich bin müde, ",
+       "after": " ich wenig geschlafen habe.",
+       "options": [
+        "weil",
+        "denn",
+        "deshalb"
+       ],
+       "answer": 0,
+       "english": "I'm tired because I slept little."
+      },
+      {
+       "before": "Es regnet. ",
+       "after": " bleibe ich zu Hause.",
+       "options": [
+        "Deshalb",
+        "Weil",
+        "Denn"
+       ],
+       "answer": 0,
+       "english": "It's raining. That's why I'm staying home."
+      },
+      {
+       "before": "Aus welchem ",
+       "after": " bist du hier?",
+       "options": [
+        "Grund",
+        "Meinung",
+        "Frage"
+       ],
+       "answer": 0,
+       "english": "For what reason are you here?"
+      },
+      {
+       "before": "Ich lerne Deutsch, weil ich in Berlin ",
+       "after": ".",
+       "options": [
+        "wohne",
+        "wohnst",
+        "wohnt"
+       ],
+       "answer": 0,
+       "english": "I learn German because I live in Berlin."
+      }
+     ],
+     "dialogue": {
+      "scene": "At a party",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo! Ich bin Lukas.",
+        "english": "Hi! I'm Lukas."
+       },
+       {
+        "who": "me",
+        "target": "Hi, ich bin Tom. Freut mich!",
+        "english": "Hi, I'm Tom. Nice to meet you!"
+       },
+       {
+        "who": "them",
+        "target": "Freut mich auch! Warum lernst du Deutsch?",
+        "english": "Nice to meet you too! Why are you learning German?"
+       }
+      ],
+      "replyOptions": [
+       "Weil ich in Berlin wohne.",
+       "Mit Milch, bitte.",
+       "Es regnet heute."
+      ],
+      "answer": 0
+     },
+     "tip": "weil kicks the verb to the end: ..., weil ich müde bin. denn does not: ..., denn ich bin müde."
+    },
+    {
+     "id": "s4u1l4",
+     "title": "What matters",
+     "items": [
+      {
+       "id": "s4u1l4-wichtig",
+       "target": "wichtig",
+       "english": "important",
+       "gender": null,
+       "emoji": "❗",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l4-richtig",
+       "target": "richtig",
+       "english": "right / correct",
+       "gender": null,
+       "emoji": "✅",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l4-falsch",
+       "target": "falsch",
+       "english": "wrong",
+       "gender": null,
+       "emoji": "❌",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l4-moeglich",
+       "target": "möglich",
+       "english": "possible",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l4-unmoeglich",
+       "target": "unmöglich",
+       "english": "impossible",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l4-sicher",
+       "target": "sicher",
+       "english": "sure / certain",
+       "gender": null,
+       "emoji": "💯",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l4-einfach",
+       "target": "einfach",
+       "english": "simple / easy",
+       "gender": null,
+       "emoji": "🪶",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l4-schwer",
+       "target": "schwer",
+       "english": "hard / difficult",
+       "gender": null,
+       "emoji": "🪨",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l4-noetig",
+       "target": "nötig",
+       "english": "necessary",
+       "gender": null,
+       "emoji": "📌",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l4-es-ist-wichtig-dass-du-kommst",
+       "target": "Es ist wichtig, dass du kommst",
+       "english": "It's important that you come",
+       "gender": null,
+       "emoji": "❗",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l4-ich-bin-sicher-dass-es-klappt",
+       "target": "Ich bin sicher, dass es klappt",
+       "english": "I'm sure it'll work out",
+       "gender": null,
+       "emoji": "🤞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l4-es-ist-schade-dass-du-gehst",
+       "target": "Es ist schade, dass du gehst",
+       "english": "It's a shame that you're leaving",
+       "gender": null,
+       "emoji": "😔",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Es ist wichtig, dass du kommst.",
+       "english": "It's important that you come."
+      },
+      {
+       "target": "Ist das richtig oder falsch?",
+       "english": "Is that right or wrong?"
+      },
+      {
+       "target": "Deutsch ist nicht einfach, aber es ist möglich.",
+       "english": "German isn't easy, but it's possible."
+      },
+      {
+       "target": "Ich bin sicher, dass es klappt.",
+       "english": "I'm sure it'll work out."
+      },
+      {
+       "target": "Es ist schade, dass du gehst.",
+       "english": "It's a shame that you're leaving."
+      },
+      {
+       "target": "Das ist zu schwer. Es ist unmöglich!",
+       "english": "That's too hard. It's impossible!"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Es ist ",
+       "after": ", dass du kommst.",
+       "options": [
+        "wichtig",
+        "wichtige",
+        "wichtigen"
+       ],
+       "answer": 0,
+       "english": "It's important that you come."
+      },
+      {
+       "before": "Ich bin sicher, dass es ",
+       "after": ".",
+       "options": [
+        "klappt",
+        "klappe",
+        "klappst"
+       ],
+       "answer": 0,
+       "english": "I'm sure it'll work out."
+      },
+      {
+       "before": "Das ist nicht richtig, das ist ",
+       "after": ".",
+       "options": [
+        "falsch",
+        "einfach",
+        "nötig"
+       ],
+       "answer": 0,
+       "english": "That's not right, it's wrong."
+      },
+      {
+       "before": "Es ist schade, ",
+       "after": " du gehst.",
+       "options": [
+        "dass",
+        "das",
+        "was"
+       ],
+       "answer": 0,
+       "english": "It's a shame that you're leaving."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend has to leave",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Ich muss jetzt gehen. Ich habe morgen Arbeit.",
+        "english": "I have to go now. I have work tomorrow."
+       },
+       {
+        "who": "me",
+        "target": "Wirklich? Es ist schade, dass du gehst!",
+        "english": "Really? It's a shame that you're leaving!"
+       },
+       {
+        "who": "them",
+        "target": "Danke! Es ist wichtig, dass ich früh schlafe.",
+        "english": "Thanks! It's important that I sleep early."
+       }
+      ],
+      "replyOptions": [
+       "Ja, ich verstehe. Gute Nacht!",
+       "Das Wetter ist schön.",
+       "Ich nehme ein Bier, bitte."
+      ],
+      "answer": 0
+     },
+     "tip": "Es ist + adjective, dass + verb at the end: Es ist wichtig, dass du kommst."
+    },
+    {
+     "id": "s4u1l5",
+     "title": "If & whether",
+     "items": [
+      {
+       "id": "s4u1l5-wenn",
+       "target": "wenn",
+       "english": "if / when",
+       "gender": null,
+       "emoji": "🔀",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l5-falls",
+       "target": "falls",
+       "english": "in case / if",
+       "gender": null,
+       "emoji": "☂️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l5-ob",
+       "target": "ob",
+       "english": "whether / if",
+       "gender": null,
+       "emoji": "❔",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l5-sonst",
+       "target": "sonst",
+       "english": "otherwise / else",
+       "gender": null,
+       "emoji": "➕",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l5-ausser",
+       "target": "außer",
+       "english": "except",
+       "gender": null,
+       "emoji": "🚷",
+       "kind": "word"
+      },
+      {
+       "id": "s4u1l5-wenn-ich-zeit-habe",
+       "target": "Wenn ich Zeit habe",
+       "english": "If I have time",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l5-wenn-es-regnet",
+       "target": "Wenn es regnet",
+       "english": "If it rains",
+       "gender": null,
+       "emoji": "🌧️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l5-ich-weiss-nicht-ob-er-kommt",
+       "target": "Ich weiß nicht, ob er kommt",
+       "english": "I don't know if he's coming",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l5-das-kommt-drauf-an",
+       "target": "Das kommt drauf an",
+       "english": "It depends",
+       "gender": null,
+       "emoji": "⚖️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l5-es-haengt-davon-ab",
+       "target": "Es hängt davon ab",
+       "english": "It depends on that",
+       "gender": null,
+       "emoji": "⚖️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l5-ich-komme-falls-es-geht",
+       "target": "Ich komme, falls es geht",
+       "english": "I'll come if it works",
+       "gender": null,
+       "emoji": "🤞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u1l5-sonst-nichts",
+       "target": "Sonst nichts",
+       "english": "nothing else",
+       "gender": null,
+       "emoji": "🙅",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Wenn ich Zeit habe, rufe ich dich an.",
+       "english": "If I have time, I'll call you."
+      },
+      {
+       "target": "Wenn es regnet, bleibe ich zu Hause.",
+       "english": "If it rains, I stay at home."
+      },
+      {
+       "target": "Ich weiß nicht, ob er kommt.",
+       "english": "I don't know whether he's coming."
+      },
+      {
+       "target": "Kommst du mit? Das kommt drauf an.",
+       "english": "Are you coming along? It depends."
+      },
+      {
+       "target": "Ich komme, falls es geht.",
+       "english": "I'll come if it works."
+      },
+      {
+       "target": "Ich nehme einen Kaffee. Sonst nichts.",
+       "english": "I'll have a coffee. Nothing else."
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " es regnet, bleibe ich zu Hause.",
+       "options": [
+        "Wenn",
+        "Ob",
+        "Dass"
+       ],
+       "answer": 0,
+       "english": "If it rains, I stay at home."
+      },
+      {
+       "before": "Ich weiß nicht, ",
+       "after": " er kommt.",
+       "options": [
+        "ob",
+        "wenn",
+        "dass"
+       ],
+       "answer": 0,
+       "english": "I don't know whether he's coming."
+      },
+      {
+       "before": "Ich komme, ",
+       "after": " es geht.",
+       "options": [
+        "falls",
+        "ob",
+        "sonst"
+       ],
+       "answer": 0,
+       "english": "I'll come if it works."
+      },
+      {
+       "before": "Wenn ich Zeit habe, ",
+       "after": " ich dich an.",
+       "options": [
+        "rufe",
+        "rufst",
+        "rufen"
+       ],
+       "answer": 0,
+       "english": "If I have time, I'll call you."
+      }
+     ],
+     "dialogue": {
+      "scene": "Weekend plans",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hi! Am Samstag ist eine Party.",
+        "english": "Hi! There's a party on Saturday."
+       },
+       {
+        "who": "me",
+        "target": "Cool! Wo ist sie?",
+        "english": "Cool! Where is it?"
+       },
+       {
+        "who": "them",
+        "target": "Bei Anna. Kommst du zur Party?",
+        "english": "At Anna's. Are you coming to the party?"
+       }
+      ],
+      "replyOptions": [
+       "Das kommt drauf an. Wenn ich Zeit habe, komme ich.",
+       "Ich komme aus Deutschland.",
+       "Ja, ich bin dagegen."
+      ],
+      "answer": 0
+     },
+     "tip": "wenn / ob / falls send the verb to the end. If the wenn-clause comes first, the verb jumps right after the comma: Wenn es regnet, bleibe ich."
+    }
+   ]
+  },
+  {
+   "id": "s4u2",
+   "title": "Making plans with people",
+   "lessons": [
+    {
+     "id": "s4u2l1",
+     "title": "Suggesting things",
+     "items": [
+      {
+       "id": "s4u2l1-der-vorschlag",
+       "target": "der Vorschlag",
+       "english": "suggestion",
+       "gender": "m",
+       "emoji": "💡",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l1-vorschlagen",
+       "target": "vorschlagen",
+       "english": "to suggest",
+       "gender": null,
+       "emoji": "☝️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l1-wollen-wir-ins-kino-gehen",
+       "target": "Wollen wir ins Kino gehen?",
+       "english": "Shall we go to the cinema?",
+       "gender": null,
+       "emoji": "🎬",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l1-sollen-wir-etwas-essen",
+       "target": "Sollen wir etwas essen?",
+       "english": "Shall we eat something?",
+       "gender": null,
+       "emoji": "🍽️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l1-wie-waere-es-mit-morgen",
+       "target": "Wie wäre es mit morgen?",
+       "english": "How about tomorrow?",
+       "gender": null,
+       "emoji": "📅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l1-lass-uns-spazieren-gehen",
+       "target": "Lass uns spazieren gehen",
+       "english": "Let's go for a walk",
+       "gender": null,
+       "emoji": "🚶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l1-gute-idee",
+       "target": "Gute Idee",
+       "english": "Good idea",
+       "gender": null,
+       "emoji": "💡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l1-ich-bin-dabei",
+       "target": "Ich bin dabei",
+       "english": "I'm in",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l1-das-klingt-gut",
+       "target": "Das klingt gut",
+       "english": "That sounds good",
+       "gender": null,
+       "emoji": "👌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l1-mal-sehen",
+       "target": "Mal sehen",
+       "english": "We'll see",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l1-hast-du-einen-vorschlag",
+       "target": "Hast du einen Vorschlag?",
+       "english": "Do you have a suggestion?",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l1-ich-schlage-vor-dass-wir-gehen",
+       "target": "Ich schlage vor, dass wir gehen",
+       "english": "I suggest that we go",
+       "gender": null,
+       "emoji": "☝️",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Wollen wir ins Kino gehen?",
+       "english": "Shall we go to the cinema?"
+      },
+      {
+       "target": "Sollen wir etwas essen? Ich habe Hunger.",
+       "english": "Shall we eat something? I'm hungry."
+      },
+      {
+       "target": "Wie wäre es mit Samstag?",
+       "english": "How about Saturday?"
+      },
+      {
+       "target": "Lass uns im Park spazieren gehen.",
+       "english": "Let's go for a walk in the park."
+      },
+      {
+       "target": "Das klingt gut. Ich bin dabei!",
+       "english": "That sounds good. I'm in!"
+      },
+      {
+       "target": "Ich schlage vor, dass wir ein Bier trinken.",
+       "english": "I suggest that we have a beer."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Wollen wir ins Kino ",
+       "after": "?",
+       "options": [
+        "gehen",
+        "gehe",
+        "geht"
+       ],
+       "answer": 0,
+       "english": "Shall we go to the cinema?"
+      },
+      {
+       "before": "Wie ",
+       "after": " es mit morgen?",
+       "options": [
+        "wäre",
+        "wird",
+        "hat"
+       ],
+       "answer": 0,
+       "english": "How about tomorrow?"
+      },
+      {
+       "before": "Lass uns spazieren ",
+       "after": ".",
+       "options": [
+        "gehen",
+        "gehe",
+        "gegangen"
+       ],
+       "answer": 0,
+       "english": "Let's go for a walk."
+      },
+      {
+       "before": "Ich schlage vor, ",
+       "after": " wir gehen.",
+       "options": [
+        "dass",
+        "was",
+        "das"
+       ],
+       "answer": 0,
+       "english": "I suggest that we go."
+      }
+     ],
+     "dialogue": {
+      "scene": "Friday plans",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hast du heute Abend Zeit?",
+        "english": "Do you have time tonight?"
+       },
+       {
+        "who": "me",
+        "target": "Ja! Warum?",
+        "english": "Yes! Why?"
+       },
+       {
+        "who": "them",
+        "target": "Wollen wir ins Kino gehen?",
+        "english": "Shall we go to the cinema?"
+       }
+      ],
+      "replyOptions": [
+       "Gute Idee, ich bin dabei!",
+       "Das kostet zwanzig Euro.",
+       "Der Film war schlecht."
+      ],
+      "answer": 0
+     },
+     "tip": "Wollen wir… / Sollen wir… / Lass uns… all push the action verb to the end: Wollen wir gehen? Lass uns gehen."
+    },
+    {
+     "id": "s4u2l2",
+     "title": "Where & when to meet",
+     "items": [
+      {
+       "id": "s4u2l2-der-treffpunkt",
+       "target": "der Treffpunkt",
+       "english": "meeting point",
+       "gender": "m",
+       "emoji": "📍",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l2-warten",
+       "target": "warten",
+       "english": "to wait",
+       "gender": null,
+       "emoji": "⏳",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l2-unterwegs",
+       "target": "unterwegs",
+       "english": "on the way",
+       "gender": null,
+       "emoji": "🚶",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l2-wo-treffen-wir-uns",
+       "target": "Wo treffen wir uns?",
+       "english": "Where shall we meet?",
+       "gender": null,
+       "emoji": "📍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l2-um-wie-viel-uhr",
+       "target": "Um wie viel Uhr?",
+       "english": "At what time?",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l2-bis-gleich",
+       "target": "Bis gleich!",
+       "english": "See you in a bit!",
+       "gender": null,
+       "emoji": "👋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l2-ich-bin-gleich-da",
+       "target": "Ich bin gleich da",
+       "english": "I'll be there in a moment",
+       "gender": null,
+       "emoji": "🏃",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l2-ich-bin-unterwegs",
+       "target": "Ich bin unterwegs",
+       "english": "I'm on my way",
+       "gender": null,
+       "emoji": "🚶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l2-ich-warte-auf-dich",
+       "target": "Ich warte auf dich",
+       "english": "I'm waiting for you",
+       "gender": null,
+       "emoji": "⏳",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l2-ich-bin-schon-da",
+       "target": "Ich bin schon da",
+       "english": "I'm already here",
+       "gender": null,
+       "emoji": "📍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l2-wir-sehen-uns-dort",
+       "target": "Wir sehen uns dort",
+       "english": "See you there",
+       "gender": null,
+       "emoji": "👀",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l2-ich-bin-zehn-minuten-zu-spaet",
+       "target": "Ich bin zehn Minuten zu spät",
+       "english": "I'm ten minutes late",
+       "gender": null,
+       "emoji": "⌛",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Wo treffen wir uns? Am Bahnhof?",
+       "english": "Where shall we meet? At the station?"
+      },
+      {
+       "target": "Um wie viel Uhr treffen wir uns?",
+       "english": "At what time shall we meet?"
+      },
+      {
+       "target": "Ich bin gleich da. Bis gleich!",
+       "english": "I'll be there in a moment. See you soon!"
+      },
+      {
+       "target": "Ich bin unterwegs. Ich komme mit dem Bus.",
+       "english": "I'm on my way. I'm coming by bus."
+      },
+      {
+       "target": "Ich warte auf dich vor dem Kino.",
+       "english": "I'm waiting for you in front of the cinema."
+      },
+      {
+       "target": "Entschuldigung! Ich bin zehn Minuten zu spät.",
+       "english": "Sorry! I'm ten minutes late."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Wo treffen wir ",
+       "after": "?",
+       "options": [
+        "uns",
+        "mich",
+        "dich"
+       ],
+       "answer": 0,
+       "english": "Where shall we meet?"
+      },
+      {
+       "before": "Ich warte ",
+       "after": " dich.",
+       "options": [
+        "auf",
+        "an",
+        "für"
+       ],
+       "answer": 0,
+       "english": "I'm waiting for you."
+      },
+      {
+       "before": "Ich bin zehn Minuten zu ",
+       "after": ".",
+       "options": [
+        "spät",
+        "später",
+        "spätes"
+       ],
+       "answer": 0,
+       "english": "I'm ten minutes late."
+      },
+      {
+       "before": "Bis ",
+       "after": "!",
+       "options": [
+        "gleich",
+        "gern",
+        "gut"
+       ],
+       "answer": 0,
+       "english": "See you in a bit!"
+      }
+     ],
+     "dialogue": {
+      "scene": "On the phone",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Wo bist du? Ich warte schon.",
+        "english": "Where are you? I'm already waiting."
+       },
+       {
+        "who": "me",
+        "target": "Ich bin unterwegs! Noch zehn Minuten.",
+        "english": "I'm on my way! Ten more minutes."
+       },
+       {
+        "who": "them",
+        "target": "Okay. Ich warte vor dem Café.",
+        "english": "Okay. I'll wait in front of the café."
+       }
+      ],
+      "replyOptions": [
+       "Super, bis gleich!",
+       "Ich habe keinen Hunger.",
+       "Das ist mein Bruder."
+      ],
+      "answer": 0
+     },
+     "tip": "Wir treffen uns = we meet (each other). uns is a block: Wir treffen uns um acht. Wo treffen wir uns?"
+    },
+    {
+     "id": "s4u2l3",
+     "title": "Changing plans",
+     "items": [
+      {
+       "id": "s4u2l3-dazwischenkommen",
+       "target": "dazwischenkommen",
+       "english": "to come up / to get in the way",
+       "gender": null,
+       "emoji": "⚡",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l3-etwas-ist-dazwischengekommen",
+       "target": "Etwas ist dazwischengekommen",
+       "english": "Something came up",
+       "gender": null,
+       "emoji": "⚡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l3-ich-schaffe-es-nicht",
+       "target": "Ich schaffe es nicht",
+       "english": "I can't make it",
+       "gender": null,
+       "emoji": "😬",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l3-koennen-wir-einen-anderen-tag-machen",
+       "target": "Können wir einen anderen Tag machen?",
+       "english": "Can we pick another day?",
+       "gender": null,
+       "emoji": "📅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l3-das-macht-nichts",
+       "target": "Das macht nichts",
+       "english": "That doesn't matter",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l3-naechstes-mal",
+       "target": "Nächstes Mal",
+       "english": "next time",
+       "gender": null,
+       "emoji": "⏭️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l3-ich-melde-mich",
+       "target": "Ich melde mich",
+       "english": "I'll get back to you",
+       "gender": null,
+       "emoji": "📲",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l3-wir-holen-es-nach",
+       "target": "Wir holen es nach",
+       "english": "We'll make up for it",
+       "gender": null,
+       "emoji": "🔁",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l3-aendern",
+       "target": "ändern",
+       "english": "to change",
+       "gender": null,
+       "emoji": "🔄",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l3-ausfallen",
+       "target": "ausfallen",
+       "english": "to be cancelled / to not take place",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l3-das-muessen-wir-leider-absagen",
+       "target": "Das müssen wir leider absagen",
+       "english": "We unfortunately have to cancel that",
+       "gender": null,
+       "emoji": "❌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l3-kein-stress",
+       "target": "Kein Stress",
+       "english": "No stress",
+       "gender": null,
+       "emoji": "😌",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Etwas ist dazwischengekommen. Es tut mir leid!",
+       "english": "Something came up. I'm sorry!"
+      },
+      {
+       "target": "Es tut mir leid, dass ich nicht kann.",
+       "english": "I'm sorry that I can't."
+      },
+      {
+       "target": "Ich schaffe es heute nicht. Können wir einen anderen Tag machen?",
+       "english": "I can't make it today. Can we pick another day?"
+      },
+      {
+       "target": "Das macht nichts. Nächstes Mal!",
+       "english": "That doesn't matter. Next time!"
+      },
+      {
+       "target": "Ich melde mich morgen. Wir holen es nach.",
+       "english": "I'll get back to you tomorrow. We'll make up for it."
+      },
+      {
+       "target": "Das Konzert fällt aus. Wir müssen es leider absagen.",
+       "english": "The concert is cancelled. We unfortunately have to cancel it."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Etwas ist ",
+       "after": ".",
+       "options": [
+        "dazwischengekommen",
+        "dazwischenkommen",
+        "dazwischenkommt"
+       ],
+       "answer": 0,
+       "english": "Something came up."
+      },
+      {
+       "before": "Es tut mir leid, ",
+       "after": " ich nicht kann.",
+       "options": [
+        "dass",
+        "ob",
+        "wenn"
+       ],
+       "answer": 0,
+       "english": "I'm sorry that I can't."
+      },
+      {
+       "before": "Das macht ",
+       "after": ". Kein Stress!",
+       "options": [
+        "nichts",
+        "nicht",
+        "kein"
+       ],
+       "answer": 0,
+       "english": "That doesn't matter. No stress!"
+      },
+      {
+       "before": "Wir holen es ",
+       "after": ".",
+       "options": [
+        "nach",
+        "mit",
+        "ab"
+       ],
+       "answer": 0,
+       "english": "We'll make up for it."
+      }
+     ],
+     "dialogue": {
+      "scene": "Cancelling a plan",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Wann treffen wir uns heute?",
+        "english": "When are we meeting today?"
+       },
+       {
+        "who": "me",
+        "target": "Es tut mir leid, dass ich nicht kann. Etwas ist dazwischengekommen.",
+        "english": "I'm sorry that I can't. Something came up."
+       },
+       {
+        "who": "them",
+        "target": "Schade! Aber kein Stress. Wir holen es nach.",
+        "english": "Shame! But no stress. We'll make up for it."
+       }
+      ],
+      "replyOptions": [
+       "Danke! Nächstes Mal!",
+       "Ich bin zehn Minuten zu spät.",
+       "Ich nehme einen Kaffee."
+      ],
+      "answer": 0
+     },
+     "tip": "leider / Es tut mir leid + dass: the verb goes last. Es tut mir leid, dass ich nicht kann."
+    },
+    {
+     "id": "s4u2l4",
+     "title": "Going out",
+     "items": [
+      {
+       "id": "s4u2l4-ausgehen",
+       "target": "ausgehen",
+       "english": "to go out",
+       "gender": null,
+       "emoji": "🌃",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l4-gemeinsam",
+       "target": "gemeinsam",
+       "english": "together",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l4-was-machst-du-heute-abend",
+       "target": "Was machst du heute Abend?",
+       "english": "What are you doing tonight?",
+       "gender": null,
+       "emoji": "🌙",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l4-hast-du-schon-was-vor",
+       "target": "Hast du schon was vor?",
+       "english": "Do you have plans already?",
+       "gender": null,
+       "emoji": "📅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l4-ich-habe-noch-nichts-vor",
+       "target": "Ich habe noch nichts vor",
+       "english": "I don't have any plans yet",
+       "gender": null,
+       "emoji": "🙂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l4-ich-gehe-heute-aus",
+       "target": "Ich gehe heute aus",
+       "english": "I'm going out tonight",
+       "gender": null,
+       "emoji": "🌃",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l4-wir-gehen-was-trinken",
+       "target": "Wir gehen was trinken",
+       "english": "We're going for a drink",
+       "gender": null,
+       "emoji": "🍻",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l4-das-date",
+       "target": "das Date",
+       "english": "date",
+       "gender": "n",
+       "emoji": "💘",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l4-wir-sehen-uns",
+       "target": "Wir sehen uns",
+       "english": "See you!",
+       "gender": null,
+       "emoji": "👋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l4-das-wird-lustig",
+       "target": "Das wird lustig",
+       "english": "That's going to be fun",
+       "gender": null,
+       "emoji": "🎉",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l4-ich-freue-mich-darauf",
+       "target": "Ich freue mich darauf",
+       "english": "I'm looking forward to it",
+       "gender": null,
+       "emoji": "😍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l4-ich-bin-muede-aber-ich-komme-mit",
+       "target": "Ich bin müde, aber ich komme mit",
+       "english": "I'm tired, but I'm coming along",
+       "gender": null,
+       "emoji": "🥱",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Was machst du heute Abend?",
+       "english": "What are you doing tonight?"
+      },
+      {
+       "target": "Hast du schon was vor? Ich habe noch nichts vor.",
+       "english": "Do you have plans yet? I don't have any plans yet."
+      },
+      {
+       "target": "Ich gehe heute aus. Wir gehen gemeinsam was trinken.",
+       "english": "I'm going out tonight. We're going for a drink together."
+      },
+      {
+       "target": "Wir sehen uns um neun in der Kneipe.",
+       "english": "We'll see each other at nine in the pub."
+      },
+      {
+       "target": "Ich habe ein Date. Ich freue mich darauf!",
+       "english": "I have a date. I'm looking forward to it!"
+      },
+      {
+       "target": "Ich bin müde, aber ich komme mit. Das wird lustig!",
+       "english": "I'm tired, but I'm coming along. That'll be fun!"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Was machst du heute ",
+       "after": "?",
+       "options": [
+        "Abend",
+        "Abends",
+        "Abende"
+       ],
+       "answer": 0,
+       "english": "What are you doing tonight?"
+      },
+      {
+       "before": "Hast du schon was ",
+       "after": "?",
+       "options": [
+        "vor",
+        "an",
+        "zu"
+       ],
+       "answer": 0,
+       "english": "Do you have plans already?"
+      },
+      {
+       "before": "Ich freue mich ",
+       "after": ".",
+       "options": [
+        "darauf",
+        "daran",
+        "damit"
+       ],
+       "answer": 0,
+       "english": "I'm looking forward to it."
+      },
+      {
+       "before": "Ich bin müde, aber ich komme ",
+       "after": ".",
+       "options": [
+        "mit",
+        "zu",
+        "auf"
+       ],
+       "answer": 0,
+       "english": "I'm tired, but I'm coming along."
+      }
+     ],
+     "dialogue": {
+      "scene": "Friday afternoon",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hi! Wie war deine Woche?",
+        "english": "Hi! How was your week?"
+       },
+       {
+        "who": "me",
+        "target": "Gut, aber lang. Und deine?",
+        "english": "Good, but long. And yours?"
+       },
+       {
+        "who": "them",
+        "target": "Auch. Hast du heute Abend schon was vor?",
+        "english": "Same. Do you have plans tonight yet?"
+       }
+      ],
+      "replyOptions": [
+       "Ich habe noch nichts vor. Was machen wir?",
+       "Ich war gestern im Kino.",
+       "Ich habe einen Bruder."
+      ],
+      "answer": 0
+     },
+     "tip": "No 'will' needed: time word + present tense = plan. Ich gehe heute aus. Wir sehen uns um neun."
+    },
+    {
+     "id": "s4u2l5",
+     "title": "Planning as a group",
+     "items": [
+      {
+       "id": "s4u2l5-organisieren",
+       "target": "organisieren",
+       "english": "to organise",
+       "gender": null,
+       "emoji": "📋",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l5-entscheiden",
+       "target": "entscheiden",
+       "english": "to decide",
+       "gender": null,
+       "emoji": "⚖️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l5-mitbringen",
+       "target": "mitbringen",
+       "english": "to bring along",
+       "gender": null,
+       "emoji": "🎒",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l5-uebernehmen",
+       "target": "übernehmen",
+       "english": "to take over / to handle",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l5-teilen",
+       "target": "teilen",
+       "english": "to share",
+       "gender": null,
+       "emoji": "➗",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l5-die-kosten",
+       "target": "die Kosten",
+       "english": "costs",
+       "gender": "f",
+       "emoji": "💶",
+       "kind": "word"
+      },
+      {
+       "id": "s4u2l5-wer-bringt-was-mit",
+       "target": "Wer bringt was mit?",
+       "english": "Who's bringing what?",
+       "gender": null,
+       "emoji": "🎒",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l5-ich-bringe-getraenke-mit",
+       "target": "Ich bringe Getränke mit",
+       "english": "I'll bring drinks",
+       "gender": null,
+       "emoji": "🥤",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l5-ich-uebernehme-das",
+       "target": "Ich übernehme das",
+       "english": "I'll take care of it",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l5-jeder-zahlt-fuer-sich",
+       "target": "Jeder zahlt für sich",
+       "english": "Everyone pays for themselves",
+       "gender": null,
+       "emoji": "💳",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l5-getrennt-oder-zusammen",
+       "target": "Getrennt oder zusammen?",
+       "english": "Separate or together?",
+       "gender": null,
+       "emoji": "🧾",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u2l5-wir-teilen-uns-die-rechnung",
+       "target": "Wir teilen uns die Rechnung",
+       "english": "We split the bill",
+       "gender": null,
+       "emoji": "➗",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Wer organisiert die Party?",
+       "english": "Who is organising the party?"
+      },
+      {
+       "target": "Wer bringt was mit? Ich bringe Getränke mit.",
+       "english": "Who's bringing what? I'll bring drinks."
+      },
+      {
+       "target": "Ich übernehme das. Kein Problem!",
+       "english": "I'll take care of it. No problem!"
+      },
+      {
+       "target": "Wir müssen uns entscheiden.",
+       "english": "We have to decide."
+      },
+      {
+       "target": "Getrennt oder zusammen? Jeder zahlt für sich.",
+       "english": "Separate or together? Everyone pays for themselves."
+      },
+      {
+       "target": "Wir teilen uns die Kosten.",
+       "english": "We're splitting the costs."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich bringe Getränke ",
+       "after": ".",
+       "options": [
+        "mit",
+        "an",
+        "ab"
+       ],
+       "answer": 0,
+       "english": "I'll bring drinks."
+      },
+      {
+       "before": "Ich ",
+       "after": " das.",
+       "options": [
+        "übernehme",
+        "übernehmen",
+        "übernimmt"
+       ],
+       "answer": 0,
+       "english": "I'll take care of it."
+      },
+      {
+       "before": "Jeder zahlt ",
+       "after": " sich.",
+       "options": [
+        "für",
+        "mit",
+        "auf"
+       ],
+       "answer": 0,
+       "english": "Everyone pays for themselves."
+      },
+      {
+       "before": "Wer bringt was ",
+       "after": "?",
+       "options": [
+        "mit",
+        "dazu",
+        "auf"
+       ],
+       "answer": 0,
+       "english": "Who's bringing what?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Organising a party",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Ich organisiere die Party am Samstag.",
+        "english": "I'm organising the party on Saturday."
+       },
+       {
+        "who": "me",
+        "target": "Super! Wer bringt was mit?",
+        "english": "Great! Who's bringing what?"
+       },
+       {
+        "who": "them",
+        "target": "Das müssen wir entscheiden. Was möchtest du mitbringen?",
+        "english": "We have to decide that. What would you like to bring?"
+       }
+      ],
+      "replyOptions": [
+       "Ich bringe Getränke mit.",
+       "Getrennt, bitte.",
+       "Ich habe zwei Brüder."
+      ],
+      "answer": 0
+     },
+     "tip": "Separable verbs split: Ich bringe Getränke mit. Inseparable übernehmen stays whole: Ich übernehme das."
+    }
+   ]
+  },
+  {
+   "id": "s4u3",
+   "title": "Texting & phone",
+   "lessons": [
+    {
+     "id": "s4u3l1",
+     "title": "Phone words",
+     "items": [
+      {
+       "id": "s4u3l1-das-telefon",
+       "target": "das Telefon",
+       "english": "phone",
+       "gender": "n",
+       "emoji": "☎️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-telefonieren",
+       "target": "telefonieren",
+       "english": "to phone / to be on the phone",
+       "gender": null,
+       "emoji": "📞",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-die-nummer",
+       "target": "die Nummer",
+       "english": "number",
+       "gender": "f",
+       "emoji": "🔢",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-die-nachricht",
+       "target": "die Nachricht",
+       "english": "message",
+       "gender": "f",
+       "emoji": "💬",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-der-anruf",
+       "target": "der Anruf",
+       "english": "call",
+       "gender": "m",
+       "emoji": "📲",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-der-akku",
+       "target": "der Akku",
+       "english": "battery",
+       "gender": "m",
+       "emoji": "🔋",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-aufladen",
+       "target": "aufladen",
+       "english": "to charge",
+       "gender": null,
+       "emoji": "🔌",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-das-netz",
+       "target": "das Netz",
+       "english": "network / signal",
+       "gender": "n",
+       "emoji": "📶",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-der-empfang",
+       "target": "der Empfang",
+       "english": "reception",
+       "gender": "m",
+       "emoji": "📶",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-das-ladekabel",
+       "target": "das Ladekabel",
+       "english": "charging cable",
+       "gender": "n",
+       "emoji": "🔌",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-erreichbar",
+       "target": "erreichbar",
+       "english": "reachable",
+       "gender": null,
+       "emoji": "✅",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l1-die-mailbox",
+       "target": "die Mailbox",
+       "english": "voicemail",
+       "gender": "f",
+       "emoji": "📼",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich telefoniere gern mit meiner Oma.",
+       "english": "I like talking on the phone with my grandma."
+      },
+      {
+       "target": "Wie ist deine Nummer? Ich habe deinen Anruf verpasst.",
+       "english": "What's your number? I missed your call."
+      },
+      {
+       "target": "Ich habe eine Nachricht bekommen.",
+       "english": "I got a message."
+      },
+      {
+       "target": "Ich lade den Akku auf.",
+       "english": "I'm charging the battery."
+      },
+      {
+       "target": "Ich habe hier kein Netz und keinen Empfang.",
+       "english": "I have no network and no reception here."
+      },
+      {
+       "target": "Er ist nicht erreichbar. Ich spreche auf die Mailbox.",
+       "english": "He isn't reachable. I'm leaving a voicemail."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich lade den Akku ",
+       "after": ".",
+       "options": [
+        "auf",
+        "an",
+        "ab"
+       ],
+       "answer": 0,
+       "english": "I'm charging the battery."
+      },
+      {
+       "before": "Ich habe hier keinen ",
+       "after": ".",
+       "options": [
+        "Empfang",
+        "Netz",
+        "Nummer"
+       ],
+       "answer": 0,
+       "english": "I have no reception here."
+      },
+      {
+       "before": "Ich habe deinen ",
+       "after": " verpasst.",
+       "options": [
+        "Anruf",
+        "Nachricht",
+        "Telefon"
+       ],
+       "answer": 0,
+       "english": "I missed your call."
+      },
+      {
+       "before": "Ich brauche ein ",
+       "after": ".",
+       "options": [
+        "Ladekabel",
+        "Mailbox",
+        "Nummer"
+       ],
+       "answer": 0,
+       "english": "I need a charging cable."
+      }
+     ],
+     "dialogue": {
+      "scene": "No battery",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hast du dein Handy dabei?",
+        "english": "Do you have your phone with you?"
+       },
+       {
+        "who": "me",
+        "target": "Ja, aber ich brauche ein Ladekabel.",
+        "english": "Yes, but I need a charging cable."
+       },
+       {
+        "who": "them",
+        "target": "Ich habe ein Ladekabel hier.",
+        "english": "I have a charging cable here."
+       }
+      ],
+      "replyOptions": [
+       "Super, danke!",
+       "Das ist meine Mailbox.",
+       "Ich bin zehn Minuten zu spät."
+      ],
+      "answer": 0
+     },
+     "tip": "Phone verbs take the accusative: Ich lade den Akku auf. Ich habe deinen Anruf verpasst. m-nouns change: der Akku -> den Akku."
+    },
+    {
+     "id": "s4u3l2",
+     "title": "Phone calls",
+     "items": [
+      {
+       "id": "s4u3l2-hier-ist-anna",
+       "target": "Hier ist Anna",
+       "english": "This is Anna (on the phone)",
+       "gender": null,
+       "emoji": "📞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-wer-ist-da",
+       "target": "Wer ist da?",
+       "english": "Who's this?",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-kann-ich-bitte-herrn-mueller-sprechen",
+       "target": "Kann ich bitte Herrn Müller sprechen?",
+       "english": "Could I speak to Mr Müller, please?",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-einen-moment-ich-verbinde",
+       "target": "Einen Moment, ich verbinde",
+       "english": "One moment, I'll put you through",
+       "gender": null,
+       "emoji": "⏳",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-er-ist-nicht-da",
+       "target": "Er ist nicht da",
+       "english": "He's not here",
+       "gender": null,
+       "emoji": "🚪",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-kann-ich-etwas-ausrichten",
+       "target": "Kann ich etwas ausrichten?",
+       "english": "Can I pass on a message?",
+       "gender": null,
+       "emoji": "📝",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-ich-rufe-spaeter-zurueck",
+       "target": "Ich rufe später zurück",
+       "english": "I'll call back later",
+       "gender": null,
+       "emoji": "🔙",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-falsch-verbunden",
+       "target": "Falsch verbunden",
+       "english": "Wrong number",
+       "gender": null,
+       "emoji": "🙅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-die-verbindung-ist-schlecht",
+       "target": "Die Verbindung ist schlecht",
+       "english": "The connection is bad",
+       "gender": null,
+       "emoji": "📶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-ich-kann-dich-kaum-hoeren",
+       "target": "Ich kann dich kaum hören",
+       "english": "I can barely hear you",
+       "gender": null,
+       "emoji": "🔇",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-bist-du-noch-dran",
+       "target": "Bist du noch dran?",
+       "english": "Are you still there?",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l2-ich-melde-mich-spaeter",
+       "target": "Ich melde mich später",
+       "english": "I'll get in touch later",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Hier ist Anna. Wer ist da?",
+       "english": "This is Anna. Who's this?"
+      },
+      {
+       "target": "Kann ich bitte Herrn Müller sprechen?",
+       "english": "Could I speak to Mr Müller, please?"
+      },
+      {
+       "target": "Einen Moment, ich verbinde. Er ist nicht da.",
+       "english": "One moment, I'll put you through. He's not here."
+      },
+      {
+       "target": "Kann ich etwas ausrichten? Ich rufe später zurück.",
+       "english": "Can I pass on a message? I'll call back later."
+      },
+      {
+       "target": "Bist du noch dran? Ich kann dich kaum hören.",
+       "english": "Are you still there? I can barely hear you."
+      },
+      {
+       "target": "Die Verbindung ist schlecht. Ich melde mich später.",
+       "english": "The connection is bad. I'll get in touch later."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Kann ich bitte Herrn Müller ",
+       "after": "?",
+       "options": [
+        "sprechen",
+        "spreche",
+        "spricht"
+       ],
+       "answer": 0,
+       "english": "Could I speak to Mr Müller, please?"
+      },
+      {
+       "before": "Ich rufe später ",
+       "after": ".",
+       "options": [
+        "zurück",
+        "vor",
+        "hin"
+       ],
+       "answer": 0,
+       "english": "I'll call back later."
+      },
+      {
+       "before": "Ich kann dich ",
+       "after": " hören.",
+       "options": [
+        "kaum",
+        "kein",
+        "keine"
+       ],
+       "answer": 0,
+       "english": "I can barely hear you."
+      },
+      {
+       "before": "Bist du noch ",
+       "after": "?",
+       "options": [
+        "dran",
+        "drin",
+        "drauf"
+       ],
+       "answer": 0,
+       "english": "Are you still there?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Calling an office",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Firma Schmidt, guten Tag.",
+        "english": "Schmidt company, hello."
+       },
+       {
+        "who": "me",
+        "target": "Guten Tag! Kann ich bitte Frau Schmidt sprechen?",
+        "english": "Hello! Could I speak to Mrs Schmidt, please?"
+       },
+       {
+        "who": "them",
+        "target": "Sie ist nicht da. Kann ich etwas ausrichten?",
+        "english": "She's not here. Can I pass on a message?"
+       }
+      ],
+      "replyOptions": [
+       "Nein, danke. Ich rufe später zurück.",
+       "Ich habe Hunger.",
+       "Ich komme aus England."
+      ],
+      "answer": 0
+     },
+     "tip": "Phone chunk: Kann ich bitte … sprechen? The second verb goes last, like every modal sentence."
+    },
+    {
+     "id": "s4u3l3",
+     "title": "Texting",
+     "items": [
+      {
+       "id": "s4u3l3-schicken",
+       "target": "schicken",
+       "english": "to send",
+       "gender": null,
+       "emoji": "📤",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l3-antworten",
+       "target": "antworten",
+       "english": "to answer",
+       "gender": null,
+       "emoji": "↩️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l3-die-antwort",
+       "target": "die Antwort",
+       "english": "answer",
+       "gender": "f",
+       "emoji": "💬",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l3-der-chat",
+       "target": "der Chat",
+       "english": "chat",
+       "gender": "m",
+       "emoji": "💬",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l3-die-sprachnachricht",
+       "target": "die Sprachnachricht",
+       "english": "voice message",
+       "gender": "f",
+       "emoji": "🎙️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l3-der-kontakt",
+       "target": "der Kontakt",
+       "english": "contact",
+       "gender": "m",
+       "emoji": "👤",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l3-schreib-mir",
+       "target": "Schreib mir",
+       "english": "Text me",
+       "gender": null,
+       "emoji": "✍️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l3-schick-mir-ein-foto",
+       "target": "Schick mir ein Foto",
+       "english": "Send me a photo",
+       "gender": null,
+       "emoji": "📷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l3-ich-schreibe-dir-spaeter",
+       "target": "Ich schreibe dir später",
+       "english": "I'll text you later",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l3-hast-du-meine-nachricht-gelesen",
+       "target": "Hast du meine Nachricht gelesen?",
+       "english": "Have you read my message?",
+       "gender": null,
+       "emoji": "👀",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l3-bist-du-online",
+       "target": "Bist du online?",
+       "english": "Are you online?",
+       "gender": null,
+       "emoji": "🟢",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l3-ich-habe-keine-antwort-bekommen",
+       "target": "Ich habe keine Antwort bekommen",
+       "english": "I didn't get an answer",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich schicke dir ein Foto.",
+       "english": "I'm sending you a photo."
+      },
+      {
+       "target": "Schreib mir! Schick mir ein Foto!",
+       "english": "Text me! Send me a photo!"
+      },
+      {
+       "target": "Ich schreibe dir später.",
+       "english": "I'll text you later."
+      },
+      {
+       "target": "Hast du meine Nachricht gelesen?",
+       "english": "Have you read my message?"
+      },
+      {
+       "target": "Ich habe keine Antwort bekommen. Bist du online?",
+       "english": "I didn't get an answer. Are you online?"
+      },
+      {
+       "target": "Ich antworte dir gleich im Chat. Ich schicke dir eine Sprachnachricht.",
+       "english": "I'll answer you in the chat right away. I'm sending you a voice message."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich schicke ",
+       "after": " ein Foto.",
+       "options": [
+        "dir",
+        "du",
+        "dich"
+       ],
+       "answer": 0,
+       "english": "I'm sending you a photo."
+      },
+      {
+       "before": "Schreib ",
+       "after": "!",
+       "options": [
+        "mir",
+        "ich",
+        "mich"
+       ],
+       "answer": 0,
+       "english": "Text me!"
+      },
+      {
+       "before": "Hast du meine Nachricht ",
+       "after": "?",
+       "options": [
+        "gelesen",
+        "lesen",
+        "gelest"
+       ],
+       "answer": 0,
+       "english": "Have you read my message?"
+      },
+      {
+       "before": "Ich habe keine ",
+       "after": " bekommen.",
+       "options": [
+        "Antwort",
+        "Chat",
+        "Kontakt"
+       ],
+       "answer": 0,
+       "english": "I didn't get an answer."
+      }
+     ],
+     "dialogue": {
+      "scene": "Texting a friend",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hey! Bist du online?",
+        "english": "Hey! Are you online?"
+       },
+       {
+        "who": "me",
+        "target": "Ja, hier bin ich.",
+        "english": "Yes, I'm here."
+       },
+       {
+        "who": "them",
+        "target": "Ich habe dir ein Foto geschickt. Hast du meine Nachricht gelesen?",
+        "english": "I sent you a photo. Have you read my message?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, das Foto ist toll! Ich schreibe dir später.",
+       "Nein, es ist kalt.",
+       "Mein Name ist Tom."
+      ],
+      "answer": 0
+     },
+     "tip": "schicken / schreiben: person first (dative), thing second (accusative). Ich schicke dir (to you) ein Foto."
+    },
+    {
+     "id": "s4u3l4",
+     "title": "Email",
+     "items": [
+      {
+       "id": "s4u3l4-die-e-mail",
+       "target": "die E-Mail",
+       "english": "email",
+       "gender": "f",
+       "emoji": "📧",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l4-die-adresse",
+       "target": "die Adresse",
+       "english": "address",
+       "gender": "f",
+       "emoji": "🏠",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l4-der-betreff",
+       "target": "der Betreff",
+       "english": "subject line",
+       "gender": "m",
+       "emoji": "🏷️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l4-der-anhang",
+       "target": "der Anhang",
+       "english": "attachment",
+       "gender": "m",
+       "emoji": "📎",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l4-senden",
+       "target": "senden",
+       "english": "to send",
+       "gender": null,
+       "emoji": "📤",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l4-weiterleiten",
+       "target": "weiterleiten",
+       "english": "to forward",
+       "gender": null,
+       "emoji": "↪️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l4-sehr-geehrte-damen-und-herren",
+       "target": "Sehr geehrte Damen und Herren",
+       "english": "Dear Sir or Madam",
+       "gender": null,
+       "emoji": "🎩",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l4-mit-freundlichen-gruessen",
+       "target": "Mit freundlichen Grüßen",
+       "english": "Kind regards (formal)",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l4-liebe-gruesse",
+       "target": "Liebe Grüße",
+       "english": "Love / best (informal)",
+       "gender": null,
+       "emoji": "💛",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l4-viele-gruesse",
+       "target": "Viele Grüße",
+       "english": "Best wishes (semi-formal)",
+       "gender": null,
+       "emoji": "🙂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l4-anbei-finden-sie",
+       "target": "Anbei finden Sie…",
+       "english": "Attached you'll find…",
+       "gender": null,
+       "emoji": "📎",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l4-ich-freue-mich-auf-ihre-antwort",
+       "target": "Ich freue mich auf Ihre Antwort",
+       "english": "I look forward to your reply",
+       "gender": null,
+       "emoji": "📩",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich sende die E-Mail und leite sie an Anna weiter.",
+       "english": "I send the email and forward it to Anna."
+      },
+      {
+       "target": "Wie ist deine E-Mail-Adresse?",
+       "english": "What's your email address?"
+      },
+      {
+       "target": "Der Betreff ist wichtig. Der Anhang ist ein Foto.",
+       "english": "The subject line is important. The attachment is a photo."
+      },
+      {
+       "target": "Sehr geehrte Damen und Herren, ich habe eine Frage.",
+       "english": "Dear Sir or Madam, I have a question."
+      },
+      {
+       "target": "Anbei finden Sie das Rezept.",
+       "english": "Attached you'll find the prescription."
+      },
+      {
+       "target": "Mit freundlichen Grüßen. Ich freue mich auf Ihre Antwort.",
+       "english": "Kind regards. I look forward to your reply."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Sehr geehrte Damen und ",
+       "after": ".",
+       "options": [
+        "Herren",
+        "Herr",
+        "Frauen"
+       ],
+       "answer": 0,
+       "english": "Dear Sir or Madam."
+      },
+      {
+       "before": "Mit freundlichen ",
+       "after": ".",
+       "options": [
+        "Grüßen",
+        "Grüße",
+        "Gruß"
+       ],
+       "answer": 0,
+       "english": "Kind regards."
+      },
+      {
+       "before": "Liebe ",
+       "after": ", Anna.",
+       "options": [
+        "Grüße",
+        "Grüßen",
+        "Gruß"
+       ],
+       "answer": 0,
+       "english": "Love, Anna."
+      },
+      {
+       "before": "Ich freue mich auf ",
+       "after": " Antwort.",
+       "options": [
+        "Ihre",
+        "Ihr",
+        "Ihren"
+       ],
+       "answer": 0,
+       "english": "I look forward to your reply."
+      }
+     ],
+     "dialogue": {
+      "scene": "Writing to the doctor",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Ich muss eine E-Mail an den Arzt schreiben.",
+        "english": "I have to write an email to the doctor."
+       },
+       {
+        "who": "me",
+        "target": "Okay. Wie beginnst du?",
+        "english": "Okay. How do you start?"
+       },
+       {
+        "who": "them",
+        "target": "Mit „Sehr geehrte Damen und Herren“. Und am Ende? Was schreibe ich?",
+        "english": "With \"Dear Sir or Madam\". And at the end? What do I write?"
+       }
+      ],
+      "replyOptions": [
+       "Mit freundlichen Grüßen.",
+       "Ich schicke dir ein Foto.",
+       "Der Zug fährt um zehn."
+      ],
+      "answer": 0
+     },
+     "tip": "Two registers: Sie = Sehr geehrte… / Mit freundlichen Grüßen / Ihre. du = Liebe Grüße / deine. Never mix them in one email."
+    },
+    {
+     "id": "s4u3l5",
+     "title": "Social media",
+     "items": [
+      {
+       "id": "s4u3l5-das-profil",
+       "target": "das Profil",
+       "english": "profile",
+       "gender": "n",
+       "emoji": "👤",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-der-beitrag",
+       "target": "der Beitrag",
+       "english": "post",
+       "gender": "m",
+       "emoji": "📝",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-posten",
+       "target": "posten",
+       "english": "to post",
+       "gender": null,
+       "emoji": "📤",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-kommentieren",
+       "target": "kommentieren",
+       "english": "to comment",
+       "gender": null,
+       "emoji": "💬",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-folgen",
+       "target": "folgen",
+       "english": "to follow",
+       "gender": null,
+       "emoji": "➕",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-der-follower",
+       "target": "der Follower",
+       "english": "follower",
+       "gender": "m",
+       "emoji": "👥",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-das-selfie",
+       "target": "das Selfie",
+       "english": "selfie",
+       "gender": "n",
+       "emoji": "🤳",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-das-emoji",
+       "target": "das Emoji",
+       "english": "emoji",
+       "gender": "n",
+       "emoji": "😀",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-der-link",
+       "target": "der Link",
+       "english": "link",
+       "gender": "m",
+       "emoji": "🔗",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-das-netzwerk",
+       "target": "das Netzwerk",
+       "english": "network",
+       "gender": "n",
+       "emoji": "🌐",
+       "kind": "word"
+      },
+      {
+       "id": "s4u3l5-hast-du-das-gesehen",
+       "target": "Hast du das gesehen?",
+       "english": "Did you see that?",
+       "gender": null,
+       "emoji": "👀",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u3l5-das-ist-viral-gegangen",
+       "target": "Das ist viral gegangen",
+       "english": "That went viral",
+       "gender": null,
+       "emoji": "🔥",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich folge ihm. Er folgt mir.",
+       "english": "I follow him. He follows me."
+      },
+      {
+       "target": "Ich poste ein Selfie.",
+       "english": "I'm posting a selfie."
+      },
+      {
+       "target": "Hast du das gesehen? Das ist viral gegangen!",
+       "english": "Did you see that? That went viral!"
+      },
+      {
+       "target": "Sie kommentiert jeden Beitrag.",
+       "english": "She comments on every post."
+      },
+      {
+       "target": "Mein Profil hat hundert Follower.",
+       "english": "My profile has a hundred followers."
+      },
+      {
+       "target": "Schick mir den Link! Ich schicke dir ein Emoji.",
+       "english": "Send me the link! I'll send you an emoji."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich folge ",
+       "after": ".",
+       "options": [
+        "ihm",
+        "er",
+        "ihn"
+       ],
+       "answer": 0,
+       "english": "I follow him."
+      },
+      {
+       "before": "Hast du das ",
+       "after": "?",
+       "options": [
+        "gesehen",
+        "gesehn",
+        "sehen"
+       ],
+       "answer": 0,
+       "english": "Did you see that?"
+      },
+      {
+       "before": "Ich ",
+       "after": " ein Selfie.",
+       "options": [
+        "poste",
+        "postet",
+        "posten"
+       ],
+       "answer": 0,
+       "english": "I'm posting a selfie."
+      },
+      {
+       "before": "Das ist ",
+       "after": " gegangen.",
+       "options": [
+        "viral",
+        "virale",
+        "viralen"
+       ],
+       "answer": 0,
+       "english": "That went viral."
+      }
+     ],
+     "dialogue": {
+      "scene": "Showing a post",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hast du das gesehen? Der Beitrag von Anna!",
+        "english": "Did you see that? Anna's post!"
+       },
+       {
+        "who": "me",
+        "target": "Nein! Schick mir den Link, bitte.",
+        "english": "No! Send me the link, please."
+       },
+       {
+        "who": "them",
+        "target": "Hier, bitte. Der Beitrag ist viral gegangen!",
+        "english": "Here you go. The post went viral!"
+       }
+      ],
+      "replyOptions": [
+       "Wow! Ich folge ihr auch.",
+       "Das Wetter wird kälter.",
+       "Ich habe einen Termin um zehn."
+      ],
+      "answer": 0
+     },
+     "tip": "folgen takes the dative, so it's ihm / ihr, not ihn / sie. Learn it as a block: Ich folge ihm."
+    }
+   ]
+  },
+  {
+   "id": "s4u4",
+   "title": "Feelings",
+   "lessons": [
+    {
+     "id": "s4u4l1",
+     "title": "Feeling words",
+     "items": [
+      {
+       "id": "s4u4l1-gluecklich",
+       "target": "glücklich",
+       "english": "happy",
+       "gender": null,
+       "emoji": "😊",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-traurig",
+       "target": "traurig",
+       "english": "sad",
+       "gender": null,
+       "emoji": "😢",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-wuetend",
+       "target": "wütend",
+       "english": "furious",
+       "gender": null,
+       "emoji": "😡",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-nervoes",
+       "target": "nervös",
+       "english": "nervous",
+       "gender": null,
+       "emoji": "😬",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-aufgeregt",
+       "target": "aufgeregt",
+       "english": "excited",
+       "gender": null,
+       "emoji": "🤩",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-zufrieden",
+       "target": "zufrieden",
+       "english": "satisfied",
+       "gender": null,
+       "emoji": "😌",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-enttaeuscht",
+       "target": "enttäuscht",
+       "english": "disappointed",
+       "gender": null,
+       "emoji": "😞",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-ueberrascht",
+       "target": "überrascht",
+       "english": "surprised",
+       "gender": null,
+       "emoji": "😲",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-stolz",
+       "target": "stolz",
+       "english": "proud",
+       "gender": null,
+       "emoji": "🦚",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-eifersuechtig",
+       "target": "eifersüchtig",
+       "english": "jealous",
+       "gender": null,
+       "emoji": "😒",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-einsam",
+       "target": "einsam",
+       "english": "lonely",
+       "gender": null,
+       "emoji": "🥺",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l1-entspannt",
+       "target": "entspannt",
+       "english": "relaxed",
+       "gender": null,
+       "emoji": "😎",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich bin heute glücklich.",
+       "english": "I'm happy today."
+      },
+      {
+       "target": "Er ist traurig, weil er krank ist.",
+       "english": "He's sad because he's sick."
+      },
+      {
+       "target": "Mein Bruder ist wütend, weil das Essen kalt ist.",
+       "english": "My brother is furious because the food is cold."
+      },
+      {
+       "target": "Ich bin nervös. Morgen habe ich einen Termin.",
+       "english": "I'm nervous. Tomorrow I have an appointment."
+      },
+      {
+       "target": "Bist du zufrieden? Nein, ich bin enttäuscht.",
+       "english": "Are you satisfied? No, I'm disappointed."
+      },
+      {
+       "target": "Ich bin stolz auf dich, aber ein bisschen eifersüchtig.",
+       "english": "I'm proud of you, but a little jealous."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich ",
+       "after": " nervös.",
+       "options": [
+        "bin",
+        "bist",
+        "ist"
+       ],
+       "answer": 0,
+       "english": "I'm nervous."
+      },
+      {
+       "before": "Er ",
+       "after": " wütend.",
+       "options": [
+        "ist",
+        "bin",
+        "bist"
+       ],
+       "answer": 0,
+       "english": "He's furious."
+      },
+      {
+       "before": "Bist du ",
+       "after": "?",
+       "options": [
+        "zufrieden",
+        "zufriedene",
+        "zufriedenen"
+       ],
+       "answer": 0,
+       "english": "Are you satisfied?"
+      },
+      {
+       "before": "Ich bin stolz ",
+       "after": " dich.",
+       "options": [
+        "auf",
+        "an",
+        "für"
+       ],
+       "answer": 0,
+       "english": "I'm proud of you."
+      }
+     ],
+     "dialogue": {
+      "scene": "Morning chat",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hi! Du siehst gut aus!",
+        "english": "Hi! You look good!"
+       },
+       {
+        "who": "me",
+        "target": "Danke! Heute ist ein toller Tag.",
+        "english": "Thanks! Today is a great day."
+       },
+       {
+        "who": "them",
+        "target": "Wie geht's dir?",
+        "english": "How are you?"
+       }
+      ],
+      "replyOptions": [
+       "Ich bin glücklich und entspannt.",
+       "Der Kaffee kostet drei Euro.",
+       "Ich bin zehn Minuten zu spät."
+      ],
+      "answer": 0
+     },
+     "tip": "sein + adjective, no ending needed: Ich bin nervös, er ist nervös, wir sind nervös. Just swap the form of sein."
+    },
+    {
+     "id": "s4u4l2",
+     "title": "Feeling chunks",
+     "items": [
+      {
+       "id": "s4u4l2-sich-fuehlen",
+       "target": "sich fühlen",
+       "english": "to feel",
+       "gender": null,
+       "emoji": "🫀",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l2-sich-freuen",
+       "target": "sich freuen",
+       "english": "to be glad / to look forward",
+       "gender": null,
+       "emoji": "😄",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l2-sich-aergern",
+       "target": "sich ärgern",
+       "english": "to be annoyed",
+       "gender": null,
+       "emoji": "😤",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l2-sich-langweilen",
+       "target": "sich langweilen",
+       "english": "to be bored",
+       "gender": null,
+       "emoji": "🥱",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l2-ich-fuehle-mich-schlecht",
+       "target": "Ich fühle mich schlecht",
+       "english": "I feel bad",
+       "gender": null,
+       "emoji": "🤒",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l2-ich-freue-mich-fuer-dich",
+       "target": "Ich freue mich für dich",
+       "english": "I'm happy for you",
+       "gender": null,
+       "emoji": "🎉",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l2-ich-aergere-mich-ueber-das-wetter",
+       "target": "Ich ärgere mich über das Wetter",
+       "english": "I'm annoyed about the weather",
+       "gender": null,
+       "emoji": "🌧️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l2-ich-habe-angst",
+       "target": "Ich habe Angst",
+       "english": "I'm scared",
+       "gender": null,
+       "emoji": "😨",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l2-ich-mache-mir-sorgen",
+       "target": "Ich mache mir Sorgen",
+       "english": "I'm worried",
+       "gender": null,
+       "emoji": "😟",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l2-ich-bin-sauer",
+       "target": "Ich bin sauer",
+       "english": "I'm angry / annoyed",
+       "gender": null,
+       "emoji": "😠",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l2-ich-bin-gestresst",
+       "target": "Ich bin gestresst",
+       "english": "I'm stressed",
+       "gender": null,
+       "emoji": "😫",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l2-ich-bin-ueberfordert",
+       "target": "Ich bin überfordert",
+       "english": "I'm overwhelmed",
+       "gender": null,
+       "emoji": "🤯",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich fühle mich schlecht. Ich bin krank.",
+       "english": "I feel bad. I'm sick."
+      },
+      {
+       "target": "Ich freue mich für dich!",
+       "english": "I'm happy for you!"
+      },
+      {
+       "target": "Ich ärgere mich über das Wetter. Es regnet schon wieder.",
+       "english": "I'm annoyed about the weather. It's raining again."
+      },
+      {
+       "target": "Wir langweilen uns. Der Film ist langweilig.",
+       "english": "We're bored. The film is boring."
+      },
+      {
+       "target": "Ich habe Angst. Ich mache mir Sorgen.",
+       "english": "I'm scared. I'm worried."
+      },
+      {
+       "target": "Ich bin sauer, weil ich gestresst und überfordert bin.",
+       "english": "I'm angry because I'm stressed and overwhelmed."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich fühle ",
+       "after": " schlecht.",
+       "options": [
+        "mich",
+        "mir",
+        "dich"
+       ],
+       "answer": 0,
+       "english": "I feel bad."
+      },
+      {
+       "before": "Ich freue mich ",
+       "after": " dich.",
+       "options": [
+        "für",
+        "an",
+        "bei"
+       ],
+       "answer": 0,
+       "english": "I'm happy for you."
+      },
+      {
+       "before": "Ich ärgere mich ",
+       "after": " das Wetter.",
+       "options": [
+        "über",
+        "für",
+        "auf"
+       ],
+       "answer": 0,
+       "english": "I'm annoyed about the weather."
+      },
+      {
+       "before": "Ich mache ",
+       "after": " Sorgen.",
+       "options": [
+        "mir",
+        "mich",
+        "dir"
+       ],
+       "answer": 0,
+       "english": "I'm worried."
+      }
+     ],
+     "dialogue": {
+      "scene": "A bad day",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Du siehst müde aus. Wie fühlst du dich?",
+        "english": "You look tired. How do you feel?"
+       },
+       {
+        "who": "me",
+        "target": "Nicht gut. Ich bin gestresst.",
+        "english": "Not good. I'm stressed."
+       },
+       {
+        "who": "them",
+        "target": "Warum? Hast du viel Arbeit?",
+        "english": "Why? Do you have a lot of work?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, ich bin überfordert.",
+       "Ich freue mich für dich!",
+       "Ich habe Hunger."
+      ],
+      "answer": 0
+     },
+     "tip": "Reflexive verbs carry a tiny extra word: ich freue mich, du freust dich. Learn the verb with it: sich freuen."
+    },
+    {
+     "id": "s4u4l3",
+     "title": "Everyday reflexives",
+     "items": [
+      {
+       "id": "s4u4l3-sich-waschen",
+       "target": "sich waschen",
+       "english": "to wash (oneself)",
+       "gender": null,
+       "emoji": "🚿",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-anziehen",
+       "target": "sich anziehen",
+       "english": "to get dressed",
+       "gender": null,
+       "emoji": "👕",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-setzen",
+       "target": "sich setzen",
+       "english": "to sit down",
+       "gender": null,
+       "emoji": "🪑",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-beeilen",
+       "target": "sich beeilen",
+       "english": "to hurry",
+       "gender": null,
+       "emoji": "🏃",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-erinnern",
+       "target": "sich erinnern",
+       "english": "to remember",
+       "gender": null,
+       "emoji": "🧠",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-entscheiden",
+       "target": "sich entscheiden",
+       "english": "to decide",
+       "gender": null,
+       "emoji": "⚖️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-treffen",
+       "target": "sich treffen",
+       "english": "to meet",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-ausruhen",
+       "target": "sich ausruhen",
+       "english": "to rest",
+       "gender": null,
+       "emoji": "🛌",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-entschuldigen",
+       "target": "sich entschuldigen",
+       "english": "to apologise",
+       "gender": null,
+       "emoji": "🙇",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-vorstellen",
+       "target": "sich vorstellen",
+       "english": "to introduce oneself",
+       "gender": null,
+       "emoji": "👋",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-interessieren-fuer",
+       "target": "sich interessieren für",
+       "english": "to be interested in",
+       "gender": null,
+       "emoji": "🔎",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l3-sich-kuemmern-um",
+       "target": "sich kümmern um",
+       "english": "to take care of",
+       "gender": null,
+       "emoji": "🤲",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich wasche mich und ziehe mich an.",
+       "english": "I wash and get dressed."
+      },
+      {
+       "target": "Setz dich! Wir setzen uns an den Tisch.",
+       "english": "Sit down! We'll sit at the table."
+      },
+      {
+       "target": "Beeil dich! Wir treffen uns um acht.",
+       "english": "Hurry up! We're meeting at eight."
+      },
+      {
+       "target": "Erinnerst du dich? Ich erinnere mich nicht.",
+       "english": "Do you remember? I don't remember."
+      },
+      {
+       "target": "Ich kann mich nicht entscheiden. Ich ruhe mich erst aus.",
+       "english": "I can't decide. I'll rest first."
+      },
+      {
+       "target": "Ich entschuldige mich. Darf ich mich vorstellen?",
+       "english": "I apologise. May I introduce myself?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Wir treffen ",
+       "after": " um acht.",
+       "options": [
+        "uns",
+        "mich",
+        "sich"
+       ],
+       "answer": 0,
+       "english": "We're meeting at eight."
+      },
+      {
+       "before": "Du musst ",
+       "after": " beeilen.",
+       "options": [
+        "dich",
+        "mich",
+        "sich"
+       ],
+       "answer": 0,
+       "english": "You have to hurry."
+      },
+      {
+       "before": "Ich interessiere mich ",
+       "after": " Musik.",
+       "options": [
+        "für",
+        "an",
+        "um"
+       ],
+       "answer": 0,
+       "english": "I'm interested in music."
+      },
+      {
+       "before": "Er kümmert ",
+       "after": " um das Essen.",
+       "options": [
+        "sich",
+        "mich",
+        "dich"
+       ],
+       "answer": 0,
+       "english": "He takes care of the food."
+      }
+     ],
+     "dialogue": {
+      "scene": "Meeting someone new",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hallo, ich bin Lena. Wie heißt du?",
+        "english": "Hi, I'm Lena. What's your name?"
+       },
+       {
+        "who": "me",
+        "target": "Ich bin Tom. Freut mich!",
+        "english": "I'm Tom. Nice to meet you!"
+       },
+       {
+        "who": "them",
+        "target": "Freut mich auch! Interessierst du dich für Musik?",
+        "english": "Nice to meet you too! Are you interested in music?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, sehr! Ich höre jeden Tag Musik.",
+       "Ich ziehe mich an.",
+       "Nein, ich wohne in Berlin."
+      ],
+      "answer": 0
+     },
+     "tip": "mich / dich / sich / uns: ich wasche mich, du wäschst dich, er wäscht sich, wir waschen uns. It's just 'myself, yourself, himself, ourselves'."
+    },
+    {
+     "id": "s4u4l4",
+     "title": "Comforting & cheering",
+     "items": [
+      {
+       "id": "s4u4l4-keine-sorge",
+       "target": "Keine Sorge",
+       "english": "Don't worry",
+       "gender": null,
+       "emoji": "🕊️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-alles-wird-gut",
+       "target": "Alles wird gut",
+       "english": "Everything will be fine",
+       "gender": null,
+       "emoji": "🌈",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-kopf-hoch",
+       "target": "Kopf hoch",
+       "english": "Chin up",
+       "gender": null,
+       "emoji": "💪",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-mach-dir-keine-sorgen",
+       "target": "Mach dir keine Sorgen",
+       "english": "Don't worry (yourself)",
+       "gender": null,
+       "emoji": "🕊️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-das-tut-mir-leid-fuer-dich",
+       "target": "Das tut mir leid für dich",
+       "english": "I'm sorry for you",
+       "gender": null,
+       "emoji": "🫂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-ich-bin-fuer-dich-da",
+       "target": "Ich bin für dich da",
+       "english": "I'm here for you",
+       "gender": null,
+       "emoji": "🤗",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-ich-verstehe-dich",
+       "target": "Ich verstehe dich",
+       "english": "I understand you",
+       "gender": null,
+       "emoji": "🫶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-du-schaffst-das",
+       "target": "Du schaffst das",
+       "english": "You can do it",
+       "gender": null,
+       "emoji": "💪",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-beruhige-dich",
+       "target": "Beruhige dich",
+       "english": "Calm down",
+       "gender": null,
+       "emoji": "😮‍💨",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-atme-tief-durch",
+       "target": "Atme tief durch",
+       "english": "Take a deep breath",
+       "gender": null,
+       "emoji": "🌬️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-das-wird-schon",
+       "target": "Das wird schon",
+       "english": "It'll be okay",
+       "gender": null,
+       "emoji": "🌤️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u4l4-troesten",
+       "target": "trösten",
+       "english": "to comfort",
+       "gender": null,
+       "emoji": "🫂",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Keine Sorge! Alles wird gut.",
+       "english": "Don't worry! Everything will be fine."
+      },
+      {
+       "target": "Kopf hoch! Das wird schon.",
+       "english": "Chin up! It'll be okay."
+      },
+      {
+       "target": "Mach dir keine Sorgen. Du schaffst das!",
+       "english": "Don't worry. You can do it!"
+      },
+      {
+       "target": "Das tut mir leid für dich. Ich bin für dich da.",
+       "english": "I'm sorry for you. I'm here for you."
+      },
+      {
+       "target": "Ich verstehe dich. Ich will dich trösten.",
+       "english": "I understand you. I want to comfort you."
+      },
+      {
+       "target": "Beruhige dich! Atme tief durch.",
+       "english": "Calm down! Take a deep breath."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Mach ",
+       "after": " keine Sorgen.",
+       "options": [
+        "dir",
+        "dich",
+        "mich"
+       ],
+       "answer": 0,
+       "english": "Don't worry."
+      },
+      {
+       "before": "Beruhige ",
+       "after": "!",
+       "options": [
+        "dich",
+        "dir",
+        "mich"
+       ],
+       "answer": 0,
+       "english": "Calm down!"
+      },
+      {
+       "before": "Du ",
+       "after": " das!",
+       "options": [
+        "schaffst",
+        "schaffe",
+        "schafft"
+       ],
+       "answer": 0,
+       "english": "You can do it!"
+      },
+      {
+       "before": "Ich bin für dich ",
+       "after": ".",
+       "options": [
+        "da",
+        "dabei",
+        "davon"
+       ],
+       "answer": 0,
+       "english": "I'm here for you."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend is nervous",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Ich bin so nervös. Morgen habe ich einen Termin beim Arzt.",
+        "english": "I'm so nervous. Tomorrow I have a doctor's appointment."
+       },
+       {
+        "who": "me",
+        "target": "Keine Sorge! Das wird schon.",
+        "english": "Don't worry! It'll be okay."
+       },
+       {
+        "who": "them",
+        "target": "Aber ich mache mir Sorgen.",
+        "english": "But I'm worried."
+       }
+      ],
+      "replyOptions": [
+       "Ich bin für dich da. Du schaffst das!",
+       "Es ist mir egal.",
+       "Gute Nacht!"
+      ],
+      "answer": 0
+     },
+     "tip": "Reflexive imperatives: Beruhige dich! Mach dir keine Sorgen! The little word (dich / dir) comes right after the verb."
+    },
+    {
+     "id": "s4u4l5",
+     "title": "Mood & stress",
+     "items": [
+      {
+       "id": "s4u4l5-die-laune",
+       "target": "die Laune",
+       "english": "mood",
+       "gender": "f",
+       "emoji": "🎭",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-schlecht-gelaunt",
+       "target": "schlecht gelaunt",
+       "english": "in a bad mood",
+       "gender": null,
+       "emoji": "😒",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-der-stress",
+       "target": "der Stress",
+       "english": "stress",
+       "gender": "m",
+       "emoji": "😫",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-die-angst",
+       "target": "die Angst",
+       "english": "fear / anxiety",
+       "gender": "f",
+       "emoji": "😨",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-die-sorge",
+       "target": "die Sorge",
+       "english": "worry",
+       "gender": "f",
+       "emoji": "😟",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-die-freude",
+       "target": "die Freude",
+       "english": "joy",
+       "gender": "f",
+       "emoji": "😄",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-die-liebe",
+       "target": "die Liebe",
+       "english": "love",
+       "gender": "f",
+       "emoji": "❤️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-die-wut",
+       "target": "die Wut",
+       "english": "rage",
+       "gender": "f",
+       "emoji": "🤬",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-der-streit",
+       "target": "der Streit",
+       "english": "argument / fight",
+       "gender": "m",
+       "emoji": "💢",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-sich-streiten",
+       "target": "sich streiten",
+       "english": "to argue",
+       "gender": null,
+       "emoji": "🗯️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-sich-entspannen",
+       "target": "sich entspannen",
+       "english": "to relax",
+       "gender": null,
+       "emoji": "🧘",
+       "kind": "word"
+      },
+      {
+       "id": "s4u4l5-sich-vertragen",
+       "target": "sich vertragen",
+       "english": "to make up",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Ich habe schlechte Laune, weil ich Stress habe.",
+       "english": "I'm in a bad mood because I'm stressed."
+      },
+      {
+       "target": "Ich habe Angst, aber ich habe auch Freude.",
+       "english": "I'm afraid, but I also feel joy."
+      },
+      {
+       "target": "Ich habe viele Sorgen.",
+       "english": "I have a lot of worries."
+      },
+      {
+       "target": "Die Liebe ist schön, aber manchmal schwer.",
+       "english": "Love is beautiful, but sometimes hard."
+      },
+      {
+       "target": "Wir haben einen Streit. Ich habe so viel Wut!",
+       "english": "We're having a fight. I'm so angry!"
+      },
+      {
+       "target": "Wir streiten uns oft, aber wir vertragen uns wieder. Dann entspannen wir uns.",
+       "english": "We argue often, but we make up. Then we relax."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich habe ",
+       "after": " Stress.",
+       "options": [
+        "viel",
+        "viele",
+        "vielen"
+       ],
+       "answer": 0,
+       "english": "I have a lot of stress."
+      },
+      {
+       "before": "Wir ",
+       "after": " uns oft.",
+       "options": [
+        "streiten",
+        "streitet",
+        "streite"
+       ],
+       "answer": 0,
+       "english": "We argue often."
+      },
+      {
+       "before": "Wir vertragen ",
+       "after": " wieder.",
+       "options": [
+        "uns",
+        "sich",
+        "dich"
+       ],
+       "answer": 0,
+       "english": "We make up again."
+      },
+      {
+       "before": "Ich habe schlechte ",
+       "after": ".",
+       "options": [
+        "Laune",
+        "Liebe",
+        "Freude"
+       ],
+       "answer": 0,
+       "english": "I'm in a bad mood."
+      }
+     ],
+     "dialogue": {
+      "scene": "After a fight",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Es tut mir leid, dass ich so schlecht gelaunt war.",
+        "english": "I'm sorry that I was in such a bad mood."
+       },
+       {
+        "who": "me",
+        "target": "Das macht nichts. Ich habe auch viel Stress.",
+        "english": "That's okay. I have a lot of stress too."
+       },
+       {
+        "who": "them",
+        "target": "Wollen wir uns wieder vertragen?",
+        "english": "Shall we make up?"
+       }
+      ],
+      "replyOptions": [
+       "Ja, auf jeden Fall! Kein Streit mehr.",
+       "Nein, ich habe Hunger.",
+       "Ich habe Angst vor dem Wetter."
+      ],
+      "answer": 0
+     },
+     "tip": "Feelings as nouns go with haben: Ich habe Stress, Angst, Wut, Freude. Say 'I have' where English says 'I am'."
+    }
+   ]
+  },
+  {
+   "id": "s4u5",
+   "title": "Small talk",
+   "lessons": [
+    {
+     "id": "s4u5l1",
+     "title": "Comparing two things",
+     "items": [
+      {
+       "id": "s4u5l1-groesser",
+       "target": "größer",
+       "english": "bigger / taller",
+       "gender": null,
+       "emoji": "📏",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-kleiner",
+       "target": "kleiner",
+       "english": "smaller",
+       "gender": null,
+       "emoji": "🔹",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-besser",
+       "target": "besser",
+       "english": "better",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-schlechter",
+       "target": "schlechter",
+       "english": "worse",
+       "gender": null,
+       "emoji": "👎",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-aelter",
+       "target": "älter",
+       "english": "older",
+       "gender": null,
+       "emoji": "👴",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-juenger",
+       "target": "jünger",
+       "english": "younger",
+       "gender": null,
+       "emoji": "🧒",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-schneller",
+       "target": "schneller",
+       "english": "faster",
+       "gender": null,
+       "emoji": "⚡",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-langsamer",
+       "target": "langsamer",
+       "english": "slower",
+       "gender": null,
+       "emoji": "🐢",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-teurer",
+       "target": "teurer",
+       "english": "more expensive",
+       "gender": null,
+       "emoji": "💸",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-billiger",
+       "target": "billiger",
+       "english": "cheaper",
+       "gender": null,
+       "emoji": "🏷️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-waermer",
+       "target": "wärmer",
+       "english": "warmer",
+       "gender": null,
+       "emoji": "☀️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l1-kaelter",
+       "target": "kälter",
+       "english": "colder",
+       "gender": null,
+       "emoji": "🥶",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Berlin ist größer als München. Mein Zimmer ist kleiner als die Küche.",
+       "english": "Berlin is bigger than Munich. My room is smaller than the kitchen."
+      },
+      {
+       "target": "Mein Bruder ist älter als ich. Meine Schwester ist jünger.",
+       "english": "My brother is older than me. My sister is younger."
+      },
+      {
+       "target": "Der Zug ist schneller als der Bus.",
+       "english": "The train is faster than the bus."
+      },
+      {
+       "target": "Das Taxi ist teurer, die U-Bahn ist billiger.",
+       "english": "The taxi is more expensive, the metro is cheaper."
+      },
+      {
+       "target": "Heute ist es wärmer als gestern. Morgen wird es kälter.",
+       "english": "Today it's warmer than yesterday. Tomorrow it'll get colder."
+      },
+      {
+       "target": "Sprich bitte langsamer! Mein Deutsch ist schlechter als dein Englisch.",
+       "english": "Please speak slower! My German is worse than your English."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Berlin ist ",
+       "after": " als München.",
+       "options": [
+        "größer",
+        "groß",
+        "am größten"
+       ],
+       "answer": 0,
+       "english": "Berlin is bigger than Munich."
+      },
+      {
+       "before": "Der Zug ist ",
+       "after": " als der Bus.",
+       "options": [
+        "schneller",
+        "schnell",
+        "schnellste"
+       ],
+       "answer": 0,
+       "english": "The train is faster than the bus."
+      },
+      {
+       "before": "Mein Bruder ist älter ",
+       "after": " ich.",
+       "options": [
+        "als",
+        "wie",
+        "dass"
+       ],
+       "answer": 0,
+       "english": "My brother is older than me."
+      },
+      {
+       "before": "Heute ist es ",
+       "after": " als gestern.",
+       "options": [
+        "wärmer",
+        "warm",
+        "wärmste"
+       ],
+       "answer": 0,
+       "english": "Today it's warmer than yesterday."
+      }
+     ],
+     "dialogue": {
+      "scene": "Choosing transport",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Nehmen wir den Bus oder die U-Bahn?",
+        "english": "Shall we take the bus or the metro?"
+       },
+       {
+        "who": "me",
+        "target": "Die U-Bahn ist schneller.",
+        "english": "The metro is faster."
+       },
+       {
+        "who": "them",
+        "target": "Aber das Taxi ist noch schneller.",
+        "english": "But the taxi is even faster."
+       }
+      ],
+      "replyOptions": [
+       "Stimmt, aber das Taxi ist viel teurer.",
+       "Ja, das Taxi ist billiger.",
+       "Ich bin älter als du."
+      ],
+      "answer": 0
+     },
+     "tip": "Comparing: adjective + -er + als (than). schnell -> schneller als. Some add an umlaut: groß -> größer, alt -> älter. gut -> besser is irregular."
+    },
+    {
+     "id": "s4u5l2",
+     "title": "Best & most",
+     "items": [
+      {
+       "id": "s4u5l2-der-beste",
+       "target": "der beste",
+       "english": "the best",
+       "gender": "m",
+       "emoji": "🥇",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-am-besten",
+       "target": "am besten",
+       "english": "the best (adverb)",
+       "gender": null,
+       "emoji": "🥇",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-am-meisten",
+       "target": "am meisten",
+       "english": "the most",
+       "gender": null,
+       "emoji": "➕",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-am-schoensten",
+       "target": "am schönsten",
+       "english": "the prettiest",
+       "gender": null,
+       "emoji": "✨",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-am-groessten",
+       "target": "am größten",
+       "english": "the biggest",
+       "gender": null,
+       "emoji": "🏔️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-besser-als",
+       "target": "besser als",
+       "english": "better than",
+       "gender": null,
+       "emoji": "⚖️",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-so-gut-wie",
+       "target": "so gut wie",
+       "english": "as good as",
+       "gender": null,
+       "emoji": "🟰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l2-genauso",
+       "target": "genauso",
+       "english": "just as / equally",
+       "gender": null,
+       "emoji": "🟰",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-anders",
+       "target": "anders",
+       "english": "different",
+       "gender": null,
+       "emoji": "🔀",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-aehnlich",
+       "target": "ähnlich",
+       "english": "similar",
+       "gender": null,
+       "emoji": "👯",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-verschieden",
+       "target": "verschieden",
+       "english": "different / various",
+       "gender": null,
+       "emoji": "🎨",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l2-der-unterschied",
+       "target": "der Unterschied",
+       "english": "difference",
+       "gender": "m",
+       "emoji": "↔️",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Das ist der beste Kuchen in Berlin.",
+       "english": "That's the best cake in Berlin."
+      },
+      {
+       "target": "Wer trinkt am meisten Kaffee? Ich! Aber Anna kocht am besten.",
+       "english": "Who drinks the most coffee? Me! But Anna cooks best."
+      },
+      {
+       "target": "Im Sommer ist es am schönsten. Mein Bruder ist am größten.",
+       "english": "Summer is the prettiest. My brother is the tallest."
+      },
+      {
+       "target": "Dein Kaffee ist besser als mein Kaffee, aber nicht so gut wie im Café.",
+       "english": "Your coffee is better than mine, but not as good as in the café."
+      },
+      {
+       "target": "Wir sind genauso alt, aber wir sind sehr verschieden.",
+       "english": "We're just as old, but we're very different."
+      },
+      {
+       "target": "Das sieht ähnlich aus. Was ist der Unterschied? Es schmeckt ganz anders.",
+       "english": "That looks similar. What's the difference? It tastes totally different."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Das ist der ",
+       "after": " Kuchen.",
+       "options": [
+        "beste",
+        "besser",
+        "am besten"
+       ],
+       "answer": 0,
+       "english": "That's the best cake."
+      },
+      {
+       "before": "Anna kocht am ",
+       "after": ".",
+       "options": [
+        "besten",
+        "beste",
+        "besser"
+       ],
+       "answer": 0,
+       "english": "Anna cooks best."
+      },
+      {
+       "before": "Der Kaffee ist nicht so gut ",
+       "after": " im Café.",
+       "options": [
+        "wie",
+        "als",
+        "am"
+       ],
+       "answer": 0,
+       "english": "The coffee isn't as good as in the café."
+      },
+      {
+       "before": "Wir sind ",
+       "after": " alt.",
+       "options": [
+        "genauso",
+        "genaue",
+        "gerade"
+       ],
+       "answer": 0,
+       "english": "We're just as old."
+      }
+     ],
+     "dialogue": {
+      "scene": "Choosing a café",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Ich suche ein Café für Samstag.",
+        "english": "I'm looking for a café for Saturday."
+       },
+       {
+        "who": "me",
+        "target": "Gute Idee! Ich kenne viele.",
+        "english": "Good idea! I know a lot."
+       },
+       {
+        "who": "them",
+        "target": "Welches ist am besten?",
+        "english": "Which one is the best?"
+       }
+      ],
+      "replyOptions": [
+       "Das Café am Park. Dort ist der Kuchen am besten.",
+       "Ich bin älter als du.",
+       "Es ist heute wärmer."
+      ],
+      "answer": 0
+     },
+     "tip": "Best: am + -sten (am schönsten, am größten); irregular: gut, besser, am besten. Equal: so + adjective + wie."
+    },
+    {
+     "id": "s4u5l3",
+     "title": "Chatting",
+     "items": [
+      {
+       "id": "s4u5l3-wie-war-dein-tag",
+       "target": "Wie war dein Tag?",
+       "english": "How was your day?",
+       "gender": null,
+       "emoji": "📆",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-was-gibt-s-neues",
+       "target": "Was gibt's Neues?",
+       "english": "What's new?",
+       "gender": null,
+       "emoji": "🆕",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-und-sonst",
+       "target": "Und sonst?",
+       "english": "And otherwise?",
+       "gender": null,
+       "emoji": "➕",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-wie-laeuft-s",
+       "target": "Wie läuft's?",
+       "english": "How's it going?",
+       "gender": null,
+       "emoji": "🔄",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-alles-gut",
+       "target": "Alles gut?",
+       "english": "Everything okay?",
+       "gender": null,
+       "emoji": "🙂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-nicht-schlecht",
+       "target": "Nicht schlecht",
+       "english": "Not bad",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-es-geht",
+       "target": "Es geht",
+       "english": "So-so",
+       "gender": null,
+       "emoji": "🤏",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-so-lala",
+       "target": "So lala",
+       "english": "So-so / it's okay",
+       "gender": null,
+       "emoji": "😐",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-bei-mir-ist-alles-gut",
+       "target": "Bei mir ist alles gut",
+       "english": "Everything's good with me",
+       "gender": null,
+       "emoji": "😊",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-was-machst-du-so",
+       "target": "Was machst du so?",
+       "english": "What are you up to?",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-lange-nicht-gesehen",
+       "target": "Lange nicht gesehen",
+       "english": "Long time no see",
+       "gender": null,
+       "emoji": "👋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l3-was-machst-du-beruflich",
+       "target": "Was machst du beruflich?",
+       "english": "What do you do for work?",
+       "gender": null,
+       "emoji": "💼",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Hallo! Lange nicht gesehen! Wie geht's?",
+       "english": "Hello! Long time no see! How are you?"
+      },
+      {
+       "target": "Wie war dein Tag? Es geht.",
+       "english": "How was your day? It's okay."
+      },
+      {
+       "target": "Was gibt's Neues? Nicht viel. Und sonst?",
+       "english": "What's new? Not much. And otherwise?"
+      },
+      {
+       "target": "Wie läuft's? Alles gut? Bei mir ist alles gut.",
+       "english": "How's it going? All good? With me everything's good."
+      },
+      {
+       "target": "Was machst du so? Ich lerne viel Deutsch.",
+       "english": "What are you up to? I'm learning a lot of German."
+      },
+      {
+       "target": "Was machst du beruflich? Ich arbeite viel.",
+       "english": "What do you do for work? I work a lot."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Wie war ",
+       "after": " Tag?",
+       "options": [
+        "dein",
+        "du",
+        "dir"
+       ],
+       "answer": 0,
+       "english": "How was your day?"
+      },
+      {
+       "before": "Was gibt's ",
+       "after": "?",
+       "options": [
+        "Neues",
+        "neu",
+        "Neue"
+       ],
+       "answer": 0,
+       "english": "What's new?"
+      },
+      {
+       "before": "Lange nicht ",
+       "after": "!",
+       "options": [
+        "gesehen",
+        "sehen",
+        "gesehn"
+       ],
+       "answer": 0,
+       "english": "Long time no see!"
+      },
+      {
+       "before": "Es geht. Und ",
+       "after": "?",
+       "options": [
+        "sonst",
+        "mehr",
+        "auch"
+       ],
+       "answer": 0,
+       "english": "It's okay. And otherwise?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Bumping into a friend",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hey, Tom!",
+        "english": "Hey, Tom!"
+       },
+       {
+        "who": "me",
+        "target": "Anna! Lange nicht gesehen!",
+        "english": "Anna! Long time no see!"
+       },
+       {
+        "who": "them",
+        "target": "Ja! Wie läuft's?",
+        "english": "Yes! How's it going?"
+       }
+      ],
+      "replyOptions": [
+       "So lala. Und bei dir? Alles gut?",
+       "Ich habe einen Bruder.",
+       "Ich nehme einen Kaffee."
+      ],
+      "answer": 0
+     },
+     "tip": "Small talk is fixed blocks, not grammar: Wie läuft's? Was gibt's Neues? Answer short: Nicht schlecht / Es geht / So lala."
+    },
+    {
+     "id": "s4u5l4",
+     "title": "Talking about myself",
+     "items": [
+      {
+       "id": "s4u5l4-der-beruf",
+       "target": "der Beruf",
+       "english": "profession",
+       "gender": "m",
+       "emoji": "💼",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l4-der-job",
+       "target": "der Job",
+       "english": "job",
+       "gender": "m",
+       "emoji": "🧰",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l4-der-student",
+       "target": "der Student",
+       "english": "student (m)",
+       "gender": "m",
+       "emoji": "🎓",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l4-die-studentin",
+       "target": "die Studentin",
+       "english": "student (f)",
+       "gender": "f",
+       "emoji": "🎓",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l4-studieren",
+       "target": "studieren",
+       "english": "to study",
+       "gender": null,
+       "emoji": "📚",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l4-der-lehrer",
+       "target": "der Lehrer",
+       "english": "teacher (m)",
+       "gender": "m",
+       "emoji": "🧑‍🏫",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l4-die-lehrerin",
+       "target": "die Lehrerin",
+       "english": "teacher (f)",
+       "gender": "f",
+       "emoji": "👩‍🏫",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l4-ich-arbeite-als-ingenieur",
+       "target": "Ich arbeite als Ingenieur",
+       "english": "I work as an engineer",
+       "gender": null,
+       "emoji": "⚙️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l4-ich-studiere-medizin",
+       "target": "Ich studiere Medizin",
+       "english": "I study medicine",
+       "gender": null,
+       "emoji": "🩺",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l4-ich-suche-einen-job",
+       "target": "Ich suche einen Job",
+       "english": "I'm looking for a job",
+       "gender": null,
+       "emoji": "🔎",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l4-selbststaendig",
+       "target": "selbstständig",
+       "english": "self-employed",
+       "gender": null,
+       "emoji": "🧑‍💻",
+       "kind": "word"
+      },
+      {
+       "id": "s4u5l4-arbeitslos",
+       "target": "arbeitslos",
+       "english": "unemployed",
+       "gender": null,
+       "emoji": "📭",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Was ist dein Beruf? Ich bin Lehrer.",
+       "english": "What's your profession? I'm a teacher."
+      },
+      {
+       "target": "Ich bin Student. Meine Schwester ist Studentin.",
+       "english": "I'm a student. My sister is a student."
+      },
+      {
+       "target": "Ich studiere Medizin in Berlin.",
+       "english": "I study medicine in Berlin."
+      },
+      {
+       "target": "Ich arbeite als Ingenieur. Der Job ist nicht einfach.",
+       "english": "I work as an engineer. The job isn't easy."
+      },
+      {
+       "target": "Meine Mutter ist Lehrerin, mein Vater ist selbstständig.",
+       "english": "My mother is a teacher, my father is self-employed."
+      },
+      {
+       "target": "Ich bin arbeitslos und suche einen Job.",
+       "english": "I'm unemployed and looking for a job."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Ich arbeite ",
+       "after": " Ingenieur.",
+       "options": [
+        "als",
+        "wie",
+        "bei"
+       ],
+       "answer": 0,
+       "english": "I work as an engineer."
+      },
+      {
+       "before": "Ich ",
+       "after": " Medizin.",
+       "options": [
+        "studiere",
+        "studierst",
+        "studiert"
+       ],
+       "answer": 0,
+       "english": "I study medicine."
+      },
+      {
+       "before": "Meine Schwester ist ",
+       "after": ".",
+       "options": [
+        "Studentin",
+        "Student",
+        "Lehrer"
+       ],
+       "answer": 0,
+       "english": "My sister is a student."
+      },
+      {
+       "before": "Ich suche ",
+       "after": " Job.",
+       "options": [
+        "einen",
+        "ein",
+        "eine"
+       ],
+       "answer": 0,
+       "english": "I'm looking for a job."
+      }
+     ],
+     "dialogue": {
+      "scene": "At a party",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hi! Ich bin Julia.",
+        "english": "Hi! I'm Julia."
+       },
+       {
+        "who": "me",
+        "target": "Hi, Julia! Ich bin Tom.",
+        "english": "Hi, Julia! I'm Tom."
+       },
+       {
+        "who": "them",
+        "target": "Freut mich! Und was machst du beruflich?",
+        "english": "Nice to meet you! And what do you do for work?"
+       }
+      ],
+      "replyOptions": [
+       "Ich arbeite als Ingenieur.",
+       "Ich bin zwanzig Jahre alt.",
+       "Ich wohne in Berlin."
+      ],
+      "answer": 0
+     },
+     "tip": "als + job, with no article: Ich arbeite als Ingenieur. Add -in for women: der Lehrer -> die Lehrerin. 'I am a teacher' = Ich bin Lehrer."
+    },
+    {
+     "id": "s4u5l5",
+     "title": "Compliments & goodbyes",
+     "items": [
+      {
+       "id": "s4u5l5-das-steht-dir-gut",
+       "target": "Das steht dir gut",
+       "english": "That suits you",
+       "gender": null,
+       "emoji": "👗",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-du-siehst-toll-aus",
+       "target": "Du siehst toll aus",
+       "english": "You look great",
+       "gender": null,
+       "emoji": "😍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-gut-gemacht",
+       "target": "Gut gemacht!",
+       "english": "Well done!",
+       "gender": null,
+       "emoji": "👏",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-respekt",
+       "target": "Respekt!",
+       "english": "Respect!",
+       "gender": null,
+       "emoji": "🫡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-das-ist-nett-von-dir",
+       "target": "Das ist nett von dir",
+       "english": "That's nice of you",
+       "gender": null,
+       "emoji": "💛",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-prost",
+       "target": "Prost!",
+       "english": "Cheers!",
+       "gender": null,
+       "emoji": "🍻",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-wie-schoen",
+       "target": "Wie schön!",
+       "english": "How lovely!",
+       "gender": null,
+       "emoji": "🌸",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-das-ist-schoen-fuer-dich",
+       "target": "Das ist schön für dich",
+       "english": "That's nice for you",
+       "gender": null,
+       "emoji": "🎉",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-schoenen-tag-noch",
+       "target": "Schönen Tag noch!",
+       "english": "Have a nice day!",
+       "gender": null,
+       "emoji": "🌞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-mach-s-gut",
+       "target": "Mach's gut!",
+       "english": "Take care!",
+       "gender": null,
+       "emoji": "👋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-bis-bald",
+       "target": "Bis bald!",
+       "english": "See you soon!",
+       "gender": null,
+       "emoji": "👋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s4u5l5-schoenes-wochenende",
+       "target": "Schönes Wochenende!",
+       "english": "Have a nice weekend!",
+       "gender": null,
+       "emoji": "🎊",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Das steht dir gut! Du siehst toll aus.",
+       "english": "That suits you! You look great."
+      },
+      {
+       "target": "Gut gemacht! Respekt!",
+       "english": "Well done! Respect!"
+      },
+      {
+       "target": "Das ist nett von dir. Danke!",
+       "english": "That's nice of you. Thanks!"
+      },
+      {
+       "target": "Prost! Auf uns!",
+       "english": "Cheers! To us!"
+      },
+      {
+       "target": "Du hast einen Job? Wie schön! Das ist schön für dich.",
+       "english": "You have a job? How lovely! That's great for you."
+      },
+      {
+       "target": "Schönen Tag noch! Schönes Wochenende! Bis bald!",
+       "english": "Have a nice day! Nice weekend! See you soon!"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Das steht ",
+       "after": " gut.",
+       "options": [
+        "dir",
+        "du",
+        "dich"
+       ],
+       "answer": 0,
+       "english": "That suits you."
+      },
+      {
+       "before": "Das ist nett ",
+       "after": " dir.",
+       "options": [
+        "von",
+        "für",
+        "mit"
+       ],
+       "answer": 0,
+       "english": "That's nice of you."
+      },
+      {
+       "before": "",
+       "after": " Tag noch!",
+       "options": [
+        "Schönen",
+        "Schöner",
+        "Schöne"
+       ],
+       "answer": 0,
+       "english": "Have a nice day!"
+      },
+      {
+       "before": "Schönes ",
+       "after": "!",
+       "options": [
+        "Wochenende",
+        "Woche",
+        "Tag"
+       ],
+       "answer": 0,
+       "english": "Have a nice weekend!"
+      }
+     ],
+     "dialogue": {
+      "scene": "Leaving the party",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Ich muss jetzt gehen. Der Abend war super!",
+        "english": "I have to go now. The evening was great!"
+       },
+       {
+        "who": "me",
+        "target": "Das stimmt! Das war lustig.",
+        "english": "True! That was fun."
+       },
+       {
+        "who": "them",
+        "target": "Schönes Wochenende! Bis bald!",
+        "english": "Have a nice weekend! See you soon!"
+       }
+      ],
+      "replyOptions": [
+       "Dir auch! Mach's gut!",
+       "Prost! Ich nehme ein Bier.",
+       "Ich bin dagegen."
+      ],
+      "answer": 0
+     },
+     "tip": "Compliment chunks use dir (to you): Das steht dir gut. Das ist nett von dir. Learn the whole chunk, not the grammar."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+[
+ {
+  "id": "de-s3-st1",
+  "title": "Tom's weekend",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Hallo Tom! Wie war dein Wochenende?",
+    "english": "Hi Tom! How was your weekend?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Es war anstrengend! Am Samstag habe ich eingekauft und gekocht.",
+    "english": "It was exhausting! On Saturday I did the shopping and cooked."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Was hast du gekocht?",
+    "english": "What did you cook?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Pizza! Wir haben zusammen gegessen. Ich habe zu viel gegessen!",
+    "english": "Pizza! We ate together. I ate too much!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Und am Sonntag?",
+    "english": "And on Sunday?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich habe lange geschlafen. Dann habe ich einen Film gesehen.",
+    "english": "I slept for ages. Then I watched a film."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich bin nach Berlin gefahren. Ich habe den Zug verpasst und bin spät angekommen.",
+    "english": "I went to Berlin. I missed the train and arrived late."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Schade! Hast du mich angerufen?",
+    "english": "Too bad! Did you call me?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Nein, ich habe mein Handy vergessen!",
+    "english": "No, I forgot my phone!"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Das war lustig!",
+    "english": "That was funny!"
+   }
+  ]
+ },
+ {
+  "id": "de-s3-st2",
+  "title": "Lost passport",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Wir sind angekommen! Der Flug war anstrengend.",
+    "english": "We've arrived! The flight was exhausting."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ja, aber jetzt ist Urlaub! Wo ist das Hotel?",
+    "english": "Yes, but now it's holiday! Where's the hotel?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Gleich um die Ecke. Ich habe reserviert.",
+    "english": "Right around the corner. I have a reservation."
+   },
+   {
+    "speaker": "Rezeption",
+    "target": "Guten Abend! Wie ist Ihr Name?",
+    "english": "Good evening! What's your name?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Tom Smith. Ich habe ein Doppelzimmer gebucht.",
+    "english": "Tom Smith. I booked a double room."
+   },
+   {
+    "speaker": "Rezeption",
+    "target": "Ihren Pass, bitte.",
+    "english": "Your passport, please."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Oh nein! Mein Pass ist weg! Ich habe ihn verloren!",
+    "english": "Oh no! My passport is gone! I lost it!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Keine Panik! Schau mal im Koffer.",
+    "english": "Don't panic! Look in the suitcase."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich habe ihn gefunden! Hier ist er.",
+    "english": "I found it! Here it is."
+   },
+   {
+    "speaker": "Rezeption",
+    "target": "Bitte sehr. Hier ist der Schlüssel. Frühstück ist inklusive.",
+    "english": "Here you go. Here's the key. Breakfast is included."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Zum Glück! Gute Nacht, Tom.",
+    "english": "Luckily! Good night, Tom."
+   }
+  ]
+ },
+ {
+  "id": "de-s3-st3",
+  "title": "At the doctor",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Guten Tag, ich habe einen Termin um zehn.",
+    "english": "Hello, I have an appointment at ten."
+   },
+   {
+    "speaker": "Ärztin",
+    "target": "Guten Tag! Nehmen Sie Platz. Wie geht es Ihnen?",
+    "english": "Hello! Have a seat. How are you?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Nicht gut. Mir tut der Kopf weh und ich habe Fieber.",
+    "english": "Not good. My head hurts and I have a fever."
+   },
+   {
+    "speaker": "Ärztin",
+    "target": "Seit wann haben Sie das?",
+    "english": "Since when have you had that?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Seit gestern. Mir ist auch übel.",
+    "english": "Since yesterday. I also feel sick."
+   },
+   {
+    "speaker": "Ärztin",
+    "target": "Sie sind erkältet. Sie müssen im Bett bleiben.",
+    "english": "You have a cold. You have to stay in bed."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Muss ich eine Tablette nehmen?",
+    "english": "Do I have to take a tablet?"
+   },
+   {
+    "speaker": "Ärztin",
+    "target": "Hier ist ein Rezept. Nehmen Sie die Tablette dreimal täglich.",
+    "english": "Here's a prescription. Take the tablet three times a day."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Bin ich krankgeschrieben?",
+    "english": "Am I signed off sick?"
+   },
+   {
+    "speaker": "Ärztin",
+    "target": "Ja, bis Freitag. Gute Besserung!",
+    "english": "Yes, until Friday. Get well soon!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Vielen Dank! Ich gehe zur Apotheke.",
+    "english": "Thank you very much! I'm going to the pharmacy."
+   }
+  ]
+ },
+ {
+  "id": "de-s3-st4",
+  "title": "Beach or not?",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Wie ist das Wetter heute?",
+    "english": "What's the weather like today?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Es regnet und es ist kühl. Schade!",
+    "english": "It's raining and it's cool. Too bad!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Hast du den Wetterbericht gesehen? Morgen soll die Sonne scheinen.",
+    "english": "Did you see the forecast? Tomorrow the sun is supposed to shine."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Hoffentlich! Im Sommer ist das Wetter schön, aber im Herbst regnet es oft.",
+    "english": "Hopefully! In summer the weather is nice, but in autumn it rains often."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Wir fahren morgen an den Strand! Es hat wahrscheinlich zwanzig Grad.",
+    "english": "We're going to the beach tomorrow! It's probably twenty degrees."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Super! Ich nehme meine Sonnenbrille und Sonnencreme mit.",
+    "english": "Great! I'll take my sunglasses and sunscreen."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Und einen Schal! Am Abend wird es kälter.",
+    "english": "And a scarf! In the evening it gets colder."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Gut. Zieh dich auch warm an!",
+    "english": "OK. You dress warmly too!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Keine Panik! Ich habe meine Regenjacke.",
+    "english": "Don't panic! I have my rain jacket."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Dann wird es wunderbar.",
+    "english": "Then it'll be wonderful."
+   }
+  ]
+ },
+ {
+  "id": "de-s3-st5",
+  "title": "The birthday party",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Anna, am Samstag ist meine Feier. Ich habe Geburtstag!",
+    "english": "Anna, my party is on Saturday. It's my birthday!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Herzlichen Glückwunsch! Alles Gute zum Geburtstag!",
+    "english": "Congratulations! Happy birthday!"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Danke! Ich lade dich ein. Kommst du?",
+    "english": "Thanks! I'm inviting you. Are you coming?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich komme gern! Ich schenke dir ein Buch.",
+    "english": "I'd love to come! I'll give you a book."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Super! Und ich werde Pizza kochen.",
+    "english": "Great! And I'll cook pizza."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Wirklich? Ich hoffe, du nimmst nicht wieder so viel Salz!",
+    "english": "Really? I hope you don't take so much salt again!"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Haha! Keine Panik, ich werde es versuchen.",
+    "english": "Haha! Don't panic, I'll try."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Wann fängt die Feier an?",
+    "english": "When does the party start?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Um acht Uhr. Komm bitte nicht spät!",
+    "english": "At eight o'clock. Please don't come late!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich werde pünktlich sein. Bis später!",
+    "english": "I'll be on time. See you later!"
+   }
+  ]
+ }
+]

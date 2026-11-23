@@ -1,0 +1,297 @@
+[
+ {
+  "id": "de-s6-st1",
+  "title": "Anna's new job",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Heute ist mein erster Tag in der neuen Firma.",
+    "english": "Today is my first day at the new company."
+   },
+   {
+    "speaker": "Chefin",
+    "target": "Guten Morgen, Anna! Ich bin die Chefin, die Sie eingestellt hat.",
+    "english": "Good morning, Anna! I'm the boss who hired you."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Guten Morgen! Vielen Dank für Ihre Nachricht.",
+    "english": "Good morning! Thank you for your message."
+   },
+   {
+    "speaker": "Chefin",
+    "target": "Das ist Ihr Büro. Dort sitzt der Mitarbeiter, der Ihnen hilft.",
+    "english": "This is your office. The employee who helps you sits over there."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Super. Haben Sie einen Moment Zeit? Ich habe eine Frage zum Vertrag.",
+    "english": "Great. Do you have a moment? I have a question about the contract."
+   },
+   {
+    "speaker": "Chefin",
+    "target": "Klar. Bitte unterschreiben Sie hier, um das Formular fertig zu machen.",
+    "english": "Sure. Please sign here to finish the form."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Gern. Und wann ist die erste Besprechung?",
+    "english": "Gladly. And when is the first meeting?"
+   },
+   {
+    "speaker": "Chefin",
+    "target": "Um zehn. Das Projekt, das wir haben, ist groß, aber die Frist ist lang.",
+    "english": "At ten. The project we have is big, but the deadline is long."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Gut. Ich mache heute keine Überstunden, oder?",
+    "english": "Good. I won't do overtime today, right?"
+   },
+   {
+    "speaker": "Chefin",
+    "target": "Nein, um fünf machen Sie Feierabend.",
+    "english": "No, at five you call it a day."
+   }
+  ]
+ },
+ {
+  "id": "de-s6-st2",
+  "title": "Tom discovers Germany",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Anna, in Deutschland ist alles so ordentlich!",
+    "english": "Anna, everything in Germany is so orderly!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ja, man trennt den Müll und bringt Flaschen zum Pfandautomaten.",
+    "english": "Yes, you separate your waste and take bottles to the deposit machine."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Und am Sonntag ist alles geschlossen. Das ist komisch.",
+    "english": "And on Sunday everything is closed. That's weird."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das ist die Sonntagsruhe. Nur der Spätkauf ist offen.",
+    "english": "That's the Sunday quiet. Only the late-night shop is open."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Heute möchte ich eine Spezialität essen, die ich noch nicht kenne.",
+    "english": "Today I'd like to eat a speciality that I don't know yet."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Dann gehen wir in den Biergarten. Dort gibt es Brezel und Schnitzel.",
+    "english": "Then we'll go to the beer garden. They have pretzels and schnitzel there."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Super! Und im Dezember? Gibt es einen Weihnachtsmarkt?",
+    "english": "Great! And in December? Is there a Christmas market?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ja, in Köln wird er jedes Jahr gefeiert, und es gibt Lebkuchen.",
+    "english": "Yes, in Cologne it's celebrated every year, and there's gingerbread."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ich liebe diese Tradition schon jetzt!",
+    "english": "I already love this tradition!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Dann kommst du im Winter wieder nach Deutschland.",
+    "english": "Then you'll come back to Germany in winter."
+   }
+  ]
+ },
+ {
+  "id": "de-s6-st3",
+  "title": "The big dinner debate",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Anna",
+    "target": "Heute Abend diskutieren wir über den Verkehr. Wer fängt an?",
+    "english": "Tonight we're discussing traffic. Who starts?"
+   },
+   {
+    "speaker": "Jonas",
+    "target": "Ich! Erstens ist das Auto bequem, und zweitens ist es schnell.",
+    "english": "Me! Firstly the car is comfortable, and secondly it's fast."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Darf ich kurz etwas sagen? Das Deutschlandticket ist viel billiger.",
+    "english": "May I say something quickly? The Deutschlandticket is much cheaper."
+   },
+   {
+    "speaker": "Jonas",
+    "target": "Das stimmt zwar, aber ich sehe das trotzdem anders.",
+    "english": "That's true, but I still see it differently."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Außerdem ist der Klimawandel ein großes Problem.",
+    "english": "Besides, climate change is a big problem."
+   },
+   {
+    "speaker": "Jonas",
+    "target": "Da muss ich widersprechen. Wo ist der Beweis?",
+    "english": "I have to disagree there. Where's the proof?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Es gibt viele Studien. Eine Quelle ist die Regierung.",
+    "english": "There are many studies. One source is the government."
+   },
+   {
+    "speaker": "Jonas",
+    "target": "Lass mich ausreden, ich bin noch nicht fertig!",
+    "english": "Let me finish, I'm not done yet!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Entschuldige, wenn ich unterbreche. Wir drehen uns im Kreis.",
+    "english": "Sorry if I interrupt. We're going in circles."
+   },
+   {
+    "speaker": "Jonas",
+    "target": "Okay, ich bin nicht überzeugt, aber ich probiere den Bus einen Monat.",
+    "english": "Okay, I'm not convinced, but I'll try the bus for a month."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Einverstanden, machen wir es so!",
+    "english": "Agreed, let's do it that way!"
+   }
+  ]
+ },
+ {
+  "id": "de-s6-st4",
+  "title": "A day of idioms",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Morgen ist meine Prüfung. Ich bin so nervös!",
+    "english": "Tomorrow is my exam. I'm so nervous!"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich drücke dir die Daumen! Aller Anfang ist schwer, aber Übung macht den Meister.",
+    "english": "Fingers crossed! Every beginning is hard, but practice makes perfect."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Heute habe ich alle Hände voll zu tun. Ich lerne den ganzen Tag.",
+    "english": "Today I've got my hands full. I'm studying all day."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Soll ich dir helfen? Das ist ein Kinderspiel für mich.",
+    "english": "Should I help you? That's a piece of cake for me."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ehrlich gesagt, ich verstehe nur Bahnhof.",
+    "english": "Honestly, I don't understand a thing."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Na ja, das ist halt schwer. Komm doch kurz zu mir, es ist nur ein Katzensprung.",
+    "english": "Well, it's just hard. Do come over, it's only a stone's throw."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Na klar! Ach so, was kostet die Hilfe?",
+    "english": "Of course! Oh I see, what does the help cost?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Nichts. Wie du mir, so ich dir, du machst Kaffee.",
+    "english": "Nothing. As you to me, so I to you, you make coffee."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Abgemacht. Und morgen? Mal schauen, ob ich Schwein habe.",
+    "english": "Deal. And tomorrow? We'll see if I'm lucky."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ende gut, alles gut. Und wenn nicht: Schwamm drüber!",
+    "english": "All's well that ends well. And if not: forget it!"
+   }
+  ]
+ },
+ {
+  "id": "de-s6-st5",
+  "title": "Surviving a Berlin party",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Moin, Anna! Biste schon da?",
+    "english": "Hey, Anna! Are you there yet?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Servus, Tom! Na klar, ich bin schon seit acht da.",
+    "english": "Hey, Tom! Of course, I've been here since eight."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Gibt's was Neues? Und wer ist die Frau dort?",
+    "english": "Anything new? And who's the woman over there?"
+   },
+   {
+    "speaker": "Anna",
+    "target": "Das ist Frau Berger. Darf ich du sagen? Sie ist ganz locker.",
+    "english": "That's Ms Berger. May I say du? She's very relaxed."
+   },
+   {
+    "speaker": "Frau Berger",
+    "target": "Natürlich! Wir können uns duzen. Hier wird nicht gesiezt!",
+    "english": "Of course! We can use du. Nobody says Sie here!"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Danke! Kannst du das wiederholen? Ich habe nicht alles verstanden.",
+    "english": "Thanks! Can you repeat that? I didn't understand everything."
+   },
+   {
+    "speaker": "Frau Berger",
+    "target": "Klar, ich spreche langsamer. Es wird gleich serviert.",
+    "english": "Sure, I'll speak slower. The food is being served soon."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Super! Ich habe Hunger. Ich nehme 'n bisschen Kartoffelsalat.",
+    "english": "Great! I'm hungry. I'll have a bit of potato salad."
+   },
+   {
+    "speaker": "Anna",
+    "target": "Ich muss gleich los. Morgen ist Montag.",
+    "english": "I have to run soon. Tomorrow is Monday."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Ciao, Anna! Man sieht sich!",
+    "english": "Ciao, Anna! See you around!"
+   }
+  ]
+ }
+]

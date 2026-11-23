@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ru-s1-st1",
+    "title": "Anna meets Tom",
+    "level": "A1",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Анна",
+        "target": "Привет! Меня зовут Анна. Как тебя зовут?",
+        "english": "Hi! My name is Anna. What is your name?",
+        "translit": "Privet! Menya zovut Anna. Kak tebya zovut?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Привет! Меня зовут Том. Очень приятно.",
+        "english": "Hi! My name is Tom. Nice to meet you.",
+        "translit": "Privet! Menya zovut Tom. Ochen' priyatno."
+      },
+      {
+        "speaker": "Анна",
+        "target": "Очень приятно! Откуда ты?",
+        "english": "Nice to meet you! Where are you from?",
+        "translit": "Ochen' priyatno! Otkuda ty?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Я из Америки. Откуда ты?",
+        "english": "I am from America. Where are you from?",
+        "translit": "Ya iz Ameriki. Otkuda ty?"
+      },
+      {
+        "speaker": "Анна",
+        "target": "Я из России. Я студентка.",
+        "english": "I am from Russia. I am a student.",
+        "translit": "Ya iz Rossii. Ya studentka."
+      },
+      {
+        "speaker": "Том",
+        "target": "Я программист. Я не понимаю. Повторите пожалуйста.",
+        "english": "I am a programmer. I do not understand. Please repeat.",
+        "translit": "Ya programmist. Ya ne ponimayu. Povtorite pozhaluysta."
+      },
+      {
+        "speaker": "Анна",
+        "target": "Хорошо! Я студентка. Мама врач, папа учитель.",
+        "english": "Okay! I am a student. Mum is a doctor, dad is a teacher.",
+        "translit": "Khorosho! Ya studentka. Mama vrach, papa uchitel'."
+      },
+      {
+        "speaker": "Том",
+        "target": "Хорошо! Кофе?",
+        "english": "Good! Coffee?",
+        "translit": "Khorosho! Kofe?"
+      },
+      {
+        "speaker": "Анна",
+        "target": "Да, кофе! Спасибо!",
+        "english": "Yes, coffee! Thanks!",
+        "translit": "Da, kofe! Spasibo!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Пожалуйста. Как дела?",
+        "english": "You are welcome. How are things?",
+        "translit": "Pozhaluysta. Kak dela?"
+      },
+      {
+        "speaker": "Анна",
+        "target": "Нормально, спасибо. Пока, Том!",
+        "english": "Fine, thanks. Bye, Tom!",
+        "translit": "Normal'no, spasibo. Poka, Tom!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Пока, Анна!",
+        "english": "Bye, Anna!",
+        "translit": "Poka, Anna!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s1-st2",
+    "title": "Lunch with a vegetarian",
+    "level": "A1",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Иван",
+        "target": "Добрый день! Меню?",
+        "english": "Good day! The menu?",
+        "translit": "Dobryy den'! Menyu?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да, спасибо. Мне кофе с молоком, пожалуйста.",
+        "english": "Yes, thanks. Coffee with milk for me, please.",
+        "translit": "Da, spasibo. Mne kofe s molokom, pozhaluysta."
+      },
+      {
+        "speaker": "Анна",
+        "target": "Мне чай без сахара. И суп.",
+        "english": "Tea without sugar for me. And soup.",
+        "translit": "Mne chay bez sakhara. I sup."
+      },
+      {
+        "speaker": "Иван",
+        "target": "Хорошо. Здесь или с собой?",
+        "english": "Okay. Here or to go?",
+        "translit": "Khorosho. Zdes' ili s soboy?"
+      },
+      {
+        "speaker": "Анна",
+        "target": "Здесь, спасибо.",
+        "english": "Here, thanks.",
+        "translit": "Zdes', spasibo."
+      },
+      {
+        "speaker": "Том",
+        "target": "Я вегетарианец. У вас есть салат?",
+        "english": "I am a vegetarian. Do you have a salad?",
+        "translit": "Ya vegetarianets. U vas yest' salat?"
+      },
+      {
+        "speaker": "Иван",
+        "target": "Да. Салат, суп, пицца без мяса.",
+        "english": "Yes. Salad, soup, pizza without meat.",
+        "translit": "Da. Salat, sup, pitstsa bez myasa."
+      },
+      {
+        "speaker": "Том",
+        "target": "Пицца без мяса, пожалуйста. И вода.",
+        "english": "Pizza without meat, please. And water.",
+        "translit": "Pitstsa bez myasa, pozhaluysta. I voda."
+      },
+      {
+        "speaker": "Иван",
+        "target": "Приятного аппетита!",
+        "english": "Enjoy your meal!",
+        "translit": "Priyatnovo appetita!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Всё было вкусно! Счёт, пожалуйста.",
+        "english": "Everything was delicious! The bill, please.",
+        "translit": "Vsyo bylo vkusno! Schyot, pozhaluysta."
+      },
+      {
+        "speaker": "Иван",
+        "target": "Наличные или по карте?",
+        "english": "Cash or by card?",
+        "translit": "Nalichnyye ili po karte?"
+      },
+      {
+        "speaker": "Том",
+        "target": "По карте. Спасибо!",
+        "english": "By card. Thanks!",
+        "translit": "Po karte. Spasibo!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s1-st3",
+    "title": "At the market",
+    "level": "A1",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Добрый день! Сколько стоит банан?",
+        "english": "Good day! How much is a banana?",
+        "translit": "Dobryy den'! Skol'ko stoit banan?"
+      },
+      {
+        "speaker": "Иван",
+        "target": "Банан двадцать рублей. Апельсин тридцать.",
+        "english": "A banana is twenty roubles. An orange is thirty.",
+        "translit": "Banan dvadtsat' rubley. Apel'sin tridtsat'."
+      },
+      {
+        "speaker": "Анна",
+        "target": "Слишком дорого! У вас есть скидка?",
+        "english": "Too expensive! Do you have a discount?",
+        "translit": "Slishkom dorogo! U vas yest' skidka?"
+      },
+      {
+        "speaker": "Иван",
+        "target": "Конечно. Скидка десять рублей. Три банана и два апельсина: сто десять.",
+        "english": "Of course. A ten-rouble discount. Three bananas and two oranges: one hundred ten.",
+        "translit": "Koneshno. Skidka desyat' rubley. Tri banana i dva apel'sina: sto desyat'."
+      },
+      {
+        "speaker": "Том",
+        "target": "Хорошо! Я возьму это.",
+        "english": "Good! I will take this.",
+        "translit": "Khorosho! Ya voz'mu eto."
+      },
+      {
+        "speaker": "Иван",
+        "target": "Пакет? Это всё?",
+        "english": "A bag? Is that all?",
+        "translit": "Paket? Eto vsyo?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да, пакет, пожалуйста. Можно по карте?",
+        "english": "Yes, a bag, please. Can I pay by card?",
+        "translit": "Da, paket, pozhaluysta. Mozhno po karte?"
+      },
+      {
+        "speaker": "Иван",
+        "target": "Нет, по карте нельзя. Банкомат там, налево.",
+        "english": "No, not by card. The cash machine is over there, to the left.",
+        "translit": "Net, po karte nel'zya. Bankomat tam, nalevo."
+      },
+      {
+        "speaker": "Том",
+        "target": "Анна, у тебя есть наличные?",
+        "english": "Anna, do you have cash?",
+        "translit": "Anna, u tebya yest' nalichnyye?"
+      },
+      {
+        "speaker": "Анна",
+        "target": "Да. Сто десять? Договорились!",
+        "english": "Yes. A hundred ten? Deal!",
+        "translit": "Da. Sto desyat'? Dogovorilis'!"
+      },
+      {
+        "speaker": "Иван",
+        "target": "Спасибо! Вот чек.",
+        "english": "Thanks! Here is your receipt.",
+        "translit": "Spasibo! Vot chek."
+      },
+      {
+        "speaker": "Том",
+        "target": "Спасибо, Анна! Кофе? Я хочу платить!",
+        "english": "Thanks, Anna! Coffee? I want to pay!",
+        "translit": "Spasibo, Anna! Kofe? Ya khochu platit'!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s1-st4",
+    "title": "Lost in town",
+    "level": "A1",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Извините, вы не подскажете, где вокзал? Я потерялся.",
+        "english": "Excuse me, could you tell me where the station is? I am lost.",
+        "translit": "Izvinite, vy ne podskazhete, gde vokzal? Ya poteryalsya."
+      },
+      {
+        "speaker": "Иван",
+        "target": "Вокзал? Это далеко. Прямо, налево. Там мост, рядом вокзал.",
+        "english": "The station? It is far. Straight on, to the left. There is a bridge, the station is next to it.",
+        "translit": "Vokzal? Eto daleko. Pryamo, nalevo. Tam most, ryadom vokzal."
+      },
+      {
+        "speaker": "Том",
+        "target": "Сколько минут пешком?",
+        "english": "How many minutes on foot?",
+        "translit": "Skol'ko minut peshkom?"
+      },
+      {
+        "speaker": "Иван",
+        "target": "Двадцать минут. Или на автобусе: пять минут.",
+        "english": "Twenty minutes. Or by bus: five minutes.",
+        "translit": "Dvadtsat' minut. Ili na avtobuse: pyat' minut."
+      },
+      {
+        "speaker": "Том",
+        "target": "Где остановка?",
+        "english": "Where is the bus stop?",
+        "translit": "Gde ostanovka?"
+      },
+      {
+        "speaker": "Иван",
+        "target": "Вот тут, направо.",
+        "english": "Right here, to the right.",
+        "translit": "Vot tut, napravo."
+      },
+      {
+        "speaker": "Том",
+        "target": "Спасибо! Мне нужен билет.",
+        "english": "Thanks! I need a ticket.",
+        "translit": "Spasibo! Mne nuzhen bilet."
+      },
+      {
+        "speaker": "Анна",
+        "target": "Привет, Том! Где ты? Я здесь!",
+        "english": "Hi, Tom! Where are you? I am here!",
+        "translit": "Privet, Tom! Gde ty? Ya zdes'!"
+      },
+      {
+        "speaker": "Том",
+        "target": "Я на автобусе. Пробка!",
+        "english": "I am on the bus. A traffic jam!",
+        "translit": "Ya na avtobuse. Probka!"
+      },
+      {
+        "speaker": "Анна",
+        "target": "Ничего страшного. У тебя есть билет и паспорт?",
+        "english": "No big deal. Do you have a ticket and a passport?",
+        "translit": "Nichevo strashnovo. U tebya yest' bilet i pasport?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Да, у меня есть один билет туда и обратно.",
+        "english": "Yes, I have one return ticket.",
+        "translit": "Da, u menya yest' odin bilet tuda i obratno."
+      },
+      {
+        "speaker": "Анна",
+        "target": "Хорошо! Пока!",
+        "english": "Good! Bye!",
+        "translit": "Khorosho! Poka!"
+      }
+    ]
+  },
+  {
+    "id": "ru-s1-st5",
+    "title": "Tom loses his phone",
+    "level": "A1",
+    "minutes": 2,
+    "lines": [
+      {
+        "speaker": "Том",
+        "target": "Помогите! Украли телефон!",
+        "english": "Help! My phone was stolen!",
+        "translit": "Pomogite! Ukrali telefon!"
+      },
+      {
+        "speaker": "Иван",
+        "target": "Здравствуйте! Что у вас? Проблема?",
+        "english": "Hello! What is up? A problem?",
+        "translit": "Zdravstvuyte! Shto u vas? Problema?"
+      },
+      {
+        "speaker": "Том",
+        "target": "У меня проблема! Украли телефон. Мне нужна помощь.",
+        "english": "I have a problem! My phone was stolen. I need help.",
+        "translit": "U menya problema! Ukrali telefon. Mne nuzhna pomoshch'."
+      },
+      {
+        "speaker": "Иван",
+        "target": "Подождите минуточку. Вы говорите по-русски?",
+        "english": "Wait a moment. Do you speak Russian?",
+        "translit": "Podozhdite minutochku. Vy govorite po-russki?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Я не говорю по-русски хорошо. Говорите медленно, пожалуйста.",
+        "english": "I do not speak Russian well. Speak slowly, please.",
+        "translit": "Ya ne govoryu po-russki khorosho. Govorite medlenno, pozhaluysta."
+      },
+      {
+        "speaker": "Иван",
+        "target": "Хорошо. Всё в порядке? Врач нужен?",
+        "english": "Okay. Is everything fine? Do you need a doctor?",
+        "translit": "Khorosho. Vsyo v poryadke? Vrach nuzhen?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Нет, всё в порядке. Телефон нужен срочно!",
+        "english": "No, everything is fine. I need a phone urgently!",
+        "translit": "Net, vsyo v poryadke. Telefon nuzhen srochno!"
+      },
+      {
+        "speaker": "Анна",
+        "target": "Том! Я здесь! Что у тебя?",
+        "english": "Tom! I am here! What is up?",
+        "translit": "Tom! Ya zdes'! Shto u tebya?"
+      },
+      {
+        "speaker": "Том",
+        "target": "У меня нет телефона. Украли!",
+        "english": "I do not have a phone. It was stolen!",
+        "translit": "U menya net telefona. Ukrali!"
+      },
+      {
+        "speaker": "Анна",
+        "target": "Ничего страшного. У меня есть телефон. Ты хочешь?",
+        "english": "No big deal. I have a phone. Do you want it?",
+        "translit": "Nichevo strashnovo. U menya yest' telefon. Ty khochesh'?"
+      },
+      {
+        "speaker": "Том",
+        "target": "Конечно! Спасибо! Договорились!",
+        "english": "Of course! Thanks! Deal!",
+        "translit": "Koneshno! Spasibo! Dogovorilis'!"
+      },
+      {
+        "speaker": "Анна",
+        "target": "Пожалуйста! Кофе? Я хочу пить.",
+        "english": "You are welcome! Coffee? I am thirsty.",
+        "translit": "Pozhaluysta! Kofe? Ya khochu pit'."
+      }
+    ]
+  }
+]

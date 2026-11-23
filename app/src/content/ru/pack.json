@@ -1,0 +1,22 @@
+{
+ "id": "ru",
+ "name": "Russian",
+ "nativeName": "Русский",
+ "flag": "🇷🇺",
+ "voice": "ru-RU",
+ "articles": null,
+ "genderLabels": {
+  "m": "м",
+  "f": "ж",
+  "n": "ср"
+ },
+ "translitUntilStage": 2,
+ "stages": [
+  "stage1.json",
+  "stage2.json",
+  "stage3.json",
+  "stage4.json",
+  "stage5.json",
+  "stage6.json"
+ ]
+}

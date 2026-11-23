@@ -1,0 +1,5617 @@
+{
+  "id": "s6",
+  "title": "Fluency",
+  "level": "B1",
+  "units": [
+    {
+      "id": "s6u1",
+      "title": "Work & study",
+      "lessons": [
+        {
+          "id": "s6u1l1",
+          "title": "The workplace",
+          "items": [
+            {
+              "id": "s6u1l1-professiya",
+              "target": "профессия",
+              "english": "profession",
+              "gender": "f",
+              "emoji": "🧑‍💼",
+              "kind": "word",
+              "translit": "professiya"
+            },
+            {
+              "id": "s6u1l1-dolzhnost",
+              "target": "должность",
+              "english": "job title, position",
+              "gender": "f",
+              "emoji": "🏷️",
+              "kind": "word",
+              "translit": "dolzhnost'"
+            },
+            {
+              "id": "s6u1l1-kompaniya",
+              "target": "компания",
+              "english": "company",
+              "gender": "f",
+              "emoji": "🏢",
+              "example": {
+                "target": "Я работаю в компании.",
+                "english": "I work at a company.",
+                "translit": "Ya rabotayu v kompanii."
+              },
+              "kind": "word",
+              "translit": "kompaniya"
+            },
+            {
+              "id": "s6u1l1-ofis",
+              "target": "офис",
+              "english": "office",
+              "gender": "m",
+              "emoji": "🏬",
+              "kind": "word",
+              "translit": "ofis"
+            },
+            {
+              "id": "s6u1l1-rukovoditel",
+              "target": "руководитель",
+              "english": "manager, boss",
+              "gender": "m",
+              "emoji": "👔",
+              "kind": "word",
+              "translit": "rukovoditel'"
+            },
+            {
+              "id": "s6u1l1-sotrudnik",
+              "target": "сотрудник",
+              "english": "colleague, employee",
+              "gender": "m",
+              "emoji": "🧑‍💻",
+              "kind": "word",
+              "translit": "sotrudnik"
+            },
+            {
+              "id": "s6u1l1-kliyent",
+              "target": "клиент",
+              "english": "client",
+              "gender": "m",
+              "emoji": "🤝",
+              "kind": "word",
+              "translit": "kliyent"
+            },
+            {
+              "id": "s6u1l1-proyekt",
+              "target": "проект",
+              "english": "project",
+              "gender": "m",
+              "emoji": "📁",
+              "kind": "word",
+              "translit": "proyekt"
+            },
+            {
+              "id": "s6u1l1-zadacha",
+              "target": "задача",
+              "english": "task",
+              "gender": "f",
+              "emoji": "✅",
+              "kind": "word",
+              "translit": "zadacha"
+            },
+            {
+              "id": "s6u1l1-srok",
+              "target": "срок",
+              "english": "deadline, term",
+              "gender": "m",
+              "emoji": "⏳",
+              "kind": "word",
+              "translit": "srok"
+            },
+            {
+              "id": "s6u1l1-komandirovka",
+              "target": "командировка",
+              "english": "business trip",
+              "gender": "f",
+              "emoji": "🧳",
+              "kind": "word",
+              "translit": "komandirovka"
+            },
+            {
+              "id": "s6u1l1-grafik",
+              "target": "график",
+              "english": "schedule",
+              "gender": "m",
+              "emoji": "📅",
+              "kind": "word",
+              "translit": "grafik"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Какая у тебя профессия?",
+              "english": "What is your profession?",
+              "translit": "Kakaya u tebya professiya?"
+            },
+            {
+              "target": "Моя должность — менеджер.",
+              "english": "My position is manager.",
+              "translit": "Moya dolzhnost' — menedzher."
+            },
+            {
+              "target": "Мой брат работает врачом.",
+              "english": "My brother works as a doctor.",
+              "translit": "Moy brat rabotayet vrachom."
+            },
+            {
+              "target": "Наш офис очень хороший.",
+              "english": "Our office is very nice.",
+              "translit": "Nash ofis ochen' khoroshiy."
+            },
+            {
+              "target": "Руководитель сегодня в командировке.",
+              "english": "The manager is on a business trip today.",
+              "translit": "Rukovoditel' sevodnya v komandirovke."
+            },
+            {
+              "target": "У меня новый клиент и большой проект.",
+              "english": "I have a new client and a big project.",
+              "translit": "U menya novyy kliyent i bol'shoy proyekt."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Он работает ",
+              "after": " в школе.",
+              "options": [
+                "учителем",
+                "учитель",
+                "учителя"
+              ],
+              "answer": 0,
+              "english": "He works as a teacher at a school."
+            },
+            {
+              "before": "У нас хороший ",
+              "after": ".",
+              "options": [
+                "руководителя",
+                "руководитель",
+                "руководителем"
+              ],
+              "answer": 1,
+              "english": "We have a good manager."
+            },
+            {
+              "before": "Завтра я еду в ",
+              "after": ".",
+              "options": [
+                "командировка",
+                "командировке",
+                "командировку"
+              ],
+              "answer": 2,
+              "english": "Tomorrow I am going on a business trip."
+            },
+            {
+              "before": "Это очень трудная ",
+              "after": ".",
+              "options": [
+                "задача",
+                "задачу",
+                "задачи"
+              ],
+              "answer": 0,
+              "english": "This is a very hard task."
+            }
+          ],
+          "dialogue": {
+            "scene": "A new colleague asks about you.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Привет! Ты новый сотрудник?",
+                "english": "Hi! Are you the new employee?",
+                "translit": "Privet! Ty novyy sotrudnik?"
+              },
+              {
+                "who": "me",
+                "target": "Да, я работаю в этой компании с понедельника.",
+                "english": "Yes, I have worked at this company since Monday.",
+                "translit": "Da, ya rabotayu v etoy kompanii s ponedel'nika."
+              },
+              {
+                "who": "them",
+                "target": "Отлично! А какая у тебя должность?",
+                "english": "Great! And what is your position?",
+                "translit": "Otlichno! A kakaya u tebya dolzhnost'?"
+              }
+            ],
+            "replyOptions": [
+              "Я менеджер по проектам.",
+              "Мой график очень хороший.",
+              "Да, это мой любимый клиент."
+            ],
+            "answer": 0
+          },
+          "tip": "Work as a profession takes the instrumental: работать + врачом, программистом. Just add the -ом ending to the job."
+        },
+        {
+          "id": "s6u1l2",
+          "title": "Job hunting",
+          "items": [
+            {
+              "id": "s6u1l2-rezyume",
+              "target": "резюме",
+              "english": "CV, resume",
+              "gender": "n",
+              "emoji": "📄",
+              "kind": "word",
+              "translit": "rezyume"
+            },
+            {
+              "id": "s6u1l2-vakansiya",
+              "target": "вакансия",
+              "english": "job opening",
+              "gender": "f",
+              "emoji": "📢",
+              "kind": "word",
+              "translit": "vakansiya"
+            },
+            {
+              "id": "s6u1l2-opyt",
+              "target": "опыт",
+              "english": "experience",
+              "gender": "m",
+              "emoji": "💪",
+              "kind": "word",
+              "translit": "opyt"
+            },
+            {
+              "id": "s6u1l2-obrazovaniye",
+              "target": "образование",
+              "english": "education",
+              "gender": "n",
+              "emoji": "🎓",
+              "kind": "word",
+              "translit": "obrazovaniye"
+            },
+            {
+              "id": "s6u1l2-navyk",
+              "target": "навык",
+              "english": "skill",
+              "gender": "m",
+              "emoji": "🛠️",
+              "kind": "word",
+              "translit": "navyk"
+            },
+            {
+              "id": "s6u1l2-sobesedovaniye",
+              "target": "собеседование",
+              "english": "job interview",
+              "gender": "n",
+              "emoji": "🗣️",
+              "kind": "word",
+              "translit": "sobesedovaniye"
+            },
+            {
+              "id": "s6u1l2-ispytatelnyy-srok",
+              "target": "испытательный срок",
+              "english": "probation period",
+              "gender": null,
+              "emoji": "⏱️",
+              "kind": "phrase",
+              "translit": "ispytatel'nyy srok"
+            },
+            {
+              "id": "s6u1l2-trudoustroystvo",
+              "target": "трудоустройство",
+              "english": "employment, getting hired",
+              "gender": "n",
+              "emoji": "🤝",
+              "kind": "word",
+              "translit": "trudoustroystvo"
+            },
+            {
+              "id": "s6u1l2-uvolitsya",
+              "target": "уволиться",
+              "english": "to quit (a job)",
+              "gender": null,
+              "emoji": "🚪",
+              "kind": "word",
+              "translit": "uvolit'sya"
+            },
+            {
+              "id": "s6u1l2-povysheniye",
+              "target": "повышение",
+              "english": "promotion",
+              "gender": "n",
+              "emoji": "📈",
+              "kind": "word",
+              "translit": "povysheniye"
+            },
+            {
+              "id": "s6u1l2-karyera",
+              "target": "карьера",
+              "english": "career",
+              "gender": "f",
+              "emoji": "🪜",
+              "example": {
+                "target": "Карьера — это важно.",
+                "english": "Career is important.",
+                "translit": "Kar'yera — eto vazhno."
+              },
+              "kind": "word",
+              "translit": "kar'yera"
+            },
+            {
+              "id": "s6u1l2-rekomendatsiya",
+              "target": "рекомендация",
+              "english": "recommendation, reference",
+              "gender": "f",
+              "emoji": "👍",
+              "kind": "word",
+              "translit": "rekomendatsiya"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Я отправил резюме вчера.",
+              "english": "I sent my CV yesterday.",
+              "translit": "Ya otpravil rezyume vchera."
+            },
+            {
+              "target": "Есть новая вакансия в нашей компании.",
+              "english": "There is a new opening at our company.",
+              "translit": "Yest' novaya vakansiya v nashey kompanii."
+            },
+            {
+              "target": "У меня большой опыт работы.",
+              "english": "I have a lot of work experience.",
+              "translit": "U menya bol'shoy opyt raboty."
+            },
+            {
+              "target": "Завтра у меня собеседование.",
+              "english": "Tomorrow I have a job interview.",
+              "translit": "Zavtra u menya sobesedovaniye."
+            },
+            {
+              "target": "Я уволился, потому что хочу новую карьеру.",
+              "english": "I quit because I want a new career.",
+              "translit": "Ya uvolilsya, potomu shto khochu novuyu kar'yeru."
+            },
+            {
+              "target": "Мне нужна хорошая рекомендация.",
+              "english": "I need a good reference.",
+              "translit": "Mne nuzhna khoroshaya rekomendatsiya."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Я хочу ",
+              "after": " в пятницу.",
+              "options": [
+                "увольнять",
+                "уволиться",
+                "уволен"
+              ],
+              "answer": 1,
+              "english": "I want to quit on Friday."
+            },
+            {
+              "before": "Какой у тебя ",
+              "after": "?",
+              "options": [
+                "опыта",
+                "опыту",
+                "опыт"
+              ],
+              "answer": 2,
+              "english": "What experience do you have?"
+            },
+            {
+              "before": "Они дали мне ",
+              "after": ".",
+              "options": [
+                "повышение",
+                "повышения",
+                "повышении"
+              ],
+              "answer": 0,
+              "english": "They gave me a promotion."
+            },
+            {
+              "before": "У меня хорошее ",
+              "after": ".",
+              "options": [
+                "образования",
+                "образование",
+                "образованию"
+              ],
+              "answer": 1,
+              "english": "I have a good education."
+            }
+          ],
+          "dialogue": {
+            "scene": "A friend checks your job hunt.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Ну что, как поиск работы?",
+                "english": "So, how is the job hunt?",
+                "translit": "Nu shto, kak poisk raboty?"
+              },
+              {
+                "who": "me",
+                "target": "Я отправил резюме в пять компаний.",
+                "english": "I sent my CV to five companies.",
+                "translit": "Ya otpravil rezyume v pyat' kompaniy."
+              },
+              {
+                "who": "them",
+                "target": "И что? Есть собеседование?",
+                "english": "And? Is there an interview?",
+                "translit": "I shto? Yest' sobesedovaniye?"
+              }
+            ],
+            "replyOptions": [
+              "Да, завтра в десять утра.",
+              "Нет, у меня нет резюме.",
+              "Да, это мой брат."
+            ],
+            "answer": 0
+          },
+          "tip": "Result = perfect verb: уволиться (to quit, done) vs увольняться (the process). 'Я уволился' means it is finished."
+        },
+        {
+          "id": "s6u1l3",
+          "title": "Studying",
+          "items": [
+            {
+              "id": "s6u1l3-universitet",
+              "target": "университет",
+              "english": "university",
+              "gender": "m",
+              "emoji": "🏛️",
+              "kind": "word",
+              "translit": "universitet"
+            },
+            {
+              "id": "s6u1l3-shkola",
+              "target": "школа",
+              "english": "school",
+              "gender": "f",
+              "emoji": "🏫",
+              "kind": "word",
+              "translit": "shkola"
+            },
+            {
+              "id": "s6u1l3-fakultet",
+              "target": "факультет",
+              "english": "faculty, department",
+              "gender": "m",
+              "emoji": "🎓",
+              "kind": "word",
+              "translit": "fakul'tet"
+            },
+            {
+              "id": "s6u1l3-kurs",
+              "target": "курс",
+              "english": "course, year of study",
+              "gender": "m",
+              "emoji": "📚",
+              "kind": "word",
+              "translit": "kurs"
+            },
+            {
+              "id": "s6u1l3-lektsiya",
+              "target": "лекция",
+              "english": "lecture",
+              "gender": "f",
+              "emoji": "🧑‍🏫",
+              "kind": "word",
+              "translit": "lektsiya"
+            },
+            {
+              "id": "s6u1l3-seminar",
+              "target": "семинар",
+              "english": "seminar",
+              "gender": "m",
+              "emoji": "💬",
+              "kind": "word",
+              "translit": "seminar"
+            },
+            {
+              "id": "s6u1l3-ekzamen",
+              "target": "экзамен",
+              "english": "exam",
+              "gender": "m",
+              "emoji": "📝",
+              "kind": "word",
+              "translit": "ekzamen"
+            },
+            {
+              "id": "s6u1l3-zachyot",
+              "target": "зачёт",
+              "english": "pass/fail test",
+              "gender": "m",
+              "emoji": "✔️",
+              "kind": "word",
+              "translit": "zachyot"
+            },
+            {
+              "id": "s6u1l3-diplom",
+              "target": "диплом",
+              "english": "diploma, thesis",
+              "gender": "m",
+              "emoji": "📜",
+              "kind": "word",
+              "translit": "diplom"
+            },
+            {
+              "id": "s6u1l3-stipendiya",
+              "target": "стипендия",
+              "english": "scholarship, grant",
+              "gender": "f",
+              "emoji": "💰",
+              "kind": "word",
+              "translit": "stipendiya"
+            },
+            {
+              "id": "s6u1l3-prepodavatel",
+              "target": "преподаватель",
+              "english": "lecturer, teacher",
+              "gender": "m",
+              "emoji": "👩‍🏫",
+              "kind": "word",
+              "translit": "prepodavatel'"
+            },
+            {
+              "id": "s6u1l3-aspirantura",
+              "target": "аспирантура",
+              "english": "postgraduate studies",
+              "gender": "f",
+              "emoji": "🔬",
+              "kind": "word",
+              "translit": "aspirantura"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Я учусь в университете.",
+              "english": "I study at a university.",
+              "translit": "Ya uchus' v universitete."
+            },
+            {
+              "target": "На каком ты факультете?",
+              "english": "Which faculty are you at?",
+              "translit": "Na kakom ty fakul'tete?"
+            },
+            {
+              "target": "У нас сегодня лекция и семинар.",
+              "english": "Today we have a lecture and a seminar.",
+              "translit": "U nas sevodnya lektsiya i seminar."
+            },
+            {
+              "target": "Завтра у меня трудный экзамен.",
+              "english": "Tomorrow I have a hard exam.",
+              "translit": "Zavtra u menya trudnyy ekzamen."
+            },
+            {
+              "target": "Моя сестра пишет диплом.",
+              "english": "My sister is writing her thesis.",
+              "translit": "Moya sestra pishet diplom."
+            },
+            {
+              "target": "Он хочет изучать историю в аспирантуре.",
+              "english": "He wants to study history in postgraduate school.",
+              "translit": "On khochet izuchat' istoriyu v aspiranture."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Я ",
+              "after": " русский язык.",
+              "options": [
+                "изучают",
+                "изучать",
+                "изучаю"
+              ],
+              "answer": 2,
+              "english": "I study the Russian language."
+            },
+            {
+              "before": "Мы сдаём ",
+              "after": " в июне.",
+              "options": [
+                "экзамен",
+                "экзамена",
+                "экзамене"
+              ],
+              "answer": 0,
+              "english": "We take the exam in June."
+            },
+            {
+              "before": "Он получает ",
+              "after": ".",
+              "options": [
+                "стипендия",
+                "стипендию",
+                "стипендии"
+              ],
+              "answer": 1,
+              "english": "He gets a scholarship."
+            },
+            {
+              "before": "Это наш новый ",
+              "after": ".",
+              "options": [
+                "преподавателя",
+                "преподавателю",
+                "преподаватель"
+              ],
+              "answer": 2,
+              "english": "This is our new lecturer."
+            }
+          ],
+          "dialogue": {
+            "scene": "Chatting with a student on campus.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Ты тоже здесь учишься?",
+                "english": "Do you study here too?",
+                "translit": "Ty tozhe zdes' uchish'sya?"
+              },
+              {
+                "who": "me",
+                "target": "Да, я на втором курсе.",
+                "english": "Yes, I am in my second year.",
+                "translit": "Da, ya na vtorom kurse."
+              },
+              {
+                "who": "them",
+                "target": "А на каком факультете?",
+                "english": "And which faculty?",
+                "translit": "A na kakom fakul'tete?"
+              }
+            ],
+            "replyOptions": [
+              "На экономическом.",
+              "Завтра в десять часов.",
+              "Это хороший зачёт."
+            ],
+            "answer": 0
+          },
+          "tip": "Study + accusative: изучать язык, изучать историю. The verb takes the thing directly, no preposition."
+        },
+        {
+          "id": "s6u1l4",
+          "title": "Office life",
+          "items": [
+            {
+              "id": "s6u1l4-soveshchaniye",
+              "target": "совещание",
+              "english": "meeting",
+              "gender": "n",
+              "emoji": "🗂️",
+              "kind": "word",
+              "translit": "soveshchaniye"
+            },
+            {
+              "id": "s6u1l4-sozvon",
+              "target": "созвон",
+              "english": "(video) call",
+              "gender": "m",
+              "emoji": "📞",
+              "kind": "word",
+              "translit": "sozvon"
+            },
+            {
+              "id": "s6u1l4-otchyot",
+              "target": "отчёт",
+              "english": "report",
+              "gender": "m",
+              "emoji": "📊",
+              "kind": "word",
+              "translit": "otchyot"
+            },
+            {
+              "id": "s6u1l4-prezentatsiya",
+              "target": "презентация",
+              "english": "presentation",
+              "gender": "f",
+              "emoji": "🖥️",
+              "kind": "word",
+              "translit": "prezentatsiya"
+            },
+            {
+              "id": "s6u1l4-dogovor",
+              "target": "договор",
+              "english": "contract, agreement",
+              "gender": "m",
+              "emoji": "📑",
+              "kind": "word",
+              "translit": "dogovor"
+            },
+            {
+              "id": "s6u1l4-dedlayn",
+              "target": "дедлайн",
+              "english": "deadline",
+              "gender": "m",
+              "emoji": "⏰",
+              "kind": "word",
+              "translit": "dedlayn"
+            },
+            {
+              "id": "s6u1l4-pereryv",
+              "target": "перерыв",
+              "english": "break",
+              "gender": "m",
+              "emoji": "☕",
+              "kind": "word",
+              "translit": "pereryv"
+            },
+            {
+              "id": "s6u1l4-obedennyy-pereryv",
+              "target": "обеденный перерыв",
+              "english": "lunch break",
+              "gender": null,
+              "emoji": "🍽️",
+              "kind": "phrase",
+              "translit": "obedennyy pereryv"
+            },
+            {
+              "id": "s6u1l4-bolnichnyy",
+              "target": "больничный",
+              "english": "sick leave",
+              "gender": "m",
+              "emoji": "🤒",
+              "kind": "word",
+              "translit": "bol'nichnyy"
+            },
+            {
+              "id": "s6u1l4-udalyonnaya-rabota",
+              "target": "удалённая работа",
+              "english": "remote work",
+              "gender": "f",
+              "emoji": "🏠",
+              "kind": "phrase",
+              "translit": "udalyonnaya rabota"
+            },
+            {
+              "id": "s6u1l4-pererabotka",
+              "target": "переработка",
+              "english": "overtime",
+              "gender": "f",
+              "emoji": "🌙",
+              "kind": "word",
+              "translit": "pererabotka"
+            },
+            {
+              "id": "s6u1l4-premiya",
+              "target": "премия",
+              "english": "bonus",
+              "gender": "f",
+              "emoji": "🎁",
+              "kind": "word",
+              "translit": "premiya"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Совещание начинается в десять.",
+              "english": "The meeting starts at ten.",
+              "translit": "Soveshchaniye nachinayetsya v desyat'."
+            },
+            {
+              "target": "У нас созвон с клиентом в три часа.",
+              "english": "We have a call with the client at three.",
+              "translit": "U nas sozvon s kliyentom v tri chasa."
+            },
+            {
+              "target": "Я пишу отчёт и делаю презентацию.",
+              "english": "I am writing a report and making a presentation.",
+              "translit": "Ya pishu otchyot i delayu prezentatsiyu."
+            },
+            {
+              "target": "Дедлайн завтра, а договор ещё не готов.",
+              "english": "The deadline is tomorrow and the contract is not ready yet.",
+              "translit": "Dedlayn zavtra, a dogovor yeshchyo ne gotov."
+            },
+            {
+              "target": "Сейчас у нас обеденный перерыв.",
+              "english": "We are on our lunch break now.",
+              "translit": "Seychas u nas obedennyy pereryv."
+            },
+            {
+              "target": "Я хочу удалённую работу и премию.",
+              "english": "I want remote work and a bonus.",
+              "translit": "Ya khochu udalyonnuyu rabotu i premiyu."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Сегодня я на ",
+              "after": ".",
+              "options": [
+                "больничном",
+                "больничный",
+                "больничной"
+              ],
+              "answer": 0,
+              "english": "Today I am on sick leave."
+            },
+            {
+              "before": "Это очень ",
+              "after": " отчёт.",
+              "options": [
+                "нужная",
+                "нужный",
+                "нужное"
+              ],
+              "answer": 1,
+              "english": "This is a very needed report."
+            },
+            {
+              "before": "Мне нужен ",
+              "after": ".",
+              "options": [
+                "перерыва",
+                "перерыве",
+                "перерыв"
+              ],
+              "answer": 2,
+              "english": "I need a break."
+            },
+            {
+              "before": "Он получил ",
+              "after": " в декабре.",
+              "options": [
+                "премию",
+                "премия",
+                "премии"
+              ],
+              "answer": 0,
+              "english": "He got a bonus in December."
+            }
+          ],
+          "dialogue": {
+            "scene": "Monday morning at the office.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Ты видел мой отчёт?",
+                "english": "Have you seen my report?",
+                "translit": "Ty videl moy otchyot?"
+              },
+              {
+                "who": "me",
+                "target": "Да, он очень хороший.",
+                "english": "Yes, it is very good.",
+                "translit": "Da, on ochen' khoroshiy."
+              },
+              {
+                "who": "them",
+                "target": "Спасибо! Ты будешь на совещании в два?",
+                "english": "Thanks! Will you be at the meeting at two?",
+                "translit": "Spasibo! Ty budesh' na soveshchanii v dva?"
+              }
+            ],
+            "replyOptions": [
+              "Да, я приду.",
+              "Нет, я не люблю совещания.",
+              "Я люблю обеденный чай."
+            ],
+            "answer": 0
+          },
+          "tip": "Words like нужный (needed) and назначенный (appointed) are adjectives made from verbs: treat them like any adjective and match gender."
+        },
+        {
+          "id": "s6u1l5",
+          "title": "Formal writing",
+          "items": [
+            {
+              "id": "s6u1l5-uvazhayemyy",
+              "target": "уважаемый",
+              "english": "dear (formal)",
+              "gender": null,
+              "emoji": "✉️",
+              "kind": "word",
+              "translit": "uvazhayemyy"
+            },
+            {
+              "id": "s6u1l5-s-uvazheniyem",
+              "target": "с уважением",
+              "english": "sincerely, regards",
+              "gender": null,
+              "emoji": "🤝",
+              "kind": "phrase",
+              "translit": "s uvazheniyem"
+            },
+            {
+              "id": "s6u1l5-proshu-vas",
+              "target": "прошу вас",
+              "english": "I ask you, please",
+              "gender": null,
+              "emoji": "🙏",
+              "kind": "phrase",
+              "translit": "proshu vas"
+            },
+            {
+              "id": "s6u1l5-vo-vlozhenii",
+              "target": "во вложении",
+              "english": "attached, in the attachment",
+              "gender": null,
+              "emoji": "📎",
+              "kind": "phrase",
+              "translit": "vo vlozhenii"
+            },
+            {
+              "id": "s6u1l5-v-blizhaysheye-vremya",
+              "target": "в ближайшее время",
+              "english": "in the near future, soon",
+              "gender": null,
+              "emoji": "🔜",
+              "kind": "phrase",
+              "translit": "v blizhaysheye vremya"
+            },
+            {
+              "id": "s6u1l5-po-povodu",
+              "target": "по поводу",
+              "english": "regarding, about",
+              "gender": null,
+              "emoji": "📌",
+              "kind": "phrase",
+              "translit": "po povodu"
+            },
+            {
+              "id": "s6u1l5-soglasovat",
+              "target": "согласовать",
+              "english": "to agree on, to get approved",
+              "gender": null,
+              "emoji": "🤝",
+              "kind": "word",
+              "translit": "soglasovat'"
+            },
+            {
+              "id": "s6u1l5-utochnit",
+              "target": "уточнить",
+              "english": "to clarify",
+              "gender": null,
+              "emoji": "🔍",
+              "kind": "word",
+              "translit": "utochnit'"
+            },
+            {
+              "id": "s6u1l5-napravit",
+              "target": "направить",
+              "english": "to send, to direct",
+              "gender": null,
+              "emoji": "📤",
+              "kind": "word",
+              "translit": "napravit'"
+            },
+            {
+              "id": "s6u1l5-oformit",
+              "target": "оформить",
+              "english": "to arrange, to process",
+              "gender": null,
+              "emoji": "🗃️",
+              "kind": "word",
+              "translit": "oformit'"
+            },
+            {
+              "id": "s6u1l5-rassmotret",
+              "target": "рассмотреть",
+              "english": "to consider, to review",
+              "gender": null,
+              "emoji": "👀",
+              "kind": "word",
+              "translit": "rassmotret'"
+            },
+            {
+              "id": "s6u1l5-zaraneye-blagodaryu",
+              "target": "заранее благодарю",
+              "english": "thank you in advance",
+              "gender": null,
+              "emoji": "🙇",
+              "kind": "phrase",
+              "translit": "zaraneye blagodaryu"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Уважаемый Иван Петрович!",
+              "english": "Dear Ivan Petrovich!",
+              "translit": "Uvazhayemyy Ivan Petrovich!"
+            },
+            {
+              "target": "Пишу вам по поводу договора.",
+              "english": "I am writing to you about the contract.",
+              "translit": "Pishu vam po povodu dogovora."
+            },
+            {
+              "target": "Во вложении мой отчёт и резюме.",
+              "english": "Attached are my report and CV.",
+              "translit": "Vo vlozhenii moy otchyot i rezyume."
+            },
+            {
+              "target": "Прошу вас рассмотреть мою заявку.",
+              "english": "Please review my application.",
+              "translit": "Proshu vas rassmotret' moyu zayavku."
+            },
+            {
+              "target": "Мы ответим в ближайшее время.",
+              "english": "We will reply soon.",
+              "translit": "My otvetim v blizhaysheye vremya."
+            },
+            {
+              "target": "Заранее благодарю. С уважением, Анна.",
+              "english": "Thank you in advance. Sincerely, Anna.",
+              "translit": "Zaraneye blagodaryu. S uvazheniyem, Anna."
+            }
+          ],
+          "fills": [
+            {
+              "before": "",
+              "after": " господин Смирнов!",
+              "options": [
+                "Уважаемая",
+                "Уважаемый",
+                "Уважать"
+              ],
+              "answer": 1,
+              "english": "Dear Mr. Smirnov!"
+            },
+            {
+              "before": "Пишу вам ",
+              "after": " вакансии.",
+              "options": [
+                "по дороге",
+                "на поводу",
+                "по поводу"
+              ],
+              "answer": 2,
+              "english": "I am writing to you about the vacancy."
+            },
+            {
+              "before": "Прошу вас ",
+              "after": " срок.",
+              "options": [
+                "уточнить",
+                "уточнил",
+                "уточнение"
+              ],
+              "answer": 0,
+              "english": "Please clarify the deadline."
+            },
+            {
+              "before": "Я хочу ",
+              "after": " договор.",
+              "options": [
+                "оформил",
+                "оформить",
+                "оформление"
+              ],
+              "answer": 1,
+              "english": "I want to arrange the contract."
+            }
+          ],
+          "dialogue": {
+            "scene": "Writing a formal email with a colleague.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Как мне начать письмо директору?",
+                "english": "How do I start the letter to the director?",
+                "translit": "Kak mne nachat' pis'mo direktoru?"
+              },
+              {
+                "who": "me",
+                "target": "Напиши «Уважаемый Сергей Иванович!»",
+                "english": "Write 'Dear Sergey Ivanovich!'",
+                "translit": "Napishi «Uvazhayemyy Sergey Ivanovich!»"
+              },
+              {
+                "who": "them",
+                "target": "А как закончить письмо?",
+                "english": "And how do I end the letter?",
+                "translit": "A kak zakonchit' pis'mo?"
+              }
+            ],
+            "replyOptions": [
+              "«С уважением, Мария».",
+              "«Привет, пока, чувак».",
+              "«Во вложении борщ»."
+            ],
+            "answer": 0
+          },
+          "tip": "Formal letters run on chunks: Уважаемый + name ... С уважением. Learn the chunk whole, do not take it apart."
+        }
+      ]
+    },
+    {
+      "id": "s6u2",
+      "title": "Culture & Russia",
+      "lessons": [
+        {
+          "id": "s6u2l1",
+          "title": "Places",
+          "items": [
+            {
+              "id": "s6u2l1-moskva",
+              "target": "Москва",
+              "english": "Moscow",
+              "gender": "f",
+              "emoji": "🏙️",
+              "example": {
+                "target": "Я из Москвы.",
+                "english": "I am from Moscow.",
+                "translit": "Ya iz Moskvy."
+              },
+              "kind": "word",
+              "translit": "Moskva"
+            },
+            {
+              "id": "s6u2l1-sankt-peterburg",
+              "target": "Санкт-Петербург",
+              "english": "Saint Petersburg",
+              "gender": "m",
+              "emoji": "🌉",
+              "kind": "word",
+              "translit": "Sankt-Peterburg"
+            },
+            {
+              "id": "s6u2l1-sibir",
+              "target": "Сибирь",
+              "english": "Siberia",
+              "gender": "f",
+              "emoji": "🌲",
+              "kind": "word",
+              "translit": "Sibir'"
+            },
+            {
+              "id": "s6u2l1-kreml",
+              "target": "Кремль",
+              "english": "the Kremlin",
+              "gender": "m",
+              "emoji": "🏰",
+              "kind": "word",
+              "translit": "Kreml'"
+            },
+            {
+              "id": "s6u2l1-krasnaya-ploshchad",
+              "target": "Красная площадь",
+              "english": "Red Square",
+              "gender": "f",
+              "emoji": "🟥",
+              "kind": "phrase",
+              "translit": "Krasnaya ploshchad'"
+            },
+            {
+              "id": "s6u2l1-volga",
+              "target": "Волга",
+              "english": "the Volga river",
+              "gender": "f",
+              "emoji": "🌊",
+              "kind": "word",
+              "translit": "Volga"
+            },
+            {
+              "id": "s6u2l1-baykal",
+              "target": "Байкал",
+              "english": "Lake Baikal",
+              "gender": "m",
+              "emoji": "🏞️",
+              "kind": "word",
+              "translit": "Baykal"
+            },
+            {
+              "id": "s6u2l1-ermitazh",
+              "target": "Эрмитаж",
+              "english": "the Hermitage museum",
+              "gender": "m",
+              "emoji": "🖼️",
+              "kind": "word",
+              "translit": "Ermitazh"
+            },
+            {
+              "id": "s6u2l1-transsibirskaya-magistral",
+              "target": "Транссибирская магистраль",
+              "english": "Trans-Siberian railway",
+              "gender": "f",
+              "emoji": "🚆",
+              "kind": "phrase",
+              "translit": "Transsibirskaya magistral'"
+            },
+            {
+              "id": "s6u2l1-dacha",
+              "target": "дача",
+              "english": "dacha, country house",
+              "gender": "f",
+              "emoji": "🏡",
+              "kind": "word",
+              "translit": "dacha"
+            },
+            {
+              "id": "s6u2l1-russkaya-zima",
+              "target": "русская зима",
+              "english": "Russian winter",
+              "gender": "f",
+              "emoji": "❄️",
+              "kind": "phrase",
+              "translit": "russkaya zima"
+            },
+            {
+              "id": "s6u2l1-belyye-nochi",
+              "target": "белые ночи",
+              "english": "white nights",
+              "gender": null,
+              "emoji": "🌌",
+              "kind": "phrase",
+              "translit": "belyye nochi"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Я родом из Москвы.",
+              "english": "I am originally from Moscow.",
+              "translit": "Ya rodom iz Moskvy."
+            },
+            {
+              "target": "Красная площадь и Кремль очень красивые.",
+              "english": "Red Square and the Kremlin are very beautiful.",
+              "translit": "Krasnaya ploshchad' i Kreml' ochen' krasivyye."
+            },
+            {
+              "target": "Волга — большая река.",
+              "english": "The Volga is a big river.",
+              "translit": "Volga — bol'shaya reka."
+            },
+            {
+              "target": "Летом мы едем на дачу.",
+              "english": "In summer we go to the dacha.",
+              "translit": "Letom my yedem na dachu."
+            },
+            {
+              "target": "В Петербурге белые ночи, и там очень красиво.",
+              "english": "In Petersburg there are white nights and it is very beautiful there.",
+              "translit": "V Peterburge belyye nochi, i tam ochen' krasivo."
+            },
+            {
+              "target": "Я хочу поехать на Байкал на поезде.",
+              "english": "I want to go to Baikal by train.",
+              "translit": "Ya khochu poyekhat' na Baykal na poyezde."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Он приехал ",
+              "after": ".",
+              "options": [
+                "в Петербург",
+                "на Петербург",
+                "из Петербурга"
+              ],
+              "answer": 2,
+              "english": "He came from Petersburg."
+            },
+            {
+              "before": "Мы идём в ",
+              "after": ".",
+              "options": [
+                "Эрмитаж",
+                "Эрмитажа",
+                "Эрмитажем"
+              ],
+              "answer": 0,
+              "english": "We are going to the Hermitage."
+            },
+            {
+              "before": "Моя бабушка живёт ",
+              "after": ".",
+              "options": [
+                "в Сибирь",
+                "в Сибири",
+                "из Сибири"
+              ],
+              "answer": 1,
+              "english": "My grandmother lives in Siberia."
+            },
+            {
+              "before": "В России очень холодная ",
+              "after": ".",
+              "options": [
+                "зиму",
+                "зимы",
+                "зима"
+              ],
+              "answer": 2,
+              "english": "It is a very cold winter in Russia."
+            }
+          ],
+          "dialogue": {
+            "scene": "Planning a trip to Russia with a friend.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Ты был в России?",
+                "english": "Have you been to Russia?",
+                "translit": "Ty byl v Rossii?"
+              },
+              {
+                "who": "me",
+                "target": "Нет, но я очень хочу поехать.",
+                "english": "No, but I really want to go.",
+                "translit": "Net, no ya ochen' khochu poyekhat'."
+              },
+              {
+                "who": "them",
+                "target": "Куда ты хочешь поехать в первую очередь?",
+                "english": "Where do you want to go first?",
+                "translit": "Kuda ty khochesh' poyekhat' v pervuyu ochered'?"
+              }
+            ],
+            "replyOptions": [
+              "В Москву и в Петербург.",
+              "Я люблю чай с вареньем.",
+              "Это русская зима."
+            ],
+            "answer": 0
+          },
+          "tip": "Capital letters for names: Москва, Волга. 'From' a place = из + genitive: из Москвы, из Петербурга."
+        },
+        {
+          "id": "s6u2l2",
+          "title": "Holidays",
+          "items": [
+            {
+              "id": "s6u2l2-novyy-god",
+              "target": "Новый год",
+              "english": "New Year",
+              "gender": "m",
+              "emoji": "🎆",
+              "example": {
+                "target": "С Новым годом!",
+                "english": "Happy New Year!",
+                "translit": "S Novym godom!"
+              },
+              "kind": "phrase",
+              "translit": "Novyy god"
+            },
+            {
+              "id": "s6u2l2-rozhdestvo",
+              "target": "Рождество",
+              "english": "Christmas",
+              "gender": "n",
+              "emoji": "🎄",
+              "kind": "word",
+              "translit": "Rozhdestvo"
+            },
+            {
+              "id": "s6u2l2-maslenitsa",
+              "target": "Масленица",
+              "english": "Maslenitsa (pancake week)",
+              "gender": "f",
+              "emoji": "🥞",
+              "kind": "word",
+              "translit": "Maslenitsa"
+            },
+            {
+              "id": "s6u2l2-paskha",
+              "target": "Пасха",
+              "english": "Easter",
+              "gender": "f",
+              "emoji": "🐣",
+              "kind": "word",
+              "translit": "Paskha"
+            },
+            {
+              "id": "s6u2l2-den-pobedy",
+              "target": "День Победы",
+              "english": "Victory Day (9 May)",
+              "gender": "m",
+              "emoji": "🎖️",
+              "kind": "phrase",
+              "translit": "Den' Pobedy"
+            },
+            {
+              "id": "s6u2l2-vosmoye-marta",
+              "target": "Восьмое марта",
+              "english": "8th of March (Women's Day)",
+              "gender": "n",
+              "emoji": "🌷",
+              "kind": "phrase",
+              "translit": "Vos'moye marta"
+            },
+            {
+              "id": "s6u2l2-yolka",
+              "target": "ёлка",
+              "english": "fir tree, New Year tree",
+              "gender": "f",
+              "emoji": "🎄",
+              "kind": "word",
+              "translit": "yolka"
+            },
+            {
+              "id": "s6u2l2-ded-moroz",
+              "target": "Дед Мороз",
+              "english": "Father Frost",
+              "gender": "m",
+              "emoji": "🎅",
+              "kind": "phrase",
+              "translit": "Ded Moroz"
+            },
+            {
+              "id": "s6u2l2-shampanskoye",
+              "target": "шампанское",
+              "english": "champagne",
+              "gender": "n",
+              "emoji": "🍾",
+              "kind": "word",
+              "translit": "shampanskoye"
+            },
+            {
+              "id": "s6u2l2-salyut",
+              "target": "салют",
+              "english": "fireworks",
+              "gender": "m",
+              "emoji": "🎇",
+              "kind": "word",
+              "translit": "salyut"
+            },
+            {
+              "id": "s6u2l2-tost",
+              "target": "тост",
+              "english": "toast",
+              "gender": "m",
+              "emoji": "🥂",
+              "kind": "word",
+              "translit": "tost"
+            },
+            {
+              "id": "s6u2l2-za-zdorovye",
+              "target": "за здоровье",
+              "english": "to your health",
+              "gender": null,
+              "emoji": "🍻",
+              "kind": "phrase",
+              "translit": "za zdorov'ye"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "С Новым годом! Счастья вам!",
+              "english": "Happy New Year! Wishing you happiness!",
+              "translit": "S Novym godom! Schast'ya vam!"
+            },
+            {
+              "target": "Дед Мороз приходит к детям на Новый год.",
+              "english": "Father Frost comes to children at New Year.",
+              "translit": "Ded Moroz prikhodit k detyam na Novyy god."
+            },
+            {
+              "target": "На Масленицу мы едим много блинов.",
+              "english": "On Maslenitsa we eat lots of pancakes.",
+              "translit": "Na Maslenitsu my yedim mnogo blinov."
+            },
+            {
+              "target": "Девятого мая — День Победы, и вечером салют.",
+              "english": "On the ninth of May it is Victory Day, and there are fireworks in the evening.",
+              "translit": "Devyatovo maya — Den' Pobedy, i vecherom salyut."
+            },
+            {
+              "target": "В полночь все пьют шампанское.",
+              "english": "At midnight everyone drinks champagne.",
+              "translit": "V polnoch' vse p'yut shampanskoye."
+            },
+            {
+              "target": "Первый тост — за здоровье!",
+              "english": "The first toast is to health!",
+              "translit": "Pervyy tost — za zdorov'ye!"
+            }
+          ],
+          "fills": [
+            {
+              "before": "С ",
+              "after": "!",
+              "options": [
+                "Рождеством",
+                "Рождество",
+                "Рождества"
+              ],
+              "answer": 0,
+              "english": "Merry Christmas!"
+            },
+            {
+              "before": "Мы поздравляем маму ",
+              "after": ".",
+              "options": [
+                "на Восьмое марта",
+                "с Восьмым марта",
+                "в Восьмое марта"
+              ],
+              "answer": 1,
+              "english": "We congratulate mum on the 8th of March."
+            },
+            {
+              "before": "У нас дома стоит большая ",
+              "after": ".",
+              "options": [
+                "ёлку",
+                "ёлки",
+                "ёлка"
+              ],
+              "answer": 2,
+              "english": "We have a big tree at home."
+            },
+            {
+              "before": "Давайте выпьем ",
+              "after": "!",
+              "options": [
+                "за здоровье",
+                "от здоровья",
+                "в здоровье"
+              ],
+              "answer": 0,
+              "english": "Let's drink to health!"
+            }
+          ],
+          "dialogue": {
+            "scene": "New Year's Eve at a friend's home.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Через минуту Новый год! Налить тебе шампанское?",
+                "english": "One minute to the New Year! Shall I pour you some champagne?",
+                "translit": "Cherez minutu Novyy god! Nalit' tebe shampanskoye?"
+              },
+              {
+                "who": "me",
+                "target": "Да, пожалуйста!",
+                "english": "Yes, please!",
+                "translit": "Da, pozhaluysta!"
+              },
+              {
+                "who": "them",
+                "target": "Хочешь сказать тост?",
+                "english": "Do you want to make a toast?",
+                "translit": "Khochesh' skazat' tost?"
+              }
+            ],
+            "replyOptions": [
+              "Да! С Новым годом, друзья!",
+              "Нет, это моя ёлка.",
+              "Пасха была в апреле."
+            ],
+            "answer": 0
+          },
+          "tip": "Congratulate with с + instrumental: С Новым годом! С Рождеством! С днём рождения! The holiday sits after с in the -ом/-ом form."
+        },
+        {
+          "id": "s6u2l3",
+          "title": "Food culture",
+          "items": [
+            {
+              "id": "s6u2l3-borshch",
+              "target": "борщ",
+              "english": "borscht",
+              "gender": "m",
+              "emoji": "🍲",
+              "example": {
+                "target": "Борщ со сметаной.",
+                "english": "Borscht with sour cream.",
+                "translit": "Borshch so smetanoy."
+              },
+              "kind": "word",
+              "translit": "borshch"
+            },
+            {
+              "id": "s6u2l3-pelmeni",
+              "target": "пельмени",
+              "english": "dumplings (pelmeni)",
+              "gender": null,
+              "emoji": "🥟",
+              "kind": "word",
+              "translit": "pel'meni"
+            },
+            {
+              "id": "s6u2l3-bliny",
+              "target": "блины",
+              "english": "thin pancakes",
+              "gender": null,
+              "emoji": "🥞",
+              "kind": "word",
+              "translit": "bliny"
+            },
+            {
+              "id": "s6u2l3-shchi",
+              "target": "щи",
+              "english": "cabbage soup",
+              "gender": null,
+              "emoji": "🥬",
+              "kind": "word",
+              "translit": "shchi"
+            },
+            {
+              "id": "s6u2l3-kasha",
+              "target": "каша",
+              "english": "porridge",
+              "gender": "f",
+              "emoji": "🥣",
+              "kind": "word",
+              "translit": "kasha"
+            },
+            {
+              "id": "s6u2l3-pirozhki",
+              "target": "пирожки",
+              "english": "small stuffed pies",
+              "gender": null,
+              "emoji": "🥟",
+              "kind": "word",
+              "translit": "pirozhki"
+            },
+            {
+              "id": "s6u2l3-smetana",
+              "target": "сметана",
+              "english": "sour cream",
+              "gender": "f",
+              "emoji": "🥛",
+              "kind": "word",
+              "translit": "smetana"
+            },
+            {
+              "id": "s6u2l3-chyornyy-khleb",
+              "target": "чёрный хлеб",
+              "english": "rye bread",
+              "gender": "m",
+              "emoji": "🍞",
+              "kind": "phrase",
+              "translit": "chyornyy khleb"
+            },
+            {
+              "id": "s6u2l3-selyodka",
+              "target": "селёдка",
+              "english": "herring",
+              "gender": "f",
+              "emoji": "🐟",
+              "kind": "word",
+              "translit": "selyodka"
+            },
+            {
+              "id": "s6u2l3-olivye",
+              "target": "оливье",
+              "english": "Olivier salad",
+              "gender": "n",
+              "emoji": "🥗",
+              "kind": "word",
+              "translit": "oliv'ye"
+            },
+            {
+              "id": "s6u2l3-kvas",
+              "target": "квас",
+              "english": "kvass",
+              "gender": "m",
+              "emoji": "🍺",
+              "kind": "word",
+              "translit": "kvas"
+            },
+            {
+              "id": "s6u2l3-samovar",
+              "target": "самовар",
+              "english": "samovar",
+              "gender": "m",
+              "emoji": "🫖",
+              "kind": "word",
+              "translit": "samovar"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "На обед я люблю борщ со сметаной.",
+              "english": "For lunch I like borscht with sour cream.",
+              "translit": "Na obed ya lyublyu borshch so smetanoy."
+            },
+            {
+              "target": "Мама делает пельмени каждое воскресенье.",
+              "english": "Mum makes dumplings every Sunday.",
+              "translit": "Mama delayet pel'meni kazhdoye voskresen'ye."
+            },
+            {
+              "target": "Блины очень вкусные с мёдом.",
+              "english": "Pancakes are very tasty with honey.",
+              "translit": "Bliny ochen' vkusnyye s myodom."
+            },
+            {
+              "target": "Утром я ем кашу и пью чай.",
+              "english": "In the morning I eat porridge and drink tea.",
+              "translit": "Utrom ya yem kashu i p'yu chay."
+            },
+            {
+              "target": "На Новый год у нас всегда оливье и селёдка.",
+              "english": "At New Year we always have Olivier and herring.",
+              "translit": "Na Novyy god u nas vsegda oliv'ye i selyodka."
+            },
+            {
+              "target": "Летом я люблю холодный квас.",
+              "english": "In summer I like cold kvass.",
+              "translit": "Letom ya lyublyu kholodnyy kvas."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Я хочу ",
+              "after": " с чёрным хлебом.",
+              "options": [
+                "борщу",
+                "борщ",
+                "борщом"
+              ],
+              "answer": 1,
+              "english": "I want borscht with rye bread."
+            },
+            {
+              "before": "Бабушка печёт ",
+              "after": ".",
+              "options": [
+                "пирожков",
+                "пирожкам",
+                "пирожки"
+              ],
+              "answer": 2,
+              "english": "Grandma is baking pies."
+            },
+            {
+              "before": "Эти ",
+              "after": " очень вкусные.",
+              "options": [
+                "блины",
+                "блин",
+                "блина"
+              ],
+              "answer": 0,
+              "english": "These pancakes are very tasty."
+            },
+            {
+              "before": "Чай из ",
+              "after": " — самый вкусный.",
+              "options": [
+                "самовар",
+                "самовара",
+                "самоваре"
+              ],
+              "answer": 1,
+              "english": "Tea from a samovar is the tastiest."
+            }
+          ],
+          "dialogue": {
+            "scene": "Lunch at a Russian friend's home.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Садись за стол! Сегодня у нас борщ и пельмени.",
+                "english": "Sit at the table! Today we have borscht and dumplings.",
+                "translit": "Sadis' za stol! Sevodnya u nas borshch i pel'meni."
+              },
+              {
+                "who": "me",
+                "target": "Как вкусно пахнет!",
+                "english": "It smells so good!",
+                "translit": "Kak vkusno pakhnet!"
+              },
+              {
+                "who": "them",
+                "target": "Хочешь сметану в борщ?",
+                "english": "Do you want sour cream in your borscht?",
+                "translit": "Khochesh' smetanu v borshch?"
+              }
+            ],
+            "replyOptions": [
+              "Да, конечно, с удовольствием.",
+              "Нет, я люблю квас с хлебом ночью.",
+              "Это мой самовар."
+            ],
+            "answer": 0
+          },
+          "tip": "Many Russian dishes are plural words: пельмени, блины, щи, пирожки. Pair them with plural verbs: Блины готовы!"
+        },
+        {
+          "id": "s6u2l4",
+          "title": "Arts",
+          "items": [
+            {
+              "id": "s6u2l4-pisatel",
+              "target": "писатель",
+              "english": "writer",
+              "gender": "m",
+              "emoji": "✍️",
+              "kind": "word",
+              "translit": "pisatel'"
+            },
+            {
+              "id": "s6u2l4-poet",
+              "target": "поэт",
+              "english": "poet",
+              "gender": "m",
+              "emoji": "🖋️",
+              "kind": "word",
+              "translit": "poet"
+            },
+            {
+              "id": "s6u2l4-roman",
+              "target": "роман",
+              "english": "novel",
+              "gender": "m",
+              "emoji": "📖",
+              "kind": "word",
+              "translit": "roman"
+            },
+            {
+              "id": "s6u2l4-stikhi",
+              "target": "стихи",
+              "english": "poems, verses",
+              "gender": null,
+              "emoji": "📜",
+              "kind": "word",
+              "translit": "stikhi"
+            },
+            {
+              "id": "s6u2l4-skazka",
+              "target": "сказка",
+              "english": "fairy tale",
+              "gender": "f",
+              "emoji": "🧚",
+              "kind": "word",
+              "translit": "skazka"
+            },
+            {
+              "id": "s6u2l4-balet",
+              "target": "балет",
+              "english": "ballet",
+              "gender": "m",
+              "emoji": "🩰",
+              "kind": "word",
+              "translit": "balet"
+            },
+            {
+              "id": "s6u2l4-kartina",
+              "target": "картина",
+              "english": "painting, picture",
+              "gender": "f",
+              "emoji": "🖼️",
+              "kind": "word",
+              "translit": "kartina"
+            },
+            {
+              "id": "s6u2l4-kompozitor",
+              "target": "композитор",
+              "english": "composer",
+              "gender": "m",
+              "emoji": "🎼",
+              "kind": "word",
+              "translit": "kompozitor"
+            },
+            {
+              "id": "s6u2l4-klassika",
+              "target": "классика",
+              "english": "the classics",
+              "gender": "f",
+              "emoji": "🏛️",
+              "kind": "word",
+              "translit": "klassika"
+            },
+            {
+              "id": "s6u2l4-pushkin",
+              "target": "Пушкин",
+              "english": "Pushkin",
+              "gender": "m",
+              "emoji": "🪶",
+              "kind": "word",
+              "translit": "Pushkin"
+            },
+            {
+              "id": "s6u2l4-tolstoy",
+              "target": "Толстой",
+              "english": "Tolstoy",
+              "gender": "m",
+              "emoji": "📚",
+              "kind": "word",
+              "translit": "Tolstoy"
+            },
+            {
+              "id": "s6u2l4-dostoyevskiy",
+              "target": "Достоевский",
+              "english": "Dostoevsky",
+              "gender": "m",
+              "emoji": "📕",
+              "kind": "word",
+              "translit": "Dostoyevskiy"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Пушкин — великий русский поэт.",
+              "english": "Pushkin is a great Russian poet.",
+              "translit": "Pushkin — velikiy russkiy poet."
+            },
+            {
+              "target": "Толстой написал большой роман.",
+              "english": "Tolstoy wrote a big novel.",
+              "translit": "Tolstoy napisal bol'shoy roman."
+            },
+            {
+              "target": "Я читаю Достоевского по-русски.",
+              "english": "I read Dostoevsky in Russian.",
+              "translit": "Ya chitayu Dostoyevskovo po-russki."
+            },
+            {
+              "target": "Дети любят русские сказки.",
+              "english": "Children love Russian fairy tales.",
+              "translit": "Deti lyubyat russkiye skazki."
+            },
+            {
+              "target": "В Москве мы смотрели балет в театре.",
+              "english": "In Moscow we watched a ballet at the theatre.",
+              "translit": "V Moskve my smotreli balet v teatre."
+            },
+            {
+              "target": "Это картина известного художника.",
+              "english": "This is a painting by a famous artist.",
+              "translit": "Eto kartina izvestnovo khudozhnika."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Я люблю читать ",
+              "after": ".",
+              "options": [
+                "стихов",
+                "стихам",
+                "стихи"
+              ],
+              "answer": 2,
+              "english": "I love reading poetry."
+            },
+            {
+              "before": "Он ",
+              "after": " и играет на пианино.",
+              "options": [
+                "композитор",
+                "композитора",
+                "композитору"
+              ],
+              "answer": 0,
+              "english": "He is a composer and plays the piano."
+            },
+            {
+              "before": "Мы читаем ",
+              "after": ".",
+              "options": [
+                "Пушкин",
+                "Пушкина",
+                "Пушкину"
+              ],
+              "answer": 1,
+              "english": "We are reading Pushkin."
+            },
+            {
+              "before": "Моя мама любит русскую ",
+              "after": ".",
+              "options": [
+                "классика",
+                "классики",
+                "классику"
+              ],
+              "answer": 2,
+              "english": "My mum loves Russian classics."
+            }
+          ],
+          "dialogue": {
+            "scene": "At a bookstore.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Что ты ищешь?",
+                "english": "What are you looking for?",
+                "translit": "Shto ty ishchesh'?"
+              },
+              {
+                "who": "me",
+                "target": "Я ищу хороший русский роман.",
+                "english": "I am looking for a good Russian novel.",
+                "translit": "Ya ishchu khoroshiy russkiy roman."
+              },
+              {
+                "who": "them",
+                "target": "Попробуй Достоевского или Толстого.",
+                "english": "Try Dostoevsky or Tolstoy.",
+                "translit": "Poprobuy Dostoyevskovo ili Tolstovo."
+              }
+            ],
+            "replyOptions": [
+              "Спасибо, я возьму Толстого.",
+              "Нет, я не люблю борщ.",
+              "Это моя дача."
+            ],
+            "answer": 0
+          },
+          "tip": "Surnames decline like adjectives or nouns: Это Пушкин. Я читаю Пушкина (genitive/accusative of persons). Pushkin → Пушкина."
+        },
+        {
+          "id": "s6u2l5",
+          "title": "Customs",
+          "items": [
+            {
+              "id": "s6u2l5-gostepriimstvo",
+              "target": "гостеприимство",
+              "english": "hospitality",
+              "gender": "n",
+              "emoji": "🏠",
+              "kind": "word",
+              "translit": "gostepriimstvo"
+            },
+            {
+              "id": "s6u2l5-razuvatsya",
+              "target": "разуваться",
+              "english": "to take off one's shoes",
+              "gender": null,
+              "emoji": "👟",
+              "kind": "word",
+              "translit": "razuvat'sya"
+            },
+            {
+              "id": "s6u2l5-tapochki",
+              "target": "тапочки",
+              "english": "slippers",
+              "gender": null,
+              "emoji": "🥿",
+              "kind": "word",
+              "translit": "tapochki"
+            },
+            {
+              "id": "s6u2l5-banya",
+              "target": "баня",
+              "english": "banya, steam bath",
+              "gender": "f",
+              "emoji": "🧖",
+              "kind": "word",
+              "translit": "banya"
+            },
+            {
+              "id": "s6u2l5-traditsiya",
+              "target": "традиция",
+              "english": "tradition",
+              "gender": "f",
+              "emoji": "🎎",
+              "kind": "word",
+              "translit": "traditsiya"
+            },
+            {
+              "id": "s6u2l5-obychay",
+              "target": "обычай",
+              "english": "custom",
+              "gender": "m",
+              "emoji": "📜",
+              "kind": "word",
+              "translit": "obychay"
+            },
+            {
+              "id": "s6u2l5-mentalitet",
+              "target": "менталитет",
+              "english": "mentality",
+              "gender": "m",
+              "emoji": "🧠",
+              "kind": "word",
+              "translit": "mentalitet"
+            },
+            {
+              "id": "s6u2l5-suyeveriye",
+              "target": "суеверие",
+              "english": "superstition",
+              "gender": "n",
+              "emoji": "🐈‍⬛",
+              "kind": "word",
+              "translit": "suyeveriye"
+            },
+            {
+              "id": "s6u2l5-prisest-na-dorozhku",
+              "target": "присесть на дорожку",
+              "english": "to sit down before a trip",
+              "gender": null,
+              "emoji": "🧳",
+              "kind": "phrase",
+              "translit": "prisest' na dorozhku"
+            },
+            {
+              "id": "s6u2l5-ugoshchaytes",
+              "target": "угощайтесь",
+              "english": "help yourself",
+              "gender": null,
+              "emoji": "🍰",
+              "kind": "word",
+              "translit": "ugoshchaytes'"
+            },
+            {
+              "id": "s6u2l5-chay-s-varenyem",
+              "target": "чай с вареньем",
+              "english": "tea with jam",
+              "gender": null,
+              "emoji": "🍵",
+              "kind": "phrase",
+              "translit": "chay s varen'yem"
+            },
+            {
+              "id": "s6u2l5-ne-stesnyaytes",
+              "target": "не стесняйтесь",
+              "english": "don't be shy",
+              "gender": null,
+              "emoji": "😊",
+              "kind": "phrase",
+              "translit": "ne stesnyaytes'"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Русское гостеприимство — это правда.",
+              "english": "Russian hospitality is real.",
+              "translit": "Russkoye gostepriimstvo — eto pravda."
+            },
+            {
+              "target": "В доме нужно разуваться и надевать тапочки.",
+              "english": "In the house you need to take off your shoes and put on slippers.",
+              "translit": "V dome nuzhno razuvat'sya i nadevat' tapochki."
+            },
+            {
+              "target": "Мы любим ходить в баню зимой.",
+              "english": "We love going to the banya in winter.",
+              "translit": "My lyubim khodit' v banyu zimoy."
+            },
+            {
+              "target": "Это старая русская традиция.",
+              "english": "This is an old Russian tradition.",
+              "translit": "Eto staraya russkaya traditsiya."
+            },
+            {
+              "target": "Перед поездкой мы всегда присаживаемся на дорожку.",
+              "english": "Before a trip we always sit down for a moment.",
+              "translit": "Pered poyezdkoy my vsegda prisazhivayemsya na dorozhku."
+            },
+            {
+              "target": "Угощайтесь, не стесняйтесь!",
+              "english": "Help yourself, don't be shy!",
+              "translit": "Ugoshchaytes', ne stesnyaytes'!"
+            }
+          ],
+          "fills": [
+            {
+              "before": "В России нужно ",
+              "after": " дома.",
+              "options": [
+                "разуваться",
+                "разулся",
+                "разуйся"
+              ],
+              "answer": 0,
+              "english": "In Russia you have to take your shoes off at home."
+            },
+            {
+              "before": "",
+              "after": ", пожалуйста!",
+              "options": [
+                "Угощать",
+                "Угощайтесь",
+                "Угощение"
+              ],
+              "answer": 1,
+              "english": "Please, help yourselves!"
+            },
+            {
+              "before": "Он любит чай ",
+              "after": ".",
+              "options": [
+                "с вареньями",
+                "в варенье",
+                "с вареньем"
+              ],
+              "answer": 2,
+              "english": "He likes tea with jam."
+            },
+            {
+              "before": "Это ",
+              "after": " очень старое.",
+              "options": [
+                "суеверие",
+                "суеверия",
+                "суеверием"
+              ],
+              "answer": 0,
+              "english": "This superstition is very old."
+            }
+          ],
+          "dialogue": {
+            "scene": "First visit to a Russian family home.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Добро пожаловать! Проходи, не стесняйся.",
+                "english": "Welcome! Come in, don't be shy.",
+                "translit": "Dobro pozhalovat'! Prokhodi, ne stesnyaysya."
+              },
+              {
+                "who": "me",
+                "target": "Спасибо! Можно мне разуться?",
+                "english": "Thank you! May I take my shoes off?",
+                "translit": "Spasibo! Mozhno mne razut'sya?"
+              },
+              {
+                "who": "them",
+                "target": "Конечно, вот тапочки. Будешь чай с вареньем?",
+                "english": "Of course, here are slippers. Will you have tea with jam?",
+                "translit": "Koneshno, vot tapochki. Budesh' chay s varen'yem?"
+              }
+            ],
+            "replyOptions": [
+              "Да, с удовольствием!",
+              "Нет, это мой роман.",
+              "Я иду в баню на Красной площади."
+            ],
+            "answer": 0
+          },
+          "tip": "Hospitality has fixed phrases: Угощайтесь! Не стесняйтесь! Use them as whole chunks, no grammar needed."
+        }
+      ]
+    },
+    {
+      "id": "s6u3",
+      "title": "Arguing your point",
+      "lessons": [
+        {
+          "id": "s6u3l1",
+          "title": "Building arguments",
+          "items": [
+            {
+              "id": "s6u3l1-vo-pervykh",
+              "target": "во-первых",
+              "english": "firstly",
+              "gender": null,
+              "emoji": "1️⃣",
+              "kind": "word",
+              "translit": "vo-pervykh"
+            },
+            {
+              "id": "s6u3l1-vo-vtorykh",
+              "target": "во-вторых",
+              "english": "secondly",
+              "gender": null,
+              "emoji": "2️⃣",
+              "kind": "word",
+              "translit": "vo-vtorykh"
+            },
+            {
+              "id": "s6u3l1-v-tretikh",
+              "target": "в-третьих",
+              "english": "thirdly",
+              "gender": null,
+              "emoji": "3️⃣",
+              "kind": "word",
+              "translit": "v-tret'ikh"
+            },
+            {
+              "id": "s6u3l1-krome-tovo",
+              "target": "кроме того",
+              "english": "besides, moreover",
+              "gender": null,
+              "emoji": "➕",
+              "kind": "phrase",
+              "translit": "krome tovo"
+            },
+            {
+              "id": "s6u3l1-boleye-tovo",
+              "target": "более того",
+              "english": "what is more",
+              "gender": null,
+              "emoji": "⏫",
+              "kind": "phrase",
+              "translit": "boleye tovo"
+            },
+            {
+              "id": "s6u3l1-s-odnoy-storony",
+              "target": "с одной стороны",
+              "english": "on the one hand",
+              "gender": null,
+              "emoji": "👈",
+              "kind": "phrase",
+              "translit": "s odnoy storony"
+            },
+            {
+              "id": "s6u3l1-s-drugoy-storony",
+              "target": "с другой стороны",
+              "english": "on the other hand",
+              "gender": null,
+              "emoji": "👉",
+              "kind": "phrase",
+              "translit": "s drugoy storony"
+            },
+            {
+              "id": "s6u3l1-naprimer",
+              "target": "например",
+              "english": "for example",
+              "gender": null,
+              "emoji": "💡",
+              "example": {
+                "target": "Например, мой брат.",
+                "english": "For example, my brother.",
+                "translit": "Naprimer, moy brat."
+              },
+              "kind": "word",
+              "translit": "naprimer"
+            },
+            {
+              "id": "s6u3l1-to-yest",
+              "target": "то есть",
+              "english": "that is, i.e.",
+              "gender": null,
+              "emoji": "🟰",
+              "kind": "phrase",
+              "translit": "to yest'"
+            },
+            {
+              "id": "s6u3l1-v-chastnosti",
+              "target": "в частности",
+              "english": "in particular",
+              "gender": null,
+              "emoji": "🎯",
+              "kind": "phrase",
+              "translit": "v chastnosti"
+            },
+            {
+              "id": "s6u3l1-takim-obrazom",
+              "target": "таким образом",
+              "english": "thus, in this way",
+              "gender": null,
+              "emoji": "🧩",
+              "kind": "phrase",
+              "translit": "takim obrazom"
+            },
+            {
+              "id": "s6u3l1-v-itoge",
+              "target": "в итоге",
+              "english": "in the end, as a result",
+              "gender": null,
+              "emoji": "🏁",
+              "kind": "phrase",
+              "translit": "v itoge"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Во-первых, это дорого. Во-вторых, это далеко.",
+              "english": "Firstly, it is expensive. Secondly, it is far.",
+              "translit": "Vo-pervykh, eto dorogo. Vo-vtorykh, eto daleko."
+            },
+            {
+              "target": "Кроме того, там очень шумно.",
+              "english": "Besides, it is very noisy there.",
+              "translit": "Krome tovo, tam ochen' shumno."
+            },
+            {
+              "target": "С одной стороны, это хорошая работа.",
+              "english": "On the one hand, it is a good job.",
+              "translit": "S odnoy storony, eto khoroshaya rabota."
+            },
+            {
+              "target": "С другой стороны, у меня нет времени.",
+              "english": "On the other hand, I have no time.",
+              "translit": "S drugoy storony, u menya net vremeni."
+            },
+            {
+              "target": "Мне нравятся фрукты, например яблоки.",
+              "english": "I like fruit, for example apples.",
+              "translit": "Mne nravyatsya frukty, naprimer yabloki."
+            },
+            {
+              "target": "Мы долго думали и в итоге остались дома.",
+              "english": "We thought for a long time and in the end stayed home.",
+              "translit": "My dolgo dumali i v itoge ostalis' doma."
+            }
+          ],
+          "fills": [
+            {
+              "before": "",
+              "after": ", я устал.",
+              "options": [
+                "Во-вторых",
+                "Во-первых",
+                "Например"
+              ],
+              "answer": 1,
+              "english": "Firstly, I am tired."
+            },
+            {
+              "before": "Мне нужен отдых, ",
+              "after": " отпуск.",
+              "options": [
+                "в итоге",
+                "более того",
+                "то есть"
+              ],
+              "answer": 2,
+              "english": "I need a rest, that is, a holiday."
+            },
+            {
+              "before": "Мы много работали, ",
+              "after": " проект готов.",
+              "options": [
+                "в итоге",
+                "например",
+                "во-первых"
+              ],
+              "answer": 0,
+              "english": "We worked a lot, so in the end the project is ready."
+            },
+            {
+              "before": "",
+              "after": ", это дёшево, а с другой — далеко.",
+              "options": [
+                "В третьих",
+                "С одной стороны",
+                "Таким образом"
+              ],
+              "answer": 1,
+              "english": "On the one hand, it is cheap, and on the other, far."
+            }
+          ],
+          "dialogue": {
+            "scene": "Deciding where to go on holiday.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Почему ты не хочешь ехать на море?",
+                "english": "Why don't you want to go to the sea?",
+                "translit": "Pochemu ty ne khochesh' yekhat' na more?"
+              },
+              {
+                "who": "me",
+                "target": "Во-первых, это очень дорого.",
+                "english": "Firstly, it is very expensive.",
+                "translit": "Vo-pervykh, eto ochen' dorogo."
+              },
+              {
+                "who": "them",
+                "target": "А во-вторых?",
+                "english": "And secondly?",
+                "translit": "A vo-vtorykh?"
+              }
+            ],
+            "replyOptions": [
+              "Во-вторых, у меня мало времени.",
+              "Например, мой брат.",
+              "В итоге я иду домой."
+            ],
+            "answer": 0
+          },
+          "tip": "Linkers carry the logic: во-первых, во-вторых, в-третьих lines up your points. Say them as a set and your argument sounds organised."
+        },
+        {
+          "id": "s6u3l2",
+          "title": "Agreeing",
+          "items": [
+            {
+              "id": "s6u3l2-imenno",
+              "target": "именно",
+              "english": "exactly, precisely",
+              "gender": null,
+              "emoji": "🎯",
+              "kind": "word",
+              "translit": "imenno"
+            },
+            {
+              "id": "s6u3l2-tochno",
+              "target": "точно",
+              "english": "exactly, for sure",
+              "gender": null,
+              "emoji": "✔️",
+              "kind": "word",
+              "translit": "tochno"
+            },
+            {
+              "id": "s6u3l2-absolyutno",
+              "target": "абсолютно",
+              "english": "absolutely",
+              "gender": null,
+              "emoji": "💯",
+              "kind": "word",
+              "translit": "absolyutno"
+            },
+            {
+              "id": "s6u3l2-sovershenno-verno",
+              "target": "совершенно верно",
+              "english": "quite right",
+              "gender": null,
+              "emoji": "✅",
+              "kind": "phrase",
+              "translit": "sovershenno verno"
+            },
+            {
+              "id": "s6u3l2-ya-s-vami-soglasen",
+              "target": "я с вами согласен",
+              "english": "I agree with you",
+              "gender": null,
+              "emoji": "🤝",
+              "kind": "phrase",
+              "translit": "ya s vami soglasen"
+            },
+            {
+              "id": "s6u3l2-vy-pravy",
+              "target": "вы правы",
+              "english": "you are right",
+              "gender": null,
+              "emoji": "👍",
+              "kind": "phrase",
+              "translit": "vy pravy"
+            },
+            {
+              "id": "s6u3l2-v-etom-yest-smysl",
+              "target": "в этом есть смысл",
+              "english": "that makes sense",
+              "gender": null,
+              "emoji": "🧠",
+              "kind": "phrase",
+              "translit": "v etom yest' smysl"
+            },
+            {
+              "id": "s6u3l2-spravedlivo",
+              "target": "справедливо",
+              "english": "fair enough, fair",
+              "gender": null,
+              "emoji": "⚖️",
+              "kind": "word",
+              "translit": "spravedlivo"
+            },
+            {
+              "id": "s6u3l2-logichno",
+              "target": "логично",
+              "english": "logical, makes sense",
+              "gender": null,
+              "emoji": "🔗",
+              "kind": "word",
+              "translit": "logichno"
+            },
+            {
+              "id": "s6u3l2-prinyato",
+              "target": "принято",
+              "english": "agreed, accepted",
+              "gender": null,
+              "emoji": "📌",
+              "kind": "word",
+              "translit": "prinyato"
+            },
+            {
+              "id": "s6u3l2-bezuslovno",
+              "target": "безусловно",
+              "english": "undoubtedly",
+              "gender": null,
+              "emoji": "💪",
+              "kind": "word",
+              "translit": "bezuslovno"
+            },
+            {
+              "id": "s6u3l2-razumeyetsya",
+              "target": "разумеется",
+              "english": "of course, naturally",
+              "gender": null,
+              "emoji": "😉",
+              "kind": "word",
+              "translit": "razumeyetsya"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Да, именно так!",
+              "english": "Yes, exactly like that!",
+              "translit": "Da, imenno tak!"
+            },
+            {
+              "target": "Точно! Я тоже так думаю.",
+              "english": "Exactly! I think so too.",
+              "translit": "Tochno! Ya tozhe tak dumayu."
+            },
+            {
+              "target": "Я с вами абсолютно согласен.",
+              "english": "I absolutely agree with you.",
+              "translit": "Ya s vami absolyutno soglasen."
+            },
+            {
+              "target": "Вы правы, это важный вопрос.",
+              "english": "You are right, this is an important question.",
+              "translit": "Vy pravy, eto vazhnyy vopros."
+            },
+            {
+              "target": "В этом есть смысл, давай попробуем.",
+              "english": "That makes sense, let's try.",
+              "translit": "V etom yest' smysl, davay poprobuyem."
+            },
+            {
+              "target": "Безусловно, это логично и справедливо.",
+              "english": "Undoubtedly, it is logical and fair.",
+              "translit": "Bezuslovno, eto logichno i spravedlivo."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Вы ",
+              "after": ", я ошибся.",
+              "options": [
+                "прав",
+                "правым",
+                "правы"
+              ],
+              "answer": 2,
+              "english": "You are right, I was wrong."
+            },
+            {
+              "before": "Я с вами ",
+              "after": ".",
+              "options": [
+                "согласен",
+                "согласна",
+                "согласие"
+              ],
+              "answer": 0,
+              "english": "I agree with you."
+            },
+            {
+              "before": "Это очень ",
+              "after": ".",
+              "options": [
+                "логичный",
+                "логично",
+                "логика"
+              ],
+              "answer": 1,
+              "english": "This is very logical."
+            },
+            {
+              "before": "",
+              "after": ", я помогу вам.",
+              "options": [
+                "Разумный",
+                "Разуметь",
+                "Разумеется"
+              ],
+              "answer": 2,
+              "english": "Of course, I will help you."
+            }
+          ],
+          "dialogue": {
+            "scene": "Deciding on a plan with a colleague.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Давай встретимся завтра утром.",
+                "english": "Let's meet tomorrow morning.",
+                "translit": "Davay vstretimsya zavtra utrom."
+              },
+              {
+                "who": "me",
+                "target": "Хорошо, во сколько?",
+                "english": "Fine, what time?",
+                "translit": "Khorosho, vo skol'ko?"
+              },
+              {
+                "who": "them",
+                "target": "В девять. Устроит?",
+                "english": "At nine. Does that work?",
+                "translit": "V devyat'. Ustroit?"
+              }
+            ],
+            "replyOptions": [
+              "Принято, в девять.",
+              "Вчера вечером, на даче.",
+              "Мне нравится эта картина."
+            ],
+            "answer": 0
+          },
+          "tip": "Agree with a one-word punch: Именно! Точно! Безусловно! Short and strong is how real people agree."
+        },
+        {
+          "id": "s6u3l3",
+          "title": "Disagreeing",
+          "items": [
+            {
+              "id": "s6u3l3-ne-sovsem",
+              "target": "не совсем",
+              "english": "not quite",
+              "gender": null,
+              "emoji": "🤏",
+              "kind": "phrase",
+              "translit": "ne sovsem"
+            },
+            {
+              "id": "s6u3l3-ya-ne-uveren-shto",
+              "target": "я не уверен что",
+              "english": "I am not sure that",
+              "gender": null,
+              "emoji": "🤔",
+              "kind": "phrase",
+              "translit": "ya ne uveren shto"
+            },
+            {
+              "id": "s6u3l3-eto-ne-tak",
+              "target": "это не так",
+              "english": "that is not so",
+              "gender": null,
+              "emoji": "🙅",
+              "kind": "phrase",
+              "translit": "eto ne tak"
+            },
+            {
+              "id": "s6u3l3-vy-oshibayetes",
+              "target": "вы ошибаетесь",
+              "english": "you are mistaken",
+              "gender": null,
+              "emoji": "❌",
+              "kind": "phrase",
+              "translit": "vy oshibayetes'"
+            },
+            {
+              "id": "s6u3l3-vryad-li",
+              "target": "вряд ли",
+              "english": "unlikely, hardly",
+              "gender": null,
+              "emoji": "🤨",
+              "kind": "phrase",
+              "translit": "vryad li"
+            },
+            {
+              "id": "s6u3l3-somnevayus",
+              "target": "сомневаюсь",
+              "english": "I doubt it",
+              "gender": null,
+              "emoji": "😕",
+              "kind": "word",
+              "translit": "somnevayus'"
+            },
+            {
+              "id": "s6u3l3-ne-fakt",
+              "target": "не факт",
+              "english": "not a fact, not necessarily",
+              "gender": null,
+              "emoji": "🤷",
+              "kind": "phrase",
+              "translit": "ne fakt"
+            },
+            {
+              "id": "s6u3l3-otnyud",
+              "target": "отнюдь",
+              "english": "not at all",
+              "gender": null,
+              "emoji": "🚫",
+              "kind": "word",
+              "translit": "otnyud'"
+            },
+            {
+              "id": "s6u3l3-na-samom-dele",
+              "target": "на самом деле",
+              "english": "actually, in reality",
+              "gender": null,
+              "emoji": "🔍",
+              "kind": "phrase",
+              "translit": "na samom dele"
+            },
+            {
+              "id": "s6u3l3-tem-ne-meneye",
+              "target": "тем не менее",
+              "english": "nevertheless",
+              "gender": null,
+              "emoji": "↔️",
+              "kind": "phrase",
+              "translit": "tem ne meneye"
+            },
+            {
+              "id": "s6u3l3-naprotiv",
+              "target": "напротив",
+              "english": "on the contrary",
+              "gender": null,
+              "emoji": "🔄",
+              "kind": "word",
+              "translit": "naprotiv"
+            },
+            {
+              "id": "s6u3l3-naoborot",
+              "target": "наоборот",
+              "english": "the opposite, on the contrary",
+              "gender": null,
+              "emoji": "🔁",
+              "kind": "word",
+              "translit": "naoborot"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Не совсем. Всё немного иначе.",
+              "english": "Not quite. It is a bit different.",
+              "translit": "Ne sovsem. Vsyo nemnogo inache."
+            },
+            {
+              "target": "Я не уверен, что это правда.",
+              "english": "I am not sure that it is true.",
+              "translit": "Ya ne uveren, shto eto pravda."
+            },
+            {
+              "target": "Вряд ли он придёт сегодня.",
+              "english": "He is unlikely to come today.",
+              "translit": "Vryad li on pridyot sevodnya."
+            },
+            {
+              "target": "Сомневаюсь, что это хорошая идея.",
+              "english": "I doubt that it is a good idea.",
+              "translit": "Somnevayus', shto eto khoroshaya ideya."
+            },
+            {
+              "target": "На самом деле я не люблю зиму.",
+              "english": "Actually, I do not like winter.",
+              "translit": "Na samom dele ya ne lyublyu zimu."
+            },
+            {
+              "target": "Нет, наоборот, мне очень нравится!",
+              "english": "No, on the contrary, I really like it!",
+              "translit": "Net, naoborot, mne ochen' nravitsya!"
+            }
+          ],
+          "fills": [
+            {
+              "before": "",
+              "after": " он знает.",
+              "options": [
+                "Вряд ли",
+                "Не совсем",
+                "Например"
+              ],
+              "answer": 0,
+              "english": "He hardly knows."
+            },
+            {
+              "before": "Я ",
+              "after": " в этом.",
+              "options": [
+                "сомнение",
+                "сомневаюсь",
+                "сомнительный"
+              ],
+              "answer": 1,
+              "english": "I doubt that."
+            },
+            {
+              "before": "Он не злой, ",
+              "after": ", он добрый.",
+              "options": [
+                "например",
+                "поэтому",
+                "напротив"
+              ],
+              "answer": 2,
+              "english": "He is not evil, on the contrary, he is kind."
+            },
+            {
+              "before": "Вы ошибаетесь, это ",
+              "after": ".",
+              "options": [
+                "не так",
+                "не вряд",
+                "не наоборот"
+              ],
+              "answer": 0,
+              "english": "You are mistaken, that is not so."
+            }
+          ],
+          "dialogue": {
+            "scene": "A friendly disagreement about a film.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Этот фильм очень скучный, правда?",
+                "english": "This film is very boring, right?",
+                "translit": "Etot fil'm ochen' skuchnyy, pravda?"
+              },
+              {
+                "who": "me",
+                "target": "Не совсем. Мне понравилось.",
+                "english": "Not quite. I liked it.",
+                "translit": "Ne sovsem. Mne ponravilos'."
+              },
+              {
+                "who": "them",
+                "target": "Правда? А что тебе понравилось?",
+                "english": "Really? And what did you like?",
+                "translit": "Pravda? A shto tebe ponravilos'?"
+              }
+            ],
+            "replyOptions": [
+              "Актёры и музыка.",
+              "Это мой диплом.",
+              "Мы едем в Москву."
+            ],
+            "answer": 0
+          },
+          "tip": "Soften, then oppose: Не совсем так... Я не уверен, что... is polite. Save отнюдь and вы ошибаетесь for serious moments."
+        },
+        {
+          "id": "s6u3l4",
+          "title": "Participles lite",
+          "items": [
+            {
+              "id": "s6u3l4-napisannyy",
+              "target": "написанный",
+              "english": "written",
+              "gender": null,
+              "emoji": "✍️",
+              "kind": "word",
+              "translit": "napisannyy"
+            },
+            {
+              "id": "s6u3l4-otkrytyy",
+              "target": "открытый",
+              "english": "open, opened",
+              "gender": null,
+              "emoji": "🔓",
+              "kind": "word",
+              "translit": "otkrytyy"
+            },
+            {
+              "id": "s6u3l4-zakrytyy",
+              "target": "закрытый",
+              "english": "closed",
+              "gender": null,
+              "emoji": "🔒",
+              "kind": "word",
+              "translit": "zakrytyy"
+            },
+            {
+              "id": "s6u3l4-izvestnyy",
+              "target": "известный",
+              "english": "famous, known",
+              "gender": null,
+              "emoji": "⭐",
+              "kind": "word",
+              "translit": "izvestnyy"
+            },
+            {
+              "id": "s6u3l4-lyubimyy",
+              "target": "любимый",
+              "english": "favourite, beloved",
+              "gender": null,
+              "emoji": "❤️",
+              "kind": "word",
+              "translit": "lyubimyy"
+            },
+            {
+              "id": "s6u3l4-zabytyy",
+              "target": "забытый",
+              "english": "forgotten",
+              "gender": null,
+              "emoji": "🫥",
+              "kind": "word",
+              "translit": "zabytyy"
+            },
+            {
+              "id": "s6u3l4-postroyennyy",
+              "target": "построенный",
+              "english": "built",
+              "gender": null,
+              "emoji": "🏗️",
+              "kind": "word",
+              "translit": "postroyennyy"
+            },
+            {
+              "id": "s6u3l4-sdelannyy",
+              "target": "сделанный",
+              "english": "made, done",
+              "gender": null,
+              "emoji": "🛠️",
+              "kind": "word",
+              "translit": "sdelannyy"
+            },
+            {
+              "id": "s6u3l4-govoryashchiy",
+              "target": "говорящий",
+              "english": "speaking",
+              "gender": null,
+              "emoji": "🗣️",
+              "kind": "word",
+              "translit": "govoryashchiy"
+            },
+            {
+              "id": "s6u3l4-zhivushchiy",
+              "target": "живущий",
+              "english": "living",
+              "gender": null,
+              "emoji": "🏠",
+              "kind": "word",
+              "translit": "zhivushchiy"
+            },
+            {
+              "id": "s6u3l4-chitayushchiy",
+              "target": "читающий",
+              "english": "reading",
+              "gender": null,
+              "emoji": "📖",
+              "kind": "word",
+              "translit": "chitayushchiy"
+            },
+            {
+              "id": "s6u3l4-spyashchiy",
+              "target": "спящий",
+              "english": "sleeping",
+              "gender": null,
+              "emoji": "😴",
+              "kind": "word",
+              "translit": "spyashchiy"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Это книга, написанная в 1900 году.",
+              "english": "This is a book written in 1900.",
+              "translit": "Eto kniga, napisannaya v 1900 godu."
+            },
+            {
+              "target": "Окно открытое, а дверь закрытая.",
+              "english": "The window is open and the door is closed.",
+              "translit": "Okno otkrytoye, a dver' zakrytaya."
+            },
+            {
+              "target": "Пушкин — известный русский поэт.",
+              "english": "Pushkin is a famous Russian poet.",
+              "translit": "Pushkin — izvestnyy russkiy poet."
+            },
+            {
+              "target": "Мой любимый город — Петербург.",
+              "english": "My favourite city is Petersburg.",
+              "translit": "Moy lyubimyy gorod — Peterburg."
+            },
+            {
+              "target": "Читающий человек всегда много знает.",
+              "english": "A reading person always knows a lot.",
+              "translit": "Chitayushchiy chelovek vsegda mnogo znayet."
+            },
+            {
+              "target": "Не будите спящего ребёнка.",
+              "english": "Don't wake the sleeping child.",
+              "translit": "Ne budite spyashchevo rebyonka."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Это ",
+              "after": " роман.",
+              "options": [
+                "пишущий",
+                "написанный",
+                "писавший"
+              ],
+              "answer": 1,
+              "english": "This is a written novel."
+            },
+            {
+              "before": "Дверь ",
+              "after": ", я не могу войти.",
+              "options": [
+                "закрывающая",
+                "закрывать",
+                "закрытая"
+              ],
+              "answer": 2,
+              "english": "The door is closed, I cannot get in."
+            },
+            {
+              "before": "Он — ",
+              "after": " писатель.",
+              "options": [
+                "известный",
+                "известно",
+                "известие"
+              ],
+              "answer": 0,
+              "english": "He is a famous writer."
+            },
+            {
+              "before": "Я вижу ",
+              "after": " кошку.",
+              "options": [
+                "спящая",
+                "спящую",
+                "спящей"
+              ],
+              "answer": 1,
+              "english": "I see a sleeping cat."
+            }
+          ],
+          "dialogue": {
+            "scene": "Talking about favourite books.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Какая у тебя любимая книга?",
+                "english": "What is your favourite book?",
+                "translit": "Kakaya u tebya lyubimaya kniga?"
+              },
+              {
+                "who": "me",
+                "target": "Мне нравится роман Толстого.",
+                "english": "I like Tolstoy's novel.",
+                "translit": "Mne nravitsya roman Tolstovo."
+              },
+              {
+                "who": "them",
+                "target": "Ты читаешь его по-русски?",
+                "english": "Do you read it in Russian?",
+                "translit": "Ty chitayesh' yevo po-russki?"
+              }
+            ],
+            "replyOptions": [
+              "Да, но это очень трудно.",
+              "Нет, он живёт в Москве.",
+              "Сегодня в три часа."
+            ],
+            "answer": 0
+          },
+          "tip": "-щий = who does it (говорящий, читающий); -нный/-тый = done to it (написанный, открытый). Nothing new to learn, they decline like normal adjectives."
+        },
+        {
+          "id": "s6u3l5",
+          "title": "Facts & claims",
+          "items": [
+            {
+              "id": "s6u3l5-fakt",
+              "target": "факт",
+              "english": "fact",
+              "gender": "m",
+              "emoji": "📌",
+              "kind": "word",
+              "translit": "fakt"
+            },
+            {
+              "id": "s6u3l5-dovod",
+              "target": "довод",
+              "english": "argument, point",
+              "gender": "m",
+              "emoji": "💬",
+              "kind": "word",
+              "translit": "dovod"
+            },
+            {
+              "id": "s6u3l5-dokazatelstvo",
+              "target": "доказательство",
+              "english": "proof, evidence",
+              "gender": "n",
+              "emoji": "🔬",
+              "kind": "word",
+              "translit": "dokazatel'stvo"
+            },
+            {
+              "id": "s6u3l5-prichina",
+              "target": "причина",
+              "english": "reason, cause",
+              "gender": "f",
+              "emoji": "❓",
+              "kind": "word",
+              "translit": "prichina"
+            },
+            {
+              "id": "s6u3l5-sledstviye",
+              "target": "следствие",
+              "english": "consequence, effect",
+              "gender": "n",
+              "emoji": "➡️",
+              "kind": "word",
+              "translit": "sledstviye"
+            },
+            {
+              "id": "s6u3l5-vyvod",
+              "target": "вывод",
+              "english": "conclusion",
+              "gender": "m",
+              "emoji": "🧾",
+              "kind": "word",
+              "translit": "vyvod"
+            },
+            {
+              "id": "s6u3l5-dokazat",
+              "target": "доказать",
+              "english": "to prove",
+              "gender": null,
+              "emoji": "✅",
+              "kind": "word",
+              "translit": "dokazat'"
+            },
+            {
+              "id": "s6u3l5-ubedit",
+              "target": "убедить",
+              "english": "to convince",
+              "gender": null,
+              "emoji": "🗣️",
+              "kind": "word",
+              "translit": "ubedit'"
+            },
+            {
+              "id": "s6u3l5-obsuzhdat",
+              "target": "обсуждать",
+              "english": "to discuss",
+              "gender": null,
+              "emoji": "💭",
+              "kind": "word",
+              "translit": "obsuzhdat'"
+            },
+            {
+              "id": "s6u3l5-sporit",
+              "target": "спорить",
+              "english": "to argue, to debate",
+              "gender": null,
+              "emoji": "⚔️",
+              "kind": "word",
+              "translit": "sporit'"
+            },
+            {
+              "id": "s6u3l5-priznat",
+              "target": "признать",
+              "english": "to admit, to acknowledge",
+              "gender": null,
+              "emoji": "🙋",
+              "kind": "word",
+              "translit": "priznat'"
+            },
+            {
+              "id": "s6u3l5-vozrazit",
+              "target": "возразить",
+              "english": "to object, to reply against",
+              "gender": null,
+              "emoji": "✋",
+              "kind": "word",
+              "translit": "vozrazit'"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Это факт, а не мнение.",
+              "english": "This is a fact, not an opinion.",
+              "translit": "Eto fakt, a ne mneniye."
+            },
+            {
+              "target": "У меня есть хороший довод.",
+              "english": "I have a good argument.",
+              "translit": "U menya yest' khoroshiy dovod."
+            },
+            {
+              "target": "Какая причина этой проблемы?",
+              "english": "What is the cause of this problem?",
+              "translit": "Kakaya prichina etoy problemy?"
+            },
+            {
+              "target": "Я хочу доказать, что это правда.",
+              "english": "I want to prove that this is true.",
+              "translit": "Ya khochu dokazat', shto eto pravda."
+            },
+            {
+              "target": "Мы обсуждаем план, а не спорим.",
+              "english": "We are discussing a plan, not arguing.",
+              "translit": "My obsuzhdayem plan, a ne sporim."
+            },
+            {
+              "target": "Я признаю, что был не прав.",
+              "english": "I admit that I was wrong.",
+              "translit": "Ya priznayu, shto byl ne prav."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Вот мой ",
+              "after": ".",
+              "options": [
+                "выводу",
+                "выводом",
+                "вывод"
+              ],
+              "answer": 2,
+              "english": "Here is my conclusion."
+            },
+            {
+              "before": "Он хочет ",
+              "after": " меня.",
+              "options": [
+                "убедить",
+                "убеждён",
+                "убеждение"
+              ],
+              "answer": 0,
+              "english": "He wants to convince me."
+            },
+            {
+              "before": "Мы часто ",
+              "after": " о политике.",
+              "options": [
+                "спорят",
+                "спорим",
+                "спорить"
+              ],
+              "answer": 1,
+              "english": "We often argue about politics."
+            },
+            {
+              "before": "У меня нет ",
+              "after": ".",
+              "options": [
+                "доказательство",
+                "доказательством",
+                "доказательств"
+              ],
+              "answer": 2,
+              "english": "I have no evidence."
+            }
+          ],
+          "dialogue": {
+            "scene": "A debate between colleagues.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Ты не прав, и у меня есть довод.",
+                "english": "You are wrong and I have an argument.",
+                "translit": "Ty ne prav, i u menya yest' dovod."
+              },
+              {
+                "who": "me",
+                "target": "Хорошо, я слушаю.",
+                "english": "Okay, I am listening.",
+                "translit": "Khorosho, ya slushayu."
+              },
+              {
+                "who": "them",
+                "target": "Вот факт: клиент хочет другой срок.",
+                "english": "Here is a fact: the client wants a different deadline.",
+                "translit": "Vot fakt: kliyent khochet drugoy srok."
+              }
+            ],
+            "replyOptions": [
+              "Тогда я признаю, ты прав.",
+              "Нет, это моя картина.",
+              "Мы едем на дачу завтра."
+            ],
+            "answer": 0
+          },
+          "tip": "Reasoning verbs come in pairs: доказывать/доказать, убеждать/убедить. Learn the finished one (доказать, убедить) for 'I managed to'."
+        }
+      ]
+    },
+    {
+      "id": "s6u4",
+      "title": "Idioms",
+      "lessons": [
+        {
+          "id": "s6u4l1",
+          "title": "Body idioms",
+          "items": [
+            {
+              "id": "s6u4l1-derzhat-yazyk-za-zubami",
+              "target": "держать язык за зубами",
+              "english": "to keep your mouth shut (hold your tongue behind your teeth)",
+              "gender": null,
+              "emoji": "🤐",
+              "kind": "phrase",
+              "translit": "derzhat' yazyk za zubami"
+            },
+            {
+              "id": "s6u4l1-povesit-nos",
+              "target": "повесить нос",
+              "english": "to be downcast (hang your nose)",
+              "gender": null,
+              "emoji": "😞",
+              "kind": "phrase",
+              "translit": "povesit' nos"
+            },
+            {
+              "id": "s6u4l1-zolotyye-ruki",
+              "target": "золотые руки",
+              "english": "a skilled handyman (golden hands)",
+              "gender": null,
+              "emoji": "🛠️",
+              "kind": "phrase",
+              "translit": "zolotyye ruki"
+            },
+            {
+              "id": "s6u4l1-ni-pukha-ni-pera",
+              "target": "ни пуха ни пера",
+              "english": "good luck! (no fluff, no feather)",
+              "gender": null,
+              "emoji": "🍀",
+              "kind": "phrase",
+              "translit": "ni pukha ni pera"
+            },
+            {
+              "id": "s6u4l1-ni-v-zub-nogoy",
+              "target": "ни в зуб ногой",
+              "english": "clueless (not a tooth with the foot)",
+              "gender": null,
+              "emoji": "🤷",
+              "kind": "phrase",
+              "translit": "ni v zub nogoy"
+            },
+            {
+              "id": "s6u4l1-delo-v-shlyape",
+              "target": "дело в шляпе",
+              "english": "it's in the bag (the deal is in the hat)",
+              "gender": null,
+              "emoji": "🎩",
+              "kind": "phrase",
+              "translit": "delo v shlyape"
+            },
+            {
+              "id": "s6u4l1-lomat-golovu",
+              "target": "ломать голову",
+              "english": "to rack one's brain",
+              "gender": null,
+              "emoji": "🤯",
+              "kind": "phrase",
+              "translit": "lomat' golovu"
+            },
+            {
+              "id": "s6u4l1-na-nogakh",
+              "target": "на ногах",
+              "english": "up and about, on one's feet",
+              "gender": null,
+              "emoji": "🚶",
+              "kind": "phrase",
+              "translit": "na nogakh"
+            },
+            {
+              "id": "s6u4l1-podnyat-na-nogi",
+              "target": "поднять на ноги",
+              "english": "to get back on one's feet",
+              "gender": null,
+              "emoji": "🧍",
+              "kind": "phrase",
+              "translit": "podnyat' na nogi"
+            },
+            {
+              "id": "s6u4l1-v-dvukh-shagakh",
+              "target": "в двух шагах",
+              "english": "a stone's throw away (two steps)",
+              "gender": null,
+              "emoji": "👣",
+              "kind": "phrase",
+              "translit": "v dvukh shagakh"
+            },
+            {
+              "id": "s6u4l1-glaza-na-lob-lezut",
+              "target": "глаза на лоб лезут",
+              "english": "eyes popping out of one's head",
+              "gender": null,
+              "emoji": "😳",
+              "kind": "phrase",
+              "translit": "glaza na lob lezut"
+            },
+            {
+              "id": "s6u4l1-khot-glaz-vykoli",
+              "target": "хоть глаз выколи",
+              "english": "pitch dark (you could poke out your eye)",
+              "gender": null,
+              "emoji": "🌑",
+              "kind": "phrase",
+              "translit": "khot' glaz vykoli"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Не говори ему, держи язык за зубами.",
+              "english": "Don't tell him, keep your mouth shut.",
+              "translit": "Ne govori yemu, derzhi yazyk za zubami."
+            },
+            {
+              "target": "Не вешай нос, всё будет хорошо!",
+              "english": "Don't be downcast, all will be fine!",
+              "translit": "Ne veshay nos, vsyo budet khorosho!"
+            },
+            {
+              "target": "У моего брата золотые руки.",
+              "english": "My brother is very handy.",
+              "translit": "U moyevo brata zolotyye ruki."
+            },
+            {
+              "target": "Завтра экзамен? Ни пуха ни пера!",
+              "english": "An exam tomorrow? Good luck!",
+              "translit": "Zavtra ekzamen? Ni pukha ni pera!"
+            },
+            {
+              "target": "В физике я ни в зуб ногой.",
+              "english": "In physics I am clueless.",
+              "translit": "V fizike ya ni v zub nogoy."
+            },
+            {
+              "target": "Мы уже подписали договор, дело в шляпе.",
+              "english": "We have already signed the contract, it's in the bag.",
+              "translit": "My uzhe podpisali dogovor, delo v shlyape."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Он любит ",
+              "after": " голову над задачами.",
+              "options": [
+                "ломать",
+                "ломал",
+                "сломать"
+              ],
+              "answer": 0,
+              "english": "He loves racking his brain over tasks."
+            },
+            {
+              "before": "Моя школа в двух ",
+              "after": " отсюда.",
+              "options": [
+                "шаги",
+                "шагах",
+                "шаг"
+              ],
+              "answer": 1,
+              "english": "My school is a stone's throw from here."
+            },
+            {
+              "before": "Мне нужно ",
+              "after": " детей на ноги.",
+              "options": [
+                "подняли",
+                "поднял",
+                "поднять"
+              ],
+              "answer": 2,
+              "english": "I need to get the kids on their feet."
+            },
+            {
+              "before": "Ночью было темно, ",
+              "after": ".",
+              "options": [
+                "хоть глаз выколи",
+                "хоть нос выколи",
+                "хоть рот выколи"
+              ],
+              "answer": 0,
+              "english": "At night it was pitch dark."
+            }
+          ],
+          "dialogue": {
+            "scene": "Before a friend's job interview.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Завтра у меня собеседование.",
+                "english": "Tomorrow I have a job interview.",
+                "translit": "Zavtra u menya sobesedovaniye."
+              },
+              {
+                "who": "me",
+                "target": "Не вешай нос! У тебя большой опыт.",
+                "english": "Don't be downcast! You have lots of experience.",
+                "translit": "Ne veshay nos! U tebya bol'shoy opyt."
+              },
+              {
+                "who": "them",
+                "target": "Спасибо! Я так волнуюсь.",
+                "english": "Thanks! I am so nervous.",
+                "translit": "Spasibo! Ya tak volnuyus'."
+              }
+            ],
+            "replyOptions": [
+              "Ни пуха ни пера!",
+              "Уже в двух шагах!",
+              "У меня золотые руки."
+            ],
+            "answer": 0
+          },
+          "tip": "Russian idioms use body parts literally, and they never change shape: say the whole chunk, do not swap words. Learn it like a song line."
+        },
+        {
+          "id": "s6u4l2",
+          "title": "Animal idioms",
+          "items": [
+            {
+              "id": "s6u4l2-kak-belka-v-kolese",
+              "target": "как белка в колесе",
+              "english": "busy as a bee (like a squirrel in a wheel)",
+              "gender": null,
+              "emoji": "🐿️",
+              "kind": "phrase",
+              "translit": "kak belka v kolese"
+            },
+            {
+              "id": "s6u4l2-rabotat-kak-loshad",
+              "target": "работать как лошадь",
+              "english": "to work like a horse",
+              "gender": null,
+              "emoji": "🐴",
+              "kind": "phrase",
+              "translit": "rabotat' kak loshad'"
+            },
+            {
+              "id": "s6u4l2-volkov-boyatsya-v-les-ne-khodit",
+              "target": "волков бояться в лес не ходить",
+              "english": "nothing ventured, nothing gained",
+              "gender": null,
+              "emoji": "🐺",
+              "kind": "phrase",
+              "translit": "volkov boyat'sya v les ne khodit'"
+            },
+            {
+              "id": "s6u4l2-na-vore-shapka-gorit",
+              "target": "на воре шапка горит",
+              "english": "the guilty one gives himself away",
+              "gender": null,
+              "emoji": "🧢",
+              "kind": "phrase",
+              "translit": "na vore shapka gorit"
+            },
+            {
+              "id": "s6u4l2-ubit-dvukh-zaytsev",
+              "target": "убить двух зайцев",
+              "english": "to kill two birds with one stone (two hares)",
+              "gender": null,
+              "emoji": "🐇",
+              "kind": "phrase",
+              "translit": "ubit' dvukh zaytsev"
+            },
+            {
+              "id": "s6u4l2-koshki-na-dushe-skrebut",
+              "target": "кошки на душе скребут",
+              "english": "to feel sick at heart (cats scratch at the soul)",
+              "gender": null,
+              "emoji": "🐈",
+              "kind": "phrase",
+              "translit": "koshki na dushe skrebut"
+            },
+            {
+              "id": "s6u4l2-medvezhya-usluga",
+              "target": "медвежья услуга",
+              "english": "a favour that does harm (bear's service)",
+              "gender": null,
+              "emoji": "🐻",
+              "kind": "phrase",
+              "translit": "medvezh'ya usluga"
+            },
+            {
+              "id": "s6u4l2-sobaku-syest",
+              "target": "собаку съесть",
+              "english": "to be an expert at something",
+              "gender": null,
+              "emoji": "🐕",
+              "kind": "phrase",
+              "translit": "sobaku syest'"
+            },
+            {
+              "id": "s6u4l2-kak-koshka-s-sobakoy",
+              "target": "как кошка с собакой",
+              "english": "like cats and dogs",
+              "gender": null,
+              "emoji": "🐱",
+              "kind": "phrase",
+              "translit": "kak koshka s sobakoy"
+            },
+            {
+              "id": "s6u4l2-slon-v-posudnoy-lavke",
+              "target": "слон в посудной лавке",
+              "english": "bull in a china shop",
+              "gender": null,
+              "emoji": "🐘",
+              "kind": "phrase",
+              "translit": "slon v posudnoy lavke"
+            },
+            {
+              "id": "s6u4l2-belaya-vorona",
+              "target": "белая ворона",
+              "english": "the odd one out (white crow)",
+              "gender": null,
+              "emoji": "🐦",
+              "kind": "phrase",
+              "translit": "belaya vorona"
+            },
+            {
+              "id": "s6u4l2-delat-iz-mukhi-slona",
+              "target": "делать из мухи слона",
+              "english": "to make a mountain out of a molehill",
+              "gender": null,
+              "emoji": "🪰",
+              "kind": "phrase",
+              "translit": "delat' iz mukhi slona"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Я кручусь как белка в колесе.",
+              "english": "I am running around like a squirrel in a wheel.",
+              "translit": "Ya kruchus' kak belka v kolese."
+            },
+            {
+              "target": "Он работает как лошадь, а отдыха нет.",
+              "english": "He works like a horse and has no rest.",
+              "translit": "On rabotayet kak loshad', a otdykha net."
+            },
+            {
+              "target": "Волков бояться — в лес не ходить!",
+              "english": "If you fear wolves, don't go into the forest!",
+              "translit": "Volkov boyat'sya — v les ne khodit'!"
+            },
+            {
+              "target": "Бери проект и убей двух зайцев.",
+              "english": "Take the project and kill two birds with one stone.",
+              "translit": "Beri proyekt i ubey dvukh zaytsev."
+            },
+            {
+              "target": "На душе кошки скребут, я очень волнуюсь.",
+              "english": "I feel sick at heart, I am very worried.",
+              "translit": "Na dushe koshki skrebut, ya ochen' volnuyus'."
+            },
+            {
+              "target": "Они живут как кошка с собакой.",
+              "english": "They live like cats and dogs.",
+              "translit": "Oni zhivut kak koshka s sobakoy."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Не делай из мухи ",
+              "after": "!",
+              "options": [
+                "слон",
+                "слона",
+                "слону"
+              ],
+              "answer": 1,
+              "english": "Don't make a mountain out of a molehill!"
+            },
+            {
+              "before": "В новой школе она — ",
+              "after": ".",
+              "options": [
+                "белый ворон",
+                "белая вороны",
+                "белая ворона"
+              ],
+              "answer": 2,
+              "english": "At the new school she is the odd one out."
+            },
+            {
+              "before": "Ты сделал мне ",
+              "after": ".",
+              "options": [
+                "медвежью услугу",
+                "медвежья услуга",
+                "медвежьей услуги"
+              ],
+              "answer": 0,
+              "english": "You did me a disservice."
+            },
+            {
+              "before": "Он в этом деле ",
+              "after": ".",
+              "options": [
+                "собаку съели",
+                "собаку съел",
+                "собака съела"
+              ],
+              "answer": 1,
+              "english": "He is an expert at this."
+            }
+          ],
+          "dialogue": {
+            "scene": "Colleagues talk about a busy week.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Ты опять работаешь до ночи?",
+                "english": "Are you working until night again?",
+                "translit": "Ty opyat' rabotayesh' do nochi?"
+              },
+              {
+                "who": "me",
+                "target": "Да, я работаю как лошадь.",
+                "english": "Yes, I work like a horse.",
+                "translit": "Da, ya rabotayu kak loshad'."
+              },
+              {
+                "who": "them",
+                "target": "Может, отдохнёшь немного?",
+                "english": "Maybe you should rest a bit?",
+                "translit": "Mozhet, otdokhnyosh' nemnogo?"
+              }
+            ],
+            "replyOptions": [
+              "Не могу, я как белка в колесе.",
+              "Да, у меня есть собака.",
+              "Нет, это не мой договор."
+            ],
+            "answer": 0
+          },
+          "tip": "Animals carry stereotypes, often like English (busy as a bee = белка в колесе). When it does not match, just remember the picture."
+        },
+        {
+          "id": "s6u4l3",
+          "title": "Food & life idioms",
+          "items": [
+            {
+              "id": "s6u4l3-ni-ryba-ni-myaso",
+              "target": "ни рыба ни мясо",
+              "english": "neither fish nor fowl, bland",
+              "gender": null,
+              "emoji": "🐟",
+              "kind": "phrase",
+              "translit": "ni ryba ni myaso"
+            },
+            {
+              "id": "s6u4l3-kak-s-gusya-voda",
+              "target": "как с гуся вода",
+              "english": "like water off a duck's back",
+              "gender": null,
+              "emoji": "🦢",
+              "kind": "phrase",
+              "translit": "kak s gusya voda"
+            },
+            {
+              "id": "s6u4l3-yabloku-negde-upast",
+              "target": "яблоку негде упасть",
+              "english": "packed, not an inch of space",
+              "gender": null,
+              "emoji": "🍎",
+              "kind": "phrase",
+              "translit": "yabloku negde upast'"
+            },
+            {
+              "id": "s6u4l3-ne-vsyo-kotu-maslenitsa",
+              "target": "не всё коту масленица",
+              "english": "life is not all fun for the cat",
+              "gender": null,
+              "emoji": "😼",
+              "kind": "phrase",
+              "translit": "ne vsyo kotu maslenitsa"
+            },
+            {
+              "id": "s6u4l3-zavarit-kashu",
+              "target": "заварить кашу",
+              "english": "to start a mess (brew porridge)",
+              "gender": null,
+              "emoji": "🥣",
+              "kind": "phrase",
+              "translit": "zavarit' kashu"
+            },
+            {
+              "id": "s6u4l3-khleb-vsemu-golova",
+              "target": "хлеб всему голова",
+              "english": "bread is the head of everything",
+              "gender": null,
+              "emoji": "🍞",
+              "kind": "phrase",
+              "translit": "khleb vsemu golova"
+            },
+            {
+              "id": "s6u4l3-sem-pyatnits-na-nedele",
+              "target": "семь пятниц на неделе",
+              "english": "to change one's mind constantly",
+              "gender": null,
+              "emoji": "📆",
+              "kind": "phrase",
+              "translit": "sem' pyatnits na nedele"
+            },
+            {
+              "id": "s6u4l3-posle-dozhdichka-v-chetverg",
+              "target": "после дождичка в четверг",
+              "english": "when pigs fly (after the rain on Thursday)",
+              "gender": null,
+              "emoji": "🌧️",
+              "kind": "phrase",
+              "translit": "posle dozhdichka v chetverg"
+            },
+            {
+              "id": "s6u4l3-slivki-obshchestva",
+              "target": "сливки общества",
+              "english": "the elite (cream of society)",
+              "gender": null,
+              "emoji": "🥛",
+              "kind": "phrase",
+              "translit": "slivki obshchestva"
+            },
+            {
+              "id": "s6u4l3-palchiki-oblizhesh",
+              "target": "пальчики оближешь",
+              "english": "finger-licking good",
+              "gender": null,
+              "emoji": "😋",
+              "kind": "phrase",
+              "translit": "pal'chiki oblizhesh'"
+            },
+            {
+              "id": "s6u4l3-pervym-delom",
+              "target": "первым делом",
+              "english": "first thing, first of all",
+              "gender": null,
+              "emoji": "1️⃣",
+              "kind": "phrase",
+              "translit": "pervym delom"
+            },
+            {
+              "id": "s6u4l3-babushka-nadvoye-skazala",
+              "target": "бабушка надвое сказала",
+              "english": "who knows, that is not certain",
+              "gender": null,
+              "emoji": "👵",
+              "kind": "phrase",
+              "translit": "babushka nadvoye skazala"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Этот суп — пальчики оближешь!",
+              "english": "This soup is finger-licking good!",
+              "translit": "Etot sup — pal'chiki oblizhesh'!"
+            },
+            {
+              "target": "Первым делом я пью кофе.",
+              "english": "First thing, I drink coffee.",
+              "translit": "Pervym delom ya p'yu kofe."
+            },
+            {
+              "target": "На концерте яблоку негде было упасть.",
+              "english": "At the concert there was not an inch of space.",
+              "translit": "Na kontserte yabloku negde bylo upast'."
+            },
+            {
+              "target": "Его ругают, а ему как с гуся вода.",
+              "english": "They scold him, but it is like water off a duck's back.",
+              "translit": "Yevo rugayut, a yemu kak s gusya voda."
+            },
+            {
+              "target": "Не заваривай кашу, мы всё решим спокойно.",
+              "english": "Don't stir up a mess, we will settle it calmly.",
+              "translit": "Ne zavarivay kashu, my vsyo reshim spokoyno."
+            },
+            {
+              "target": "У тебя семь пятниц на неделе!",
+              "english": "You change your mind all the time!",
+              "translit": "U tebya sem' pyatnits na nedele!"
+            }
+          ],
+          "fills": [
+            {
+              "before": "Мой сосед — ни рыба ",
+              "after": ".",
+              "options": [
+                "ни хлеб",
+                "и мясо",
+                "ни мясо"
+              ],
+              "answer": 2,
+              "english": "My neighbour is neither fish nor fowl."
+            },
+            {
+              "before": "Он говорит, что придёт, но бабушка ",
+              "after": " сказала.",
+              "options": [
+                "надвое",
+                "двое",
+                "две"
+              ],
+              "answer": 0,
+              "english": "He says he will come, but who knows."
+            },
+            {
+              "before": "Деньги вернут ",
+              "after": ".",
+              "options": [
+                "после дождичка в пятницу",
+                "после дождичка в четверг",
+                "до дождичка в четверг"
+              ],
+              "answer": 1,
+              "english": "They will return the money when pigs fly."
+            },
+            {
+              "before": "В этом ресторане ",
+              "after": ".",
+              "options": [
+                "пальцы оближешь",
+                "пальчики облизал",
+                "пальчики оближешь"
+              ],
+              "answer": 2,
+              "english": "In this restaurant it is finger-licking good."
+            }
+          ],
+          "dialogue": {
+            "scene": "Asking about a party.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Как прошла вечеринка?",
+                "english": "How was the party?",
+                "translit": "Kak proshla vecherinka?"
+              },
+              {
+                "who": "me",
+                "target": "Очень много людей, яблоку негде было упасть.",
+                "english": "Lots of people, there was no room at all.",
+                "translit": "Ochen' mnogo lyudey, yabloku negde bylo upast'."
+              },
+              {
+                "who": "them",
+                "target": "А еда была вкусная?",
+                "english": "And was the food tasty?",
+                "translit": "A yeda byla vkusnaya?"
+              }
+            ],
+            "replyOptions": [
+              "Да, просто пальчики оближешь!",
+              "Да, он семь пятниц на неделе.",
+              "Нет, это сливки общества."
+            ],
+            "answer": 0
+          },
+          "tip": "Food is the metaphor: заварить кашу (to stir up a mess) and пальчики оближешь (delicious) are everyday. Keep each as one chunk."
+        },
+        {
+          "id": "s6u4l4",
+          "title": "Proverbs",
+          "items": [
+            {
+              "id": "s6u4l4-ni-svet-ni-zarya",
+              "target": "ни свет ни заря",
+              "english": "at the crack of dawn",
+              "gender": null,
+              "emoji": "🌅",
+              "kind": "phrase",
+              "translit": "ni svet ni zarya"
+            },
+            {
+              "id": "s6u4l4-v-odin-prekrasnyy-den",
+              "target": "в один прекрасный день",
+              "english": "one fine day",
+              "gender": null,
+              "emoji": "🌞",
+              "kind": "phrase",
+              "translit": "v odin prekrasnyy den'"
+            },
+            {
+              "id": "s6u4l4-vremya-dengi",
+              "target": "время деньги",
+              "english": "time is money",
+              "gender": null,
+              "emoji": "⏰",
+              "kind": "phrase",
+              "translit": "vremya den'gi"
+            },
+            {
+              "id": "s6u4l4-sem-raz-otmer-odin-otrezh",
+              "target": "семь раз отмерь один отрежь",
+              "english": "measure twice, cut once",
+              "gender": null,
+              "emoji": "📏",
+              "kind": "phrase",
+              "translit": "sem' raz otmer' odin otrezh'"
+            },
+            {
+              "id": "s6u4l4-luchshe-pozdno-chem-nikogda",
+              "target": "лучше поздно чем никогда",
+              "english": "better late than never",
+              "gender": null,
+              "emoji": "🐢",
+              "kind": "phrase",
+              "translit": "luchshe pozdno chem nikogda"
+            },
+            {
+              "id": "s6u4l4-odna-golova-khorosho-a-dve-luchshe",
+              "target": "одна голова хорошо а две лучше",
+              "english": "two heads are better than one",
+              "gender": null,
+              "emoji": "👥",
+              "kind": "phrase",
+              "translit": "odna golova khorosho a dve luchshe"
+            },
+            {
+              "id": "s6u4l4-ne-imey-sto-rubley-a-imey-sto-druzey",
+              "target": "не имей сто рублей а имей сто друзей",
+              "english": "better a hundred friends than a hundred rubles",
+              "gender": null,
+              "emoji": "💞",
+              "kind": "phrase",
+              "translit": "ne imey sto rubley a imey sto druzey"
+            },
+            {
+              "id": "s6u4l4-povtoreniye-mat-ucheniya",
+              "target": "повторение мать учения",
+              "english": "repetition is the mother of learning",
+              "gender": null,
+              "emoji": "🔁",
+              "kind": "phrase",
+              "translit": "povtoreniye mat' ucheniya"
+            },
+            {
+              "id": "s6u4l4-mir-tesen",
+              "target": "мир тесен",
+              "english": "it's a small world",
+              "gender": null,
+              "emoji": "🌍",
+              "kind": "phrase",
+              "translit": "mir tesen"
+            },
+            {
+              "id": "s6u4l4-vsyo-k-luchshemu",
+              "target": "всё к лучшему",
+              "english": "everything is for the best",
+              "gender": null,
+              "emoji": "🌈",
+              "kind": "phrase",
+              "translit": "vsyo k luchshemu"
+            },
+            {
+              "id": "s6u4l4-kak-znat",
+              "target": "как знать",
+              "english": "who knows",
+              "gender": null,
+              "emoji": "🤔",
+              "kind": "phrase",
+              "translit": "kak znat'"
+            },
+            {
+              "id": "s6u4l4-tishe-yedesh-dalshe-budesh",
+              "target": "тише едешь дальше будешь",
+              "english": "slow and steady wins the race",
+              "gender": null,
+              "emoji": "🐌",
+              "kind": "phrase",
+              "translit": "tishe yedesh' dal'she budesh'"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Я встал ни свет ни заря.",
+              "english": "I got up at the crack of dawn.",
+              "translit": "Ya vstal ni svet ni zarya."
+            },
+            {
+              "target": "В один прекрасный день я уеду в Россию.",
+              "english": "One fine day I will go to Russia.",
+              "translit": "V odin prekrasnyy den' ya uyedu v Rossiyu."
+            },
+            {
+              "target": "Время — деньги, давай быстрее.",
+              "english": "Time is money, let's hurry up.",
+              "translit": "Vremya — den'gi, davay bystreye."
+            },
+            {
+              "target": "Не спеши: семь раз отмерь, один отрежь.",
+              "english": "Don't hurry: measure twice, cut once.",
+              "translit": "Ne speshi: sem' raz otmer', odin otrezh'."
+            },
+            {
+              "target": "Ты пришёл поздно, но лучше поздно, чем никогда!",
+              "english": "You came late, but better late than never!",
+              "translit": "Ty prishyol pozdno, no luchshe pozdno, chem nikogda!"
+            },
+            {
+              "target": "Мир тесен: я встретил друга в Москве.",
+              "english": "It's a small world: I met a friend in Moscow.",
+              "translit": "Mir tesen: ya vstretil druga v Moskve."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Повторение — ",
+              "after": " учения.",
+              "options": [
+                "мать",
+                "отец",
+                "дочь"
+              ],
+              "answer": 0,
+              "english": "Repetition is the mother of learning."
+            },
+            {
+              "before": "Лучше ",
+              "after": ", чем никогда.",
+              "options": [
+                "рано",
+                "поздно",
+                "быстро"
+              ],
+              "answer": 1,
+              "english": "Better late than never."
+            },
+            {
+              "before": "Тише ",
+              "after": ", дальше будешь.",
+              "options": [
+                "идёшь",
+                "пишешь",
+                "едешь"
+              ],
+              "answer": 2,
+              "english": "Slow and steady wins the race."
+            },
+            {
+              "before": "Одна голова хорошо, а ",
+              "after": " лучше.",
+              "options": [
+                "две",
+                "три",
+                "один"
+              ],
+              "answer": 0,
+              "english": "Two heads are better than one."
+            }
+          ],
+          "dialogue": {
+            "scene": "A late arrival at a meeting.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Извини, я опоздал на двадцать минут.",
+                "english": "Sorry, I am twenty minutes late.",
+                "translit": "Izvini, ya opozdal na dvadtsat' minut."
+              },
+              {
+                "who": "me",
+                "target": "Ничего страшного. Всё к лучшему.",
+                "english": "No big deal. It's all for the best.",
+                "translit": "Nichevo strashnovo. Vsyo k luchshemu."
+              },
+              {
+                "who": "them",
+                "target": "Правда? Почему?",
+                "english": "Really? Why?",
+                "translit": "Pravda? Pochemu?"
+              }
+            ],
+            "replyOptions": [
+              "Как знать, может, так лучше.",
+              "Ни свет ни заря.",
+              "Я не знаю, где мой диплом."
+            ],
+            "answer": 0
+          },
+          "tip": "Proverbs are short rhymes everybody knows. Drop them whole into conversation: Время — деньги. Мир тесен. People smile when you do."
+        },
+        {
+          "id": "s6u4l5",
+          "title": "Everyday exclamations",
+          "items": [
+            {
+              "id": "s6u4l5-bud-shto-budet",
+              "target": "будь что будет",
+              "english": "come what may",
+              "gender": null,
+              "emoji": "🎲",
+              "kind": "phrase",
+              "translit": "bud' shto budet"
+            },
+            {
+              "id": "s6u4l5-kak-by-ne-tak",
+              "target": "как бы не так",
+              "english": "no way, not likely",
+              "gender": null,
+              "emoji": "🙄",
+              "kind": "phrase",
+              "translit": "kak by ne tak"
+            },
+            {
+              "id": "s6u4l5-ni-za-shto",
+              "target": "ни за что",
+              "english": "no way, never",
+              "gender": null,
+              "emoji": "🚫",
+              "kind": "phrase",
+              "translit": "ni za shto"
+            },
+            {
+              "id": "s6u4l5-s-uma-soyti",
+              "target": "с ума сойти",
+              "english": "unbelievable, crazy (go insane)",
+              "gender": null,
+              "emoji": "🤯",
+              "kind": "phrase",
+              "translit": "s uma soyti"
+            },
+            {
+              "id": "s6u4l5-ni-na-shag",
+              "target": "ни на шаг",
+              "english": "not a step",
+              "gender": null,
+              "emoji": "🛑",
+              "kind": "phrase",
+              "translit": "ni na shag"
+            },
+            {
+              "id": "s6u4l5-na-vsyakiy-sluchay",
+              "target": "на всякий случай",
+              "english": "just in case",
+              "gender": null,
+              "emoji": "🧯",
+              "kind": "phrase",
+              "translit": "na vsyakiy sluchay"
+            },
+            {
+              "id": "s6u4l5-po-krayney-mere",
+              "target": "по крайней мере",
+              "english": "at least",
+              "gender": null,
+              "emoji": "➖",
+              "kind": "phrase",
+              "translit": "po krayney mere"
+            },
+            {
+              "id": "s6u4l5-kak-nazlo",
+              "target": "как назло",
+              "english": "as luck would have it",
+              "gender": null,
+              "emoji": "😤",
+              "kind": "phrase",
+              "translit": "kak nazlo"
+            },
+            {
+              "id": "s6u4l5-v-kraynem-sluchaye",
+              "target": "в крайнем случае",
+              "english": "if worst comes to worst",
+              "gender": null,
+              "emoji": "🆘",
+              "kind": "phrase",
+              "translit": "v kraynem sluchaye"
+            },
+            {
+              "id": "s6u4l5-tak-i-byt",
+              "target": "так и быть",
+              "english": "so be it, fine",
+              "gender": null,
+              "emoji": "🤷‍♂️",
+              "kind": "phrase",
+              "translit": "tak i byt'"
+            },
+            {
+              "id": "s6u4l5-kuda-tam",
+              "target": "куда там",
+              "english": "no chance, far from it",
+              "gender": null,
+              "emoji": "🙅‍♂️",
+              "kind": "phrase",
+              "translit": "kuda tam"
+            },
+            {
+              "id": "s6u4l5-ne-tut-to-bylo",
+              "target": "не тут-то было",
+              "english": "not so fast, it didn't work out that way",
+              "gender": null,
+              "emoji": "✋",
+              "kind": "phrase",
+              "translit": "ne tut-to bylo"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Давай пойдём, будь что будет!",
+              "english": "Let's go, come what may!",
+              "translit": "Davay poydyom, bud' shto budet!"
+            },
+            {
+              "target": "Ты думаешь, он придёт? Как бы не так!",
+              "english": "You think he will come? No way!",
+              "translit": "Ty dumayesh', on pridyot? Kak by ne tak!"
+            },
+            {
+              "target": "Ни за что не поеду туда зимой.",
+              "english": "I will never go there in winter.",
+              "translit": "Ni za shto ne poyedu tuda zimoy."
+            },
+            {
+              "target": "Возьми зонт на всякий случай.",
+              "english": "Take an umbrella just in case.",
+              "translit": "Voz'mi zont na vsyakiy sluchay."
+            },
+            {
+              "target": "Я хотел спать, но не тут-то было — соседи шумели.",
+              "english": "I wanted to sleep, but no such luck, the neighbours were noisy.",
+              "translit": "Ya khotel spat', no ne tut-to bylo — sosedi shumeli."
+            },
+            {
+              "target": "Как назло, начался дождь!",
+              "english": "As luck would have it, it started to rain!",
+              "translit": "Kak nazlo, nachalsya dozhd'!"
+            }
+          ],
+          "fills": [
+            {
+              "before": "Мы ",
+              "after": " видели Кремль.",
+              "options": [
+                "в крайней мере",
+                "по крайней мере",
+                "по крайнему мере"
+              ],
+              "answer": 1,
+              "english": "We at least saw the Kremlin."
+            },
+            {
+              "before": "Возьми деньги ",
+              "after": ".",
+              "options": [
+                "на любой случай",
+                "по всякий случай",
+                "на всякий случай"
+              ],
+              "answer": 2,
+              "english": "Take money just in case."
+            },
+            {
+              "before": "Хорошо, ",
+              "after": ", я помогу.",
+              "options": [
+                "так и быть",
+                "так и был",
+                "так и будь"
+              ],
+              "answer": 0,
+              "english": "Fine, so be it, I will help."
+            },
+            {
+              "before": "В крайнем ",
+              "after": " мы пойдём пешком.",
+              "options": [
+                "случай",
+                "случае",
+                "случаю"
+              ],
+              "answer": 1,
+              "english": "If worst comes to worst, we will walk."
+            }
+          ],
+          "dialogue": {
+            "scene": "Bad luck on a trip.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Мы опоздали на поезд!",
+                "english": "We missed the train!",
+                "translit": "My opozdali na poyezd!"
+              },
+              {
+                "who": "me",
+                "target": "С ума сойти! Что делать?",
+                "english": "Unbelievable! What do we do?",
+                "translit": "S uma soyti! Shto delat'?"
+              },
+              {
+                "who": "them",
+                "target": "Может, поедем на автобусе?",
+                "english": "Maybe we take the bus?",
+                "translit": "Mozhet, poyedem na avtobuse?"
+              }
+            ],
+            "replyOptions": [
+              "Так и быть, поедем на автобусе.",
+              "Ни пуха ни пера.",
+              "Это мой билет в Москву."
+            ],
+            "answer": 0
+          },
+          "tip": "Set phrases do not translate word for word: как бы не так means 'no way', not 'how it might not'. Learn when to use them, not the grammar."
+        }
+      ]
+    },
+    {
+      "id": "s6u5",
+      "title": "Fast natural speech",
+      "lessons": [
+        {
+          "id": "s6u5l1",
+          "title": "Particles",
+          "items": [
+            {
+              "id": "s6u5l1-zhe",
+              "target": "же",
+              "english": "but, you know (emphasis)",
+              "gender": null,
+              "emoji": "☝️",
+              "kind": "word",
+              "translit": "zhe"
+            },
+            {
+              "id": "s6u5l1-ved",
+              "target": "ведь",
+              "english": "after all, you know",
+              "gender": null,
+              "emoji": "💬",
+              "kind": "word",
+              "translit": "ved'"
+            },
+            {
+              "id": "s6u5l1-vot",
+              "target": "вот",
+              "english": "here, there, look",
+              "gender": null,
+              "emoji": "👉",
+              "kind": "word",
+              "translit": "vot"
+            },
+            {
+              "id": "s6u5l1-nu",
+              "target": "ну",
+              "english": "well, so, come on",
+              "gender": null,
+              "emoji": "🤨",
+              "kind": "word",
+              "translit": "nu"
+            },
+            {
+              "id": "s6u5l1-nu-vot",
+              "target": "ну вот",
+              "english": "well there you go",
+              "gender": null,
+              "emoji": "✨",
+              "kind": "phrase",
+              "translit": "nu vot"
+            },
+            {
+              "id": "s6u5l1-vot-kak",
+              "target": "вот как",
+              "english": "oh really, is that so",
+              "gender": null,
+              "emoji": "😮",
+              "kind": "phrase",
+              "translit": "vot kak"
+            },
+            {
+              "id": "s6u5l1-vot-imenno",
+              "target": "вот именно",
+              "english": "exactly, precisely",
+              "gender": null,
+              "emoji": "🎯",
+              "kind": "phrase",
+              "translit": "vot imenno"
+            },
+            {
+              "id": "s6u5l1-nu-i-shto",
+              "target": "ну и что",
+              "english": "so what",
+              "gender": null,
+              "emoji": "🤷",
+              "kind": "phrase",
+              "translit": "nu i shto"
+            },
+            {
+              "id": "s6u5l1-voobshche",
+              "target": "вообще",
+              "english": "in general, at all",
+              "gender": null,
+              "emoji": "🌐",
+              "kind": "word",
+              "translit": "voobshche"
+            },
+            {
+              "id": "s6u5l1-vsyo-taki",
+              "target": "всё-таки",
+              "english": "still, after all",
+              "gender": null,
+              "emoji": "🔁",
+              "kind": "word",
+              "translit": "vsyo-taki"
+            },
+            {
+              "id": "s6u5l1-prosto",
+              "target": "просто",
+              "english": "simply, just",
+              "gender": null,
+              "emoji": "👌",
+              "kind": "word",
+              "translit": "prosto"
+            },
+            {
+              "id": "s6u5l1-nu-da",
+              "target": "ну да",
+              "english": "well yes, sure",
+              "gender": null,
+              "emoji": "🙂",
+              "kind": "phrase",
+              "translit": "nu da"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Ты же знаешь, я не люблю спорить.",
+              "english": "You know I don't like arguing.",
+              "translit": "Ty zhe znayesh', ya ne lyublyu sporit'."
+            },
+            {
+              "target": "Мы ведь договорились встретиться в пять.",
+              "english": "After all, we agreed to meet at five.",
+              "translit": "My ved' dogovorilis' vstretit'sya v pyat'."
+            },
+            {
+              "target": "Вот мой телефон, звони в любое время.",
+              "english": "Here is my phone, call any time.",
+              "translit": "Vot moy telefon, zvoni v lyuboye vremya."
+            },
+            {
+              "target": "Ну вот, дождь начался!",
+              "english": "Well, there it goes, it started to rain!",
+              "translit": "Nu vot, dozhd' nachalsya!"
+            },
+            {
+              "target": "Он вообще не любит кофе.",
+              "english": "He doesn't like coffee at all.",
+              "translit": "On voobshche ne lyubit kofe."
+            },
+            {
+              "target": "Я всё-таки пойду, хотя очень устал.",
+              "english": "I will go anyway, even though I am very tired.",
+              "translit": "Ya vsyo-taki poydu, khotya ochen' ustal."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Ты ",
+              "after": " знаешь, где он живёт.",
+              "options": [
+                "вот",
+                "ну",
+                "же"
+              ],
+              "answer": 2,
+              "english": "But you know where he lives."
+            },
+            {
+              "before": "",
+              "after": ", теперь всё готово.",
+              "options": [
+                "Ну вот",
+                "Вот как",
+                "Вот именно"
+              ],
+              "answer": 0,
+              "english": "There, now everything is ready."
+            },
+            {
+              "before": "— Он не придёт. — ",
+              "after": "?",
+              "options": [
+                "Ну и что",
+                "Вот как",
+                "Вот именно"
+              ],
+              "answer": 1,
+              "english": "'He won't come.' 'Oh, really?'"
+            },
+            {
+              "before": "Я ",
+              "after": " хотел помочь.",
+              "options": [
+                "ведь",
+                "ну и что",
+                "просто"
+              ],
+              "answer": 2,
+              "english": "I just wanted to help."
+            }
+          ],
+          "dialogue": {
+            "scene": "Chatting about weekend plans.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Пойдём в кино завтра?",
+                "english": "Shall we go to the cinema tomorrow?",
+                "translit": "Poydyom v kino zavtra?"
+              },
+              {
+                "who": "me",
+                "target": "Я же работаю до семи.",
+                "english": "But I work until seven.",
+                "translit": "Ya zhe rabotayu do semi."
+              },
+              {
+                "who": "them",
+                "target": "Ну и что? Фильм в девять.",
+                "english": "So what? The film is at nine.",
+                "translit": "Nu i shto? Fil'm v devyat'."
+              }
+            ],
+            "replyOptions": [
+              "Ну да, тогда пойдём!",
+              "Вот борщ.",
+              "Это мой дедлайн."
+            ],
+            "answer": 0
+          },
+          "tip": "Particles (же, ведь, вот, ну) have no direct English: they add tone like 'you know' or 'come on'. Hear them, copy the melody, do not translate."
+        },
+        {
+          "id": "s6u5l2",
+          "title": "Ты and вы",
+          "items": [
+            {
+              "id": "s6u5l2-pereyti-na-ty",
+              "target": "перейти на ты",
+              "english": "to switch to 'ty' (first-name terms)",
+              "gender": null,
+              "emoji": "🔄",
+              "kind": "phrase",
+              "translit": "pereyti na ty"
+            },
+            {
+              "id": "s6u5l2-davay-na-ty",
+              "target": "давай на ты",
+              "english": "let's use 'ty'",
+              "gender": null,
+              "emoji": "🤝",
+              "kind": "phrase",
+              "translit": "davay na ty"
+            },
+            {
+              "id": "s6u5l2-mozhno-na-ty",
+              "target": "можно на ты",
+              "english": "may we say 'ty'",
+              "gender": null,
+              "emoji": "🙋",
+              "kind": "phrase",
+              "translit": "mozhno na ty"
+            },
+            {
+              "id": "s6u5l2-vykat",
+              "target": "выкать",
+              "english": "to say 'vy' to someone",
+              "gender": null,
+              "emoji": "🎩",
+              "kind": "word",
+              "translit": "vykat'"
+            },
+            {
+              "id": "s6u5l2-tykat",
+              "target": "тыкать",
+              "english": "to say 'ty' to someone",
+              "gender": null,
+              "emoji": "👋",
+              "kind": "word",
+              "translit": "tykat'"
+            },
+            {
+              "id": "s6u5l2-obrashchatsya",
+              "target": "обращаться",
+              "english": "to address, to turn to",
+              "gender": null,
+              "emoji": "📣",
+              "kind": "word",
+              "translit": "obrashchat'sya"
+            },
+            {
+              "id": "s6u5l2-vezhlivo",
+              "target": "вежливо",
+              "english": "politely",
+              "gender": null,
+              "emoji": "😇",
+              "kind": "word",
+              "translit": "vezhlivo"
+            },
+            {
+              "id": "s6u5l2-po-imeni-otchestvu",
+              "target": "по имени-отчеству",
+              "english": "by first name and patronymic",
+              "gender": null,
+              "emoji": "🪪",
+              "kind": "phrase",
+              "translit": "po imeni-otchestvu"
+            },
+            {
+              "id": "s6u5l2-familyarno",
+              "target": "фамильярно",
+              "english": "overly familiar",
+              "gender": null,
+              "emoji": "😬",
+              "kind": "word",
+              "translit": "famil'yarno"
+            },
+            {
+              "id": "s6u5l2-neudobno",
+              "target": "неудобно",
+              "english": "awkward, uncomfortable",
+              "gender": null,
+              "emoji": "😅",
+              "kind": "word",
+              "translit": "neudobno"
+            },
+            {
+              "id": "s6u5l2-formalno",
+              "target": "формально",
+              "english": "formally",
+              "gender": null,
+              "emoji": "👔",
+              "kind": "word",
+              "translit": "formal'no"
+            },
+            {
+              "id": "s6u5l2-neformalno",
+              "target": "неформально",
+              "english": "informally",
+              "gender": null,
+              "emoji": "🧢",
+              "kind": "word",
+              "translit": "neformal'no"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Мы можем перейти на ты?",
+              "english": "Can we switch to 'ty'?",
+              "translit": "My mozhem pereyti na ty?"
+            },
+            {
+              "target": "Давай на ты, мы же друзья!",
+              "english": "Let's use 'ty', we are friends!",
+              "translit": "Davay na ty, my zhe druz'ya!"
+            },
+            {
+              "target": "К директору я обращаюсь по имени-отчеству.",
+              "english": "I address the director by name and patronymic.",
+              "translit": "K direktoru ya obrashchayus' po imeni-otchestvu."
+            },
+            {
+              "target": "Мне неудобно выкать старому другу.",
+              "english": "It is awkward for me to say 'vy' to an old friend.",
+              "translit": "Mne neudobno vykat' staromu drugu."
+            },
+            {
+              "target": "В письме я пишу вежливо и формально.",
+              "english": "In a letter I write politely and formally.",
+              "translit": "V pis'me ya pishu vezhlivo i formal'no."
+            },
+            {
+              "target": "С детьми я говорю неформально.",
+              "english": "With kids I speak informally.",
+              "translit": "S det'mi ya govoryu neformal'no."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Можно ",
+              "after": "?",
+              "options": [
+                "на ты",
+                "на вы",
+                "с ты"
+              ],
+              "answer": 0,
+              "english": "May we use 'ty'?"
+            },
+            {
+              "before": "С клиентом лучше говорить ",
+              "after": ".",
+              "options": [
+                "вежливый",
+                "вежливо",
+                "вежливость"
+              ],
+              "answer": 1,
+              "english": "With a client it is better to speak politely."
+            },
+            {
+              "before": "Он ",
+              "after": " всем, и это фамильярно.",
+              "options": [
+                "тыкать",
+                "тыкаю",
+                "тыкает"
+              ],
+              "answer": 2,
+              "english": "He uses 'ty' with everyone and it is overly familiar."
+            },
+            {
+              "before": "Я ",
+              "after": " к нему на «вы».",
+              "options": [
+                "обращаюсь",
+                "обращает",
+                "обращаться"
+              ],
+              "answer": 0,
+              "english": "I address him as 'vy'."
+            }
+          ],
+          "dialogue": {
+            "scene": "Meeting a colleague's father.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Здравствуйте! Меня зовут Сергей Петрович.",
+                "english": "Hello! My name is Sergey Petrovich.",
+                "translit": "Zdravstvuyte! Menya zovut Sergey Petrovich."
+              },
+              {
+                "who": "me",
+                "target": "Очень приятно! Я Алекс.",
+                "english": "Nice to meet you! I am Alex.",
+                "translit": "Ochen' priyatno! Ya Aleks."
+              },
+              {
+                "who": "them",
+                "target": "Давай на ты, Алекс. Так проще.",
+                "english": "Let's use 'ty', Alex. It's easier.",
+                "translit": "Davay na ty, Aleks. Tak proshche."
+              }
+            ],
+            "replyOptions": [
+              "Хорошо, давай на ты!",
+              "Я с вами согласен, это дача.",
+              "Нет, я не люблю чай."
+            ],
+            "answer": 0
+          },
+          "tip": "ты for friends, family, kids; вы for strangers, elders, bosses and groups. To switch, ask: Давай на ты! The older/higher person usually proposes."
+        },
+        {
+          "id": "s6u5l3",
+          "title": "Colloquial",
+          "items": [
+            {
+              "id": "s6u5l3-tipa",
+              "target": "типа",
+              "english": "like, sort of",
+              "gender": null,
+              "emoji": "🤙",
+              "kind": "word",
+              "translit": "tipa"
+            },
+            {
+              "id": "s6u5l3-blin",
+              "target": "блин",
+              "english": "damn, dang",
+              "gender": null,
+              "emoji": "😤",
+              "kind": "word",
+              "translit": "blin"
+            },
+            {
+              "id": "s6u5l3-prikolno",
+              "target": "прикольно",
+              "english": "cool, funny",
+              "gender": null,
+              "emoji": "😎",
+              "kind": "word",
+              "translit": "prikol'no"
+            },
+            {
+              "id": "s6u5l3-klassno",
+              "target": "классно",
+              "english": "great, awesome",
+              "gender": null,
+              "emoji": "👍",
+              "kind": "word",
+              "translit": "klassno"
+            },
+            {
+              "id": "s6u5l3-zhest",
+              "target": "жесть",
+              "english": "hardcore, insane",
+              "gender": "f",
+              "emoji": "🔥",
+              "kind": "word",
+              "translit": "zhest'"
+            },
+            {
+              "id": "s6u5l3-tusovka",
+              "target": "тусовка",
+              "english": "party, social scene",
+              "gender": "f",
+              "emoji": "🎉",
+              "kind": "word",
+              "translit": "tusovka"
+            },
+            {
+              "id": "s6u5l3-chuvak",
+              "target": "чувак",
+              "english": "dude",
+              "gender": "m",
+              "emoji": "🤙",
+              "kind": "word",
+              "translit": "chuvak"
+            },
+            {
+              "id": "s6u5l3-mem",
+              "target": "мем",
+              "english": "meme",
+              "gender": "m",
+              "emoji": "😂",
+              "kind": "word",
+              "translit": "mem"
+            },
+            {
+              "id": "s6u5l3-zalipat",
+              "target": "залипать",
+              "english": "to get hooked, to zone out on",
+              "gender": null,
+              "emoji": "📱",
+              "kind": "word",
+              "translit": "zalipat'"
+            },
+            {
+              "id": "s6u5l3-zamorochitsya",
+              "target": "заморочиться",
+              "english": "to bother, to go to the trouble",
+              "gender": null,
+              "emoji": "😮‍💨",
+              "kind": "word",
+              "translit": "zamorochit'sya"
+            },
+            {
+              "id": "s6u5l3-tormozit",
+              "target": "тормозить",
+              "english": "to lag, to be slow",
+              "gender": null,
+              "emoji": "🐢",
+              "kind": "word",
+              "translit": "tormozit'"
+            },
+            {
+              "id": "s6u5l3-v-temu",
+              "target": "в тему",
+              "english": "on point, relevant",
+              "gender": null,
+              "emoji": "🎯",
+              "kind": "phrase",
+              "translit": "v temu"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Это было типа очень смешно.",
+              "english": "It was like, really funny.",
+              "translit": "Eto bylo tipa ochen' smeshno."
+            },
+            {
+              "target": "Блин, я забыл телефон дома!",
+              "english": "Damn, I forgot my phone at home!",
+              "translit": "Blin, ya zabyl telefon doma!"
+            },
+            {
+              "target": "Вчера была классная тусовка, прикольно!",
+              "english": "Yesterday's party was great, fun!",
+              "translit": "Vchera byla klassnaya tusovka, prikol'no!"
+            },
+            {
+              "target": "Этот мем просто жесть.",
+              "english": "This meme is just insane.",
+              "translit": "Etot mem prosto zhest'."
+            },
+            {
+              "target": "Я залипаю в телефоне весь вечер.",
+              "english": "I zone out on my phone all evening.",
+              "translit": "Ya zalipayu v telefone ves' vecher."
+            },
+            {
+              "target": "Не тормози, пойдём уже!",
+              "english": "Don't be slow, let's go already!",
+              "translit": "Ne tormozi, poydyom uzhe!"
+            }
+          ],
+          "fills": [
+            {
+              "before": "Чувак, ",
+              "after": " выглядишь!",
+              "options": [
+                "классный",
+                "классно",
+                "классность"
+              ],
+              "answer": 1,
+              "english": "Dude, you look great!"
+            },
+            {
+              "before": "Мне лень ",
+              "after": ".",
+              "options": [
+                "заморочился",
+                "заморочка",
+                "заморочиться"
+              ],
+              "answer": 2,
+              "english": "I am too lazy to bother."
+            },
+            {
+              "before": "Это очень ",
+              "after": "!",
+              "options": [
+                "в тему",
+                "в темы",
+                "на тему"
+              ],
+              "answer": 0,
+              "english": "This is totally on point!"
+            },
+            {
+              "before": "Он вчера ",
+              "after": " в мемах.",
+              "options": [
+                "залипать",
+                "залипал",
+                "залипший"
+              ],
+              "answer": 1,
+              "english": "He got hooked on memes yesterday."
+            }
+          ],
+          "dialogue": {
+            "scene": "Texting a friend after a party.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Блин, вчера была жесть!",
+                "english": "Damn, yesterday was insane!",
+                "translit": "Blin, vchera byla zhest'!"
+              },
+              {
+                "who": "me",
+                "target": "Да, тусовка была классная.",
+                "english": "Yes, the party was great.",
+                "translit": "Da, tusovka byla klassnaya."
+              },
+              {
+                "who": "them",
+                "target": "Сколько ты там пробыл?",
+                "english": "How long were you there?",
+                "translit": "Skol'ko ty tam probyl?"
+              }
+            ],
+            "replyOptions": [
+              "До трёх ночи, прикольно.",
+              "Тусовка в Эрмитаже.",
+              "Это был большой договор."
+            ],
+            "answer": 0
+          },
+          "tip": "Colloquial words are for friends only: блин (damn), классно (cool), жесть (crazy bad/good). Fine in a bar, wrong in a formal email."
+        },
+        {
+          "id": "s6u5l4",
+          "title": "Reduced speech",
+          "items": [
+            {
+              "id": "s6u5l4-zdraste",
+              "target": "здрасьте",
+              "english": "hi (shortened здравствуйте)",
+              "gender": null,
+              "emoji": "👋",
+              "kind": "word",
+              "translit": "zdras'te"
+            },
+            {
+              "id": "s6u5l4-aga",
+              "target": "ага",
+              "english": "uh-huh, yeah",
+              "gender": null,
+              "emoji": "👍",
+              "kind": "word",
+              "translit": "aga"
+            },
+            {
+              "id": "s6u5l4-ugu",
+              "target": "угу",
+              "english": "mm-hmm",
+              "gender": null,
+              "emoji": "😌",
+              "kind": "word",
+              "translit": "ugu"
+            },
+            {
+              "id": "s6u5l4-ne-a",
+              "target": "не-а",
+              "english": "nope",
+              "gender": null,
+              "emoji": "👎",
+              "kind": "word",
+              "translit": "ne-a"
+            },
+            {
+              "id": "s6u5l4-a-to",
+              "target": "а то",
+              "english": "or else, otherwise",
+              "gender": null,
+              "emoji": "⚠️",
+              "kind": "phrase",
+              "translit": "a to"
+            },
+            {
+              "id": "s6u5l4-nu-ladno",
+              "target": "ну ладно",
+              "english": "well okay",
+              "gender": null,
+              "emoji": "🙆",
+              "kind": "phrase",
+              "translit": "nu ladno"
+            },
+            {
+              "id": "s6u5l4-yasnoye-delo",
+              "target": "ясное дело",
+              "english": "obviously, of course",
+              "gender": null,
+              "emoji": "🙄",
+              "kind": "phrase",
+              "translit": "yasnoye delo"
+            },
+            {
+              "id": "s6u5l4-ponyatno",
+              "target": "понятно",
+              "english": "got it, understood",
+              "gender": null,
+              "emoji": "💡",
+              "kind": "word",
+              "translit": "ponyatno"
+            },
+            {
+              "id": "s6u5l4-v-smysle",
+              "target": "в смысле",
+              "english": "what do you mean, I mean",
+              "gender": null,
+              "emoji": "🤨",
+              "kind": "phrase",
+              "translit": "v smysle"
+            },
+            {
+              "id": "s6u5l4-v-kurse",
+              "target": "в курсе",
+              "english": "in the loop, aware",
+              "gender": null,
+              "emoji": "📰",
+              "kind": "phrase",
+              "translit": "v kurse"
+            },
+            {
+              "id": "s6u5l4-tipa-tovo",
+              "target": "типа того",
+              "english": "something like that",
+              "gender": null,
+              "emoji": "🤏",
+              "kind": "phrase",
+              "translit": "tipa tovo"
+            },
+            {
+              "id": "s6u5l4-chisto",
+              "target": "чисто",
+              "english": "just, purely, simply",
+              "gender": null,
+              "emoji": "🧼",
+              "kind": "word",
+              "translit": "chisto"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Здрасьте! Как дела?",
+              "english": "Hi! How are things?",
+              "translit": "Zdras'te! Kak dela?"
+            },
+            {
+              "target": "— Ты придёшь? — Ага, конечно.",
+              "english": "'Will you come?' 'Yeah, sure.'",
+              "translit": "— Ty pridyosh'? — Aga, koneshno."
+            },
+            {
+              "target": "— Хочешь чай? — Не-а, спасибо.",
+              "english": "'Want tea?' 'Nope, thanks.'",
+              "translit": "— Khochesh' chay? — Ne-a, spasibo."
+            },
+            {
+              "target": "Быстрее, а то опоздаем!",
+              "english": "Faster, or we will be late!",
+              "translit": "Bystreye, a to opozdayem!"
+            },
+            {
+              "target": "Ясное дело, он всё знает.",
+              "english": "Obviously, he knows everything.",
+              "translit": "Yasnoye delo, on vsyo znayet."
+            },
+            {
+              "target": "Ты в курсе? Завтра созвон в десять.",
+              "english": "Are you aware? Tomorrow there's a call at ten.",
+              "translit": "Ty v kurse? Zavtra sozvon v desyat'."
+            }
+          ],
+          "fills": [
+            {
+              "before": "Иди сюда, ",
+              "after": " будет поздно.",
+              "options": [
+                "а да",
+                "и то",
+                "а то"
+              ],
+              "answer": 2,
+              "english": "Come here, or else it will be late."
+            },
+            {
+              "before": "",
+              "after": "? Я не понимаю.",
+              "options": [
+                "В смысле",
+                "В смысл",
+                "На смысле"
+              ],
+              "answer": 0,
+              "english": "What do you mean? I don't understand."
+            },
+            {
+              "before": "Ты ",
+              "after": ", что он уехал?",
+              "options": [
+                "в курс",
+                "в курсе",
+                "на курсе"
+              ],
+              "answer": 1,
+              "english": "Are you aware that he left?"
+            },
+            {
+              "before": "— Ты устал? — ",
+              "after": ".",
+              "options": [
+                "Типа это",
+                "Что того",
+                "Типа того"
+              ],
+              "answer": 2,
+              "english": "'Are you tired?' 'Sort of.'"
+            }
+          ],
+          "dialogue": {
+            "scene": "Quick chat in the corridor.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Здрасьте! Ты в курсе, что совещание перенесли?",
+                "english": "Hi! Do you know the meeting was moved?",
+                "translit": "Zdras'te! Ty v kurse, shto soveshchaniye perenesli?"
+              },
+              {
+                "who": "me",
+                "target": "Не-а. На когда?",
+                "english": "Nope. To when?",
+                "translit": "Ne-a. Na kogda?"
+              },
+              {
+                "who": "them",
+                "target": "На три часа.",
+                "english": "To three o'clock.",
+                "translit": "Na tri chasa."
+              }
+            ],
+            "replyOptions": [
+              "Понятно, спасибо!",
+              "Здрасьте, это квас.",
+              "Ясное дело, я люблю пельмени."
+            ],
+            "answer": 0
+          },
+          "tip": "Spoken Russian swallows sounds: здравствуйте → здрасьте, ну ладно → нуладно, не-а = no. Listen for the shorthand, you do not have to produce it."
+        },
+        {
+          "id": "s6u5l5",
+          "title": "Sounding local",
+          "items": [
+            {
+              "id": "s6u5l5-davno-ne-videlis",
+              "target": "давно не виделись",
+              "english": "long time no see",
+              "gender": null,
+              "emoji": "🫂",
+              "kind": "phrase",
+              "translit": "davno ne videlis'"
+            },
+            {
+              "id": "s6u5l5-skolko-let-skolko-zim",
+              "target": "сколько лет сколько зим",
+              "english": "long time no see (how many years, winters)",
+              "gender": null,
+              "emoji": "🤗",
+              "kind": "phrase",
+              "translit": "skol'ko let skol'ko zim"
+            },
+            {
+              "id": "s6u5l5-kak-zhizn",
+              "target": "как жизнь",
+              "english": "how's life",
+              "gender": null,
+              "emoji": "🌿",
+              "kind": "phrase",
+              "translit": "kak zhizn'"
+            },
+            {
+              "id": "s6u5l5-shto-novovo",
+              "target": "что нового",
+              "english": "what's new",
+              "gender": null,
+              "emoji": "🆕",
+              "kind": "phrase",
+              "translit": "shto novovo"
+            },
+            {
+              "id": "s6u5l5-vsyo-po-staromu",
+              "target": "всё по-старому",
+              "english": "same old, same old",
+              "gender": null,
+              "emoji": "🔄",
+              "kind": "phrase",
+              "translit": "vsyo po-staromu"
+            },
+            {
+              "id": "s6u5l5-derzhimsya",
+              "target": "держимся",
+              "english": "hanging in there",
+              "gender": null,
+              "emoji": "💪",
+              "kind": "word",
+              "translit": "derzhimsya"
+            },
+            {
+              "id": "s6u5l5-kak-sam",
+              "target": "как сам",
+              "english": "how are you (to a guy)",
+              "gender": null,
+              "emoji": "🙂",
+              "kind": "phrase",
+              "translit": "kak sam"
+            },
+            {
+              "id": "s6u5l5-ne-zhaluysya",
+              "target": "не жалуйся",
+              "english": "don't complain",
+              "gender": null,
+              "emoji": "😏",
+              "kind": "phrase",
+              "translit": "ne zhaluysya"
+            },
+            {
+              "id": "s6u5l5-ne-propaday",
+              "target": "не пропадай",
+              "english": "don't disappear",
+              "gender": null,
+              "emoji": "📲",
+              "kind": "phrase",
+              "translit": "ne propaday"
+            },
+            {
+              "id": "s6u5l5-zaglyadyvay",
+              "target": "заглядывай",
+              "english": "drop by",
+              "gender": null,
+              "emoji": "🚪",
+              "kind": "word",
+              "translit": "zaglyadyvay"
+            },
+            {
+              "id": "s6u5l5-na-svyazi",
+              "target": "на связи",
+              "english": "in touch, reachable",
+              "gender": null,
+              "emoji": "📶",
+              "kind": "phrase",
+              "translit": "na svyazi"
+            },
+            {
+              "id": "s6u5l5-poka-poka",
+              "target": "пока-пока",
+              "english": "bye-bye",
+              "gender": null,
+              "emoji": "👋",
+              "kind": "word",
+              "translit": "poka-poka"
+            }
+          ],
+          "sentences": [
+            {
+              "target": "Давно не виделись! Как жизнь?",
+              "english": "Long time no see! How's life?",
+              "translit": "Davno ne videlis'! Kak zhizn'?"
+            },
+            {
+              "target": "Сколько лет, сколько зим! Что нового?",
+              "english": "Long time no see! What's new?",
+              "translit": "Skol'ko let, skol'ko zim! Shto novovo?"
+            },
+            {
+              "target": "Да всё по-старому, работа и дом.",
+              "english": "Same old, work and home.",
+              "translit": "Da vsyo po-staromu, rabota i dom."
+            },
+            {
+              "target": "Как сам? — Держимся, не жалуемся.",
+              "english": "'How are you?' 'Hanging in there, no complaints.'",
+              "translit": "Kak sam? — Derzhimsya, ne zhaluyemsya."
+            },
+            {
+              "target": "Не пропадай, заглядывай в гости!",
+              "english": "Don't disappear, drop by!",
+              "translit": "Ne propaday, zaglyadyvay v gosti!"
+            },
+            {
+              "target": "Я на связи, пиши в любое время. Пока-пока!",
+              "english": "I am reachable, write any time. Bye-bye!",
+              "translit": "Ya na svyazi, pishi v lyuboye vremya. Poka-poka!"
+            }
+          ],
+          "fills": [
+            {
+              "before": "Давно ",
+              "after": "!",
+              "options": [
+                "не виделись",
+                "не видели",
+                "не видеть"
+              ],
+              "answer": 0,
+              "english": "Long time no see!"
+            },
+            {
+              "before": "Как ",
+              "after": "? Что нового?",
+              "options": [
+                "жизни",
+                "жизнь",
+                "жизнью"
+              ],
+              "answer": 1,
+              "english": "How's life? What's new?"
+            },
+            {
+              "before": "Не ",
+              "after": ", пиши мне!",
+              "options": [
+                "пропал",
+                "пропадать",
+                "пропадай"
+              ],
+              "answer": 2,
+              "english": "Don't disappear, write to me!"
+            },
+            {
+              "before": "Всё ",
+              "after": ", без новостей.",
+              "options": [
+                "по-старому",
+                "по-новому",
+                "по-старый"
+              ],
+              "answer": 0,
+              "english": "Same old, no news."
+            }
+          ],
+          "dialogue": {
+            "scene": "Bumping into an old friend on the street.",
+            "lines": [
+              {
+                "who": "them",
+                "target": "Ого, привет! Давно не виделись!",
+                "english": "Wow, hi! Long time no see!",
+                "translit": "Ogo, privet! Davno ne videlis'!"
+              },
+              {
+                "who": "me",
+                "target": "Сколько лет, сколько зим! Как сам?",
+                "english": "Long time no see! How are you?",
+                "translit": "Skol'ko let, skol'ko zim! Kak sam?"
+              },
+              {
+                "who": "them",
+                "target": "Да всё по-старому. А у тебя что нового?",
+                "english": "Same old. And what's new with you?",
+                "translit": "Da vsyo po-staromu. A u tebya shto novovo?"
+              }
+            ],
+            "replyOptions": [
+              "Новая работа, держусь пока.",
+              "Всё по-старому, это пельмени.",
+              "Я в курсе, это классика."
+            ],
+            "answer": 0
+          },
+          "tip": "Sounding local = the little greeting rituals: Как жизнь? Что нового? Всё по-старому. Say them fast, smile, and move on."
+        }
+      ]
+    }
+  ]
+}

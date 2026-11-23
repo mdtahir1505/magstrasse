@@ -1,5 +1,5 @@
 import type { AnchorHTMLAttributes, ReactNode } from 'react';
-import type { Gender } from './types';
+import type { Gender, Pack } from './types';
 
 /** An <a> that behaves like a button (the design uses anchors for buttons and links). */
 export function A({ onClick, ...p }: Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'onClick'> & { onClick: () => void }) {
@@ -18,6 +18,8 @@ export const CLOSE = ['M6 6l12 12M18 6 6 18'];
 export const BACK = ['M15 5l-7 7 7 7'];
 export const CHECK = ['M4 12.5 9.5 18 20 6'];
 
+/** What the gender tag shows: articles (de) or labels (ru м/ж/ср). */
+export const genderTags = (p: Pack) => p.articles ?? p.genderLabels ?? null;
 export const Tag = ({ g, articles, size }: { g: Gender; articles: Record<'m' | 'f' | 'n', string> | null; size: number }) =>
   g && articles ? <span className={`tag ${g}`} style={{ fontSize: size }}>{articles[g]}</span> : null;
 

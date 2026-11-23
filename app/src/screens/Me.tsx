@@ -4,18 +4,20 @@ import { addDays, dayDiff, type Progress, type State, type StoredProfile } from 
 import type { Lang, Profile } from '../types';
 import { Screen, Tab, TabBar } from '../ui';
 import Settings from './Settings';
+import Stickers from './Stickers';
 import Street from './Street';
 import WordBank from './WordBank';
 
 export type MeProps = { lang: Lang; profile: Profile; stored: StoredProfile; progress: Progress; today: string;
-  update: (fn: (s: State) => void) => void; replace: (s: State) => void; go: (t: Tab) => void };
-export type Sub = 'stats' | 'words' | 'street' | 'settings';
+  update: (fn: (s: State) => void) => void; replace: (s: State) => void; go: (t: Tab) => void;
+  tr: boolean; speed: (() => void) | null };
+export type Sub = 'stats' | 'words' | 'street' | 'stickers' | 'settings';
 
 export default function Me(p: MeProps) {
   const [sub, setSub] = useState<Sub>('stats');
   const street = p.profile.streetEnabled;
   const cur = sub === 'street' && !street ? 'stats' : sub;
-  const tabs: [Sub, string][] = [['stats', 'Stats'], ['words', 'Word bank'], ...(street ? [['street', `Street ${p.lang.pack.name}`] as [Sub, string]] : []), ['settings', 'Settings']];
+  const tabs: [Sub, string][] = [['stats', 'Stats'], ['words', 'Word bank'], ...(street ? [['street', `Street ${p.lang.pack.name}`] as [Sub, string]] : []), ['stickers', 'Stickers'], ['settings', 'Settings']];
   return <Screen>
     <header className="pad" style={{ paddingTop: 8 }}>
       <h1 className="display" style={{ fontSize: 48 }}>Me</h1>
@@ -27,12 +29,13 @@ export default function Me(p: MeProps) {
     {cur === 'stats' && <Stats {...p} />}
     {cur === 'words' && <WordBank {...p} />}
     {cur === 'street' && <Street {...p} />}
+    {cur === 'stickers' && <Stickers {...p} />}
     {cur === 'settings' && <Settings {...p} />}
     <TabBar tab="me" go={p.go} />
   </Screen>;
 }
 
-function Stats({ lang, profile, progress, today }: MeProps) {
+function Stats({ lang, profile, progress, today, speed }: MeProps) {
   const mins = Array.from({ length: 14 }, (_, i) => Math.round(progress.days[addDays(today, i - 13)]?.min ?? 0));
   const PLOT = 128, max = Math.max(45, ...mins);
   const scale = (m: number) => Math.round((m / max) * (PLOT - 10));
@@ -46,7 +49,7 @@ function Stats({ lang, profile, progress, today }: MeProps) {
   const monday = addDays(today, -((new Date(Date.parse(today)).getUTCDay() + 6) % 7) - 21);
   const cal = Array.from({ length: 28 }, (_, i) => {
     const d = addDays(monday, i), rec = progress.days[d];
-    return dayDiff(today, d) > 0 ? 'future' : rec?.freeze ? 'freeze' : (rec?.min ?? 0) >= 5 ? 'done' : 'miss';
+    return dayDiff(today, d) > 0 ? 'future' : rec?.freeze ? 'freeze' : rec?.done || (rec?.min ?? 0) >= 5 ? 'done' : 'miss';
   });
   const H2 = { fontWeight: 800, fontSize: 17 } as const;
 
@@ -55,6 +58,12 @@ function Stats({ lang, profile, progress, today }: MeProps) {
       <div className="paper tilt" style={{ ['--rot' as string]: '-2deg', padding: '12px 14px' }}><p className="display" style={{ fontSize: 52 }}>{profile.wordsKnown}</p><p style={{ fontWeight: 700 }}>words known</p></div>
       <div className="paper tilt" style={{ ['--rot' as string]: '1.5deg', padding: '12px 14px', background: 'var(--c-pink)' }}><p className="display" style={{ fontSize: 52 }}>{profile.streak}</p><p style={{ fontWeight: 700 }}>day streak</p></div>
     </div>
+
+    {speed && <button type="button" className="card" onClick={speed} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '12px 14px', textAlign: 'left', cursor: 'pointer', width: '100%' }}>
+      <span aria-hidden="true" style={{ fontSize: 30 }}>⚡</span>
+      <span style={{ flex: 1 }}><b style={{ display: 'block' }}>Speed round</b><span className="small dim">60 seconds · best {progress.speedBest}</span></span>
+      <span className="sticker y" style={{ ['--rot' as string]: '4deg' }}>Play</span>
+    </button>}
 
     <section>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>

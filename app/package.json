@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "test": "tsx src/engine/check.test.ts"
+    "test": "tsx src/engine/check.test.ts && tsx src/engine/explain.test.ts && tsx src/engine/lock.test.ts && tsx src/engine/translit.test.ts && tsx src/engine/features.test.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -1,13 +1,47 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { allItems } from '../content';
 import { speak, stopSpeaking } from '../engine/speech';
-import type { Item, Lang, Level, Story } from '../types';
-import { A, BACK, CLOSE, Ico, nounOnly, Screen, SPEAKER, Tab, TabBar, Tag } from '../ui';
+import { flatLessons } from '../content';
+import type { Progress } from '../engine/storage';
+import type { Episode, Item, Lang, Level, Story } from '../types';
+import { A, BACK, CLOSE, genderTags, Ico, nounOnly, Screen, SPEAKER, Tab, TabBar, Tag } from '../ui';
 
 const BG = ['var(--c-paper)', 'var(--c-yellow)', 'var(--c-paper)', 'var(--c-cyan)', 'var(--c-pink)'];
 const ROT = ['-1.5deg', '1.2deg', '-0.8deg', '1.6deg', '-1.2deg'];
 
-export function Stories({ lang, go, open }: { lang: Lang; go: (t: Tab) => void; open: (s: Story) => void }) {
+const untilMidnight = () => { const n = new Date(), m = new Date(n.getFullYear(), n.getMonth(), n.getDate() + 1); const mins = Math.ceil((+m - +n) / 60000); return `${Math.floor(mins / 60)}h ${mins % 60}m`; };
+
+/** "Kiez Chronicles" header: the newest episode, when the next one comes, and the ones already read. */
+function Chronicles({ lang, eps, progress, today, openEp }: { lang: Lang; eps: Episode[]; progress: Progress; today: string; openEp: (e: Episode) => void }) {
+  const cur = eps.find((e) => e.n === progress.serialUnlocked);
+  const next = eps.find((e) => e.n === progress.serialUnlocked + 1);
+  const unread = cur && cur.n > progress.serialSeen;
+  const need = next && !progress.lessonsDone.includes(next.minLesson) ? flatLessons(lang).find((f) => f.lesson.id === next.minLesson)?.lesson.title : undefined;
+  const status = !next ? 'You are all caught up. More episodes soon.'
+    : !progress.lessonsDone.includes(next.minLesson) ? `Episode ${next.n} unlocks after you finish ${need ? `"${need}"` : 'more of the course'}.`
+    : progress.serialUnlockedOn === today ? `Next one tomorrow · in ${untilMidnight()}`
+    : `Finish a session today to unlock episode ${next.n}.`;
+  const read = eps.filter((e) => e.n <= progress.serialSeen);
+  return <li>
+    <div className="paper tilt" style={{ ['--rot' as string]: '-1deg', padding: '16px 16px 14px', position: 'relative', overflow: 'hidden' }}>
+      <div className="halftone" aria-hidden="true" style={{ position: 'absolute', right: 0, top: 0, width: 130, height: 100, color: 'var(--c-pink)', opacity: 0.4 }} />
+      <p className="eyebrow" style={{ position: 'relative' }}>Daily serial</p>
+      <h2 className="display" style={{ fontSize: 38, marginTop: 4, position: 'relative' }}>Kiez Chronicles</h2>
+      {cur ? <A className="story" onClick={() => openEp(cur)} style={{ marginTop: 12, position: 'relative', display: 'flex', alignItems: 'center', gap: 10 }}>
+        <span className="sticker y" style={{ ['--rot' as string]: '-3deg' }}>{unread ? 'New · ' : ''}Ep. {cur.n}</span>
+        <span lang={lang.pack.voice} style={{ flex: 1, fontWeight: 800, fontSize: 18 }}>{cur.title}</span>
+        <span className="btn" style={{ minHeight: 40, padding: '0 14px', fontSize: 16 }}>{unread ? 'Read' : 'Again'}</span>
+      </A> : <p style={{ position: 'relative', marginTop: 10, fontWeight: 700 }}>No episode yet.</p>}
+      <p className="small" style={{ position: 'relative', marginTop: 10, fontWeight: 600, color: 'var(--c-ink-dim)' }}>{status}</p>
+      {read.length > 0 && <div role="group" aria-label="Episodes you have read" style={{ position: 'relative', display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 10 }}>
+        {read.map((e) => <button key={e.id} type="button" className="chip" aria-label={`Episode ${e.n}: ${e.title}`} onClick={() => openEp(e)} style={{ minHeight: 34, padding: '0 10px', fontSize: 14 }}>{e.n}</button>)}
+      </div>}
+    </div>
+  </li>;
+}
+
+export function Stories({ lang, go, open, eps, progress, today, openEp }: { lang: Lang; go: (t: Tab) => void; open: (s: Story) => void;
+  eps: Episode[]; progress: Progress; today: string; openEp: (e: Episode) => void }) {
   const [level, setLevel] = useState<Level | 'All'>('All');
   const shown = lang.stories.filter((s) => level === 'All' || s.level === level);
   return <Screen>
@@ -19,6 +53,7 @@ export function Stories({ lang, go, open }: { lang: Lang; go: (t: Tab) => void; 
       </div>
     </header>
     <ul className="grow scroll pad" style={{ paddingTop: 22, paddingBottom: 24, display: 'flex', flexDirection: 'column', gap: 22 }}>
+      {eps.length > 0 && <Chronicles lang={lang} eps={eps} progress={progress} today={today} openEp={openEp} />}
       {shown.map((s, i) =>
         <li key={s.id}>
           <A className="story paper tilt" onClick={() => open(s)} style={{ ['--rot' as string]: ROT[i % 5], padding: '16px 16px 14px', position: 'relative', background: BG[i % 5] }}>
@@ -39,12 +74,40 @@ export function Stories({ lang, go, open }: { lang: Lang; go: (t: Tab) => void; 
 const key = (t: string) => t.toLowerCase().replace(/[.,!?"„“”:;]/g, '');
 const SPEEDS = [1, 0.8, 0.6];
 
-export function Reader({ story, lang, back }: { story: Story; lang: Lang; back: () => void }) {
-  const glossary = useMemo(() => {
+/** Single words of the course, for tap-a-word translations (shared with the episode reader). */
+export function useGlossary(lang: Lang) {
+  return useMemo(() => {
     const g = new Map<string, Item>();
     for (const i of allItems(lang)) { const k = key(nounOnly(i)); if (!k.includes(' ') && !g.has(k)) g.set(k, i); }
     return g;
   }, [lang]);
+}
+
+export const TapWords = ({ text, glossary, picked, pick }: { text: string; glossary: Map<string, Item>; picked: string | null; pick: (k: string) => void }) =>
+  <>{text.split(' ').map((w, j) => {
+    const k = key(w); const known = glossary.has(k);
+    return <span key={j}><button type="button" className={'wb' + (known ? ' tap' : '') + (k === picked ? ' sel' : '')}
+      onClick={() => { if (known) { pick(k); speak(glossary.get(k)!.target); } }}>{w}</button> </span>;
+  })}</>;
+
+export const WordPopover = ({ p, lang, tr, close }: { p: Item; lang: Lang; tr: boolean; close: () => void }) =>
+  <div className="pad" style={{ position: 'relative', zIndex: 2, marginBottom: -6 }}>
+    <div className="paper rise" role="dialog" aria-label="Word translation" style={{ padding: '14px 14px 14px 16px', display: 'flex', alignItems: 'center', gap: 12 }}>
+      <span aria-hidden="true" style={{ fontSize: 38, lineHeight: 1 }}>{p.emoji}</span>
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <p lang={lang.pack.voice} style={{ fontSize: 24, fontWeight: 800, display: 'flex', alignItems: 'center', gap: 8 }}>
+          <Tag g={p.gender} articles={genderTags(lang.pack)} size={15} />{nounOnly(p)}
+        </p>
+        {tr && p.translit && <p className="small translit" style={{ color: 'var(--c-ink-dim)' }}>{p.translit}</p>}
+        <p style={{ fontWeight: 600, color: 'var(--c-ink-dim)' }}>{p.english}</p>
+      </div>
+      <button type="button" className="audio" aria-label="Hear the word" onClick={() => speak(p.target)}><Ico d={SPEAKER} /></button>
+      <button type="button" className="icon-btn plain" aria-label="Close" onClick={close} style={{ color: 'var(--c-ink)', width: 36 }}><Ico d={CLOSE} /></button>
+    </div>
+  </div>;
+
+export function Reader({ story, lang, tr, back }: { story: Story; lang: Lang; tr: boolean; back: () => void }) {
+  const glossary = useGlossary(lang);
   const [line, setLine] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(0);
@@ -83,29 +146,13 @@ export function Reader({ story, lang, back }: { story: Story; lang: Lang; back: 
         <div key={i} className={'line' + (i === line ? ' now' : '')}>
           {ln.speaker && <p className="eyebrow" style={{ color: 'var(--c-pink)', marginBottom: 2 }}>{ln.speaker}</p>}
           <p style={{ fontSize: 21, fontWeight: 600, lineHeight: 1.5 }}>
-            {ln.target.split(' ').map((w, j) => {
-              const k = key(w); const known = glossary.has(k);
-              return <span key={j}><button type="button" className={'wb' + (known ? ' tap' : '') + (k === picked ? ' sel' : '')}
-                onClick={() => { if (known) { setPicked(k); speak(glossary.get(k)!.target); } }}>{w}</button> </span>;
-            })}
+            <TapWords text={ln.target} glossary={glossary} picked={picked} pick={setPicked} />
           </p>
           {en && i === line && <p lang="en" className="small" style={{ color: 'var(--c-cyan)', fontWeight: 600, marginTop: 2 }}>{ln.english}</p>}
         </div>)}
     </article>
 
-    {p && <div className="pad" style={{ position: 'relative', zIndex: 2, marginBottom: -6 }}>
-      <div className="paper rise" role="dialog" aria-label="Word translation" style={{ padding: '14px 14px 14px 16px', display: 'flex', alignItems: 'center', gap: 12 }}>
-        <span aria-hidden="true" style={{ fontSize: 38, lineHeight: 1 }}>{p.emoji}</span>
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <p lang={lang.pack.voice} style={{ fontSize: 24, fontWeight: 800, display: 'flex', alignItems: 'center', gap: 8 }}>
-            <Tag g={p.gender} articles={lang.pack.articles} size={15} />{nounOnly(p)}
-          </p>
-          <p style={{ fontWeight: 600, color: 'var(--c-ink-dim)' }}>{p.english}</p>
-        </div>
-        <button type="button" className="audio" aria-label="Hear the word" onClick={() => speak(p.target)}><Ico d={SPEAKER} /></button>
-        <button type="button" className="icon-btn plain" aria-label="Close" onClick={() => setPicked(null)} style={{ color: 'var(--c-ink)', width: 36 }}><Ico d={CLOSE} /></button>
-      </div>
-    </div>}
+    {p && <WordPopover p={p} lang={lang} tr={tr} close={() => setPicked(null)} />}
 
     <div className="foot" style={{ background: 'var(--c-ink)', borderTop: '2px solid var(--c-surface-2)', flexDirection: 'row', alignItems: 'center', gap: 14, paddingTop: 18 }}>
       <button type="button" className="audio" aria-label="Previous line" onClick={() => step(-1)} style={{ background: 'var(--c-surface-2)', color: 'var(--c-text)', borderColor: 'var(--c-line)' }}><Ico d={['M18 6 10 12l8 6zM6 6v12']} /></button>
