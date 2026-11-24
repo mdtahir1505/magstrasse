@@ -1,0 +1,101 @@
+[
+ {
+  "id": "es-s2-st1",
+  "title": "Valeria's family",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {"speaker": "Valeria", "target": "Tom, aquí está mi familia.", "english": "Tom, here is my family."},
+   {"speaker": "Tom", "target": "¡Mucho gusto! ¿Quién es él?", "english": "Nice to meet you! Who is he?"},
+   {"speaker": "Valeria", "target": "Es mi papá. Tiene cincuenta años y es muy serio, pero es amable.", "english": "He's my dad. He's fifty years old and very serious, but he's kind."},
+   {"speaker": "Valeria", "target": "Ella es mi mamá. Es muy simpática y muy divertida.", "english": "She's my mum. She's very nice and very fun."},
+   {"speaker": "Tom", "target": "¿Y el niño? ¿Es tu hermano?", "english": "And the boy? Is he your brother?"},
+   {"speaker": "Valeria", "target": "No, es mi sobrino. Mi hermana es su mamá. Está casada.", "english": "No, he's my nephew. My sister is his mum. She's married."},
+   {"speaker": "Tom", "target": "¿Tienes más hermanos?", "english": "Do you have more brothers or sisters?"},
+   {"speaker": "Valeria", "target": "Sí, un hermano. Es alto y moreno, y está soltero.", "english": "Yes, one brother. He's tall and dark-haired, and he's single."},
+   {"speaker": "Tom", "target": "¿Y dónde viven tus abuelos?", "english": "And where do your grandparents live?"},
+   {"speaker": "Valeria", "target": "Viven en la ciudad. Mi abuela es muy simpática y mi abuelo es muy divertido.", "english": "They live in the city. My grandmother is very nice and my grandfather is very fun."},
+   {"speaker": "Tom", "target": "¡Tu familia es muy simpática!", "english": "Your family is very nice!"},
+   {"speaker": "Valeria", "target": "Gracias, Tom. ¿Quieres un café?", "english": "Thanks, Tom. Do you want a coffee?"}
+  ]
+ },
+ {
+  "id": "es-s2-st2",
+  "title": "Plans for Saturday",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {"speaker": "Tom", "target": "Valeria, ¿qué haces hoy?", "english": "Valeria, what are you doing today?"},
+   {"speaker": "Valeria", "target": "Hoy estoy ocupada. Trabajo hasta las seis.", "english": "Today I'm busy. I work until six."},
+   {"speaker": "Tom", "target": "¿Y mañana? ¿Estás libre?", "english": "And tomorrow? Are you free?"},
+   {"speaker": "Valeria", "target": "Mañana es sábado, sí. Estoy libre por la tarde.", "english": "Tomorrow is Saturday, yes. I'm free in the afternoon."},
+   {"speaker": "Tom", "target": "¿Vamos al cine? Hay una película a las ocho menos cuarto.", "english": "Shall we go to the cinema? There's a film at quarter to eight."},
+   {"speaker": "Valeria", "target": "Es muy temprano para mí. ¿Quedamos a las ocho y media?", "english": "That's very early for me. Shall we meet at half past eight?"},
+   {"speaker": "Tom", "target": "Sí, puedo. Nos vemos a las ocho y media en la plaza.", "english": "Yes, I can. See you at half past eight in the square."},
+   {"speaker": "Valeria", "target": "Voy a llegar un poco tarde.", "english": "I'm going to arrive a bit late."},
+   {"speaker": "Tom", "target": "No pasa nada. Voy a esperar.", "english": "No problem. I'm going to wait."},
+   {"speaker": "Valeria", "target": "¡Gracias, Tom! Hasta mañana.", "english": "Thanks, Tom! See you tomorrow."},
+   {"speaker": "Tom", "target": "Hasta mañana.", "english": "See you tomorrow."}
+  ]
+ },
+ {
+  "id": "es-s2-st3",
+  "title": "A red dress",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {"speaker": "Valeria", "target": "Necesito un vestido para el sábado.", "english": "I need a dress for Saturday."},
+   {"speaker": "Tom", "target": "Vamos a la tienda. Hay ofertas hoy.", "english": "Let's go to the shop. There are offers today."},
+   {"speaker": "Valeria", "target": "Quiero un vestido rojo. ¿Cuánto cuesta?", "english": "I want a red dress. How much is it?"},
+   {"speaker": "Vendedora", "target": "Buenos días. El vestido rojo cuesta cuarenta dólares.", "english": "Good morning. The red dress costs forty dollars."},
+   {"speaker": "Valeria", "target": "¿Puedo probármelo?", "english": "Can I try it on?"},
+   {"speaker": "Vendedora", "target": "Claro. Un momento.", "english": "Of course. One moment."},
+   {"speaker": "Valeria", "target": "Me queda grande. ¿Tiene otra talla?", "english": "It's too big on me. Do you have another size?"},
+   {"speaker": "Vendedora", "target": "Sí, aquí está. Y los zapatos negros están en oferta.", "english": "Yes, here it is. And the black shoes are on offer."},
+   {"speaker": "Tom", "target": "Yo solo estoy mirando. Necesito unos calcetines y una camiseta.", "english": "I'm just looking. I need some socks and a T-shirt."},
+   {"speaker": "Valeria", "target": "Ahora me queda bien. Voy a comprar el vestido.", "english": "Now it fits me well. I'm going to buy the dress."},
+   {"speaker": "Vendedora", "target": "¿Necesita una bolsa?", "english": "Do you need a bag?"},
+   {"speaker": "Valeria", "target": "Sí, por favor. Gracias.", "english": "Yes, please. Thanks."}
+  ]
+ },
+ {
+  "id": "es-s2-st4",
+  "title": "Tom's flat and day",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {"speaker": "Valeria", "target": "Tom, ¿dónde vives?", "english": "Tom, where do you live?"},
+   {"speaker": "Tom", "target": "Vivo en un apartamento pequeño. Hay una cocina, una sala y una recámara.", "english": "I live in a small flat. There's a kitchen, a living room and a bedroom."},
+   {"speaker": "Valeria", "target": "¿Hay un balcón?", "english": "Is there a balcony?"},
+   {"speaker": "Tom", "target": "Sí, y hay una mesa y dos sillas en el balcón.", "english": "Yes, and there's a table and two chairs on the balcony."},
+   {"speaker": "Valeria", "target": "¿Qué haces todos los días?", "english": "What do you do every day?"},
+   {"speaker": "Tom", "target": "Me despierto a las siete y me levanto temprano. Me ducho y desayuno.", "english": "I wake up at seven and get up early. I shower and have breakfast."},
+   {"speaker": "Valeria", "target": "¿A qué hora sales de casa?", "english": "What time do you leave home?"},
+   {"speaker": "Tom", "target": "Salgo a las nueve. Camino a la oficina y trabajo hasta las seis.", "english": "I leave at nine. I walk to the office and work until six."},
+   {"speaker": "Tom", "target": "Vuelvo a casa, ceno y leo mi correo electrónico.", "english": "I go back home, have dinner and read my email."},
+   {"speaker": "Valeria", "target": "¿Y a qué hora te acuestas?", "english": "And what time do you go to bed?"},
+   {"speaker": "Tom", "target": "Me lavo los dientes, me acuesto a las once y me duermo pronto.", "english": "I brush my teeth, go to bed at eleven and fall asleep soon."},
+   {"speaker": "Valeria", "target": "Yo también tengo sueño ahora.", "english": "I'm sleepy now too."}
+  ]
+ },
+ {
+  "id": "es-s2-st5",
+  "title": "Match day",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {"speaker": "Valeria", "target": "Tom, ¿qué te gusta hacer?", "english": "Tom, what do you like doing?"},
+   {"speaker": "Tom", "target": "Me encanta el fútbol. Mi equipo juega hoy en el estadio.", "english": "I love football. My team plays today at the stadium."},
+   {"speaker": "Valeria", "target": "¡Qué padre! ¿Puedo ir?", "english": "How cool! Can I come?"},
+   {"speaker": "Tom", "target": "¡Claro! ¿Te gusta el fútbol?", "english": "Of course! Do you like football?"},
+   {"speaker": "Valeria", "target": "No me gusta mucho, pero me encanta salir con amigos.", "english": "I don't like it much, but I love going out with friends."},
+   {"speaker": "Tom", "target": "El portero tiene el balón. ¡Vamos, equipo!", "english": "The goalkeeper has the ball. Come on, team!"},
+   {"speaker": "Tom", "target": "¡Gol! ¡Gol! ¡Mi equipo gana!", "english": "Goal! Goal! My team is winning!"},
+   {"speaker": "Valeria", "target": "¡Qué bueno! Ahora entiendo el fútbol.", "english": "How great! Now I understand football."},
+   {"speaker": "Tom", "target": "No quiero perder. El árbitro está serio.", "english": "I don't want to lose. The referee looks serious."},
+   {"speaker": "Valeria", "target": "Después del partido hay una fiesta. ¿Vamos?", "english": "After the match there's a party. Shall we go?"},
+   {"speaker": "Tom", "target": "Sí, quiero bailar y divertirme.", "english": "Yes, I want to dance and have fun."},
+   {"speaker": "Valeria", "target": "Pero antes necesito descansar. ¡Una siesta!", "english": "But first I need to rest. A nap!"}
+  ]
+ }
+]

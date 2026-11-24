@@ -36,6 +36,7 @@ export default function Feedback({ res, pack, requeued, onContinue }: { res: Res
           </div>
         </div>
       </>}
+      {res.hint && <p className="small dim" lang={pack.voice}>{res.hint}</p>}
       {res.why && <p className="why"><span aria-hidden="true">💡</span><span>{res.why}</span></p>}
       {!ok && requeued && <p className="small" style={{ fontWeight: 600 }}>No stress. It comes back later this session.</p>}
       <A className="btn ink block" style={ok ? undefined : { color: 'var(--c-pink)' }} onClick={onContinue}>Continue</A>

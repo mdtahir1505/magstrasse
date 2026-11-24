@@ -7,8 +7,8 @@ export default function Fill({ ex, pack, done }: ExProps<'fill'>) {
   const submit = () => {
     if (p === null) return;
     const answer = ex.before + ex.options[ex.answer] + ex.after;
-    done({ correct: p === ex.answer, answer, given: ex.options[p],
-      why: p === ex.answer ? relevantTip(ex.why, answer) : explainFill(ex.before, ex.after, ex.options[p], ex.options[ex.answer], ex.english) });
+    done({ correct: p === ex.answer || p === ex.alt, answer, given: ex.options[p],
+      why: p === ex.answer || p === ex.alt ? relevantTip(ex.why, answer) : explainFill(ex.before, ex.after, ex.options[p], ex.options[ex.answer], ex.english) });
   };
   return <>
     <h1 className="instruction pad" style={{ marginTop: 18 }}>Fill the gap</h1>

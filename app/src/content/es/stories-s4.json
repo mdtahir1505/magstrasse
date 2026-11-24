@@ -1,0 +1,92 @@
+[
+ {
+  "id": "es-s4-st1",
+  "title": "¿Pizza o cine?",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Ana", "target": "Luis, ¿qué hacemos esta noche? ¿Qué opinas del cine?", "english": "Luis, what are we doing tonight? What do you think about the cinema?"},
+   {"speaker": "Luis", "target": "En mi opinión, es muy caro. No estoy de acuerdo.", "english": "In my opinion, it's very expensive. I disagree."},
+   {"speaker": "Ana", "target": "Pues, creo que la película es genial. Además, hoy es martes.", "english": "Well, I think the movie is great. Besides, today is Tuesday."},
+   {"speaker": "Luis", "target": "Es que tengo hambre, por eso quiero comer pizza.", "english": "It's just that I'm hungry, that's why I want to eat pizza."},
+   {"speaker": "Ana", "target": "¿Qué tal si comemos pizza primero y luego vamos al cine?", "english": "How about we eat pizza first and then go to the cinema?"},
+   {"speaker": "Luis", "target": "Puede ser, pero aunque es martes, el cine no es barato.", "english": "Could be, but even though it's Tuesday, the cinema isn't cheap."},
+   {"speaker": "Ana", "target": "Tienes razón. A lo mejor la pizza es mejor que la película.", "english": "You're right. Maybe the pizza is better than the movie."},
+   {"speaker": "Luis", "target": "¡Exacto! Para mí, la pizza es lo mejor del día.", "english": "Exactly! For me, pizza is the best thing of the day."},
+   {"speaker": "Ana", "target": "Está bien, yo invito la pizza. Tú pagas el cine la próxima vez.", "english": "Fine, I'll treat us to the pizza. You pay for the cinema next time."},
+   {"speaker": "Luis", "target": "¡Perfecto! Nos vemos en el restaurante a las ocho.", "english": "Perfect! See you at the restaurant at eight."}
+  ]
+ },
+ {
+  "id": "es-s4-st2",
+  "title": "El plan del sábado",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Sara", "target": "¿Qué tal si vamos a un concierto el sábado? ¿Qué te parece?", "english": "How about we go to a concert on Saturday? What do you think?"},
+   {"speaker": "Pedro", "target": "Me encanta la idea. ¿Quién va? ¿Llevo algo?", "english": "I love the idea. Who's going? Shall I bring something?"},
+   {"speaker": "Sara", "target": "Somos cinco. ¿Dónde nos vemos? ¿En tu casa?", "english": "There are five of us. Where do we meet? At your place?"},
+   {"speaker": "Pedro", "target": "Sí, en mi casa. ¿A qué hora te viene bien?", "english": "Yes, at my place. What time suits you?"},
+   {"speaker": "Sara", "target": "A las siete. Después vamos a cenar en una terraza.", "english": "At seven. Afterwards we'll have dinner on a terrace."},
+   {"speaker": "Pedro", "target": "Perfecto, nos vemos el sábado. ¡Ah, te presento a mi amigo Tomás!", "english": "Perfect, see you Saturday. Oh, let me introduce you to my friend Tomás!"},
+   {"speaker": "Sara", "target": "Mucho gusto, Tomás. Bienvenido al grupo.", "english": "Nice to meet you, Tomás. Welcome to the group."},
+   {"speaker": "Pedro", "target": "Perdón, me quedé dormido. Ya voy llegando, llego en cinco minutos.", "english": "Sorry, I overslept. I'm almost there, I'll be there in five minutes."},
+   {"speaker": "Sara", "target": "¡Qué vergüenza! Hay mucho tráfico, pero te esperamos.", "english": "How embarrassing! There's a lot of traffic, but we'll wait for you."},
+   {"speaker": "Pedro", "target": "Gracias. En el bar yo invito la primera ronda, y luego dividimos la cuenta.", "english": "Thanks. At the bar I'll buy the first round, and then we split the bill."}
+  ]
+ },
+ {
+  "id": "es-s4-st3",
+  "title": "Sin batería",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Sara", "target": "¿Bueno? ¿Quién habla?", "english": "Hello? Who's speaking?"},
+   {"speaker": "Pedro", "target": "Soy yo, Pedro. ¿Me escuchas? No se oye muy bien.", "english": "It's me, Pedro. Can you hear me? It doesn't sound very good."},
+   {"speaker": "Sara", "target": "Casi no. No hay señal aquí. ¿Dónde estás?", "english": "Barely. There's no signal here. Where are you?"},
+   {"speaker": "Pedro", "target": "Estoy sin batería, por eso te llamo del teléfono de un amigo.", "english": "I'm out of battery, that's why I'm calling from a friend's phone."},
+   {"speaker": "Sara", "target": "Se cortó la llamada. Mándame un mensaje, por favor.", "english": "The call cut out. Send me a message, please."},
+   {"speaker": "Pedro", "target": "Xfa, no me dejes en visto. Tqm, ntp.", "english": "Please, don't leave me on read. Love you lots, no worries."},
+   {"speaker": "Sara", "target": "Jaja, no te dejo en visto. Te mando una nota de voz.", "english": "Haha, I won't leave you on read. I'll send you a voice note."},
+   {"speaker": "Pedro", "target": "Subí una foto al perfil y me etiquetaste. ¡Qué bonito!", "english": "I uploaded a photo to my profile and you tagged me. How pretty!"},
+   {"speaker": "Sara", "target": "Voy a compartir el video en el grupo de WhatsApp.", "english": "I'm going to share the video in the WhatsApp group."},
+   {"speaker": "Pedro", "target": "Perfecto. Llámame mañana y hablamos pronto.", "english": "Perfect. Call me tomorrow and we'll talk soon."}
+  ]
+ },
+ {
+  "id": "es-s4-st4",
+  "title": "Un día difícil",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Sara", "target": "¿Qué te pasa, Pedro? Hoy estás muy callado.", "english": "What's wrong, Pedro? You're very quiet today."},
+   {"speaker": "Pedro", "target": "Estoy nervioso. Mañana es mi primer día de trabajo.", "english": "I'm nervous. Tomorrow is my first day at work."},
+   {"speaker": "Sara", "target": "No te preocupes. Todo va a estar bien.", "english": "Don't worry. Everything is going to be OK."},
+   {"speaker": "Pedro", "target": "Tengo miedo y también estoy emocionado. Es raro.", "english": "I'm afraid and also excited. It's weird."},
+   {"speaker": "Sara", "target": "No es raro, es normal. Cuéntame, ¿cómo te sientes?", "english": "It's not weird, it's normal. Tell me, how do you feel?"},
+   {"speaker": "Pedro", "target": "Extraño a mi familia, y estoy un poco estresado.", "english": "I miss my family, and I'm a bit stressed."},
+   {"speaker": "Sara", "target": "Estoy aquí para ti. Eres valiente y muy trabajador.", "english": "I'm here for you. You're brave and very hard-working."},
+   {"speaker": "Pedro", "target": "Gracias, Sara. Qué amable. Ya me siento mejor.", "english": "Thanks, Sara. How kind. I already feel better."},
+   {"speaker": "Sara", "target": "¡Ánimo! ¡Qué suerte tiene tu jefe!", "english": "Cheer up! How lucky your boss is!"},
+   {"speaker": "Pedro", "target": "Jaja, gracias. ¡Qué alivio hablar contigo!", "english": "Haha, thanks. What a relief to talk to you!"}
+  ]
+ },
+ {
+  "id": "es-s4-st5",
+  "title": "¡Cuánto tiempo!",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {"speaker": "Ana", "target": "¡Pedro! ¡Cuánto tiempo! ¿Qué onda?", "english": "Pedro! Long time no see! What's up?"},
+   {"speaker": "Pedro", "target": "¡Ana! ¡Qué gusto verte! Todo bien, ¿y tú qué tal?", "english": "Ana! So good to see you! All good, and how about you?"},
+   {"speaker": "Ana", "target": "Aquí andamos. Me mudé a otro barrio y trabajo en una empresa nueva.", "english": "Getting by. I moved to another neighbourhood and I work at a new company."},
+   {"speaker": "Pedro", "target": "¡Felicidades! ¿Te gusta tu horario?", "english": "Congratulations! Do you like your schedule?"},
+   {"speaker": "Ana", "target": "Más o menos. Mi compañero de trabajo es muy hablador.", "english": "So-so. My coworker is very talkative."},
+   {"speaker": "Pedro", "target": "De niña, tú eras muy callada.", "english": "As a kid, you were very quiet."},
+   {"speaker": "Ana", "target": "Sí, de niña vivía cerca de tu casa y todos los veranos iba a la playa.", "english": "Yes, as a kid I lived near your house and every summer I went to the beach."},
+   {"speaker": "Pedro", "target": "En esa época no tenía celular. ¡Qué bonito!", "english": "Back then I didn't have a cell phone. How nice!"},
+   {"speaker": "Ana", "target": "Ya es tarde, me voy a casa. Un abrazo y saludos a tu familia.", "english": "It's late, I'm going home. A hug and say hi to your family."},
+   {"speaker": "Pedro", "target": "¡Que descanses! Nos hablamos y nos vemos pronto. ¡Cuídate!", "english": "Get some rest! We'll talk and see each other soon. Take care!"}
+  ]
+ }
+]

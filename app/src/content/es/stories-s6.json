@@ -1,0 +1,297 @@
+[
+ {
+  "id": "es-s6-st1",
+  "title": "Laura's first week",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Laura",
+    "target": "Hoy es mi primer día en la empresa nueva.",
+    "english": "Today is my first day at the new company."
+   },
+   {
+    "speaker": "Sr. Ramos",
+    "target": "Buenos días, Laura. ¿Cómo está usted? Mucho gusto en conocerla.",
+    "english": "Good morning, Laura. How are you? Pleased to meet you."
+   },
+   {
+    "speaker": "Laura",
+    "target": "Muy bien, gracias. Le agradezco la oportunidad.",
+    "english": "Very well, thanks. I appreciate the opportunity."
+   },
+   {
+    "speaker": "Sr. Ramos",
+    "target": "Aquí tiene su contrato. Permítame presentarle a Diego, su colega.",
+    "english": "Here is your contract. Let me introduce you to Diego, your colleague."
+   },
+   {
+    "speaker": "Diego",
+    "target": "¡Hola! Aquí la chamba es intensa, pero el ambiente es bueno.",
+    "english": "Hi! Work here is intense, but the atmosphere is good."
+   },
+   {
+    "speaker": "Laura",
+    "target": "Perfecto. ¿Hay alguna fecha límite esta semana?",
+    "english": "Perfect. Is there a deadline this week?"
+   },
+   {
+    "speaker": "Diego",
+    "target": "Sí, el informe es para el viernes. Hay que preparar una presentación.",
+    "english": "Yes, the report is due Friday. We have to prepare a presentation."
+   },
+   {
+    "speaker": "Laura",
+    "target": "Entonces voy a trabajar desde casa mañana para terminar la hoja de cálculo.",
+    "english": "Then I'll work from home tomorrow to finish the spreadsheet."
+   },
+   {
+    "speaker": "Diego",
+    "target": "Buena idea. Cuando termines, adjúntala al correo y la imprimo yo.",
+    "english": "Good idea. When you're done, attach it to the email and I'll print it."
+   },
+   {
+    "speaker": "Sr. Ramos",
+    "target": "El viernes tenemos una videoconferencia con el cliente. Quedo a su disposición.",
+    "english": "On Friday we have a video call with the client. I'm at your disposal."
+   },
+   {
+    "speaker": "Laura",
+    "target": "Gracias. Mi primer día fue mejor de lo que pensaba.",
+    "english": "Thanks. My first day was better than I thought."
+   }
+  ]
+ },
+ {
+  "id": "es-s6-st2",
+  "title": "A world tour at the table",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Camila",
+    "target": "Marta, ¿ya sabes adónde vas en vacaciones?",
+    "english": "Marta, do you know where you're going on vacation yet?"
+   },
+   {
+    "speaker": "Marta",
+    "target": "Quiero recorrer Latinoamérica: México, Perú, Argentina y Chile.",
+    "english": "I want to travel around Latin America: Mexico, Peru, Argentina and Chile."
+   },
+   {
+    "speaker": "Camila",
+    "target": "¡Qué buen plan! Yo soy de Colombia y te recomiendo las arepas.",
+    "english": "What a great plan! I'm from Colombia and I recommend the arepas."
+   },
+   {
+    "speaker": "Tomás",
+    "target": "Y en Argentina tienes que probar el asado y tomar mate con la gente.",
+    "english": "And in Argentina you have to try the asado and drink mate with people."
+   },
+   {
+    "speaker": "Marta",
+    "target": "En Perú voy a comer ceviche. En España casi no lo conocemos.",
+    "english": "In Peru I'll eat ceviche. In Spain we hardly know it."
+   },
+   {
+    "speaker": "Tomás",
+    "target": "Y de noche, a bailar. ¿Sabes bailar salsa?",
+    "english": "And at night, let's dance. Do you know how to dance salsa?"
+   },
+   {
+    "speaker": "Marta",
+    "target": "No mucho, pero me encanta la cumbia y la bachata.",
+    "english": "Not much, but I love cumbia and bachata."
+   },
+   {
+    "speaker": "Camila",
+    "target": "Si vas en junio, puedes ver la Copa del Mundo en una plaza con toda la hinchada.",
+    "english": "If you go in June, you can watch the World Cup in a square with all the fans."
+   },
+   {
+    "speaker": "Tomás",
+    "target": "¡Sí! Cuando alguien mete un golazo, todo el país canta el himno.",
+    "english": "Yes! When someone scores a great goal, the whole country sings the anthem."
+   },
+   {
+    "speaker": "Marta",
+    "target": "Ya me convenciste. Voy a viajar con mi bandera y mucha hambre.",
+    "english": "You've convinced me. I'm going to travel with my flag and a lot of hunger."
+   }
+  ]
+ },
+ {
+  "id": "es-s6-st3",
+  "title": "The great remote-work debate",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Marta",
+    "target": "Tomás, en primer lugar, el trabajo remoto es más cómodo.",
+    "english": "Tomás, first of all, remote work is more comfortable."
+   },
+   {
+    "speaker": "Tomás",
+    "target": "Con todo respeto, no estoy convencido. En la oficina trabajamos mejor en equipo.",
+    "english": "With all due respect, I'm not convinced. In the office we work better as a team."
+   },
+   {
+    "speaker": "Marta",
+    "target": "Entiendo tu punto, sin embargo ahorramos tiempo y dinero.",
+    "english": "I get your point; however, we save time and money."
+   },
+   {
+    "speaker": "Tomás",
+    "target": "Es verdad, pero no es tan sencillo: en casa hay mil distracciones.",
+    "english": "It's true, but it's not that simple: at home there are a thousand distractions."
+   },
+   {
+    "speaker": "Camila",
+    "target": "Oye, yo tengo una idea. ¿No te parece que podemos combinar las dos cosas?",
+    "english": "Hey, I have an idea. Don't you think we can combine both?"
+   },
+   {
+    "speaker": "Tomás",
+    "target": "¿Cómo? Mira, lo que pasa es que el jefe quiere a todos en la oficina.",
+    "english": "How? Look, the thing is that the boss wants everyone in the office."
+   },
+   {
+    "speaker": "Camila",
+    "target": "Piénsalo: tres días en la oficina y dos en casa. Si el jefe acepta, todos ganamos.",
+    "english": "Think about it: three days in the office and two at home. If the boss agrees, we all win."
+   },
+   {
+    "speaker": "Marta",
+    "target": "Ponte en su lugar: él también quiere buenos resultados. Es decir, necesita datos.",
+    "english": "Put yourself in his shoes: he also wants good results. In other words, he needs data."
+   },
+   {
+    "speaker": "Tomás",
+    "target": "Está bien. Si mal no recuerdo, la reunión es el jueves. Presentamos el plan ahí.",
+    "english": "Okay. If I remember correctly, the meeting is on Thursday. We'll present the plan there."
+   },
+   {
+    "speaker": "Camila",
+    "target": "En resumen: dos contra uno, y Tomás ya está medio convencido.",
+    "english": "In short: two against one, and Tomás is already half convinced."
+   }
+  ]
+ },
+ {
+  "id": "es-s6-st4",
+  "title": "A day with bad luck",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Diego",
+    "target": "Laura, hoy estoy hecho polvo. Anoche no pegué el ojo.",
+    "english": "Laura, today I'm wiped out. Last night I didn't sleep a wink."
+   },
+   {
+    "speaker": "Laura",
+    "target": "¿Y eso? ¿Tienes mucho trabajo?",
+    "english": "Why? Do you have a lot of work?"
+   },
+   {
+    "speaker": "Diego",
+    "target": "Sí, y además metí la pata con el cliente. Le dije un precio que cuesta un ojo de la cara.",
+    "english": "Yes, and on top of that I put my foot in it with the client. I told him a price that costs an arm and a leg."
+   },
+   {
+    "speaker": "Laura",
+    "target": "¡Ay, caray! ¿Y qué dijo?",
+    "english": "Oh no! And what did he say?"
+   },
+   {
+    "speaker": "Diego",
+    "target": "Nada. Pero hay gato encerrado: está muy callado, y cuando el río suena, agua lleva.",
+    "english": "Nothing. But something's fishy: he's very quiet, and where there's smoke, there's fire."
+   },
+   {
+    "speaker": "Laura",
+    "target": "Tranquilo, a mal tiempo, buena cara. ¿Te echo una mano con el informe?",
+    "english": "Relax, keep smiling when times are tough. Shall I give you a hand with the report?"
+   },
+   {
+    "speaker": "Diego",
+    "target": "¡Dale! Contigo es pan comido. Siempre hablas por los codos, pero resuelves todo.",
+    "english": "Sure! With you it's a piece of cake. You always talk nonstop, but you solve everything."
+   },
+   {
+    "speaker": "Laura",
+    "target": "Ni de broma te dejo solo. Somos uña y carne, ¿no?",
+    "english": "No way I'm leaving you alone. We're inseparable, right?"
+   },
+   {
+    "speaker": "Diego",
+    "target": "Gracias. Entonces no hay de qué preocuparse. Más vale tarde que nunca para pedir ayuda.",
+    "english": "Thanks. Then there is nothing to worry about. Better late than never to ask for help."
+   },
+   {
+    "speaker": "Laura",
+    "target": "Exacto. Y si el cliente se queja, lo resolvemos de todas formas.",
+    "english": "Exactly. And if the client complains, we'll sort it out anyway."
+   }
+  ]
+ },
+ {
+  "id": "es-s6-st5",
+  "title": "Four friends, four accents",
+  "level": "B1",
+  "minutes": 4,
+  "lines": [
+   {
+    "speaker": "Diego",
+    "target": "¿Quihubo, banda? Ya mero llego, nomás me falta una calle.",
+    "english": "What's up, everyone? I'm almost there, I've only got one street left."
+   },
+   {
+    "speaker": "Tomás",
+    "target": "Che, Diego, ¿vos tenés lana para el café o pago yo?",
+    "english": "Hey Diego, do you have money for the coffee or shall I pay?"
+   },
+   {
+    "speaker": "Diego",
+    "target": "Ándale pues, paga tú. ¡Al rato te invito yo!",
+    "english": "Okay then, you pay. I'll treat you in a bit!"
+   },
+   {
+    "speaker": "Camila",
+    "target": "Qué chévere que estén todos. ¿Les cuento lo del laburo nuevo de mi parce?",
+    "english": "How great that you're all here. Shall I tell you about my buddy's new job?"
+   },
+   {
+    "speaker": "Marta",
+    "target": "Venga, cuenta. Pero habla despacio, que ayer no entendí ni la mitad de lo que decía Tomás.",
+    "english": "Come on, tell us. But speak slowly, because yesterday I didn't understand half of what Tomás was saying."
+   },
+   {
+    "speaker": "Tomás",
+    "target": "¿A qué te referís? Si yo hablo clarísimo, ¿viste?",
+    "english": "What do you mean? I speak very clearly, you know?"
+   },
+   {
+    "speaker": "Marta",
+    "target": "¿Me lo repites? Vos sos, vos tenés, vos querés... ¡me mareo!",
+    "english": "Can you repeat that? Vos sos, vos tenés, vos querés... I'm getting dizzy!"
+   },
+   {
+    "speaker": "Camila",
+    "target": "Dicho de otro modo, Marta: en Argentina el «tú» se transforma en «vos».",
+    "english": "In other words, Marta: in Argentina «tú» becomes «vos»."
+   },
+   {
+    "speaker": "Diego",
+    "target": "¿Neta? No manches, yo pensaba que todos hablábamos igual.",
+    "english": "Really? No way, I thought we all spoke the same."
+   },
+   {
+    "speaker": "Marta",
+    "target": "En pocas palabras: mismo idioma, mil acentos. ¡Y a mí me encantan!",
+    "english": "In a nutshell: same language, a thousand accents. And I love them!"
+   }
+  ]
+ }
+]

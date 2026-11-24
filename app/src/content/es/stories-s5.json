@@ -1,0 +1,312 @@
+[
+ {
+  "id": "es-s5-st1",
+  "title": "La llamada de las tres",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Lucía",
+    "target": "Adivina qué, Diego: anoche me pasó algo increíble.",
+    "english": "Guess what, Diego: something incredible happened to me last night."
+   },
+   {
+    "speaker": "Diego",
+    "target": "¿En serio? Cuéntame. ¿Qué pasó?",
+    "english": "Really? Tell me. What happened?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Eran las tres de la mañana y yo estaba durmiendo. De repente, sonó el teléfono.",
+    "english": "It was three in the morning and I was sleeping. Suddenly, the phone rang."
+   },
+   {
+    "speaker": "Diego",
+    "target": "¿A las tres? ¿Quién era?",
+    "english": "At three? Who was it?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Mi hermano. Lo primero que me dijo fue: no lo vas a creer.",
+    "english": "My brother. The first thing he said to me was: you won't believe it."
+   },
+   {
+    "speaker": "Diego",
+    "target": "Yo me quedaría helado. ¿Y luego?",
+    "english": "I would have frozen. And then?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Resulta que estaba en el aeropuerto. Se le hizo tarde y perdió su vuelo, y para colmo no tenía dinero.",
+    "english": "It turns out he was at the airport. He ran late and missed his flight, and to top it off he had no money."
+   },
+   {
+    "speaker": "Diego",
+    "target": "¡Qué desastre! ¿Y qué hiciste?",
+    "english": "What a disaster! And what did you do?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Salí de la casa; hacía frío y llovía. Cuando llegué, estaba cansado, pero feliz de verme.",
+    "english": "I left the house; it was cold and raining. When I arrived, he was tired but happy to see me."
+   },
+   {
+    "speaker": "Diego",
+    "target": "Qué bueno. ¿Cómo terminó?",
+    "english": "How nice. How did it end?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Terminó bien. Lo bueno es que al final compramos otro boleto. Lo malo es que no dormí nada.",
+    "english": "It ended well. The good thing is that in the end we bought another ticket. The bad thing is that I didn't sleep at all."
+   }
+  ]
+ },
+ {
+  "id": "es-s5-st2",
+  "title": "Dos ciudades",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Sofía",
+    "target": "Marcos, llevo una semana aquí y todo es diferente de mi ciudad.",
+    "english": "Marcos, I've been here a week and everything is different from my city."
+   },
+   {
+    "speaker": "Marcos",
+    "target": "¿Sí? Cuéntame. ¿Cuál es la diferencia más grande?",
+    "english": "Yes? Tell me. What's the biggest difference?"
+   },
+   {
+    "speaker": "Sofía",
+    "target": "Lo primero: aquí hay más de diez millones de personas. En mi ciudad hay menos de cien mil.",
+    "english": "The first thing: there are more than ten million people here. In my city there are fewer than a hundred thousand."
+   },
+   {
+    "speaker": "Marcos",
+    "target": "Jaja, ¡qué diferencia! ¿Y la comida?",
+    "english": "Haha, what a difference! And the food?"
+   },
+   {
+    "speaker": "Sofía",
+    "target": "Es parecida a la de mi abuela, pero más picante. Me gusta más, la verdad.",
+    "english": "It's similar to my grandma's, but spicier. I like it more, honestly."
+   },
+   {
+    "speaker": "Marcos",
+    "target": "Por un lado, tienes razón. Por otro lado, el tráfico es terrible.",
+    "english": "On one hand, you're right. On the other hand, the traffic is terrible."
+   },
+   {
+    "speaker": "Sofía",
+    "target": "¡Nada que ver con mi pueblo! Allá no hay tráfico; en cambio, no hay nada que hacer de noche.",
+    "english": "Nothing like my town! There's no traffic there; on the other hand, there's nothing to do at night."
+   },
+   {
+    "speaker": "Marcos",
+    "target": "¿Cuál prefieres, entonces?",
+    "english": "Which do you prefer, then?"
+   },
+   {
+    "speaker": "Sofía",
+    "target": "Depende de la hora. Me quedo con mi ciudad de día y con esta de noche.",
+    "english": "It depends on the time. I'll take my city by day and this one by night."
+   },
+   {
+    "speaker": "Marcos",
+    "target": "Es cuestión de gusto. Lo más importante es ser feliz.",
+    "english": "It's a matter of taste. The most important thing is being happy."
+   },
+   {
+    "speaker": "Sofía",
+    "target": "Estoy súper feliz. Cada vez mejor.",
+    "english": "I'm super happy. Better and better."
+   }
+  ]
+ },
+ {
+  "id": "es-s5-st3",
+  "title": "Un hotel con problemas",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Lucía",
+    "target": "Diego, esta habitación es un desastre. Hay un error en la reservación.",
+    "english": "Diego, this room is a disaster. There's a mistake with the reservation."
+   },
+   {
+    "speaker": "Diego",
+    "target": "Y la cama está sucia, el baño está roto... y no hay nada de agua caliente.",
+    "english": "And the bed is dirty, the bathroom is broken... and there's no hot water."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Quiero que vengas conmigo a la recepción. Quisiera hablar con el gerente.",
+    "english": "I want you to come with me to the front desk. I'd like to speak with the manager."
+   },
+   {
+    "speaker": "Gerente",
+    "target": "Buenas noches. Lo siento mucho, ¿qué podemos hacer?",
+    "english": "Good evening. I'm very sorry, what can we do?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Tengo una queja sobre el servicio. Tardaron mucho en darnos la llave, y esto no es lo que pedimos.",
+    "english": "I have a complaint about the service. They took a long time to give us the key, and this isn't what we asked for."
+   },
+   {
+    "speaker": "Gerente",
+    "target": "No se preocupe. Esto tiene solución. Vamos a cambiarlos por otra habitación enseguida.",
+    "english": "Don't worry. This can be solved. We're going to move you to another room right away."
+   },
+   {
+    "speaker": "Diego",
+    "target": "Y me cobraron de más por la cena. ¿Podría revisar la cuenta?",
+    "english": "And they overcharged me for dinner. Could you check the bill?"
+   },
+   {
+    "speaker": "Gerente",
+    "target": "Claro. Le voy a dar el reembolso de la mitad.",
+    "english": "Of course. I'm going to give you a refund of half."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Me parece justo. Gracias por resolverlo.",
+    "english": "That seems fair to me. Thanks for sorting it out."
+   },
+   {
+    "speaker": "Diego",
+    "target": "Ojalá que la otra habitación esté mejor.",
+    "english": "I hope the other room is better."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Espero que sí. De todos modos, hoy sí voy a dormir.",
+    "english": "I hope so. Anyway, tonight I will sleep."
+   }
+  ]
+ },
+ {
+  "id": "es-s5-st4",
+  "title": "¿Y si cenamos fuera?",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Marcos",
+    "target": "Sofía, esta noche me encantaría cenar fuera. ¿Qué me recomiendas?",
+    "english": "Sofía, tonight I'd love to have dinner out. What do you recommend?"
+   },
+   {
+    "speaker": "Sofía",
+    "target": "Te recomiendo el restaurante nuevo. Dicen que vale la pena.",
+    "english": "I recommend the new restaurant. They say it's worth it."
+   },
+   {
+    "speaker": "Marcos",
+    "target": "Nunca he probado esa comida. ¿Es muy picante?",
+    "english": "I've never tried that food. Is it very spicy?"
+   },
+   {
+    "speaker": "Sofía",
+    "target": "Hay platos poco picantes, y también sin gluten. Soy alérgica al gluten, así que siempre pregunto.",
+    "english": "There are mildly spicy dishes, and gluten-free ones too. I'm allergic to gluten, so I always ask."
+   },
+   {
+    "speaker": "Marcos",
+    "target": "Perfecto. ¿A qué hora nos vemos?",
+    "english": "Perfect. What time do we meet?"
+   },
+   {
+    "speaker": "Sofía",
+    "target": "Cuando termine el trabajo, en cuanto pueda. Te llamo cuando llegue.",
+    "english": "When I finish work, as soon as I can. I'll call you when I get there."
+   },
+   {
+    "speaker": "Marcos",
+    "target": "Ya sé lo que quiero: carne, término medio, con todo.",
+    "english": "I already know what I want: meat, medium, with everything."
+   },
+   {
+    "speaker": "Sofía",
+    "target": "Yo no me decido. Hay tantos platos... ¿Tú decides?",
+    "english": "I can't decide. There are so many dishes... Will you decide?"
+   },
+   {
+    "speaker": "Marcos",
+    "target": "Como quieras. Te sugiero que pidas el postre para compartir.",
+    "english": "As you like. I suggest you order the dessert to share."
+   },
+   {
+    "speaker": "Sofía",
+    "target": "¡Buena idea! Lo mejor de todo es el postre.",
+    "english": "Good idea! Best of all is the dessert."
+   }
+  ]
+ },
+ {
+  "id": "es-s5-st5",
+  "title": "Si ganáramos la lotería",
+  "level": "B1",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Lucía",
+    "target": "Diego, imagina que ganamos la lotería. ¿Qué harías primero?",
+    "english": "Diego, imagine we win the lottery. What would you do first?"
+   },
+   {
+    "speaker": "Diego",
+    "target": "Dejaría todo y viajaría por el mundo. ¿Y tú?",
+    "english": "I'd leave everything and travel the world. And you?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Yo me mudaría a la playa y abriría un negocio. Sería genial.",
+    "english": "I'd move to the beach and open a business. It would be great."
+   },
+   {
+    "speaker": "Diego",
+    "target": "Mi sueño es escribir un libro. Si tuviera tiempo, lo escribiría ya.",
+    "english": "My dream is to write a book. If I had time, I'd write it now."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Yo en tu lugar, empezaría hoy. Cada vez que dices «mañana», se te hace tarde.",
+    "english": "If I were you, I'd start today. Every time you say 'tomorrow', you run late."
+   },
+   {
+    "speaker": "Diego",
+    "target": "Tienes razón. ¿Qué me aconsejas?",
+    "english": "You're right. What do you advise me?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Deberías escribir solo diez minutos al día. Tómatelo con calma.",
+    "english": "You should write just ten minutes a day. Take it easy."
+   },
+   {
+    "speaker": "Diego",
+    "target": "¿Podrías ayudarme a elegir un tema?",
+    "english": "Could you help me choose a topic?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Con mucho gusto. Lo mejor sería escribir de tu vida, de tus anécdotas.",
+    "english": "Gladly. The best thing would be to write about your life, your anecdotes."
+   },
+   {
+    "speaker": "Diego",
+    "target": "Sería un placer. Empiezo cuando llegue a casa.",
+    "english": "It would be a pleasure. I'll start when I get home."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Más vale que sí. Ojalá que lo hagas.",
+    "english": "You'd better. I hope you do."
+   }
+  ]
+ }
+]

@@ -1,0 +1,5163 @@
+{
+ "id": "s5",
+ "title": "Real conversations",
+ "level": "B1",
+ "units": [
+  {
+   "id": "s5u1",
+   "title": "Telling stories",
+   "lessons": [
+    {
+     "id": "s5u1l1",
+     "title": "I was doing X when…",
+     "items": [
+      {
+       "id": "s5u1l1-estaba-cenando-cuando",
+       "target": "estaba cenando cuando",
+       "english": "I was having dinner when",
+       "gender": null,
+       "emoji": "🍽️",
+       "example": {
+        "target": "Estaba cenando cuando sonó el teléfono.",
+        "english": "I was having dinner when the phone rang."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l1-estaba-durmiendo",
+       "target": "estaba durmiendo",
+       "english": "I was sleeping",
+       "gender": null,
+       "emoji": "😴",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l1-estaba-caminando",
+       "target": "estaba caminando",
+       "english": "I was walking",
+       "gender": null,
+       "emoji": "🚶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l1-estabamos-hablando",
+       "target": "estábamos hablando",
+       "english": "we were talking",
+       "gender": null,
+       "emoji": "🗣️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l1-estaba-trabajando",
+       "target": "estaba trabajando",
+       "english": "I was working",
+       "gender": null,
+       "emoji": "💼",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l1-me-llamo",
+       "target": "me llamó",
+       "english": "he/she called me",
+       "gender": null,
+       "emoji": "📞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l1-sono-el-telefono",
+       "target": "sonó el teléfono",
+       "english": "the phone rang",
+       "gender": null,
+       "emoji": "📱",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l1-llego",
+       "target": "llegó",
+       "english": "he/she/it arrived",
+       "gender": null,
+       "emoji": "🛬",
+       "kind": "word"
+      },
+      {
+       "id": "s5u1l1-de-pronto",
+       "target": "de pronto",
+       "english": "suddenly",
+       "gender": null,
+       "emoji": "⚡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l1-ibamos-manejando",
+       "target": "íbamos manejando",
+       "english": "we were driving",
+       "gender": null,
+       "emoji": "🚗",
+       "kind": "phrase",
+       "spain": "íbamos conduciendo"
+      },
+      {
+       "id": "s5u1l1-pasaba-por",
+       "target": "pasaba por",
+       "english": "I was passing by",
+       "gender": null,
+       "emoji": "🛣️",
+       "example": {
+        "target": "Pasaba por tu casa cuando te vi.",
+        "english": "I was passing by your house when I saw you."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l1-mientras-tanto",
+       "target": "mientras tanto",
+       "english": "meanwhile",
+       "gender": null,
+       "emoji": "⏳",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Estaba cenando cuando sonó el teléfono.",
+       "english": "I was having dinner when the phone rang."
+      },
+      {
+       "target": "Estaba durmiendo cuando mi hermano me llamó.",
+       "english": "I was sleeping when my brother called me."
+      },
+      {
+       "target": "Estábamos hablando cuando llegó mi amigo.",
+       "english": "We were talking when my friend arrived."
+      },
+      {
+       "target": "Íbamos manejando a la playa cuando sonó el teléfono.",
+       "english": "We were driving to the beach when the phone rang.",
+       "spain": "Íbamos conduciendo a la playa cuando sonó el teléfono."
+      },
+      {
+       "target": "Pasaba por tu casa cuando te vi.",
+       "english": "I was passing by your house when I saw you."
+      },
+      {
+       "target": "Yo estaba trabajando; mientras tanto, mi amigo estaba durmiendo.",
+       "english": "I was working; meanwhile, my friend was sleeping."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Estaba ",
+       "after": " cuando sonó el teléfono.",
+       "options": [
+        "durmiendo",
+        "dormí",
+        "dormir"
+       ],
+       "answer": 0,
+       "english": "I was sleeping when the phone rang."
+      },
+      {
+       "before": "Estábamos hablando ",
+       "after": " llegó Ana.",
+       "options": [
+        "porque",
+        "cuando",
+        "pero"
+       ],
+       "answer": 1,
+       "english": "We were talking when Ana arrived."
+      },
+      {
+       "before": "Íbamos ",
+       "after": " a casa de mi abuela cuando sonó el teléfono.",
+       "options": [
+        "manejamos",
+        "manejar",
+        "manejando"
+       ],
+       "answer": 2,
+       "english": "We were driving to my grandma's house when the phone rang.",
+       "spain": {
+        "options": [
+         "conducimos",
+         "conducir",
+         "conduciendo"
+        ],
+        "answer": 2
+       }
+      },
+      {
+       "before": "De ",
+       "after": ", sonó el teléfono.",
+       "options": [
+        "pronto",
+        "momento",
+        "tiempo"
+       ],
+       "answer": 0,
+       "english": "Suddenly, the phone rang."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend asks why you missed her call",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Oye, te llamé anoche.",
+        "english": "Hey, I called you last night."
+       },
+       {
+        "who": "me",
+        "target": "¿A qué hora?",
+        "english": "What time?"
+       },
+       {
+        "who": "them",
+        "target": "A las once. ¿Por qué no contestaste?",
+        "english": "At eleven. Why didn't you answer?"
+       }
+      ],
+      "replyOptions": [
+       "Estaba durmiendo cuando sonó el teléfono, perdón.",
+       "Mañana llego en cinco minutos.",
+       "Íbamos a la playa mientras tanto."
+      ],
+      "answer": 0
+     },
+     "tip": "Scene vs interruption: estaba + -ando (or -iendo) paints what was going on, and the pretérito (sonó, llegó, me llamó) is what cut in. Link them with cuando."
+    },
+    {
+     "id": "s5u1l2",
+     "title": "Starting a story",
+     "items": [
+      {
+       "id": "s5u1l2-habia-una-vez",
+       "target": "había una vez",
+       "english": "once upon a time",
+       "gender": null,
+       "emoji": "📖",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-un-dia",
+       "target": "un día",
+       "english": "one day",
+       "gender": null,
+       "emoji": "📅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-de-repente",
+       "target": "de repente",
+       "english": "suddenly",
+       "gender": null,
+       "emoji": "⚡",
+       "example": {
+        "target": "De repente, sonó el teléfono.",
+        "english": "Suddenly, the phone rang."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-mientras",
+       "target": "mientras",
+       "english": "while",
+       "gender": null,
+       "emoji": "⏳",
+       "kind": "word"
+      },
+      {
+       "id": "s5u1l2-en-ese-momento",
+       "target": "en ese momento",
+       "english": "at that moment",
+       "gender": null,
+       "emoji": "🕐",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-al-principio",
+       "target": "al principio",
+       "english": "at first",
+       "gender": null,
+       "emoji": "🌱",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-al-final",
+       "target": "al final",
+       "english": "in the end",
+       "gender": null,
+       "emoji": "🏁",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-por-fin",
+       "target": "por fin",
+       "english": "finally",
+       "gender": null,
+       "emoji": "🎉",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-justo-cuando",
+       "target": "justo cuando",
+       "english": "just when",
+       "gender": null,
+       "emoji": "🎯",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-sin-querer",
+       "target": "sin querer",
+       "english": "by accident",
+       "gender": null,
+       "emoji": "🙈",
+       "example": {
+        "target": "Mandé el mensaje sin querer.",
+        "english": "I sent the message by accident."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-resulta-que",
+       "target": "resulta que",
+       "english": "it turns out that",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l2-total",
+       "target": "total",
+       "english": "so, long story short",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Había una vez un hombre muy flojo.",
+       "english": "Once upon a time there was a very lazy man."
+      },
+      {
+       "target": "Un día, mi amigo me llamó a las tres de la mañana.",
+       "english": "One day, my friend called me at three in the morning."
+      },
+      {
+       "target": "Estaba hablando por teléfono y, de repente, se cortó.",
+       "english": "I was talking on the phone and, suddenly, it cut off."
+      },
+      {
+       "target": "Al principio no entendí nada, pero al final todo estuvo bien.",
+       "english": "At first I didn't understand anything, but in the end everything was fine."
+      },
+      {
+       "target": "Mandé el mensaje sin querer.",
+       "english": "I sent the message by accident."
+      },
+      {
+       "target": "Resulta que mi compañero de trabajo vive en mi barrio.",
+       "english": "It turns out my coworker lives in my neighborhood."
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " una vez un hombre muy generoso.",
+       "options": [
+        "Hubo",
+        "Había",
+        "Era"
+       ],
+       "answer": 1,
+       "english": "Once upon a time there was a very generous man."
+      },
+      {
+       "before": "Estaba en el bar y, ",
+       "after": ", sonó el teléfono.",
+       "options": [
+        "al final",
+        "por fin",
+        "de repente"
+       ],
+       "answer": 2,
+       "english": "I was at the bar and, suddenly, the phone rang."
+      },
+      {
+       "before": "Mi amiga hablaba por teléfono ",
+       "after": " yo cenaba.",
+       "options": [
+        "mientras",
+        "sin querer",
+        "resulta"
+       ],
+       "answer": 0,
+       "english": "My friend was talking on the phone while I was having dinner."
+      },
+      {
+       "before": "Llegué ",
+       "after": " cuando sonó el teléfono.",
+       "options": [
+        "total",
+        "justo",
+        "mientras"
+       ],
+       "answer": 1,
+       "english": "I arrived just when the phone rang."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend asks about your late arrival",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Llegaste tarde otra vez. ¿Qué pasó?",
+        "english": "You arrived late again. What happened?"
+       },
+       {
+        "who": "me",
+        "target": "Uf, qué día.",
+        "english": "Ugh, what a day."
+       },
+       {
+        "who": "them",
+        "target": "¿Y por fin llegaste a la oficina?",
+        "english": "And did you finally make it to the office?"
+       }
+      ],
+      "replyOptions": [
+       "Sí, por fin. Resulta que el tráfico estaba terrible.",
+       "Había una vez una oficina muy grande.",
+       "Mañana, mejor; sin querer."
+      ],
+      "answer": 0
+     },
+     "tip": "A story has two gears: setup (había una vez, mientras, al principio) takes the imperfecto, and events (un día, de repente, por fin) take the pretérito."
+    },
+    {
+     "id": "s5u1l3",
+     "title": "Linking the past",
+     "items": [
+      {
+       "id": "s5u1l3-lo-primero",
+       "target": "lo primero",
+       "english": "the first thing",
+       "gender": null,
+       "emoji": "1️⃣",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-despues-de-eso",
+       "target": "después de eso",
+       "english": "after that",
+       "gender": null,
+       "emoji": "➡️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-poco-despues",
+       "target": "poco después",
+       "english": "soon after",
+       "gender": null,
+       "emoji": "⏩",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-a-la-manana-siguiente",
+       "target": "a la mañana siguiente",
+       "english": "the next morning",
+       "gender": null,
+       "emoji": "🌄",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-esa-noche",
+       "target": "esa noche",
+       "english": "that night",
+       "gender": null,
+       "emoji": "🌙",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-esa-vez",
+       "target": "esa vez",
+       "english": "that time",
+       "gender": null,
+       "emoji": "🔁",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-la-primera-vez",
+       "target": "la primera vez",
+       "english": "the first time",
+       "gender": null,
+       "emoji": "🥇",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-por-cierto",
+       "target": "por cierto",
+       "english": "by the way",
+       "gender": null,
+       "emoji": "💡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-en-fin",
+       "target": "en fin",
+       "english": "anyway",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-para-colmo",
+       "target": "para colmo",
+       "english": "to top it all off",
+       "gender": null,
+       "emoji": "😩",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-lo-bueno-es-que",
+       "target": "lo bueno es que",
+       "english": "the good thing is that",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l3-lo-malo-es-que",
+       "target": "lo malo es que",
+       "english": "the bad thing is that",
+       "gender": null,
+       "emoji": "👎",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Lo primero que hice fue llamar a mi hermano.",
+       "english": "The first thing I did was call my brother."
+      },
+      {
+       "target": "Después de eso, me fui a dormir.",
+       "english": "After that, I went to sleep."
+      },
+      {
+       "target": "Poco después, llegó mi mamá.",
+       "english": "Soon after, my mom arrived."
+      },
+      {
+       "target": "A la mañana siguiente, el teléfono sonó a las siete.",
+       "english": "The next morning, the phone rang at seven."
+      },
+      {
+       "target": "Esa noche estaba muy cansado y, para colmo, tenía hambre.",
+       "english": "That night I was very tired and, to top it all off, I was hungry."
+      },
+      {
+       "target": "Lo bueno es que mi amigo me ayudó; lo malo es que llegué tarde.",
+       "english": "The good thing is that my friend helped me; the bad thing is that I arrived late."
+      }
+     ],
+     "fills": [
+      {
+       "before": "La ",
+       "after": " vez que vine aquí, no entendí nada.",
+       "options": [
+        "primero",
+        "primer",
+        "primera"
+       ],
+       "answer": 2,
+       "english": "The first time I came here, I didn't understand anything."
+      },
+      {
+       "before": "",
+       "after": " es que ya llegamos; lo malo es que llegamos tarde.",
+       "options": [
+        "Lo bueno",
+        "El bueno",
+        "La buena"
+       ],
+       "answer": 0,
+       "english": "The good thing is that we've arrived; the bad thing is that we arrived late."
+      },
+      {
+       "before": "Por ",
+       "after": ", ¿viste a Ana ayer?",
+       "options": [
+        "fin",
+        "cierto",
+        "vez"
+       ],
+       "answer": 1,
+       "english": "By the way, did you see Ana yesterday?"
+      },
+      {
+       "before": "Después de ",
+       "after": ", nos fuimos a mi casa.",
+       "options": [
+        "esa",
+        "ese",
+        "eso"
+       ],
+       "answer": 2,
+       "english": "After that, we went to my place."
+      }
+     ],
+     "dialogue": {
+      "scene": "A coworker tells you about his Saturday",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Mi sábado fue terrible. Lo primero: perdí mi teléfono.",
+        "english": "My Saturday was terrible. First: I lost my phone."
+       },
+       {
+        "who": "me",
+        "target": "¡No puede ser! ¿Y luego?",
+        "english": "No way! And then?"
+       },
+       {
+        "who": "them",
+        "target": "Poco después, mi hermano me llamó. Lo malo es que mi teléfono no tenía batería.",
+        "english": "Soon after, my brother called me. The bad thing is that my phone had no battery."
+       }
+      ],
+      "replyOptions": [
+       "¡Qué mal! ¿Y qué hiciste después?",
+       "¡Felicidades! ¡Qué suerte!",
+       "Había una vez un teléfono nuevo."
+      ],
+      "answer": 0
+     },
+     "tip": "lo + adjective = 'the … thing': lo primero, lo bueno, lo malo. Chain them with después de eso, poco después, para colmo and your story narrates itself."
+    },
+    {
+     "id": "s5u1l4",
+     "title": "Telling an anecdote",
+     "items": [
+      {
+       "id": "s5u1l4-me-paso-algo",
+       "target": "me pasó algo",
+       "english": "something happened to me",
+       "gender": null,
+       "emoji": "😮",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-adivina-que",
+       "target": "adivina qué",
+       "english": "guess what",
+       "gender": null,
+       "emoji": "🎲",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-no-lo-vas-a-creer",
+       "target": "no lo vas a creer",
+       "english": "you won't believe it",
+       "gender": null,
+       "emoji": "🤯",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-y-que-paso",
+       "target": "¿Y qué pasó?",
+       "english": "and what happened?",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-me-quede-helado",
+       "target": "me quedé helado",
+       "english": "I froze (in shock)",
+       "gender": null,
+       "emoji": "🥶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-no-lo-podia-creer",
+       "target": "no lo podía creer",
+       "english": "I couldn't believe it",
+       "gender": null,
+       "emoji": "😳",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-me-dio-risa",
+       "target": "me dio risa",
+       "english": "it made me laugh",
+       "gender": null,
+       "emoji": "😂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-fue-un-desastre",
+       "target": "fue un desastre",
+       "english": "it was a disaster",
+       "gender": null,
+       "emoji": "💥",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-que-susto-me-lleve",
+       "target": "qué susto me llevé",
+       "english": "what a fright I got",
+       "gender": null,
+       "emoji": "😱",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-me-acuerdo",
+       "target": "me acuerdo",
+       "english": "I remember",
+       "gender": null,
+       "emoji": "🧠",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-se-me-hizo-tarde",
+       "target": "se me hizo tarde",
+       "english": "I ran late",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l4-termino-bien",
+       "target": "terminó bien",
+       "english": "it ended well",
+       "gender": null,
+       "emoji": "✅",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Adivina qué: me pasó algo increíble ayer.",
+       "english": "Guess what: something incredible happened to me yesterday."
+      },
+      {
+       "target": "No lo vas a creer, pero vi a mi jefe en el bar.",
+       "english": "You won't believe it, but I saw my boss at the bar."
+      },
+      {
+       "target": "Me quedé helado cuando sonó el teléfono.",
+       "english": "I froze when the phone rang."
+      },
+      {
+       "target": "¡Qué susto me llevé! Estaba durmiendo cuando sonó el teléfono.",
+       "english": "What a fright I got! I was sleeping when the phone rang."
+      },
+      {
+       "target": "Se me hizo tarde y llegué a las nueve.",
+       "english": "I ran late and arrived at nine."
+      },
+      {
+       "target": "Al principio fue un desastre, pero terminó bien.",
+       "english": "At first it was a disaster, but it ended well."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Me ",
+       "after": " algo increíble ayer.",
+       "options": [
+        "pasó",
+        "pasa",
+        "pasaba"
+       ],
+       "answer": 0,
+       "english": "Something incredible happened to me yesterday."
+      },
+      {
+       "before": "Cuando lo vi, no lo ",
+       "after": " creer.",
+       "options": [
+        "poder",
+        "podía",
+        "puedes"
+       ],
+       "answer": 1,
+       "english": "When I saw it, I couldn't believe it."
+      },
+      {
+       "before": "Se me hizo ",
+       "after": " y no cené.",
+       "options": [
+        "temprano",
+        "tardar",
+        "tarde"
+       ],
+       "answer": 2,
+       "english": "I ran late and didn't have dinner."
+      },
+      {
+       "before": "¡Qué ",
+       "after": " me llevé!",
+       "options": [
+        "susto",
+        "miedo",
+        "risa"
+       ],
+       "answer": 0,
+       "english": "What a fright I got!"
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend is telling you something wild",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Adivina qué: ayer me pasó algo increíble.",
+        "english": "Guess what: something incredible happened to me yesterday."
+       },
+       {
+        "who": "me",
+        "target": "¿Qué? Cuéntame.",
+        "english": "What? Tell me."
+       },
+       {
+        "who": "them",
+        "target": "Estaba caminando y vi a mi jefe en el bar. ¡No lo podía creer!",
+        "english": "I was walking and I saw my boss at the bar. I couldn't believe it!"
+       }
+      ],
+      "replyOptions": [
+       "¡No puede ser! ¿Y qué pasó?",
+       "Gracias por invitarme, qué amable.",
+       "Estoy aquí para ti, ven aquí."
+      ],
+      "answer": 0
+     },
+     "tip": "Anecdotes need a hook (adivina qué, me pasó algo) and a reaction question (¿Y qué pasó? ¿Y luego?). me quedé helado / me dio risa = 'something happened to me' feelings, always in the pretérito."
+    },
+    {
+     "id": "s5u1l5",
+     "title": "Setting the scene",
+     "items": [
+      {
+       "id": "s5u1l5-era-tarde",
+       "target": "era tarde",
+       "english": "it was late",
+       "gender": null,
+       "emoji": "🌃",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-eran-las-tres",
+       "target": "eran las tres",
+       "english": "it was three o'clock",
+       "gender": null,
+       "emoji": "🕒",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-hacia-frio",
+       "target": "hacía frío",
+       "english": "it was cold",
+       "gender": null,
+       "emoji": "🥶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-llovia",
+       "target": "llovía",
+       "english": "it was raining",
+       "gender": null,
+       "emoji": "🌧️",
+       "kind": "word"
+      },
+      {
+       "id": "s5u1l5-habia-mucha-gente",
+       "target": "había mucha gente",
+       "english": "there were lots of people",
+       "gender": null,
+       "emoji": "👥",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-no-habia-nadie",
+       "target": "no había nadie",
+       "english": "there was nobody",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-estaba-oscuro",
+       "target": "estaba oscuro",
+       "english": "it was dark",
+       "gender": null,
+       "emoji": "🌑",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-estabamos-cansados",
+       "target": "estábamos cansados",
+       "english": "we were tired",
+       "gender": null,
+       "emoji": "😩",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-tenia-hambre",
+       "target": "tenía hambre",
+       "english": "I was hungry",
+       "gender": null,
+       "emoji": "🍔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-olia-bien",
+       "target": "olía bien",
+       "english": "it smelled good",
+       "gender": null,
+       "emoji": "👃",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-se-oia-musica",
+       "target": "se oía música",
+       "english": "music could be heard",
+       "gender": null,
+       "emoji": "🎶",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u1l5-parecia-un-sueno",
+       "target": "parecía un sueño",
+       "english": "it seemed like a dream",
+       "gender": null,
+       "emoji": "💭",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Era tarde y hacía mucho frío.",
+       "english": "It was late and it was very cold."
+      },
+      {
+       "target": "Eran las tres de la mañana y no había nadie en la calle.",
+       "english": "It was three in the morning and there was nobody in the street."
+      },
+      {
+       "target": "Llovía y estaba oscuro, pero estábamos felices.",
+       "english": "It was raining and dark, but we were happy."
+      },
+      {
+       "target": "Había mucha gente en el bar y se oía música.",
+       "english": "There were lots of people at the bar and music could be heard."
+      },
+      {
+       "target": "Tenía hambre, y en la casa de mi abuela olía bien.",
+       "english": "I was hungry, and at my grandma's house it smelled good."
+      },
+      {
+       "target": "Era una noche perfecta; parecía un sueño.",
+       "english": "It was a perfect night; it seemed like a dream."
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " las tres de la mañana.",
+       "options": [
+        "Era",
+        "Eran",
+        "Son"
+       ],
+       "answer": 1,
+       "english": "It was three in the morning."
+      },
+      {
+       "before": "Llovía y ",
+       "after": " mucho frío.",
+       "options": [
+        "había",
+        "estaba",
+        "hacía"
+       ],
+       "answer": 2,
+       "english": "It was raining and it was very cold."
+      },
+      {
+       "before": "No ",
+       "after": " nadie en la calle.",
+       "options": [
+        "había",
+        "tenía",
+        "estaba"
+       ],
+       "answer": 0,
+       "english": "There was nobody in the street."
+      },
+      {
+       "before": "Estábamos ",
+       "after": " después de trabajar tanto.",
+       "options": [
+        "cansado",
+        "cansados",
+        "cansar"
+       ],
+       "answer": 1,
+       "english": "We were tired after working so much."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend asks about last night's party",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Cómo estuvo la fiesta anoche?",
+        "english": "How was the party last night?"
+       },
+       {
+        "who": "me",
+        "target": "Increíble. Había mucha gente y se oía música.",
+        "english": "Incredible. There were lots of people and you could hear music."
+       },
+       {
+        "who": "them",
+        "target": "¿A qué hora llegaste a casa?",
+        "english": "What time did you get home?"
+       }
+      ],
+      "replyOptions": [
+       "Eran las tres y estábamos cansados.",
+       "Ya casi llego, estoy en camino.",
+       "Me gusta la música, sobre todo de noche."
+      ],
+      "answer": 0
+     },
+     "tip": "The backdrop of a story is always the imperfecto: era tarde, hacía frío, había mucha gente, estaba oscuro. Time of day: era + una, eran + any other hour."
+    }
+   ]
+  },
+  {
+   "id": "s5u2",
+   "title": "Comparing things",
+   "lessons": [
+    {
+     "id": "s5u2l1",
+     "title": "More, less, as much",
+     "items": [
+      {
+       "id": "s5u2l1-mas-de",
+       "target": "más de",
+       "english": "more than (numbers)",
+       "gender": null,
+       "emoji": "➕",
+       "example": {
+        "target": "Hay más de diez personas.",
+        "english": "There are more than ten people."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-menos-de",
+       "target": "menos de",
+       "english": "less / fewer than (numbers)",
+       "gender": null,
+       "emoji": "➖",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-mas-que-nunca",
+       "target": "más que nunca",
+       "english": "more than ever",
+       "gender": null,
+       "emoji": "🔥",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-cada-vez-mas",
+       "target": "cada vez más",
+       "english": "more and more",
+       "gender": null,
+       "emoji": "📈",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-cada-vez-mejor",
+       "target": "cada vez mejor",
+       "english": "better and better",
+       "gender": null,
+       "emoji": "🌟",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-tanto-como",
+       "target": "tanto como",
+       "english": "as much as",
+       "gender": null,
+       "emoji": "⚖️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-tantos-como",
+       "target": "tantos como",
+       "english": "as many as",
+       "gender": null,
+       "emoji": "⚖️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-tan-rapido-como",
+       "target": "tan rápido como",
+       "english": "as fast as",
+       "gender": null,
+       "emoji": "🏃",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-igual-de-bueno",
+       "target": "igual de bueno",
+       "english": "just as good",
+       "gender": null,
+       "emoji": "👌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-el-doble",
+       "target": "el doble",
+       "english": "double",
+       "gender": "m",
+       "emoji": "✌️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-la-mitad",
+       "target": "la mitad",
+       "english": "half",
+       "gender": "f",
+       "emoji": "➗",
+       "example": {
+        "target": "Me comí la mitad.",
+        "english": "I ate half."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l1-mucho-mas",
+       "target": "mucho más",
+       "english": "much more",
+       "gender": null,
+       "emoji": "⬆️",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Hay más de diez personas en el bar.",
+       "english": "There are more than ten people at the bar."
+      },
+      {
+       "target": "Tengo menos de veinte dólares.",
+       "english": "I have less than twenty dollars."
+      },
+      {
+       "target": "Mi hermano trabaja más que nunca.",
+       "english": "My brother is working more than ever."
+      },
+      {
+       "target": "Cada vez hay más gente en mi barrio.",
+       "english": "There are more and more people in my neighborhood."
+      },
+      {
+       "target": "Ana habla tanto como yo, pero Luis habla mucho más.",
+       "english": "Ana talks as much as I do, but Luis talks much more."
+      },
+      {
+       "target": "La comida de mi abuela es igual de buena que la del restaurante.",
+       "english": "My grandma's food is just as good as the restaurant's."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Hay ",
+       "after": " de cien personas aquí.",
+       "options": [
+        "mejor",
+        "tanto",
+        "más"
+       ],
+       "answer": 2,
+       "english": "There are more than a hundred people here."
+      },
+      {
+       "before": "Yo corro tan rápido ",
+       "after": " tú.",
+       "options": [
+        "como",
+        "que",
+        "de"
+       ],
+       "answer": 0,
+       "english": "I run as fast as you."
+      },
+      {
+       "before": "Trabajo tantos días ",
+       "after": " mi jefe.",
+       "options": [
+        "que",
+        "como",
+        "más"
+       ],
+       "answer": 1,
+       "english": "I work as many days as my boss."
+      },
+      {
+       "before": "Mi casa cuesta el ",
+       "after": " que la tuya.",
+       "options": [
+        "mitad",
+        "mucho",
+        "doble"
+       ],
+       "answer": 2,
+       "english": "My house costs double what yours does."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend asks about your gym habit",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Oye, ¿vas mucho al gimnasio?",
+        "english": "Hey, do you go to the gym a lot?"
+       },
+       {
+        "who": "me",
+        "target": "Sí, cada vez más.",
+        "english": "Yes, more and more."
+       },
+       {
+        "who": "them",
+        "target": "¿Cuántas veces por semana?",
+        "english": "How many times a week?"
+       }
+      ],
+      "replyOptions": [
+       "Más de cuatro veces.",
+       "Igual de bueno que tú.",
+       "El doble de rápido, gracias."
+      ],
+      "answer": 0
+     },
+     "tip": "más de + number, más que + noun/person: más de diez, más que tú. For 'as … as' use tan + adjective + como, and tanto/tantos + como for amounts."
+    },
+    {
+     "id": "s5u2l2",
+     "title": "Same or different",
+     "items": [
+      {
+       "id": "s5u2l2-igual-que",
+       "target": "igual que",
+       "english": "the same as",
+       "gender": null,
+       "emoji": "🟰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-diferente-de",
+       "target": "diferente de",
+       "english": "different from",
+       "gender": null,
+       "emoji": "↔️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-parecido-a",
+       "target": "parecido a",
+       "english": "similar to",
+       "gender": null,
+       "emoji": "🪞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-se-parece-a",
+       "target": "se parece a",
+       "english": "he/she looks like",
+       "gender": null,
+       "emoji": "👯",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-es-como",
+       "target": "es como",
+       "english": "it's like",
+       "gender": null,
+       "emoji": "💬",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-a-diferencia-de",
+       "target": "a diferencia de",
+       "english": "unlike",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-en-cambio",
+       "target": "en cambio",
+       "english": "on the other hand",
+       "gender": null,
+       "emoji": "🔄",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-mientras-que",
+       "target": "mientras que",
+       "english": "whereas",
+       "gender": null,
+       "emoji": "⚖️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-por-el-contrario",
+       "target": "por el contrario",
+       "english": "on the contrary",
+       "gender": null,
+       "emoji": "🙅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-lo-contrario",
+       "target": "lo contrario",
+       "english": "the opposite",
+       "gender": null,
+       "emoji": "🔀",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-lo-mismo",
+       "target": "lo mismo",
+       "english": "the same thing",
+       "gender": null,
+       "emoji": "🔁",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l2-ni-uno-ni-otro",
+       "target": "ni uno ni otro",
+       "english": "neither one",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Mi hermano es igual que mi papá.",
+       "english": "My brother is just like my dad."
+      },
+      {
+       "target": "Mi casa es muy diferente de tu casa.",
+       "english": "My house is very different from your house."
+      },
+      {
+       "target": "Esta comida es parecida a la de mi abuela.",
+       "english": "This food is similar to my grandma's."
+      },
+      {
+       "target": "Ana se parece a su mamá, mientras que Luis se parece a su papá.",
+       "english": "Ana looks like her mom, whereas Luis looks like his dad."
+      },
+      {
+       "target": "A diferencia de mí, mi hermano es muy trabajador.",
+       "english": "Unlike me, my brother is very hard-working."
+      },
+      {
+       "target": "Yo estoy cansado; mi amigo, en cambio, tiene mucha energía.",
+       "english": "I'm tired; my friend, on the other hand, has lots of energy."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Mi casa es igual ",
+       "after": " la tuya.",
+       "options": [
+        "que",
+        "de",
+        "a"
+       ],
+       "answer": 0,
+       "english": "My house is the same as yours."
+      },
+      {
+       "before": "Tu teléfono es parecido ",
+       "after": " mío.",
+       "options": [
+        "del",
+        "al",
+        "que"
+       ],
+       "answer": 1,
+       "english": "Your phone is similar to mine."
+      },
+      {
+       "before": "Yo quiero salir; ella, ",
+       "after": ", quiere quedarse en casa.",
+       "options": [
+        "por fin",
+        "al final",
+        "en cambio"
+       ],
+       "answer": 2,
+       "english": "I want to go out; she, on the other hand, wants to stay home."
+      },
+      {
+       "before": "Ni uno ",
+       "after": " otro me gusta.",
+       "options": [
+        "ni",
+        "o",
+        "y"
+       ],
+       "answer": 0,
+       "english": "I like neither one nor the other."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend asks about your brother",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Tú y tu hermano son iguales?",
+        "english": "Are you and your brother alike?"
+       },
+       {
+        "who": "me",
+        "target": "No, para nada.",
+        "english": "No, not at all."
+       },
+       {
+        "who": "them",
+        "target": "¿Entonces cómo es él?",
+        "english": "So what is he like?"
+       }
+      ],
+      "replyOptions": [
+       "Es lo contrario de mí: yo hablo mucho y él, en cambio, es callado.",
+       "Sí, es igual que ayer.",
+       "Estoy cansado, mientras tanto."
+      ],
+      "answer": 0
+     },
+     "tip": "igual que / diferente de / parecido a link two things; se parece a = looks like. en cambio and mientras que set up a contrast inside one sentence."
+    },
+    {
+     "id": "s5u2l3",
+     "title": "The most & the least",
+     "items": [
+      {
+       "id": "s5u2l3-lo-mejor",
+       "target": "lo mejor",
+       "english": "the best thing",
+       "gender": null,
+       "emoji": "🥇",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l3-lo-peor",
+       "target": "lo peor",
+       "english": "the worst thing",
+       "gender": null,
+       "emoji": "👎",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l3-lo-mas-importante",
+       "target": "lo más importante",
+       "english": "the most important thing",
+       "gender": null,
+       "emoji": "❗",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l3-lo-mas-dificil",
+       "target": "lo más difícil",
+       "english": "the hardest thing",
+       "gender": null,
+       "emoji": "🧗",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l3-el-mejor-del-mundo",
+       "target": "el mejor del mundo",
+       "english": "the best in the world",
+       "gender": null,
+       "emoji": "🌍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l3-la-mas-bonita",
+       "target": "la más bonita",
+       "english": "the prettiest one",
+       "gender": null,
+       "emoji": "🌸",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l3-demasiado",
+       "target": "demasiado",
+       "english": "too much",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "word"
+      },
+      {
+       "id": "s5u2l3-bastante",
+       "target": "bastante",
+       "english": "quite / enough",
+       "gender": null,
+       "emoji": "👌",
+       "kind": "word"
+      },
+      {
+       "id": "s5u2l3-muy",
+       "target": "muy",
+       "english": "very",
+       "gender": null,
+       "emoji": "➕",
+       "kind": "word"
+      },
+      {
+       "id": "s5u2l3-super",
+       "target": "súper",
+       "english": "super",
+       "gender": null,
+       "emoji": "⭐",
+       "kind": "word"
+      },
+      {
+       "id": "s5u2l3-tan",
+       "target": "tan",
+       "english": "so",
+       "gender": null,
+       "emoji": "📏",
+       "kind": "word"
+      },
+      {
+       "id": "s5u2l3-nada-que-ver",
+       "target": "¡Nada que ver!",
+       "english": "No way! / Totally different!",
+       "gender": null,
+       "emoji": "🙅",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Lo mejor de la ciudad es la comida.",
+       "english": "The best thing about the city is the food."
+      },
+      {
+       "target": "Lo peor fue el tráfico.",
+       "english": "The worst thing was the traffic."
+      },
+      {
+       "target": "Lo más importante es descansar.",
+       "english": "The most important thing is to rest."
+      },
+      {
+       "target": "Lo más difícil es hablar rápido.",
+       "english": "The hardest thing is speaking fast."
+      },
+      {
+       "target": "Esa playa es la más bonita de todas.",
+       "english": "That beach is the prettiest of all."
+      },
+      {
+       "target": "Es demasiado caro, pero la comida es súper buena.",
+       "english": "It's too expensive, but the food is super good."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Lo ",
+       "after": " importante es llegar a tiempo.",
+       "options": [
+        "mucho",
+        "más",
+        "muy"
+       ],
+       "answer": 1,
+       "english": "The most important thing is to arrive on time."
+      },
+      {
+       "before": "No como más; ya comí ",
+       "after": ".",
+       "options": [
+        "muy",
+        "tan",
+        "demasiado"
+       ],
+       "answer": 2,
+       "english": "I'm not eating more; I already ate too much."
+      },
+      {
+       "before": "Mi amiga es ",
+       "after": " simpática que todos la quieren.",
+       "options": [
+        "tan",
+        "muy",
+        "tanto"
+       ],
+       "answer": 0,
+       "english": "My friend is so nice that everybody loves her."
+      },
+      {
+       "before": "¿Nueva York es como mi ciudad? ¡Nada que ",
+       "after": "!",
+       "options": [
+        "hacer",
+        "ver",
+        "decir"
+       ],
+       "answer": 1,
+       "english": "Is New York like my city? No way!"
+      }
+     ],
+     "dialogue": {
+      "scene": "A classmate asks about learning Spanish",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Qué es lo más difícil del español para ti?",
+        "english": "What's the hardest thing about Spanish for you?"
+       },
+       {
+        "who": "me",
+        "target": "Los verbos.",
+        "english": "The verbs."
+       },
+       {
+        "who": "them",
+        "target": "Yo creo que lo más difícil es hablar rápido.",
+        "english": "I think the hardest thing is speaking fast."
+       }
+      ],
+      "replyOptions": [
+       "Tienes razón. Lo mejor es practicar todos los días.",
+       "La más bonita de todas, gracias.",
+       "Mientras tanto, estaba durmiendo."
+      ],
+      "answer": 0
+     },
+     "tip": "lo + más + adjective stays singular and 'neutral': lo más importante. el/la + más + adjective picks one thing or person: la más bonita. Ladder: bastante < muy < súper; demasiado = too much."
+    },
+    {
+     "id": "s5u2l4",
+     "title": "Which is better?",
+     "items": [
+      {
+       "id": "s5u2l4-cual-es-mejor",
+       "target": "¿Cuál es mejor?",
+       "english": "which is better?",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-cual-prefieres",
+       "target": "¿Cuál prefieres?",
+       "english": "which do you prefer?",
+       "gender": null,
+       "emoji": "👉",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-mi-favorito",
+       "target": "mi favorito",
+       "english": "my favorite (m)",
+       "gender": null,
+       "emoji": "⭐",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-mi-favorita",
+       "target": "mi favorita",
+       "english": "my favorite (f)",
+       "gender": null,
+       "emoji": "⭐",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-me-gusta-mas",
+       "target": "me gusta más",
+       "english": "I like more",
+       "gender": null,
+       "emoji": "💚",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-me-gusta-menos",
+       "target": "me gusta menos",
+       "english": "I like less",
+       "gender": null,
+       "emoji": "💔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-prefiero-que",
+       "target": "prefiero… que…",
+       "english": "I prefer … to …",
+       "gender": null,
+       "emoji": "⚖️",
+       "example": {
+        "target": "Prefiero cenar en casa que salir.",
+        "english": "I prefer having dinner at home to going out."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-me-quedo-con",
+       "target": "me quedo con",
+       "english": "I'll go with",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-es-cuestion-de-gusto",
+       "target": "es cuestión de gusto",
+       "english": "it's a matter of taste",
+       "gender": null,
+       "emoji": "👅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-depende-de",
+       "target": "depende de",
+       "english": "it depends on",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-en-comparacion-con",
+       "target": "en comparación con",
+       "english": "compared to",
+       "gender": null,
+       "emoji": "📊",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l4-algo-parecido",
+       "target": "algo parecido",
+       "english": "something similar",
+       "gender": null,
+       "emoji": "🔁",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Cuál es mejor, el café o el té?",
+       "english": "Which is better, coffee or tea?"
+      },
+      {
+       "target": "¿Cuál prefieres: la playa o la ciudad?",
+       "english": "Which do you prefer: the beach or the city?"
+      },
+      {
+       "target": "Mi favorito es el café; mi favorita es la pizza.",
+       "english": "My favorite (drink) is coffee; my favorite (food) is pizza."
+      },
+      {
+       "target": "Me gusta más caminar y me gusta menos manejar.",
+       "english": "I like walking more and I like driving less.",
+       "spain": "Me gusta más caminar y me gusta menos conducir."
+      },
+      {
+       "target": "Prefiero cenar en casa que salir a un restaurante.",
+       "english": "I prefer having dinner at home to going out to a restaurant."
+      },
+      {
+       "target": "Me quedo con este; es cuestión de gusto.",
+       "english": "I'll go with this one; it's a matter of taste."
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿Cuál ",
+       "after": ", el rojo o el azul?",
+       "options": [
+        "prefiero",
+        "prefieren",
+        "prefieres"
+       ],
+       "answer": 2,
+       "english": "Which do you prefer, the red one or the blue one?"
+      },
+      {
+       "before": "Depende ",
+       "after": " la hora.",
+       "options": [
+        "de",
+        "a",
+        "en"
+       ],
+       "answer": 0,
+       "english": "It depends on the time."
+      },
+      {
+       "before": "Me ",
+       "after": " con la azul.",
+       "options": [
+        "quedas",
+        "quedo",
+        "quedar"
+       ],
+       "answer": 1,
+       "english": "I'll go with the blue one."
+      },
+      {
+       "before": "Mi comida ",
+       "after": " es la pizza.",
+       "options": [
+        "favorito",
+        "favoritas",
+        "favorita"
+       ],
+       "answer": 2,
+       "english": "My favorite food is pizza."
+      }
+     ],
+     "dialogue": {
+      "scene": "Friends choose a place for the weekend",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Cuál prefieres, la playa o la montaña?",
+        "english": "Which do you prefer, the beach or the mountains?"
+       },
+       {
+        "who": "me",
+        "target": "Mmm, es difícil.",
+        "english": "Mmm, it's hard."
+       },
+       {
+        "who": "them",
+        "target": "Va, es cuestión de gusto. ¿Cuál es tu favorita?",
+        "english": "Come on, it's a matter of taste. Which one is your favorite?"
+       }
+      ],
+      "replyOptions": [
+       "Me quedo con la playa; me gusta más.",
+       "Sí, es mi favorito, gracias.",
+       "Algo parecido a ayer."
+      ],
+      "answer": 0
+     },
+     "tip": "prefiero A que B works best with infinitives: prefiero caminar que manejar. me quedo con = I'll go with. mi favorito / mi favorita matches the noun's gender."
+    },
+    {
+     "id": "s5u2l5",
+     "title": "Cultures & customs",
+     "items": [
+      {
+       "id": "s5u2l5-la-costumbre",
+       "target": "la costumbre",
+       "english": "the custom",
+       "gender": "f",
+       "emoji": "🎎",
+       "cognateHint": "costumbre ≈ custom",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-la-cultura",
+       "target": "la cultura",
+       "english": "the culture",
+       "gender": "f",
+       "emoji": "🎭",
+       "cognateHint": "cultura ≈ culture",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-la-diferencia",
+       "target": "la diferencia",
+       "english": "the difference",
+       "gender": "f",
+       "emoji": "↔️",
+       "cognateHint": "diferencia ≈ difference",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-la-semejanza",
+       "target": "la semejanza",
+       "english": "the similarity",
+       "gender": "f",
+       "emoji": "🟰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-el-acento",
+       "target": "el acento",
+       "english": "the accent",
+       "gender": "m",
+       "emoji": "🗣️",
+       "cognateHint": "acento ≈ accent",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-el-dialecto",
+       "target": "el dialecto",
+       "english": "the dialect",
+       "gender": "m",
+       "emoji": "💬",
+       "cognateHint": "dialecto ≈ dialect",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-la-ventaja",
+       "target": "la ventaja",
+       "english": "the advantage",
+       "gender": "f",
+       "emoji": "👍",
+       "cognateHint": "ventaja ≈ advantage",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-la-desventaja",
+       "target": "la desventaja",
+       "english": "the disadvantage",
+       "gender": "f",
+       "emoji": "👎",
+       "cognateHint": "desventaja ≈ disadvantage",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-la-mayoria",
+       "target": "la mayoría",
+       "english": "the majority",
+       "gender": "f",
+       "emoji": "📊",
+       "cognateHint": "mayoría ≈ majority",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-la-minoria",
+       "target": "la minoría",
+       "english": "the minority",
+       "gender": "f",
+       "emoji": "📉",
+       "cognateHint": "minoría ≈ minority",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-por-un-lado",
+       "target": "por un lado",
+       "english": "on one hand",
+       "gender": null,
+       "emoji": "☝️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u2l5-por-otro-lado",
+       "target": "por otro lado",
+       "english": "on the other hand",
+       "gender": null,
+       "emoji": "✌️",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "En mi cultura, es una costumbre cenar tarde.",
+       "english": "In my culture, it's a custom to have dinner late."
+      },
+      {
+       "target": "La diferencia más grande es la comida.",
+       "english": "The biggest difference is the food."
+      },
+      {
+       "target": "Hay muchas semejanzas entre mi cultura y la tuya.",
+       "english": "There are many similarities between my culture and yours."
+      },
+      {
+       "target": "Tengo acento, pero la mayoría de la gente me entiende.",
+       "english": "I have an accent, but most people understand me."
+      },
+      {
+       "target": "Cada país tiene un acento diferente.",
+       "english": "Every country has a different accent."
+      },
+      {
+       "target": "Por un lado, la vida aquí es bonita; por otro lado, es muy cara.",
+       "english": "On one hand, life here is nice; on the other hand, it's very expensive."
+      }
+     ],
+     "fills": [
+      {
+       "before": "La ",
+       "after": " de la gente aquí vive en la ciudad.",
+       "options": [
+        "mayoría",
+        "ventaja",
+        "diferencia"
+       ],
+       "answer": 0,
+       "english": "Most people here live in the city."
+      },
+      {
+       "before": "No tener carro es una ",
+       "after": ": no puedo ir lejos.",
+       "options": [
+        "ventaja",
+        "desventaja",
+        "costumbre"
+       ],
+       "answer": 1,
+       "english": "Not having a car is a disadvantage: I can't go far.",
+       "spain": {
+        "before": "No tener coche es una ",
+        "after": ": no puedo ir lejos."
+       }
+      },
+      {
+       "before": "En mi ",
+       "after": ", cenamos tarde.",
+       "options": [
+        "acento",
+        "semejanza",
+        "cultura"
+       ],
+       "answer": 2,
+       "english": "In my culture, we have dinner late."
+      },
+      {
+       "before": "Por un ",
+       "after": ", me gusta; por otro lado, es caro.",
+       "options": [
+        "lado",
+        "día",
+        "vez"
+       ],
+       "answer": 0,
+       "english": "On one hand, I like it; on the other hand, it's expensive."
+      }
+     ],
+     "dialogue": {
+      "scene": "A new friend asks what you notice here",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Qué diferencias ves entre tu país y este?",
+        "english": "What differences do you see between your country and this one?"
+       },
+       {
+        "who": "me",
+        "target": "Por un lado, la comida. Por otro lado, la hora de cenar.",
+        "english": "On one hand, the food. On the other hand, dinner time."
+       },
+       {
+        "who": "them",
+        "target": "¿Y la gente?",
+        "english": "And the people?"
+       }
+      ],
+      "replyOptions": [
+       "La mayoría es muy amable, aunque no entiendo el acento.",
+       "Es una desventaja de la minoría, gracias.",
+       "Igual de bueno, ni uno ni otro."
+      ],
+      "answer": 0
+     },
+     "tip": "Cognate nouns in -ia, -aja, -ura are feminine (la cultura, la diferencia, la ventaja); el acento and el dialecto are masculine. por un lado… por otro lado… balances two sides."
+    }
+   ]
+  },
+  {
+   "id": "s5u3",
+   "title": "Complaining & solving problems",
+   "lessons": [
+    {
+     "id": "s5u3l1",
+     "title": "Something's wrong",
+     "items": [
+      {
+       "id": "s5u3l1-hay-un-error",
+       "target": "hay un error",
+       "english": "there's a mistake",
+       "gender": null,
+       "emoji": "⚠️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-esta-roto",
+       "target": "está roto",
+       "english": "it's broken",
+       "gender": null,
+       "emoji": "💔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-esta-sucio",
+       "target": "está sucio",
+       "english": "it's dirty",
+       "gender": null,
+       "emoji": "🧽",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-esta-descompuesto",
+       "target": "está descompuesto",
+       "english": "it's out of order",
+       "gender": null,
+       "emoji": "🔧",
+       "kind": "phrase",
+       "spain": "está estropeado"
+      },
+      {
+       "id": "s5u3l1-hace-ruido",
+       "target": "hace ruido",
+       "english": "it makes noise",
+       "gender": null,
+       "emoji": "🔊",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-no-sirve",
+       "target": "no sirve",
+       "english": "it doesn't work",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-no-llego",
+       "target": "no llegó",
+       "english": "it didn't arrive",
+       "gender": null,
+       "emoji": "📦",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-tardaron-mucho",
+       "target": "tardaron mucho",
+       "english": "they took a long time",
+       "gender": null,
+       "emoji": "🐌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-me-cobraron-de-mas",
+       "target": "me cobraron de más",
+       "english": "they overcharged me",
+       "gender": null,
+       "emoji": "💸",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-esto-no-es-lo-que-pedi",
+       "target": "esto no es lo que pedí",
+       "english": "this isn't what I ordered",
+       "gender": null,
+       "emoji": "🍽️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-falta-algo",
+       "target": "falta algo",
+       "english": "something is missing",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l1-no-hay-nada",
+       "target": "no hay nada",
+       "english": "there's nothing",
+       "gender": null,
+       "emoji": "🕳️",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Hay un error en la cuenta.",
+       "english": "There's a mistake on the bill."
+      },
+      {
+       "target": "Este vaso está roto y la mesa está sucia.",
+       "english": "This glass is broken and the table is dirty."
+      },
+      {
+       "target": "El teléfono está descompuesto y no sirve.",
+       "english": "The phone is out of order and doesn't work.",
+       "spain": "El teléfono está estropeado y no sirve."
+      },
+      {
+       "target": "Mi comida no llegó y tardaron mucho.",
+       "english": "My food didn't arrive and they took a long time."
+      },
+      {
+       "target": "Me cobraron de más; esto no es lo que pedí.",
+       "english": "They overcharged me; this isn't what I ordered."
+      },
+      {
+       "target": "Falta algo en la mesa: no hay nada para beber.",
+       "english": "Something's missing on the table: there's nothing to drink."
+      }
+     ],
+     "fills": [
+      {
+       "before": "El baño ",
+       "after": " sucio.",
+       "options": [
+        "es",
+        "está",
+        "hay"
+       ],
+       "answer": 1,
+       "english": "The bathroom is dirty."
+      },
+      {
+       "before": "Esto ",
+       "after": " es lo que pedí.",
+       "options": [
+        "ni",
+        "tan",
+        "no"
+       ],
+       "answer": 2,
+       "english": "This isn't what I ordered."
+      },
+      {
+       "before": "Me ",
+       "after": " de más en la cuenta.",
+       "options": [
+        "cobraron",
+        "cobré",
+        "cobrar"
+       ],
+       "answer": 0,
+       "english": "They overcharged me on the bill."
+      },
+      {
+       "before": "El teléfono está ",
+       "after": " y no sirve.",
+       "options": [
+        "descomponer",
+        "descompuesto",
+        "descomponiendo"
+       ],
+       "answer": 1,
+       "english": "The phone is out of order and doesn't work.",
+       "spain": {
+        "options": [
+         "estropear",
+         "estropeado",
+         "estropeando"
+        ],
+        "answer": 1
+       }
+      }
+     ],
+     "dialogue": {
+      "scene": "At a restaurant, the waiter checks on you",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenas noches, ¿ya pidió?",
+        "english": "Good evening, have you ordered yet?"
+       },
+       {
+        "who": "me",
+        "target": "Sí, hace veinte minutos.",
+        "english": "Yes, twenty minutes ago."
+       },
+       {
+        "who": "them",
+        "target": "Aquí tiene. ¿Todo bien con la comida?",
+        "english": "Here you go. Is everything fine with the food?"
+       }
+      ],
+      "replyOptions": [
+       "No, esto no es lo que pedí.",
+       "Sí, mañana llego en cinco minutos.",
+       "Sí, estaba durmiendo."
+      ],
+      "answer": 0
+     },
+     "tip": "está + participle describes a result: está roto, está sucio, está descompuesto. For something that never happened, use no + pretérito: no llegó."
+    },
+    {
+     "id": "s5u3l2",
+     "title": "Polite complaints",
+     "items": [
+      {
+       "id": "s5u3l2-el-gerente",
+       "target": "el gerente",
+       "english": "the manager",
+       "gender": "m",
+       "emoji": "👔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l2-la-queja",
+       "target": "la queja",
+       "english": "the complaint",
+       "gender": "f",
+       "emoji": "😤",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l2-el-reembolso",
+       "target": "el reembolso",
+       "english": "the refund",
+       "gender": "m",
+       "emoji": "💵",
+       "cognateHint": "reembolso ≈ reimburse(ment)",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l2-la-garantia",
+       "target": "la garantía",
+       "english": "the warranty",
+       "gender": "f",
+       "emoji": "🛡️",
+       "cognateHint": "garantía ≈ guarantee",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l2-devolver",
+       "target": "devolver",
+       "english": "to return / give back",
+       "gender": null,
+       "emoji": "🔙",
+       "kind": "word"
+      },
+      {
+       "id": "s5u3l2-reclamar",
+       "target": "reclamar",
+       "english": "to claim / complain",
+       "gender": null,
+       "emoji": "📢",
+       "kind": "word"
+      },
+      {
+       "id": "s5u3l2-reparar",
+       "target": "reparar",
+       "english": "to repair",
+       "gender": null,
+       "emoji": "🔧",
+       "cognateHint": "reparar ≈ repair",
+       "kind": "word"
+      },
+      {
+       "id": "s5u3l2-revisar",
+       "target": "revisar",
+       "english": "to check",
+       "gender": null,
+       "emoji": "🔍",
+       "kind": "word"
+      },
+      {
+       "id": "s5u3l2-cambiar-por-otro",
+       "target": "cambiar por otro",
+       "english": "to exchange for another",
+       "gender": null,
+       "emoji": "🔄",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l2-la-devolucion",
+       "target": "la devolución",
+       "english": "the return",
+       "gender": "f",
+       "emoji": "↩️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l2-el-servicio",
+       "target": "el servicio",
+       "english": "the service",
+       "gender": "m",
+       "emoji": "🛎️",
+       "cognateHint": "servicio ≈ service",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l2-el-defecto",
+       "target": "el defecto",
+       "english": "the defect",
+       "gender": "m",
+       "emoji": "⚠️",
+       "cognateHint": "defecto ≈ defect",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Quisiera hablar con el gerente, por favor.",
+       "english": "I'd like to speak with the manager, please."
+      },
+      {
+       "target": "Tengo una queja sobre el servicio.",
+       "english": "I have a complaint about the service."
+      },
+      {
+       "target": "¿Podría revisar esto otra vez?",
+       "english": "Could you check this again?"
+      },
+      {
+       "target": "Quiero devolver este teléfono y pedir el reembolso.",
+       "english": "I want to return this phone and ask for a refund."
+      },
+      {
+       "target": "El producto tiene un defecto, pero todavía tiene garantía.",
+       "english": "The product has a defect, but it still has a warranty."
+      },
+      {
+       "target": "No quiero la devolución; prefiero cambiarlo por otro.",
+       "english": "I don't want the return; I'd rather exchange it for another one."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Quisiera hablar ",
+       "after": " el gerente.",
+       "options": [
+        "a",
+        "de",
+        "con"
+       ],
+       "answer": 2,
+       "english": "I'd like to speak with the manager."
+      },
+      {
+       "before": "¿Podría ",
+       "after": " la cuenta, por favor?",
+       "options": [
+        "revisar",
+        "revisó",
+        "revisando"
+       ],
+       "answer": 0,
+       "english": "Could you check the bill, please?"
+      },
+      {
+       "before": "Todavía tiene ",
+       "after": ", así que pueden repararlo gratis.",
+       "options": [
+        "queja",
+        "garantía",
+        "devolución"
+       ],
+       "answer": 1,
+       "english": "It still has a warranty, so they can repair it for free."
+      },
+      {
+       "before": "Tengo una ",
+       "after": " sobre el servicio.",
+       "options": [
+        "garantía",
+        "defecto",
+        "queja"
+       ],
+       "answer": 2,
+       "english": "I have a complaint about the service."
+      }
+     ],
+     "dialogue": {
+      "scene": "At a hotel front desk",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenas tardes. ¿En qué puedo ayudarle?",
+        "english": "Good afternoon. How can I help you?"
+       },
+       {
+        "who": "me",
+        "target": "Quisiera hablar con el gerente.",
+        "english": "I'd like to speak with the manager."
+       },
+       {
+        "who": "them",
+        "target": "Claro. ¿Cuál es el problema?",
+        "english": "Of course. What's the problem?"
+       }
+      ],
+      "replyOptions": [
+       "Hay un error en la cuenta: me cobraron de más.",
+       "Me gusta más la playa, gracias.",
+       "Estaba durmiendo cuando llegó."
+      ],
+      "answer": 0
+     },
+     "tip": "Be firm and polite with the conditional: Quisiera hablar con…, ¿Podría revisar esto? Cognates help: el defecto, la garantía, el reembolso, el servicio."
+    },
+    {
+     "id": "s5u3l3",
+     "title": "I want you to…",
+     "items": [
+      {
+       "id": "s5u3l3-quiero-que-vengas",
+       "target": "quiero que vengas",
+       "english": "I want you to come",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-quiero-que-me-ayudes",
+       "target": "quiero que me ayudes",
+       "english": "I want you to help me",
+       "gender": null,
+       "emoji": "🆘",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-necesito-que-me-escuches",
+       "target": "necesito que me escuches",
+       "english": "I need you to listen to me",
+       "gender": null,
+       "emoji": "👂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-espero-que-estes-bien",
+       "target": "espero que estés bien",
+       "english": "I hope you're okay",
+       "gender": null,
+       "emoji": "🤞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-espero-que-si",
+       "target": "espero que sí",
+       "english": "I hope so",
+       "gender": null,
+       "emoji": "🤞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-espero-que-no",
+       "target": "espero que no",
+       "english": "I hope not",
+       "gender": null,
+       "emoji": "🙏",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-ojala",
+       "target": "ojalá",
+       "english": "I hope / if only",
+       "gender": null,
+       "emoji": "🌠",
+       "kind": "word"
+      },
+      {
+       "id": "s5u3l3-ojala-que-si",
+       "target": "ojalá que sí",
+       "english": "I really hope so",
+       "gender": null,
+       "emoji": "🍀",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-ojala-que-no",
+       "target": "ojalá que no",
+       "english": "I really hope not",
+       "gender": null,
+       "emoji": "✋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-es-mejor-que",
+       "target": "es mejor que",
+       "english": "it's better that",
+       "gender": null,
+       "emoji": "👌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-quieres-que-te-ayude",
+       "target": "¿Quieres que te ayude?",
+       "english": "do you want me to help you?",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l3-no-quiero-que-te-vayas",
+       "target": "no quiero que te vayas",
+       "english": "I don't want you to leave",
+       "gender": null,
+       "emoji": "🥺",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Quiero que vengas a mi casa esta noche.",
+       "english": "I want you to come to my place tonight."
+      },
+      {
+       "target": "Necesito que me escuches; es importante.",
+       "english": "I need you to listen to me; it's important."
+      },
+      {
+       "target": "Espero que estés bien.",
+       "english": "I hope you're okay."
+      },
+      {
+       "target": "¿Va a llover mañana? Ojalá que no.",
+       "english": "Is it going to rain tomorrow? I really hope not."
+      },
+      {
+       "target": "Es mejor que llames a tu mamá.",
+       "english": "It's better that you call your mom."
+      },
+      {
+       "target": "¿Quieres que te ayude con la cena?",
+       "english": "Do you want me to help you with dinner?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Quiero que ",
+       "after": " a mi casa.",
+       "options": [
+        "vengas",
+        "vienes",
+        "venir"
+       ],
+       "answer": 0,
+       "english": "I want you to come to my house."
+      },
+      {
+       "before": "Quiero que me ",
+       "after": " con esto.",
+       "options": [
+        "ayudas",
+        "ayudes",
+        "ayudar"
+       ],
+       "answer": 1,
+       "english": "I want you to help me with this."
+      },
+      {
+       "before": "Espero que ",
+       "after": " bien.",
+       "options": [
+        "estás",
+        "estar",
+        "estés"
+       ],
+       "answer": 2,
+       "english": "I hope you're okay."
+      },
+      {
+       "before": "No quiero que te ",
+       "after": ".",
+       "options": [
+        "vayas",
+        "vas",
+        "ir"
+       ],
+       "answer": 0,
+       "english": "I don't want you to leave."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend invites you to a party",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Oye, ¿vienes a mi fiesta el sábado?",
+        "english": "Hey, are you coming to my party on Saturday?"
+       },
+       {
+        "who": "me",
+        "target": "No sé... ¿Quién va?",
+        "english": "I don't know... Who's going?"
+       },
+       {
+        "who": "them",
+        "target": "Todos. Quiero que vengas, ¿sí?",
+        "english": "Everyone. I want you to come, okay?"
+       }
+      ],
+      "replyOptions": [
+       "Está bien, voy. ¿Llevo algo?",
+       "Ojalá que no, gracias.",
+       "Lo malo es que se me hizo tarde."
+      ],
+      "answer": 0
+     },
+     "tip": "quiero que + subjunctive: when the wish is about someone else, the verb flips its vowel (-ar verbs take -e, others take -a): vengas, ayudes, estés. Learn each as a chunk. Same person = infinitive: quiero ir."
+    },
+    {
+     "id": "s5u3l4",
+     "title": "Fixing it",
+     "items": [
+      {
+       "id": "s5u3l4-que-podemos-hacer",
+       "target": "¿Qué podemos hacer?",
+       "english": "what can we do?",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-vamos-a-arreglarlo",
+       "target": "vamos a arreglarlo",
+       "english": "we're going to fix it",
+       "gender": null,
+       "emoji": "🛠️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-lo-resolvemos",
+       "target": "lo resolvemos",
+       "english": "we'll sort it out",
+       "gender": null,
+       "emoji": "✅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-enseguida",
+       "target": "enseguida",
+       "english": "right away",
+       "gender": null,
+       "emoji": "⚡",
+       "kind": "word"
+      },
+      {
+       "id": "s5u3l4-en-ese-caso",
+       "target": "en ese caso",
+       "english": "in that case",
+       "gender": null,
+       "emoji": "📌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-por-si-acaso",
+       "target": "por si acaso",
+       "english": "just in case",
+       "gender": null,
+       "emoji": "🛟",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-de-todos-modos",
+       "target": "de todos modos",
+       "english": "anyway / regardless",
+       "gender": null,
+       "emoji": "🔁",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-tiene-solucion",
+       "target": "tiene solución",
+       "english": "it can be solved",
+       "gender": null,
+       "emoji": "💡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-me-parece-justo",
+       "target": "me parece justo",
+       "english": "that seems fair to me",
+       "gender": null,
+       "emoji": "⚖️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-lo-siento-mucho",
+       "target": "lo siento mucho",
+       "english": "I'm very sorry",
+       "gender": null,
+       "emoji": "🙏",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-no-se-preocupe",
+       "target": "no se preocupe",
+       "english": "don't worry (formal)",
+       "gender": null,
+       "emoji": "😌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l4-lo-voy-a-revisar",
+       "target": "lo voy a revisar",
+       "english": "I'm going to check it",
+       "gender": null,
+       "emoji": "🔍",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Qué podemos hacer? Esto tiene solución.",
+       "english": "What can we do? This can be solved."
+      },
+      {
+       "target": "Vamos a arreglarlo enseguida.",
+       "english": "We're going to fix it right away."
+      },
+      {
+       "target": "Ahorita lo resolvemos, no se preocupe.",
+       "english": "We'll sort it out in a moment, don't worry.",
+       "spain": "Ahora mismo lo resolvemos, no se preocupe."
+      },
+      {
+       "target": "En ese caso, quiero un reembolso.",
+       "english": "In that case, I want a refund."
+      },
+      {
+       "target": "Lo siento mucho; lo voy a revisar ahora mismo.",
+       "english": "I'm very sorry; I'm going to check it right now."
+      },
+      {
+       "target": "Me parece justo, pero llevo mi tarjeta por si acaso.",
+       "english": "That seems fair, but I'll bring my card just in case."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Vamos a ",
+       "after": " enseguida.",
+       "options": [
+        "arreglado",
+        "arreglarlo",
+        "arreglas"
+       ],
+       "answer": 1,
+       "english": "We're going to fix it right away."
+      },
+      {
+       "before": "No se ",
+       "after": "; lo resolvemos.",
+       "options": [
+        "preocupes",
+        "preocupa",
+        "preocupe"
+       ],
+       "answer": 2,
+       "english": "Don't worry; we'll sort it out."
+      },
+      {
+       "before": "Llevo dinero por si ",
+       "after": ".",
+       "options": [
+        "acaso",
+        "caso",
+        "vez"
+       ],
+       "answer": 0,
+       "english": "I'm bringing money just in case."
+      },
+      {
+       "before": "Esto tiene ",
+       "after": "; no se preocupe.",
+       "options": [
+        "queja",
+        "solución",
+        "reembolso"
+       ],
+       "answer": 1,
+       "english": "This can be solved; don't worry."
+      }
+     ],
+     "dialogue": {
+      "scene": "An employee deals with your complaint",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Lo siento mucho. Fue un error nuestro.",
+        "english": "I'm very sorry. It was our mistake."
+       },
+       {
+        "who": "me",
+        "target": "¿Qué podemos hacer?",
+        "english": "What can we do?"
+       },
+       {
+        "who": "them",
+        "target": "Lo voy a revisar enseguida. ¿Le parece bien?",
+        "english": "I'll check it right away. Does that sound okay to you?"
+       }
+      ],
+      "replyOptions": [
+       "Me parece justo. Gracias.",
+       "Mi favorita es la azul.",
+       "Había una vez un error."
+      ],
+      "answer": 0
+     },
+     "tip": "Speed words differ by country: enseguida works everywhere, ahorita is Mexican and means 'in a bit' as much as 'now', ahora mismo means right now (Spain's usual choice)."
+    },
+    {
+     "id": "s5u3l5",
+     "title": "Oops, it slipped",
+     "items": [
+      {
+       "id": "s5u3l5-se-me-perdio",
+       "target": "se me perdió",
+       "english": "I lost it",
+       "gender": null,
+       "emoji": "😬",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-se-me-cayo",
+       "target": "se me cayó",
+       "english": "I dropped it",
+       "gender": null,
+       "emoji": "🫳",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-se-me-acabo",
+       "target": "se me acabó",
+       "english": "I ran out of it",
+       "gender": null,
+       "emoji": "🈳",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-se-me-rompio",
+       "target": "se me rompió",
+       "english": "it broke on me",
+       "gender": null,
+       "emoji": "💔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-se-me-quedo-en-casa",
+       "target": "se me quedó en casa",
+       "english": "I left it at home",
+       "gender": null,
+       "emoji": "🏠",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-me-quede-sin-bateria",
+       "target": "me quedé sin batería",
+       "english": "I ran out of battery",
+       "gender": null,
+       "emoji": "🔋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-me-quede-sin-dinero",
+       "target": "me quedé sin dinero",
+       "english": "I ran out of money",
+       "gender": null,
+       "emoji": "💸",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-me-quede-sin-gasolina",
+       "target": "me quedé sin gasolina",
+       "english": "I ran out of gas",
+       "gender": null,
+       "emoji": "⛽",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-me-quede-encerrado",
+       "target": "me quedé encerrado",
+       "english": "I got locked in",
+       "gender": null,
+       "emoji": "🔒",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-me-equivoque-de-direccion",
+       "target": "me equivoqué de dirección",
+       "english": "I went to the wrong address",
+       "gender": null,
+       "emoji": "🗺️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-me-confundi",
+       "target": "me confundí",
+       "english": "I got confused",
+       "gender": null,
+       "emoji": "😵",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u3l5-se-me-fue-el-tren",
+       "target": "se me fue el tren",
+       "english": "I missed the train",
+       "gender": null,
+       "emoji": "🚆",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Se me perdió el teléfono ayer.",
+       "english": "I lost my phone yesterday."
+      },
+      {
+       "target": "Se me cayó el vaso y se me rompió.",
+       "english": "I dropped the glass and it broke on me."
+      },
+      {
+       "target": "Se me quedó la tarjeta en casa.",
+       "english": "I left my card at home."
+      },
+      {
+       "target": "Me quedé sin batería y sin dinero.",
+       "english": "I ran out of battery and money."
+      },
+      {
+       "target": "Íbamos manejando cuando nos quedamos sin gasolina.",
+       "english": "We were driving when we ran out of gas.",
+       "spain": "Íbamos conduciendo cuando nos quedamos sin gasolina."
+      },
+      {
+       "target": "Me equivoqué de dirección y se me fue el tren.",
+       "english": "I went to the wrong address and missed the train."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Se me ",
+       "after": " la cartera.",
+       "options": [
+        "perdí",
+        "perdiste",
+        "perdió"
+       ],
+       "answer": 2,
+       "english": "I lost my wallet."
+      },
+      {
+       "before": "Me quedé ",
+       "after": " batería.",
+       "options": [
+        "sin",
+        "con",
+        "de"
+       ],
+       "answer": 0,
+       "english": "I ran out of battery."
+      },
+      {
+       "before": "Se me ",
+       "after": " el vaso y se rompió.",
+       "options": [
+        "caí",
+        "cayó",
+        "cayeron"
+       ],
+       "answer": 1,
+       "english": "I dropped the glass and it broke."
+      },
+      {
+       "before": "Me ",
+       "after": " de dirección.",
+       "options": [
+        "equivoca",
+        "equivocar",
+        "equivoqué"
+       ],
+       "answer": 2,
+       "english": "I went to the wrong address."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend is worried about you",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Dónde estás? ¡Te llamo y no contestas!",
+        "english": "Where are you? I call you and you don't answer!"
+       },
+       {
+        "who": "me",
+        "target": "Perdón, me quedé sin batería.",
+        "english": "Sorry, I ran out of battery."
+       },
+       {
+        "who": "them",
+        "target": "¿Y por qué no llegaste a la cena?",
+        "english": "And why didn't you get to dinner?"
+       }
+      ],
+      "replyOptions": [
+       "Se me hizo tarde y se me fue el tren.",
+       "Prefiero cenar en casa que salir.",
+       "Es mejor que vengas, gracias."
+      ],
+      "answer": 0
+     },
+     "tip": "se me + verb = it happened to me, no blame: se me cayó (it fell on me). The thing is the subject, so it agrees: se me perdieron las llaves. me quedé sin + noun = I ran out of."
+    }
+   ]
+  },
+  {
+   "id": "s5u4",
+   "title": "Preferences",
+   "lessons": [
+    {
+     "id": "s5u4l1",
+     "title": "Wishes & experiences",
+     "items": [
+      {
+       "id": "s5u4l1-me-encantaria",
+       "target": "me encantaría",
+       "english": "I'd love to",
+       "gender": null,
+       "emoji": "😍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-preferiria",
+       "target": "preferiría",
+       "english": "I'd prefer",
+       "gender": null,
+       "emoji": "🙂",
+       "kind": "word"
+      },
+      {
+       "id": "s5u4l1-lo-que-mas-me-gusta",
+       "target": "lo que más me gusta",
+       "english": "what I like most",
+       "gender": null,
+       "emoji": "💖",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-lo-que-menos-me-gusta",
+       "target": "lo que menos me gusta",
+       "english": "what I like least",
+       "gender": null,
+       "emoji": "💔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-siempre-he-querido",
+       "target": "siempre he querido",
+       "english": "I've always wanted to",
+       "gender": null,
+       "emoji": "🌠",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-nunca-he-probado",
+       "target": "nunca he probado",
+       "english": "I've never tried",
+       "gender": null,
+       "emoji": "🍽️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-ya-he-estado",
+       "target": "ya he estado",
+       "english": "I've already been",
+       "gender": null,
+       "emoji": "📍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-he-oido-que",
+       "target": "he oído que",
+       "english": "I've heard that",
+       "gender": null,
+       "emoji": "👂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-he-vivido",
+       "target": "he vivido",
+       "english": "I've lived",
+       "gender": null,
+       "emoji": "🏡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-he-aprendido",
+       "target": "he aprendido",
+       "english": "I've learned",
+       "gender": null,
+       "emoji": "📚",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-no-he-decidido",
+       "target": "no he decidido",
+       "english": "I haven't decided",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l1-todavia-no-he",
+       "target": "todavía no he",
+       "english": "I still haven't",
+       "gender": null,
+       "emoji": "🕒",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Me encantaría viajar contigo.",
+       "english": "I'd love to travel with you."
+      },
+      {
+       "target": "Preferiría quedarme en casa esta noche.",
+       "english": "I'd prefer to stay home tonight."
+      },
+      {
+       "target": "Lo que más me gusta es la comida; lo que menos me gusta es el tráfico.",
+       "english": "What I like most is the food; what I like least is the traffic."
+      },
+      {
+       "target": "Siempre he querido vivir en la playa.",
+       "english": "I've always wanted to live at the beach."
+      },
+      {
+       "target": "Nunca he probado esta comida.",
+       "english": "I've never tried this food."
+      },
+      {
+       "target": "He vivido aquí diez años y he aprendido mucho.",
+       "english": "I've lived here ten years and I've learned a lot."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Con mucho gusto, me ",
+       "after": " ir contigo.",
+       "options": [
+        "encantaría",
+        "encantar",
+        "encantado"
+       ],
+       "answer": 0,
+       "english": "Gladly, I'd love to go with you."
+      },
+      {
+       "before": "Siempre ",
+       "after": " querido ir a México.",
+       "options": [
+        "ha",
+        "he",
+        "hemos"
+       ],
+       "answer": 1,
+       "english": "I've always wanted to go to Mexico."
+      },
+      {
+       "before": "Nunca he ",
+       "after": " esto.",
+       "options": [
+        "probar",
+        "probé",
+        "probado"
+       ],
+       "answer": 2,
+       "english": "I've never tried this."
+      },
+      {
+       "before": "Todavía no he ",
+       "after": ".",
+       "options": [
+        "decidido",
+        "decidir",
+        "decidí"
+       ],
+       "answer": 0,
+       "english": "I still haven't decided."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend talks about her trip",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Mi viaje a México fue increíble. ¿Tú quieres ir?",
+        "english": "My trip to Mexico was incredible. Do you want to go?"
+       },
+       {
+        "who": "me",
+        "target": "¡Claro! Siempre he querido ir.",
+        "english": "Of course! I've always wanted to go."
+       },
+       {
+        "who": "them",
+        "target": "¿Qué te encantaría hacer allá?",
+        "english": "What would you love to do there?"
+       }
+      ],
+      "replyOptions": [
+       "Me encantaría probar la comida y ver la playa.",
+       "Lo siento mucho, no se preocupe.",
+       "Se me cayó el vaso."
+      ],
+      "answer": 0
+     },
+     "tip": "me encantaría / preferiría + infinitive = polite wishes. he + -ado/-ido = 'I have done': he vivido, he aprendido, nunca he probado. (Spain also uses it for today: hoy he comido; Latin America prefers hoy comí.)"
+    },
+    {
+     "id": "s5u4l2",
+     "title": "Food preferences",
+     "items": [
+      {
+       "id": "s5u4l2-soy-vegetariano",
+       "target": "soy vegetariano",
+       "english": "I'm vegetarian",
+       "gender": null,
+       "emoji": "🥦",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l2-soy-alergico",
+       "target": "soy alérgico",
+       "english": "I'm allergic",
+       "gender": null,
+       "emoji": "🤧",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l2-no-como-carne",
+       "target": "no como carne",
+       "english": "I don't eat meat",
+       "gender": null,
+       "emoji": "🥩",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l2-sin-gluten",
+       "target": "sin gluten",
+       "english": "gluten-free",
+       "gender": null,
+       "emoji": "🌾",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l2-poco-picante",
+       "target": "poco picante",
+       "english": "mildly spicy",
+       "gender": null,
+       "emoji": "🌶️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l2-bien-cocido",
+       "target": "bien cocido",
+       "english": "well done",
+       "gender": null,
+       "emoji": "🔥",
+       "kind": "phrase",
+       "spain": "bien hecho"
+      },
+      {
+       "id": "s5u4l2-termino-medio",
+       "target": "término medio",
+       "english": "medium",
+       "gender": null,
+       "emoji": "🥩",
+       "kind": "phrase",
+       "spain": "al punto"
+      },
+      {
+       "id": "s5u4l2-sin-cebolla",
+       "target": "sin cebolla",
+       "english": "without onion",
+       "gender": null,
+       "emoji": "🧅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l2-con-todo",
+       "target": "con todo",
+       "english": "with everything",
+       "gender": null,
+       "emoji": "🌮",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l2-para-compartir",
+       "target": "para compartir",
+       "english": "to share",
+       "gender": null,
+       "emoji": "🍕",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l2-la-porcion",
+       "target": "la porción",
+       "english": "the portion",
+       "gender": "f",
+       "emoji": "🍽️",
+       "cognateHint": "porción ≈ portion",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l2-el-postre",
+       "target": "el postre",
+       "english": "the dessert",
+       "gender": "m",
+       "emoji": "🍰",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Soy vegetariano; no como carne.",
+       "english": "I'm vegetarian; I don't eat meat."
+      },
+      {
+       "target": "Soy alérgico al queso.",
+       "english": "I'm allergic to cheese."
+      },
+      {
+       "target": "¿Tiene algo sin gluten?",
+       "english": "Do you have anything gluten-free?"
+      },
+      {
+       "target": "Quiero el pollo poco picante y bien cocido.",
+       "english": "I want the chicken mildly spicy and well done.",
+       "spain": "Quiero el pollo poco picante y bien hecho."
+      },
+      {
+       "target": "La carne, término medio, y sin cebolla, por favor.",
+       "english": "The meat, medium, and without onion, please.",
+       "spain": "La carne, al punto, y sin cebolla, por favor."
+      },
+      {
+       "target": "¿La porción es grande? Pedimos una para compartir y un postre.",
+       "english": "Is the portion big? We'll order one to share and a dessert."
+      }
+     ],
+     "fills": [
+      {
+       "before": "No como ",
+       "after": "; soy vegetariano.",
+       "options": [
+        "postre",
+        "carne",
+        "gluten"
+       ],
+       "answer": 1,
+       "english": "I don't eat meat; I'm vegetarian."
+      },
+      {
+       "before": "Soy alérgico a la cebolla; una hamburguesa ",
+       "after": " cebolla, por favor.",
+       "options": [
+        "con",
+        "para",
+        "sin"
+       ],
+       "answer": 2,
+       "english": "I'm allergic to onion; a burger without onion, please."
+      },
+      {
+       "before": "Soy sensible al picante, así que lo quiero ",
+       "after": " picante.",
+       "options": [
+        "poco",
+        "mucho",
+        "bien"
+       ],
+       "answer": 0,
+       "english": "I'm sensitive to spice, so I want it mildly spicy."
+      },
+      {
+       "before": "La carne, ",
+       "after": " medio, por favor.",
+       "options": [
+        "tiempo",
+        "término",
+        "lado"
+       ],
+       "answer": 1,
+       "english": "The meat, medium, please.",
+       "spain": {
+        "before": "La carne, ",
+        "after": " punto, por favor.",
+        "options": [
+         "en",
+         "al",
+         "del"
+        ],
+        "answer": 1
+       }
+      }
+     ],
+     "dialogue": {
+      "scene": "Ordering a pizza",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Qué le sirvo?",
+        "english": "What can I get you?"
+       },
+       {
+        "who": "me",
+        "target": "Una pizza, por favor.",
+        "english": "A pizza, please."
+       },
+       {
+        "who": "them",
+        "target": "¿Alguna alergia o algo que no coma?",
+        "english": "Any allergy or anything you don't eat?"
+       }
+      ],
+      "replyOptions": [
+       "Soy vegetariano; no como carne, y sin cebolla.",
+       "Me quedo con la playa.",
+       "Cada vez mejor, gracias."
+      ],
+      "answer": 0
+     },
+     "tip": "sin + noun = without, no article needed: sin gluten, sin cebolla. con todo = with everything. Doneness: bien cocido / término medio (Spain: bien hecho / al punto)."
+    },
+    {
+     "id": "s5u4l3",
+     "title": "When & until",
+     "items": [
+      {
+       "id": "s5u4l3-cuando-llegue",
+       "target": "cuando llegue",
+       "english": "when I/he/she arrive(s)",
+       "gender": null,
+       "emoji": "🛬",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l3-cuando-tenga-tiempo",
+       "target": "cuando tenga tiempo",
+       "english": "when I have time",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l3-cuando-pueda",
+       "target": "cuando pueda",
+       "english": "when I can",
+       "gender": null,
+       "emoji": "💪",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l3-cuando-termine",
+       "target": "cuando termine",
+       "english": "when I finish",
+       "gender": null,
+       "emoji": "🏁",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l3-en-cuanto-pueda",
+       "target": "en cuanto pueda",
+       "english": "as soon as I can",
+       "gender": null,
+       "emoji": "⚡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l3-hasta-que-llegues",
+       "target": "hasta que llegues",
+       "english": "until you arrive",
+       "gender": null,
+       "emoji": "⏳",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l3-apenas-pueda",
+       "target": "apenas pueda",
+       "english": "as soon as I can",
+       "gender": null,
+       "emoji": "🏃",
+       "kind": "phrase",
+       "spain": "tan pronto como pueda"
+      },
+      {
+       "id": "s5u4l3-el-dia-que",
+       "target": "el día que",
+       "english": "the day that",
+       "gender": null,
+       "emoji": "📅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l3-la-proxima-vez-que",
+       "target": "la próxima vez que",
+       "english": "the next time that",
+       "gender": null,
+       "emoji": "🔁",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l3-cuando-quieras",
+       "target": "cuando quieras",
+       "english": "whenever you want",
+       "gender": null,
+       "emoji": "🕐",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l3-cuando-gustes",
+       "target": "cuando gustes",
+       "english": "whenever you like",
+       "gender": null,
+       "emoji": "🙂",
+       "kind": "phrase",
+       "spain": "cuando te venga bien"
+      },
+      {
+       "id": "s5u4l3-cuando-sea",
+       "target": "cuando sea",
+       "english": "whenever",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Te llamo cuando llegue.",
+       "english": "I'll call you when I arrive."
+      },
+      {
+       "target": "Cuando tenga tiempo, voy a aprender más.",
+       "english": "When I have time, I'm going to learn more."
+      },
+      {
+       "target": "Voy a descansar cuando termine el trabajo.",
+       "english": "I'm going to rest when I finish work."
+      },
+      {
+       "target": "Espero aquí hasta que llegues.",
+       "english": "I'll wait here until you arrive."
+      },
+      {
+       "target": "Te escribo apenas pueda.",
+       "english": "I'll write you as soon as I can.",
+       "spain": "Te escribo en cuanto pueda."
+      },
+      {
+       "target": "Cuando gustes, pasa por mi casa.",
+       "english": "Whenever you like, come by my house.",
+       "spain": "Cuando quieras, pasa por mi casa."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Te llamo cuando ",
+       "after": ".",
+       "options": [
+        "llego",
+        "llegué",
+        "llegue"
+       ],
+       "answer": 2,
+       "english": "I'll call you when I arrive."
+      },
+      {
+       "before": "Cuando ",
+       "after": " tiempo, voy al cine.",
+       "options": [
+        "tenga",
+        "tengo",
+        "tuve"
+       ],
+       "answer": 0,
+       "english": "When I have time, I'll go to the movies."
+      },
+      {
+       "before": "Espero aquí ",
+       "after": " que llegues.",
+       "options": [
+        "desde",
+        "hasta",
+        "para"
+       ],
+       "answer": 1,
+       "english": "I'll wait here until you arrive."
+      },
+      {
+       "before": "La próxima ",
+       "after": " que vengas, cenamos juntos.",
+       "options": [
+        "día",
+        "hora",
+        "vez"
+       ],
+       "answer": 2,
+       "english": "The next time you come, we'll have dinner together."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend wants you to visit",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Cuándo vienes a visitarme?",
+        "english": "When are you coming to visit me?"
+       },
+       {
+        "who": "me",
+        "target": "Cuando tenga tiempo.",
+        "english": "When I have time."
+       },
+       {
+        "who": "them",
+        "target": "¿Y cuándo vas a tener tiempo?",
+        "english": "And when are you going to have time?"
+       }
+      ],
+      "replyOptions": [
+       "En cuanto termine el trabajo, te llamo.",
+       "Ya he estado, gracias.",
+       "Cuando era niño, vivía aquí."
+      ],
+      "answer": 0
+     },
+     "tip": "cuando + a future idea takes the subjunctive: cuando llegue, cuando tenga tiempo, hasta que llegues. Habits and past stay normal (cuando llego, cuando llegué). apenas pueda is Latin American; Spain says en cuanto pueda."
+    },
+    {
+     "id": "s5u4l4",
+     "title": "Recommendations",
+     "items": [
+      {
+       "id": "s5u4l4-te-recomiendo",
+       "target": "te recomiendo",
+       "english": "I recommend",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-te-sugiero",
+       "target": "te sugiero",
+       "english": "I suggest",
+       "gender": null,
+       "emoji": "💡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-que-me-recomiendas",
+       "target": "¿Qué me recomiendas?",
+       "english": "what do you recommend?",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-vale-la-pena",
+       "target": "vale la pena",
+       "english": "it's worth it",
+       "gender": null,
+       "emoji": "💎",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-no-vale-la-pena",
+       "target": "no vale la pena",
+       "english": "it's not worth it",
+       "gender": null,
+       "emoji": "🙅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-no-te-lo-pierdas",
+       "target": "no te lo pierdas",
+       "english": "don't miss it",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-imperdible",
+       "target": "imperdible",
+       "english": "unmissable",
+       "gender": null,
+       "emoji": "⭐",
+       "kind": "word"
+      },
+      {
+       "id": "s5u4l4-hay-que-ir",
+       "target": "hay que ir",
+       "english": "you have to go",
+       "gender": null,
+       "emoji": "🏃",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-hay-que-probar",
+       "target": "hay que probar",
+       "english": "you have to try",
+       "gender": null,
+       "emoji": "😋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-que-sugieres",
+       "target": "¿Qué sugieres?",
+       "english": "what do you suggest?",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-de-ninguna-manera",
+       "target": "de ninguna manera",
+       "english": "no way",
+       "gender": null,
+       "emoji": "🙅",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l4-lo-mejor-de-todo",
+       "target": "lo mejor de todo",
+       "english": "best of all",
+       "gender": null,
+       "emoji": "🏆",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Te recomiendo probar los tacos de aquí.",
+       "english": "I recommend trying the tacos here.",
+       "spain": "Os recomiendo probar los tacos de aquí."
+      },
+      {
+       "target": "Te sugiero que vayas temprano.",
+       "english": "I suggest you go early."
+      },
+      {
+       "target": "¿Qué me recomiendas? Tengo mucha hambre.",
+       "english": "What do you recommend? I'm very hungry."
+      },
+      {
+       "target": "Este lugar vale la pena; hay que probar el postre.",
+       "english": "This place is worth it; you have to try the dessert."
+      },
+      {
+       "target": "No vale la pena ir en carro; hay mucho tráfico.",
+       "english": "It's not worth going by car; there's a lot of traffic.",
+       "spain": "No vale la pena ir en coche; hay mucho tráfico."
+      },
+      {
+       "target": "Es una película imperdible; no te lo pierdas.",
+       "english": "It's an unmissable movie; don't miss it."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Te ",
+       "after": " probar el café de aquí.",
+       "options": [
+        "recomiendo",
+        "recomiendas",
+        "recomienda"
+       ],
+       "answer": 0,
+       "english": "I recommend trying the coffee here."
+      },
+      {
+       "before": "Vale la ",
+       "after": " ir.",
+       "options": [
+        "vez",
+        "pena",
+        "cosa"
+       ],
+       "answer": 1,
+       "english": "It's worth going."
+      },
+      {
+       "before": "Te sugiero que ",
+       "after": " temprano.",
+       "options": [
+        "vas",
+        "ir",
+        "vayas"
+       ],
+       "answer": 2,
+       "english": "I suggest you go early."
+      },
+      {
+       "before": "El postre es ",
+       "after": ": ¡no te lo pierdas!",
+       "options": [
+        "imperdible",
+        "aburrido",
+        "normal"
+       ],
+       "answer": 0,
+       "english": "The dessert is unmissable: don't miss it!"
+      }
+     ],
+     "dialogue": {
+      "scene": "At a food stand",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Es tu primera vez aquí?",
+        "english": "Is this your first time here?"
+       },
+       {
+        "who": "me",
+        "target": "Sí. ¿Qué me recomiendas?",
+        "english": "Yes. What do you recommend?"
+       },
+       {
+        "who": "them",
+        "target": "Te recomiendo los tacos. ¿Los quieres con todo?",
+        "english": "I recommend the tacos. Do you want them with everything?"
+       }
+      ],
+      "replyOptions": [
+       "Sí, con todo, pero poco picante.",
+       "Ya he estado en la playa.",
+       "Se me perdió la tarjeta."
+      ],
+      "answer": 0
+     },
+     "tip": "te recomiendo + infinitive for a general tip: te recomiendo probar. Name the person's action and the subjunctive appears: te sugiero que vayas. Spain's plural you: os recomiendo, os sugiero (vosotros). hay que + infinitive = you've got to."
+    },
+    {
+     "id": "s5u4l5",
+     "title": "Deciding",
+     "items": [
+      {
+       "id": "s5u4l5-elegir",
+       "target": "elegir",
+       "english": "to choose",
+       "gender": null,
+       "emoji": "👆",
+       "example": {
+        "target": "Es difícil elegir.",
+        "english": "It's hard to choose."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s5u4l5-me-decido-por",
+       "target": "me decido por",
+       "english": "I'm going for",
+       "gender": null,
+       "emoji": "🎯",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-no-me-decido",
+       "target": "no me decido",
+       "english": "I can't decide",
+       "gender": null,
+       "emoji": "😵",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-lo-voy-a-pensar",
+       "target": "lo voy a pensar",
+       "english": "I'll think about it",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-ya-me-decidi",
+       "target": "ya me decidí",
+       "english": "I've made up my mind",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-tu-decides",
+       "target": "tú decides",
+       "english": "you decide",
+       "gender": null,
+       "emoji": "👉",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-como-quieras",
+       "target": "como quieras",
+       "english": "as you like",
+       "gender": null,
+       "emoji": "🙌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-lo-que-tu-digas",
+       "target": "lo que tú digas",
+       "english": "whatever you say",
+       "gender": null,
+       "emoji": "🗣️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-lo-que-sea",
+       "target": "lo que sea",
+       "english": "whatever",
+       "gender": null,
+       "emoji": "🤷",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-lo-dejo-a-tu-eleccion",
+       "target": "lo dejo a tu elección",
+       "english": "I leave it up to you",
+       "gender": null,
+       "emoji": "🎲",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-el-que-quieras",
+       "target": "el que quieras",
+       "english": "whichever one you want",
+       "gender": null,
+       "emoji": "☝️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u4l5-cualquiera",
+       "target": "cualquiera",
+       "english": "any / anyone",
+       "gender": null,
+       "emoji": "🎰",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Hay tantas opciones que no me decido.",
+       "english": "There are so many options that I can't decide."
+      },
+      {
+       "target": "Me decido por el postre de chocolate.",
+       "english": "I'm going for the chocolate dessert."
+      },
+      {
+       "target": "Lo voy a pensar y te digo mañana.",
+       "english": "I'll think about it and tell you tomorrow."
+      },
+      {
+       "target": "Ya me decidí: quiero ir a la playa.",
+       "english": "I've made up my mind: I want to go to the beach."
+      },
+      {
+       "target": "Tú decides; lo que tú digas, me parece bien.",
+       "english": "You decide; whatever you say is fine with me."
+      },
+      {
+       "target": "Cualquiera está bien; lo dejo a tu elección.",
+       "english": "Any one is fine; I leave it up to you."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Puedes llevar el que ",
+       "after": ".",
+       "options": [
+        "quieres",
+        "quieras",
+        "quiero"
+       ],
+       "answer": 1,
+       "english": "You can take whichever one you want."
+      },
+      {
+       "before": "No me ",
+       "after": ": todo se ve bien.",
+       "options": [
+        "decidir",
+        "decidiendo",
+        "decido"
+       ],
+       "answer": 2,
+       "english": "I can't decide: everything looks good."
+      },
+      {
+       "before": "Ya me ",
+       "after": ": voy por el azul.",
+       "options": [
+        "decidí",
+        "decido",
+        "decidiré"
+       ],
+       "answer": 0,
+       "english": "I've made up my mind: I'm going with the blue one."
+      },
+      {
+       "before": "Cualquiera ",
+       "after": " bien.",
+       "options": [
+        "están",
+        "está",
+        "eres"
+       ],
+       "answer": 1,
+       "english": "Any one is fine."
+      }
+     ],
+     "dialogue": {
+      "scene": "Friends choose dinner",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¿Pizza o tacos? Tú decides.",
+        "english": "Pizza or tacos? You decide."
+       },
+       {
+        "who": "me",
+        "target": "Mmm, no me decido.",
+        "english": "Mmm, I can't decide."
+       },
+       {
+        "who": "them",
+        "target": "Lo que sea, a mí me da igual. ¿Cuál prefieres?",
+        "english": "Whatever, I don't mind. Which do you prefer?"
+       }
+      ],
+      "replyOptions": [
+       "Ya me decidí: tacos.",
+       "Se me cayó el vaso.",
+       "Es mejor que vengas, gracias."
+      ],
+      "answer": 0
+     },
+     "tip": "me decido por + noun = I'm going for…; no me decido = I can't decide. For 'let it be': lo que sea, como quieras, cualquiera, el que quieras. Learn them as chunks."
+    }
+   ]
+  },
+  {
+   "id": "s5u5",
+   "title": "\"If I were…\" (condicional)",
+   "lessons": [
+    {
+     "id": "s5u5l1",
+     "title": "What would I do?",
+     "items": [
+      {
+       "id": "s5u5l1-seria",
+       "target": "sería",
+       "english": "I/he/she would be",
+       "gender": null,
+       "emoji": "🌈",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-tendria",
+       "target": "tendría",
+       "english": "I/he/she would have",
+       "gender": null,
+       "emoji": "🎁",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-podria",
+       "target": "podría",
+       "english": "I/he/she could",
+       "gender": null,
+       "emoji": "💪",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-haria",
+       "target": "haría",
+       "english": "I/he/she would do",
+       "gender": null,
+       "emoji": "🛠️",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-iria",
+       "target": "iría",
+       "english": "I/he/she would go",
+       "gender": null,
+       "emoji": "🚶",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-viviria",
+       "target": "viviría",
+       "english": "I/he/she would live",
+       "gender": null,
+       "emoji": "🏡",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-querria",
+       "target": "querría",
+       "english": "I/he/she would want",
+       "gender": null,
+       "emoji": "🙏",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-diria",
+       "target": "diría",
+       "english": "I/he/she would say",
+       "gender": null,
+       "emoji": "🗣️",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-compraria",
+       "target": "compraría",
+       "english": "I/he/she would buy",
+       "gender": null,
+       "emoji": "🛍️",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-viajaria",
+       "target": "viajaría",
+       "english": "I/he/she would travel",
+       "gender": null,
+       "emoji": "✈️",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-estudiaria",
+       "target": "estudiaría",
+       "english": "I/he/she would study",
+       "gender": null,
+       "emoji": "📚",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l1-trabajaria",
+       "target": "trabajaría",
+       "english": "I/he/she would work",
+       "gender": null,
+       "emoji": "💼",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Yo sería más feliz con más tiempo.",
+       "english": "I would be happier with more time."
+      },
+      {
+       "target": "Tendría una casa grande en la playa.",
+       "english": "I would have a big house at the beach."
+      },
+      {
+       "target": "Podría ayudarte mañana.",
+       "english": "I could help you tomorrow."
+      },
+      {
+       "target": "Haría un viaje largo; iría a México.",
+       "english": "I'd take a long trip; I'd go to Mexico."
+      },
+      {
+       "target": "Viviría en otra ciudad y trabajaría menos.",
+       "english": "I'd live in another city and work less."
+      },
+      {
+       "target": "Compraría un carro nuevo y viajaría por todo el país.",
+       "english": "I'd buy a new car and travel all over the country.",
+       "spain": "Compraría un coche nuevo y viajaría por todo el país."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Yo ",
+       "after": " más feliz con más tiempo.",
+       "options": [
+        "ser",
+        "sido",
+        "sería"
+       ],
+       "answer": 2,
+       "english": "I would be happier with more time."
+      },
+      {
+       "before": "Con mucho dinero, ",
+       "after": " por el mundo.",
+       "options": [
+        "viajaría",
+        "viajar",
+        "viajado"
+       ],
+       "answer": 0,
+       "english": "With lots of money, I'd travel the world."
+      },
+      {
+       "before": "Con más tiempo, yo ",
+       "after": " español todos los días.",
+       "options": [
+        "estudiar",
+        "estudiaría",
+        "estudiado"
+       ],
+       "answer": 1,
+       "english": "With more time, I'd study Spanish every day."
+      },
+      {
+       "before": "Con diez mil dólares, yo ",
+       "after": " un carro.",
+       "options": [
+        "comprar",
+        "comprando",
+        "compraría"
+       ],
+       "answer": 2,
+       "english": "With ten thousand dollars, I'd buy a car.",
+       "spain": {
+        "before": "Con diez mil dólares, yo ",
+        "after": " un coche."
+       }
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend plays 'what if'",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Imagina que ganas mucho dinero.",
+        "english": "Imagine you win lots of money."
+       },
+       {
+        "who": "me",
+        "target": "¡Ojalá!",
+        "english": "If only!"
+       },
+       {
+        "who": "them",
+        "target": "¿Qué harías primero?",
+        "english": "What would you do first?"
+       }
+      ],
+      "replyOptions": [
+       "Compraría una casa y viajaría por el mundo.",
+       "Estaba durmiendo cuando sonó el teléfono.",
+       "Ya me decidí, gracias."
+      ],
+      "answer": 0
+     },
+     "tip": "Conditional = whole infinitive + -ía: viajar → viajaría, vivir → viviría. Irregular stems you already met: ser → sería, tener → tendría, poder → podría, hacer → haría, ir → iría, decir → diría. Same ending for yo and él/ella."
+    },
+    {
+     "id": "s5u5l2",
+     "title": "Polite & softened",
+     "items": [
+      {
+       "id": "s5u5l2-podrias-ayudarme",
+       "target": "¿Podrías ayudarme?",
+       "english": "could you help me?",
+       "gender": null,
+       "emoji": "🙏",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-podria-decirme",
+       "target": "¿Podría decirme?",
+       "english": "could you tell me? (formal)",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-le-importaria",
+       "target": "¿Le importaría…?",
+       "english": "would you mind…? (formal)",
+       "gender": null,
+       "emoji": "🙂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-te-importaria",
+       "target": "¿Te importaría…?",
+       "english": "would you mind…? (informal)",
+       "gender": null,
+       "emoji": "😊",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-seria-posible",
+       "target": "¿Sería posible…?",
+       "english": "would it be possible…?",
+       "gender": null,
+       "emoji": "🤞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-tendria",
+       "target": "¿Tendría…?",
+       "english": "would you have…?",
+       "gender": null,
+       "emoji": "🔎",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-habria",
+       "target": "¿Habría…?",
+       "english": "would there be…?",
+       "gender": null,
+       "emoji": "❔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-me-vendria-bien",
+       "target": "me vendría bien",
+       "english": "it would suit me / I could use",
+       "gender": null,
+       "emoji": "👌",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-seria-un-placer",
+       "target": "sería un placer",
+       "english": "it would be a pleasure",
+       "gender": null,
+       "emoji": "🥂",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-con-mucho-gusto",
+       "target": "con mucho gusto",
+       "english": "gladly",
+       "gender": null,
+       "emoji": "😄",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l2-deberia",
+       "target": "debería",
+       "english": "I should",
+       "gender": null,
+       "emoji": "☝️",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l2-podriamos",
+       "target": "podríamos",
+       "english": "we could",
+       "gender": null,
+       "emoji": "🤝",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Podrías ayudarme con esto?",
+       "english": "Could you help me with this?"
+      },
+      {
+       "target": "¿Podría decirme dónde está el baño?",
+       "english": "Could you tell me where the bathroom is?"
+      },
+      {
+       "target": "¿Te importaría cerrar la puerta?",
+       "english": "Would you mind closing the door?"
+      },
+      {
+       "target": "¿Tendría una mesa para dos, por favor?",
+       "english": "Would you have a table for two, please?"
+      },
+      {
+       "target": "Me vendría bien un café.",
+       "english": "I could use a coffee."
+      },
+      {
+       "target": "Chicos, ¿podrían ayudarme con las maletas?",
+       "english": "Guys, could you help me with the suitcases?",
+       "spain": "Chicos, ¿podríais ayudarme con las maletas?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿",
+       "after": " decirme dónde está el banco?",
+       "options": [
+        "Podría",
+        "Pude",
+        "Podemos"
+       ],
+       "answer": 0,
+       "english": "Could you tell me where the bank is?"
+      },
+      {
+       "before": "¿Te ",
+       "after": " cerrar la ventana?",
+       "options": [
+        "importar",
+        "importaría",
+        "importado"
+       ],
+       "answer": 1,
+       "english": "Would you mind closing the window?"
+      },
+      {
+       "before": "Con mucho ",
+       "after": ", te ayudo.",
+       "options": [
+        "favor",
+        "tiempo",
+        "gusto"
+       ],
+       "answer": 2,
+       "english": "Gladly, I'll help you."
+      },
+      {
+       "before": "Sería un ",
+       "after": " conocerte.",
+       "options": [
+        "placer",
+        "favor",
+        "lado"
+       ],
+       "answer": 0,
+       "english": "It would be a pleasure to meet you."
+      }
+     ],
+     "dialogue": {
+      "scene": "Asking for a table",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenos días, ¿en qué puedo ayudarle?",
+        "english": "Good morning, how can I help you?"
+       },
+       {
+        "who": "me",
+        "target": "¿Tendría una mesa para dos, por favor?",
+        "english": "Would you have a table for two, please?"
+       },
+       {
+        "who": "them",
+        "target": "Con mucho gusto. ¿Le importaría esperar cinco minutos?",
+        "english": "Gladly. Would you mind waiting five minutes?"
+       }
+      ],
+      "replyOptions": [
+       "No, no hay problema. Gracias.",
+       "Se me perdió la tarjeta.",
+       "Lo que sea, cualquiera, tú decides."
+      ],
+      "answer": 0
+     },
+     "tip": "Conditional = polite distance: ¿Podrías…? / ¿Podría…? sound softer than ¿Puedes…? (tú vs usted). Spain's plural you is vosotros: ¿Podríais ayudarme? Recognize it; use ustedes elsewhere."
+    },
+    {
+     "id": "s5u5l3",
+     "title": "If I were / if I could",
+     "items": [
+      {
+       "id": "s5u5l3-que-harias",
+       "target": "¿Qué harías?",
+       "english": "what would you do?",
+       "gender": null,
+       "emoji": "🤔",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-yo-en-tu-lugar",
+       "target": "yo en tu lugar",
+       "english": "if I were you",
+       "gender": null,
+       "emoji": "🔁",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-si-fuera-tu",
+       "target": "si fuera tú",
+       "english": "if I were you",
+       "gender": null,
+       "emoji": "🪞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-si-pudiera",
+       "target": "si pudiera",
+       "english": "if I could",
+       "gender": null,
+       "emoji": "💭",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-si-tuviera-dinero",
+       "target": "si tuviera dinero",
+       "english": "if I had money",
+       "gender": null,
+       "emoji": "💰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-si-tuviera-tiempo",
+       "target": "si tuviera tiempo",
+       "english": "if I had time",
+       "gender": null,
+       "emoji": "⏰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-si-fuera-rico",
+       "target": "si fuera rico",
+       "english": "if I were rich",
+       "gender": null,
+       "emoji": "🤑",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-ojala-pudiera",
+       "target": "ojalá pudiera",
+       "english": "I wish I could",
+       "gender": null,
+       "emoji": "🌠",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-y-si-no",
+       "target": "¿Y si no?",
+       "english": "and if not?",
+       "gender": null,
+       "emoji": "❓",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-seria-genial",
+       "target": "sería genial",
+       "english": "it would be great",
+       "gender": null,
+       "emoji": "🎉",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-seria-mejor",
+       "target": "sería mejor",
+       "english": "it would be better",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l3-no-seria-lo-mismo",
+       "target": "no sería lo mismo",
+       "english": "it wouldn't be the same",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Si tuviera dinero, compraría una casa.",
+       "english": "If I had money, I'd buy a house."
+      },
+      {
+       "target": "Si pudiera, viajaría por todo el mundo.",
+       "english": "If I could, I'd travel all over the world."
+      },
+      {
+       "target": "Si tuviera tiempo, estudiaría más.",
+       "english": "If I had time, I'd study more."
+      },
+      {
+       "target": "Yo en tu lugar, hablaría con el gerente.",
+       "english": "If I were you, I'd talk to the manager."
+      },
+      {
+       "target": "Si fuera rico, no trabajaría.",
+       "english": "If I were rich, I wouldn't work."
+      },
+      {
+       "target": "Sería genial ir contigo, pero sin ti no sería lo mismo.",
+       "english": "It would be great to go with you, but without you it wouldn't be the same."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Si ",
+       "after": " tiempo, iría contigo.",
+       "options": [
+        "tengo",
+        "tuviera",
+        "tendría"
+       ],
+       "answer": 1,
+       "english": "If I had time, I'd go with you."
+      },
+      {
+       "before": "Si ",
+       "after": " rico, viajaría más.",
+       "options": [
+        "soy",
+        "sería",
+        "fuera"
+       ],
+       "answer": 2,
+       "english": "If I were rich, I'd travel more."
+      },
+      {
+       "before": "Yo en tu ",
+       "after": ", hablaría con él.",
+       "options": [
+        "lugar",
+        "vez",
+        "caso"
+       ],
+       "answer": 0,
+       "english": "If I were you, I'd talk to him."
+      },
+      {
+       "before": "¿Qué ",
+       "after": " tú en mi lugar?",
+       "options": [
+        "harás",
+        "harías",
+        "hacer"
+       ],
+       "answer": 1,
+       "english": "What would you do in my place?"
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend asks for your take",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Tengo un trabajo nuevo en otra ciudad, pero no me decido.",
+        "english": "I have a new job in another city, but I can't decide."
+       },
+       {
+        "who": "me",
+        "target": "¿Y qué es lo malo?",
+        "english": "And what's the bad part?"
+       },
+       {
+        "who": "them",
+        "target": "Mi familia está aquí. ¿Qué harías tú?",
+        "english": "My family is here. What would you do?"
+       }
+      ],
+      "replyOptions": [
+       "Yo en tu lugar, iría; sería genial.",
+       "Ya he estado, gracias.",
+       "Cuando llegue, te llamo."
+      ],
+      "answer": 0
+     },
+     "tip": "si + imperfect subjunctive (fuera, pudiera, tuviera) + conditional: si pudiera, viajaría. Use these as chunks for now; the pattern will click later. si fuera tú = yo en tu lugar = if I were you."
+    },
+    {
+     "id": "s5u5l4",
+     "title": "Dream life",
+     "items": [
+      {
+       "id": "s5u5l4-me-mudaria-a",
+       "target": "me mudaría a",
+       "english": "I'd move to",
+       "gender": null,
+       "emoji": "📦",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-viajaria-por-el-mundo",
+       "target": "viajaría por el mundo",
+       "english": "I'd travel the world",
+       "gender": null,
+       "emoji": "🌍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-abriria-un-negocio",
+       "target": "abriría un negocio",
+       "english": "I'd open a business",
+       "gender": null,
+       "emoji": "🏪",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-escribiria-un-libro",
+       "target": "escribiría un libro",
+       "english": "I'd write a book",
+       "gender": null,
+       "emoji": "📖",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-compraria-una-casa",
+       "target": "compraría una casa",
+       "english": "I'd buy a house",
+       "gender": null,
+       "emoji": "🏠",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-ganar-la-loteria",
+       "target": "ganar la lotería",
+       "english": "to win the lottery",
+       "gender": null,
+       "emoji": "🎰",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-mi-sueno",
+       "target": "mi sueño",
+       "english": "my dream",
+       "gender": null,
+       "emoji": "💭",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-el-trabajo-ideal",
+       "target": "el trabajo ideal",
+       "english": "the ideal job",
+       "gender": "m",
+       "emoji": "💼",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-la-vida-ideal",
+       "target": "la vida ideal",
+       "english": "the ideal life",
+       "gender": "f",
+       "emoji": "🌴",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-tendria-tiempo",
+       "target": "tendría tiempo",
+       "english": "I'd have time",
+       "gender": null,
+       "emoji": "⏳",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-no-trabajaria",
+       "target": "no trabajaría",
+       "english": "I wouldn't work",
+       "gender": null,
+       "emoji": "🛋️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l4-dejaria-todo",
+       "target": "dejaría todo",
+       "english": "I'd leave everything",
+       "gender": null,
+       "emoji": "🚪",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Me mudaría a la playa.",
+       "english": "I'd move to the beach."
+      },
+      {
+       "target": "Si pudiera, viajaría por el mundo.",
+       "english": "If I could, I'd travel the world."
+      },
+      {
+       "target": "Abriría un negocio y escribiría un libro.",
+       "english": "I'd open a business and write a book."
+      },
+      {
+       "target": "Mi sueño es ganar la lotería.",
+       "english": "My dream is to win the lottery."
+      },
+      {
+       "target": "El trabajo ideal sería trabajar poco y ganar mucho.",
+       "english": "The ideal job would be working little and earning a lot."
+      },
+      {
+       "target": "En la vida ideal, no trabajaría y tendría tiempo para todo.",
+       "english": "In the ideal life, I wouldn't work and I'd have time for everything."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Me ",
+       "after": " a la playa.",
+       "options": [
+        "mudar",
+        "mudado",
+        "mudaría"
+       ],
+       "answer": 2,
+       "english": "I'd move to the beach."
+      },
+      {
+       "before": "Mi ",
+       "after": " es viajar por el mundo.",
+       "options": [
+        "sueño",
+        "libro",
+        "ruido"
+       ],
+       "answer": 0,
+       "english": "My dream is to travel the world."
+      },
+      {
+       "before": "Con la lotería, ",
+       "after": " todo y viajaría.",
+       "options": [
+        "dejaba",
+        "dejaría",
+        "dejar"
+       ],
+       "answer": 1,
+       "english": "With the lottery, I'd leave everything and travel."
+      },
+      {
+       "before": "Abriría un ",
+       "after": " en mi ciudad.",
+       "options": [
+        "sueño",
+        "ruido",
+        "negocio"
+       ],
+       "answer": 2,
+       "english": "I'd open a business in my city."
+      }
+     ],
+     "dialogue": {
+      "scene": "Daydreaming with a friend",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Imagina que ganas la lotería. ¿Qué harías?",
+        "english": "Imagine you win the lottery. What would you do?"
+       },
+       {
+        "who": "me",
+        "target": "Dejaría todo y viajaría por el mundo.",
+        "english": "I'd leave everything and travel the world."
+       },
+       {
+        "who": "them",
+        "target": "¿Y después?",
+        "english": "And then?"
+       }
+      ],
+      "replyOptions": [
+       "Abriría un negocio en la playa y escribiría un libro.",
+       "Estaba trabajando cuando sonó el teléfono.",
+       "Lo siento mucho, no se preocupe."
+      ],
+      "answer": 0
+     },
+     "tip": "-ría endings paint dreams: me mudaría, abriría, escribiría, compraría. Keep the whole infinitive and add the ending. no trabajaría / tendría tiempo are the lazy person's life goals."
+    },
+    {
+     "id": "s5u5l5",
+     "title": "Giving advice",
+     "items": [
+      {
+       "id": "s5u5l5-deberias",
+       "target": "deberías",
+       "english": "you should",
+       "gender": null,
+       "emoji": "☝️",
+       "kind": "word"
+      },
+      {
+       "id": "s5u5l5-yo-que-tu",
+       "target": "yo que tú",
+       "english": "if I were you",
+       "gender": null,
+       "emoji": "🪞",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-te-aconsejo",
+       "target": "te aconsejo",
+       "english": "I advise you",
+       "gender": null,
+       "emoji": "💬",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-mi-consejo",
+       "target": "mi consejo",
+       "english": "my advice",
+       "gender": "m",
+       "emoji": "💡",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-que-me-aconsejas",
+       "target": "¿Qué me aconsejas?",
+       "english": "what do you advise me?",
+       "gender": null,
+       "emoji": "🙋",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-no-deberias",
+       "target": "no deberías",
+       "english": "you shouldn't",
+       "gender": null,
+       "emoji": "🚫",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-lo-mejor-seria",
+       "target": "lo mejor sería",
+       "english": "the best thing would be",
+       "gender": null,
+       "emoji": "🏆",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-seria-mejor-que",
+       "target": "sería mejor que",
+       "english": "it'd be better if",
+       "gender": null,
+       "emoji": "👍",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-mas-vale-que",
+       "target": "más vale que",
+       "english": "you'd better",
+       "gender": null,
+       "emoji": "⚠️",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-ten-cuidado",
+       "target": "ten cuidado",
+       "english": "be careful",
+       "gender": null,
+       "emoji": "🚧",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-cuidado-con",
+       "target": "cuidado con",
+       "english": "watch out for",
+       "gender": null,
+       "emoji": "❗",
+       "kind": "phrase"
+      },
+      {
+       "id": "s5u5l5-tomatelo-con-calma",
+       "target": "tómatelo con calma",
+       "english": "take it easy",
+       "gender": null,
+       "emoji": "😌",
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Chicos, deberían descansar un poco.",
+       "english": "Guys, you should rest a bit.",
+       "spain": "Chicos, deberíais descansar un poco."
+      },
+      {
+       "target": "Yo que tú, no iría solo.",
+       "english": "If I were you, I wouldn't go alone."
+      },
+      {
+       "target": "Te aconsejo hablar con el gerente.",
+       "english": "I advise you to talk to the manager."
+      },
+      {
+       "target": "Mi consejo: no deberías decidir cuando estás cansado.",
+       "english": "My advice: you shouldn't decide when you're tired."
+      },
+      {
+       "target": "Lo mejor sería esperar hasta mañana.",
+       "english": "The best thing would be to wait until tomorrow."
+      },
+      {
+       "target": "Cuidado con el tráfico; tómatelo con calma.",
+       "english": "Watch out for the traffic; take it easy."
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " descansar un poco.",
+       "options": [
+        "Deberías",
+        "Deber",
+        "Debido"
+       ],
+       "answer": 0,
+       "english": "You should rest a bit."
+      },
+      {
+       "before": "Yo que ",
+       "after": ", no iría.",
+       "options": [
+        "te",
+        "tú",
+        "ti"
+       ],
+       "answer": 1,
+       "english": "If I were you, I wouldn't go."
+      },
+      {
+       "before": "Más ",
+       "after": " que llegues temprano.",
+       "options": [
+        "bien",
+        "mucho",
+        "vale"
+       ],
+       "answer": 2,
+       "english": "You'd better arrive early."
+      },
+      {
+       "before": "",
+       "after": " cuidado con el tráfico.",
+       "options": [
+        "Ten",
+        "Tienes",
+        "Tengo"
+       ],
+       "answer": 0,
+       "english": "Be careful with the traffic."
+      }
+     ],
+     "dialogue": {
+      "scene": "A friend is stressed",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Estoy súper estresado con el trabajo.",
+        "english": "I'm super stressed about work."
+       },
+       {
+        "who": "me",
+        "target": "¿Qué pasa?",
+        "english": "What's going on?"
+       },
+       {
+        "who": "them",
+        "target": "Trabajo demasiado y no duermo. ¿Qué me aconsejas?",
+        "english": "I work too much and I don't sleep. What do you advise me?"
+       }
+      ],
+      "replyOptions": [
+       "Deberías descansar un poco. Tómatelo con calma.",
+       "Ya me decidí por el azul.",
+       "Cuando era niño, vivía aquí."
+      ],
+      "answer": 0
+     },
+     "tip": "deberías + infinitive = you should; yo que tú + conditional = if I were you; más vale que + subjunctive = you'd better. Spain's plural: deberíais (vosotros). ten cuidado = be careful (a command)."
+    }
+   ]
+  }
+ ]
+}

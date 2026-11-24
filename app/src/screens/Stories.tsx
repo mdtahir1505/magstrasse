@@ -4,7 +4,7 @@ import { speak, stopSpeaking } from '../engine/speech';
 import { flatLessons } from '../content';
 import type { Progress } from '../engine/storage';
 import type { Episode, Item, Lang, Level, Story } from '../types';
-import { A, BACK, CLOSE, genderTags, Ico, nounOnly, Screen, SPEAKER, Tab, TabBar, Tag } from '../ui';
+import { A, BACK, CLOSE, Ico, nounOnly, Screen, SPEAKER, Tab, TabBar, Tag } from '../ui';
 
 const BG = ['var(--c-paper)', 'var(--c-yellow)', 'var(--c-paper)', 'var(--c-cyan)', 'var(--c-pink)'];
 const ROT = ['-1.5deg', '1.2deg', '-0.8deg', '1.6deg', '-1.2deg'];
@@ -78,7 +78,7 @@ const SPEEDS = [1, 0.8, 0.6];
 export function useGlossary(lang: Lang) {
   return useMemo(() => {
     const g = new Map<string, Item>();
-    for (const i of allItems(lang)) { const k = key(nounOnly(i)); if (!k.includes(' ') && !g.has(k)) g.set(k, i); }
+    for (const i of allItems(lang)) { const k = key(nounOnly(i, lang.pack)); if (!k.includes(' ') && !g.has(k)) g.set(k, i); }
     return g;
   }, [lang]);
 }
@@ -96,7 +96,7 @@ export const WordPopover = ({ p, lang, tr, close }: { p: Item; lang: Lang; tr: b
       <span aria-hidden="true" style={{ fontSize: 38, lineHeight: 1 }}>{p.emoji}</span>
       <div style={{ flex: 1, minWidth: 0 }}>
         <p lang={lang.pack.voice} style={{ fontSize: 24, fontWeight: 800, display: 'flex', alignItems: 'center', gap: 8 }}>
-          <Tag g={p.gender} articles={genderTags(lang.pack)} size={15} />{nounOnly(p)}
+          <Tag it={p} pack={lang.pack} size={15} />{nounOnly(p, lang.pack)}
         </p>
         {tr && p.translit && <p className="small translit" style={{ color: 'var(--c-ink-dim)' }}>{p.translit}</p>}
         <p style={{ fontWeight: 600, color: 'var(--c-ink-dim)' }}>{p.english}</p>

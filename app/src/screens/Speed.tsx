@@ -6,7 +6,7 @@ import { speak, stopSpeaking } from '../engine/speech';
 import { grade } from '../engine/srs';
 import type { Progress, State } from '../engine/storage';
 import type { Episode, Item, Lang } from '../types';
-import { A, CLOSE, genderTags, Ico, nounOnly, Screen, Tag } from '../ui';
+import { A, CLOSE, Ico, nounOnly, Screen, Tag } from '../ui';
 
 const ROUND_MS = 60_000;
 export const SPEED_MIN_WORDS = 8;
@@ -136,7 +136,7 @@ function Round({ lang, progress, tr, eps, update, exit, onEnd, again }: Props & 
       <section className="pad" style={{ marginTop: 6 }}>
         <div key={q.item.id + picked} className={'paper tilt' + (picked !== null && picked !== q.ex.answer ? ' shaky' : '')} style={{ ['--rot' as string]: '-1deg', padding: '22px 18px', textAlign: 'center' }}>
           <h1 lang={lang.pack.voice} className="target" style={{ fontSize: 46, lineHeight: 1.1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10, flexWrap: 'wrap' }}>
-            <Tag g={q.item.gender} articles={genderTags(lang.pack)} size={22} />{nounOnly(q.item)}
+            <Tag it={q.item} pack={lang.pack} size={22} />{nounOnly(q.item, lang.pack)}
           </h1>
           {tr && q.item.translit && <p className="small dim translit" style={{ marginTop: 4, fontSize: 18 }}>{q.item.translit}</p>}
         </div>

@@ -1,0 +1,2300 @@
+[
+ {
+  "id": "es-ep1",
+  "n": 1,
+  "title": "Hola, vecino",
+  "minLesson": "s1u1l2",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡Hola! Buenos días.",
+    "english": "Hello! Good morning."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Hola! ¿Qué tal?",
+    "english": "Hey! How's it going?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Bien, gracias. ¿Qué tal?",
+    "english": "Good, thanks. How about you?"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Hola! ¡Hola! ¡Música!",
+    "english": "Hello! Hello! Music!"
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Buenas tardes. Chocolate, por favor.",
+    "english": "Good afternoon. Chocolate, here you go."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Gracias, Chela.",
+    "english": "Thanks, Chela."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "De nada. Hasta luego.",
+    "english": "You're welcome. See you later."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Buenas noches. Hasta mañana.",
+    "english": "Good night. See you tomorrow."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Chocolate! ¡Chocolate! Adiós.",
+    "english": "Chocolate! Chocolate! Bye."
+   }
+  ],
+  "cliffhanger": "Morning comes. The chocolate is gone. All that's left on the table is one tiny, very suspicious footprint."
+ },
+ {
+  "id": "es-ep2",
+  "n": 2,
+  "title": "La libreta secreta",
+  "minLesson": "s1u2l1",
+  "panels": [
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Hola. ¿Cómo te llamas?",
+    "english": "Hi. What's your name?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Me llamo Sam. ¿Y tú?",
+    "english": "My name is Sam. And you?"
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Me llamo Chela. Mucho gusto.",
+    "english": "My name is Chela. Nice to meet you."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Encantado. Hablo inglés. Un poco.",
+    "english": "Pleased to meet you. I speak English. A little."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "¿Hablas español? Claro que sí. ¿Café? ¿Té?",
+    "english": "You speak Spanish? Of course you do. Coffee? Tea?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "No entiendo. Más despacio, por favor.",
+    "english": "I don't understand. Slower, please."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Café, té, agua... ¿Con leche? ¿Sin hielo?",
+    "english": "Coffee, tea, water... With milk? Without ice?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Café con leche, por favor. Gracias.",
+    "english": "Coffee with milk, please. Thanks."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Café! ¡Café! ¡Perdón!",
+    "english": "Coffee! Coffee! Sorry!"
+   }
+  ],
+  "cliffhanger": "Chela runs down to the taquería and checks under the counter. Her secret salsa notebook has vanished too."
+ },
+ {
+  "id": "es-ep3",
+  "n": 3,
+  "title": "Tacos y salsa",
+  "minLesson": "s1u2l5",
+  "panels": [
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Buenas tardes. ¿Qué quieres?",
+    "english": "Good afternoon. What do you want?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Quiero tacos con guacamole, por favor.",
+    "english": "I want tacos with guacamole, please."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "¿Con salsa? ¡Picante!",
+    "english": "With salsa? Spicy!"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Un poco, por favor.",
+    "english": "A little, please."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Tengo hambre. Para mí, tortilla con jamón y chorizo.",
+    "english": "I'm hungry. For me, a tortilla with ham and chorizo."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Salsa! ¡Salsa! ¡Chocolate!",
+    "english": "Salsa! Salsa! Chocolate!"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡Qué rico! Delicioso. ¿Qué tiene tu salsa?",
+    "english": "So tasty! Delicious. What's in your salsa?"
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Mi salsa secreta. Chocolate... ¡no! Nada más.",
+    "english": "My secret salsa. Chocolate... no! Nothing else."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡Salud! Buen provecho.",
+    "english": "Cheers! Enjoy your meal."
+   }
+  ],
+  "cliffhanger": "That night, a noise in the dark kitchen. A shadow creeps toward the fridge, carrying something small and brown."
+ },
+ {
+  "id": "es-ep4",
+  "n": 4,
+  "title": "Cuenta los tacos",
+  "minLesson": "s1u3l3",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Memo, mira los tacos. Uno, dos, tres...",
+    "english": "Memo, look at the tacos. One, two, three..."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Cuatro, cinco, seis. Ayer, doce.",
+    "english": "Four, five, six. Yesterday, twelve."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Seis. ¡Ayer, doce! ¡Ahora, seis!",
+    "english": "Six. Yesterday, twelve! Now, six!"
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Cien por el detective. Cien, no mil.",
+    "english": "A hundred for the detective. A hundred, not a thousand."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Yo! ¡Yo soy el detective! ¿Cien? ¡Quiero mil!",
+    "english": "Me! I'm the detective! A hundred? I want a thousand!"
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Cien. Primero, la libreta. Segundo, los tacos.",
+    "english": "A hundred. First the notebook. Second, the tacos."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Un número importante: seis tacos, una libreta, un chocolate.",
+    "english": "An important number: six tacos, one notebook, one chocolate."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Seis! ¡Seis! ¡Adiós!",
+    "english": "Six! Six! Bye!"
+   }
+  ],
+  "cliffhanger": "Sam spots tiny footprints in the salsa on the floor. They lead out of the window and up onto the roof."
+ },
+ {
+  "id": "es-ep5",
+  "n": 5,
+  "title": "Al mercado",
+  "minLesson": "s1u4l2",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Perdón, ¿dónde está el mercado?",
+    "english": "Excuse me, where is the market?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Aquí, a la derecha. No, a la izquierda. Está cerca.",
+    "english": "Here, on the right. No, on the left. It's close."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Está lejos? ¿Vamos a pie o en autobús?",
+    "english": "Is it far? Do we go on foot or by bus?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "En metro. ¿Cuánto cuesta el boleto?",
+    "english": "By metro. How much is the ticket?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Es barato. Un billete, no monedas.",
+    "english": "It's cheap. A note, not coins."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Pago yo. Ay, no. Sin efectivo.",
+    "english": "I'll pay. Oh no. No cash."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Aceptan tarjeta? ¡Es la estación!",
+    "english": "Do they take cards? It's the station!"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Metro! ¡Metro! ¡Cuidado!",
+    "english": "Metro! Metro! Careful!"
+   }
+  ],
+  "cliffhanger": "On the platform, a stranger in a hat clutches a red notebook. When Sam looks again, the stranger has stepped onto the train."
+ },
+ {
+  "id": "es-ep6",
+  "n": 6,
+  "title": "El hombre del sombrero",
+  "minLesson": "s1u5l1",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Quiero ver la libreta. ¿Dónde está el hombre?",
+    "english": "I want to see the notebook. Where's the man?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "No quiero ir en el tren. Quiero comer.",
+    "english": "I don't want to go on the train. I want to eat."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Qué quieres? ¿Una empanada? Hoy no.",
+    "english": "What do you want? An empanada? Not today."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Quiero ir a la tienda. Quiero más chocolate.",
+    "english": "I want to go to the shop. I want more chocolate."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Disculpe. ¿Me puede ayudar? Estoy perdido.",
+    "english": "Excuse me. Can you help me? I'm lost."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Cuidado! La salida está cerrada.",
+    "english": "Careful! The exit is closed."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Un momento. ¿Cómo llego a la oficina de información?",
+    "english": "One moment. How do I get to the information office?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Todo derecho. Doblamos en la esquina.",
+    "english": "Straight ahead. We turn at the corner."
+   }
+  ],
+  "cliffhanger": "At the information office, a woman holds up a red notebook. 'This one,' she says. 'Is it yours?' It is not Chela's."
+ },
+ {
+  "id": "es-ep7",
+  "n": 7,
+  "title": "Tengo un problema",
+  "minLesson": "s1u5l5",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "La libreta no es de Chela. ¿Qué es esto?",
+    "english": "The notebook isn't Chela's. What's this?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Tengo un problema. No tengo dinero. Necesito dinero.",
+    "english": "I have a problem. I have no money. I need money."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Es verdad: es tu cuenta del teléfono.",
+    "english": "It's true: it's your phone bill."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Es difícil. Estoy cansado. Necesito dormir.",
+    "english": "It's hard. I'm tired. I need to sleep."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Quién llama? ¿Cuándo? ¿Dónde está Chela?",
+    "english": "Who's calling? When? Where is Chela?"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Teléfono! ¡Teléfono! ¿Quién? ¿Cuándo?",
+    "english": "Phone! Phone! Who? When?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Es fácil: Chuy contesta. Está listo.",
+    "english": "It's easy: Chuy answers. He's ready."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Puedo escuchar? ¿Se puede?",
+    "english": "Can I listen? Is that allowed?"
+   }
+  ],
+  "cliffhanger": "Chuy answers the phone in Chela's exact voice. Someone on the line whispers: 'Do you still have the notebook?'"
+ },
+ {
+  "id": "es-ep8",
+  "n": 8,
+  "title": "El vecino de enfrente",
+  "minLesson": "s2u1l4",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Quién es el vecino de enfrente? ¿Es amable?",
+    "english": "Who's the neighbour across the street? Is he nice?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Es Rafa. Es alto, moreno, serio. Es el jefe de otra taquería.",
+    "english": "It's Rafa. He's tall, dark-haired, serious. He's the boss of another taquería."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Es amigo de Chela?",
+    "english": "Is he Chela's friend?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "No. Es su rival. Es inteligente, pero no es simpático.",
+    "english": "No. He's her rival. He's smart, but he's not nice."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Es joven o viejo?",
+    "english": "Is he young or old?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Es viejo, pero muy divertido. Ustedes van a ser compas.",
+    "english": "He's old, but very funny. You two are going to be buddies."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "Hola, Sam. Soy Rafa, de Tacos El Rey. ¿Cómo estás?",
+    "english": "Hi, Sam. I'm Rafa, from Tacos El Rey. How are you?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Muy bien. ¡Mucho gusto, Rafa!",
+    "english": "Very well. Nice to meet you, Rafa!"
+   }
+  ],
+  "cliffhanger": "Rafa smiles a little too widely. 'Tell Chela to be careful,' he says. 'Mine are the best tacos in the neighbourhood.'"
+ },
+ {
+  "id": "es-ep9",
+  "n": 9,
+  "title": "El primo de Madrid",
+  "minLesson": "s2u2l2",
+  "panels": [
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Hoy es viernes. Mi primo llega a las ocho.",
+    "english": "Today is Friday. My cousin arrives at eight."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Qué hora es? Son las siete y media.",
+    "english": "What time is it? It's seven thirty."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Es temprano! Mañana es sábado. No trabajo.",
+    "english": "It's early! Tomorrow is Saturday. I don't work."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Dónde vive tu primo? ¿Cuántos años tiene?",
+    "english": "Where does your cousin live? How old is he?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Vive en Madrid. Tiene veinte años. Es estudiante.",
+    "english": "He lives in Madrid. He's twenty. He's a student."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Es su cumpleaños?",
+    "english": "Is it his birthday?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "No. Mira el reloj. ¡Son las ocho! Llega en taxi.",
+    "english": "No. Look at the clock. It's eight! He's arriving by taxi."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Taxi! ¡Taxi! ¡Primo! ¡Primo!",
+    "english": "Taxi! Taxi! Cousin! Cousin!"
+   }
+  ],
+  "cliffhanger": "The door opens. Nico is here, suitcase in hand, with a very large coat and a very small notebook sticking out of his pocket."
+ },
+ {
+  "id": "es-ep10",
+  "n": 10,
+  "title": "Vale, tío",
+  "minLesson": "s2u3l1",
+  "panels": [
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¡Hola, tío! ¿Qué tal? ¡Qué frío hace aquí!",
+    "english": "Hey, mate! How's it going? It's so cold here!"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Nico, ¡bienvenido! Aquí hace calor. Es la ropa.",
+    "english": "Nico, welcome! It's warm here. It's your clothes."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Tengo un suéter, una chaqueta y dos camisetas. Vale, ya me quito el sombrero.",
+    "english": "I've got a sweater, a jacket and two T-shirts. Okay, I'll take my hat off now."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Hola, soy Sam. Mucho gusto. ¿'Vale' es 'ok'?",
+    "english": "Hi, I'm Sam. Nice to meet you. Is 'vale' 'ok'?"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Sí. Y 'tío' no es 'uncle', ¡es 'mate'! ¿Quedamos mañana?",
+    "english": "Yes. And 'tío' isn't 'uncle', it's 'mate'! Shall we meet up tomorrow?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Mañana tengo un plan: una cita con Rafa. Estoy ocupado.",
+    "english": "Tomorrow I have a plan: an appointment with Rafa. I'm busy."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¿A qué hora? Puedo ir. Estoy libre.",
+    "english": "At what time? I can come. I'm free."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Nico, ¿qué es eso en tu chaqueta?",
+    "english": "Nico, what's that in your jacket?"
+   }
+  ],
+  "cliffhanger": "Nico pulls out a notebook. It's a travel diary, not Chela's. But inside is a drawing of a bird who looks very much like Chuy."
+ },
+ {
+  "id": "es-ep11",
+  "n": 11,
+  "title": "Un día de compras",
+  "minLesson": "s2u3l5",
+  "panels": [
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Quiero comprar unos zapatos. ¿Cuánto cuestan?",
+    "english": "I want to buy some shoes. How much are they?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Cuánto cuesta el rojo? ¿Tiene otra talla?",
+    "english": "How much is the red one? Do you have another size?"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Me queda grande. ¿Puedo probármelo en azul? ¿Hay descuento?",
+    "english": "It's too big on me. Can I try it on in blue? Is there a discount?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Solo estoy mirando. Mi celular no tiene batería. ¿Tienes un cargador?",
+    "english": "I'm just looking. My phone has no battery. Do you have a charger?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "No hay wifi. Tengo la contraseña.",
+    "english": "There's no wifi. I have the password."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Quiero un kilo de aguacates. ¿A cuánto está el kilo?",
+    "english": "I want a kilo of avocados. How much is a kilo?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Son baratos. Compro tomates y limones.",
+    "english": "They're cheap. I'll buy tomatoes and lemons."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡Mira! Una foto de la libreta... en el celular de Nico.",
+    "english": "Look! A photo of the notebook... on Nico's phone."
+   }
+  ],
+  "cliffhanger": "Nico goes pale. 'I can explain,' he says. 'I took that photo at the airport, of a man in a hat.'"
+ },
+ {
+  "id": "es-ep12",
+  "n": 12,
+  "title": "La casa del misterio",
+  "minLesson": "s2u4l4",
+  "panels": [
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Quiero ver tu casa, Memo. La cocina, la sala, la recámara...",
+    "english": "I want to see your place, Memo. The kitchen, the living room, the bedroom..."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Aquí está la cocina. Cocino todos los días. Limpio poco.",
+    "english": "Here's the kitchen. I cook every day. I clean a little."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Escucho un ruido en el balcón. ¡Miro por la ventana!",
+    "english": "I hear a noise on the balcony. I look out of the window!"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Busco la libreta. Llamo a Chela. Espero en la puerta.",
+    "english": "I look for the notebook. I call Chela. I wait at the door."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Ayudo a Sam. Usamos la lámpara y el espejo.",
+    "english": "I help Sam. We use the lamp and the mirror."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Caminamos despacio. Hablamos poco. Escuchamos...",
+    "english": "We walk slowly. We talk a little. We listen..."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Salsa! ¡Salsa! ¡Cuidado, la mesa!",
+    "english": "Salsa! Salsa! Careful, the table!"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Mira! Un papel marrón debajo de la cama.",
+    "english": "Look! A brown paper under the bed."
+   }
+  ],
+  "cliffhanger": "Sam picks up the paper. It's the corner of a page, stained with something dark and sweet-smelling. Chocolate."
+ },
+ {
+  "id": "es-ep13",
+  "n": 13,
+  "title": "Soy detective",
+  "minLesson": "s2u5l3",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Me gusta jugar a detective. Me encanta la serie.",
+    "english": "I like playing detective. I love the series."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Prefiero el fútbol. ¿Quieres jugar? Vamos al parque.",
+    "english": "I prefer football. Do you want to play? Let's go to the park."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Me gusta bailar y cantar. Yo también toco la guitarra.",
+    "english": "I like dancing and singing. I play the guitar too."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡Silencio! Leo el papel: 'Cho... co... late. Sal... sa.'",
+    "english": "Silence! I read the paper: 'Choc... o... late. Sal... sa.'"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Yo no entiendo. Escribo en el celular. Aprendo rápido.",
+    "english": "I don't understand. I write on the phone. I learn fast."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Comemos y bebemos. Después salimos con amigos. Bailamos, vemos la tele.",
+    "english": "We eat and drink. Then we go out with friends. We dance, we watch TV."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Pero primero hago ejercicio. Corro con Chuy.",
+    "english": "But first I exercise. I run with Chuy."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Música! ¡Música! ¡Café!",
+    "english": "Music! Music! Coffee!"
+   }
+  ],
+  "cliffhanger": "Chuy flies out of the window with the stained paper in his beak. The three of them chase him across the neighbourhood's rooftops."
+ },
+ {
+  "id": "es-ep14",
+  "n": 14,
+  "title": "Siesta y fiesta",
+  "minLesson": "s3u1l2",
+  "panels": [
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Qué padre! Ayer salí con amigos. Bailé, canté, comí tacos.",
+    "english": "How cool! Yesterday I went out with friends. I danced, I sang, I ate tacos."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Qué guay, tío. Yo hablé con Chela y compré un coche... bueno, un carro.",
+    "english": "So cool, mate. I talked to Chela and bought a 'coche'... I mean, a 'carro'."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Yo viví una noche loca. Escribí tres mensajes, bebí café, aprendí mucho.",
+    "english": "I had a crazy night. I wrote three messages, drank coffee, learned a lot."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Hoy la siesta es importante. ¡Qué aburrido, trabajar!",
+    "english": "Today the siesta is important. How boring, working!"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Mola la sobremesa. ¡Qué chévere, qué bueno!",
+    "english": "The after-lunch chat is great. How cool, how good!"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Anoche volví a casa y recibí un mensaje. Era de Rafa.",
+    "english": "Last night I got home and got a message. It was from Rafa."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¿Rafa? ¿Qué dijo?",
+    "english": "Rafa? What did he say?"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Rafa! ¡Rafa! ¡Salsa secreta!",
+    "english": "Rafa! Rafa! Secret salsa!"
+   }
+  ],
+  "cliffhanger": "Rafa's number is on Sam's phone. And in Chuy's recorded voice, a whisper: 'Tonight, midnight, behind the taquería.'"
+ },
+ {
+  "id": "es-ep15",
+  "n": 15,
+  "title": "Medianoche en la taquería",
+  "minLesson": "s3u1l5",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Qué hiciste anoche? ¿Adónde fuiste, Memo?",
+    "english": "What did you do last night? Where did you go, Memo?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Fui a la taquería. Llegué tarde. Pasó algo raro.",
+    "english": "I went to the taquería. I arrived late. Something weird happened."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¿Qué pasó? ¿Con quién fuiste? ¿Cómo te fue?",
+    "english": "What happened? Who did you go with? How did it go?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Me fue bien... más o menos. Fui con Chela.",
+    "english": "It went well... sort of. I went with Chela."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Hablaste con Rafa? Todavía no, ¿verdad?",
+    "english": "Did you talk to Rafa? Not yet, right?"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Sí, ya lo hice. Llegué a medianoche y vi una luz.",
+    "english": "Yes, I already did. I arrived at midnight and saw a light."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Hice un ruido. Alguien dijo: 'Cuidado, hay alguien.'",
+    "english": "I made a noise. Someone said: 'Careful, there's somebody.'"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Quién? ¿Qué pasó después?",
+    "english": "Who? What happened after that?"
+   }
+  ],
+  "cliffhanger": "A figure steps out of the shadows: it's Rafa, holding Chela's notebook. 'I found it,' he says. 'But the last page is missing.'"
+ },
+ {
+  "id": "es-ep16",
+  "n": 16,
+  "title": "El viaje de Nico",
+  "minLesson": "s3u2l4",
+  "panels": [
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Mis vacaciones terminan. Tengo el vuelo y el pasaporte.",
+    "english": "My holiday's ending. I have the flight and the passport."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Antes visitamos un pueblo. Queremos ver la montaña, el lago, el mar.",
+    "english": "Before that we visit a town. We want to see the mountain, the lake, the sea."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¿Y la maleta? ¿El equipaje? ¿La aduana?",
+    "english": "And the suitcase? The luggage? Customs?"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Quisiera reservar una habitación en el hotel del centro. Dos noches, con desayuno.",
+    "english": "I'd like to book a room at the hotel downtown. Two nights, with breakfast."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Tengo mi boleto. Veo la catedral y el castillo. Compro un recuerdo.",
+    "english": "I have my ticket. I see the cathedral and the castle. I buy a souvenir."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "La isla tiene una playa. La vista es increíble.",
+    "english": "The island has a beach. The view is incredible."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¿Y la libreta? ¿Y Rafa?",
+    "english": "And the notebook? And Rafa?"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Viaje! ¡Viaje! ¡Escala! ¡Chocolate!",
+    "english": "Trip! Trip! Layover! Chocolate!"
+   }
+  ],
+  "cliffhanger": "At the hotel in the old town, a bag is missing. Not just any bag: the one containing Rafa's half of the recipe."
+ },
+ {
+  "id": "es-ep17",
+  "n": 17,
+  "title": "¡Socorro!",
+  "minLesson": "s3u3l3",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡Socorro! Me duele la cabeza. Tengo fiebre y tos.",
+    "english": "Help! My head hurts. I have a fever and a cough."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Estás enfermo, tío. Es la gripe. ¿Qué te duele más?",
+    "english": "You're sick, mate. It's the flu. What hurts most?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Me duele el estómago y la espalda. Me siento mal.",
+    "english": "My stomach and back hurt. I feel awful."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Voy a la farmacia. ¿Tienes una receta?",
+    "english": "I'm going to the pharmacy. Do you have a prescription?"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Llamo a un médico. ¿Habla inglés? Hay un problema: no funciona el teléfono.",
+    "english": "I'll call a doctor. Does he speak English? There's a problem: the phone isn't working."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Pedimos cita. Una pastilla dos veces al día, con comida.",
+    "english": "We make an appointment. One pill twice a day, with food."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "La enfermera dice: mucha agua y dormir.",
+    "english": "The nurse says: lots of water and sleep."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Médico! ¡Médico! ¡La policía! ¡Ladrón!",
+    "english": "Doctor! Doctor! The police! Thief!"
+   }
+  ],
+  "cliffhanger": "Sam wakes at dawn to find Rafa leaning over the bed. 'You talk in your sleep,' he whispers. 'You said the secret ingredient.'"
+ },
+ {
+  "id": "es-ep18",
+  "n": 18,
+  "title": "Lluvia en el barrio",
+  "minLesson": "s3u4l2",
+  "panels": [
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Qué frío! Hace viento y está nublado. Es el invierno.",
+    "english": "So cold! It's windy and cloudy. It's winter."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Tengo frío. ¿Dónde está la chaqueta?",
+    "english": "I'm cold. Where is my jacket?"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Hay tormenta. Llueve mucho. Necesito la chaqueta.",
+    "english": "There's a storm. It's raining a lot. I need a jacket."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "La temperatura baja. Hace diez grados.",
+    "english": "The temperature's dropping. It's ten degrees."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Mañana hace sol, creo. Va a ser el mejor día del año.",
+    "english": "Tomorrow it'll be sunny, I think. It's going to be the best day of the year."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Hoy el cielo está gris. Pero la luna es bonita.",
+    "english": "Today the sky is grey. But the moon is beautiful."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Cancelo la reunión. Confirmo con Chela.",
+    "english": "I cancel the meeting. I confirm with Chela."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Lluvia! ¡Lluvia! ¡Tormenta! ¡Libreta!",
+    "english": "Rain! Rain! Storm! Notebook!"
+   }
+  ],
+  "cliffhanger": "A lightning flash lights up the roof. On it stands Chuy, holding a wet, shiny page, and there's someone behind him."
+ },
+ {
+  "id": "es-ep19",
+  "n": 19,
+  "title": "Vamos a atrapar al ladrón",
+  "minLesson": "s3u5l1",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Vamos a atrapar al ladrón. Voy a ver la cámara del banco.",
+    "english": "We're going to catch the thief. I'm going to check the bank's camera."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Vas a ver algo raro. Va a ser fácil. Vamos a comer primero.",
+    "english": "You're going to see something weird. It's going to be easy. Let's eat first."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Van a venir Chela y Rafa. Voy a llamarte, Sam. Ya voy.",
+    "english": "Chela and Rafa are going to come. I'll call you, Sam. I'm coming."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Ahorita voy. Luego te digo. Voy a pensarlo.",
+    "english": "I'm coming in a moment. I'll tell you later. I'll think about it."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "El próximo año vamos a abrir otra taquería. La próxima semana, un concierto.",
+    "english": "Next year we're going to open another taquería. Next week, a concert."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Sam, vas a ser famoso.",
+    "english": "Sam, you're going to be famous."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Un momento: ¡voy a ver quién está en la azotea!",
+    "english": "One moment: I'm going to see who's on the roof!"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Voy! ¡Voy! ¡Ya voy! ¡Ahorita!",
+    "english": "Coming! Coming! Right now! In a sec!"
+   }
+  ],
+  "cliffhanger": "On the roof there's no thief. Only an open cage, a pile of feathers and a handwritten note: 'Tomorrow at noon. Come alone.'"
+ },
+ {
+  "id": "es-ep20",
+  "n": 20,
+  "title": "Esta noche",
+  "minLesson": "s3u5l5",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Esta noche no puedo. Mañana por la mañana, tal vez.",
+    "english": "Tonight I can't. Maybe tomorrow morning."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¿Quieres venir? ¿Te animas? Es en mi casa, más tarde.",
+    "english": "Do you want to come? Are you up for it? It's at my place, later."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Me apunto. Cuenta conmigo. ¿A qué hora quedamos?",
+    "english": "Count me in. You can count on me. What time shall we meet?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "A las nueve. Paso por ti. Te espero, avísame.",
+    "english": "At nine. I'll pick you up. I'll wait for you, let me know."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Ya veremos. Depende. Algún día voy a ganar.",
+    "english": "We'll see. It depends. One day I'm going to win."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Siempre dices eso. A veces creo que nunca ganas.",
+    "english": "You always say that. Sometimes I think you never win."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Te parece bien? Otro día no. Tiene que ser hoy.",
+    "english": "Does that sound good? Not another day. It has to be today."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Esta noche! ¡Esta noche! ¡Chela!",
+    "english": "Tonight! Tonight! Chela!"
+   }
+  ],
+  "cliffhanger": "Chela opens the door in a long black coat. 'Come in,' she says. 'I think I know who has my recipe. And you won't like it.'"
+ },
+ {
+  "id": "es-ep21",
+  "n": 21,
+  "title": "Creo que es Rafa",
+  "minLesson": "s4u1l3",
+  "panels": [
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Creo que es Rafa. Pienso que el ladrón es él. ¿Qué opinas, Sam?",
+    "english": "I think it's Rafa. I think he's the thief. What do you think, Sam?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "No estoy de acuerdo. Me parece que Rafa es honesto.",
+    "english": "I don't agree. It seems to me Rafa is honest."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Tienes razón. ¡Exacto! Pero puede ser que Nico sepa algo.",
+    "english": "You're right. Exactly! But it could be that Nico knows something."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¿Yo? Es raro. Me parece increíble. Es terrible, tío.",
+    "english": "Me? That's weird. It seems incredible to me. It's terrible, mate."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Para mí, el mejor taco es el mío. Pero Rafa es bueno. Es interesante.",
+    "english": "For me, the best taco is mine. But Rafa is good. It's interesting."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Perfecto. Entonces genial: Rafa no es malo.",
+    "english": "Perfect. So great: Rafa isn't bad."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Es aburrido pensar así. ¿Y si es peor que Rafa?",
+    "english": "It's boring to think like that. What if it's worse than Rafa?"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Rafa! ¡Nico! ¡Exacto! ¡Genial!",
+    "english": "Rafa! Nico! Exactly! Great!"
+   }
+  ],
+  "cliffhanger": "Chuy flaps to the window and repeats, in Nico's voice: 'Give me the notebook, mate.' Everyone turns to look at Nico."
+ },
+ {
+  "id": "es-ep22",
+  "n": 22,
+  "title": "Salir de noche",
+  "minLesson": "s4u2l2",
+  "panels": [
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¿Qué tal si salimos a un bar? Hay una terraza y un concierto.",
+    "english": "What if we go to a bar? There's a terrace and a concert."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Vamos! Yo invito la primera ronda. ¿Quieres un trago?",
+    "english": "Let's go! I'll buy the first round. Do you want a drink?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "La cena es en mi casa. Hay botana. La comida es de Chela.",
+    "english": "Dinner is at my place. There are snacks. The food is Chela's."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Mola, ¡la discoteca! Y el almuerzo mañana, ¿vale?",
+    "english": "Cool, the club! And lunch tomorrow, okay?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Un momento, Nico. La voz de Chuy... ¿por qué dijo tu frase?",
+    "english": "One moment, Nico. Chuy's voice... why did he say your sentence?"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Porque hablo con él. ¿Qué te parece, tío?",
+    "english": "Because I talk to him. What do you think, mate?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Perfecto. Pero salir de noche es una cosa. La libreta, otra.",
+    "english": "Perfect. But going out at night is one thing. The notebook, another."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Trago! ¡Cena! ¡Libreta! ¡Nico!",
+    "english": "Drink! Dinner! Notebook! Nico!"
+   }
+  ],
+  "cliffhanger": "At the bar, someone slides a folded napkin across the table: a drawing of Chuy... holding a tiny notebook."
+ },
+ {
+  "id": "es-ep23",
+  "n": 23,
+  "title": "Una llamada",
+  "minLesson": "s4u3l1",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Suena el teléfono. Es una llamada de un número raro.",
+    "english": "The phone's ringing. It's a call from a strange number."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Contesta. Pon el audio. ¡Hay buena señal!",
+    "english": "Answer. Put it on audio. There's good signal!"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "No tengo batería. ¿Tienes un cargador? Mi saldo se acabó.",
+    "english": "I have no battery. Do you have a charger? My credit ran out."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Uso la aplicación. Mejor una videollamada.",
+    "english": "I'll use the app. A video call is better."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Cuelga, cuelga. Es un contacto raro. Dejó un mensaje en el buzón de voz.",
+    "english": "Hang up, hang up. It's a strange contact. He left a message on voicemail."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Escucho el audio: una voz dice 'La libreta está arriba'.",
+    "english": "I listen to the audio: a voice says 'The notebook is upstairs'."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¿Arriba? Solo está el cuarto de Chuy.",
+    "english": "Upstairs? There's only Chuy's room."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Arriba! ¡Arriba! ¡Aló! ¿Quién habla?",
+    "english": "Upstairs! Upstairs! Hello! Who's speaking?"
+   }
+  ],
+  "cliffhanger": "The phone rings again. This time the voice on the line is Chuy's... but Chuy is sitting right there, beak shut."
+ },
+ {
+  "id": "es-ep24",
+  "n": 24,
+  "title": "Mensajes",
+  "minLesson": "s4u3l5",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Bueno? ¿Aló? ¿Quién habla? ¿Está Ana? ¡No se oye!",
+    "english": "Hello? Hello? Who's speaking? Is Ana there? I can't hear!"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Soy yo, Memo. Se cortó. Te llamo luego. Llámame.",
+    "english": "It's me, Memo. It cut out. I'll call you later. Call me."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Mándame un msj. Jaja, tqm. ¿xq no respondes? Grax, bss.",
+    "english": "Send me a text. Haha, love you lots. Why don't you reply? Thanks, kisses."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Mñn llegas tb. No sé dnd. xfa, jeje.",
+    "english": "You arrive tomorrow too. I don't know where. Please, hehe."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¿Me escuchas? Te devuelvo la llamada. Hablamos pronto.",
+    "english": "Can you hear me? I'll call you back. We'll talk soon."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Me dejó en visto. ¡Qué rollo! No responde.",
+    "english": "He left me on read. What a drag! He doesn't reply."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Subo una foto al grupo de WhatsApp. Etiqueto a Chela.",
+    "english": "I post a photo in the WhatsApp group. I tag Chela."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Visto! ¡Visto! ¡Jeje! ¡Sticker!",
+    "english": "Seen! Seen! Hehe! Sticker!"
+   }
+  ],
+  "cliffhanger": "The photo goes up. Within a minute, someone comments: 'Nice picture. Look closely at the cage behind you.'"
+ },
+ {
+  "id": "es-ep25",
+  "n": 25,
+  "title": "Cómo me siento",
+  "minLesson": "s4u4l4",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Estoy nervioso. Y un poco preocupado. ¿Cómo te sientes, Chela?",
+    "english": "I'm nervous. And a bit worried. How are you feeling, Chela?"
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Estoy triste y enojada. Estoy harta. Me hace falta mi libreta.",
+    "english": "I'm sad and angry. I'm fed up. I miss my notebook."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¿Estás bien? ¿Qué te pasa? Cuéntame. Estoy aquí para ti.",
+    "english": "Are you okay? What's wrong? Tell me. I'm here for you."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "No te preocupes. Todo va a estar bien. ¡Qué pena!",
+    "english": "Don't worry. Everything's going to be okay. What a shame!"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¡Ánimo, Chela! ¡Tranquila! ¡Qué suerte tener amigos así!",
+    "english": "Cheer up, Chela! Calm down! How lucky to have friends like that!"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Extraño a mi familia. Te extraño, mamá... ven aquí, Chuy.",
+    "english": "I miss my family. I miss you, mum... come here, Chuy."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Estoy orgullosa de todos. ¡Qué sorpresa! ¡Qué alivio!",
+    "english": "I'm proud of everyone. What a surprise! What a relief!"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Alegría! ¡Amor! ¡Ven aquí! ¡Libreta!",
+    "english": "Joy! Love! Come here! Notebook!"
+   }
+  ],
+  "cliffhanger": "Chuy waddles along the sofa and drops something in Chela's lap. It's a feather. And a note in tiny handwriting: 'Sorry.'"
+ },
+ {
+  "id": "es-ep26",
+  "n": 26,
+  "title": "De niño",
+  "minLesson": "s4u5l2",
+  "panels": [
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Cuando era niña, vivía en un pueblo. Hacía tamales todos los veranos.",
+    "english": "When I was a girl, I lived in a village. I made tamales every summer."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Yo iba al río. Tenía un perro. Era muy tranquilo, solía dormir mucho.",
+    "english": "I used to go to the river. I had a dog. He was very calm, he used to sleep a lot."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "De joven, yo era callado. En esa época vivía en Madrid con mis abuelos.",
+    "english": "When I was young, I was quiet. At that time I lived in Madrid with my grandparents."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Eres de aquí, Rafa? ¿Y qué haces en este barrio?",
+    "english": "Are you from here, Rafa? And what are you doing in this neighbourhood?"
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "Vine por trabajo. Hace tiempo conozco a Chela. Éramos amigos.",
+    "english": "I came for work. I've known Chela a long time. We used to be friends."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¿Qué? ¿Rafa y tú? No lo sabía.",
+    "english": "What? You and Rafa? I didn't know."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Sí. Éramos compañeros de escuela. Y la salsa era de los dos.",
+    "english": "Yes. We were schoolmates. And the salsa belonged to both of us."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Cómo? ¿La salsa era de los dos?",
+    "english": "What? The salsa belonged to both of you?"
+   }
+  ],
+  "cliffhanger": "Rafa pulls out a faded photo: two kids, a taco stand and a notebook with a name on the cover. Chela's name... and Rafa's."
+ },
+ {
+  "id": "es-ep27",
+  "n": 27,
+  "title": "Estaba cenando cuando...",
+  "minLesson": "s5u1l1",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Estaba cenando cuando sonó el teléfono. Era Chela.",
+    "english": "I was having dinner when the phone rang. It was Chela."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Estaba durmiendo. Estábamos hablando de la libreta cuando llegó Rafa.",
+    "english": "I was sleeping. We were talking about the notebook when Rafa arrived."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Íbamos manejando cuando me llamó. De pronto, escuché un ruido.",
+    "english": "We were driving when he called me. Suddenly, I heard a noise."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Mientras tanto, Chela estaba trabajando. Pasaba por la cocina.",
+    "english": "Meanwhile, Chela was working. She was walking through the kitchen."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Y Chuy... estaba en la azotea. ¡Estaba caminando con la libreta!",
+    "english": "And Chuy... was on the roof. He was walking around with the notebook!"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Me llamó Rafa. Me dijo: 'Corre.'",
+    "english": "Rafa called me. He told me: 'Run.'"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Qué hiciste?",
+    "english": "What did you do?"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Corre! ¡Corre! ¡De pronto! ¡Libreta!",
+    "english": "Run! Run! Suddenly! Notebook!"
+   }
+  ],
+  "cliffhanger": "They sprint up the stairs. The cage door is swinging. Chuy is gone, and so is the last page of the recipe."
+ },
+ {
+  "id": "es-ep28",
+  "n": 28,
+  "title": "Había una vez un loro",
+  "minLesson": "s5u1l5",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Había una vez un loro. Un día, de repente, escuchó música.",
+    "english": "Once upon a time there was a parrot. One day, suddenly, he heard music."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Era tarde. Eran las tres. Hacía frío y había mucha gente en la plaza.",
+    "english": "It was late. It was three o'clock. It was cold and there were lots of people in the square."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Estaba oscuro. No había nadie en la taquería. Olía bien.",
+    "english": "It was dark. There was nobody in the taquería. It smelled good."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Se oía música. Parecía un sueño. Estábamos cansados.",
+    "english": "You could hear music. It seemed like a dream. We were tired."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Justo cuando todos dormían, el loro entró. Al principio, nada.",
+    "english": "Just when everyone was asleep, the parrot came in. At first, nothing."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Por fin, resulta que el loro tenía la libreta. Sin querer.",
+    "english": "In the end, it turns out the parrot had the notebook. By accident."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "En ese momento, yo salía de mi taquería. Por cierto, el loro me miró.",
+    "english": "At that moment, I was leaving my taquería. By the way, the parrot looked at me."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Una vez! ¡Una vez! ¡Fin!",
+    "english": "Once! Once! The end!"
+   }
+  ],
+  "cliffhanger": "Rafa holds out his hand. 'Chela, listen. The parrot didn't steal the notebook. I gave it to him. Years ago.'"
+ },
+ {
+  "id": "es-ep29",
+  "n": 29,
+  "title": "¿Cuál es mejor?",
+  "minLesson": "s5u2l4",
+  "panels": [
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "¿Cuál es mejor, mi salsa o la tuya? ¿Cuál prefieres, Sam?",
+    "english": "Which is better, my salsa or yours? Which do you prefer, Sam?"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Me gusta más la de Chela. Pero la tuya es más picante.",
+    "english": "I like Chela's more. But yours is spicier."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "La mía es mejor. Es cuestión de gusto, Rafa.",
+    "english": "Mine is better. It's a matter of taste, Rafa."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Me quedo con la de Rafa. Es parecido, pero diferente. Depende del día.",
+    "english": "I'll go with Rafa's. It's similar but different. It depends on the day."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Prefiero comer que elegir. ¡Mi favorito es el taco!",
+    "english": "I prefer eating to choosing. My favourite is the taco!"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "La costumbre en México es probar los dos. Es cultura.",
+    "english": "The custom in Mexico is to try both. It's culture."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "A diferencia de Madrid, aquí no hay una sola salsa. Por un lado, la mía. Por otro, la suya.",
+    "english": "Unlike Madrid, here there isn't just one salsa. On one hand, mine. On the other, his."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "La libreta tiene una sola receta. Y yo conozco el secreto.",
+    "english": "The notebook has only one recipe. And I know the secret."
+   }
+  ],
+  "cliffhanger": "Rafa leans in and whispers something in Chela's ear. She drops her spoon. 'You knew all along?'"
+ },
+ {
+  "id": "es-ep30",
+  "n": 30,
+  "title": "Quiero que vengas",
+  "minLesson": "s5u3l3",
+  "panels": [
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Quiero que vengas mañana. Espero que estés bien, Rafa.",
+    "english": "I want you to come tomorrow. I hope you're okay, Rafa."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "Espero que sí. Ojalá que no llueva. Es mejor que lleguemos temprano.",
+    "english": "I hope so. I hope it doesn't rain. It's better that we arrive early."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Quieres que te ayude? Necesito que me escuches, Chela.",
+    "english": "Do you want me to help you? I need you to listen to me, Chela."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Ojalá que sí. No quiero que te vayas, Sam.",
+    "english": "I hope so. I don't want you to leave, Sam."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Hay un error, tío. No está roto, solo falta algo.",
+    "english": "There's a mistake, mate. It's not broken, something's just missing."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Está sucio. Me cobraron de más. Esto no es lo que pedí.",
+    "english": "It's dirty. They overcharged me. This isn't what I ordered."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Tardaron mucho. No hay nada. ¡Me quedé sin batería!",
+    "english": "They took ages. There's nothing. I ran out of battery!"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Hay un error! ¡Falta algo! ¡Nada!",
+    "english": "There's a mistake! Something's missing! Nothing!"
+   }
+  ],
+  "cliffhanger": "The oven suddenly shuts off. When the smoke clears, a tray of burnt tacos sits on the counter, and a note: 'Too much chocolate.'"
+ },
+ {
+  "id": "es-ep31",
+  "n": 31,
+  "title": "Alérgico a todo",
+  "minLesson": "s5u4l2",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Soy vegetariano. Soy alérgico al cacahuate. No como carne.",
+    "english": "I'm vegetarian. I'm allergic to peanuts. I don't eat meat."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Yo, sin gluten. Y sin cebolla, por favor. Poco picante.",
+    "english": "Me, gluten-free. And no onion, please. Not too spicy."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¿Término medio o bien cocido? Quiero compartir una porción de tortilla.",
+    "english": "Medium or well done? I want to share a portion of tortilla."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Con todo, para todos. ¡Y de postre, flan!",
+    "english": "With everything, for everyone. And flan for dessert!"
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "Cuando tenga tiempo, voy a probar tu salsa. En cuanto pueda.",
+    "english": "When I have time, I'm going to try your salsa. As soon as I can."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Hasta que lleguen todos, no empezamos.",
+    "english": "Until everyone arrives, we won't start."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Cuando quieras. Siempre he querido oír hablar a Chuy.",
+    "english": "Whenever you want. I've always wanted to hear Chuy talk."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Postre! ¡Flan! ¡Salsa! ¡Cuando quieras!",
+    "english": "Dessert! Flan! Salsa! Whenever you want!"
+   }
+  ],
+  "cliffhanger": "Chuy clears his throat, puffs out his chest and says in a very human voice: 'The recipe is under the...' Then he coughs."
+ },
+ {
+  "id": "es-ep32",
+  "n": 32,
+  "title": "Yo en tu lugar",
+  "minLesson": "s5u5l1",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Yo sería detective. Tendría una oficina. Podría resolver todo.",
+    "english": "I'd be a detective. I'd have an office. I could solve everything."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Yo haría un concierto. Iría a la playa. Viviría en Madrid.",
+    "english": "I'd put on a concert. I'd go to the beach. I'd live in Madrid."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Yo compraría una taquería. Querría ser jefe. Diría la verdad.",
+    "english": "I'd buy a taquería. I'd want to be the boss. I'd tell the truth."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Yo viajaría. Estudiaría. Trabajaría menos.",
+    "english": "I'd travel. I'd study. I'd work less."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "Yo no diría nada. Compraría un loro.",
+    "english": "I wouldn't say anything. I'd buy a parrot."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Chela, ¿qué harías tú con la libreta?",
+    "english": "Chela, what would you do with the notebook?"
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Podría compartirla. Pero primero tengo que encontrarla.",
+    "english": "I could share it. But first I have to find it."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Haría! ¡Tendría! ¡Libreta! ¡Cuidado!",
+    "english": "I would! I'd have! Notebook! Careful!"
+   }
+  ],
+  "cliffhanger": "A drawer falls open behind the cage. Inside is an old photo and a key. The key is labelled with one word: 'Taquería'."
+ },
+ {
+  "id": "es-ep33",
+  "n": 33,
+  "title": "Si yo fuera rico",
+  "minLesson": "s5u5l4",
+  "panels": [
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Si yo fuera rico, me mudaría a una isla. Compraría una casa.",
+    "english": "If I were rich, I'd move to an island. I'd buy a house."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Si tuviera tiempo, escribiría un libro. Viajaría por el mundo.",
+    "english": "If I had time, I'd write a book. I'd travel the world."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Mi sueño es abrir un negocio. No trabajaría los lunes.",
+    "english": "My dream is to open a business. I wouldn't work on Mondays."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Yo dejaría todo. ¿Ganar la lotería? ¡Sería genial!",
+    "english": "I'd leave everything. Winning the lottery? It'd be great!"
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "El trabajo ideal: una taquería, una salsa, sin problemas.",
+    "english": "The ideal job: a taquería, a salsa, no problems."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Y si no encontramos la libreta? Sería mejor buscar juntos.",
+    "english": "And if we don't find the notebook? It'd be better to search together."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Tienes razón. Ojalá pudiera volver atrás. Deberíamos hablar, Rafa.",
+    "english": "You're right. I wish I could go back. We should talk, Rafa."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "Sí. Yo que tú, empezaría hoy. Ten cuidado, Chela.",
+    "english": "Yes. If I were you, I'd start today. Be careful, Chela."
+   }
+  ],
+  "cliffhanger": "Chela and Rafa unlock the old taquería door. Inside: dust, an empty cage... and a second, much older notebook with a name on the cover."
+ },
+ {
+  "id": "es-ep34",
+  "n": 34,
+  "title": "Entrevista de trabajo",
+  "minLesson": "s6u1l3",
+  "panels": [
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "Chela, quiero contratar a Sam. Tengo un puesto en mi taquería.",
+    "english": "Chela, I want to hire Sam. I have a position in my taquería."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Una entrevista? Tengo el currículum. Es verdad, quiero un empleo mejor.",
+    "english": "An interview? I have my CV. It's true, I want a better job."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "¡No! Sam es mi empleado. Tiene contrato y buen sueldo.",
+    "english": "No! Sam is my employee. He has a contract and a good salary."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "La presentación fue un desastre. El informe, tarde. Pero aprobó.",
+    "english": "The presentation was a disaster. The report, late. But he passed."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Estudio en la universidad. Tengo una beca. Mi tesis es sobre tacos.",
+    "english": "I study at university. I have a scholarship. My thesis is about tacos."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Tengo una entrevista mañana. Es por videoconferencia. Trabajo desde casa.",
+    "english": "I have an interview tomorrow. It's by video call. I work from home."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "La fecha límite es hoy. Imprime el archivo y adjunta la nota.",
+    "english": "The deadline is today. Print the file and attach the note."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Empleo! ¡Sueldo! ¡Entrevista! ¡Loro!",
+    "english": "Job! Salary! Interview! Parrot!"
+   }
+  ],
+  "cliffhanger": "Sam gets a call at the end of the interview: 'We read your CV. We know who you really are. And we know where the notebook is.'"
+ },
+ {
+  "id": "es-ep35",
+  "n": 35,
+  "title": "Sabor de México",
+  "minLesson": "s6u2l2",
+  "panels": [
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "El mole, el pozole, las arepas... ¡Qué rico es el mundo hispano!",
+    "english": "Mole, pozole, arepas... how tasty the Hispanic world is!"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "En España, la tortilla española, el gazpacho y la sangría. Y los churros.",
+    "english": "In Spain, Spanish omelette, gazpacho and sangria. And churros."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "En Argentina, el asado y el mate. En Perú, el ceviche.",
+    "english": "In Argentina, barbecue and mate. In Peru, ceviche."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Y el tamal, el flan... ¡Qué bueno es probar todo!",
+    "english": "And the tamale, the flan... how good it is to try everything!"
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "La salsa de Chela tiene mole. Es chocolate, chile y mucho amor.",
+    "english": "Chela's salsa has mole. It's chocolate, chilli and lots of love."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡Chocolate! ¡Lo sabía! Chuy dijo la palabra el primer día.",
+    "english": "Chocolate! I knew it! Chuy said the word on the first day."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Sam, por favor. Es un secreto. El ingrediente secreto es el chocolate.",
+    "english": "Sam, please. It's a secret. The secret ingredient is chocolate."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Chocolate! ¡Mole! ¡Ceviche! ¡Churros!",
+    "english": "Chocolate! Mole! Ceviche! Churros!"
+   }
+  ],
+  "cliffhanger": "A street musician starts to play a cumbia, and Chuy sings along. The lyrics hold a very specific clue."
+ },
+ {
+  "id": "es-ep36",
+  "n": 36,
+  "title": "Baile y bandera",
+  "minLesson": "s6u3l1",
+  "panels": [
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "En primer lugar, sin música no hay taquería. En segundo lugar, sin baile no hay fiesta.",
+    "english": "First, without music there's no taquería. Second, without dancing there's no party."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "Sin embargo, el reguetón no es mi estilo. Por lo tanto, prefiero la cumbia.",
+    "english": "However, reggaeton isn't my style. Therefore, I prefer cumbia."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "En resumen: la bachata, el flamenco, el tango... ¡Todo es genial! Es decir, no hay mejor ni peor.",
+    "english": "In short: bachata, flamenco, tango... it's all great! That is, there's no better or worse."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "De hecho, el mariachi toca en la plaza. En realidad, es muy bueno.",
+    "english": "In fact, the mariachi is playing in the square. Actually, he's very good."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Al fin y al cabo, el himno es bonito. No obstante, es muy largo.",
+    "english": "At the end of the day, the anthem is lovely. Nevertheless, it's very long."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "En conclusión: la letra de la canción es mi receta. En definitiva, es una pista.",
+    "english": "In conclusion: the song's lyrics are my recipe. Ultimately, it's a clue."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡La letra! 'Debajo del cielo, la cocina canta'. ¡Debajo de la cocina!",
+    "english": "The lyrics! 'Under the sky, the kitchen sings'. Under the kitchen!"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Cocina! ¡Cocina! ¡Debajo!",
+    "english": "Kitchen! Kitchen! Underneath!"
+   }
+  ],
+  "cliffhanger": "They lift the loose floor tile under the stove. Inside is a rusty tin box... and a message: 'You were never the only ones looking.'"
+ },
+ {
+  "id": "es-ep37",
+  "n": 37,
+  "title": "No estoy seguro",
+  "minLesson": "s6u3l5",
+  "panels": [
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "No estoy seguro de esto. Con todo respeto, Chela.",
+    "english": "I'm not sure about this. With all due respect, Chela."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Entiendo tu punto, Rafa. Tienes parte de razón. Pero no es tan sencillo.",
+    "english": "I understand your point, Rafa. You're partly right. But it's not that simple."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Eso no es cierto. No me parece. Dudo que sea solo una receta.",
+    "english": "That's not true. It doesn't seem so to me. I doubt it's just a recipe."
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Si llueve, no salimos. Si quieres, vamos. Si no, mejor mañana.",
+    "english": "If it rains, we don't go out. If you want, we go. If not, better tomorrow."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Si hubiera sabido, habría traído una linterna.",
+    "english": "If I'd known, I'd have brought a flashlight."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Piénsalo, Sam. ¿No crees? ¿No te parece? Mira, oye, escucha.",
+    "english": "Think about it, Sam. Don't you think? Doesn't it seem so? Look, hey, listen."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "Fíjate: la economía de la taquería es complicada. Ponte en mi lugar.",
+    "english": "Mind you: the taquería's finances are complicated. Put yourself in my place."
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Piénsalo! ¡Mira! ¡Oye! ¡Escucha!",
+    "english": "Think about it! Look! Hey! Listen!"
+   }
+  ],
+  "cliffhanger": "The tin box clicks open. Inside there's no recipe. Instead, a map of the whole neighbourhood with a red X on Chela's own taquería."
+ },
+ {
+  "id": "es-ep38",
+  "n": 38,
+  "title": "¡Ándale!",
+  "minLesson": "s6u4l4",
+  "panels": [
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "¡Ándale! ¡Órale! ¡Híjole! ¡Ay, caray! ¡No puede ser!",
+    "english": "Hurry up! Wow! Oh dear! Oh boy! It can't be!"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "¡Venga! ¡Anda! ¡Madre mía! ¡Dios mío! ¿Qué es esto?",
+    "english": "Come on! Go on! Good grief! My God! What is this?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Dale! ¡Caramba! ¡Ni de broma! Es la X.",
+    "english": "Go for it! Wow! No way! It's the X."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡Hombre, Memo! No te pongas así. Es solo un mapa.",
+    "english": "Man, Memo! Don't get like that. It's just a map."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "¡Híjole! La X está en la cocina... de Chela.",
+    "english": "Oh dear! The X is in the kitchen... Chela's."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "¡Ay, caray! Cocino ahí todos los días. ¡Madre mía!",
+    "english": "Oh boy! I cook there every day. Good grief!"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "¡Ándale! Vamos a la cocina. ¡Dale!",
+    "english": "Hurry up! Let's go to the kitchen. Go!"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Órale! ¡Dale! ¡Anda! ¡Caramba!",
+    "english": "Wow! Go! Come on! Wow!"
+   }
+  ],
+  "cliffhanger": "In the kitchen, someone has been cooking. A pot is bubbling. A familiar smell fills the air: chocolate, chilli... and a stranger's laugh."
+ },
+ {
+  "id": "es-ep39",
+  "n": 39,
+  "title": "Chido, guay, bacán",
+  "minLesson": "s6u5l3",
+  "panels": [
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¿Qué tal, güey? Todo chido. La lana, la plata, la guita: ¡todo es dinero!",
+    "english": "What's up, dude? All cool. 'Lana', 'plata', 'guita': it's all money!"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Es guay, tío. En México es chido, en Chile bacán, en Colombia chévere.",
+    "english": "It's 'guay', mate. In Mexico it's 'chido', in Chile 'bacán', in Colombia 'chévere'."
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "El pibe, el parce, el pana, el cuate... ¡todos son amigos!",
+    "english": "The 'pibe', the 'parce', the 'pana', the 'cuate'... they're all friends!"
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Mi compadre Rafa es un cuate. Es padrísimo.",
+    "english": "My buddy Rafa is a pal. He's awesome."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "¿Y la plata? ¿La lana? ¡No hay! ¡Hay que cobrar!",
+    "english": "And the money? The cash? There's none! We have to charge!"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "En Argentina dicen 'che', 'bárbaro', 'laburo' y 'guita'. ¿Viste? Re bueno.",
+    "english": "In Argentina they say 'che', 'bárbaro', 'laburo' and 'guita'. See? Really good."
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Ahora con calma. Ni a palos me callo. ¿Capaz?",
+    "english": "Now calmly. No way I'm shutting up. Maybe?"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Chido! ¡Guay! ¡Bacán! ¡Chévere!",
+    "english": "Cool! Cool! Cool! Cool!"
+   }
+  ],
+  "cliffhanger": "A figure steps out of the shadows, grinning: Nico's mother, Chela's own cousin. She holds up a notebook. 'Looking for this?'"
+ },
+ {
+  "id": "es-ep40",
+  "n": 40,
+  "title": "La receta",
+  "minLesson": "s6u5l5",
+  "panels": [
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "¿Qué haces aquí, prima? ¿Me sigues? ¿Se entiende?",
+    "english": "What are you doing here, cousin? Are you following me? Does that make sense?"
+   },
+   {
+    "speaker": "Nico",
+    "emoji": "🧑🏻‍🦱",
+    "target": "Como te decía, mamá siempre quiso la libreta. A lo que iba: es mi madre, tío.",
+    "english": "As I was saying, Mum always wanted the notebook. What I was getting at: she's my mother, mate."
+   },
+   {
+    "speaker": "Rafa",
+    "emoji": "🧓🏽",
+    "target": "O sea que Nico lo sabía. En pocas palabras, todo fue un plan.",
+    "english": "So Nico knew. In short, it was all a plan."
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "Dicho de otro modo: ¿Chuy escondió el original?",
+    "english": "Put another way: Chuy hid the original?"
+   },
+   {
+    "speaker": "Memo",
+    "emoji": "🥁",
+    "target": "Ya me entiendes. ¿A qué te refieres? ¿Me lo repites?",
+    "english": "You get me. What do you mean? Can you repeat that?"
+   },
+   {
+    "speaker": "Chela",
+    "emoji": "👵🏽",
+    "target": "Chuy, ven. Dime. ¿Dónde está la receta de verdad?",
+    "english": "Chuy, come here. Tell me. Where's the real recipe?"
+   },
+   {
+    "speaker": "Chuy",
+    "emoji": "🦜",
+    "target": "¡Debajo del periódico! ¡En mi jaula! ¡Chocolate!",
+    "english": "Under the newspaper! In my cage! Chocolate!"
+   },
+   {
+    "speaker": "Sam",
+    "emoji": "🧑🏼",
+    "target": "¡Estuvo siempre en su jaula! ¡Gracias, Chuy! ¡Salud!",
+    "english": "It was always in his cage! Thank you, Chuy! Cheers!"
+   }
+  ],
+  "cliffhanger": "Chela lifts the newspaper at the bottom of the cage. There it is: the whole recipe. And at the very bottom, one more line: 'Season two starts tomorrow.'"
+ }
+]

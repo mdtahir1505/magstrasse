@@ -1,0 +1,327 @@
+[
+ {
+  "id": "es-s1-st1",
+  "title": "Tom meets Ana",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Ana",
+    "target": "¡Hola! Buenos días. ¿Cómo te llamas?",
+    "english": "Hi! Good morning. What's your name?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Me llamo Tom. ¿Y tú?",
+    "english": "My name is Tom. And you?"
+   },
+   {
+    "speaker": "Ana",
+    "target": "Yo soy Ana. Mucho gusto.",
+    "english": "I'm Ana. Nice to meet you."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Mucho gusto, Ana. ¿Cómo estás?",
+    "english": "Nice to meet you, Ana. How are you?"
+   },
+   {
+    "speaker": "Ana",
+    "target": "Muy bien, gracias. ¿De dónde eres?",
+    "english": "Very well, thanks. Where are you from?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Soy de Inglaterra. Hablo un poco de español.",
+    "english": "I'm from England. I speak a little Spanish."
+   },
+   {
+    "speaker": "Ana",
+    "target": "¡Claro! Hablas muy bien.",
+    "english": "Of course! You speak very well."
+   },
+   {
+    "speaker": "Tom",
+    "target": "No, no entiendo. Más despacio, por favor.",
+    "english": "No, I don't understand. Slower, please."
+   },
+   {
+    "speaker": "Ana",
+    "target": "No pasa nada. Más despacio.",
+    "english": "No worries. Slower."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Gracias, Ana. Perdón, ¿qué significa «despacio»?",
+    "english": "Thanks, Ana. Sorry, what does \"despacio\" mean?"
+   },
+   {
+    "speaker": "Ana",
+    "target": "«Despacio» es «slowly». ¡Hasta mañana, Tom!",
+    "english": "\"Despacio\" is \"slowly\". See you tomorrow, Tom!"
+   }
+  ]
+ },
+ {
+  "id": "es-s1-st2",
+  "title": "Coffee with Luis",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Buenas tardes. Un momento, por favor.",
+    "english": "Good afternoon. One moment, please."
+   },
+   {
+    "speaker": "Luis",
+    "target": "¡Hola! Soy Luis. ¿Qué quieres?",
+    "english": "Hi! I'm Luis. What do you want?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Quisiera el café con leche, por favor.",
+    "english": "I'd like the coffee with milk, please."
+   },
+   {
+    "speaker": "Luis",
+    "target": "¿Con hielo?",
+    "english": "With ice?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "No, sin hielo. Y la tortilla, ¿está rica?",
+    "english": "No, without ice. And the tortilla, is it good?"
+   },
+   {
+    "speaker": "Luis",
+    "target": "¡Sí, claro! Está caliente y muy rica.",
+    "english": "Yes, of course! It's hot and very good."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Para mí, la tortilla con pan.",
+    "english": "For me, the tortilla with bread."
+   },
+   {
+    "speaker": "Luis",
+    "target": "¿Algo más? ¿Agua, jugo?",
+    "english": "Anything else? Water, juice?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Nada más, gracias. Tengo hambre.",
+    "english": "Nothing else, thanks. I'm hungry."
+   },
+   {
+    "speaker": "Luis",
+    "target": "¡Buen provecho, Tom!",
+    "english": "Enjoy your meal, Tom!"
+   },
+   {
+    "speaker": "Tom",
+    "target": "¡Qué rico! La cuenta, por favor.",
+    "english": "How good! The bill, please."
+   }
+  ]
+ },
+ {
+  "id": "es-s1-st3",
+  "title": "How much is it?",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Perdón, ¿cuánto cuesta el café?",
+    "english": "Excuse me, how much does the coffee cost?"
+   },
+   {
+    "speaker": "Luis",
+    "target": "Cuesta tres euros.",
+    "english": "It costs three euros."
+   },
+   {
+    "speaker": "Tom",
+    "target": "¡Tres euros! Está muy caro.",
+    "english": "Three euros! That is very expensive."
+   },
+   {
+    "speaker": "Luis",
+    "target": "Está bien, dos euros cincuenta.",
+    "english": "All right, two euros fifty."
+   },
+   {
+    "speaker": "Tom",
+    "target": "¿Y la tortilla? ¿Cuánto es?",
+    "english": "And the tortilla? How much is it?"
+   },
+   {
+    "speaker": "Luis",
+    "target": "La tortilla, cuatro euros. Total: seis cincuenta.",
+    "english": "The tortilla, four euros. Total: six fifty."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Muy bien. ¿Aceptan tarjeta?",
+    "english": "Very well. Do you take cards?"
+   },
+   {
+    "speaker": "Luis",
+    "target": "Lo siento, no. En efectivo, por favor.",
+    "english": "Sorry, no. In cash, please."
+   },
+   {
+    "speaker": "Tom",
+    "target": "No pasa nada. Tengo veinte euros.",
+    "english": "No worries. I have twenty euros."
+   },
+   {
+    "speaker": "Luis",
+    "target": "Gracias. Aquí está el cambio y el recibo.",
+    "english": "Thanks. Here is your change and the receipt."
+   },
+   {
+    "speaker": "Tom",
+    "target": "¿Cobran propina? No sé.",
+    "english": "Do you charge a tip? I don't know."
+   },
+   {
+    "speaker": "Luis",
+    "target": "No, está bien. ¡Hasta luego!",
+    "english": "No, it's fine. See you later!"
+   }
+  ]
+ },
+ {
+  "id": "es-s1-st4",
+  "title": "Lost in the city",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Disculpe, estoy perdido. ¿Me puede ayudar?",
+    "english": "Excuse me, I'm lost. Can you help me?"
+   },
+   {
+    "speaker": "Ana",
+    "target": "Sí, claro. ¿Qué necesitas?",
+    "english": "Yes, of course. What do you need?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Quiero llegar a la estación. ¿Está lejos?",
+    "english": "I want to get to the station. Is it far?"
+   },
+   {
+    "speaker": "Ana",
+    "target": "No, está cerca. Todo derecho, a la plaza.",
+    "english": "No, it's near. Straight ahead, to the square."
+   },
+   {
+    "speaker": "Tom",
+    "target": "¿Y en la plaza?",
+    "english": "And at the square?"
+   },
+   {
+    "speaker": "Ana",
+    "target": "Doblar a la izquierda. La estación está en la esquina.",
+    "english": "Turn left. The station is on the corner."
+   },
+   {
+    "speaker": "Tom",
+    "target": "¿Cuánto tarda a pie?",
+    "english": "How long does it take on foot?"
+   },
+   {
+    "speaker": "Ana",
+    "target": "Quince minutos. ¿Quieres el autobús? Sale aquí.",
+    "english": "Fifteen minutes. Do you want the bus? It leaves here."
+   },
+   {
+    "speaker": "Tom",
+    "target": "No, a pie. Necesito el mapa, por favor.",
+    "english": "No, on foot. I need the map, please."
+   },
+   {
+    "speaker": "Ana",
+    "target": "¡Cuidado con la calle! Y buen viaje.",
+    "english": "Careful on the street! And have a good trip."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Gracias, Ana. ¡Adiós!",
+    "english": "Thanks, Ana. Bye!"
+   }
+  ]
+ },
+ {
+  "id": "es-s1-st5",
+  "title": "Tom needs a break",
+  "level": "A1",
+  "minutes": 2,
+  "lines": [
+   {
+    "speaker": "Tom",
+    "target": "Ana, estoy cansado. Tengo sueño.",
+    "english": "Ana, I'm tired. I'm sleepy."
+   },
+   {
+    "speaker": "Ana",
+    "target": "¿Qué necesitas? ¿Quieres café?",
+    "english": "What do you need? Do you want coffee?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "No quiero nada. Necesito dormir.",
+    "english": "I don't want anything. I need to sleep."
+   },
+   {
+    "speaker": "Ana",
+    "target": "¡Es verdad! Tienes prisa y no tienes tiempo.",
+    "english": "It's true! You're in a hurry and you don't have time."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Tengo un problema: el hotel está lejos.",
+    "english": "I have a problem: the hotel is far."
+   },
+   {
+    "speaker": "Ana",
+    "target": "¿Quieres un taxi? Está aquí.",
+    "english": "Do you want a taxi? It is here."
+   },
+   {
+    "speaker": "Tom",
+    "target": "Sí, por favor. ¿Cuánto cuesta?",
+    "english": "Yes, please. How much does it cost?"
+   },
+   {
+    "speaker": "Ana",
+    "target": "Yo quiero pagar. ¿Puedo?",
+    "english": "I want to pay. May I?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "¡Por supuesto! Gracias, Ana.",
+    "english": "Of course! Thanks, Ana."
+   },
+   {
+    "speaker": "Ana",
+    "target": "Está bien. ¿Estás listo?",
+    "english": "Fine. Are you ready?"
+   },
+   {
+    "speaker": "Tom",
+    "target": "Sí, estoy listo. ¡Gracias, Ana!",
+    "english": "Yes, I am ready. Thanks, Ana!"
+   },
+   {
+    "speaker": "Ana",
+    "target": "De nada. ¡Hasta mañana, Tom!",
+    "english": "You're welcome. See you tomorrow, Tom!"
+   }
+  ]
+ }
+]

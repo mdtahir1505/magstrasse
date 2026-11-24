@@ -8,7 +8,8 @@ export type Progress = { cards: Record<string, Card>; lessonsDone: string[];
   days: Record<string, { min: number; freeze?: boolean; done?: boolean }>;
   streak: number; bestStreak: number; freezesLeft: number; freezeWeek: string; lastDay: string; bannerDay: string;
   bossesBeaten: string[]; bossDismissed: string; speedBest: number; speedPlays: number;
-  serialSeen: number; serialUnlocked: number; serialUnlockedOn: string };
+  serialSeen: number; serialUnlocked: number; serialUnlockedOn: string;
+  region: string /* pack.regions id; '' = the pack's first */ };
 export type State = { profile: StoredProfile; progress: Progress };
 
 const PROFILE_KEY = 'strasse:profile';
@@ -21,7 +22,7 @@ export const defaultProfile = (): StoredProfile => ({ onboarded: false, language
   reminder: '19:00', voiceSpeed: 0.9, streetEnabled: false, lastBackup: '', translit: 'auto', stickers: [] });
 export const emptyProgress = (): Progress => ({ cards: {}, lessonsDone: [], days: {}, streak: 0, bestStreak: 0,
   freezesLeft: 1, freezeWeek: '', lastDay: '', bannerDay: '',
-  bossesBeaten: [], bossDismissed: '', speedBest: 0, speedPlays: 0, serialSeen: 0, serialUnlocked: 0, serialUnlockedOn: '' });
+  bossesBeaten: [], bossDismissed: '', speedBest: 0, speedPlays: 0, serialSeen: 0, serialUnlocked: 0, serialUnlockedOn: '', region: '' });
 
 const read = (k: string): unknown => { try { return JSON.parse(localStorage.getItem(k) ?? 'null'); } catch { return null; } };
 

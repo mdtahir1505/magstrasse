@@ -8,8 +8,8 @@ export default function Build({ ex, pack, done }: ExProps<'build'>) {
   const words = placed.map((i) => ex.tiles[i]);
   const submit = () => {
     if (!placed.length) return;
-    const ok = checkTokens(words, ex.answer), answer = ex.answer.join(' '), given = words.join(' ');
-    done({ correct: ok, answer, given, why: ok ? relevantTip(ex.why, answer) : explainDiff(given, answer) });
+    const ok = checkTokens(words, ex.answer, ex.alt), answer = ex.answer.join(' '), given = words.join(' ');
+    done({ correct: ok, answer, given, hint: ex.hint, why: ok ? relevantTip(ex.why, answer) : explainDiff(given, answer) });
   };
   return <>
     <h1 className="instruction pad" style={{ marginTop: 18 }}>Build it</h1>

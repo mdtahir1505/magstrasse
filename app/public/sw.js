@@ -1,5 +1,5 @@
 ﻿// Pages (index.html) are network-first so updates show up; hashed assets (JS, CSS, self-hosted fonts) are cache-first for offline use.
-const CACHE = 'strasse-v5';
+const CACHE = 'strasse-v6';
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './manifest.webmanifest', './icon-192.png'])));
   self.skipWaiting();

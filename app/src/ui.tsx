@@ -1,4 +1,5 @@
 import type { AnchorHTMLAttributes, ReactNode } from 'react';
+import { articleRe } from './engine/variants';
 import type { Gender, Pack } from './types';
 
 /** An <a> that behaves like a button (the design uses anchors for buttons and links). */
@@ -20,8 +21,11 @@ export const CHECK = ['M4 12.5 9.5 18 20 6'];
 
 /** What the gender tag shows: articles (de) or labels (ru м/ж/ср). */
 export const genderTags = (p: Pack) => p.articles ?? p.genderLabels ?? null;
-export const Tag = ({ g, articles, size }: { g: Gender; articles: Record<'m' | 'f' | 'n', string> | null; size: number }) =>
-  g && articles ? <span className={`tag ${g}`} style={{ fontSize: size }}>{articles[g]}</span> : null;
+/** Gender tag: the noun's own article when its target has one (so "los lentes" says los), else the pack's article/label. */
+export const Tag = ({ it, pack, size }: { it: { target: string; gender: Gender }; pack: Pack; size: number }) => {
+  const g = it.gender, labels = genderTags(pack);
+  return g && labels ? <span className={`tag ${g}`} style={{ fontSize: size }}>{articleRe(pack)?.exec(it.target)?.[1].toLowerCase() ?? labels[g]}</span> : null;
+};
 
 export const Flame = ({ grey }: { grey?: boolean }) =>
   <svg className="flame" viewBox="0 0 30 36" aria-hidden="true" style={grey ? { animation: 'none', filter: 'grayscale(1)' } : undefined}>
@@ -53,4 +57,4 @@ export const TabBar = ({ tab, go }: { tab: Tab; go: (t: Tab) => void }) =>
   </nav>;
 
 /** Noun items carry the article in `target` ("das Wasser"); the gender tag shows it separately. */
-export const nounOnly = (i: { target: string; gender: Gender }) => (i.gender ? i.target.replace(/^(der|die|das)\s+/i, '') : i.target);
+export const nounOnly = (i: { target: string; gender: Gender }, p: Pack) => { const re = articleRe(p); return i.gender && re ? i.target.replace(re, '') : i.target; };

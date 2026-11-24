@@ -1,0 +1,3239 @@
+{
+  "lang": "es",
+  "stages": [
+    {
+      "file": "stage1.json",
+      "id": "s1",
+      "title": "Survival",
+      "level": "A1",
+      "units": [
+        {
+          "id": "s1u1",
+          "title": "Hello & who I am",
+          "lessons": [
+            {
+              "id": "s1u1l1",
+              "title": "¡Hola!",
+              "grammar": "Greetings follow the clock: buenos días (morning), buenas tardes (afternoon), buenas noches (night)",
+              "vocab": [
+                "hola",
+                "buenos días",
+                "buenas tardes",
+                "buenas noches",
+                "adiós",
+                "hasta luego",
+                "hasta mañana",
+                "¿Qué tal?",
+                "bien",
+                "gracias",
+                "por favor",
+                "de nada"
+              ]
+            },
+            {
+              "id": "s1u1l2",
+              "title": "Words you already know",
+              "grammar": "Cognates: Spanish nouns are el (masc.) or la (fem.): el hotel, la música, la familia; -o/-a endings are the clue",
+              "vocab": [
+                "el hotel",
+                "el chocolate",
+                "el restaurante",
+                "la música",
+                "la familia",
+                "el taxi",
+                "el banco",
+                "el hospital",
+                "el aeropuerto",
+                "el teléfono",
+                "importante",
+                "posible"
+              ]
+            },
+            {
+              "id": "s1u1l3",
+              "title": "Who I am",
+              "grammar": "me llamo = \"I'm called\"; soy = \"I am\" (who/what I am)",
+              "vocab": [
+                "yo",
+                "me llamo",
+                "¿Cómo te llamas?",
+                "mucho gusto",
+                "encantado",
+                "soy",
+                "¿Cómo estás?",
+                "muy bien",
+                "así así",
+                "¿Y tú?",
+                "perdón",
+                "lo siento"
+              ]
+            },
+            {
+              "id": "s1u1l4",
+              "title": "Where I'm from",
+              "grammar": "Soy de + place = I'm from; hablo + language = I speak",
+              "vocab": [
+                "¿De dónde eres?",
+                "Soy de Inglaterra",
+                "el país",
+                "la ciudad",
+                "hablo inglés",
+                "un poco",
+                "¿Hablas español?",
+                "no entiendo",
+                "¿Cómo se dice…?",
+                "más despacio",
+                "otra vez, por favor",
+                "¿Qué significa…?"
+              ]
+            },
+            {
+              "id": "s1u1l5",
+              "title": "Yes, no, maybe",
+              "grammar": "Short answers keep you alive: sí, no, claro, está bien; \"no pasa nada\" = no worries",
+              "vocab": [
+                "sí",
+                "no",
+                "tal vez",
+                "claro",
+                "por supuesto",
+                "está bien",
+                "no pasa nada",
+                "no sé",
+                "¿Qué?",
+                "¿Cómo?",
+                "¿Por qué?",
+                "ok"
+              ],
+              "spain": {
+                "ok": "vale"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s1u2",
+          "title": "Ordering food & drink",
+          "lessons": [
+            {
+              "id": "s1u2l1",
+              "title": "Coffee & drinks",
+              "grammar": "con = with, sin = without: café con leche, agua sin hielo",
+              "vocab": [
+                "el agua",
+                "el café",
+                "el té",
+                "la leche",
+                "el jugo",
+                "la cerveza",
+                "el vino",
+                "el vaso",
+                "la taza",
+                "con",
+                "sin",
+                "el hielo"
+              ],
+              "spain": {
+                "el jugo": "el zumo"
+              }
+            },
+            {
+              "id": "s1u2l2",
+              "title": "Food basics",
+              "grammar": "Cognates: la sopa, la ensalada, la pizza, la fruta look just like English",
+              "vocab": [
+                "el pan",
+                "el queso",
+                "el huevo",
+                "la sopa",
+                "la ensalada",
+                "la pizza",
+                "la fruta",
+                "la carne",
+                "el pollo",
+                "el pescado",
+                "el arroz",
+                "la pasta"
+              ]
+            },
+            {
+              "id": "s1u2l3",
+              "title": "I'd like…",
+              "grammar": "\"Quiero…\" is direct; \"Quisiera…\" is polite; \"¿Me das…?\" (LatAm) vs \"¿Me pones…?\" (Spain) are the bar/shop ask",
+              "vocab": [
+                "quiero",
+                "quisiera",
+                "¿Me das…?",
+                "¿Me pones…?",
+                "para mí, por favor",
+                "el menú",
+                "la cuenta, por favor",
+                "¿Qué tiene?",
+                "¿Qué recomienda?",
+                "nada más",
+                "para llevar",
+                "algo más"
+              ],
+              "spain": {
+                "¿Me das…?": "¿Me pones…?",
+                "el menú": "la carta"
+              }
+            },
+            {
+              "id": "s1u2l4",
+              "title": "Tapas & tacos",
+              "grammar": "Plural nouns add -s: el taco → los tacos, la tapa → las tapas",
+              "vocab": [
+                "los tacos",
+                "las tapas",
+                "la tortilla",
+                "el guacamole",
+                "la salsa",
+                "picante",
+                "la empanada",
+                "las papas fritas",
+                "el jamón",
+                "las aceitunas",
+                "el chorizo",
+                "la paella"
+              ],
+              "spain": {
+                "las papas fritas": "las patatas fritas"
+              }
+            },
+            {
+              "id": "s1u2l5",
+              "title": "Eating & drinking",
+              "grammar": "está + adjective for how something is now: está rico, está caliente",
+              "vocab": [
+                "tengo hambre",
+                "tengo sed",
+                "está rico",
+                "delicioso",
+                "caliente",
+                "frío",
+                "dulce",
+                "salado",
+                "¡Salud!",
+                "buen provecho",
+                "estoy lleno",
+                "¡Qué rico!"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s1u3",
+          "title": "Numbers & prices",
+          "lessons": [
+            {
+              "id": "s1u3l1",
+              "title": "Zero to eleven",
+              "grammar": "Numbers are tiny words: learn them as sounds, not spellings",
+              "vocab": [
+                "cero",
+                "uno",
+                "dos",
+                "tres",
+                "cuatro",
+                "cinco",
+                "seis",
+                "siete",
+                "ocho",
+                "nueve",
+                "diez",
+                "once"
+              ]
+            },
+            {
+              "id": "s1u3l2",
+              "title": "Twelve to a hundred",
+              "grammar": "16-29 glue together (dieciséis, veintiuno); from 31 it's \"treinta y uno\"",
+              "vocab": [
+                "doce",
+                "trece",
+                "catorce",
+                "quince",
+                "dieciséis",
+                "veinte",
+                "veintiuno",
+                "treinta",
+                "cuarenta",
+                "cincuenta",
+                "sesenta",
+                "cien"
+              ]
+            },
+            {
+              "id": "s1u3l3",
+              "title": "Big numbers",
+              "grammar": "Hundreds are one word: doscientos, quinientos; mil = 1,000 never \"un mil\"",
+              "vocab": [
+                "setenta",
+                "ochenta",
+                "noventa",
+                "doscientos",
+                "quinientos",
+                "mil",
+                "un millón",
+                "primero",
+                "segundo",
+                "tercero",
+                "último",
+                "el número"
+              ]
+            },
+            {
+              "id": "s1u3l4",
+              "title": "Prices",
+              "grammar": "¿Cuánto cuesta? = how much does it cost; ¿Cuánto es? = how much is it (total)",
+              "vocab": [
+                "¿Cuánto cuesta?",
+                "¿Cuánto es?",
+                "el precio",
+                "el dinero",
+                "el euro",
+                "el dólar",
+                "el peso",
+                "caro",
+                "barato",
+                "gratis",
+                "el efectivo",
+                "la tarjeta"
+              ]
+            },
+            {
+              "id": "s1u3l5",
+              "title": "Paying",
+              "grammar": "-ción = -tion words are nearly free: la factura, la información, la conversación",
+              "vocab": [
+                "pagar",
+                "el cambio",
+                "la propina",
+                "el recibo",
+                "¿Aceptan tarjeta?",
+                "en efectivo",
+                "el cajero automático",
+                "la moneda",
+                "el billete",
+                "sacar dinero",
+                "la factura",
+                "¿Cobran propina?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s1u4",
+          "title": "Getting around",
+          "lessons": [
+            {
+              "id": "s1u4l1",
+              "title": "Where is…?",
+              "grammar": "¿Dónde está…? works for anything; add aquí (here), allí (there), cerca (near), lejos (far)",
+              "vocab": [
+                "¿Dónde está…?",
+                "aquí",
+                "allí",
+                "cerca",
+                "lejos",
+                "a la derecha",
+                "a la izquierda",
+                "todo derecho",
+                "la calle",
+                "la esquina",
+                "la plaza",
+                "¿Dónde queda…?"
+              ],
+              "spain": {
+                "todo derecho": "todo recto",
+                "¿Dónde queda…?": "¿Dónde está…?"
+              }
+            },
+            {
+              "id": "s1u4l2",
+              "title": "Transport",
+              "grammar": "-ción = -tion: la estación (station), la información, la atención",
+              "vocab": [
+                "el autobús",
+                "el metro",
+                "el tren",
+                "el avión",
+                "la bicicleta",
+                "el carro",
+                "la estación",
+                "la parada",
+                "el boleto",
+                "la moto",
+                "a pie",
+                "la gasolinera"
+              ],
+              "spain": {
+                "el carro": "el coche",
+                "el boleto": "el billete"
+              }
+            },
+            {
+              "id": "s1u4l3",
+              "title": "Asking directions",
+              "grammar": "voy a + place = I'm going to; ir = to go, llegar = to arrive",
+              "vocab": [
+                "¿Cómo llego a…?",
+                "¿Cuánto tarda?",
+                "ir",
+                "llegar",
+                "seguir",
+                "cruzar",
+                "doblar",
+                "Estoy perdido",
+                "Disculpe",
+                "¿Está lejos?",
+                "la dirección",
+                "el mapa"
+              ],
+              "spain": {
+                "doblar": "girar"
+              }
+            },
+            {
+              "id": "s1u4l4",
+              "title": "Places in town",
+              "grammar": "-dad = -ty: la universidad, la nacionalidad, la realidad",
+              "vocab": [
+                "el baño",
+                "la tienda",
+                "el supermercado",
+                "la farmacia",
+                "la iglesia",
+                "el parque",
+                "el museo",
+                "la playa",
+                "el mercado",
+                "la oficina",
+                "el cine",
+                "la universidad"
+              ],
+              "spain": {
+                "el baño": "el servicio"
+              }
+            },
+            {
+              "id": "s1u4l5",
+              "title": "Asking for help",
+              "grammar": "¿Me puede ayudar? is the polite magic phrase (usted form)",
+              "vocab": [
+                "¿Me puede ayudar?",
+                "¡Ayuda!",
+                "¡Cuidado!",
+                "Un momento",
+                "¿A qué hora sale?",
+                "el viaje",
+                "la salida",
+                "la entrada",
+                "abierto",
+                "cerrado",
+                "la fila",
+                "la información"
+              ],
+              "spain": {
+                "la fila": "la cola"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s1u5",
+          "title": "I want / I have / I need",
+          "lessons": [
+            {
+              "id": "s1u5l1",
+              "title": "I want",
+              "grammar": "quiero + verb (infinitive): quiero comer, quiero ir",
+              "vocab": [
+                "no quiero",
+                "¿Qué quieres?",
+                "¿Quieres…?",
+                "quiero ir a",
+                "quiero comer",
+                "quiero beber",
+                "quiero ver",
+                "quiero hablar",
+                "quiero más",
+                "no quiero nada",
+                "quiero eso",
+                "ya quiero"
+              ]
+            },
+            {
+              "id": "s1u5l2",
+              "title": "I have",
+              "grammar": "tengo = I have; tener is used for feelings: tengo frío, tengo prisa",
+              "vocab": [
+                "tengo",
+                "no tengo",
+                "¿Tienes…?",
+                "tengo un problema",
+                "tengo prisa",
+                "tengo frío",
+                "tengo calor",
+                "tengo sueño",
+                "tengo miedo",
+                "tengo razón",
+                "tengo ganas de",
+                "tengo tiempo"
+              ]
+            },
+            {
+              "id": "s1u5l3",
+              "title": "I need",
+              "grammar": "necesito + noun or verb: necesito agua, necesito dormir",
+              "vocab": [
+                "necesito",
+                "necesito ayuda",
+                "necesito un taxi",
+                "necesito agua",
+                "necesito el baño",
+                "necesito dormir",
+                "necesito dinero",
+                "necesito tiempo",
+                "necesito un médico",
+                "no necesito nada",
+                "¿Necesitas algo?",
+                "necesito pensar"
+              ],
+              "spain": {
+                "necesito el baño": "necesito el servicio"
+              }
+            },
+            {
+              "id": "s1u5l4",
+              "title": "Is / is it",
+              "grammar": "es = what something is (es fácil), está = state or place (está aquí); learn both as chunks",
+              "vocab": [
+                "es",
+                "está",
+                "esto",
+                "eso",
+                "¿Qué es esto?",
+                "es verdad",
+                "es fácil",
+                "es difícil",
+                "estoy cansado",
+                "estoy listo",
+                "estoy aquí",
+                "¿Está listo?"
+              ]
+            },
+            {
+              "id": "s1u5l5",
+              "title": "Question words",
+              "grammar": "Question words always get an accent: ¿Quién? ¿Cuándo? ¿Dónde?; and ¿ at the start",
+              "vocab": [
+                "¿Quién?",
+                "¿Cuándo?",
+                "¿Dónde?",
+                "¿Cuál?",
+                "¿Cuánto?",
+                "¿Cuántos?",
+                "¿Con quién?",
+                "¿Para qué?",
+                "¿A dónde?",
+                "¿Cuántos años tienes?",
+                "¿Puedo…?",
+                "¿Se puede…?"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "stage2.json",
+      "id": "s2",
+      "title": "Daily life",
+      "level": "A1",
+      "units": [
+        {
+          "id": "s2u1",
+          "title": "Family & friends",
+          "lessons": [
+            {
+              "id": "s2u1l1",
+              "title": "My family",
+              "grammar": "Possessives: mi/tu + noun, add -s for plural: mi hermano, mis hermanos",
+              "vocab": [
+                "la madre",
+                "el padre",
+                "los padres",
+                "el hermano",
+                "la hermana",
+                "el hijo",
+                "la hija",
+                "el niño",
+                "la abuela",
+                "el abuelo",
+                "mi mamá",
+                "mi papá"
+              ]
+            },
+            {
+              "id": "s2u1l2",
+              "title": "Relatives",
+              "grammar": "Adjectives agree: casado (he) / casada (she); -o becomes -a",
+              "vocab": [
+                "el tío",
+                "la tía",
+                "el primo",
+                "la prima",
+                "los abuelos",
+                "el sobrino",
+                "la sobrina",
+                "casado",
+                "soltero",
+                "divorciado",
+                "el bebé",
+                "los parientes"
+              ]
+            },
+            {
+              "id": "s2u1l3",
+              "title": "Friends & people",
+              "grammar": "su = his/her/their/your (ustedes); in Spain vosotros is \"you all\" (recognise it)",
+              "vocab": [
+                "el amigo",
+                "la amiga",
+                "el novio",
+                "la novia",
+                "el esposo",
+                "la esposa",
+                "la pareja",
+                "el vecino",
+                "el compañero",
+                "el jefe",
+                "ustedes",
+                "el compa"
+              ],
+              "spain": {
+                "el esposo": "el marido",
+                "la esposa": "la mujer",
+                "ustedes": "vosotros",
+                "el compa": "el colega"
+              }
+            },
+            {
+              "id": "s2u1l4",
+              "title": "Describing people",
+              "grammar": "Adjectives go AFTER the noun and match it: un amigo simpático, una amiga simpática",
+              "vocab": [
+                "alto",
+                "bajo",
+                "joven",
+                "viejo",
+                "guapo",
+                "simpático",
+                "amable",
+                "divertido",
+                "serio",
+                "tímido",
+                "inteligente",
+                "moreno"
+              ]
+            },
+            {
+              "id": "s2u1l5",
+              "title": "Age, home, job",
+              "grammar": "tengo + number + años = I'm … years old; vivo en / trabajo en = I live / work in",
+              "vocab": [
+                "Tengo veinte años",
+                "¿Cuándo naciste?",
+                "el cumpleaños",
+                "¡Feliz cumpleaños!",
+                "Vivo en",
+                "¿Dónde vives?",
+                "trabajo",
+                "¿A qué te dedicas?",
+                "estudio",
+                "el estudiante",
+                "el trabajo",
+                "¿Tienes hermanos?"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s2u2",
+          "title": "Time, days, plans",
+          "lessons": [
+            {
+              "id": "s2u2l1",
+              "title": "Days of the week",
+              "grammar": "Days are masculine and lowercase: el lunes = on Monday; los lunes = every Monday",
+              "vocab": [
+                "el lunes",
+                "el martes",
+                "el miércoles",
+                "el jueves",
+                "el viernes",
+                "el sábado",
+                "el domingo",
+                "hoy",
+                "mañana",
+                "ayer",
+                "la semana",
+                "el fin de semana"
+              ],
+              "spain": {
+                "el fin de semana": "el finde"
+              }
+            },
+            {
+              "id": "s2u2l2",
+              "title": "Telling the time",
+              "grammar": "Es la una (1:00) but Son las dos (2:00+): singular for one, plural for the rest",
+              "vocab": [
+                "¿Qué hora es?",
+                "Es la una",
+                "Son las dos",
+                "y media",
+                "y cuarto",
+                "menos cuarto",
+                "en punto",
+                "la hora",
+                "el minuto",
+                "el reloj",
+                "temprano",
+                "tarde"
+              ]
+            },
+            {
+              "id": "s2u2l3",
+              "title": "Parts of the day",
+              "grammar": "-mente adverbs are not needed yet: just ahora, luego, después, antes",
+              "vocab": [
+                "la mañana",
+                "la tarde",
+                "la noche",
+                "el mediodía",
+                "la medianoche",
+                "ahora",
+                "luego",
+                "después",
+                "antes",
+                "ya",
+                "todavía",
+                "pronto"
+              ]
+            },
+            {
+              "id": "s2u2l4",
+              "title": "Months",
+              "grammar": "Months are lowercase in Spanish: en enero, en diciembre",
+              "vocab": [
+                "enero",
+                "febrero",
+                "marzo",
+                "abril",
+                "mayo",
+                "junio",
+                "julio",
+                "agosto",
+                "septiembre",
+                "octubre",
+                "noviembre",
+                "diciembre"
+              ]
+            },
+            {
+              "id": "s2u2l5",
+              "title": "Making plans",
+              "grammar": "voy a + infinitive = I'm going to: voy a salir, vamos a comer",
+              "vocab": [
+                "¿Qué haces?",
+                "voy a",
+                "¿Qué vas a hacer?",
+                "¿Estás libre?",
+                "estoy ocupado",
+                "¿Vamos?",
+                "nos vemos",
+                "¿A qué hora?",
+                "¿Quedamos?",
+                "puedo",
+                "la cita",
+                "el plan"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s2u3",
+          "title": "Shopping",
+          "lessons": [
+            {
+              "id": "s2u3l1",
+              "title": "Clothes",
+              "grammar": "Colour/size words agree with the noun: una camisa blanca, unos zapatos blancos",
+              "vocab": [
+                "la ropa",
+                "la camiseta",
+                "la camisa",
+                "los pantalones",
+                "el vestido",
+                "la falda",
+                "los zapatos",
+                "los tenis",
+                "la chaqueta",
+                "el suéter",
+                "los calcetines",
+                "el sombrero"
+              ],
+              "spain": {
+                "el suéter": "el jersey",
+                "los tenis": "las zapatillas"
+              }
+            },
+            {
+              "id": "s2u3l2",
+              "title": "Colours & sizes",
+              "grammar": "Colours are adjectives: rojo/roja; some never change: rosa, naranja, azul",
+              "vocab": [
+                "rojo",
+                "azul",
+                "verde",
+                "amarillo",
+                "negro",
+                "blanco",
+                "gris",
+                "rosado",
+                "marrón",
+                "naranja",
+                "grande",
+                "pequeño"
+              ]
+            },
+            {
+              "id": "s2u3l3",
+              "title": "In the shop",
+              "grammar": "¿Puedo…? + infinitive is the polite ask: ¿Puedo probármelo?",
+              "vocab": [
+                "comprar",
+                "vender",
+                "la talla",
+                "probarse",
+                "¿Puedo probármelo?",
+                "me queda bien",
+                "me queda grande",
+                "¿Tiene otra talla?",
+                "la oferta",
+                "el descuento",
+                "la bolsa",
+                "solo estoy mirando"
+              ]
+            },
+            {
+              "id": "s2u3l4",
+              "title": "Market food",
+              "grammar": "un kilo de + noun: un kilo de manzanas; ¿A cuánto está? asks the price per kilo",
+              "vocab": [
+                "la manzana",
+                "el plátano",
+                "la naranja",
+                "la fresa",
+                "el tomate",
+                "la cebolla",
+                "la papa",
+                "la zanahoria",
+                "el aguacate",
+                "el limón",
+                "el kilo",
+                "¿A cuánto está?"
+              ],
+              "spain": {
+                "la papa": "la patata"
+              }
+            },
+            {
+              "id": "s2u3l5",
+              "title": "Phones & tech",
+              "grammar": "Words borrowed from English keep working: el wifi, el email, el link",
+              "vocab": [
+                "el celular",
+                "la computadora",
+                "el cargador",
+                "la batería",
+                "la pantalla",
+                "el wifi",
+                "la contraseña",
+                "el correo electrónico",
+                "el mensaje",
+                "la foto",
+                "la cámara",
+                "la llave"
+              ],
+              "spain": {
+                "el celular": "el móvil",
+                "la computadora": "el ordenador"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s2u4",
+          "title": "Home & routine",
+          "lessons": [
+            {
+              "id": "s2u4l1",
+              "title": "Rooms & furniture",
+              "grammar": "hay = there is/are: hay una cama, hay dos sillas",
+              "vocab": [
+                "la casa",
+                "el apartamento",
+                "la cocina",
+                "la sala",
+                "la recámara",
+                "la ducha",
+                "el jardín",
+                "el balcón",
+                "la puerta",
+                "la ventana",
+                "la cama",
+                "la mesa"
+              ],
+              "spain": {
+                "el apartamento": "el piso",
+                "la sala": "el salón",
+                "la recámara": "el dormitorio"
+              }
+            },
+            {
+              "id": "s2u4l2",
+              "title": "Things at home",
+              "grammar": "Plural: nouns ending in a vowel add -s, in a consonant add -es: la silla → las sillas",
+              "vocab": [
+                "la silla",
+                "el sillón",
+                "el refrigerador",
+                "la estufa",
+                "el espejo",
+                "la lámpara",
+                "el televisor",
+                "la toalla",
+                "el cuchillo",
+                "el tenedor",
+                "la cuchara",
+                "el plato"
+              ],
+              "spain": {
+                "el refrigerador": "la nevera",
+                "la estufa": "la cocina"
+              }
+            },
+            {
+              "id": "s2u4l3",
+              "title": "My morning",
+              "grammar": "Reflexive verbs: me + verb = I do it to myself: me levanto, me ducho",
+              "vocab": [
+                "me despierto",
+                "me levanto",
+                "me ducho",
+                "me visto",
+                "me lavo los dientes",
+                "desayuno",
+                "salgo de casa",
+                "vuelvo a casa",
+                "ceno",
+                "me acuesto",
+                "me duermo",
+                "todos los días"
+              ]
+            },
+            {
+              "id": "s2u4l4",
+              "title": "Verbs in -ar",
+              "grammar": "-ar verbs: -o, -as, -a, -amos, -an: hablo, hablas, habla, hablamos, hablan",
+              "vocab": [
+                "hablar",
+                "caminar",
+                "cocinar",
+                "limpiar",
+                "escuchar",
+                "mirar",
+                "llamar",
+                "esperar",
+                "ayudar",
+                "usar",
+                "tomar",
+                "buscar"
+              ]
+            },
+            {
+              "id": "s2u4l5",
+              "title": "Verbs in -er/-ir",
+              "grammar": "-er/-ir verbs: -o, -es, -e, -emos/-imos, -en: como, comes, come",
+              "vocab": [
+                "comer",
+                "beber",
+                "vivir",
+                "escribir",
+                "leer",
+                "correr",
+                "aprender",
+                "abrir",
+                "recibir",
+                "ver",
+                "hacer",
+                "salir"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s2u5",
+          "title": "Likes & hobbies",
+          "lessons": [
+            {
+              "id": "s2u5l1",
+              "title": "I like it",
+              "grammar": "me gusta + singular, me gustan + plural: me gusta el café, me gustan los tacos",
+              "vocab": [
+                "me gusta",
+                "no me gusta",
+                "me gustan",
+                "¿Te gusta…?",
+                "me encanta",
+                "odio",
+                "prefiero",
+                "me gusta mucho",
+                "yo también",
+                "yo tampoco",
+                "¿Y a ti?",
+                "¿Qué te gusta hacer?"
+              ]
+            },
+            {
+              "id": "s2u5l2",
+              "title": "Hobbies",
+              "grammar": "Cognates: el deporte (sport), la guitarra, el video",
+              "vocab": [
+                "el fútbol",
+                "el deporte",
+                "el partido",
+                "la película",
+                "la serie",
+                "el videojuego",
+                "el libro",
+                "el baile",
+                "la guitarra",
+                "el gimnasio",
+                "el equipo",
+                "nadar"
+              ]
+            },
+            {
+              "id": "s2u5l3",
+              "title": "Free-time verbs",
+              "grammar": "me gusta + infinitive: me gusta bailar, me gusta ver series",
+              "vocab": [
+                "jugar",
+                "bailar",
+                "cantar",
+                "dibujar",
+                "pasear",
+                "hacer ejercicio",
+                "ir de compras",
+                "ir al cine",
+                "ver la tele",
+                "salir con amigos",
+                "escuchar música",
+                "sacar fotos"
+              ],
+              "spain": {
+                "sacar fotos": "hacer fotos"
+              }
+            },
+            {
+              "id": "s2u5l4",
+              "title": "Football talk",
+              "grammar": "Football is el fútbol; \"soccer\" is only American English",
+              "vocab": [
+                "el gol",
+                "el balón",
+                "la cancha",
+                "el portero",
+                "el árbitro",
+                "¡Gol!",
+                "¡Vamos!",
+                "el aficionado",
+                "el estadio",
+                "la selección",
+                "ganar",
+                "perder"
+              ],
+              "spain": {
+                "la cancha": "el campo"
+              }
+            },
+            {
+              "id": "s2u5l5",
+              "title": "Siesta & fiesta",
+              "grammar": "¡Qué + adjective! shows a reaction: ¡Qué bueno!, ¡Qué lástima!",
+              "vocab": [
+                "la siesta",
+                "la fiesta",
+                "la sobremesa",
+                "descansar",
+                "¡Qué padre!",
+                "¡Qué chévere!",
+                "¡Qué bueno!",
+                "¡Qué lástima!",
+                "¡Qué aburrido!",
+                "divertirse",
+                "relajarse",
+                "¡Qué rollo!"
+              ],
+              "spain": {
+                "¡Qué padre!": "¡Qué guay!",
+                "¡Qué chévere!": "¡Qué guay!"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "stage3.json",
+      "id": "s3",
+      "title": "Past & future",
+      "level": "A2",
+      "units": [
+        {
+          "id": "s3u1",
+          "title": "What I did (pretérito)",
+          "lessons": [
+            {
+              "id": "s3u1l1",
+              "title": "Yesterday I… (-ar verbs)",
+              "grammar": "Pretérito of -ar: -é, -aste, -ó, -amos, -aron: hablé, hablaste, habló",
+              "vocab": [
+                "hablé",
+                "trabajé",
+                "compré",
+                "caminé",
+                "llamé",
+                "esperé",
+                "anoche",
+                "anteayer",
+                "la semana pasada",
+                "el año pasado",
+                "hace dos días",
+                "¿Qué hiciste?"
+              ]
+            },
+            {
+              "id": "s3u1l2",
+              "title": "I ate, I lived (-er/-ir)",
+              "grammar": "Pretérito of -er/-ir: -í, -iste, -ió, -imos, -ieron: comí, comiste, comió",
+              "vocab": [
+                "comí",
+                "bebí",
+                "viví",
+                "escribí",
+                "salí",
+                "aprendí",
+                "volví",
+                "recibí",
+                "abrí",
+                "¿Qué comiste?",
+                "comió",
+                "vivió"
+              ]
+            },
+            {
+              "id": "s3u1l3",
+              "title": "Irregular must-knows",
+              "grammar": "Learn fui (I went/was), hice, tuve, estuve as whole words; ser and ir share the same past",
+              "vocab": [
+                "fui",
+                "hice",
+                "tuve",
+                "estuve",
+                "vi",
+                "dije",
+                "puse",
+                "pude",
+                "quise",
+                "di",
+                "vine",
+                "supe"
+              ]
+            },
+            {
+              "id": "s3u1l4",
+              "title": "My weekend in chunks",
+              "grammar": "Reflexive past just moves me: me levanté, me quedé, me divertí",
+              "vocab": [
+                "me desperté",
+                "me levanté temprano",
+                "salí con amigos",
+                "fuimos al cine",
+                "vimos una película",
+                "comimos juntos",
+                "cenamos fuera",
+                "me divertí",
+                "la pasé bien",
+                "la pasé mal",
+                "se me olvidó",
+                "me quedé en casa"
+              ],
+              "spain": {
+                "la pasé bien": "lo pasé bien",
+                "la pasé mal": "lo pasé mal"
+              }
+            },
+            {
+              "id": "s3u1l5",
+              "title": "Past questions",
+              "grammar": "¿Qué hiciste? / ¿Cómo te fue? open any past chat; answer with the pretérito",
+              "vocab": [
+                "¿Qué hiciste el fin de semana?",
+                "¿Cómo te fue?",
+                "me fue bien",
+                "¿Adónde fuiste?",
+                "¿Con quién fuiste?",
+                "¿Cuándo llegaste?",
+                "llegué",
+                "¿Lo hiciste?",
+                "sí, ya lo hice",
+                "todavía no",
+                "¿Qué pasó?",
+                "pasó algo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s3u2",
+          "title": "Travel & hotels",
+          "lessons": [
+            {
+              "id": "s3u2l1",
+              "title": "Planning a trip",
+              "grammar": "Cognates: el pasaporte, el turista, la visa, la reservación",
+              "vocab": [
+                "las vacaciones",
+                "el pasaporte",
+                "la maleta",
+                "el vuelo",
+                "la reservación",
+                "la frontera",
+                "el turista",
+                "el equipaje",
+                "la aduana",
+                "el destino",
+                "la visa",
+                "el seguro"
+              ],
+              "spain": {
+                "la reservación": "la reserva"
+              }
+            },
+            {
+              "id": "s3u2l2",
+              "title": "At the hotel",
+              "grammar": "Quisiera reservar… / Tengo una reserva a nombre de… do 90% of hotel talk",
+              "vocab": [
+                "la habitación",
+                "una habitación doble",
+                "una habitación individual",
+                "la recepción",
+                "el ascensor",
+                "la piscina",
+                "el aire acondicionado",
+                "dos noches",
+                "el desayuno",
+                "el check-in",
+                "Quisiera reservar",
+                "a nombre de"
+              ]
+            },
+            {
+              "id": "s3u2l3",
+              "title": "Airports & trains",
+              "grammar": "-ar verbs in the past: aterricé, facturé, despegué; the airport words are mostly cognates",
+              "vocab": [
+                "la puerta de embarque",
+                "el asiento",
+                "la ventanilla",
+                "la tarjeta de embarque",
+                "facturar",
+                "aterrizar",
+                "despegar",
+                "la escala",
+                "el vuelo directo",
+                "la terminal",
+                "el control de seguridad",
+                "perdí mi vuelo"
+              ]
+            },
+            {
+              "id": "s3u2l4",
+              "title": "Sightseeing",
+              "grammar": "Cognates: la catedral, el castillo, la isla, la montaña",
+              "vocab": [
+                "visitar",
+                "la catedral",
+                "el castillo",
+                "el pueblo",
+                "la montaña",
+                "el lago",
+                "el río",
+                "el mar",
+                "la isla",
+                "el centro",
+                "la vista",
+                "el recuerdo"
+              ]
+            },
+            {
+              "id": "s3u2l5",
+              "title": "When things go wrong",
+              "grammar": "me robaron / perdí = they stole from me / I lost, past chunks for emergencies",
+              "vocab": [
+                "me robaron la cartera",
+                "perdí mi pasaporte",
+                "la policía",
+                "la embajada",
+                "hay un problema",
+                "no funciona",
+                "¿Habla inglés?",
+                "¡Socorro!",
+                "la emergencia",
+                "la cartera",
+                "el ladrón",
+                "la denuncia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s3u3",
+          "title": "Appointments & doctor",
+          "lessons": [
+            {
+              "id": "s3u3l1",
+              "title": "My body",
+              "grammar": "The body takes el/la, not mi: me duele la cabeza, not \"mi cabeza\"",
+              "vocab": [
+                "la cabeza",
+                "el ojo",
+                "la nariz",
+                "la boca",
+                "la oreja",
+                "la mano",
+                "el brazo",
+                "la pierna",
+                "el pie",
+                "la espalda",
+                "el estómago",
+                "el corazón"
+              ]
+            },
+            {
+              "id": "s3u3l2",
+              "title": "I don't feel well",
+              "grammar": "me duele + singular, me duelen + plural: me duele la cabeza, me duelen los pies",
+              "vocab": [
+                "me duele",
+                "me duele la cabeza",
+                "estoy enfermo",
+                "tengo fiebre",
+                "tengo tos",
+                "el resfriado",
+                "la gripe",
+                "tengo náuseas",
+                "me siento mal",
+                "me siento mejor",
+                "el dolor",
+                "¿Qué le pasa?"
+              ]
+            },
+            {
+              "id": "s3u3l3",
+              "title": "At the doctor",
+              "grammar": "Cognates: la clínica, la ambulancia, la alergia, la medicina",
+              "vocab": [
+                "el médico",
+                "la receta",
+                "la medicina",
+                "la pastilla",
+                "la enfermera",
+                "la clínica",
+                "la alergia",
+                "la ambulancia",
+                "la sangre",
+                "pedir cita",
+                "dos veces al día",
+                "con comida"
+              ]
+            },
+            {
+              "id": "s3u3l4",
+              "title": "Appointments & lo/la",
+              "grammar": "lo/la = it, placed before the verb: lo sé, la veo mañana, te lo mando",
+              "vocab": [
+                "cancelar",
+                "confirmar",
+                "la reunión",
+                "la agenda",
+                "disponible",
+                "llegar tarde",
+                "lo sé",
+                "no lo sé",
+                "¿Lo tienes?",
+                "te lo mando",
+                "me lo das",
+                "la veo mañana"
+              ]
+            },
+            {
+              "id": "s3u3l5",
+              "title": "Staying healthy",
+              "grammar": "para + infinitive = in order to: para estar sano, para dormir mejor",
+              "vocab": [
+                "la salud",
+                "sano",
+                "la dieta",
+                "el estrés",
+                "dormir",
+                "fumar",
+                "cuidarse",
+                "estar en forma",
+                "el sueño",
+                "tomar agua",
+                "engordar",
+                "adelgazar"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s3u4",
+          "title": "Weather & seasons",
+          "lessons": [
+            {
+              "id": "s3u4l1",
+              "title": "What's the weather?",
+              "grammar": "hace + noun for weather: hace calor, hace frío, hace sol, hace viento",
+              "vocab": [
+                "hace calor",
+                "hace frío",
+                "hace sol",
+                "hace viento",
+                "llueve",
+                "nieva",
+                "está nublado",
+                "el clima",
+                "el tiempo",
+                "la lluvia",
+                "la nieve",
+                "la tormenta"
+              ]
+            },
+            {
+              "id": "s3u4l2",
+              "title": "Seasons & sky",
+              "grammar": "Seasons are masculine except la primavera",
+              "vocab": [
+                "la primavera",
+                "el verano",
+                "el otoño",
+                "el invierno",
+                "la temperatura",
+                "los grados",
+                "el sol",
+                "la nube",
+                "el viento",
+                "el cielo",
+                "la luna",
+                "la estrella"
+              ]
+            },
+            {
+              "id": "s3u4l3",
+              "title": "What's happening now",
+              "grammar": "estar + -ando/-iendo = doing right now: estoy comiendo, está lloviendo",
+              "vocab": [
+                "está lloviendo",
+                "está nevando",
+                "estoy esperando",
+                "estoy viendo",
+                "estoy leyendo",
+                "estoy buscando",
+                "estoy escuchando",
+                "estoy comiendo",
+                "estoy llegando",
+                "estoy saliendo",
+                "¿Qué estás haciendo?",
+                "¿Qué está pasando?"
+              ]
+            },
+            {
+              "id": "s3u4l4",
+              "title": "Weather small talk",
+              "grammar": "¡Qué + noun! for strong weather: ¡Qué calor!, ¡Qué frío!",
+              "vocab": [
+                "¿Qué tiempo hace?",
+                "va a llover",
+                "hizo calor",
+                "llovió mucho",
+                "¡Qué calor!",
+                "¡Qué frío!",
+                "me muero de frío",
+                "el paraguas",
+                "la bufanda",
+                "los guantes",
+                "las botas",
+                "el abrigo"
+              ]
+            },
+            {
+              "id": "s3u4l5",
+              "title": "Holidays & traditions",
+              "grammar": "Cognates: la tradición, el carnaval, celebrar",
+              "vocab": [
+                "la Navidad",
+                "el Año Nuevo",
+                "la Semana Santa",
+                "el Día de Muertos",
+                "el carnaval",
+                "el regalo",
+                "el desfile",
+                "los fuegos artificiales",
+                "la tradición",
+                "celebrar",
+                "felicitar",
+                "¡Felices fiestas!"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s3u5",
+          "title": "Plans (ir a & future)",
+          "lessons": [
+            {
+              "id": "s3u5l1",
+              "title": "I'm going to…",
+              "grammar": "ir a + infinitive: voy a viajar, vamos a ver, van a venir",
+              "vocab": [
+                "voy a viajar",
+                "vas a ver",
+                "va a ser",
+                "vamos a comer",
+                "van a venir",
+                "voy a llamarte",
+                "voy a pensarlo",
+                "ya voy",
+                "ahorita voy",
+                "luego te digo",
+                "el próximo año",
+                "la próxima semana"
+              ],
+              "spain": {
+                "ahorita voy": "ahora voy"
+              }
+            },
+            {
+              "id": "s3u5l2",
+              "title": "Future time words",
+              "grammar": "Time words carry the future: mañana, pasado mañana, el mes que viene",
+              "vocab": [
+                "mañana por la mañana",
+                "pasado mañana",
+                "esta noche",
+                "este fin de semana",
+                "el mes que viene",
+                "dentro de una semana",
+                "en un rato",
+                "más tarde",
+                "algún día",
+                "nunca",
+                "siempre",
+                "a veces"
+              ]
+            },
+            {
+              "id": "s3u5l3",
+              "title": "Intentions & dreams",
+              "grammar": "pienso + infinitive = I plan to; espero + infinitive = I hope to",
+              "vocab": [
+                "pienso viajar",
+                "espero poder",
+                "me gustaría",
+                "tengo planes",
+                "no tengo planes",
+                "depende",
+                "todavía no sé",
+                "ya veremos",
+                "quizás",
+                "la meta",
+                "mejorar",
+                "practicar"
+              ]
+            },
+            {
+              "id": "s3u5l4",
+              "title": "Por & para in chunks",
+              "grammar": "para = purpose/recipient (para ti), por = through/by/duration (por aquí, por teléfono); learn chunks first",
+              "vocab": [
+                "es para ti",
+                "¿Para qué sirve?",
+                "para mañana",
+                "para siempre",
+                "por aquí",
+                "por allá",
+                "por ejemplo",
+                "por la mañana",
+                "por teléfono",
+                "por internet",
+                "por mi cuenta",
+                "por semana"
+              ]
+            },
+            {
+              "id": "s3u5l5",
+              "title": "Invitations",
+              "grammar": "¿Quieres venir? / me apunto / cuenta conmigo = the invite-and-accept set",
+              "vocab": [
+                "¿Quieres venir?",
+                "¿Te animas?",
+                "me apunto",
+                "cuenta conmigo",
+                "no puedo",
+                "otro día",
+                "¿Te parece bien?",
+                "tal vez la próxima",
+                "¿A qué hora quedamos?",
+                "paso por ti",
+                "te espero",
+                "avísame"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "stage4.json",
+      "id": "s4",
+      "title": "Social",
+      "level": "A2",
+      "units": [
+        {
+          "id": "s4u1",
+          "title": "Opinions (creo que / porque)",
+          "lessons": [
+            {
+              "id": "s4u1l1",
+              "title": "I think that…",
+              "grammar": "creo que / pienso que + normal verb (no subjunctive yet): creo que es bueno",
+              "vocab": [
+                "creo que",
+                "pienso que",
+                "me parece que",
+                "en mi opinión",
+                "para mí",
+                "¿Qué opinas?",
+                "¿Tú qué piensas?",
+                "estoy de acuerdo",
+                "no estoy de acuerdo",
+                "tienes razón",
+                "¡Exacto!",
+                "puede ser"
+              ]
+            },
+            {
+              "id": "s4u1l2",
+              "title": "Because & so",
+              "grammar": "porque = because (one word, answers ¿por qué?); por qué = why (two words)",
+              "vocab": [
+                "porque",
+                "por eso",
+                "pero",
+                "y",
+                "o",
+                "entonces",
+                "así que",
+                "además",
+                "aunque",
+                "si",
+                "que",
+                "como"
+              ]
+            },
+            {
+              "id": "s4u1l3",
+              "title": "Good, bad & in between",
+              "grammar": "Adjectives with ser for opinions: es interesante, es increíble; many are cognates",
+              "vocab": [
+                "bueno",
+                "malo",
+                "mejor",
+                "peor",
+                "interesante",
+                "aburrido",
+                "raro",
+                "increíble",
+                "terrible",
+                "genial",
+                "normal",
+                "perfecto"
+              ]
+            },
+            {
+              "id": "s4u1l4",
+              "title": "Comparing",
+              "grammar": "más/menos + adjective + que: más grande que, menos caro que; tan + adj + como = as … as",
+              "vocab": [
+                "más",
+                "menos",
+                "más que",
+                "menos que",
+                "mejor que",
+                "peor que",
+                "tan… como",
+                "el mejor",
+                "el peor",
+                "me cae bien",
+                "me cae mal",
+                "me da igual"
+              ]
+            },
+            {
+              "id": "s4u1l5",
+              "title": "Natural fillers",
+              "grammar": "Fillers buy you thinking time: pues, o sea, a ver, es que",
+              "vocab": [
+                "pues",
+                "o sea",
+                "la verdad",
+                "es que",
+                "a ver",
+                "claro que sí",
+                "ni modo",
+                "¿en serio?",
+                "de verdad",
+                "a lo mejor",
+                "más o menos",
+                "sobre todo"
+              ],
+              "spain": {
+                "ni modo": "qué remedio"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s4u2",
+          "title": "Making plans with people",
+          "lessons": [
+            {
+              "id": "s4u2l1",
+              "title": "Suggesting",
+              "grammar": "¿Qué tal si…? / ¿Y si…? + normal verb = how about…?",
+              "vocab": [
+                "¿Qué te parece?",
+                "¿Qué tal si…?",
+                "¿Y si vamos…?",
+                "¿Cuándo puedes?",
+                "¿Dónde nos vemos?",
+                "en mi casa",
+                "en tu casa",
+                "nos vemos allí",
+                "¿A qué hora te viene bien?",
+                "perfecto, nos vemos",
+                "¿Llevo algo?",
+                "¿Quién va?"
+              ]
+            },
+            {
+              "id": "s4u2l2",
+              "title": "Going out",
+              "grammar": "la comida = main meal (lunch in Spain and much of LatAm); la cena = dinner",
+              "vocab": [
+                "el bar",
+                "la discoteca",
+                "el concierto",
+                "la terraza",
+                "la cena",
+                "el almuerzo",
+                "la comida",
+                "la botana",
+                "el trago",
+                "invitar",
+                "la ronda",
+                "la salida de noche"
+              ],
+              "spain": {
+                "la botana": "el pincho",
+                "el trago": "la copa"
+              }
+            },
+            {
+              "id": "s4u2l3",
+              "title": "Meeting new people",
+              "grammar": "te presento a = let me introduce you to; igualmente = same to you",
+              "vocab": [
+                "te presento a",
+                "igualmente",
+                "el gusto es mío",
+                "¿Nos conocemos?",
+                "ya nos conocemos",
+                "¿De qué conoces a…?",
+                "bienvenido",
+                "pasa",
+                "ponte cómodo",
+                "¿Quieres algo de tomar?",
+                "gracias por invitarme",
+                "¡Qué amable!"
+              ]
+            },
+            {
+              "id": "s4u2l4",
+              "title": "Running late",
+              "grammar": "ya + gerund/chunk = on my way: ya voy llegando, ya casi llego",
+              "vocab": [
+                "cambiar de planes",
+                "no voy a poder",
+                "se canceló",
+                "se me complicó",
+                "llego en cinco minutos",
+                "ya voy llegando",
+                "ya casi llego",
+                "estoy en camino",
+                "ya estoy aquí",
+                "me quedé dormido",
+                "hay mucho tráfico",
+                "mejor mañana"
+              ]
+            },
+            {
+              "id": "s4u2l5",
+              "title": "Splitting the bill",
+              "grammar": "Ustedes (LatAm) = vosotros (Spain): ¿Ustedes vienen? = ¿Vosotros venís?",
+              "vocab": [
+                "¿Quién viene?",
+                "somos cinco",
+                "¿Cuántos van a ser?",
+                "yo invito",
+                "a medias",
+                "dividir la cuenta",
+                "me debes",
+                "te debo uno",
+                "la próxima vez",
+                "¿Ustedes vienen?",
+                "¿Alguien más?",
+                "vamos todos juntos"
+              ],
+              "spain": {
+                "¿Ustedes vienen?": "¿Vosotros venís?"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s4u3",
+          "title": "Texting & phone",
+          "lessons": [
+            {
+              "id": "s4u3l1",
+              "title": "Phone calls",
+              "grammar": "Cognates: la aplicación, la videollamada, el audio",
+              "vocab": [
+                "la llamada",
+                "el prefijo",
+                "el contacto",
+                "contestar",
+                "colgar",
+                "la señal",
+                "sin batería",
+                "el saldo",
+                "la aplicación",
+                "el buzón de voz",
+                "el audio",
+                "la videollamada"
+              ]
+            },
+            {
+              "id": "s4u3l2",
+              "title": "Picking up",
+              "grammar": "¿Bueno? (Mexico), ¿Aló? (Andes), ¿Diga? (Spain) all mean \"hello\" on the phone",
+              "vocab": [
+                "¿Bueno?",
+                "¿Aló?",
+                "¿Quién habla?",
+                "soy yo",
+                "¿Está Ana?",
+                "no se oye",
+                "se cortó",
+                "te llamo luego",
+                "llámame",
+                "devuélveme la llamada",
+                "hablamos pronto",
+                "¿Me escuchas?"
+              ],
+              "spain": {
+                "¿Bueno?": "¿Diga?",
+                "¿Aló?": "¿Dígame?"
+              }
+            },
+            {
+              "id": "s4u3l3",
+              "title": "Text shortcuts",
+              "grammar": "Letters stand for sounds: q = que, xq = porque, tqm = te quiero mucho",
+              "vocab": [
+                "jaja",
+                "tqm",
+                "xq",
+                "ntp",
+                "mñn",
+                "grax",
+                "bss",
+                "xfa",
+                "tb",
+                "dnd",
+                "msj",
+                "jeje"
+              ]
+            },
+            {
+              "id": "s4u3l4",
+              "title": "Chat verbs",
+              "grammar": "Imperatives for chat: mándame, respóndeme, avísame (pronoun joins the verb)",
+              "vocab": [
+                "mandar",
+                "responder",
+                "reenviar",
+                "borrar",
+                "el chat",
+                "el grupo de WhatsApp",
+                "la nota de voz",
+                "el emoji",
+                "el sticker",
+                "visto",
+                "en línea",
+                "dejar en visto"
+              ]
+            },
+            {
+              "id": "s4u3l5",
+              "title": "Social media",
+              "grammar": "Cognates: el perfil, compartir, el comentario; English tech words are everywhere",
+              "vocab": [
+                "el hashtag",
+                "el perfil",
+                "la publicación",
+                "el like",
+                "subir una foto",
+                "etiquetar",
+                "el video",
+                "el filtro",
+                "compartir",
+                "el comentario",
+                "el seguidor",
+                "bloquear"
+              ],
+              "spain": {
+                "el video": "el vídeo"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s4u4",
+          "title": "Feelings",
+          "lessons": [
+            {
+              "id": "s4u4l1",
+              "title": "How I feel",
+              "grammar": "estoy + adjective = temporary mood: estoy feliz, estoy cansada (matches who speaks)",
+              "vocab": [
+                "estoy feliz",
+                "estoy triste",
+                "estoy enojado",
+                "estoy nervioso",
+                "estoy emocionado",
+                "estoy preocupado",
+                "estoy aburrido",
+                "estoy estresado",
+                "estoy confundido",
+                "estoy sorprendido",
+                "estoy orgulloso",
+                "estoy harto"
+              ],
+              "spain": {
+                "estoy enojado": "estoy enfadado"
+              }
+            },
+            {
+              "id": "s4u4l2",
+              "title": "Feeling nouns",
+              "grammar": "-dad/-ción feelings: la felicidad, la ansiedad, la emoción",
+              "vocab": [
+                "la alegría",
+                "la tristeza",
+                "el enojo",
+                "el miedo",
+                "el amor",
+                "la risa",
+                "las lágrimas",
+                "la sorpresa",
+                "la paciencia",
+                "la esperanza",
+                "la envidia",
+                "los nervios"
+              ],
+              "spain": {
+                "el enojo": "el enfado"
+              }
+            },
+            {
+              "id": "s4u4l3",
+              "title": "Reactions",
+              "grammar": "¡Qué + noun/adjective! is the all-purpose reaction: ¡Qué susto!, ¡Qué suerte!",
+              "vocab": [
+                "¡Qué bien!",
+                "¡Qué mal!",
+                "¡Qué horror!",
+                "¡Qué vergüenza!",
+                "¡No puede ser!",
+                "¡Qué susto!",
+                "¡Qué alivio!",
+                "¡Qué suerte!",
+                "¡Felicidades!",
+                "¡Ánimo!",
+                "¡Tranquilo!",
+                "¡Qué pena!"
+              ]
+            },
+            {
+              "id": "s4u4l4",
+              "title": "Being there for someone",
+              "grammar": "te extraño = I miss you (Spain: te echo de menos); no te preocupes uses the \"tú\" command",
+              "vocab": [
+                "¿Cómo te sientes?",
+                "¿Estás bien?",
+                "¿Qué te pasa?",
+                "cuéntame",
+                "estoy aquí para ti",
+                "no te preocupes",
+                "todo va a estar bien",
+                "necesito hablar",
+                "me hace falta",
+                "extraño a mi familia",
+                "te extraño",
+                "ven aquí"
+              ],
+              "spain": {
+                "extraño a mi familia": "echo de menos a mi familia",
+                "te extraño": "te echo de menos"
+              }
+            },
+            {
+              "id": "s4u4l5",
+              "title": "Personality",
+              "grammar": "-oso/-osa: celoso, curioso, perezoso; -or/-ora: trabajador, hablador",
+              "vocab": [
+                "callado",
+                "hablador",
+                "trabajador",
+                "flojo",
+                "generoso",
+                "honesto",
+                "educado",
+                "grosero",
+                "celoso",
+                "paciente",
+                "terco",
+                "valiente"
+              ],
+              "spain": {
+                "flojo": "vago"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s4u5",
+          "title": "Small talk",
+          "lessons": [
+            {
+              "id": "s4u5l1",
+              "title": "What's up?",
+              "grammar": "¿Qué onda? (Mexico), ¿Qué pasa? / ¿Qué hay? (Spain), ¿Qué más? (Colombia) all open a chat",
+              "vocab": [
+                "¿Qué onda?",
+                "¿Qué pasa?",
+                "¿Cómo va todo?",
+                "nada nuevo",
+                "aquí andamos",
+                "¿Y tú qué tal?",
+                "todo bien",
+                "¿Qué has hecho?",
+                "hace mucho que no te veo",
+                "¡Cuánto tiempo!",
+                "¡Qué gusto verte!",
+                "¿Qué cuentas?"
+              ],
+              "spain": {
+                "¿Qué onda?": "¿Qué hay?"
+              }
+            },
+            {
+              "id": "s4u5l2",
+              "title": "When I was a kid",
+              "grammar": "imperfecto = used to / was: era, tenía, vivía, iba, hacía",
+              "vocab": [
+                "era",
+                "tenía",
+                "vivía",
+                "iba",
+                "hacía",
+                "hace tiempo",
+                "de niño",
+                "cuando era niño",
+                "todos los veranos",
+                "solía",
+                "de joven",
+                "en esa época"
+              ]
+            },
+            {
+              "id": "s4u5l3",
+              "title": "Where I live & work",
+              "grammar": "trabajo en + place; estudio en + place: no article needed",
+              "vocab": [
+                "¿Eres de aquí?",
+                "soy nuevo aquí",
+                "vine por trabajo",
+                "me mudé",
+                "el barrio",
+                "¿En qué trabajas?",
+                "trabajo en",
+                "la empresa",
+                "el compañero de trabajo",
+                "la escuela",
+                "la carrera",
+                "el horario"
+              ]
+            },
+            {
+              "id": "s4u5l4",
+              "title": "Compliments & manners",
+              "grammar": "¡Que + subjunctive-like wish! as chunks: ¡Que te vaya bien!, ¡Que lo pases bien!",
+              "vocab": [
+                "te ves muy bien",
+                "¡Qué bonito!",
+                "¡Buen trabajo!",
+                "con permiso",
+                "disculpa",
+                "mil gracias",
+                "con gusto",
+                "sin problema",
+                "¡Que te vaya bien!",
+                "¡Que lo pases bien!",
+                "¡Buen viaje!",
+                "¡Cuídate!"
+              ]
+            },
+            {
+              "id": "s4u5l5",
+              "title": "Goodbyes",
+              "grammar": "¡Que descanses! / ¡Que tengas buen día! are wishes: que + a wish, no need to analyse",
+              "vocab": [
+                "¡Hasta pronto!",
+                "¡Chao!",
+                "¡Que descanses!",
+                "¡Buen fin de semana!",
+                "saludos a tu familia",
+                "dale mis saludos",
+                "¡Besos!",
+                "un abrazo",
+                "nos hablamos",
+                "nos vemos pronto",
+                "¡Que tengas buen día!",
+                "¡Cuídate mucho!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "stage5.json",
+      "id": "s5",
+      "title": "Real conversations",
+      "level": "B1",
+      "units": [
+        {
+          "id": "s5u1",
+          "title": "Telling stories",
+          "lessons": [
+            {
+              "id": "s5u1l1",
+              "title": "I was doing X when…",
+              "grammar": "Story engine: imperfecto/estaba + -ando = scene, pretérito = the interruption: estaba cenando cuando sonó el teléfono",
+              "vocab": [
+                "estaba cenando cuando",
+                "estaba durmiendo",
+                "estaba caminando",
+                "estábamos hablando",
+                "estaba trabajando",
+                "me llamó",
+                "sonó el teléfono",
+                "llegó",
+                "de pronto",
+                "íbamos manejando",
+                "pasaba por",
+                "mientras tanto"
+              ],
+              "spain": {
+                "íbamos manejando": "íbamos conduciendo"
+              }
+            },
+            {
+              "id": "s5u1l2",
+              "title": "Starting a story",
+              "grammar": "Opening moves: había una vez, un día, de repente; they signal setup vs event",
+              "vocab": [
+                "había una vez",
+                "un día",
+                "de repente",
+                "mientras",
+                "en ese momento",
+                "al principio",
+                "al final",
+                "por fin",
+                "justo cuando",
+                "sin querer",
+                "resulta que",
+                "total"
+              ]
+            },
+            {
+              "id": "s5u1l3",
+              "title": "Linking the past",
+              "grammar": "lo + adjective = the … thing: lo bueno es que, lo malo es que",
+              "vocab": [
+                "lo primero",
+                "después de eso",
+                "poco después",
+                "a la mañana siguiente",
+                "esa noche",
+                "esa vez",
+                "la primera vez",
+                "por cierto",
+                "en fin",
+                "para colmo",
+                "lo bueno es que",
+                "lo malo es que"
+              ]
+            },
+            {
+              "id": "s5u1l4",
+              "title": "Telling an anecdote",
+              "grammar": "Reaction questions keep a story alive: ¿Y qué pasó? ¿Y luego?",
+              "vocab": [
+                "me pasó algo",
+                "adivina qué",
+                "no lo vas a creer",
+                "¿Y qué pasó?",
+                "me quedé helado",
+                "no lo podía creer",
+                "me dio risa",
+                "fue un desastre",
+                "qué susto me llevé",
+                "me acuerdo",
+                "se me hizo tarde",
+                "terminó bien"
+              ]
+            },
+            {
+              "id": "s5u1l5",
+              "title": "Setting the scene",
+              "grammar": "Scene = imperfecto: era tarde, hacía frío, había mucha gente",
+              "vocab": [
+                "era tarde",
+                "eran las tres",
+                "hacía frío",
+                "llovía",
+                "había mucha gente",
+                "no había nadie",
+                "estaba oscuro",
+                "estábamos cansados",
+                "tenía hambre",
+                "olía bien",
+                "se oía música",
+                "parecía un sueño"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5u2",
+          "title": "Comparing things",
+          "lessons": [
+            {
+              "id": "s5u2l1",
+              "title": "More, less, as much",
+              "grammar": "más de + number, más que + noun: más de diez, más que tú",
+              "vocab": [
+                "más de",
+                "menos de",
+                "más que nunca",
+                "cada vez más",
+                "cada vez mejor",
+                "tanto como",
+                "tantos como",
+                "tan rápido como",
+                "igual de bueno",
+                "el doble",
+                "la mitad",
+                "mucho más"
+              ]
+            },
+            {
+              "id": "s5u2l2",
+              "title": "Same or different",
+              "grammar": "igual que / diferente de / parecido a link two things",
+              "vocab": [
+                "igual que",
+                "diferente de",
+                "parecido a",
+                "se parece a",
+                "es como",
+                "a diferencia de",
+                "en cambio",
+                "mientras que",
+                "por el contrario",
+                "lo contrario",
+                "lo mismo",
+                "ni uno ni otro"
+              ]
+            },
+            {
+              "id": "s5u2l3",
+              "title": "The most & the least",
+              "grammar": "lo más + adjective = the most … thing: lo más importante, lo más difícil",
+              "vocab": [
+                "lo mejor",
+                "lo peor",
+                "lo más importante",
+                "lo más difícil",
+                "el mejor del mundo",
+                "la más bonita",
+                "demasiado",
+                "bastante",
+                "muy",
+                "súper",
+                "tan",
+                "¡Nada que ver!"
+              ]
+            },
+            {
+              "id": "s5u2l4",
+              "title": "Which is better?",
+              "grammar": "prefiero A que B; me quedo con = I'll go with",
+              "vocab": [
+                "¿Cuál es mejor?",
+                "¿Cuál prefieres?",
+                "mi favorito",
+                "mi favorita",
+                "me gusta más",
+                "me gusta menos",
+                "prefiero… que…",
+                "me quedo con",
+                "es cuestión de gusto",
+                "depende de",
+                "en comparación con",
+                "algo parecido"
+              ]
+            },
+            {
+              "id": "s5u2l5",
+              "title": "Cultures & customs",
+              "grammar": "Cognates: la cultura, la tradición, la diferencia, la ventaja",
+              "vocab": [
+                "la costumbre",
+                "la cultura",
+                "la diferencia",
+                "la semejanza",
+                "el acento",
+                "el dialecto",
+                "la ventaja",
+                "la desventaja",
+                "la mayoría",
+                "la minoría",
+                "por un lado",
+                "por otro lado"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5u3",
+          "title": "Complaining & solving problems",
+          "lessons": [
+            {
+              "id": "s5u3l1",
+              "title": "Something's wrong",
+              "grammar": "está + participle for a result: está roto, está sucio, está descompuesto",
+              "vocab": [
+                "hay un error",
+                "está roto",
+                "está sucio",
+                "está descompuesto",
+                "hace ruido",
+                "no sirve",
+                "no llegó",
+                "tardaron mucho",
+                "me cobraron de más",
+                "esto no es lo que pedí",
+                "falta algo",
+                "no hay nada"
+              ],
+              "spain": {
+                "está descompuesto": "está estropeado"
+              }
+            },
+            {
+              "id": "s5u3l2",
+              "title": "Polite complaints",
+              "grammar": "Be firm and polite: Quisiera hablar con el gerente; ¿Podría revisar esto?",
+              "vocab": [
+                "el gerente",
+                "la queja",
+                "el reembolso",
+                "la garantía",
+                "devolver",
+                "reclamar",
+                "reparar",
+                "revisar",
+                "cambiar por otro",
+                "la devolución",
+                "el servicio",
+                "el defecto"
+              ]
+            },
+            {
+              "id": "s5u3l3",
+              "title": "I want you to…",
+              "grammar": "quiero que + subjunctive: quiero que vengas, espero que estés bien (learn each trigger as a chunk)",
+              "vocab": [
+                "quiero que vengas",
+                "quiero que me ayudes",
+                "necesito que me escuches",
+                "espero que estés bien",
+                "espero que sí",
+                "espero que no",
+                "ojalá",
+                "ojalá que sí",
+                "ojalá que no",
+                "es mejor que",
+                "¿Quieres que te ayude?",
+                "no quiero que te vayas"
+              ]
+            },
+            {
+              "id": "s5u3l4",
+              "title": "Fixing it",
+              "grammar": "enseguida / ahorita / ahora mismo: speed words differ by country, meaning \"soon-ish\"",
+              "vocab": [
+                "¿Qué podemos hacer?",
+                "vamos a arreglarlo",
+                "lo resolvemos",
+                "enseguida",
+                "en ese caso",
+                "por si acaso",
+                "de todos modos",
+                "tiene solución",
+                "me parece justo",
+                "lo siento mucho",
+                "no se preocupe",
+                "lo voy a revisar"
+              ]
+            },
+            {
+              "id": "s5u3l5",
+              "title": "Oops, it slipped",
+              "grammar": "se me + verb = it happened to me: se me perdió, se me cayó, se me acabó",
+              "vocab": [
+                "se me perdió",
+                "se me cayó",
+                "se me acabó",
+                "se me rompió",
+                "se me quedó en casa",
+                "me quedé sin batería",
+                "me quedé sin dinero",
+                "me quedé sin gasolina",
+                "me quedé encerrado",
+                "me equivoqué de dirección",
+                "me confundí",
+                "se me fue el tren"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5u4",
+          "title": "Preferences",
+          "lessons": [
+            {
+              "id": "s5u4l1",
+              "title": "Wishes & experiences",
+              "grammar": "me encantaría / preferiría + infinitive; present perfect he + participle: he vivido, nunca he probado",
+              "vocab": [
+                "me encantaría",
+                "preferiría",
+                "lo que más me gusta",
+                "lo que menos me gusta",
+                "siempre he querido",
+                "nunca he probado",
+                "ya he estado",
+                "he oído que",
+                "he vivido",
+                "he aprendido",
+                "no he decidido",
+                "todavía no he"
+              ]
+            },
+            {
+              "id": "s5u4l2",
+              "title": "Food preferences",
+              "grammar": "sin + noun = without: sin gluten, sin cebolla",
+              "vocab": [
+                "soy vegetariano",
+                "soy alérgico",
+                "no como carne",
+                "sin gluten",
+                "poco picante",
+                "bien cocido",
+                "término medio",
+                "sin cebolla",
+                "con todo",
+                "para compartir",
+                "la porción",
+                "el postre"
+              ]
+            },
+            {
+              "id": "s5u4l3",
+              "title": "When & until",
+              "grammar": "cuando + future idea takes the subjunctive: cuando llegue, cuando tenga tiempo",
+              "vocab": [
+                "cuando llegue",
+                "cuando tenga tiempo",
+                "cuando pueda",
+                "cuando termine",
+                "en cuanto pueda",
+                "hasta que llegues",
+                "apenas pueda",
+                "el día que",
+                "la próxima vez que",
+                "cuando quieras",
+                "cuando gustes",
+                "cuando sea"
+              ]
+            },
+            {
+              "id": "s5u4l4",
+              "title": "Recommendations",
+              "grammar": "te recomiendo + infinitive / que + subjunctive: te recomiendo probar, te sugiero que vayas",
+              "vocab": [
+                "te recomiendo",
+                "te sugiero",
+                "¿Qué me recomiendas?",
+                "vale la pena",
+                "no vale la pena",
+                "no te lo pierdas",
+                "imperdible",
+                "hay que ir",
+                "hay que probar",
+                "¿Qué sugieres?",
+                "de ninguna manera",
+                "lo mejor de todo"
+              ]
+            },
+            {
+              "id": "s5u4l5",
+              "title": "Deciding",
+              "grammar": "me decido por + noun; que sea + noun for \"let it be\"",
+              "vocab": [
+                "elegir",
+                "me decido por",
+                "no me decido",
+                "lo voy a pensar",
+                "ya me decidí",
+                "tú decides",
+                "como quieras",
+                "lo que tú digas",
+                "lo que sea",
+                "lo dejo a tu elección",
+                "el que quieras",
+                "cualquiera"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s5u5",
+          "title": "\"If I were…\" (condicional)",
+          "lessons": [
+            {
+              "id": "s5u5l1",
+              "title": "What would I do?",
+              "grammar": "Conditional = infinitive + -ía: sería, tendría, haría, iría",
+              "vocab": [
+                "sería",
+                "tendría",
+                "podría",
+                "haría",
+                "iría",
+                "viviría",
+                "querría",
+                "diría",
+                "compraría",
+                "viajaría",
+                "estudiaría",
+                "trabajaría"
+              ]
+            },
+            {
+              "id": "s5u5l2",
+              "title": "Polite & softened",
+              "grammar": "¿Podrías…? / ¿Podría…? soften requests; more polite than ¿Puedes…?",
+              "vocab": [
+                "¿Podrías ayudarme?",
+                "¿Podría decirme?",
+                "¿Le importaría…?",
+                "¿Te importaría…?",
+                "¿Sería posible…?",
+                "¿Tendría…?",
+                "¿Habría…?",
+                "me vendría bien",
+                "sería un placer",
+                "con mucho gusto",
+                "debería",
+                "podríamos"
+              ]
+            },
+            {
+              "id": "s5u5l3",
+              "title": "If I were / if I could",
+              "grammar": "si + imperfect subjunctive + conditional: si pudiera, viajaría (use as a chunk now)",
+              "vocab": [
+                "¿Qué harías?",
+                "yo en tu lugar",
+                "si fuera tú",
+                "si pudiera",
+                "si tuviera dinero",
+                "si tuviera tiempo",
+                "si fuera rico",
+                "ojalá pudiera",
+                "¿Y si no?",
+                "sería genial",
+                "sería mejor",
+                "no sería lo mismo"
+              ]
+            },
+            {
+              "id": "s5u5l4",
+              "title": "Dream life",
+              "grammar": "-ría endings for dreams: me mudaría, viajaría por el mundo, abriría un negocio",
+              "vocab": [
+                "me mudaría a",
+                "viajaría por el mundo",
+                "abriría un negocio",
+                "escribiría un libro",
+                "compraría una casa",
+                "ganar la lotería",
+                "mi sueño",
+                "el trabajo ideal",
+                "la vida ideal",
+                "tendría tiempo",
+                "no trabajaría",
+                "dejaría todo"
+              ]
+            },
+            {
+              "id": "s5u5l5",
+              "title": "Giving advice",
+              "grammar": "deberías / yo que tú + conditional: deberías descansar, yo que tú no iría",
+              "vocab": [
+                "deberías",
+                "yo que tú",
+                "te aconsejo",
+                "mi consejo",
+                "¿Qué me aconsejas?",
+                "no deberías",
+                "lo mejor sería",
+                "sería mejor que",
+                "más vale que",
+                "ten cuidado",
+                "cuidado con",
+                "tómatelo con calma"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "stage6.json",
+      "id": "s6",
+      "title": "Fluency",
+      "level": "B1",
+      "units": [
+        {
+          "id": "s6u1",
+          "title": "Work & study",
+          "lessons": [
+            {
+              "id": "s6u1l1",
+              "title": "Jobs & contracts",
+              "grammar": "Cognates: el contrato, el currículum, el cliente, el proyecto",
+              "vocab": [
+                "el empleo",
+                "el puesto",
+                "el sueldo",
+                "el contrato",
+                "la entrevista",
+                "el currículum",
+                "el cliente",
+                "el proyecto",
+                "el empleado",
+                "la empleada",
+                "contratar",
+                "despedir"
+              ]
+            },
+            {
+              "id": "s6u1l2",
+              "title": "At the office",
+              "grammar": "-ar verbs everywhere: imprimir, adjuntar, enviar; many office words are cognates",
+              "vocab": [
+                "la presentación",
+                "el informe",
+                "la fecha límite",
+                "el plazo",
+                "la hoja de cálculo",
+                "el archivo",
+                "imprimir",
+                "adjuntar",
+                "el trabajo remoto",
+                "trabajar desde casa",
+                "el home office",
+                "la videoconferencia"
+              ]
+            },
+            {
+              "id": "s6u1l3",
+              "title": "Studying",
+              "grammar": "aprobar vs reprobar: pass vs fail (Spain: suspender)",
+              "vocab": [
+                "aprobar",
+                "reprobar",
+                "la nota",
+                "el curso",
+                "el título",
+                "la beca",
+                "la maestría",
+                "el doctorado",
+                "la tesis",
+                "el semestre",
+                "la matrícula",
+                "la conferencia"
+              ],
+              "spain": {
+                "reprobar": "suspender"
+              }
+            },
+            {
+              "id": "s6u1l4",
+              "title": "Job talk",
+              "grammar": "me despidieron / me contrataron = they fired/hired me (impersonal they, pretérito)",
+              "vocab": [
+                "renunciar",
+                "el ascenso",
+                "el desempleo",
+                "estar sin trabajo",
+                "buscar trabajo",
+                "me despidieron",
+                "me contrataron",
+                "tengo una entrevista",
+                "la jubilación",
+                "el día libre",
+                "la chamba",
+                "chambear"
+              ],
+              "spain": {
+                "la chamba": "el curro",
+                "chambear": "currar"
+              }
+            },
+            {
+              "id": "s6u1l5",
+              "title": "Usted & formal register",
+              "grammar": "tú = friends/peers, usted = respect/formal (verb ends like él/ella); ustedes = everyone's plural in LatAm",
+              "vocab": [
+                "usted",
+                "¿Cómo está usted?",
+                "mucho gusto en conocerlo",
+                "permítame",
+                "a sus órdenes",
+                "quedo a su disposición",
+                "atentamente",
+                "estimado",
+                "cordialmente",
+                "adjunto",
+                "le agradezco",
+                "un saludo cordial"
+              ],
+              "spain": {
+                "a sus órdenes": "a su disposición"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s6u2",
+          "title": "Culture: Latin America & Spain",
+          "lessons": [
+            {
+              "id": "s6u2l1",
+              "title": "Where Spanish lives",
+              "grammar": "Country names are mostly cognates; gentilicios: mexicano, español, argentino",
+              "vocab": [
+                "México",
+                "España",
+                "Argentina",
+                "Colombia",
+                "Perú",
+                "Chile",
+                "Cuba",
+                "Venezuela",
+                "Latinoamérica",
+                "hispanohablante",
+                "el hablante",
+                "Centroamérica"
+              ]
+            },
+            {
+              "id": "s6u2l2",
+              "title": "Food & drink culture",
+              "grammar": "Dishes keep their names everywhere: el mole, el ceviche, el asado, las arepas",
+              "vocab": [
+                "el mole",
+                "el ceviche",
+                "el asado",
+                "las arepas",
+                "el mate",
+                "los churros",
+                "el flan",
+                "el gazpacho",
+                "la tortilla española",
+                "el tamal",
+                "el pozole",
+                "la sangría"
+              ]
+            },
+            {
+              "id": "s6u2l3",
+              "title": "Music & dance",
+              "grammar": "Genres are masculine/feminine by tradition: el tango, la cumbia, la bachata",
+              "vocab": [
+                "el reguetón",
+                "la cumbia",
+                "el tango",
+                "el mariachi",
+                "el flamenco",
+                "la bachata",
+                "bailar salsa",
+                "la canción",
+                "el cantante",
+                "el ritmo",
+                "la letra",
+                "el himno"
+              ]
+            },
+            {
+              "id": "s6u2l4",
+              "title": "History & symbols",
+              "grammar": "-ía / -ión nouns: la independencia, la historia, la revolución",
+              "vocab": [
+                "la historia",
+                "el siglo",
+                "la independencia",
+                "el imperio",
+                "la conquista",
+                "los aztecas",
+                "los mayas",
+                "los incas",
+                "el rey",
+                "el presidente",
+                "la bandera",
+                "la guerra"
+              ]
+            },
+            {
+              "id": "s6u2l5",
+              "title": "Football fever",
+              "grammar": "El fútbol is culture: el clásico, la Copa del Mundo, ¡golazo!",
+              "vocab": [
+                "la Copa del Mundo",
+                "el clásico",
+                "la hinchada",
+                "el campeón",
+                "el entrenador",
+                "el penal",
+                "la tarjeta roja",
+                "el empate",
+                "el golazo",
+                "la liga",
+                "el fichaje",
+                "el delantero"
+              ],
+              "spain": {
+                "el penal": "el penalti",
+                "la hinchada": "la afición"
+              }
+            }
+          ]
+        },
+        {
+          "id": "s6u3",
+          "title": "Arguing your point",
+          "lessons": [
+            {
+              "id": "s6u3l1",
+              "title": "Structuring an argument",
+              "grammar": "Connectors are your scaffolding: en primer lugar, sin embargo, por lo tanto",
+              "vocab": [
+                "en primer lugar",
+                "en segundo lugar",
+                "sin embargo",
+                "por lo tanto",
+                "en resumen",
+                "en conclusión",
+                "es decir",
+                "de hecho",
+                "en realidad",
+                "al fin y al cabo",
+                "no obstante",
+                "en definitiva"
+              ]
+            },
+            {
+              "id": "s6u3l2",
+              "title": "Disagreeing politely",
+              "grammar": "no creo que / dudo que + subjunctive; es verdad, pero… softens a no",
+              "vocab": [
+                "no estoy seguro",
+                "no estoy convencido",
+                "lo siento, pero",
+                "con todo respeto",
+                "entiendo tu punto",
+                "tienes parte de razón",
+                "no es tan sencillo",
+                "eso no es cierto",
+                "no me parece",
+                "no creo que",
+                "dudo que",
+                "es verdad, pero"
+              ]
+            },
+            {
+              "id": "s6u3l3",
+              "title": "If… then…",
+              "grammar": "si + present, present/future (si llueve, me quedo); si + imperfect subjunctive, conditional (si pudiera, iría)",
+              "vocab": [
+                "si puedo, voy",
+                "si llueve, no salgo",
+                "si quieres, vamos",
+                "si no, mejor",
+                "como si",
+                "si fuera posible",
+                "si hubiera sabido",
+                "si hubiera tenido",
+                "ojalá hubiera",
+                "de haberlo sabido",
+                "si no me equivoco",
+                "si mal no recuerdo"
+              ]
+            },
+            {
+              "id": "s6u3l4",
+              "title": "Persuading",
+              "grammar": "Imperatives of persuasion: mira, oye, piénsalo, ponte en mi lugar",
+              "vocab": [
+                "¿No crees?",
+                "¿No te parece?",
+                "piénsalo",
+                "imagina que",
+                "fíjate que",
+                "mira",
+                "oye",
+                "escucha",
+                "mira, lo que pasa es que",
+                "entiende que",
+                "ponte en mi lugar",
+                "sé honesto"
+              ]
+            },
+            {
+              "id": "s6u3l5",
+              "title": "Big topics",
+              "grammar": "Cognates: la política, la economía, la tecnología, la educación",
+              "vocab": [
+                "la política",
+                "la economía",
+                "el medio ambiente",
+                "la tecnología",
+                "la educación",
+                "la sociedad",
+                "el gobierno",
+                "la libertad",
+                "la igualdad",
+                "la crisis",
+                "la inteligencia artificial",
+                "las redes sociales"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s6u4",
+          "title": "Idioms",
+          "lessons": [
+            {
+              "id": "s6u4l1",
+              "title": "Body & everyday idioms",
+              "grammar": "Don't translate word by word: meter la pata = put your foot in it (literally \"put the paw\")",
+              "vocab": [
+                "costar un ojo de la cara",
+                "estar en las nubes",
+                "tomarle el pelo a alguien",
+                "meter la pata",
+                "ser pan comido",
+                "echar una mano",
+                "hablar por los codos",
+                "no tener pelos en la lengua",
+                "dar en el clavo",
+                "estar hecho polvo",
+                "ponerse las pilas",
+                "no pegar el ojo"
+              ]
+            },
+            {
+              "id": "s6u4l2",
+              "title": "Animals & sayings",
+              "grammar": "Spanish loves animals in idioms: estar como una cabra, ser un gallina",
+              "vocab": [
+                "llover a cántaros",
+                "estar como una cabra",
+                "ser un gallina",
+                "ser uña y carne",
+                "hacer la vista gorda",
+                "estar en la luna",
+                "a otro perro con ese hueso",
+                "dar gato por liebre",
+                "matar dos pájaros de un tiro",
+                "ser un lobo con piel de cordero",
+                "hay gato encerrado",
+                "cuando el río suena, agua lleva"
+              ]
+            },
+            {
+              "id": "s6u4l3",
+              "title": "Everyday shortcuts",
+              "grammar": "ni + noun = not even / no way: ni idea, ni hablar, ni de broma",
+              "vocab": [
+                "ni idea",
+                "ni hablar",
+                "qué va",
+                "es lo de menos",
+                "sin más ni más",
+                "a la larga",
+                "por si las dudas",
+                "de vez en cuando",
+                "cada vez que",
+                "de todas formas",
+                "no hay de qué",
+                "cuestión de tiempo"
+              ]
+            },
+            {
+              "id": "s6u4l4",
+              "title": "Exclamations",
+              "grammar": "Interjections vary by region: ¡Órale! (Mexico), ¡Venga! (Spain), ¡Dale! (Argentina)",
+              "vocab": [
+                "¡Ándale!",
+                "¡Órale!",
+                "¡Dale!",
+                "¡Venga!",
+                "¡Hombre!",
+                "¡Anda!",
+                "¡Ni de broma!",
+                "¡Ay, caray!",
+                "¡Híjole!",
+                "¡Caramba!",
+                "¡Madre mía!",
+                "¡Dios mío!"
+              ],
+              "spain": {
+                "¡Ándale!": "¡Venga!",
+                "¡Órale!": "¡Venga!",
+                "¡Híjole!": "¡Madre mía!"
+              }
+            },
+            {
+              "id": "s6u4l5",
+              "title": "Refranes (proverbs)",
+              "grammar": "Proverbs rhyme and drop verbs: a mal tiempo, buena cara; de tal palo, tal astilla",
+              "vocab": [
+                "a mal tiempo, buena cara",
+                "más vale prevenir que curar",
+                "más vale tarde que nunca",
+                "no hay mal que por bien no venga",
+                "dime con quién andas y te diré quién eres",
+                "el que busca, encuentra",
+                "de tal palo, tal astilla",
+                "la práctica hace al maestro",
+                "poco a poco se va lejos",
+                "quien mucho abarca, poco aprieta",
+                "en boca cerrada no entran moscas",
+                "ojos que no ven, corazón que no siente"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s6u5",
+          "title": "Fast natural speech",
+          "lessons": [
+            {
+              "id": "s6u5l1",
+              "title": "Contractions & clipped speech",
+              "grammar": "Fast speech clips: para → pa', está → ta', pues → pos",
+              "vocab": [
+                "pa'",
+                "pa'l",
+                "ta' bien",
+                "pos",
+                "nomás",
+                "¿mande?",
+                "¿Quihubo?",
+                "ya mero",
+                "al rato",
+                "al tiro",
+                "¿Qué hubo?",
+                "ándale pues"
+              ],
+              "spain": {
+                "¿mande?": "¿cómo?",
+                "nomás": "solo"
+              }
+            },
+            {
+              "id": "s6u5l2",
+              "title": "Reaction particles",
+              "grammar": "¿Neta? / ¿A poco? / ¿En serio? = really?; ajá = go on",
+              "vocab": [
+                "¿Cómo que no?",
+                "no inventes",
+                "no manches",
+                "¿Neta?",
+                "¿A poco?",
+                "¡Qué fuerte!",
+                "¿Sí o qué?",
+                "¿Verdad?",
+                "ajá",
+                "mmm",
+                "¡Uy!",
+                "¡Ay!"
+              ],
+              "spain": {
+                "no manches": "no fastidies",
+                "¿Neta?": "¿En serio?",
+                "¿A poco?": "¿En serio?"
+              }
+            },
+            {
+              "id": "s6u5l3",
+              "title": "Regional slang",
+              "grammar": "Know it when you hear it: the same idea has a different slang word in each country",
+              "vocab": [
+                "la lana",
+                "la plata",
+                "el pibe",
+                "el parce",
+                "el pana",
+                "el cuate",
+                "el compadre",
+                "chido",
+                "guay",
+                "bacán",
+                "chévere",
+                "padrísimo"
+              ],
+              "spain": {
+                "la lana": "la pasta",
+                "la plata": "la pasta",
+                "el cuate": "el colega",
+                "chido": "guay",
+                "padrísimo": "guay"
+              }
+            },
+            {
+              "id": "s6u5l4",
+              "title": "Voseo (Argentina & friends)",
+              "grammar": "vos replaces tú in Argentina/Uruguay: vos tenés, vos sos, ¿querés? (stress on last syllable)",
+              "vocab": [
+                "vos",
+                "vos tenés",
+                "vos sos",
+                "che",
+                "el laburo",
+                "la guita",
+                "bárbaro",
+                "re bueno",
+                "el colectivo",
+                "¿viste?",
+                "capaz",
+                "ni a palos"
+              ]
+            },
+            {
+              "id": "s6u5l5",
+              "title": "Keeping up",
+              "grammar": "Fast talkers need a safety net: ¿Me lo repites? ¿A qué te refieres?",
+              "vocab": [
+                "¿Me sigues?",
+                "¿Se entiende?",
+                "como te decía",
+                "a lo que iba",
+                "dicho de otro modo",
+                "o sea que",
+                "vamos, que",
+                "en pocas palabras",
+                "para no hacerte largo",
+                "ya me entiendes",
+                "¿A qué te refieres?",
+                "¿Me lo repites?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

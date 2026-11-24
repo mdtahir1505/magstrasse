@@ -1,0 +1,317 @@
+[
+ {
+  "id": "es-s3-st1",
+  "title": "Dani's weekend",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Lucía",
+    "target": "¡Hola, Dani! ¿Qué hiciste el fin de semana?",
+    "english": "Hi, Dani! What did you do on the weekend?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "El sábado me levanté temprano y salí con amigos.",
+    "english": "On Saturday I got up early and went out with friends."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "¿Adónde fueron?",
+    "english": "Where did you go?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "Fuimos al cine y vimos una película. Después cenamos fuera.",
+    "english": "We went to the movies and watched a movie. Then we had dinner out."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "¿Y cómo te fue?",
+    "english": "And how did it go?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "Me fue bien, me divertí mucho. ¿Y tú, qué hiciste?",
+    "english": "It went well, I had a lot of fun. And you, what did you do?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Yo me quedé en casa. Trabajé un poco y comí tacos.",
+    "english": "I stayed home. I worked a bit and ate tacos."
+   },
+   {
+    "speaker": "Dani",
+    "target": "¿Ayer no saliste?",
+    "english": "You didn't go out yesterday?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "No, anoche llamé a mi mamá y escribí mensajes.",
+    "english": "No, last night I called my mom and wrote some messages."
+   },
+   {
+    "speaker": "Dani",
+    "target": "¿Y qué pasó con tu celular? Ayer no llamaste.",
+    "english": "And what happened with your cell phone? You didn't call yesterday."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "¡Ay, se me olvidó en la cocina!",
+    "english": "Oh, I forgot it in the kitchen!"
+   }
+  ]
+ },
+ {
+  "id": "es-s3-st2",
+  "title": "Lost in Madrid",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Dani",
+    "target": "¡Lucía! Estoy en el aeropuerto. Perdí mi vuelo.",
+    "english": "Lucía! I'm at the airport. I missed my flight."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "¿Qué pasó? ¿Llegaste tarde?",
+    "english": "What happened? Did you arrive late?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "Sí. Facturé la maleta, pero hay un problema con mi pasaporte.",
+    "english": "Yes. I checked my suitcase, but there's a problem with my passport."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "¿Lo perdiste?",
+    "english": "Did you lose it?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "No, me robaron la cartera en el metro y mi pasaporte también.",
+    "english": "No, my wallet was stolen on the metro and so was my passport."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "¡Qué mal! Llama a la policía. Necesitas una denuncia.",
+    "english": "How awful! Call the police. You need a report."
+   },
+   {
+    "speaker": "Dani",
+    "target": "Ya lo hice. También voy a ir a la embajada.",
+    "english": "I already did. I'm also going to go to the embassy."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "No pasa nada. Quisiera reservar una habitación para ti en mi hotel.",
+    "english": "No problem. I would like to book a room for you at my hotel."
+   },
+   {
+    "speaker": "Dani",
+    "target": "¿Una habitación individual? Solo son dos noches.",
+    "english": "A single room? It's only two nights."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Sí, a nombre de Dani. El desayuno es gratis.",
+    "english": "Yes, under the name Dani. Breakfast is free."
+   },
+   {
+    "speaker": "Dani",
+    "target": "¡Gracias! Ahorita voy.",
+    "english": "Thanks! I'm on my way."
+   }
+  ]
+ },
+ {
+  "id": "es-s3-st3",
+  "title": "Dani is sick",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Lucía",
+    "target": "Dani, ¿qué te pasa?",
+    "english": "Dani, what's wrong?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "Estoy enfermo. Me duele la cabeza y me duele el estómago.",
+    "english": "I'm sick. I have a headache and my stomach hurts."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "¿Tienes fiebre?",
+    "english": "Do you have a fever?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "Sí, y tengo tos. Me siento muy mal.",
+    "english": "Yes, and I have a cough. I feel terrible."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Vamos a pedir cita con el médico.",
+    "english": "Let's make an appointment with the doctor."
+   },
+   {
+    "speaker": "Dani",
+    "target": "No puedo, mañana tengo una reunión. Voy a cancelarla.",
+    "english": "I can't, tomorrow I have a meeting. I'm going to cancel it."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Sí, cancela la reunión. La salud es primero.",
+    "english": "Yes, cancel the meeting. Health comes first."
+   },
+   {
+    "speaker": "Dani",
+    "target": "El médico escribió una receta. Tomo una pastilla dos veces al día.",
+    "english": "The doctor wrote a prescription. I take one pill twice a day."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "¿Con comida?",
+    "english": "With food?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "Sí, con comida. Y necesito dormir más.",
+    "english": "Yes, with food. And I need to sleep more."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Hoy descansas. Mañana te llamo para saber cómo te sientes.",
+    "english": "Today you rest. Tomorrow I'll call you to see how you feel."
+   }
+  ]
+ },
+ {
+  "id": "es-s3-st4",
+  "title": "Rainy plans",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Lucía",
+    "target": "¿Qué tiempo hace hoy? Está nublado.",
+    "english": "What's the weather like today? It's cloudy."
+   },
+   {
+    "speaker": "Dani",
+    "target": "Hace viento y va a llover. ¡Qué frío!",
+    "english": "It's windy and it's going to rain. So cold!"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Ayer hizo calor. Este clima es increíble.",
+    "english": "Yesterday it was hot. This weather is incredible."
+   },
+   {
+    "speaker": "Dani",
+    "target": "Necesito el abrigo, la bufanda y las botas.",
+    "english": "I need the coat, the scarf and the boots."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "¿Y el paraguas? Ya está lloviendo.",
+    "english": "And the umbrella? It's already raining."
+   },
+   {
+    "speaker": "Dani",
+    "target": "Estoy buscando mi paraguas, pero no lo veo.",
+    "english": "I'm looking for my umbrella, but I can't find it."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Mañana va a nevar en la montaña. ¿Te animas?",
+    "english": "Tomorrow it's going to snow in the mountains. Are you up for it?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "Me muero de frío, pero me apunto.",
+    "english": "I'm freezing to death, but count me in."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Después, en la tarde, vamos a ver los fuegos artificiales.",
+    "english": "Then, in the afternoon, we're going to see the fireworks."
+   },
+   {
+    "speaker": "Dani",
+    "target": "¿Por qué? ¿Es una tradición?",
+    "english": "Why? Is it a tradition?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Sí, celebramos el carnaval del pueblo. ¡Va a ser genial!",
+    "english": "Yes, we celebrate the town's carnival. It's going to be great!"
+   }
+  ]
+ },
+ {
+  "id": "es-s3-st5",
+  "title": "Next year",
+  "level": "A2",
+  "minutes": 3,
+  "lines": [
+   {
+    "speaker": "Dani",
+    "target": "Lucía, ¿tienes planes para el próximo año?",
+    "english": "Lucía, do you have plans for next year?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Sí, pienso viajar a México. Me gustaría ver el Día de Muertos.",
+    "english": "Yes, I plan to travel to Mexico. I'd like to see Day of the Dead."
+   },
+   {
+    "speaker": "Dani",
+    "target": "¡Qué bueno! ¿Cuándo vas a comprar el boleto?",
+    "english": "How great! When are you going to buy the ticket?"
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Dentro de una semana, por internet. ¿Quieres venir?",
+    "english": "In a week, online. Do you want to come?"
+   },
+   {
+    "speaker": "Dani",
+    "target": "Depende. Todavía no sé si puedo.",
+    "english": "It depends. I don't know yet if I can."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Tal vez la próxima semana lo piensas mejor.",
+    "english": "Maybe next week you'll think it over."
+   },
+   {
+    "speaker": "Dani",
+    "target": "Voy a pensarlo. Mi meta es mejorar mi español.",
+    "english": "I'll think about it. My goal is to improve my Spanish."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Cuenta conmigo para ayudarte. Paso por ti mañana por la mañana.",
+    "english": "Count on me to help you. I'll pick you up tomorrow morning."
+   },
+   {
+    "speaker": "Dani",
+    "target": "¿Te parece bien a las nueve? Te espero en casa.",
+    "english": "Does nine work for you? I'll wait for you at home."
+   },
+   {
+    "speaker": "Lucía",
+    "target": "Perfecto. Y avísame si te animas.",
+    "english": "Perfect. And let me know if you decide to come."
+   },
+   {
+    "speaker": "Dani",
+    "target": "Ya veremos, pero quizás voy. ¡Gracias!",
+    "english": "We'll see, but maybe I'll go. Thanks!"
+   }
+  ]
+ }
+]

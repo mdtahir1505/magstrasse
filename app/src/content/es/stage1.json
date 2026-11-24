@@ -1,0 +1,6438 @@
+{
+ "id": "s1",
+ "title": "Survival",
+ "level": "A1",
+ "units": [
+  {
+   "id": "s1u1",
+   "title": "Hello & who I am",
+   "lessons": [
+    {
+     "id": "s1u1l1",
+     "title": "¡Hola!",
+     "items": [
+      {
+       "id": "s1u1l1-hola",
+       "target": "hola",
+       "english": "hello",
+       "gender": null,
+       "emoji": "👋",
+       "cognateHint": "hola ≈ hello",
+       "example": {
+        "target": "¡Hola!",
+        "english": "Hello!"
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l1-buenos-dias",
+       "target": "buenos días",
+       "english": "good morning",
+       "gender": null,
+       "emoji": "🌅",
+       "example": {
+        "target": "¡Buenos días!",
+        "english": "Good morning!"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-buenas-tardes",
+       "target": "buenas tardes",
+       "english": "good afternoon",
+       "gender": null,
+       "emoji": "☀️",
+       "example": {
+        "target": "Buenas tardes.",
+        "english": "Good afternoon."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-buenas-noches",
+       "target": "buenas noches",
+       "english": "good evening / good night",
+       "gender": null,
+       "emoji": "🌙",
+       "cognateHint": "noches ≈ nights",
+       "example": {
+        "target": "Buenas noches.",
+        "english": "Good night."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-adios",
+       "target": "adiós",
+       "english": "bye",
+       "gender": null,
+       "emoji": "👋",
+       "cognateHint": "adiós ≈ adieu",
+       "example": {
+        "target": "¡Adiós!",
+        "english": "Bye!"
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l1-hasta-luego",
+       "target": "hasta luego",
+       "english": "see you later",
+       "gender": null,
+       "emoji": "🙋",
+       "example": {
+        "target": "Hasta luego.",
+        "english": "See you later."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-hasta-manana",
+       "target": "hasta mañana",
+       "english": "see you tomorrow",
+       "gender": null,
+       "emoji": "📅",
+       "example": {
+        "target": "Hasta mañana.",
+        "english": "See you tomorrow."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-que-tal",
+       "target": "¿Qué tal?",
+       "english": "how's it going?",
+       "gender": null,
+       "emoji": "🙂",
+       "example": {
+        "target": "¿Qué tal?",
+        "english": "How's it going?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-bien",
+       "target": "bien",
+       "english": "good / well",
+       "gender": null,
+       "emoji": "👍",
+       "example": {
+        "target": "Bien.",
+        "english": "Good."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l1-gracias",
+       "target": "gracias",
+       "english": "thanks",
+       "gender": null,
+       "emoji": "🙏",
+       "cognateHint": "gracias ≈ gratitude",
+       "example": {
+        "target": "Gracias.",
+        "english": "Thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l1-por-favor",
+       "target": "por favor",
+       "english": "please",
+       "gender": null,
+       "emoji": "🙏",
+       "cognateHint": "favor ≈ favor",
+       "example": {
+        "target": "Por favor.",
+        "english": "Please."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l1-de-nada",
+       "target": "de nada",
+       "english": "you're welcome",
+       "gender": null,
+       "emoji": "😊",
+       "example": {
+        "target": "De nada.",
+        "english": "You're welcome."
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¡Hola! ¿Qué tal?",
+       "english": "Hello! How's it going?"
+      },
+      {
+       "target": "Buenos días.",
+       "english": "Good morning."
+      },
+      {
+       "target": "Buenas tardes, gracias.",
+       "english": "Good afternoon, thanks."
+      },
+      {
+       "target": "Bien, gracias. ¡Hasta mañana!",
+       "english": "Good, thanks. See you tomorrow!"
+      },
+      {
+       "target": "Gracias. — De nada.",
+       "english": "Thanks. — You're welcome."
+      },
+      {
+       "target": "Buenas noches. ¡Adiós!",
+       "english": "Good night. Bye!"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Buenos ",
+       "after": ".",
+       "options": [
+        "noches",
+        "días",
+        "tardes"
+       ],
+       "answer": 1,
+       "english": "Good morning."
+      },
+      {
+       "before": "Gracias. — De ",
+       "after": ".",
+       "options": [
+        "luego",
+        "bien",
+        "nada"
+       ],
+       "answer": 2,
+       "english": "Thanks. — You're welcome."
+      },
+      {
+       "before": "Hasta ",
+       "after": ".",
+       "options": [
+        "mañana",
+        "bien",
+        "gracias"
+       ],
+       "answer": 0,
+       "english": "See you tomorrow."
+      },
+      {
+       "before": "Buenas ",
+       "after": ", gracias.",
+       "options": [
+        "días",
+        "tardes",
+        "bien"
+       ],
+       "answer": 1,
+       "english": "Good afternoon, thanks."
+      }
+     ],
+     "dialogue": {
+      "scene": "Saying hi to a neighbour",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¡Hola!",
+        "english": "Hello!"
+       },
+       {
+        "who": "me",
+        "target": "¡Hola! ¿Qué tal?",
+        "english": "Hello! How's it going?"
+       },
+       {
+        "who": "them",
+        "target": "Bien, gracias. Hasta luego.",
+        "english": "Good, thanks. See you later."
+       }
+      ],
+      "replyOptions": [
+       "¡Adiós!",
+       "Por favor.",
+       "Buenos días."
+      ],
+      "answer": 0
+     },
+     "tip": "Greetings follow the clock: buenos días (morning), buenas tardes (afternoon), buenas noches (night). Días is masculine, tardes and noches are feminine, so the ending changes."
+    },
+    {
+     "id": "s1u1l2",
+     "title": "Words you already know",
+     "items": [
+      {
+       "id": "s1u1l2-el-hotel",
+       "target": "el hotel",
+       "english": "hotel",
+       "gender": "m",
+       "emoji": "🏨",
+       "cognateHint": "hotel ≈ hotel",
+       "example": {
+        "target": "El hotel, por favor.",
+        "english": "The hotel, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-el-chocolate",
+       "target": "el chocolate",
+       "english": "chocolate",
+       "gender": "m",
+       "emoji": "🍫",
+       "cognateHint": "chocolate ≈ chocolate",
+       "example": {
+        "target": "El chocolate, gracias.",
+        "english": "The chocolate, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-el-restaurante",
+       "target": "el restaurante",
+       "english": "restaurant",
+       "gender": "m",
+       "emoji": "🍽️",
+       "cognateHint": "restaurante ≈ restaurant",
+       "example": {
+        "target": "El restaurante, por favor.",
+        "english": "The restaurant, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-la-musica",
+       "target": "la música",
+       "english": "music",
+       "gender": "f",
+       "emoji": "🎵",
+       "cognateHint": "música ≈ music",
+       "example": {
+        "target": "La música, ¡qué bien!",
+        "english": "The music, how nice!"
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-la-familia",
+       "target": "la familia",
+       "english": "family",
+       "gender": "f",
+       "emoji": "👨‍👩‍👧",
+       "cognateHint": "familia ≈ family",
+       "example": {
+        "target": "Hola, familia.",
+        "english": "Hello, family."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-el-taxi",
+       "target": "el taxi",
+       "english": "taxi",
+       "gender": "m",
+       "emoji": "🚕",
+       "cognateHint": "taxi ≈ taxi",
+       "example": {
+        "target": "El taxi, por favor.",
+        "english": "The taxi, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-el-banco",
+       "target": "el banco",
+       "english": "bank",
+       "gender": "m",
+       "emoji": "🏦",
+       "cognateHint": "banco ≈ bank",
+       "example": {
+        "target": "El banco, gracias.",
+        "english": "The bank, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-el-hospital",
+       "target": "el hospital",
+       "english": "hospital",
+       "gender": "m",
+       "emoji": "🏥",
+       "cognateHint": "hospital ≈ hospital",
+       "example": {
+        "target": "El hospital, por favor.",
+        "english": "The hospital, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-el-aeropuerto",
+       "target": "el aeropuerto",
+       "english": "airport",
+       "gender": "m",
+       "emoji": "✈️",
+       "cognateHint": "aeropuerto ≈ airport",
+       "example": {
+        "target": "El aeropuerto, por favor.",
+        "english": "The airport, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-el-telefono",
+       "target": "el teléfono",
+       "english": "telephone",
+       "gender": "m",
+       "emoji": "📞",
+       "cognateHint": "teléfono ≈ telephone",
+       "example": {
+        "target": "El teléfono, gracias.",
+        "english": "The phone, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-importante",
+       "target": "importante",
+       "english": "important",
+       "gender": null,
+       "emoji": "❗",
+       "cognateHint": "importante ≈ important",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l2-posible",
+       "target": "posible",
+       "english": "possible",
+       "gender": null,
+       "emoji": "🤔",
+       "cognateHint": "posible ≈ possible",
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "El hotel, por favor.",
+       "english": "The hotel, please."
+      },
+      {
+       "target": "Hola, familia. ¿Qué tal?",
+       "english": "Hi, family. How's it going?"
+      },
+      {
+       "target": "El chocolate, gracias. — De nada.",
+       "english": "The chocolate, thanks. — You're welcome."
+      },
+      {
+       "target": "El taxi, por favor.",
+       "english": "The taxi, please."
+      },
+      {
+       "target": "La música, ¡qué bien!",
+       "english": "The music, how nice!"
+      },
+      {
+       "target": "El aeropuerto, el banco, el hospital.",
+       "english": "The airport, the bank, the hospital."
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " hotel, por favor.",
+       "options": [
+        "La",
+        "El",
+        "Los"
+       ],
+       "answer": 1,
+       "english": "The hotel, please."
+      },
+      {
+       "before": "",
+       "after": " música, ¡qué bien!",
+       "options": [
+        "El",
+        "Los",
+        "La"
+       ],
+       "answer": 2,
+       "english": "The music, how nice!"
+      },
+      {
+       "before": "",
+       "after": " taxi, por favor.",
+       "options": [
+        "El",
+        "La",
+        "Las"
+       ],
+       "answer": 0,
+       "english": "The taxi, please."
+      },
+      {
+       "before": "Hola, ",
+       "after": ". ¿Qué tal?",
+       "options": [
+        "hotel",
+        "familia",
+        "banco"
+       ],
+       "answer": 1,
+       "english": "Hi, family. How's it going?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Getting a taxi",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenas tardes. ¿Qué tal?",
+        "english": "Good afternoon. How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Bien, gracias. El taxi, por favor.",
+        "english": "Good, thanks. The taxi, please."
+       },
+       {
+        "who": "them",
+        "target": "El taxi, ¡gracias!",
+        "english": "The taxi, thanks!"
+       }
+      ],
+      "replyOptions": [
+       "De nada.",
+       "Buenas noches.",
+       "El chocolate."
+      ],
+      "answer": 0
+     },
+     "tip": "Every noun is el (masculine) or la (feminine). Words ending in -o are usually el (el banco), -a usually la (la música). Learn the el/la together with the word."
+    },
+    {
+     "id": "s1u1l3",
+     "title": "Who I am",
+     "items": [
+      {
+       "id": "s1u1l3-yo",
+       "target": "yo",
+       "english": "I",
+       "gender": null,
+       "emoji": "🙋",
+       "example": {
+        "target": "Yo, ¿y tú?",
+        "english": "Me, and you?"
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-me-llamo",
+       "target": "me llamo",
+       "english": "my name is",
+       "gender": null,
+       "emoji": "🏷️",
+       "example": {
+        "target": "Me llamo Ana.",
+        "english": "My name is Ana."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-como-te-llamas",
+       "target": "¿Cómo te llamas?",
+       "english": "what's your name?",
+       "gender": null,
+       "emoji": "❓",
+       "example": {
+        "target": "¿Cómo te llamas?",
+        "english": "What's your name?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-mucho-gusto",
+       "target": "mucho gusto",
+       "english": "nice to meet you",
+       "gender": null,
+       "emoji": "🤝",
+       "example": {
+        "target": "Mucho gusto.",
+        "english": "Nice to meet you."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-encantado",
+       "target": "encantado",
+       "english": "pleased to meet you (said by a man)",
+       "gender": null,
+       "emoji": "😄",
+       "example": {
+        "target": "Encantado.",
+        "english": "Pleased to meet you."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-soy",
+       "target": "soy",
+       "english": "I am",
+       "gender": null,
+       "emoji": "🙋",
+       "example": {
+        "target": "Soy Tom.",
+        "english": "I am Tom."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-como-estas",
+       "target": "¿Cómo estás?",
+       "english": "how are you?",
+       "gender": null,
+       "emoji": "💬",
+       "example": {
+        "target": "¿Cómo estás?",
+        "english": "How are you?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-muy-bien",
+       "target": "muy bien",
+       "english": "very well",
+       "gender": null,
+       "emoji": "😁",
+       "example": {
+        "target": "Muy bien, gracias.",
+        "english": "Very well, thanks."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-asi-asi",
+       "target": "así así",
+       "english": "so-so",
+       "gender": null,
+       "emoji": "😐",
+       "example": {
+        "target": "Así así.",
+        "english": "So-so."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-y-tu",
+       "target": "¿Y tú?",
+       "english": "and you?",
+       "gender": null,
+       "emoji": "👉",
+       "example": {
+        "target": "¿Y tú?",
+        "english": "And you?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l3-perdon",
+       "target": "perdón",
+       "english": "sorry / pardon",
+       "gender": null,
+       "emoji": "🙇",
+       "cognateHint": "perdón ≈ pardon",
+       "example": {
+        "target": "Perdón.",
+        "english": "Sorry."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l3-lo-siento",
+       "target": "lo siento",
+       "english": "I'm sorry",
+       "gender": null,
+       "emoji": "😔",
+       "example": {
+        "target": "Lo siento.",
+        "english": "I'm sorry."
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Me llamo Ana.",
+       "english": "My name is Ana."
+      },
+      {
+       "target": "¿Cómo te llamas?",
+       "english": "What's your name?"
+      },
+      {
+       "target": "Yo soy Luis. Mucho gusto.",
+       "english": "I'm Luis. Nice to meet you."
+      },
+      {
+       "target": "¿Cómo estás? Muy bien, ¿y tú?",
+       "english": "How are you? Very well, and you?"
+      },
+      {
+       "target": "Así así. Gracias.",
+       "english": "So-so. Thanks."
+      },
+      {
+       "target": "Perdón, lo siento.",
+       "english": "Pardon, I'm sorry."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Me ",
+       "after": " Ana.",
+       "options": [
+        "llamas",
+        "llamo",
+        "soy"
+       ],
+       "answer": 1,
+       "english": "My name is Ana."
+      },
+      {
+       "before": "¿Cómo te ",
+       "after": "?",
+       "options": [
+        "llamo",
+        "soy",
+        "llamas"
+       ],
+       "answer": 2,
+       "english": "What's your name?"
+      },
+      {
+       "before": "Yo ",
+       "after": " Tom.",
+       "options": [
+        "soy",
+        "eres",
+        "llamo"
+       ],
+       "answer": 0,
+       "english": "I am Tom."
+      },
+      {
+       "before": "Mucho ",
+       "after": ".",
+       "options": [
+        "gracias",
+        "gusto",
+        "bien"
+       ],
+       "answer": 1,
+       "english": "Nice to meet you."
+      }
+     ],
+     "dialogue": {
+      "scene": "Meeting someone new",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¡Hola! ¿Cómo te llamas?",
+        "english": "Hi! What's your name?"
+       },
+       {
+        "who": "me",
+        "target": "Me llamo Tom. ¿Y tú?",
+        "english": "My name is Tom. And you?"
+       },
+       {
+        "who": "them",
+        "target": "Me llamo Ana. Mucho gusto.",
+        "english": "My name is Ana. Nice to meet you."
+       }
+      ],
+      "replyOptions": [
+       "Mucho gusto, Ana.",
+       "De nada.",
+       "Hasta mañana."
+      ],
+      "answer": 0
+     },
+     "tip": "me llamo = \"I'm called\" (your name); soy = \"I am\". The yo is optional: Soy Tom = Yo soy Tom. A man says encantado, a woman says encantada."
+    },
+    {
+     "id": "s1u1l4",
+     "title": "Where I'm from",
+     "items": [
+      {
+       "id": "s1u1l4-de-donde-eres",
+       "target": "¿De dónde eres?",
+       "english": "where are you from?",
+       "gender": null,
+       "emoji": "🌍",
+       "example": {
+        "target": "¿De dónde eres?",
+        "english": "Where are you from?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-soy-de-inglaterra",
+       "target": "Soy de Inglaterra",
+       "english": "I'm from England",
+       "gender": null,
+       "emoji": "🇬🇧",
+       "example": {
+        "target": "Soy de Inglaterra.",
+        "english": "I'm from England."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-el-pais",
+       "target": "el país",
+       "english": "country",
+       "gender": "m",
+       "emoji": "🗺️",
+       "cognateHint": "país ≈ pays",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l4-la-ciudad",
+       "target": "la ciudad",
+       "english": "city",
+       "gender": "f",
+       "emoji": "🏙️",
+       "cognateHint": "ciudad ≈ city",
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l4-hablo-ingles",
+       "target": "hablo inglés",
+       "english": "I speak English",
+       "gender": null,
+       "emoji": "🗣️",
+       "cognateHint": "inglés ≈ English",
+       "example": {
+        "target": "Hablo inglés.",
+        "english": "I speak English."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-un-poco",
+       "target": "un poco",
+       "english": "a little",
+       "gender": null,
+       "emoji": "🤏",
+       "example": {
+        "target": "Un poco.",
+        "english": "A little."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-hablas-espanol",
+       "target": "¿Hablas español?",
+       "english": "do you speak Spanish?",
+       "gender": null,
+       "emoji": "🇪🇸",
+       "cognateHint": "español ≈ Spanish",
+       "example": {
+        "target": "¿Hablas español?",
+        "english": "Do you speak Spanish?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-no-entiendo",
+       "target": "no entiendo",
+       "english": "I don't understand",
+       "gender": null,
+       "emoji": "🤷",
+       "example": {
+        "target": "No entiendo.",
+        "english": "I don't understand."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-como-se-dice",
+       "target": "¿Cómo se dice…?",
+       "english": "how do you say…?",
+       "gender": null,
+       "emoji": "💭",
+       "example": {
+        "target": "¿Cómo se dice «hotel»?",
+        "english": "How do you say \"hotel\"?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-mas-despacio",
+       "target": "más despacio",
+       "english": "slower",
+       "gender": null,
+       "emoji": "🐢",
+       "example": {
+        "target": "Más despacio.",
+        "english": "Slower."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-otra-vez-por-favor",
+       "target": "otra vez, por favor",
+       "english": "once more, please",
+       "gender": null,
+       "emoji": "🔁",
+       "example": {
+        "target": "Otra vez, por favor.",
+        "english": "Once more, please."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l4-que-significa",
+       "target": "¿Qué significa…?",
+       "english": "what does … mean?",
+       "gender": null,
+       "emoji": "❔",
+       "cognateHint": "significa ≈ signifies",
+       "example": {
+        "target": "¿Qué significa «país»?",
+        "english": "What does \"país\" mean?"
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿De dónde eres?",
+       "english": "Where are you from?"
+      },
+      {
+       "target": "Soy de Inglaterra. Hablo inglés.",
+       "english": "I'm from England. I speak English."
+      },
+      {
+       "target": "¿Hablas español? — Un poco.",
+       "english": "Do you speak Spanish? — A little."
+      },
+      {
+       "target": "No entiendo. Más despacio, por favor.",
+       "english": "I don't understand. Slower, please."
+      },
+      {
+       "target": "Otra vez, por favor. ¿Qué significa «ciudad»?",
+       "english": "Once more, please. What does \"ciudad\" mean?"
+      },
+      {
+       "target": "¿Cómo se dice «city»? — La ciudad.",
+       "english": "How do you say \"city\"? — La ciudad."
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿De ",
+       "after": " eres?",
+       "options": [
+        "cómo",
+        "dónde",
+        "qué"
+       ],
+       "answer": 1,
+       "english": "Where are you from?"
+      },
+      {
+       "before": "Soy ",
+       "after": " Inglaterra.",
+       "options": [
+        "el",
+        "y",
+        "de"
+       ],
+       "answer": 2,
+       "english": "I'm from England."
+      },
+      {
+       "before": "Hablo un ",
+       "after": ".",
+       "options": [
+        "poco",
+        "bien",
+        "país"
+       ],
+       "answer": 0,
+       "english": "I speak a little."
+      },
+      {
+       "before": "¿",
+       "after": " español?",
+       "options": [
+        "Hablo",
+        "Hablas",
+        "Eres"
+       ],
+       "answer": 1,
+       "english": "Do you speak Spanish?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Chatting with a stranger",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¡Hola! ¿De dónde eres?",
+        "english": "Hi! Where are you from?"
+       },
+       {
+        "who": "me",
+        "target": "Soy de Inglaterra. ¿Y tú?",
+        "english": "I'm from England. And you?"
+       },
+       {
+        "who": "them",
+        "target": "Soy de España. ¿Hablas español?",
+        "english": "I'm from Spain. Do you speak Spanish?"
+       }
+      ],
+      "replyOptions": [
+       "Un poco. Más despacio, por favor.",
+       "Me llamo Ana.",
+       "De nada."
+      ],
+      "answer": 0
+     },
+     "tip": "Soy de + place = \"I'm from\"; hablo + language = \"I speak\". The verb ending shows who: hablo (I speak), hablas (you speak)."
+    },
+    {
+     "id": "s1u1l5",
+     "title": "Yes, no, maybe",
+     "items": [
+      {
+       "id": "s1u1l5-si",
+       "target": "sí",
+       "english": "yes",
+       "gender": null,
+       "emoji": "✅",
+       "example": {
+        "target": "Sí, claro.",
+        "english": "Yes, of course."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-no",
+       "target": "no",
+       "english": "no",
+       "gender": null,
+       "emoji": "❌",
+       "example": {
+        "target": "No, gracias.",
+        "english": "No, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-tal-vez",
+       "target": "tal vez",
+       "english": "maybe",
+       "gender": null,
+       "emoji": "🤷",
+       "example": {
+        "target": "Tal vez.",
+        "english": "Maybe."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-claro",
+       "target": "claro",
+       "english": "of course",
+       "gender": null,
+       "emoji": "👌",
+       "example": {
+        "target": "¡Claro!",
+        "english": "Of course!"
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u1l5-por-supuesto",
+       "target": "por supuesto",
+       "english": "of course (formal)",
+       "gender": null,
+       "emoji": "💯",
+       "example": {
+        "target": "Por supuesto.",
+        "english": "Of course."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-esta-bien",
+       "target": "está bien",
+       "english": "it's fine / OK",
+       "gender": null,
+       "emoji": "👍",
+       "example": {
+        "target": "Está bien.",
+        "english": "It's fine."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-no-pasa-nada",
+       "target": "no pasa nada",
+       "english": "no worries",
+       "gender": null,
+       "emoji": "😌",
+       "example": {
+        "target": "No pasa nada.",
+        "english": "No worries."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-no-se",
+       "target": "no sé",
+       "english": "I don't know",
+       "gender": null,
+       "emoji": "🤷",
+       "example": {
+        "target": "No sé.",
+        "english": "I don't know."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-que",
+       "target": "¿Qué?",
+       "english": "what?",
+       "gender": null,
+       "emoji": "❓",
+       "example": {
+        "target": "¿Qué?",
+        "english": "What?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-como",
+       "target": "¿Cómo?",
+       "english": "what? / pardon?",
+       "gender": null,
+       "emoji": "👂",
+       "example": {
+        "target": "¿Cómo?",
+        "english": "Pardon?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-por-que",
+       "target": "¿Por qué?",
+       "english": "why?",
+       "gender": null,
+       "emoji": "🤔",
+       "example": {
+        "target": "¿Por qué?",
+        "english": "Why?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u1l5-ok",
+       "target": "ok",
+       "english": "OK",
+       "gender": null,
+       "emoji": "🆗",
+       "cognateHint": "ok ≈ OK",
+       "example": {
+        "target": "¿Ok? Está bien.",
+        "english": "OK? Fine.",
+        "spain": "¿Vale? Está bien."
+       },
+       "kind": "word",
+       "spain": "vale"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Hablas inglés? — Sí, claro.",
+       "english": "Do you speak English? — Yes, of course."
+      },
+      {
+       "target": "No, no sé.",
+       "english": "No, I don't know."
+      },
+      {
+       "target": "Tal vez. Está bien.",
+       "english": "Maybe. It's fine."
+      },
+      {
+       "target": "Perdón. — No pasa nada.",
+       "english": "Sorry. — No worries."
+      },
+      {
+       "target": "¿Por qué? No sé.",
+       "english": "Why? I don't know."
+      },
+      {
+       "target": "¿Ok? Por supuesto.",
+       "english": "OK? Of course.",
+       "spain": "¿Vale? Por supuesto."
+      }
+     ],
+     "fills": [
+      {
+       "before": "No pasa ",
+       "after": ".",
+       "options": [
+        "luego",
+        "nada",
+        "mañana"
+       ],
+       "answer": 1,
+       "english": "No worries."
+      },
+      {
+       "before": "No ",
+       "after": ".",
+       "options": [
+        "soy",
+        "pasa",
+        "sé"
+       ],
+       "answer": 2,
+       "english": "I don't know."
+      },
+      {
+       "before": "Tal ",
+       "after": ".",
+       "options": [
+        "vez",
+        "bien",
+        "gusto"
+       ],
+       "answer": 0,
+       "english": "Maybe."
+      },
+      {
+       "before": "Por ",
+       "after": ".",
+       "options": [
+        "qué",
+        "supuesto",
+        "tal"
+       ],
+       "answer": 1,
+       "english": "Of course."
+      }
+     ],
+     "dialogue": {
+      "scene": "Asking a stranger",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Perdón, ¿hablas inglés?",
+        "english": "Excuse me, do you speak English?"
+       },
+       {
+        "who": "me",
+        "target": "Sí, claro.",
+        "english": "Yes, of course."
+       },
+       {
+        "who": "them",
+        "target": "Gracias. Lo siento.",
+        "english": "Thanks. Sorry."
+       }
+      ],
+      "replyOptions": [
+       "No pasa nada.",
+       "Tal vez.",
+       "Por supuesto."
+      ],
+      "answer": 0
+     },
+     "tip": "Keep short answers in your pocket: sí, no, claro, está bien. No pasa nada = \"nothing happens\" = no worries. ¿Qué? / ¿Cómo? are your \"pardon?\" when you miss something."
+    }
+   ]
+  },
+  {
+   "id": "s1u2",
+   "title": "Ordering food & drink",
+   "lessons": [
+    {
+     "id": "s1u2l1",
+     "title": "Coffee & drinks",
+     "items": [
+      {
+       "id": "s1u2l1-el-agua",
+       "target": "el agua",
+       "english": "water",
+       "gender": "f",
+       "emoji": "💧",
+       "cognateHint": "agua ≈ aqua",
+       "example": {
+        "target": "El agua, por favor.",
+        "english": "The water, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-el-cafe",
+       "target": "el café",
+       "english": "coffee",
+       "gender": "m",
+       "emoji": "☕",
+       "example": {
+        "target": "El café, por favor.",
+        "english": "The coffee, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-el-te",
+       "target": "el té",
+       "english": "tea",
+       "gender": "m",
+       "emoji": "🍵",
+       "example": {
+        "target": "El té con leche.",
+        "english": "Tea with milk."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-la-leche",
+       "target": "la leche",
+       "english": "milk",
+       "gender": "f",
+       "emoji": "🥛",
+       "example": {
+        "target": "La leche, gracias.",
+        "english": "The milk, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-el-jugo",
+       "target": "el jugo",
+       "english": "juice",
+       "gender": "m",
+       "emoji": "🧃",
+       "example": {
+        "target": "El jugo, por favor.",
+        "english": "The juice, please.",
+        "spain": "El zumo, por favor."
+       },
+       "kind": "word",
+       "spain": "el zumo"
+      },
+      {
+       "id": "s1u2l1-la-cerveza",
+       "target": "la cerveza",
+       "english": "beer",
+       "gender": "f",
+       "emoji": "🍺",
+       "example": {
+        "target": "La cerveza, por favor.",
+        "english": "The beer, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-el-vino",
+       "target": "el vino",
+       "english": "wine",
+       "gender": "m",
+       "emoji": "🍷",
+       "cognateHint": "vino ≈ wine",
+       "example": {
+        "target": "El vino, gracias.",
+        "english": "The wine, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-el-vaso",
+       "target": "el vaso",
+       "english": "glass",
+       "gender": "m",
+       "emoji": "🥃",
+       "cognateHint": "vaso ≈ vase (a container)",
+       "example": {
+        "target": "El vaso, por favor.",
+        "english": "The glass, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-la-taza",
+       "target": "la taza",
+       "english": "cup",
+       "gender": "f",
+       "emoji": "☕",
+       "cognateHint": "taza ≈ tazza",
+       "example": {
+        "target": "La taza, gracias.",
+        "english": "The cup, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-con",
+       "target": "con",
+       "english": "with",
+       "gender": null,
+       "emoji": "➕",
+       "example": {
+        "target": "Café con leche.",
+        "english": "Coffee with milk."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-sin",
+       "target": "sin",
+       "english": "without",
+       "gender": null,
+       "emoji": "➖",
+       "example": {
+        "target": "Agua sin hielo.",
+        "english": "Water without ice."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l1-el-hielo",
+       "target": "el hielo",
+       "english": "ice",
+       "gender": "m",
+       "emoji": "🧊",
+       "example": {
+        "target": "El hielo, por favor.",
+        "english": "The ice, please."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "El café con leche, por favor.",
+       "english": "The coffee with milk, please."
+      },
+      {
+       "target": "El agua sin hielo, gracias.",
+       "english": "The water without ice, thanks."
+      },
+      {
+       "target": "El té, por favor. ¿Con leche?",
+       "english": "The tea, please. With milk?"
+      },
+      {
+       "target": "El jugo, ¿con hielo?",
+       "english": "The juice, with ice?",
+       "spain": "El zumo, ¿con hielo?"
+      },
+      {
+       "target": "La cerveza y el vino, por favor.",
+       "english": "The beer and the wine, please."
+      },
+      {
+       "target": "Soy Tom. El vaso, por favor.",
+       "english": "I'm Tom. The glass, please."
+      }
+     ],
+     "fills": [
+      {
+       "before": "El café ",
+       "after": " leche.",
+       "options": [
+        "sin",
+        "con",
+        "de"
+       ],
+       "answer": 1,
+       "english": "The coffee with milk."
+      },
+      {
+       "before": "El agua ",
+       "after": " hielo.",
+       "options": [
+        "con",
+        "de",
+        "sin"
+       ],
+       "answer": 2,
+       "english": "The water without ice."
+      },
+      {
+       "before": "",
+       "after": " leche, por favor.",
+       "options": [
+        "La",
+        "El",
+        "Los"
+       ],
+       "answer": 0,
+       "english": "The milk, please."
+      },
+      {
+       "before": "El jugo ",
+       "after": " hielo, por favor.",
+       "options": [
+        "con",
+        "sin",
+        "de"
+       ],
+       "answer": 1,
+       "english": "The juice without ice, please.",
+       "spain": {
+        "before": "El zumo "
+       }
+      }
+     ],
+     "dialogue": {
+      "scene": "Ordering a drink",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenos días. ¿Qué tal?",
+        "english": "Good morning. How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Bien, gracias. El café, por favor.",
+        "english": "Good, thanks. The coffee, please."
+       },
+       {
+        "who": "them",
+        "target": "¿Con leche?",
+        "english": "With milk?"
+       }
+      ],
+      "replyOptions": [
+       "Sí, con leche.",
+       "De nada.",
+       "Hasta luego."
+      ],
+      "answer": 0
+     },
+     "tip": "con = with, sin = without: café con leche, agua sin hielo. Careful: el agua is feminine even though it says el (la agua would sound clumsy)."
+    },
+    {
+     "id": "s1u2l2",
+     "title": "Food basics",
+     "items": [
+      {
+       "id": "s1u2l2-el-pan",
+       "target": "el pan",
+       "english": "bread",
+       "gender": "m",
+       "emoji": "🍞",
+       "example": {
+        "target": "El pan, por favor.",
+        "english": "The bread, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-el-queso",
+       "target": "el queso",
+       "english": "cheese",
+       "gender": "m",
+       "emoji": "🧀",
+       "example": {
+        "target": "La pizza con queso.",
+        "english": "Pizza with cheese."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-el-huevo",
+       "target": "el huevo",
+       "english": "egg",
+       "gender": "m",
+       "emoji": "🥚",
+       "example": {
+        "target": "El huevo, por favor.",
+        "english": "The egg, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-la-sopa",
+       "target": "la sopa",
+       "english": "soup",
+       "gender": "f",
+       "emoji": "🍲",
+       "cognateHint": "sopa ≈ soup",
+       "example": {
+        "target": "La sopa, gracias.",
+        "english": "The soup, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-la-ensalada",
+       "target": "la ensalada",
+       "english": "salad",
+       "gender": "f",
+       "emoji": "🥗",
+       "cognateHint": "ensalada ≈ salad",
+       "example": {
+        "target": "La ensalada, por favor.",
+        "english": "The salad, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-la-pizza",
+       "target": "la pizza",
+       "english": "pizza",
+       "gender": "f",
+       "emoji": "🍕",
+       "cognateHint": "pizza ≈ pizza",
+       "example": {
+        "target": "La pizza, gracias.",
+        "english": "The pizza, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-la-fruta",
+       "target": "la fruta",
+       "english": "fruit",
+       "gender": "f",
+       "emoji": "🍎",
+       "cognateHint": "fruta ≈ fruit",
+       "example": {
+        "target": "La fruta, por favor.",
+        "english": "The fruit, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-la-carne",
+       "target": "la carne",
+       "english": "meat",
+       "gender": "f",
+       "emoji": "🥩",
+       "cognateHint": "carne ≈ carnivore",
+       "example": {
+        "target": "La carne, gracias.",
+        "english": "The meat, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-el-pollo",
+       "target": "el pollo",
+       "english": "chicken",
+       "gender": "m",
+       "emoji": "🍗",
+       "example": {
+        "target": "El pollo con arroz.",
+        "english": "Chicken with rice."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-el-pescado",
+       "target": "el pescado",
+       "english": "fish",
+       "gender": "m",
+       "emoji": "🐟",
+       "example": {
+        "target": "El pescado, por favor.",
+        "english": "The fish, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-el-arroz",
+       "target": "el arroz",
+       "english": "rice",
+       "gender": "m",
+       "emoji": "🍚",
+       "example": {
+        "target": "El arroz, por favor.",
+        "english": "The rice, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l2-la-pasta",
+       "target": "la pasta",
+       "english": "pasta",
+       "gender": "f",
+       "emoji": "🍝",
+       "cognateHint": "pasta ≈ pasta",
+       "example": {
+        "target": "La pasta, gracias.",
+        "english": "The pasta, thanks."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "La pizza con queso, por favor.",
+       "english": "The pizza with cheese, please."
+      },
+      {
+       "target": "La sopa, gracias.",
+       "english": "The soup, thanks."
+      },
+      {
+       "target": "El pan con queso.",
+       "english": "Bread with cheese."
+      },
+      {
+       "target": "El pollo con arroz, por favor.",
+       "english": "The chicken with rice, please."
+      },
+      {
+       "target": "La ensalada sin pollo.",
+       "english": "The salad without chicken."
+      },
+      {
+       "target": "El café con leche y el pan, por favor.",
+       "english": "The coffee with milk and the bread, please."
+      }
+     ],
+     "fills": [
+      {
+       "before": "La pizza ",
+       "after": " queso.",
+       "options": [
+        "sin",
+        "con",
+        "de"
+       ],
+       "answer": 1,
+       "english": "The pizza with cheese."
+      },
+      {
+       "before": "El ",
+       "after": " con queso.",
+       "options": [
+        "pizza",
+        "sopa",
+        "pan"
+       ],
+       "answer": 2,
+       "english": "The bread with cheese."
+      },
+      {
+       "before": "",
+       "after": " ensalada, por favor.",
+       "options": [
+        "La",
+        "El",
+        "Los"
+       ],
+       "answer": 0,
+       "english": "The salad, please."
+      },
+      {
+       "before": "El pescado ",
+       "after": " arroz.",
+       "options": [
+        "sin",
+        "con",
+        "de"
+       ],
+       "answer": 1,
+       "english": "The fish with rice."
+      }
+     ],
+     "dialogue": {
+      "scene": "At a lunch counter",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenas tardes. ¿Qué tal?",
+        "english": "Good afternoon. How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Bien, gracias. La sopa, por favor.",
+        "english": "Good, thanks. The soup, please."
+       },
+       {
+        "who": "them",
+        "target": "La sopa, ¿con pan?",
+        "english": "The soup, with bread?"
+       }
+      ],
+      "replyOptions": [
+       "Sí, con pan.",
+       "Hasta luego.",
+       "De nada."
+      ],
+      "answer": 0
+     },
+     "tip": "Cognates are free: la sopa, la ensalada, la pizza, la fruta, la pasta are almost English. Always learn the el/la with the word."
+    },
+    {
+     "id": "s1u2l3",
+     "title": "I'd like…",
+     "items": [
+      {
+       "id": "s1u2l3-quiero",
+       "target": "quiero",
+       "english": "I want",
+       "gender": null,
+       "emoji": "🙋",
+       "example": {
+        "target": "Quiero el café.",
+        "english": "I want the coffee."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-quisiera",
+       "target": "quisiera",
+       "english": "I'd like (polite)",
+       "gender": null,
+       "emoji": "🙏",
+       "example": {
+        "target": "Quisiera la sopa.",
+        "english": "I'd like the soup."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l3-me-das",
+       "target": "¿Me das…?",
+       "english": "can I have…? (give me…)",
+       "gender": null,
+       "emoji": "🤲",
+       "example": {
+        "target": "¿Me das el agua, por favor?",
+        "english": "Can I have the water, please?",
+        "spain": "¿Me pones el agua, por favor?"
+       },
+       "kind": "phrase",
+       "spain": "¿Me pones…?"
+      },
+      {
+       "id": "s1u2l3-me-pones",
+       "target": "¿Me pones…?",
+       "english": "can I have…? (put me…)",
+       "gender": null,
+       "emoji": "🤲",
+       "example": {
+        "target": "¿Me pones el café?",
+        "english": "Can I have the coffee?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l3-para-mi-por-favor",
+       "target": "para mí, por favor",
+       "english": "for me, please",
+       "gender": null,
+       "emoji": "👆",
+       "example": {
+        "target": "Para mí, la pizza, por favor.",
+        "english": "For me, the pizza, please."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l3-el-menu",
+       "target": "el menú",
+       "english": "the menu",
+       "gender": "m",
+       "emoji": "📋",
+       "cognateHint": "menú ≈ menu",
+       "example": {
+        "target": "El menú, por favor.",
+        "english": "The menu, please.",
+        "spain": "La carta, por favor."
+       },
+       "kind": "word",
+       "spain": "la carta"
+      },
+      {
+       "id": "s1u2l3-la-cuenta-por-favor",
+       "target": "la cuenta, por favor",
+       "english": "the bill, please",
+       "gender": null,
+       "emoji": "🧾",
+       "example": {
+        "target": "La cuenta, por favor.",
+        "english": "The bill, please."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l3-que-tiene",
+       "target": "¿Qué tiene?",
+       "english": "what do you have?",
+       "gender": null,
+       "emoji": "❓",
+       "example": {
+        "target": "¿Qué tiene?",
+        "english": "What do you have?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l3-que-recomienda",
+       "target": "¿Qué recomienda?",
+       "english": "what do you recommend?",
+       "gender": null,
+       "emoji": "⭐",
+       "cognateHint": "recomienda ≈ recommend",
+       "example": {
+        "target": "¿Qué recomienda?",
+        "english": "What do you recommend?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l3-nada-mas",
+       "target": "nada más",
+       "english": "nothing else",
+       "gender": null,
+       "emoji": "🙅",
+       "example": {
+        "target": "Nada más, gracias.",
+        "english": "Nothing else, thanks."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l3-para-llevar",
+       "target": "para llevar",
+       "english": "to go / takeaway",
+       "gender": null,
+       "emoji": "🥡",
+       "example": {
+        "target": "Para llevar, por favor.",
+        "english": "To go, please."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l3-algo-mas",
+       "target": "algo más",
+       "english": "anything else?",
+       "gender": null,
+       "emoji": "➕",
+       "example": {
+        "target": "¿Algo más?",
+        "english": "Anything else?"
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Quiero el café, por favor.",
+       "english": "I want the coffee, please."
+      },
+      {
+       "target": "Quisiera la sopa, gracias.",
+       "english": "I'd like the soup, thanks."
+      },
+      {
+       "target": "¿Me das el agua, por favor?",
+       "english": "Can I have the water, please?",
+       "spain": "¿Me pones el agua, por favor?"
+      },
+      {
+       "target": "El menú, por favor. ¿Qué recomienda?",
+       "english": "The menu, please. What do you recommend?",
+       "spain": "La carta, por favor. ¿Qué recomienda?"
+      },
+      {
+       "target": "Para mí, la pizza para llevar. Nada más.",
+       "english": "For me, the pizza to go. Nothing else."
+      },
+      {
+       "target": "¿Algo más? — No, la cuenta, por favor.",
+       "english": "Anything else? — No, the bill, please."
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " el café, por favor.",
+       "options": [
+        "Hablo",
+        "Quiero",
+        "Soy"
+       ],
+       "answer": 1,
+       "english": "I want the coffee, please."
+      },
+      {
+       "before": "¿Me ",
+       "after": " el agua, por favor?",
+       "options": [
+        "quiero",
+        "soy",
+        "das"
+       ],
+       "answer": 2,
+       "english": "Can I have the water, please?",
+       "spain": {
+        "options": [
+         "quiero",
+         "soy",
+         "pones"
+        ]
+       }
+      },
+      {
+       "before": "Nada ",
+       "after": ".",
+       "options": [
+        "más",
+        "menú",
+        "leche"
+       ],
+       "answer": 0,
+       "english": "Nothing else."
+      },
+      {
+       "before": "Para ",
+       "after": ", la pizza.",
+       "options": [
+        "yo",
+        "mí",
+        "tú"
+       ],
+       "answer": 1,
+       "english": "For me, the pizza."
+      }
+     ],
+     "dialogue": {
+      "scene": "At a restaurant",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenas tardes. ¿Qué tal?",
+        "english": "Good afternoon. How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Bien, gracias. ¿Qué recomienda?",
+        "english": "Good, thanks. What do you recommend?"
+       },
+       {
+        "who": "them",
+        "target": "La pizza con queso. ¿Algo más?",
+        "english": "The pizza with cheese. Anything else?"
+       }
+      ],
+      "replyOptions": [
+       "Nada más, gracias.",
+       "De nada.",
+       "Me llamo Tom."
+      ],
+      "answer": 0
+     },
+     "tip": "Quiero = \"I want\" (direct), quisiera = \"I'd like\" (polite). To ask in a bar or shop: ¿Me das…? in Latin America, ¿Me pones…? in Spain."
+    },
+    {
+     "id": "s1u2l4",
+     "title": "Tapas & tacos",
+     "items": [
+      {
+       "id": "s1u2l4-los-tacos",
+       "target": "los tacos",
+       "english": "tacos",
+       "gender": "m",
+       "emoji": "🌮",
+       "example": {
+        "target": "Los tacos, por favor.",
+        "english": "The tacos, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-las-tapas",
+       "target": "las tapas",
+       "english": "tapas (small plates)",
+       "gender": "f",
+       "emoji": "🍢",
+       "example": {
+        "target": "Quiero las tapas.",
+        "english": "I want the tapas."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-la-tortilla",
+       "target": "la tortilla",
+       "english": "omelette / flat bread",
+       "gender": "f",
+       "emoji": "🍳",
+       "example": {
+        "target": "La tortilla, por favor.",
+        "english": "The tortilla, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-el-guacamole",
+       "target": "el guacamole",
+       "english": "guacamole",
+       "gender": "m",
+       "emoji": "🥑",
+       "example": {
+        "target": "El guacamole, gracias.",
+        "english": "The guacamole, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-la-salsa",
+       "target": "la salsa",
+       "english": "sauce / salsa",
+       "gender": "f",
+       "emoji": "🌶️",
+       "cognateHint": "salsa ≈ salsa",
+       "example": {
+        "target": "La salsa, por favor.",
+        "english": "The salsa, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-picante",
+       "target": "picante",
+       "english": "spicy",
+       "gender": null,
+       "emoji": "🔥",
+       "example": {
+        "target": "La salsa picante.",
+        "english": "The spicy salsa."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-la-empanada",
+       "target": "la empanada",
+       "english": "turnover / pasty",
+       "gender": "f",
+       "emoji": "🥟",
+       "example": {
+        "target": "La empanada, gracias.",
+        "english": "The empanada, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-las-papas-fritas",
+       "target": "las papas fritas",
+       "english": "french fries",
+       "gender": "f",
+       "emoji": "🍟",
+       "example": {
+        "target": "Quisiera las papas fritas.",
+        "english": "I'd like the fries.",
+        "spain": "Quisiera las patatas fritas."
+       },
+       "kind": "word",
+       "spain": "las patatas fritas"
+      },
+      {
+       "id": "s1u2l4-el-jamon",
+       "target": "el jamón",
+       "english": "ham",
+       "gender": "m",
+       "emoji": "🥓",
+       "example": {
+        "target": "El jamón, por favor.",
+        "english": "The ham, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-las-aceitunas",
+       "target": "las aceitunas",
+       "english": "olives",
+       "gender": "f",
+       "emoji": "🫒",
+       "cognateHint": "aceitunas ≈ olives",
+       "example": {
+        "target": "Las aceitunas, gracias.",
+        "english": "The olives, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-el-chorizo",
+       "target": "el chorizo",
+       "english": "chorizo (spicy sausage)",
+       "gender": "m",
+       "emoji": "🌭",
+       "cognateHint": "chorizo ≈ chorizo",
+       "example": {
+        "target": "El chorizo, por favor.",
+        "english": "The chorizo, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l4-la-paella",
+       "target": "la paella",
+       "english": "paella (rice dish)",
+       "gender": "f",
+       "emoji": "🥘",
+       "cognateHint": "paella ≈ paella",
+       "example": {
+        "target": "La paella, gracias.",
+        "english": "The paella, thanks."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Los tacos, por favor.",
+       "english": "The tacos, please."
+      },
+      {
+       "target": "Quiero las tapas.",
+       "english": "I want the tapas."
+      },
+      {
+       "target": "La salsa picante, por favor.",
+       "english": "The spicy salsa, please."
+      },
+      {
+       "target": "Quisiera las papas fritas.",
+       "english": "I'd like the fries.",
+       "spain": "Quisiera las patatas fritas."
+      },
+      {
+       "target": "El jamón y el chorizo, gracias.",
+       "english": "The ham and the chorizo, thanks."
+      },
+      {
+       "target": "Para mí, la paella y las aceitunas.",
+       "english": "For me, the paella and the olives."
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " tacos, por favor.",
+       "options": [
+        "Las",
+        "Los",
+        "El"
+       ],
+       "answer": 1,
+       "english": "The tacos, please."
+      },
+      {
+       "before": "Quiero las papas ",
+       "after": ".",
+       "options": [
+        "frito",
+        "fritos",
+        "fritas"
+       ],
+       "answer": 2,
+       "english": "I want the fries.",
+       "spain": {
+        "before": "Quiero las patatas "
+       }
+      },
+      {
+       "before": "La salsa ",
+       "after": ", por favor.",
+       "options": [
+        "picante",
+        "picantes",
+        "frito"
+       ],
+       "answer": 0,
+       "english": "The spicy salsa, please."
+      },
+      {
+       "before": "El jamón ",
+       "after": " el chorizo.",
+       "options": [
+        "sin",
+        "y",
+        "de"
+       ],
+       "answer": 1,
+       "english": "The ham and the chorizo."
+      }
+     ],
+     "dialogue": {
+      "scene": "Late dinner",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenas noches. ¿Qué tal?",
+        "english": "Good evening. How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Bien. Los tacos, por favor.",
+        "english": "Good. The tacos, please."
+       },
+       {
+        "who": "them",
+        "target": "¿Con salsa picante?",
+        "english": "With spicy salsa?"
+       }
+      ],
+      "replyOptions": [
+       "Sí, con salsa, por favor.",
+       "De nada.",
+       "Hasta luego."
+      ],
+      "answer": 0
+     },
+     "tip": "Plural: add -s, and el/la become los/las: el taco → los tacos, la tapa → las tapas. Heads-up: \"tortilla\" is a flat bread in Mexico but an omelette in Spain, and fries are papas fritas (Spain: patatas fritas)."
+    },
+    {
+     "id": "s1u2l5",
+     "title": "Eating & drinking",
+     "items": [
+      {
+       "id": "s1u2l5-tengo-hambre",
+       "target": "tengo hambre",
+       "english": "I'm hungry",
+       "gender": null,
+       "emoji": "😋",
+       "example": {
+        "target": "Tengo hambre.",
+        "english": "I'm hungry."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l5-tengo-sed",
+       "target": "tengo sed",
+       "english": "I'm thirsty",
+       "gender": null,
+       "emoji": "🥤",
+       "example": {
+        "target": "Tengo sed.",
+        "english": "I'm thirsty."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l5-esta-rico",
+       "target": "está rico",
+       "english": "it tastes good",
+       "gender": null,
+       "emoji": "😋",
+       "example": {
+        "target": "El café está rico.",
+        "english": "The coffee tastes good."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l5-delicioso",
+       "target": "delicioso",
+       "english": "delicious",
+       "gender": null,
+       "emoji": "🤤",
+       "cognateHint": "delicioso ≈ delicious",
+       "example": {
+        "target": "¡Delicioso!",
+        "english": "Delicious!"
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-caliente",
+       "target": "caliente",
+       "english": "hot",
+       "gender": null,
+       "emoji": "♨️",
+       "cognateHint": "caliente ≈ calid (heat)",
+       "example": {
+        "target": "La sopa está caliente.",
+        "english": "The soup is hot."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-frio",
+       "target": "frío",
+       "english": "cold",
+       "gender": null,
+       "emoji": "🥶",
+       "example": {
+        "target": "El jugo está frío.",
+        "english": "The juice is cold.",
+        "spain": "El zumo está frío."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-dulce",
+       "target": "dulce",
+       "english": "sweet",
+       "gender": null,
+       "emoji": "🍰",
+       "cognateHint": "dulce ≈ dulcet",
+       "example": {
+        "target": "Está muy dulce.",
+        "english": "It's very sweet."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-salado",
+       "target": "salado",
+       "english": "salty",
+       "gender": null,
+       "emoji": "🧂",
+       "cognateHint": "salado ≈ salt",
+       "example": {
+        "target": "Está muy salado.",
+        "english": "It's very salty."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u2l5-salud",
+       "target": "¡Salud!",
+       "english": "cheers!",
+       "gender": null,
+       "emoji": "🥂",
+       "cognateHint": "salud ≈ salute",
+       "example": {
+        "target": "¡Salud!",
+        "english": "Cheers!"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l5-buen-provecho",
+       "target": "buen provecho",
+       "english": "enjoy your meal",
+       "gender": null,
+       "emoji": "🍽️",
+       "example": {
+        "target": "¡Buen provecho!",
+        "english": "Enjoy your meal!"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l5-estoy-lleno",
+       "target": "estoy lleno",
+       "english": "I'm full",
+       "gender": null,
+       "emoji": "🤰",
+       "cognateHint": "lleno ≈ full",
+       "example": {
+        "target": "Estoy lleno.",
+        "english": "I'm full."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u2l5-que-rico",
+       "target": "¡Qué rico!",
+       "english": "how good!",
+       "gender": null,
+       "emoji": "😍",
+       "example": {
+        "target": "¡Qué rico!",
+        "english": "How good!"
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Tengo hambre. ¿La pizza?",
+       "english": "I'm hungry. The pizza?"
+      },
+      {
+       "target": "Tengo sed. El agua, por favor.",
+       "english": "I'm thirsty. The water, please."
+      },
+      {
+       "target": "La sopa está caliente.",
+       "english": "The soup is hot."
+      },
+      {
+       "target": "El jugo está frío y dulce.",
+       "english": "The juice is cold and sweet.",
+       "spain": "El zumo está frío y dulce."
+      },
+      {
+       "target": "¡Salud! ¡Buen provecho!",
+       "english": "Cheers! Enjoy your meal!"
+      },
+      {
+       "target": "Estoy lleno, gracias. ¡Qué rico!",
+       "english": "I'm full, thanks. How good!"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Tengo ",
+       "after": ".",
+       "options": [
+        "lleno",
+        "hambre",
+        "rico"
+       ],
+       "answer": 1,
+       "english": "I'm hungry."
+      },
+      {
+       "before": "La sopa ",
+       "after": " caliente.",
+       "options": [
+        "soy",
+        "estoy",
+        "está"
+       ],
+       "answer": 2,
+       "english": "The soup is hot."
+      },
+      {
+       "before": "El café está ",
+       "after": ".",
+       "options": [
+        "caliente",
+        "frío",
+        "dulce"
+       ],
+       "answer": 0,
+       "english": "The coffee is hot."
+      },
+      {
+       "before": "¡Buen ",
+       "after": "!",
+       "options": [
+        "salud",
+        "provecho",
+        "rico"
+       ],
+       "answer": 1,
+       "english": "Enjoy your meal!"
+      }
+     ],
+     "dialogue": {
+      "scene": "At the table",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¡Hola! ¿Qué tal?",
+        "english": "Hi! How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Muy bien. Tengo hambre.",
+        "english": "Very well. I'm hungry."
+       },
+       {
+        "who": "them",
+        "target": "La sopa está caliente. ¡Buen provecho!",
+        "english": "The soup is hot. Enjoy your meal!"
+       }
+      ],
+      "replyOptions": [
+       "¡Gracias! ¡Qué rico!",
+       "Lo siento.",
+       "Hasta luego."
+      ],
+      "answer": 0
+     },
+     "tip": "Está + adjective = how something is right now: está caliente, está rico. Tengo + hambre/sed = \"I have hunger/thirst\" = I'm hungry/thirsty. Buen provecho = \"enjoy your meal\"."
+    }
+   ]
+  },
+  {
+   "id": "s1u3",
+   "title": "Numbers & prices",
+   "lessons": [
+    {
+     "id": "s1u3l1",
+     "title": "Zero to eleven",
+     "items": [
+      {
+       "id": "s1u3l1-cero",
+       "target": "cero",
+       "english": "zero",
+       "gender": null,
+       "emoji": "0️⃣",
+       "example": {
+        "target": "Cero hielo.",
+        "english": "Zero ice."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-uno",
+       "target": "uno",
+       "english": "one",
+       "gender": null,
+       "emoji": "1️⃣",
+       "example": {
+        "target": "Uno, dos, tres.",
+        "english": "One, two, three."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-dos",
+       "target": "dos",
+       "english": "two",
+       "gender": null,
+       "emoji": "2️⃣",
+       "example": {
+        "target": "Dos cafés, por favor.",
+        "english": "Two coffees, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-tres",
+       "target": "tres",
+       "english": "three",
+       "gender": null,
+       "emoji": "3️⃣",
+       "example": {
+        "target": "Tres tacos, por favor.",
+        "english": "Three tacos, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-cuatro",
+       "target": "cuatro",
+       "english": "four",
+       "gender": null,
+       "emoji": "4️⃣",
+       "example": {
+        "target": "Cuatro tapas, gracias.",
+        "english": "Four tapas, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-cinco",
+       "target": "cinco",
+       "english": "five",
+       "gender": null,
+       "emoji": "5️⃣",
+       "example": {
+        "target": "Cinco, por favor.",
+        "english": "Five, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-seis",
+       "target": "seis",
+       "english": "six",
+       "gender": null,
+       "emoji": "6️⃣",
+       "example": {
+        "target": "Seis tacos.",
+        "english": "Six tacos."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-siete",
+       "target": "siete",
+       "english": "seven",
+       "gender": null,
+       "emoji": "7️⃣",
+       "example": {
+        "target": "Siete, ocho, nueve.",
+        "english": "Seven, eight, nine."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-ocho",
+       "target": "ocho",
+       "english": "eight",
+       "gender": null,
+       "emoji": "8️⃣",
+       "example": {
+        "target": "Ocho, por favor.",
+        "english": "Eight, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-nueve",
+       "target": "nueve",
+       "english": "nine",
+       "gender": null,
+       "emoji": "9️⃣",
+       "example": {
+        "target": "Nueve, gracias.",
+        "english": "Nine, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-diez",
+       "target": "diez",
+       "english": "ten",
+       "gender": null,
+       "emoji": "🔟",
+       "example": {
+        "target": "Diez tacos.",
+        "english": "Ten tacos."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l1-once",
+       "target": "once",
+       "english": "eleven",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Once cervezas.",
+        "english": "Eleven beers."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Uno, dos, tres.",
+       "english": "One, two, three."
+      },
+      {
+       "target": "Dos cafés, por favor.",
+       "english": "Two coffees, please."
+      },
+      {
+       "target": "Tres tacos y cuatro tapas.",
+       "english": "Three tacos and four tapas."
+      },
+      {
+       "target": "Cinco y cinco: diez.",
+       "english": "Five and five: ten."
+      },
+      {
+       "target": "Seis, siete, ocho, nueve.",
+       "english": "Six, seven, eight, nine."
+      },
+      {
+       "target": "Diez tacos y once tapas, ¡gracias!",
+       "english": "Ten tacos and eleven tapas, thanks!"
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " cafés, por favor.",
+       "options": [
+        "Tres",
+        "Dos",
+        "Seis"
+       ],
+       "answer": 1,
+       "english": "Two coffees, please."
+      },
+      {
+       "before": "Uno, dos, ",
+       "after": ".",
+       "options": [
+        "cinco",
+        "siete",
+        "tres"
+       ],
+       "answer": 2,
+       "english": "One, two, three."
+      },
+      {
+       "before": "Cuatro y ",
+       "after": ": nueve.",
+       "options": [
+        "cinco",
+        "seis",
+        "siete"
+       ],
+       "answer": 0,
+       "english": "Four and five: nine."
+      },
+      {
+       "before": "",
+       "after": " tacos, por favor.",
+       "options": [
+        "Cuatro",
+        "Nueve",
+        "Cinco"
+       ],
+       "answer": 1,
+       "english": "Nine tacos, please."
+      }
+     ],
+     "dialogue": {
+      "scene": "Ordering tacos",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenas tardes. ¿Qué tal?",
+        "english": "Good afternoon. How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Bien, gracias. Dos tacos, por favor.",
+        "english": "Good, thanks. Two tacos, please."
+       },
+       {
+        "who": "them",
+        "target": "Dos tacos. ¿Algo más?",
+        "english": "Two tacos. Anything else?"
+       }
+      ],
+      "replyOptions": [
+       "Tres tapas, por favor.",
+       "Hasta luego.",
+       "Lo siento."
+      ],
+      "answer": 0
+     },
+     "tip": "Learn numbers as sounds, not spellings. Cero is zero; uno shortens to un before a masculine noun (un café), but in a count you just say uno, dos, tres."
+    },
+    {
+     "id": "s1u3l2",
+     "title": "Twelve to a hundred",
+     "items": [
+      {
+       "id": "s1u3l2-doce",
+       "target": "doce",
+       "english": "twelve",
+       "gender": null,
+       "emoji": "1️⃣",
+       "example": {
+        "target": "Doce tacos, por favor.",
+        "english": "Twelve tacos, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-trece",
+       "target": "trece",
+       "english": "thirteen",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Trece, catorce, quince.",
+        "english": "Thirteen, fourteen, fifteen."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-catorce",
+       "target": "catorce",
+       "english": "fourteen",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Catorce tapas.",
+        "english": "Fourteen tapas."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-quince",
+       "target": "quince",
+       "english": "fifteen",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Quince, por favor.",
+        "english": "Fifteen, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-dieciseis",
+       "target": "dieciséis",
+       "english": "sixteen",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Dieciséis, gracias.",
+        "english": "Sixteen, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-veinte",
+       "target": "veinte",
+       "english": "twenty",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Veinte, por favor.",
+        "english": "Twenty, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-veintiuno",
+       "target": "veintiuno",
+       "english": "twenty-one",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Veintiuno, gracias.",
+        "english": "Twenty-one, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-treinta",
+       "target": "treinta",
+       "english": "thirty",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Treinta y uno.",
+        "english": "Thirty-one."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-cuarenta",
+       "target": "cuarenta",
+       "english": "forty",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Cuarenta y dos.",
+        "english": "Forty-two."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-cincuenta",
+       "target": "cincuenta",
+       "english": "fifty",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Cincuenta y cinco.",
+        "english": "Fifty-five."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-sesenta",
+       "target": "sesenta",
+       "english": "sixty",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Sesenta y nueve.",
+        "english": "Sixty-nine."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l2-cien",
+       "target": "cien",
+       "english": "one hundred",
+       "gender": null,
+       "emoji": "💯",
+       "cognateHint": "cien ≈ cent(ury)",
+       "example": {
+        "target": "Cien, por favor.",
+        "english": "One hundred, please."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Doce tacos, por favor.",
+       "english": "Twelve tacos, please."
+      },
+      {
+       "target": "Trece, catorce, quince.",
+       "english": "Thirteen, fourteen, fifteen."
+      },
+      {
+       "target": "Dieciséis y veinte.",
+       "english": "Sixteen and twenty."
+      },
+      {
+       "target": "Veintiuno, treinta, cuarenta.",
+       "english": "Twenty-one, thirty, forty."
+      },
+      {
+       "target": "Cincuenta y cinco.",
+       "english": "Fifty-five."
+      },
+      {
+       "target": "Cien tapas, ¡qué rico!",
+       "english": "A hundred tapas, how good!"
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " tacos, por favor.",
+       "options": [
+        "Trece",
+        "Doce",
+        "Quince"
+       ],
+       "answer": 1,
+       "english": "Twelve tacos, please."
+      },
+      {
+       "before": "Treinta y ",
+       "after": ".",
+       "options": [
+        "dos",
+        "diez",
+        "uno"
+       ],
+       "answer": 2,
+       "english": "Thirty-one."
+      },
+      {
+       "before": "Cuarenta y ",
+       "after": ".",
+       "options": [
+        "dos",
+        "seis",
+        "nueve"
+       ],
+       "answer": 0,
+       "english": "Forty-two."
+      },
+      {
+       "before": "Quince, ",
+       "after": ", veinte.",
+       "options": [
+        "catorce",
+        "dieciséis",
+        "sesenta"
+       ],
+       "answer": 1,
+       "english": "Fifteen, sixteen, twenty."
+      }
+     ],
+     "dialogue": {
+      "scene": "Lots of tacos",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Buenas tardes. ¿Qué tal?",
+        "english": "Good afternoon. How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Bien, gracias. Doce tacos, por favor.",
+        "english": "Good, thanks. Twelve tacos, please."
+       },
+       {
+        "who": "them",
+        "target": "¿Doce? ¡Qué hambre! ¿Con salsa?",
+        "english": "Twelve? What an appetite! With salsa?"
+       }
+      ],
+      "replyOptions": [
+       "Sí, con salsa picante.",
+       "Treinta, gracias.",
+       "Buenas noches."
+      ],
+      "answer": 0
+     },
+     "tip": "16 to 29 glue into one word (dieciséis, veintiuno), and the accent matters. From 31 on it is three words: treinta y uno, cuarenta y dos."
+    },
+    {
+     "id": "s1u3l3",
+     "title": "Big numbers",
+     "items": [
+      {
+       "id": "s1u3l3-setenta",
+       "target": "setenta",
+       "english": "seventy",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Setenta y ocho.",
+        "english": "Seventy-eight."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-ochenta",
+       "target": "ochenta",
+       "english": "eighty",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Ochenta, por favor.",
+        "english": "Eighty, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-noventa",
+       "target": "noventa",
+       "english": "ninety",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Noventa y nueve.",
+        "english": "Ninety-nine."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-doscientos",
+       "target": "doscientos",
+       "english": "two hundred",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Doscientos tacos.",
+        "english": "Two hundred tacos."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-quinientos",
+       "target": "quinientos",
+       "english": "five hundred",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Quinientos, gracias.",
+        "english": "Five hundred, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-mil",
+       "target": "mil",
+       "english": "one thousand",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "Mil, por favor.",
+        "english": "A thousand, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-un-millon",
+       "target": "un millón",
+       "english": "one million",
+       "gender": "m",
+       "emoji": "💰",
+       "cognateHint": "millón ≈ million",
+       "example": {
+        "target": "Un millón, ¡gracias!",
+        "english": "A million, thanks!"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l3-primero",
+       "target": "primero",
+       "english": "first",
+       "gender": null,
+       "emoji": "🥇",
+       "example": {
+        "target": "El primero, por favor.",
+        "english": "The first one, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-segundo",
+       "target": "segundo",
+       "english": "second",
+       "gender": null,
+       "emoji": "🥈",
+       "example": {
+        "target": "El segundo, gracias.",
+        "english": "The second one, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-tercero",
+       "target": "tercero",
+       "english": "third",
+       "gender": null,
+       "emoji": "🥉",
+       "example": {
+        "target": "El tercero.",
+        "english": "The third one."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-ultimo",
+       "target": "último",
+       "english": "last",
+       "gender": null,
+       "emoji": "🏁",
+       "cognateHint": "último ≈ ultimate",
+       "example": {
+        "target": "El último, por favor.",
+        "english": "The last one, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l3-el-numero",
+       "target": "el número",
+       "english": "the number",
+       "gender": "m",
+       "emoji": "#️⃣",
+       "cognateHint": "número ≈ number",
+       "example": {
+        "target": "El número seis.",
+        "english": "Number six."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Setenta y ocho.",
+       "english": "Seventy-eight."
+      },
+      {
+       "target": "Noventa y nueve.",
+       "english": "Ninety-nine."
+      },
+      {
+       "target": "Doscientos, quinientos, mil.",
+       "english": "Two hundred, five hundred, a thousand."
+      },
+      {
+       "target": "Un millón, ¡qué bien!",
+       "english": "A million, how nice!"
+      },
+      {
+       "target": "El primero, el segundo, el tercero.",
+       "english": "The first, the second, the third."
+      },
+      {
+       "target": "El número seis, el último.",
+       "english": "Number six, the last one."
+      }
+     ],
+     "fills": [
+      {
+       "before": "",
+       "after": " y nueve.",
+       "options": [
+        "Ochenta",
+        "Noventa",
+        "Setenta"
+       ],
+       "answer": 1,
+       "english": "Ninety-nine."
+      },
+      {
+       "before": "Setenta y ",
+       "after": ".",
+       "options": [
+        "siete",
+        "nueve",
+        "ocho"
+       ],
+       "answer": 2,
+       "english": "Seventy-eight."
+      },
+      {
+       "before": "Doscientos, ",
+       "after": ", mil.",
+       "options": [
+        "quinientos",
+        "cien",
+        "cuarenta"
+       ],
+       "answer": 0,
+       "english": "Two hundred, five hundred, a thousand."
+      },
+      {
+       "before": "El ",
+       "after": ", por favor.",
+       "options": [
+        "primero",
+        "último",
+        "cuatro"
+       ],
+       "answer": 1,
+       "english": "The last one, please."
+      }
+     ],
+     "dialogue": {
+      "scene": "Giving a phone number",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hola. ¿El número, por favor?",
+        "english": "Hi. The number, please?"
+       },
+       {
+        "who": "me",
+        "target": "Setenta y ocho, noventa y nueve.",
+        "english": "Seventy-eight, ninety-nine."
+       },
+       {
+        "who": "them",
+        "target": "Setenta y ocho, noventa y nueve. ¿Está bien?",
+        "english": "Seventy-eight, ninety-nine. Is that right?"
+       }
+      ],
+      "replyOptions": [
+       "Sí, está bien.",
+       "Buenas noches.",
+       "Un millón."
+      ],
+      "answer": 0
+     },
+     "tip": "Hundreds are one word: doscientos, quinientos. Mil = 1,000, never \"un mil\"; un millón = 1,000,000. Primero, segundo, tercero, último = 1st, 2nd, 3rd, last."
+    },
+    {
+     "id": "s1u3l4",
+     "title": "Prices",
+     "items": [
+      {
+       "id": "s1u3l4-cuanto-cuesta",
+       "target": "¿Cuánto cuesta?",
+       "english": "how much does it cost?",
+       "gender": null,
+       "emoji": "💲",
+       "example": {
+        "target": "¿Cuánto cuesta el café?",
+        "english": "How much does the coffee cost?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l4-cuanto-es",
+       "target": "¿Cuánto es?",
+       "english": "how much is it? (total)",
+       "gender": null,
+       "emoji": "🧮",
+       "example": {
+        "target": "¿Cuánto es?",
+        "english": "How much is it?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l4-el-precio",
+       "target": "el precio",
+       "english": "price",
+       "gender": "m",
+       "emoji": "🏷️",
+       "cognateHint": "precio ≈ price",
+       "example": {
+        "target": "El precio, por favor.",
+        "english": "The price, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-el-dinero",
+       "target": "el dinero",
+       "english": "money",
+       "gender": "m",
+       "emoji": "💵",
+       "example": {
+        "target": "El dinero, por favor.",
+        "english": "The money, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-el-euro",
+       "target": "el euro",
+       "english": "euro",
+       "gender": "m",
+       "emoji": "💶",
+       "cognateHint": "euro ≈ euro",
+       "example": {
+        "target": "Tres euros.",
+        "english": "Three euros."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-el-dolar",
+       "target": "el dólar",
+       "english": "dollar",
+       "gender": "m",
+       "emoji": "💵",
+       "cognateHint": "dólar ≈ dollar",
+       "example": {
+        "target": "Veinte dólares.",
+        "english": "Twenty dollars."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-el-peso",
+       "target": "el peso",
+       "english": "peso",
+       "gender": "m",
+       "emoji": "🪙",
+       "cognateHint": "peso ≈ peso",
+       "example": {
+        "target": "Cuarenta pesos.",
+        "english": "Forty pesos."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-caro",
+       "target": "caro",
+       "english": "expensive",
+       "gender": null,
+       "emoji": "📈",
+       "example": {
+        "target": "Está muy caro.",
+        "english": "It's very expensive."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-barato",
+       "target": "barato",
+       "english": "cheap",
+       "gender": null,
+       "emoji": "📉",
+       "example": {
+        "target": "¡Barato!",
+        "english": "Cheap!"
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-gratis",
+       "target": "gratis",
+       "english": "free",
+       "gender": null,
+       "emoji": "🆓",
+       "example": {
+        "target": "¡Gratis!",
+        "english": "Free!"
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-el-efectivo",
+       "target": "el efectivo",
+       "english": "cash",
+       "gender": "m",
+       "emoji": "💵",
+       "example": {
+        "target": "Tengo efectivo.",
+        "english": "I have cash."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l4-la-tarjeta",
+       "target": "la tarjeta",
+       "english": "card",
+       "gender": "f",
+       "emoji": "💳",
+       "example": {
+        "target": "Tengo la tarjeta.",
+        "english": "I have the card."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Cuánto cuesta el café?",
+       "english": "How much does the coffee cost?"
+      },
+      {
+       "target": "Cuesta tres euros.",
+       "english": "It costs three euros."
+      },
+      {
+       "target": "¿Cuánto es? — Veinte dólares.",
+       "english": "How much is it? — Twenty dollars."
+      },
+      {
+       "target": "Está muy caro. El precio, por favor.",
+       "english": "It's very expensive. The price, please."
+      },
+      {
+       "target": "¡Barato! Cuarenta pesos, nada más.",
+       "english": "Cheap! Forty pesos, nothing more."
+      },
+      {
+       "target": "¿Gratis? ¡Qué bien! Tengo la tarjeta.",
+       "english": "Free? How nice! I have the card."
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿Cuánto ",
+       "after": " el café?",
+       "options": [
+        "cuestan",
+        "cuesta",
+        "llamo"
+       ],
+       "answer": 1,
+       "english": "How much does the coffee cost?"
+      },
+      {
+       "before": "Está muy ",
+       "after": ".",
+       "options": [
+        "barato",
+        "gratis",
+        "caro"
+       ],
+       "answer": 2,
+       "english": "It's very expensive."
+      },
+      {
+       "before": "Cuesta tres ",
+       "after": ".",
+       "options": [
+        "euros",
+        "euro",
+        "dinero"
+       ],
+       "answer": 0,
+       "english": "It costs three euros."
+      },
+      {
+       "before": "Tengo la ",
+       "after": ".",
+       "options": [
+        "dinero",
+        "tarjeta",
+        "precio"
+       ],
+       "answer": 1,
+       "english": "I have the card."
+      }
+     ],
+     "dialogue": {
+      "scene": "At a market stall",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hola. El café: tres euros.",
+        "english": "Hi. The coffee: three euros."
+       },
+       {
+        "who": "me",
+        "target": "¿Tres? Está muy caro.",
+        "english": "Three? That is very expensive."
+       },
+       {
+        "who": "them",
+        "target": "Dos euros, nada más.",
+        "english": "Two euros, nothing more."
+       }
+      ],
+      "replyOptions": [
+       "Dos euros, está bien.",
+       "Buenos días.",
+       "Hasta mañana."
+      ],
+      "answer": 0
+     },
+     "tip": "¿Cuánto cuesta? = how much does it cost (one thing); ¿Cuánto es? = how much is it (the total). Money words are cognates: el euro, el dólar, el peso."
+    },
+    {
+     "id": "s1u3l5",
+     "title": "Paying",
+     "items": [
+      {
+       "id": "s1u3l5-pagar",
+       "target": "pagar",
+       "english": "to pay",
+       "gender": null,
+       "emoji": "💳",
+       "example": {
+        "target": "Quiero pagar, por favor.",
+        "english": "I want to pay, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-el-cambio",
+       "target": "el cambio",
+       "english": "change (coins back)",
+       "gender": "m",
+       "emoji": "🪙",
+       "example": {
+        "target": "El cambio, por favor.",
+        "english": "The change, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-la-propina",
+       "target": "la propina",
+       "english": "tip (gratuity)",
+       "gender": "f",
+       "emoji": "💁",
+       "example": {
+        "target": "La propina, gracias.",
+        "english": "The tip, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-el-recibo",
+       "target": "el recibo",
+       "english": "receipt",
+       "gender": "m",
+       "emoji": "🧾",
+       "cognateHint": "recibo ≈ receipt",
+       "example": {
+        "target": "El recibo, por favor.",
+        "english": "The receipt, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-aceptan-tarjeta",
+       "target": "¿Aceptan tarjeta?",
+       "english": "do you take cards?",
+       "gender": null,
+       "emoji": "💳",
+       "cognateHint": "aceptan ≈ accept",
+       "example": {
+        "target": "¿Aceptan tarjeta?",
+        "english": "Do you take cards?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l5-en-efectivo",
+       "target": "en efectivo",
+       "english": "in cash",
+       "gender": null,
+       "emoji": "💵",
+       "cognateHint": "efectivo ≈ effective (cash)",
+       "example": {
+        "target": "Quiero pagar en efectivo.",
+        "english": "I want to pay in cash."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l5-el-cajero-automatico",
+       "target": "el cajero automático",
+       "english": "ATM",
+       "gender": "m",
+       "emoji": "🏧",
+       "cognateHint": "automático ≈ automatic",
+       "example": {
+        "target": "El cajero automático.",
+        "english": "The ATM."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-la-moneda",
+       "target": "la moneda",
+       "english": "coin",
+       "gender": "f",
+       "emoji": "🪙",
+       "example": {
+        "target": "La moneda, por favor.",
+        "english": "The coin, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-el-billete",
+       "target": "el billete",
+       "english": "banknote",
+       "gender": "m",
+       "emoji": "💵",
+       "example": {
+        "target": "El billete, gracias.",
+        "english": "The banknote, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-sacar-dinero",
+       "target": "sacar dinero",
+       "english": "to withdraw money",
+       "gender": null,
+       "emoji": "🏧",
+       "example": {
+        "target": "Quiero sacar dinero.",
+        "english": "I want to withdraw money."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u3l5-la-factura",
+       "target": "la factura",
+       "english": "invoice / bill",
+       "gender": "f",
+       "emoji": "🧾",
+       "example": {
+        "target": "La factura, por favor.",
+        "english": "The invoice, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u3l5-cobran-propina",
+       "target": "¿Cobran propina?",
+       "english": "do you charge a tip?",
+       "gender": null,
+       "emoji": "🤔",
+       "example": {
+        "target": "¿Cobran propina?",
+        "english": "Do you charge a tip?"
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Quiero pagar, por favor.",
+       "english": "I want to pay, please."
+      },
+      {
+       "target": "¿Aceptan tarjeta? — Sí, claro.",
+       "english": "Do you take cards? — Yes, of course."
+      },
+      {
+       "target": "Quiero pagar en efectivo.",
+       "english": "I want to pay in cash."
+      },
+      {
+       "target": "El cambio y el recibo, por favor.",
+       "english": "The change and the receipt, please."
+      },
+      {
+       "target": "¿Cobran propina? — No sé.",
+       "english": "Do you charge a tip? — I don't know."
+      },
+      {
+       "target": "Quiero sacar dinero. La factura, gracias.",
+       "english": "I want to withdraw money. The invoice, thanks."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Quiero ",
+       "after": ", por favor.",
+       "options": [
+        "pago",
+        "pagar",
+        "paga"
+       ],
+       "answer": 1,
+       "english": "I want to pay, please."
+      },
+      {
+       "before": "¿Aceptan ",
+       "after": "?",
+       "options": [
+        "propina",
+        "cambio",
+        "tarjeta"
+       ],
+       "answer": 2,
+       "english": "Do you take cards?"
+      },
+      {
+       "before": "Quiero pagar ",
+       "after": " efectivo.",
+       "options": [
+        "en",
+        "sin",
+        "de"
+       ],
+       "answer": 0,
+       "english": "I want to pay in cash."
+      },
+      {
+       "before": "Quiero sacar ",
+       "after": ".",
+       "options": [
+        "hielo",
+        "dinero",
+        "queso"
+       ],
+       "answer": 1,
+       "english": "I want to withdraw money."
+      }
+     ],
+     "dialogue": {
+      "scene": "Paying the bill",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hola. La cuenta: veinte euros.",
+        "english": "Hi. The bill: twenty euros."
+       },
+       {
+        "who": "me",
+        "target": "¿Aceptan tarjeta?",
+        "english": "Do you take cards?"
+       },
+       {
+        "who": "them",
+        "target": "Sí, claro. ¿Algo más?",
+        "english": "Yes, of course. Anything else?"
+       }
+      ],
+      "replyOptions": [
+       "No, nada más. Gracias.",
+       "Muy caro.",
+       "Hasta mañana."
+      ],
+      "answer": 0
+     },
+     "tip": "Words ending in -ción are nearly free (la información, la conversación). Pagar = to pay, and after quiero the verb stays in the infinitive: quiero pagar, quiero sacar dinero."
+    }
+   ]
+  },
+  {
+   "id": "s1u4",
+   "title": "Getting around",
+   "lessons": [
+    {
+     "id": "s1u4l1",
+     "title": "Where is…?",
+     "items": [
+      {
+       "id": "s1u4l1-donde-esta",
+       "target": "¿Dónde está…?",
+       "english": "where is…?",
+       "gender": null,
+       "emoji": "📍",
+       "example": {
+        "target": "¿Dónde está el hotel?",
+        "english": "Where is the hotel?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l1-aqui",
+       "target": "aquí",
+       "english": "here",
+       "gender": null,
+       "emoji": "📌",
+       "example": {
+        "target": "Está aquí.",
+        "english": "It's here."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-alli",
+       "target": "allí",
+       "english": "there",
+       "gender": null,
+       "emoji": "👉",
+       "example": {
+        "target": "Está allí.",
+        "english": "It's there."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-cerca",
+       "target": "cerca",
+       "english": "near",
+       "gender": null,
+       "emoji": "🔜",
+       "example": {
+        "target": "Está cerca.",
+        "english": "It's near."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-lejos",
+       "target": "lejos",
+       "english": "far",
+       "gender": null,
+       "emoji": "🔭",
+       "example": {
+        "target": "No está lejos.",
+        "english": "It's not far."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-a-la-derecha",
+       "target": "a la derecha",
+       "english": "to the right",
+       "gender": null,
+       "emoji": "➡️",
+       "example": {
+        "target": "A la derecha.",
+        "english": "To the right."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l1-a-la-izquierda",
+       "target": "a la izquierda",
+       "english": "to the left",
+       "gender": null,
+       "emoji": "⬅️",
+       "example": {
+        "target": "A la izquierda.",
+        "english": "To the left."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l1-todo-derecho",
+       "target": "todo derecho",
+       "english": "straight ahead",
+       "gender": null,
+       "emoji": "⬆️",
+       "example": {
+        "target": "Todo derecho.",
+        "english": "Straight ahead.",
+        "spain": "Todo recto."
+       },
+       "kind": "phrase",
+       "spain": "todo recto"
+      },
+      {
+       "id": "s1u4l1-la-calle",
+       "target": "la calle",
+       "english": "street",
+       "gender": "f",
+       "emoji": "🛣️",
+       "example": {
+        "target": "La calle, a la izquierda.",
+        "english": "The street, to the left."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-la-esquina",
+       "target": "la esquina",
+       "english": "corner",
+       "gender": "f",
+       "emoji": "📐",
+       "example": {
+        "target": "La esquina, allí.",
+        "english": "The corner, there."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-la-plaza",
+       "target": "la plaza",
+       "english": "square (plaza)",
+       "gender": "f",
+       "emoji": "🏛️",
+       "cognateHint": "plaza ≈ plaza",
+       "example": {
+        "target": "La plaza está cerca.",
+        "english": "The square is near."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l1-donde-queda",
+       "target": "¿Dónde queda…?",
+       "english": "where is…? (Latin America)",
+       "gender": null,
+       "emoji": "🧭",
+       "example": {
+        "target": "¿Dónde queda la plaza?",
+        "english": "Where is the square?",
+        "spain": "¿Dónde está la plaza?"
+       },
+       "kind": "phrase",
+       "spain": "¿Dónde está…?"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Dónde está el hotel?",
+       "english": "Where is the hotel?"
+      },
+      {
+       "target": "Está aquí, cerca.",
+       "english": "It's here, near."
+      },
+      {
+       "target": "El banco está allí, a la derecha.",
+       "english": "The bank is there, on the right."
+      },
+      {
+       "target": "No está lejos. Todo derecho.",
+       "english": "It's not far. Straight ahead.",
+       "spain": "No está lejos. Todo recto."
+      },
+      {
+       "target": "La calle, a la izquierda. La esquina, allí.",
+       "english": "The street, on the left. The corner, there."
+      },
+      {
+       "target": "¿Dónde queda la plaza?",
+       "english": "Where is the square?",
+       "spain": "¿Dónde está la plaza?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿Dónde ",
+       "after": " el hotel?",
+       "options": [
+        "soy",
+        "está",
+        "quiero"
+       ],
+       "answer": 1,
+       "english": "Where is the hotel?"
+      },
+      {
+       "before": "El banco está a la ",
+       "after": ".",
+       "options": [
+        "izquierda",
+        "calle",
+        "derecha"
+       ],
+       "answer": 2,
+       "english": "The bank is on the right."
+      },
+      {
+       "before": "No está ",
+       "after": ".",
+       "options": [
+        "lejos",
+        "aquí",
+        "gracias"
+       ],
+       "answer": 0,
+       "english": "It's not far."
+      },
+      {
+       "before": "Todo ",
+       "after": ".",
+       "options": [
+        "derecha",
+        "derecho",
+        "izquierda"
+       ],
+       "answer": 1,
+       "english": "Straight ahead.",
+       "spain": {
+        "options": [
+         "derecha",
+         "recto",
+         "izquierda"
+        ]
+       }
+      }
+     ],
+     "dialogue": {
+      "scene": "Asking the way",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¡Hola! ¿Qué tal?",
+        "english": "Hi! How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Bien. ¿Dónde está el banco?",
+        "english": "Good. Where is the bank?"
+       },
+       {
+        "who": "them",
+        "target": "Está allí, todo derecho. No está lejos.",
+        "english": "It's there, straight ahead. It's not far."
+       }
+      ],
+      "replyOptions": [
+       "Gracias, adiós.",
+       "De nada.",
+       "Soy de Inglaterra."
+      ],
+      "answer": 0
+     },
+     "tip": "¿Dónde está…? works for anything. Add aquí/allí (here/there) and cerca/lejos (near/far). Latin America says todo derecho and ¿Dónde queda…?; Spain says todo recto and just ¿Dónde está…?."
+    },
+    {
+     "id": "s1u4l2",
+     "title": "Transport",
+     "items": [
+      {
+       "id": "s1u4l2-el-autobus",
+       "target": "el autobús",
+       "english": "bus",
+       "gender": "m",
+       "emoji": "🚌",
+       "example": {
+        "target": "El autobús está allí.",
+        "english": "The bus is there."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-el-metro",
+       "target": "el metro",
+       "english": "subway",
+       "gender": "m",
+       "emoji": "🚇",
+       "cognateHint": "metro ≈ metro",
+       "example": {
+        "target": "El metro, por favor.",
+        "english": "The subway, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-el-tren",
+       "target": "el tren",
+       "english": "train",
+       "gender": "m",
+       "emoji": "🚆",
+       "example": {
+        "target": "Quiero el tren.",
+        "english": "I want the train."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-el-avion",
+       "target": "el avión",
+       "english": "plane",
+       "gender": "m",
+       "emoji": "✈️",
+       "cognateHint": "avión ≈ aviation",
+       "example": {
+        "target": "El avión, gracias.",
+        "english": "The plane, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-la-bicicleta",
+       "target": "la bicicleta",
+       "english": "bicycle",
+       "gender": "f",
+       "emoji": "🚲",
+       "cognateHint": "bicicleta ≈ bicycle",
+       "example": {
+        "target": "La bicicleta está aquí.",
+        "english": "The bicycle is here."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-el-carro",
+       "target": "el carro",
+       "english": "car",
+       "gender": "m",
+       "emoji": "🚗",
+       "example": {
+        "target": "El carro está aquí.",
+        "english": "The car is here.",
+        "spain": "El coche está aquí."
+       },
+       "kind": "word",
+       "spain": "el coche"
+      },
+      {
+       "id": "s1u4l2-la-estacion",
+       "target": "la estación",
+       "english": "station",
+       "gender": "f",
+       "emoji": "🚉",
+       "cognateHint": "estación ≈ station",
+       "example": {
+        "target": "La estación está cerca.",
+        "english": "The station is near."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-la-parada",
+       "target": "la parada",
+       "english": "stop (bus stop)",
+       "gender": "f",
+       "emoji": "🚏",
+       "example": {
+        "target": "La parada está allí.",
+        "english": "The stop is there."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-el-boleto",
+       "target": "el boleto",
+       "english": "ticket",
+       "gender": "m",
+       "emoji": "🎫",
+       "example": {
+        "target": "El boleto, por favor.",
+        "english": "The ticket, please.",
+        "spain": "El billete, por favor."
+       },
+       "kind": "word",
+       "spain": "el billete"
+      },
+      {
+       "id": "s1u4l2-la-moto",
+       "target": "la moto",
+       "english": "motorbike",
+       "gender": "f",
+       "emoji": "🏍️",
+       "cognateHint": "moto ≈ motor",
+       "example": {
+        "target": "La moto está aquí.",
+        "english": "The motorbike is here."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l2-a-pie",
+       "target": "a pie",
+       "english": "on foot",
+       "gender": null,
+       "emoji": "🚶",
+       "example": {
+        "target": "A pie, no está lejos.",
+        "english": "On foot, it's not far."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l2-la-gasolinera",
+       "target": "la gasolinera",
+       "english": "gas station",
+       "gender": "f",
+       "emoji": "⛽",
+       "cognateHint": "gasolinera ≈ gasoline",
+       "example": {
+        "target": "La gasolinera, a la derecha.",
+        "english": "The gas station, on the right."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Dónde está el autobús?",
+       "english": "Where is the bus?"
+      },
+      {
+       "target": "La parada está cerca.",
+       "english": "The stop is near."
+      },
+      {
+       "target": "El boleto, por favor.",
+       "english": "The ticket, please.",
+       "spain": "El billete, por favor."
+      },
+      {
+       "target": "El carro está allí.",
+       "english": "The car is there.",
+       "spain": "El coche está allí."
+      },
+      {
+       "target": "A pie no está lejos.",
+       "english": "On foot it's not far."
+      },
+      {
+       "target": "Quiero el tren. La estación está aquí.",
+       "english": "I want the train. The station is here."
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿Dónde ",
+       "after": " la estación?",
+       "options": [
+        "soy",
+        "está",
+        "quiero"
+       ],
+       "answer": 1,
+       "english": "Where is the station?"
+      },
+      {
+       "before": "La ",
+       "after": " está cerca.",
+       "options": [
+        "tren",
+        "metro",
+        "parada"
+       ],
+       "answer": 2,
+       "english": "The stop is near."
+      },
+      {
+       "before": "El ",
+       "after": ", por favor.",
+       "options": [
+        "boleto",
+        "avión",
+        "metro"
+       ],
+       "answer": 0,
+       "english": "The ticket, please.",
+       "spain": {
+        "options": [
+         "billete",
+         "avión",
+         "metro"
+        ]
+       }
+      },
+      {
+       "before": "El ",
+       "after": " está allí.",
+       "options": [
+        "metro",
+        "carro",
+        "tren"
+       ],
+       "answer": 1,
+       "english": "The car is there.",
+       "spain": {
+        "options": [
+         "metro",
+         "coche",
+         "tren"
+        ]
+       }
+      }
+     ],
+     "dialogue": {
+      "scene": "Looking for the bus",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Perdón, ¿dónde está la parada?",
+        "english": "Excuse me, where is the stop?"
+       },
+       {
+        "who": "me",
+        "target": "Está allí, a la derecha.",
+        "english": "It's there, on the right."
+       },
+       {
+        "who": "them",
+        "target": "Gracias. ¿Está lejos?",
+        "english": "Thanks. Is it far?"
+       }
+      ],
+      "replyOptions": [
+       "No, está cerca.",
+       "Soy de Inglaterra.",
+       "Cuarenta euros."
+      ],
+      "answer": 0
+     },
+     "tip": "-ción = -tion: la estación is \"station\". Transport words are mostly cognates (el metro, la bicicleta). Latin America says el carro and el boleto; Spain says el coche and el billete."
+    },
+    {
+     "id": "s1u4l3",
+     "title": "Asking directions",
+     "items": [
+      {
+       "id": "s1u4l3-como-llego-a",
+       "target": "¿Cómo llego a…?",
+       "english": "how do I get to…?",
+       "gender": null,
+       "emoji": "🧭",
+       "example": {
+        "target": "¿Cómo llego a la plaza?",
+        "english": "How do I get to the square?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l3-cuanto-tarda",
+       "target": "¿Cuánto tarda?",
+       "english": "how long does it take?",
+       "gender": null,
+       "emoji": "⏱️",
+       "example": {
+        "target": "¿Cuánto tarda?",
+        "english": "How long does it take?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l3-ir",
+       "target": "ir",
+       "english": "to go",
+       "gender": null,
+       "emoji": "🚶",
+       "example": {
+        "target": "Quiero ir a la playa.",
+        "english": "I want to go to the beach."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-llegar",
+       "target": "llegar",
+       "english": "to arrive",
+       "gender": null,
+       "emoji": "🏁",
+       "example": {
+        "target": "Quiero llegar.",
+        "english": "I want to arrive."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-seguir",
+       "target": "seguir",
+       "english": "to follow / keep going",
+       "gender": null,
+       "emoji": "➡️",
+       "example": {
+        "target": "Quiero seguir.",
+        "english": "I want to keep going."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-cruzar",
+       "target": "cruzar",
+       "english": "to cross",
+       "gender": null,
+       "emoji": "↔️",
+       "example": {
+        "target": "Quiero cruzar la calle.",
+        "english": "I want to cross the street."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-doblar",
+       "target": "doblar",
+       "english": "to turn",
+       "gender": null,
+       "emoji": "↪️",
+       "example": {
+        "target": "Quiero doblar a la derecha.",
+        "english": "I want to turn right.",
+        "spain": "Quiero girar a la derecha."
+       },
+       "kind": "word",
+       "spain": "girar"
+      },
+      {
+       "id": "s1u4l3-estoy-perdido",
+       "target": "Estoy perdido",
+       "english": "I'm lost",
+       "gender": null,
+       "emoji": "😵",
+       "example": {
+        "target": "Estoy perdido.",
+        "english": "I'm lost."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l3-disculpe",
+       "target": "Disculpe",
+       "english": "excuse me",
+       "gender": null,
+       "emoji": "🙋",
+       "example": {
+        "target": "Disculpe, ¿dónde está?",
+        "english": "Excuse me, where is it?"
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-esta-lejos",
+       "target": "¿Está lejos?",
+       "english": "is it far?",
+       "gender": null,
+       "emoji": "📏",
+       "example": {
+        "target": "¿Está lejos?",
+        "english": "Is it far?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l3-la-direccion",
+       "target": "la dirección",
+       "english": "address",
+       "gender": "f",
+       "emoji": "🏠",
+       "cognateHint": "dirección ≈ direction",
+       "example": {
+        "target": "La dirección, por favor.",
+        "english": "The address, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l3-el-mapa",
+       "target": "el mapa",
+       "english": "map",
+       "gender": "m",
+       "emoji": "🗺️",
+       "cognateHint": "mapa ≈ map",
+       "example": {
+        "target": "El mapa, por favor.",
+        "english": "The map, please."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Disculpe, ¿cómo llego a la estación?",
+       "english": "Excuse me, how do I get to the station?"
+      },
+      {
+       "target": "Estoy perdido. ¿Dónde está el mapa?",
+       "english": "I'm lost. Where is the map?"
+      },
+      {
+       "target": "Voy a la plaza. ¿Cuánto tarda?",
+       "english": "I'm going to the square. How long does it take?"
+      },
+      {
+       "target": "Quiero cruzar la calle.",
+       "english": "I want to cross the street."
+      },
+      {
+       "target": "Doblar a la derecha, todo derecho.",
+       "english": "Turn right, straight ahead.",
+       "spain": "Girar a la derecha, todo recto."
+      },
+      {
+       "target": "¿La dirección? ¿Está lejos?",
+       "english": "The address? Is it far?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Disculpe, ¿cómo ",
+       "after": " a la plaza?",
+       "options": [
+        "llegas",
+        "llego",
+        "llamo"
+       ],
+       "answer": 1,
+       "english": "Excuse me, how do I get to the square?"
+      },
+      {
+       "before": "Quiero ",
+       "after": " a la derecha.",
+       "options": [
+        "llegar",
+        "cruzar",
+        "doblar"
+       ],
+       "answer": 2,
+       "english": "I want to turn right.",
+       "spain": {
+        "options": [
+         "llegar",
+         "cruzar",
+         "girar"
+        ]
+       }
+      },
+      {
+       "before": "Estoy ",
+       "after": ".",
+       "options": [
+        "perdido",
+        "lejos",
+        "cerca"
+       ],
+       "answer": 0,
+       "english": "I'm lost."
+      },
+      {
+       "before": "¿Cuánto ",
+       "after": "?",
+       "options": [
+        "cuesta",
+        "tarda",
+        "llego"
+       ],
+       "answer": 1,
+       "english": "How long does it take?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Lost in town",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hola. ¿Qué tal?",
+        "english": "Hi. How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Disculpe, estoy perdido. ¿Cómo llego a la estación?",
+        "english": "Excuse me, I'm lost. How do I get to the station?"
+       },
+       {
+        "who": "them",
+        "target": "Todo derecho y a la izquierda. No está lejos.",
+        "english": "Straight ahead and to the left. It's not far."
+       }
+      ],
+      "replyOptions": [
+       "Gracias, ¡adiós!",
+       "De nada.",
+       "Estoy perdido."
+      ],
+      "answer": 0
+     },
+     "tip": "voy a + place = \"I'm going to\" (Voy a la plaza). Verbs like ir, llegar, seguir, cruzar are infinitives, and after quiero they never change. Spain prefers girar to doblar."
+    },
+    {
+     "id": "s1u4l4",
+     "title": "Places in town",
+     "items": [
+      {
+       "id": "s1u4l4-el-bano",
+       "target": "el baño",
+       "english": "bathroom / toilet",
+       "gender": "m",
+       "emoji": "🚻",
+       "example": {
+        "target": "¿Dónde está el baño?",
+        "english": "Where is the bathroom?",
+        "spain": "¿Dónde está el servicio?"
+       },
+       "kind": "word",
+       "spain": "el servicio"
+      },
+      {
+       "id": "s1u4l4-la-tienda",
+       "target": "la tienda",
+       "english": "shop",
+       "gender": "f",
+       "emoji": "🏪",
+       "example": {
+        "target": "La tienda está allí.",
+        "english": "The shop is there."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-el-supermercado",
+       "target": "el supermercado",
+       "english": "supermarket",
+       "gender": "m",
+       "emoji": "🛒",
+       "cognateHint": "supermercado ≈ supermarket",
+       "example": {
+        "target": "El supermercado está cerca.",
+        "english": "The supermarket is near."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-la-farmacia",
+       "target": "la farmacia",
+       "english": "pharmacy",
+       "gender": "f",
+       "emoji": "💊",
+       "cognateHint": "farmacia ≈ pharmacy",
+       "example": {
+        "target": "La farmacia está cerca.",
+        "english": "The pharmacy is near."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-la-iglesia",
+       "target": "la iglesia",
+       "english": "church",
+       "gender": "f",
+       "emoji": "⛪",
+       "cognateHint": "iglesia ≈ ecclesiastical",
+       "example": {
+        "target": "La iglesia, a la derecha.",
+        "english": "The church, on the right."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-el-parque",
+       "target": "el parque",
+       "english": "park",
+       "gender": "m",
+       "emoji": "🌳",
+       "cognateHint": "parque ≈ park",
+       "example": {
+        "target": "El parque está aquí.",
+        "english": "The park is here."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-el-museo",
+       "target": "el museo",
+       "english": "museum",
+       "gender": "m",
+       "emoji": "🏛️",
+       "cognateHint": "museo ≈ museum",
+       "example": {
+        "target": "El museo está allí.",
+        "english": "The museum is there."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-la-playa",
+       "target": "la playa",
+       "english": "beach",
+       "gender": "f",
+       "emoji": "🏖️",
+       "example": {
+        "target": "Quiero ir a la playa.",
+        "english": "I want to go to the beach."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-el-mercado",
+       "target": "el mercado",
+       "english": "market",
+       "gender": "m",
+       "emoji": "🛍️",
+       "cognateHint": "mercado ≈ market",
+       "example": {
+        "target": "El mercado, por favor.",
+        "english": "The market, please."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-la-oficina",
+       "target": "la oficina",
+       "english": "office",
+       "gender": "f",
+       "emoji": "🏢",
+       "cognateHint": "oficina ≈ office",
+       "example": {
+        "target": "La oficina está cerca.",
+        "english": "The office is near."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-el-cine",
+       "target": "el cine",
+       "english": "cinema",
+       "gender": "m",
+       "emoji": "🎬",
+       "cognateHint": "cine ≈ cinema",
+       "example": {
+        "target": "El cine está allí.",
+        "english": "The cinema is there."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l4-la-universidad",
+       "target": "la universidad",
+       "english": "university",
+       "gender": "f",
+       "emoji": "🎓",
+       "cognateHint": "universidad ≈ university",
+       "example": {
+        "target": "La universidad está lejos.",
+        "english": "The university is far."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Dónde está el baño?",
+       "english": "Where is the bathroom?",
+       "spain": "¿Dónde está el servicio?"
+      },
+      {
+       "target": "La farmacia está cerca.",
+       "english": "The pharmacy is near."
+      },
+      {
+       "target": "El supermercado está allí.",
+       "english": "The supermarket is there."
+      },
+      {
+       "target": "Quiero ir a la playa.",
+       "english": "I want to go to the beach."
+      },
+      {
+       "target": "El museo, la iglesia, el parque.",
+       "english": "The museum, the church, the park."
+      },
+      {
+       "target": "La universidad, la oficina y el mercado, todo derecho.",
+       "english": "The university, the office and the market, straight ahead.",
+       "spain": "La universidad, la oficina y el mercado, todo recto."
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿Dónde está el ",
+       "after": "?",
+       "options": [
+        "mapa",
+        "baño",
+        "parque"
+       ],
+       "answer": 1,
+       "english": "Where is the bathroom?",
+       "spain": {
+        "options": [
+         "mapa",
+         "servicio",
+         "parque"
+        ]
+       }
+      },
+      {
+       "before": "La ",
+       "after": " está cerca.",
+       "options": [
+        "museo",
+        "cine",
+        "farmacia"
+       ],
+       "answer": 2,
+       "english": "The pharmacy is near."
+      },
+      {
+       "before": "Quiero ir a la ",
+       "after": ".",
+       "options": [
+        "playa",
+        "museo",
+        "parque"
+       ],
+       "answer": 0,
+       "english": "I want to go to the beach."
+      },
+      {
+       "before": "El ",
+       "after": " está allí.",
+       "options": [
+        "tienda",
+        "supermercado",
+        "farmacia"
+       ],
+       "answer": 1,
+       "english": "The supermarket is there."
+      }
+     ],
+     "dialogue": {
+      "scene": "Finding a pharmacy",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Perdón, ¿dónde está la farmacia?",
+        "english": "Excuse me, where is the pharmacy?"
+       },
+       {
+        "who": "me",
+        "target": "Está allí, a la derecha. Cerca.",
+        "english": "It's there, on the right. Near."
+       },
+       {
+        "who": "them",
+        "target": "Gracias. ¡Hasta luego!",
+        "english": "Thanks. See you later!"
+       }
+      ],
+      "replyOptions": [
+       "De nada. ¡Adiós!",
+       "Estoy perdido.",
+       "Quiero la cuenta."
+      ],
+      "answer": 0
+     },
+     "tip": "-dad = -ty: la universidad, la nacionalidad, la realidad. Place words are nearly all cognates (el museo, el parque, la farmacia). Spain says el servicio (or los aseos) for the toilet."
+    },
+    {
+     "id": "s1u4l5",
+     "title": "Asking for help",
+     "items": [
+      {
+       "id": "s1u4l5-me-puede-ayudar",
+       "target": "¿Me puede ayudar?",
+       "english": "can you help me?",
+       "gender": null,
+       "emoji": "🆘",
+       "example": {
+        "target": "Disculpe, ¿me puede ayudar?",
+        "english": "Excuse me, can you help me?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l5-ayuda",
+       "target": "¡Ayuda!",
+       "english": "help!",
+       "gender": null,
+       "emoji": "🆘",
+       "example": {
+        "target": "¡Ayuda!",
+        "english": "Help!"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l5-cuidado",
+       "target": "¡Cuidado!",
+       "english": "careful!",
+       "gender": null,
+       "emoji": "⚠️",
+       "example": {
+        "target": "¡Cuidado! El carro.",
+        "english": "Careful! The car.",
+        "spain": "¡Cuidado! El coche."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l5-un-momento",
+       "target": "Un momento",
+       "english": "one moment",
+       "gender": null,
+       "emoji": "⏳",
+       "cognateHint": "momento ≈ moment",
+       "example": {
+        "target": "Un momento, por favor.",
+        "english": "One moment, please."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l5-a-que-hora-sale",
+       "target": "¿A qué hora sale?",
+       "english": "what time does it leave?",
+       "gender": null,
+       "emoji": "🕒",
+       "example": {
+        "target": "¿A qué hora sale el tren?",
+        "english": "What time does the train leave?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u4l5-el-viaje",
+       "target": "el viaje",
+       "english": "trip / journey",
+       "gender": "m",
+       "emoji": "🧳",
+       "cognateHint": "viaje ≈ voyage",
+       "example": {
+        "target": "El viaje, gracias.",
+        "english": "The trip, thanks."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-la-salida",
+       "target": "la salida",
+       "english": "exit / departure",
+       "gender": "f",
+       "emoji": "🚪",
+       "cognateHint": "salida ≈ sally out",
+       "example": {
+        "target": "La salida está allí.",
+        "english": "The exit is there."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-la-entrada",
+       "target": "la entrada",
+       "english": "entrance",
+       "gender": "f",
+       "emoji": "🚪",
+       "cognateHint": "entrada ≈ entrance",
+       "example": {
+        "target": "La entrada está aquí.",
+        "english": "The entrance is here."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-abierto",
+       "target": "abierto",
+       "english": "open",
+       "gender": null,
+       "emoji": "🟢",
+       "example": {
+        "target": "El museo está abierto.",
+        "english": "The museum is open."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-cerrado",
+       "target": "cerrado",
+       "english": "closed",
+       "gender": null,
+       "emoji": "🔴",
+       "example": {
+        "target": "El banco está cerrado.",
+        "english": "The bank is closed."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u4l5-la-fila",
+       "target": "la fila",
+       "english": "line / queue",
+       "gender": "f",
+       "emoji": "🧍",
+       "example": {
+        "target": "La fila está allí.",
+        "english": "The line is there.",
+        "spain": "La cola está allí."
+       },
+       "kind": "word",
+       "spain": "la cola"
+      },
+      {
+       "id": "s1u4l5-la-informacion",
+       "target": "la información",
+       "english": "information",
+       "gender": "f",
+       "emoji": "ℹ️",
+       "cognateHint": "información ≈ information",
+       "example": {
+        "target": "La información, por favor.",
+        "english": "The information, please."
+       },
+       "kind": "word"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Disculpe, ¿me puede ayudar?",
+       "english": "Excuse me, can you help me?"
+      },
+      {
+       "target": "Un momento, por favor.",
+       "english": "One moment, please."
+      },
+      {
+       "target": "¡Cuidado! El carro.",
+       "english": "Careful! The car.",
+       "spain": "¡Cuidado! El coche."
+      },
+      {
+       "target": "¿A qué hora sale el tren?",
+       "english": "What time does the train leave?"
+      },
+      {
+       "target": "El museo está abierto, el banco está cerrado.",
+       "english": "The museum is open, the bank is closed."
+      },
+      {
+       "target": "La entrada está a la izquierda. La fila, allí.",
+       "english": "The entrance is on the left. The line, there.",
+       "spain": "La entrada está a la izquierda. La cola, allí."
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿Me puede ",
+       "after": "?",
+       "options": [
+        "ayuda",
+        "ayudar",
+        "llegar"
+       ],
+       "answer": 1,
+       "english": "Can you help me?"
+      },
+      {
+       "before": "¿A qué hora ",
+       "after": " el tren?",
+       "options": [
+        "llego",
+        "cuesta",
+        "sale"
+       ],
+       "answer": 2,
+       "english": "What time does the train leave?"
+      },
+      {
+       "before": "El banco está ",
+       "after": ".",
+       "options": [
+        "cerrado",
+        "abierto",
+        "lejos"
+       ],
+       "answer": 0,
+       "english": "The bank is closed."
+      },
+      {
+       "before": "La ",
+       "after": " está allí.",
+       "options": [
+        "salida",
+        "fila",
+        "entrada"
+       ],
+       "answer": 1,
+       "english": "The line is over there.",
+       "spain": {
+        "options": [
+         "salida",
+         "cola",
+         "entrada"
+        ]
+       }
+      }
+     ],
+     "dialogue": {
+      "scene": "Asking for help",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¡Hola! ¿Qué tal?",
+        "english": "Hi! How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Disculpe, ¿me puede ayudar?",
+        "english": "Excuse me, can you help me?"
+       },
+       {
+        "who": "them",
+        "target": "Sí, claro. Un momento.",
+        "english": "Yes, of course. One moment."
+       }
+      ],
+      "replyOptions": [
+       "Gracias. ¿A qué hora sale el tren?",
+       "De nada.",
+       "Estoy lleno."
+      ],
+      "answer": 0
+     },
+     "tip": "¿Me puede ayudar? is the polite magic phrase: it uses the usted form (puede) for strangers, shop staff and officials. ¡Ayuda! and ¡Cuidado! are for emergencies. Spain says la cola for the queue."
+    }
+   ]
+  },
+  {
+   "id": "s1u5",
+   "title": "I want / I have / I need",
+   "lessons": [
+    {
+     "id": "s1u5l1",
+     "title": "I want",
+     "items": [
+      {
+       "id": "s1u5l1-no-quiero",
+       "target": "no quiero",
+       "english": "I don't want",
+       "gender": null,
+       "emoji": "🙅",
+       "example": {
+        "target": "No quiero nada.",
+        "english": "I don't want anything."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-que-quieres",
+       "target": "¿Qué quieres?",
+       "english": "what do you want?",
+       "gender": null,
+       "emoji": "❓",
+       "example": {
+        "target": "¿Qué quieres?",
+        "english": "What do you want?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-quieres",
+       "target": "¿Quieres…?",
+       "english": "do you want…?",
+       "gender": null,
+       "emoji": "🤲",
+       "example": {
+        "target": "¿Quieres café?",
+        "english": "Do you want coffee?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-quiero-ir-a",
+       "target": "quiero ir a",
+       "english": "I want to go to",
+       "gender": null,
+       "emoji": "🚶",
+       "example": {
+        "target": "Quiero ir a la playa.",
+        "english": "I want to go to the beach."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-quiero-comer",
+       "target": "quiero comer",
+       "english": "I want to eat",
+       "gender": null,
+       "emoji": "🍽️",
+       "example": {
+        "target": "Quiero comer.",
+        "english": "I want to eat."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-quiero-beber",
+       "target": "quiero beber",
+       "english": "I want to drink",
+       "gender": null,
+       "emoji": "🥤",
+       "example": {
+        "target": "Quiero beber agua.",
+        "english": "I want to drink water."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-quiero-ver",
+       "target": "quiero ver",
+       "english": "I want to see",
+       "gender": null,
+       "emoji": "👀",
+       "example": {
+        "target": "Quiero ver el museo.",
+        "english": "I want to see the museum."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-quiero-hablar",
+       "target": "quiero hablar",
+       "english": "I want to speak",
+       "gender": null,
+       "emoji": "🗣️",
+       "example": {
+        "target": "Quiero hablar español.",
+        "english": "I want to speak Spanish."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-quiero-mas",
+       "target": "quiero más",
+       "english": "I want more",
+       "gender": null,
+       "emoji": "➕",
+       "example": {
+        "target": "Quiero más.",
+        "english": "I want more."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-no-quiero-nada",
+       "target": "no quiero nada",
+       "english": "I want nothing",
+       "gender": null,
+       "emoji": "🙅",
+       "example": {
+        "target": "No quiero nada, gracias.",
+        "english": "I don't want anything, thanks."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-quiero-eso",
+       "target": "quiero eso",
+       "english": "I want that",
+       "gender": null,
+       "emoji": "👉",
+       "example": {
+        "target": "Quiero eso.",
+        "english": "I want that."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l1-ya-quiero",
+       "target": "ya quiero",
+       "english": "I can't wait for it",
+       "gender": null,
+       "emoji": "🤩",
+       "example": {
+        "target": "¡Ya quiero la paella!",
+        "english": "I can't wait for the paella!"
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Quiero comer. Tengo hambre.",
+       "english": "I want to eat. I'm hungry."
+      },
+      {
+       "target": "¿Qué quieres? ¿Quieres café?",
+       "english": "What do you want? Do you want coffee?"
+      },
+      {
+       "target": "Quiero beber agua.",
+       "english": "I want to drink water."
+      },
+      {
+       "target": "Quiero ir a la playa.",
+       "english": "I want to go to the beach."
+      },
+      {
+       "target": "No quiero nada, gracias.",
+       "english": "I don't want anything, thanks."
+      },
+      {
+       "target": "Quiero hablar español. Quiero más.",
+       "english": "I want to speak Spanish. I want more."
+      }
+     ],
+     "fills": [
+      {
+       "before": "Quiero ",
+       "after": " agua.",
+       "options": [
+        "comer",
+        "beber",
+        "hablar"
+       ],
+       "answer": 1,
+       "english": "I want to drink water."
+      },
+      {
+       "before": "¿Qué ",
+       "after": "?",
+       "options": [
+        "quiero",
+        "soy",
+        "quieres"
+       ],
+       "answer": 2,
+       "english": "What do you want?"
+      },
+      {
+       "before": "Quiero ",
+       "after": " español.",
+       "options": [
+        "hablar",
+        "beber",
+        "comer"
+       ],
+       "answer": 0,
+       "english": "I want to speak Spanish."
+      },
+      {
+       "before": "No quiero ",
+       "after": ".",
+       "options": [
+        "cuenta",
+        "nada",
+        "cien"
+       ],
+       "answer": 1,
+       "english": "I don't want anything."
+      }
+     ],
+     "dialogue": {
+      "scene": "Deciding what to do",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Hola. ¿Qué quieres?",
+        "english": "Hi. What do you want?"
+       },
+       {
+        "who": "me",
+        "target": "Tengo hambre. Quiero comer.",
+        "english": "I'm hungry. I want to eat."
+       },
+       {
+        "who": "them",
+        "target": "¿Quieres la pizza?",
+        "english": "Do you want the pizza?"
+       }
+      ],
+      "replyOptions": [
+       "Sí, quiero la pizza.",
+       "Hasta luego.",
+       "Soy de Inglaterra."
+      ],
+      "answer": 0
+     },
+     "tip": "quiero + infinitive: quiero comer, quiero ir. The verb after quiero never changes. No quiero = \"I don't want\". ¿Quieres…? = \"do you want…?\" (to a friend)."
+    },
+    {
+     "id": "s1u5l2",
+     "title": "I have",
+     "items": [
+      {
+       "id": "s1u5l2-tengo",
+       "target": "tengo",
+       "english": "I have",
+       "gender": null,
+       "emoji": "🙋",
+       "example": {
+        "target": "Tengo dinero.",
+        "english": "I have money."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l2-no-tengo",
+       "target": "no tengo",
+       "english": "I don't have",
+       "gender": null,
+       "emoji": "🚫",
+       "example": {
+        "target": "No tengo tarjeta.",
+        "english": "I don't have a card."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tienes",
+       "target": "¿Tienes…?",
+       "english": "do you have…?",
+       "gender": null,
+       "emoji": "❓",
+       "example": {
+        "target": "¿Tienes tiempo?",
+        "english": "Do you have time?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tengo-un-problema",
+       "target": "tengo un problema",
+       "english": "I have a problem",
+       "gender": null,
+       "emoji": "⚠️",
+       "cognateHint": "problema ≈ problem",
+       "example": {
+        "target": "Tengo un problema.",
+        "english": "I have a problem."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tengo-prisa",
+       "target": "tengo prisa",
+       "english": "I'm in a hurry",
+       "gender": null,
+       "emoji": "🏃",
+       "example": {
+        "target": "Tengo prisa.",
+        "english": "I'm in a hurry."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tengo-frio",
+       "target": "tengo frío",
+       "english": "I'm cold",
+       "gender": null,
+       "emoji": "🥶",
+       "example": {
+        "target": "Tengo frío.",
+        "english": "I'm cold."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tengo-calor",
+       "target": "tengo calor",
+       "english": "I'm hot",
+       "gender": null,
+       "emoji": "🥵",
+       "example": {
+        "target": "Tengo calor.",
+        "english": "I'm hot."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tengo-sueno",
+       "target": "tengo sueño",
+       "english": "I'm sleepy",
+       "gender": null,
+       "emoji": "😴",
+       "example": {
+        "target": "Tengo sueño.",
+        "english": "I'm sleepy."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tengo-miedo",
+       "target": "tengo miedo",
+       "english": "I'm scared",
+       "gender": null,
+       "emoji": "😨",
+       "example": {
+        "target": "Tengo miedo.",
+        "english": "I'm scared."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tengo-razon",
+       "target": "tengo razón",
+       "english": "I'm right",
+       "gender": null,
+       "emoji": "☝️",
+       "example": {
+        "target": "Tengo razón.",
+        "english": "I'm right."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tengo-ganas-de",
+       "target": "tengo ganas de",
+       "english": "I feel like…",
+       "gender": null,
+       "emoji": "😏",
+       "example": {
+        "target": "Tengo ganas de comer.",
+        "english": "I feel like eating."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l2-tengo-tiempo",
+       "target": "tengo tiempo",
+       "english": "I have time",
+       "gender": null,
+       "emoji": "🕰️",
+       "cognateHint": "tiempo ≈ temporal",
+       "example": {
+        "target": "Tengo tiempo.",
+        "english": "I have time."
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Tengo un problema. No tengo dinero.",
+       "english": "I have a problem. I don't have money."
+      },
+      {
+       "target": "¿Tienes tiempo?",
+       "english": "Do you have time?"
+      },
+      {
+       "target": "Tengo prisa. ¡Hasta luego!",
+       "english": "I'm in a hurry. See you later!"
+      },
+      {
+       "target": "Tengo frío. Quiero café caliente.",
+       "english": "I'm cold. I want hot coffee."
+      },
+      {
+       "target": "Tengo calor. Quiero agua con hielo.",
+       "english": "I'm hot. I want water with ice."
+      },
+      {
+       "target": "Tengo sueño. Tengo ganas de ir al hotel.",
+       "english": "I'm sleepy. I feel like going to the hotel."
+      }
+     ],
+     "fills": [
+      {
+       "before": "No ",
+       "after": " dinero.",
+       "options": [
+        "tienes",
+        "tengo",
+        "tiene"
+       ],
+       "answer": 1,
+       "english": "I don't have money."
+      },
+      {
+       "before": "¿",
+       "after": " tiempo?",
+       "options": [
+        "Tengo",
+        "Soy",
+        "Tienes"
+       ],
+       "answer": 2,
+       "english": "Do you have time?"
+      },
+      {
+       "before": "Tengo ",
+       "after": ". ¡Adiós!",
+       "options": [
+        "prisa",
+        "sed",
+        "lleno"
+       ],
+       "answer": 0,
+       "english": "I'm in a hurry. Bye!"
+      },
+      {
+       "before": "Tengo ",
+       "after": " de comer.",
+       "options": [
+        "hielo",
+        "ganas",
+        "frío"
+       ],
+       "answer": 1,
+       "english": "I feel like eating."
+      }
+     ],
+     "dialogue": {
+      "scene": "Running late",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¡Hola! ¿Qué tal?",
+        "english": "Hi! How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Tengo prisa. ¿Tienes tiempo?",
+        "english": "I'm in a hurry. Do you have time?"
+       },
+       {
+        "who": "them",
+        "target": "Lo siento. No tengo tiempo. ¡Hasta luego!",
+        "english": "Sorry. I don't have time. See you later!"
+       }
+      ],
+      "replyOptions": [
+       "No pasa nada. ¡Adiós!",
+       "De nada.",
+       "Tengo hambre."
+      ],
+      "answer": 0
+     },
+     "tip": "Spanish \"has\" feelings: tengo frío (I have cold) = I'm cold, and the same for hambre, sed, sueño, prisa, miedo. Never \"soy frío\" (that means \"I am a cold person\"). Tengo ganas de + verb = \"I feel like…\"."
+    },
+    {
+     "id": "s1u5l3",
+     "title": "I need",
+     "items": [
+      {
+       "id": "s1u5l3-necesito",
+       "target": "necesito",
+       "english": "I need",
+       "gender": null,
+       "emoji": "🙋",
+       "example": {
+        "target": "Necesito agua.",
+        "english": "I need water."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l3-necesito-ayuda",
+       "target": "necesito ayuda",
+       "english": "I need help",
+       "gender": null,
+       "emoji": "🆘",
+       "example": {
+        "target": "Necesito ayuda, por favor.",
+        "english": "I need help, please."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-necesito-un-taxi",
+       "target": "necesito un taxi",
+       "english": "I need a taxi",
+       "gender": null,
+       "emoji": "🚕",
+       "example": {
+        "target": "Necesito un taxi.",
+        "english": "I need a taxi."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-necesito-agua",
+       "target": "necesito agua",
+       "english": "I need water",
+       "gender": null,
+       "emoji": "💧",
+       "example": {
+        "target": "Necesito agua, por favor.",
+        "english": "I need water, please."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-necesito-el-bano",
+       "target": "necesito el baño",
+       "english": "I need the bathroom",
+       "gender": null,
+       "emoji": "🚻",
+       "example": {
+        "target": "Necesito el baño.",
+        "english": "I need the bathroom.",
+        "spain": "Necesito el servicio."
+       },
+       "kind": "phrase",
+       "spain": "necesito el servicio"
+      },
+      {
+       "id": "s1u5l3-necesito-dormir",
+       "target": "necesito dormir",
+       "english": "I need to sleep",
+       "gender": null,
+       "emoji": "😴",
+       "example": {
+        "target": "Necesito dormir.",
+        "english": "I need to sleep."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-necesito-dinero",
+       "target": "necesito dinero",
+       "english": "I need money",
+       "gender": null,
+       "emoji": "💵",
+       "example": {
+        "target": "Necesito dinero.",
+        "english": "I need money."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-necesito-tiempo",
+       "target": "necesito tiempo",
+       "english": "I need time",
+       "gender": null,
+       "emoji": "⏳",
+       "example": {
+        "target": "Necesito tiempo.",
+        "english": "I need time."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-necesito-un-medico",
+       "target": "necesito un médico",
+       "english": "I need a doctor",
+       "gender": null,
+       "emoji": "🩺",
+       "example": {
+        "target": "Necesito un médico.",
+        "english": "I need a doctor."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-no-necesito-nada",
+       "target": "no necesito nada",
+       "english": "I don't need anything",
+       "gender": null,
+       "emoji": "🙅",
+       "example": {
+        "target": "No necesito nada.",
+        "english": "I don't need anything."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-necesitas-algo",
+       "target": "¿Necesitas algo?",
+       "english": "do you need anything?",
+       "gender": null,
+       "emoji": "🤲",
+       "example": {
+        "target": "¿Necesitas algo?",
+        "english": "Do you need anything?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l3-necesito-pensar",
+       "target": "necesito pensar",
+       "english": "I need to think",
+       "gender": null,
+       "emoji": "🤔",
+       "example": {
+        "target": "Necesito pensar.",
+        "english": "I need to think."
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "Necesito ayuda, por favor.",
+       "english": "I need help, please."
+      },
+      {
+       "target": "Necesito un taxi. ¿Dónde está la parada?",
+       "english": "I need a taxi. Where is the stop?"
+      },
+      {
+       "target": "Necesito el baño.",
+       "english": "I need the bathroom.",
+       "spain": "Necesito el servicio."
+      },
+      {
+       "target": "Tengo sueño. Necesito dormir.",
+       "english": "I'm sleepy. I need to sleep."
+      },
+      {
+       "target": "¿Necesitas algo? — No, no necesito nada.",
+       "english": "Do you need anything? — No, I don't need anything."
+      },
+      {
+       "target": "Necesito un médico. ¡Ayuda!",
+       "english": "I need a doctor. Help!"
+      }
+     ],
+     "fills": [
+      {
+       "before": "Necesito ",
+       "after": ", por favor.",
+       "options": [
+        "dormir",
+        "ayuda",
+        "tarjeta"
+       ],
+       "answer": 1,
+       "english": "I need help, please."
+      },
+      {
+       "before": "Tengo sueño. Necesito ",
+       "after": ".",
+       "options": [
+        "comer",
+        "beber",
+        "dormir"
+       ],
+       "answer": 2,
+       "english": "I'm sleepy. I need to sleep."
+      },
+      {
+       "before": "Necesito el ",
+       "after": ".",
+       "options": [
+        "baño",
+        "mapa",
+        "taxi"
+       ],
+       "answer": 0,
+       "english": "I need the bathroom.",
+       "spain": {
+        "options": [
+         "servicio",
+         "mapa",
+         "taxi"
+        ]
+       }
+      },
+      {
+       "before": "¿",
+       "after": " algo?",
+       "options": [
+        "Necesito",
+        "Necesitas",
+        "Necesita"
+       ],
+       "answer": 1,
+       "english": "Do you need anything?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Something is wrong",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¡Hola! ¿Qué tal?",
+        "english": "Hi! How's it going?"
+       },
+       {
+        "who": "me",
+        "target": "Tengo un problema. Necesito ayuda.",
+        "english": "I have a problem. I need help."
+       },
+       {
+        "who": "them",
+        "target": "Un momento. ¿Necesitas un médico?",
+        "english": "One moment. Do you need a doctor?"
+       }
+      ],
+      "replyOptions": [
+       "No, necesito un taxi.",
+       "Mucho gusto.",
+       "Sí, de nada."
+      ],
+      "answer": 0
+     },
+     "tip": "necesito + noun or verb, just like quiero: necesito agua, necesito dormir. Un = \"a\" before a masculine noun (un taxi, un médico). Spain says el servicio for the toilet."
+    },
+    {
+     "id": "s1u5l4",
+     "title": "Is / is it",
+     "items": [
+      {
+       "id": "s1u5l4-es",
+       "target": "es",
+       "english": "is (what something is)",
+       "gender": null,
+       "emoji": "🟰",
+       "example": {
+        "target": "Es verdad.",
+        "english": "It's true."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-esta",
+       "target": "está",
+       "english": "is / am (state, place)",
+       "gender": null,
+       "emoji": "📍",
+       "example": {
+        "target": "Está aquí.",
+        "english": "It's here."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-esto",
+       "target": "esto",
+       "english": "this",
+       "gender": null,
+       "emoji": "👇",
+       "example": {
+        "target": "Esto es el hotel.",
+        "english": "This is the hotel."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-eso",
+       "target": "eso",
+       "english": "that",
+       "gender": null,
+       "emoji": "👉",
+       "example": {
+        "target": "Eso es la estación.",
+        "english": "That is the station."
+       },
+       "kind": "word"
+      },
+      {
+       "id": "s1u5l4-que-es-esto",
+       "target": "¿Qué es esto?",
+       "english": "what is this?",
+       "gender": null,
+       "emoji": "❓",
+       "example": {
+        "target": "¿Qué es esto?",
+        "english": "What is this?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-es-verdad",
+       "target": "es verdad",
+       "english": "it's true",
+       "gender": null,
+       "emoji": "💯",
+       "cognateHint": "verdad ≈ verity",
+       "example": {
+        "target": "Es verdad.",
+        "english": "It's true."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-es-facil",
+       "target": "es fácil",
+       "english": "it's easy",
+       "gender": null,
+       "emoji": "😎",
+       "cognateHint": "fácil ≈ facile",
+       "example": {
+        "target": "Es fácil.",
+        "english": "It's easy."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-es-dificil",
+       "target": "es difícil",
+       "english": "it's difficult",
+       "gender": null,
+       "emoji": "😰",
+       "cognateHint": "difícil ≈ difficult",
+       "example": {
+        "target": "Es difícil.",
+        "english": "It's difficult."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-estoy-cansado",
+       "target": "estoy cansado",
+       "english": "I'm tired",
+       "gender": null,
+       "emoji": "😩",
+       "example": {
+        "target": "Estoy cansado.",
+        "english": "I'm tired."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-estoy-listo",
+       "target": "estoy listo",
+       "english": "I'm ready",
+       "gender": null,
+       "emoji": "✅",
+       "example": {
+        "target": "Estoy listo.",
+        "english": "I'm ready."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-estoy-aqui",
+       "target": "estoy aquí",
+       "english": "I'm here",
+       "gender": null,
+       "emoji": "🙋",
+       "example": {
+        "target": "Estoy aquí.",
+        "english": "I'm here."
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l4-esta-listo",
+       "target": "¿Está listo?",
+       "english": "is it ready?",
+       "gender": null,
+       "emoji": "⌛",
+       "example": {
+        "target": "¿Está listo?",
+        "english": "Is it ready?"
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Qué es esto?",
+       "english": "What is this?"
+      },
+      {
+       "target": "Esto es el hotel. Eso es la estación.",
+       "english": "This is the hotel. That is the station."
+      },
+      {
+       "target": "Es verdad. El español es fácil.",
+       "english": "It's true. Spanish is easy."
+      },
+      {
+       "target": "Es difícil, no entiendo.",
+       "english": "It's difficult, I don't understand."
+      },
+      {
+       "target": "Estoy cansado. Necesito dormir.",
+       "english": "I'm tired. I need to sleep."
+      },
+      {
+       "target": "Estoy listo. ¿Está listo el café?",
+       "english": "I'm ready. Is the coffee ready?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿Qué ",
+       "after": " esto?",
+       "options": [
+        "soy",
+        "es",
+        "estoy"
+       ],
+       "answer": 1,
+       "english": "What is this?"
+      },
+      {
+       "before": "El café ",
+       "after": " listo.",
+       "options": [
+        "es",
+        "soy",
+        "está"
+       ],
+       "answer": 2,
+       "english": "The coffee is ready."
+      },
+      {
+       "before": "Estoy ",
+       "after": ".",
+       "options": [
+        "cansado",
+        "difícil",
+        "verdad"
+       ],
+       "answer": 0,
+       "english": "I'm tired."
+      },
+      {
+       "before": "El español es ",
+       "after": ".",
+       "options": [
+        "cansado",
+        "fácil",
+        "listo"
+       ],
+       "answer": 1,
+       "english": "Spanish is easy."
+      }
+     ],
+     "dialogue": {
+      "scene": "Time to go",
+      "lines": [
+       {
+        "who": "them",
+        "target": "¡Hola! ¿Cómo estás?",
+        "english": "Hi! How are you?"
+       },
+       {
+        "who": "me",
+        "target": "Estoy cansado. Necesito dormir.",
+        "english": "I'm tired. I need to sleep."
+       },
+       {
+        "who": "them",
+        "target": "¿Estás listo? El taxi está aquí.",
+        "english": "Are you ready? The taxi is here."
+       }
+      ],
+      "replyOptions": [
+       "Sí, estoy listo.",
+       "De nada.",
+       "Mucho gusto."
+      ],
+      "answer": 0
+     },
+     "tip": "es = what something is or generally like (es fácil, es verdad); está / estoy = state or place (está aquí, estoy cansado). Learn each as a chunk and don't overthink the difference yet."
+    },
+    {
+     "id": "s1u5l5",
+     "title": "Question words",
+     "items": [
+      {
+       "id": "s1u5l5-quien",
+       "target": "¿Quién?",
+       "english": "who?",
+       "gender": null,
+       "emoji": "🧑",
+       "example": {
+        "target": "¿Quién es?",
+        "english": "Who is it?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-cuando",
+       "target": "¿Cuándo?",
+       "english": "when?",
+       "gender": null,
+       "emoji": "📅",
+       "example": {
+        "target": "¿Cuándo sale el tren?",
+        "english": "When does the train leave?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-donde",
+       "target": "¿Dónde?",
+       "english": "where?",
+       "gender": null,
+       "emoji": "📍",
+       "example": {
+        "target": "¿Dónde está el baño?",
+        "english": "Where is the bathroom?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-cual",
+       "target": "¿Cuál?",
+       "english": "which?",
+       "gender": null,
+       "emoji": "🤔",
+       "example": {
+        "target": "¿Cuál quieres?",
+        "english": "Which one do you want?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-cuanto",
+       "target": "¿Cuánto?",
+       "english": "how much?",
+       "gender": null,
+       "emoji": "💲",
+       "example": {
+        "target": "¿Cuánto cuesta?",
+        "english": "How much does it cost?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-cuantos",
+       "target": "¿Cuántos?",
+       "english": "how many?",
+       "gender": null,
+       "emoji": "🔢",
+       "example": {
+        "target": "¿Cuántos tacos quieres?",
+        "english": "How many tacos do you want?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-con-quien",
+       "target": "¿Con quién?",
+       "english": "with whom?",
+       "gender": null,
+       "emoji": "👥",
+       "example": {
+        "target": "¿Con quién?",
+        "english": "With whom?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-para-que",
+       "target": "¿Para qué?",
+       "english": "what for?",
+       "gender": null,
+       "emoji": "🎯",
+       "example": {
+        "target": "¿Para qué?",
+        "english": "What for?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-a-donde",
+       "target": "¿A dónde?",
+       "english": "to where?",
+       "gender": null,
+       "emoji": "🧭",
+       "example": {
+        "target": "¿A dónde?",
+        "english": "To where?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-cuantos-anos-tienes",
+       "target": "¿Cuántos años tienes?",
+       "english": "how old are you?",
+       "gender": null,
+       "emoji": "🎂",
+       "example": {
+        "target": "¿Cuántos años tienes?",
+        "english": "How old are you?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-puedo",
+       "target": "¿Puedo…?",
+       "english": "can I…?",
+       "gender": null,
+       "emoji": "🙋",
+       "example": {
+        "target": "¿Puedo pagar con tarjeta?",
+        "english": "Can I pay by card?"
+       },
+       "kind": "phrase"
+      },
+      {
+       "id": "s1u5l5-se-puede",
+       "target": "¿Se puede…?",
+       "english": "is it allowed / possible to…?",
+       "gender": null,
+       "emoji": "🤷",
+       "example": {
+        "target": "¿Se puede pagar en efectivo?",
+        "english": "Can you pay in cash?"
+       },
+       "kind": "phrase"
+      }
+     ],
+     "sentences": [
+      {
+       "target": "¿Quién es? — Es Ana.",
+       "english": "Who is it? — It's Ana."
+      },
+      {
+       "target": "¿Cuándo sale el tren?",
+       "english": "When does the train leave?"
+      },
+      {
+       "target": "¿Cuál quieres? — Quiero eso.",
+       "english": "Which one do you want? — I want that."
+      },
+      {
+       "target": "¿Cuántos tacos quieres?",
+       "english": "How many tacos do you want?"
+      },
+      {
+       "target": "¿Puedo pagar con tarjeta? ¿Se puede?",
+       "english": "Can I pay by card? Is that allowed?"
+      },
+      {
+       "target": "¿A dónde? Voy a la playa. ¿Con quién?",
+       "english": "Where to? I'm going to the beach. With whom?"
+      }
+     ],
+     "fills": [
+      {
+       "before": "¿",
+       "after": " es?",
+       "options": [
+        "Cuándo",
+        "Quién",
+        "Dónde"
+       ],
+       "answer": 1,
+       "english": "Who is it?"
+      },
+      {
+       "before": "¿",
+       "after": " sale el tren?",
+       "options": [
+        "Quién",
+        "Cuál",
+        "Cuándo"
+       ],
+       "answer": 2,
+       "english": "When does the train leave?"
+      },
+      {
+       "before": "¿",
+       "after": " tacos quieres?",
+       "options": [
+        "Cuántos",
+        "Cuánto",
+        "Cuál"
+       ],
+       "answer": 0,
+       "english": "How many tacos do you want?"
+      },
+      {
+       "before": "¿",
+       "after": " pagar con tarjeta?",
+       "options": [
+        "Pago",
+        "Puedo",
+        "Tengo"
+       ],
+       "answer": 1,
+       "english": "Can I pay by card?"
+      }
+     ],
+     "dialogue": {
+      "scene": "Making plans",
+      "lines": [
+       {
+        "who": "them",
+        "target": "Voy a la playa mañana. ¿Quieres ir?",
+        "english": "I'm going to the beach tomorrow. Do you want to come?"
+       },
+       {
+        "who": "me",
+        "target": "Sí, claro. ¿Con quién?",
+        "english": "Yes, of course. With whom?"
+       },
+       {
+        "who": "them",
+        "target": "Con Ana y con Luis.",
+        "english": "With Ana and Luis."
+       }
+      ],
+      "replyOptions": [
+       "¿A qué hora sale el taxi?",
+       "De nada.",
+       "Mucho gusto."
+      ],
+      "answer": 0
+     },
+     "tip": "Question words always carry an accent (quién, cuándo, dónde, cuál, cuánto) and a question starts with ¿. ¿Puedo…? = \"may I…?\"; ¿Se puede…? = \"is it allowed / possible to…?\"."
+    }
+   ]
+  }
+ ]
+}

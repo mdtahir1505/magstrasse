@@ -4,11 +4,18 @@ export type Level = 'A1' | 'A2' | 'B1';
 export type Pack = { id: string; name: string; nativeName: string; flag: string; voice: string;
   articles: Record<'m' | 'f' | 'n', string> | null; stages: string[];
   genderLabels?: Record<'m' | 'f' | 'n', string>; translitUntilStage?: number; displayFontNeedsFallback?: boolean;
-  stickerWords?: string[] /* optional slang for the sticker wall */ };
+  stickerWords?: string[] /* optional slang for the sticker wall */;
+  pluralArticles?: string[] /* parallel to articles' order (m, f, n): es ["los","las"] */;
+  keys?: string[] /* special-character helper keys under Type it */;
+  regions?: { id: string; label: string; flag: string; voice: string }[] /* first = base (the `target` field); others name the item field holding their variant */;
+  tagline?: string /* onboarding card sub-line */ };
+/** `spain` is content (the other region's form); alt/altFlag are derived by localize() = the form not shown as main. */
+export type Variant = { spain?: string; alt?: string; altFlag?: string };
 export type Item = { id: string; target: string; english: string; gender: Gender; emoji?: string; cognateHint?: string;
-  example?: { target: string; english: string; translit?: string }; kind: 'word' | 'phrase'; translit?: string };
-export type Sentence = { target: string; english: string; translit?: string };
-export type Fill = { before: string; after: string; options: string[]; answer: number; english: string };
+  example?: { target: string; english: string; translit?: string } & Variant; kind: 'word' | 'phrase'; translit?: string } & Variant;
+export type Sentence = { target: string; english: string; translit?: string } & Variant;
+export type Fill = { before: string; after: string; options: string[]; answer: number; english: string;
+  spain?: Partial<Omit<Fill, 'spain' | 'alt'>>; alt?: number /* option index of the other region's correct word */ };
 export type DialogueEx = { scene: string; lines: { who: 'them' | 'me'; target: string; english: string }[];
   replyOptions: string[]; answer: number };
 export type LessonContent = { id: string; title: string; items: Item[]; sentences: Sentence[]; fills: Fill[];
@@ -26,17 +33,17 @@ export type Lang = { pack: Pack; stages: StageContent[]; stories: Story[]; stree
 export type Strength = 0 | 1 | 2 | 3 | 4 | 5;
 export type Exercise =
   | { kind: 'intro'; item: Item }
-  | { kind: 'listenPick'; audioText: string; english: string; options: string[]; answer: number; itemId?: string; why?: string; translit?: string }
-  | { kind: 'build'; prompt: string; tiles: string[]; answer: string[]; why?: string }
-  | { kind: 'type'; prompt: string; answer: string; alts?: string[]; itemId?: string; why?: string }
-  | { kind: 'say'; target: string; english: string; itemId?: string; translit?: string }
-  | { kind: 'fill'; before: string; after: string; options: string[]; answer: number; english: string; why?: string }
+  | { kind: 'listenPick'; audioText: string; english: string; options: string[]; answer: number; itemId?: string; why?: string; translit?: string; hint?: string }
+  | { kind: 'build'; prompt: string; tiles: string[]; answer: string[]; alt?: string[]; hint?: string; why?: string }
+  | { kind: 'type'; prompt: string; answer: string; alts?: string[]; hint?: string; itemId?: string; why?: string }
+  | { kind: 'say'; target: string; english: string; alt?: string; itemId?: string; translit?: string }
+  | { kind: 'fill'; before: string; after: string; options: string[]; answer: number; alt?: number; english: string; why?: string }
   | { kind: 'dialogue'; scene: string; lines: { who: 'them' | 'me'; target: string; english: string }[];
       replyOptions: string[]; answer: number; why?: string }
   | { kind: 'shadow'; target: string; english: string; translit?: string };
 export type Ex = Exercise & { retry?: boolean };
 export type Session = { blocks: { name: 'review' | 'new' | 'speak' | 'boss'; exercises: Ex[] }[]; current: { block: number; exercise: number } };
-export type Result = { correct: boolean; answer: string; given?: string; why?: string; silent?: boolean; translit?: string };
+export type Result = { correct: boolean; answer: string; given?: string; why?: string; silent?: boolean; translit?: string; hint?: string };
 
 export type Profile = { language: string; streak: number; freezesLeft: number; wordsKnown: number; dailyGoalMin: number;
   minutesToday: number; level: Level; streetEnabled: boolean };

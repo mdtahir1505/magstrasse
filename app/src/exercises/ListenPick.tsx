@@ -12,7 +12,7 @@ export default function ListenPick({ ex, tr, done }: ExProps<'listenPick'>) {
     if (picked === null) return;
     setChecked(true);
     const ok = picked === ex.answer;
-    done({ correct: ok, answer: `${ex.audioText} · ${ex.english}`, translit: tr ? ex.translit : undefined,
+    done({ correct: ok, answer: `${ex.audioText} · ${ex.english}`, translit: tr ? ex.translit : undefined, hint: ex.hint,
       why: ok ? relevantTip(ex.why, ex.audioText) : `"${ex.audioText}" means "${ex.english}", not "${ex.options[picked]}". Tap 🔊 and hear it again.` });
   };
   return <>

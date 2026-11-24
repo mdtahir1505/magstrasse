@@ -3,7 +3,7 @@ import { bossReady, currentLesson } from '../engine/session';
 import { dueIds } from '../engine/srs';
 import type { Progress } from '../engine/storage';
 import type { Lang, Profile } from '../types';
-import { A, BACK, CLOSE, CHECK, Drips, Flame, genderTags, Ico, nounOnly, Screen, Tab, TabBar, Tag } from '../ui';
+import { A, BACK, CLOSE, CHECK, Drips, Flame, Ico, nounOnly, Screen, Tab, TabBar, Tag } from '../ui';
 
 type Props = { lang: Lang; profile: Profile; progress: Progress; today: string; go: (t: Tab) => void; start: (m: 'full' | 'five' | 'one') => void; openFive: () => void;
   speed: () => void; startBoss: (unitId: string) => void; dismissBoss: () => void };
@@ -60,7 +60,7 @@ export default function Today({ lang, profile, progress, today, go, start, openF
           <p className="eyebrow" style={{ position: 'relative' }}>Day one</p>
           <h1 className="display" style={{ fontSize: 56, position: 'relative', marginTop: 6 }}>Fresh<br />wall.</h1>
           <p style={{ position: 'relative', marginTop: 12, fontWeight: 600, fontSize: 17 }}>
-            Your first spot: {cur.lesson.title}.{cur.lesson.items[0] && <> You'll say <span className="noun target"><Tag g={cur.lesson.items[0].gender} articles={genderTags(lang.pack)} size={0} />{nounOnly(cur.lesson.items[0])}</span> out loud in about 15 minutes.</>}
+            Your first spot: {cur.lesson.title}.{cur.lesson.items[0] && <> You'll say <span className="noun target"><Tag it={cur.lesson.items[0]} pack={lang.pack} size={0} />{nounOnly(cur.lesson.items[0], lang.pack)}</span> out loud in about 15 minutes.</>}
           </p>
         </div>
         <span className="sticker c" style={{ position: 'absolute', right: 30, bottom: -14, ['--rot' as string]: '5deg' }}>0 words · so far</span>

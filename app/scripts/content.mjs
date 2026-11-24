@@ -1,6 +1,6 @@
 // Content tools. `node scripts/content.mjs check` validates every pack (CI runs this).
 // `node scripts/content.mjs normalize` rewrites derived fields in place: Russian translit (one consistent style)
-// and German noun gender from the article.
+// and noun gender from the article (each pack's articles + pluralArticles, e.g. de der/die/das, es el/los = m, la/las = f).
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -35,8 +35,16 @@ export const ruTranslit = (s) => s.replace(/[\p{Script=Cyrillic}]+/gu, translitW
 const packs = () => readdirSync(ROOT).filter((d) => existsSync(join(ROOT, d, 'pack.json')));
 const files = (lang) => readdirSync(join(ROOT, lang)).filter((f) => f.endsWith('.json'));
 
+// article word -> gender. pluralArticles run parallel to the order of `articles` (m, f, n).
+const genderMap = (pack) => {
+  const keys = Object.keys(pack.articles ?? {});
+  return { ...Object.fromEntries(Object.entries(pack.articles ?? {}).reverse().map(([g, a]) => [a, g])),
+    ...Object.fromEntries((pack.pluralArticles ?? []).map((a, i) => [a, keys[i]]).filter(([, g]) => g)) };
+};
+
 function normalize() {
   for (const lang of packs()) {
+    const byArticle = genderMap(read(join(ROOT, lang, 'pack.json')));
     for (const f of files(lang)) {
       if (f === 'syllabus.json' || f === 'pack.json') continue;
       const path = join(ROOT, lang, f), data = read(path);
@@ -45,8 +53,8 @@ function normalize() {
         if (Array.isArray(o)) return o.forEach(visit);
         if (!o || typeof o !== 'object') return;
         if (lang === 'ru' && typeof o.target === 'string') { o.translit = ruTranslit(o.target); n++; }
-        if (lang === 'de' && typeof o.target === 'string' && 'gender' in o && o.gender === null) {
-          const g = { der: 'm', die: 'f', das: 'n' }[o.target.split(' ')[0]];
+        if (typeof o.target === 'string' && 'gender' in o && o.gender === null) {
+          const g = byArticle[o.target.split(' ')[0].toLowerCase()];
           if (g && o.kind === 'word') { o.gender = g; n++; }
         }
         Object.values(o).forEach(visit);
@@ -60,6 +68,7 @@ function normalize() {
 function check() {
   const errs = [];
   const err = (m) => errs.push(m);
+  const warn = (m) => console.warn('warning: ' + m);
   for (const lang of packs()) {
     const pack = read(join(ROOT, lang, 'pack.json'));
     const ids = new Set(), lessonIds = new Set();
@@ -81,7 +90,9 @@ function check() {
           if (![null, 'm', 'f', 'n'].includes(it.gender)) err(`${at}: bad gender on ${it.id}`);
           if (!it.target || !it.english) err(`${at}: empty item ${it.id}`);
           if (lang === 'ru' && !it.translit) err(`${at}: no translit on ${it.id}`);
+          if (it.spain && it.spain === it.target) warn(`${at}: spain equals target on ${it.id}`);
         }
+        for (const s of l.sentences) if (s.spain && s.spain === s.target) warn(`${at}: spain equals target in "${s.target}"`);
         for (const f of l.fills) {
           if (!(f.answer >= 0 && f.answer < f.options.length)) err(`${at}: fill answer out of range`);
           if (new Set(f.options).size !== f.options.length) err(`${at}: duplicate fill options`);

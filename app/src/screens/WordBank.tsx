@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { allItems } from '../content';
 import { speak } from '../engine/speech';
 import { strength } from '../engine/srs';
+import { altLabel } from '../engine/variants';
 import type { Gender } from '../types';
 import { genderTags, Ico, nounOnly, Tag } from '../ui';
 import type { MeProps } from './Me';
@@ -40,10 +41,11 @@ export default function WordBank({ lang, progress, tr }: MeProps) {
             <span aria-hidden="true" style={{ fontSize: 26, width: 34, textAlign: 'center' }}>{it.emoji}</span>
             <span style={{ flex: 1, minWidth: 0 }}>
               <span lang={lang.pack.voice} style={{ display: 'flex', alignItems: 'center', gap: 8, fontWeight: 800, fontSize: 18 }}>
-                <Tag g={it.gender} articles={genderTags(lang.pack)} size={14} />{nounOnly(it)}
+                <Tag it={it} pack={lang.pack} size={14} />{nounOnly(it, lang.pack)}
               </span>
               {tr && it.translit && <span className="small dim translit" style={{ display: 'block' }}>{it.translit}</span>}
               <span className="small dim" style={{ display: 'block' }}>{it.english}</span>
+              {it.alt && <span lang={lang.pack.voice} className="small dim" style={{ display: 'block' }}>{altLabel(it)}</span>}
             </span>
             <span className="meter" aria-hidden="true">{[1, 2, 3, 4, 5].map((n) => <i key={n} className={n <= it.strength ? 'on' : ''}></i>)}</span>
             <Ico d={['M4 9h4l5-4v14l-5-4H4z', 'M16.5 8.5a5 5 0 0 1 0 7']} style={{ width: 20, height: 20, color: 'var(--c-cyan)' }} />

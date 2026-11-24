@@ -10,7 +10,8 @@ type Lis = ReturnType<typeof listen>;
 const H = [40, 70, 55, 90, 35, 80, 60, 100, 45, 75, 30, 85, 50, 95, 40, 65, 80, 35, 70, 55, 90, 45, 60, 30];
 
 export default function Say({ ex, pack, tr, done }: ExProps<'say'>) {
-  const words = ex.target.split(/\s+/);
+  const [useAlt, setUseAlt] = useState(false); // the other region's sentence was the better match
+  const words = (useAlt && ex.alt ? ex.alt : ex.target).split(/\s+/);
   const [phase, setPhase] = useState<'idle' | 'live' | 'ok' | 'fallback'>('idle');
   const [hits, setHits] = useState<boolean[]>([]);
   const [said, setSaid] = useState<string | null>(null); // transcript; null = recogniser unavailable
@@ -21,20 +22,28 @@ export default function Say({ ex, pack, tr, done }: ExProps<'say'>) {
   const heard = hits.filter(Boolean).length;
   const missed = words.filter((_, i) => hits[i] === false && norm(words[i]));
 
+  /** Match against the main sentence and the other region's; the better one wins. */
+  const best = (t: string) => {
+    const w = ex.target.split(/\s+/), h = spokenMatch(w, t);
+    const w2 = ex.alt?.split(/\s+/), h2 = w2 ? spokenMatch(w2, t) : [];
+    const alt = !!w2 && h2.filter(Boolean).length > h.filter(Boolean).length;
+    setUseAlt(alt);
+    return alt ? { h: h2, w: w2! } : { h, w };
+  };
   const finish = async (t: string | null) => {
     if (ended.current) return;
     ended.current = true;
     const r = await rec.current?.stop();
     rec.current = null;
     if (r) setMine(r.url);
-    const h = t === null ? [] : spokenMatch(words, t);
-    setHits(h); setSaid(t);
-    setPhase(h.filter(Boolean).length >= Math.ceil(words.length * 0.7) ? 'ok' : 'fallback');
+    const { h, w } = best(t ?? '');
+    setHits(t === null ? [] : h); setSaid(t);
+    setPhase(t !== null && h.filter(Boolean).length >= Math.ceil(w.length * 0.7) ? 'ok' : 'fallback');
   };
 
   const start = async () => {
     ended.current = false; setHits([]); setSaid(null); setMine(null); setPhase('live');
-    lis.current = listen((t) => setHits(spokenMatch(words, t)));
+    lis.current = listen((t) => setHits(best(t).h));
     lis.current?.done.then((t) => finish(t), () => finish(null));
     rec.current = await record();
     if (!lis.current && !rec.current) finish(null); // nothing can listen: self-grade

@@ -1,7 +1,8 @@
 ﻿import { useEffect } from 'react';
 import { speak } from '../engine/speech';
+import { altLabel } from '../engine/variants';
 import type { ExProps } from '../types';
-import { genderTags, Ico, nounOnly, SPEAKER, SPEAKER_SM, Tag } from '../ui';
+import { Ico, nounOnly, SPEAKER, SPEAKER_SM, Tag } from '../ui';
 
 export default function Intro({ ex, pack, tr, done }: ExProps<'intro'>) {
   const { item } = ex;
@@ -16,10 +17,11 @@ export default function Intro({ ex, pack, tr, done }: ExProps<'intro'>) {
           <button type="button" className="audio" aria-label="Play pronunciation" onClick={() => speak(item.target)}><Ico d={SPEAKER} /></button>
         </div>
         <h1 lang={lang} className="target" style={{ position: 'relative', marginTop: 18, fontSize: 52, lineHeight: 1.05, display: 'flex', alignItems: 'center', gap: 12 }}>
-          <Tag g={item.gender} articles={genderTags(pack)} size={26} />{nounOnly(item)}
+          <Tag it={item} pack={pack} size={26} />{nounOnly(item, pack)}
         </h1>
         {tr && item.translit && <p className="small dim translit" style={{ position: 'relative', marginTop: 4, fontSize: 18 }}>{item.translit}</p>}
         <p style={{ position: 'relative', marginTop: 6, fontSize: 22, fontWeight: 600, color: 'var(--c-ink-dim)' }}>{item.english}</p>
+        {item.alt && <p lang={lang} className="small dim" style={{ position: 'relative', marginTop: 2 }}>{altLabel(item)}</p>}
         {item.cognateHint && <span className="sticker y lower" style={{ position: 'absolute', right: -10, bottom: 74, ['--rot' as string]: '6deg', fontSize: 15 }}>{item.cognateHint}</span>}
       </div>
     </section>
@@ -31,6 +33,7 @@ export default function Intro({ ex, pack, tr, done }: ExProps<'intro'>) {
           <p lang={lang} style={{ fontSize: 19, fontWeight: 700 }}>{item.example.target}</p>
           {tr && item.example.translit && <p className="small dim translit" style={{ marginTop: 2 }}>{item.example.translit}</p>}
           <p className="dim small" style={{ marginTop: 2 }}>{item.example.english}</p>
+          {item.example.alt && <p lang={lang} className="small dim" style={{ marginTop: 2 }}>{altLabel(item.example)}</p>}
         </div>
         <button type="button" className="audio sm" aria-label="Play example" onClick={() => speak(item.example!.target)}><Ico d={SPEAKER_SM} /></button>
       </div>

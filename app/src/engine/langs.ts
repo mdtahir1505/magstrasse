@@ -10,8 +10,8 @@ export const availablePacks = (): Pack[] => packs().filter((p) => loadLang(p.id)
 /** Language picker entries: playable packs, plus a "coming soon" Russian while its pack is missing. */
 export const langChoices = () => {
   const have = availablePacks();
-  return [...have.map((p) => ({ code: p.id, name: p.name, native: p.nativeName, available: true })),
-    ...(have.some((p) => p.id === 'ru') ? [] : [{ code: 'ru', name: 'Russian', native: 'Русский', available: false }])];
+  return [...have.map((p) => ({ code: p.id, name: p.name, native: p.nativeName, tagline: p.tagline, available: true })),
+    ...(have.some((p) => p.id === 'ru') ? [] : [{ code: 'ru', name: 'Russian', native: 'Русский', tagline: undefined, available: false }])];
 };
 
 export const hasTranslit = (p: Pack) => p.translitUntilStage != null;

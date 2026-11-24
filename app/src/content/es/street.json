@@ -1,0 +1,282 @@
+[
+ {
+  "id": "es-st-guey",
+  "target": "güey / wey",
+  "english": "dude, mate (Mexico)",
+  "rudeness": 1,
+  "whenToUse": "México only. Between friends it's just \"dude\", said ten times a day, and it can be affectionate or annoyed depending on tone. With a boss, an elder or a stranger it sounds rude. Outside Mexico people may not know it.",
+  "example": "¿Qué onda, güey? ¿Vienes al partido?"
+ },
+ {
+  "id": "es-st-neta",
+  "target": "la neta",
+  "english": "the honest truth / really (Mexico)",
+  "rudeness": 1,
+  "whenToUse": "México. \"¿Neta?\" means \"really?\" and \"la neta\" is the plain truth. Safe with friends and colleagues, not formal. Nobody will understand it in Spain.",
+  "example": "La neta, no tengo ganas de salir."
+ },
+ {
+  "id": "es-st-chido",
+  "target": "chido / chida",
+  "english": "cool, awesome (Mexico)",
+  "rudeness": 1,
+  "whenToUse": "México. Your all-purpose \"cool\" for things and people. Friendly and safe. Spain says \"guay\", Colombia \"chévere\", Chile \"bacán\"; use the local one when you can.",
+  "example": "Tu playera está muy chida."
+ },
+ {
+  "id": "es-st-orale",
+  "target": "¡Órale!",
+  "english": "wow! / okay, let's go / come on (Mexico)",
+  "rudeness": 1,
+  "whenToUse": "México. A multitool: surprise, agreement, encouragement. Safe everywhere in Mexico, informal. Intonation does all the work.",
+  "example": "¡Órale! ¿Ya llegaste?"
+ },
+ {
+  "id": "es-st-que-padre",
+  "target": "¡Qué padre!",
+  "english": "how cool! (Mexico)",
+  "rudeness": 1,
+  "whenToUse": "México. Fine with anyone. Don't mix it up with \"padre\" meaning father, and avoid \"¡Qué madre!\" which can mean the opposite depending on tone (see the swearing section).",
+  "example": "¡Qué padre está tu casa!"
+ },
+ {
+  "id": "es-st-ahorita",
+  "target": "ahorita",
+  "english": "right now, in a bit (Latin America)",
+  "rudeness": 1,
+  "whenToUse": "Latin America, esp. Mexico. It can mean \"this very second\" or \"whenever I get round to it\". Ask \"¿ahorita ahorita?\" if it matters. Safe in any register.",
+  "example": "Ahorita voy, dame cinco minutos."
+ },
+ {
+  "id": "es-st-tio",
+  "target": "tío / tía",
+  "english": "mate, dude (Spain); literally uncle/aunt",
+  "rudeness": 1,
+  "whenToUse": "España. Between friends \"tío\" is \"mate\" or \"dude\", used all the time. In Latin America it only means uncle or aunt, so \"hola, tío\" to a friend will sound odd. Fine with friends, avoid with elders.",
+  "example": "Tío, ¡qué fuerte!"
+ },
+ {
+  "id": "es-st-guay",
+  "target": "guay",
+  "english": "cool, great (Spain)",
+  "rudeness": 1,
+  "whenToUse": "España. Completely safe, works with anyone. Latin Americans understand it but would say chido, chévere or bacán instead.",
+  "example": "Es un plan muy guay."
+ },
+ {
+  "id": "es-st-mola",
+  "target": "mola / molar",
+  "english": "it's cool, I like it (Spain)",
+  "rudeness": 1,
+  "whenToUse": "España, casual. \"Me mola\" is \"I dig it\". Not used in Latin America. Fine among friends, a bit youthful with elders.",
+  "example": "Me mola mucho esta canción."
+ },
+ {
+  "id": "es-st-vale",
+  "target": "vale",
+  "english": "okay, deal (Spain)",
+  "rudeness": 1,
+  "whenToUse": "España. The standard \"okay\", said constantly and very polite. In Latin America say \"ok\", \"dale\" or \"sale\" (Mexico) instead.",
+  "example": "Vale, quedamos a las ocho."
+ },
+ {
+  "id": "es-st-flipar",
+  "target": "flipar / flipante",
+  "english": "to be blown away; mind-blowing (Spain)",
+  "rudeness": 1,
+  "whenToUse": "España, informal. \"Estoy flipando\" is \"I'm amazed\", positive or negative. Fine among friends and colleagues.",
+  "example": "Flipo con lo caro que está todo."
+ },
+ {
+  "id": "es-st-chevere",
+  "target": "chévere",
+  "english": "cool, great (Caribbean, Colombia, Peru, Venezuela)",
+  "rudeness": 1,
+  "whenToUse": "Colombia, Venezuela, Caribbean, Peru and more. Friendly and safe. Mexico and Spain would say chido and guay.",
+  "example": "¡Qué chévere tu fiesta!"
+ },
+ {
+  "id": "es-st-bacan",
+  "target": "bacán",
+  "english": "cool, awesome (Chile, Peru)",
+  "rudeness": 1,
+  "whenToUse": "Chile and Peru. Safe and positive. In Argentina people say \"copado\" or \"bárbaro\" instead.",
+  "example": "Ese concierto estuvo bacán."
+ },
+ {
+  "id": "es-st-che",
+  "target": "che",
+  "english": "hey, dude (Argentina, Uruguay)",
+  "rudeness": 1,
+  "whenToUse": "Río de la Plata. Used as a call-out (\"che, mirá\") or as filler. Friendly everywhere there; it can sound silly when imitated elsewhere.",
+  "example": "Che, ¿viste el partido?"
+ },
+ {
+  "id": "es-st-boludo",
+  "target": "boludo / boluda",
+  "english": "idiot, but also \"dude\" (Argentina, Uruguay, Chile)",
+  "rudeness": 3,
+  "whenToUse": "Río de la Plata. Between close friends it's affectionate, like \"dude\". To strangers it's a real insult (\"idiot\"). Mexicans would hear a strong insult; stay away until a local uses it first.",
+  "example": "¡Boludo, no lo puedo creer!"
+ },
+ {
+  "id": "es-st-pibe",
+  "target": "pibe / piba",
+  "english": "kid, guy / girl (Argentina)",
+  "rudeness": 1,
+  "whenToUse": "Argentina and Uruguay. Neutral and friendly: \"un pibe\" is \"a guy\". Parce (Colombia) and cuate (Mexico) do the same job.",
+  "example": "Ese pibe toca muy bien."
+ },
+ {
+  "id": "es-st-parce",
+  "target": "parce / parcero",
+  "english": "buddy (Colombia)",
+  "rudeness": 1,
+  "whenToUse": "Colombia, especially Medellín. Friendly and informal. Safe with peers, not for formal chats.",
+  "example": "Parce, ¿qué más? ¿Todo bien?"
+ },
+ {
+  "id": "es-st-laburo",
+  "target": "el laburo / laburar",
+  "english": "job / to work (Argentina)",
+  "rudeness": 1,
+  "whenToUse": "Río de la Plata slang for work. Fine in casual talk. Mexicans say \"la chamba\", Spaniards \"el curro\".",
+  "example": "Mañana tengo mucho laburo."
+ },
+ {
+  "id": "es-st-chamba",
+  "target": "la chamba / chambear",
+  "english": "job / to work (Mexico)",
+  "rudeness": 1,
+  "whenToUse": "México, also Peru and Chile. Casual and perfectly acceptable; many people say it all day.",
+  "example": "No encuentro chamba."
+ },
+ {
+  "id": "es-st-curro",
+  "target": "el curro / currar",
+  "english": "job / to work (Spain)",
+  "rudeness": 1,
+  "whenToUse": "España. Casual, standard among everyone. Not used in Latin America.",
+  "example": "Salgo del curro a las seis."
+ },
+ {
+  "id": "es-st-lana",
+  "target": "la lana",
+  "english": "money, cash (Mexico)",
+  "rudeness": 1,
+  "whenToUse": "México. Casual for money. In Colombia and Chile \"plata\" is more common; in Argentina \"guita\".",
+  "example": "No tengo lana para eso."
+ },
+ {
+  "id": "es-st-q",
+  "target": "q / xq / pq",
+  "english": "that / because / why (texting)",
+  "rudeness": 1,
+  "whenToUse": "Texting only. \"q\" is \"que\", \"xq\" or \"pq\" is \"porque / por qué\". Perfectly fine for WhatsApp, never in an email to your boss.",
+  "example": "xq no contestas? q pasó?"
+ },
+ {
+  "id": "es-st-tqm",
+  "target": "tqm / tkm",
+  "english": "te quiero mucho, love you lots (texting)",
+  "rudeness": 1,
+  "whenToUse": "Texting. Safe for friends, family and partners. Avoid with someone you barely know, it can read as romantic.",
+  "example": "Gracias por todo, tqm."
+ },
+ {
+  "id": "es-st-bss",
+  "target": "bss / bsos",
+  "english": "besos, kisses (texting)",
+  "rudeness": 1,
+  "whenToUse": "Texting sign-off. In Spain \"un beso\" is common even with colleagues; in Latin America \"bss\" is more for friends and family.",
+  "example": "Nos vemos mañana, bss."
+ },
+ {
+  "id": "es-st-ntp",
+  "target": "ntp",
+  "english": "no te preocupes, don't worry (texting)",
+  "rudeness": 1,
+  "whenToUse": "Texting. Very casual and friendly. Skip it in formal messages.",
+  "example": "ntp, yo me encargo."
+ },
+ {
+  "id": "es-st-jaja",
+  "target": "jaja / jajaja / jeje",
+  "english": "haha (texting)",
+  "rudeness": 1,
+  "whenToUse": "Laughter in writing. Spanish uses j for the h sound, so \"hahaha\" would look like silent letters. \"Jeje\" is a mischievous giggle.",
+  "example": "jaja, no puede ser."
+ },
+ {
+  "id": "es-st-joder",
+  "target": "joder",
+  "english": "damn, f***, wow (Spain)",
+  "rudeness": 3,
+  "whenToUse": "España. Everyday in friend groups for anger or surprise, but it's still a swear word. With family, bosses or strangers, don't. In Mexico it's understood but not natural; there people say \"chingar\" instead.",
+  "example": "¡Joder, qué frío hace!"
+ },
+ {
+  "id": "es-st-coño",
+  "target": "coño",
+  "english": "damn, hell (Spain, Caribbean)",
+  "rudeness": 3,
+  "whenToUse": "España and the Caribbean (Cuba, Venezuela, Dominican Republic). Literally a rude word for female anatomy, used as \"damn!\" Strong. Common in casual speech there, but don't use it with strangers or elders.",
+  "example": "¡Coño, se me olvidó el móvil!"
+ },
+ {
+  "id": "es-st-cabron",
+  "target": "cabrón / cabrona",
+  "english": "bastard; also \"you legend\" (Mexico, Spain)",
+  "rudeness": 3,
+  "whenToUse": "México, España. Literally \"billy goat\". Between close friends it can be a compliment (\"qué cabrón eres\" = \"you're a legend\"); in an argument it's a serious insult. Context and tone decide, so avoid it as a learner.",
+  "example": "Ese cabrón me debe dinero."
+ },
+ {
+  "id": "es-st-pendejo",
+  "target": "pendejo / pendeja",
+  "english": "idiot, jerk (Mexico, much of Latin America)",
+  "rudeness": 3,
+  "whenToUse": "México, Central America, Caribbean. Calls someone a fool or a coward. Strong insult with strangers, jokey with friends. In Argentina \"pendejo\" just means a kid, so check where you are.",
+  "example": "No seas pendejo, llámale."
+ },
+ {
+  "id": "es-st-chingar",
+  "target": "chingar / chingón",
+  "english": "to f***; awesome or tough (Mexico)",
+  "rudeness": 3,
+  "whenToUse": "México. The most flexible and vulgar word family. \"Está chingón\" means \"it's awesome\", \"vete a la chingada\" is strongly rude. Never in polite company; outside Mexico it sounds odd or aggressive.",
+  "example": "¡Qué chingón está este coche!"
+ },
+ {
+  "id": "es-st-coger",
+  "target": "coger",
+  "english": "to take, grab (Spain) / to have sex (much of Latin America)",
+  "rudeness": 3,
+  "whenToUse": "Danger word. In Spain it's an ordinary verb (\"coger el autobús\"). In Mexico, Argentina and many other countries it's the vulgar verb for sex. Use \"tomar\" or \"agarrar\" in Latin America to be safe.",
+  "example": "En España: ¿Cogemos el autobús? En México: ¿Tomamos el autobús?"
+ },
+ {
+  "id": "es-st-que-madre",
+  "target": "¡Qué madre! / ¡Está de poca madre!",
+  "english": "wow, how cool; or how awful (Mexico)",
+  "rudeness": 2,
+  "whenToUse": "México. Tone decides: \"está de poca madre\" is \"awesome\", \"¡qué poca madre!\" is \"how rude\". Vulgar but extremely common among friends. Avoid with elders or in work settings.",
+  "example": "¡Está de poca madre este lugar!"
+ },
+ {
+  "id": "es-st-madre-mia",
+  "target": "¡Madre mía!",
+  "english": "oh my goodness!, wow (Spain)",
+  "rudeness": 1,
+  "whenToUse": "España. Mild, friendly exclamation of surprise or worry. Safe with everyone, even your grandmother.",
+  "example": "¡Madre mía, qué calor!"
+ },
+ {
+  "id": "es-st-no-manches",
+  "target": "¡No manches!",
+  "english": "no way!, you're kidding! (Mexico)",
+  "rudeness": 1,
+  "whenToUse": "México. The polite version of a stronger swear. Totally fine with friends and most colleagues. Short \"no mames\" is the vulgar sibling.",
+  "example": "¡No manches! ¿Ya te vas?"
+ }
+]

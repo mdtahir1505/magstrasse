@@ -10,7 +10,8 @@ You own only the files named in your task, inside `app/src/content/<lang>/`. Nev
 type Gender = "m" | "f" | "n" | null;
 type Item = { id: string; target: string; english: string; gender: Gender; emoji?: string; cognateHint?: string;
   example?: { target: string; english: string; translit?: string }; kind: "word" | "phrase"; translit?: string };
-type Sentence = { target: string; english: string; translit?: string };
+type Sentence = { target: string; english: string; translit?: string; spain?: string };
+// Item also takes `spain?: string` (es only: Spain's word when it differs from the Latin American target)
 type Fill = { before: string; after: string; options: string[]; answer: number; english: string };
 type DialogueEx = { scene: string; lines: { who: "them"|"me"; target: string; english: string }[];
                     replyOptions: string[]; answer: number };
@@ -31,6 +32,7 @@ type Story = { id: string; title: string; level: "A1"|"A2"|"B1"; minutes: number
 - Nouns: correct `gender`. Non-nouns: null. `cognateHint` like "Wasser ≈ water" only for real look-alikes. Use an emoji wherever there's a sensible one.
 - **German**: `target` for nouns includes the article ("das Wasser"). Correct umlauts/ß. No translit fields.
 - **Russian**: `target` in Cyrillic without stress marks. Add `translit` on every item, sentence, and example (simple readable Latin: privet, spasibo, ya, zh, sh, shch, ts, ch, y for ы, ' for ь). Gender m/f/n on nouns. Early tips may carry a tiny letter tip ("Р = R").
+- **Spanish**: one course teaching **Latin American Spanish as the base AND Spain's variants**. `target` uses the Latin American form; nouns include the article ("el carro", "la casa"; plural-only "los lentes"). Correct accents, ñ, ¿ ¡. Where Spain uses a different word, add `"spain": "el coche"` on the item (and on a sentence/example when its Spain version differs: `"spain": "¿Cogemos el coche?"`). A Fill whose Spain version differs may carry `"spain": { "before"?, "after"?, "options"?, "answer"?, "english"? }` (only the changed fields); keep both variants' correct words out of each other's distractors. Dialogues/stories/serial: Latin American only. Use `ustedes` in drills; teach `vosotros` as recognition in tips and a few Spain-variant sentences from stage 2 on. Gender: m/f only (no "n"). No translit.
 - Stories: 5 per stage (one per unit), 8–12 lines, level = the stage level, using only that stage's known vocabulary. A recurring cast is welcome. Story ids `{lang}-s{stage}-st{unit}`.
 - Natural, current, idiomatic. Tone: friendly, a bit cheeky, street-smart. No slurs.
 - Write the stage file **unit by unit, saving after each unit** (so partial progress survives).

@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { disableLock, isLockEnabled, lockAvailable } from '../engine/lock';
 import { exportJson, importJson, reset, setLanguage } from '../engine/storage';
 import { hasTranslit, langChoices } from '../engine/langs';
+import { regionOf } from '../engine/variants';
 import Lock from './Lock';
 import type { MeProps } from './Me';
 
@@ -49,6 +50,13 @@ export default function Settings({ lang, stored, profile, progress, update, repl
             {langs.map((l) => <button key={l.code} type="button" role="radio" aria-checked={l.code === stored.language} className={'chip dark' + (l.code === stored.language ? ' sel' : '')} disabled={!l.available} onClick={() => update((s) => setLanguage(s, l.code))}>{l.label}</button>)}
           </div>
         </div>
+        {lang.pack.regions && <div className="set" style={{ flexWrap: 'wrap' }}>
+          <span className="lbl">Accent<span className="sub">Voice, and which word is the main one</span></span>
+          <div className="seg" role="radiogroup" aria-label="Accent">
+            {lang.pack.regions.map((r) => { const on = r.id === (regionOf(lang.pack, progress.region)?.id);
+              return <button key={r.id} type="button" role="radio" aria-checked={on} className={'chip dark' + (on ? ' sel' : '')} onClick={() => update((s) => { s.progress.region = r.id; })}>{r.flag} {r.label}</button>; })}
+          </div>
+        </div>}
         {hasTranslit(lang.pack) && <div className="set" style={{ flexWrap: 'wrap' }}>
           <span className="lbl">Latin spelling<span className="sub">Show how it sounds in Latin letters</span></span>
           <div className="seg" role="radiogroup" aria-label="Latin spelling">

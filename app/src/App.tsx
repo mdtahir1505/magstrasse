@@ -4,6 +4,7 @@ import { langChoices, serialOf, showTranslit } from './engine/langs';
 import { newStickers, type Sticker } from './engine/stickers';
 import { configureSpeech } from './engine/speech';
 import { disableLock, isLockEnabled } from './engine/lock';
+import { localize, regionOf } from './engine/variants';
 import { load, reset, rollDay, save, setLanguage, ymd, type State } from './engine/storage';
 import Complete from './screens/Complete';
 import Course from './screens/Course';
@@ -25,7 +26,7 @@ type Screen =
   | { s: 'onboard' } | { s: 'tab'; tab: Tab } | { s: 'five' } | { s: 'play'; mode: 'full' | 'five' | 'one' | 'boss'; unit?: string; n: number } | { s: 'speed' }
   | { s: 'complete'; stats: Stats } | { s: 'read'; story: Story; fromComplete: boolean } | { s: 'episode'; ep: Episode; fromComplete: boolean };
 
-const FLAGS: Record<string, [string, string, string]> = { de: ['#0a0a0a', '#dd2b2b', '#ffce00'], ru: ['#f3efe4', '#2457d6', '#dd2b2b'] };
+const FLAGS: Record<string, [string, string, string]> = { de: ['#0a0a0a', '#dd2b2b', '#ffce00'], ru: ['#f3efe4', '#2457d6', '#dd2b2b'], es: ['#c60b1e', '#ffc400', '#c60b1e'] };
 const BLURB: Record<string, string> = { de: 'Berlin-ready', ru: 'Cyrillic, step by step' };
 
 export default function App() {
@@ -35,14 +36,16 @@ export default function App() {
   const [peel, setPeel] = useState<Sticker[]>([]); // new stickers waiting for their "peel" card
   const [ended, setEnded] = useState(false);       // a boss fight / speed round has reached its result screen
   const { profile: stored, progress } = state;
-  const lang = loadLang(stored.language);
+  const raw = loadLang(stored.language);
+  const lang = raw && localize(raw, progress.region);
+  const voice = lang && (regionOf(lang.pack, progress.region)?.voice ?? lang.pack.voice);
   const today = ymd();
 
   const update = (fn: (s: State) => void) => setState((prev) => { const n = structuredClone(prev); fn(n); save(n); return n; });
   const replace = (s: State) => { save(s); setState(s); show(s.profile.onboarded ? { s: 'tab', tab: 'today' } : { s: 'onboard' }); };
   const show = (s: Screen) => { setEnded(false); setScreen(s); };
 
-  useEffect(() => { if (lang) configureSpeech(lang.pack.voice, stored.voiceSpeed); }, [lang?.pack.voice, stored.voiceSpeed]);
+  useEffect(() => { if (voice) configureSpeech(voice, stored.voiceSpeed); }, [voice, stored.voiceSpeed]);
   useEffect(() => { // grant stickers whose rule now holds, and queue the peel card (not mid-session)
     if (!lang || locked || screen.s === 'onboard' || ((screen.s === 'play' || screen.s === 'speed') && !ended) || screen.s === 'read' || screen.s === 'episode') return;
     const fresh = newStickers(lang, progress, stored.stickers);
@@ -89,7 +92,7 @@ export default function App() {
   const peelCard = peel.length ? <Peel list={peel} close={() => setPeel(peel.slice(1))} /> : null;
 
   if (screen.s === 'onboard') {
-    const langs: LangOption[] = langChoices().map((l) => ({ ...l, blurb: l.available ? BLURB[l.code] ?? '' : 'next up', flag: FLAGS[l.code] ?? FLAGS.de }));
+    const langs: LangOption[] = langChoices().map((l) => ({ ...l, blurb: l.available ? l.tagline ?? BLURB[l.code] ?? '' : 'next up', flag: FLAGS[l.code] ?? FLAGS.de }));
     return <Onboarding langs={langs} initial={stored} done={(p) => { update((s) => { const { language, ...rest } = p; Object.assign(s.profile, rest); if (language && language !== s.profile.language) setLanguage(s, language); }); home(); }} />;
   }
   if (screen.s === 'play')
